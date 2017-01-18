@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "HorizontalLayoutGroup:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig)","contents": "HorizontalLayoutGroup:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.HorizontalLayoutGroup self=(UnityEngine.UI.HorizontalLayoutGroup)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "HorizontalLayoutGroup:CalculateLayoutInputVertical(Public, Virtual, HideBySig)","contents": "HorizontalLayoutGroup:CalculateLayoutInputVertical(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.HorizontalLayoutGroup self=(UnityEngine.UI.HorizontalLayoutGroup)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+			{ "trigger": "HorizontalLayoutGroup:SetLayoutHorizontal(Public, Virtual, HideBySig)","contents": "HorizontalLayoutGroup:SetLayoutHorizontal(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.HorizontalLayoutGroup self=(UnityEngine.UI.HorizontalLayoutGroup)checkSelf(l);
+	self.SetLayoutHorizontal();
+			{ "trigger": "HorizontalLayoutGroup:SetLayoutVertical(Public, Virtual, HideBySig)","contents": "HorizontalLayoutGroup:SetLayoutVertical(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.HorizontalLayoutGroup self=(UnityEngine.UI.HorizontalLayoutGroup)checkSelf(l);
+	self.SetLayoutVertical();
+		]
+}
+

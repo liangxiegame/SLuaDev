@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Events.PersistentListenerMode");
+	addMember(l,0,"EventDefined");
+	addMember(l,1,"Void");
+	addMember(l,2,"Object");
+	addMember(l,3,"Int");
+	addMember(l,4,"Float");
+	addMember(l,5,"String");
+	addMember(l,6,"Bool");
+		]
+}
+

@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Effector2D()()","contents": "UnityEngine.Effector2D()()"},
+
+	get_useColliderMask(IntPtr l) {
+		set_useColliderMask(IntPtr l) {
+			UnityEngine.Effector2D self=(UnityEngine.Effector2D)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.useColliderMask=v;
+			get_colliderMask(IntPtr l) {
+				set_colliderMask(IntPtr l) {
+					UnityEngine.Effector2D self=(UnityEngine.Effector2D)checkSelf(l);
+					int v;
+					checkType(l,2,out v);
+					self.colliderMask=v;
+						]
+				}
+

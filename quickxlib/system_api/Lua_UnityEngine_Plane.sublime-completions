@@ -1,0 +1,102 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Plane(,UnityEngine.Vector3,UnityEngine.Vector3)()","contents": "UnityEngine.Plane(,UnityEngine.Vector3,UnityEngine.Vector3)()"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Plane()()","contents": "UnityEngine.Plane()()"},
+
+			{ "trigger": "UnityEngine.Plane(,UnityEngine.Vector3,float)()","contents": "UnityEngine.Plane(,UnityEngine.Vector3,float)()"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Plane()()","contents": "UnityEngine.Plane()()"},
+
+			{ "trigger": "UnityEngine.Plane()()","contents": "UnityEngine.Plane()()"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+	UnityEngine.Vector3 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.Plane()()","contents": "UnityEngine.Plane()()"},
+
+			{ "trigger": "UnityEngine.Plane()()","contents": "UnityEngine.Plane()()"},
+
+			{ "trigger": "Plane:SetNormalAndPosition(Public, HideBySig)","contents": "Plane:SetNormalAndPosition(Public, HideBySig)"},
+
+	UnityEngine.Plane self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+	self.SetNormalAndPosition(a1,a2);
+			{ "trigger": "Plane:Set3Points(Public, HideBySig)","contents": "Plane:Set3Points(Public, HideBySig)"},
+
+	UnityEngine.Plane self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+	UnityEngine.Vector3 a3;
+	checkType(l,4,out a3);
+	self.Set3Points(a1,a2,a3);
+			{ "trigger": "Plane:GetDistanceToPoint(Public, HideBySig)","contents": "Plane:GetDistanceToPoint(Public, HideBySig)"},
+
+	UnityEngine.Plane self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetDistanceToPoint(a1);
+			{ "trigger": "Plane:GetSide(Public, HideBySig)","contents": "Plane:GetSide(Public, HideBySig)"},
+
+	UnityEngine.Plane self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetSide(a1);
+			{ "trigger": "Plane:SameSide(Public, HideBySig)","contents": "Plane:SameSide(Public, HideBySig)"},
+
+	UnityEngine.Plane self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+	var ret=self.SameSide(a1,a2);
+			{ "trigger": "Plane:Raycast(Public, HideBySig)","contents": "Plane:Raycast(Public, HideBySig)"},
+
+	UnityEngine.Plane self;
+	checkValueType(l,1,out self);
+	UnityEngine.Ray a1;
+	checkValueType(l,2,out a1);
+	System.Single a2;
+	var ret=self.Raycast(a1,out a2);
+	get_normal(IntPtr l) {
+		set_normal(IntPtr l) {
+			UnityEngine.Plane self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.normal=v;
+			setBack(l,self);
+			get_distance(IntPtr l) {
+				set_distance(IntPtr l) {
+					UnityEngine.Plane self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.distance=v;
+					setBack(l,self);
+						]
+				}
+

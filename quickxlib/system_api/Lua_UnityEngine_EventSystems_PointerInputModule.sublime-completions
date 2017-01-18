@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "PointerInputModule:IsPointerOverGameObject(Public, Virtual, HideBySig)","contents": "PointerInputModule:IsPointerOverGameObject(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.PointerInputModule self=(UnityEngine.EventSystems.PointerInputModule)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.IsPointerOverGameObject(a1);
+	kMouseLeftId
+	kMouseRightId
+	kMouseMiddleId
+	kFakeTouchesId
+		]
+}
+

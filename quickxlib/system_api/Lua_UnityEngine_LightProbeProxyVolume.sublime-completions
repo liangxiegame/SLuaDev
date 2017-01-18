@@ -1,0 +1,75 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LightProbeProxyVolume()()","contents": "UnityEngine.LightProbeProxyVolume()()"},
+
+			{ "trigger": "LightProbeProxyVolume:Update(Public, HideBySig)","contents": "LightProbeProxyVolume:Update(Public, HideBySig)"},
+
+	UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+	self.Update();
+	get_boundsGlobal(IntPtr l) {
+		get_sizeCustom(IntPtr l) {
+			set_sizeCustom(IntPtr l) {
+				UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+				UnityEngine.Vector3 v;
+				checkType(l,2,out v);
+				self.sizeCustom=v;
+				get_originCustom(IntPtr l) {
+					set_originCustom(IntPtr l) {
+						UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+						UnityEngine.Vector3 v;
+						checkType(l,2,out v);
+						self.originCustom=v;
+						get_boundingBoxMode(IntPtr l) {
+							set_boundingBoxMode(IntPtr l) {
+								UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+								UnityEngine.LightProbeProxyVolume.BoundingBoxMode v;
+								checkEnum(l,2,out v);
+								self.boundingBoxMode=v;
+								get_resolutionMode(IntPtr l) {
+									set_resolutionMode(IntPtr l) {
+										UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+										UnityEngine.LightProbeProxyVolume.ResolutionMode v;
+										checkEnum(l,2,out v);
+										self.resolutionMode=v;
+										get_probePositionMode(IntPtr l) {
+											set_probePositionMode(IntPtr l) {
+												UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+												UnityEngine.LightProbeProxyVolume.ProbePositionMode v;
+												checkEnum(l,2,out v);
+												self.probePositionMode=v;
+												get_refreshMode(IntPtr l) {
+													set_refreshMode(IntPtr l) {
+														UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+														UnityEngine.LightProbeProxyVolume.RefreshMode v;
+														checkEnum(l,2,out v);
+														self.refreshMode=v;
+														get_probeDensity(IntPtr l) {
+															set_probeDensity(IntPtr l) {
+																UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+																float v;
+																checkType(l,2,out v);
+																self.probeDensity=v;
+																get_gridResolutionX(IntPtr l) {
+																	set_gridResolutionX(IntPtr l) {
+																		UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+																		int v;
+																		checkType(l,2,out v);
+																		self.gridResolutionX=v;
+																		get_gridResolutionY(IntPtr l) {
+																			set_gridResolutionY(IntPtr l) {
+																				UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+																				int v;
+																				checkType(l,2,out v);
+																				self.gridResolutionY=v;
+																				get_gridResolutionZ(IntPtr l) {
+																					set_gridResolutionZ(IntPtr l) {
+																						UnityEngine.LightProbeProxyVolume self=(UnityEngine.LightProbeProxyVolume)checkSelf(l);
+																						int v;
+																						checkType(l,2,out v);
+																						self.gridResolutionZ=v;
+																						get_isFeatureSupported(IntPtr l) {
+																								]
+																						}
+

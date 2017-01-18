@@ -1,0 +1,18 @@
+﻿
+    bool 
+      bool> bool;
+              bool
+                bool> self =bool>>(l);
+                <bool> a1;
+                bool> 
+				bool a0;
+				checkType(l,2,out a0);
+				self.Invoke(a0);
+getTypeTable(l, typeof(LuaUnityEvent_bool).FullName);
+            createTypeMetatable(l, null, typeof(LuaUnityEvent_bool), typeof(UnityEngine.Events.UnityEventBase));
+        static bool checkType(IntPtr l,int p,out UnityEngine.Events.UnityAction<bool> ua) {
+                ua = (UnityEngine.Events.UnityAction<bool>)ld.d;
+            ua = (bool v0) =>
+            {
+                pushValue(l,v0);
+}

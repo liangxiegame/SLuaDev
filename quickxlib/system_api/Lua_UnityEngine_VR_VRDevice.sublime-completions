@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "VRDevice.GetNativePtr(Public, Static, HideBySig)","contents": "VRDevice.GetNativePtr(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.VR.VRDevice.GetNativePtr();
+	get_isPresent(IntPtr l) {
+		get_model(IntPtr l) {
+			get_refreshRate(IntPtr l) {
+					]
+			}
+

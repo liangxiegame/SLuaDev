@@ -1,0 +1,105 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WheelCollider()()","contents": "UnityEngine.WheelCollider()()"},
+
+			{ "trigger": "WheelCollider:ConfigureVehicleSubsteps(Public, HideBySig)","contents": "WheelCollider:ConfigureVehicleSubsteps(Public, HideBySig)"},
+
+	UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	self.ConfigureVehicleSubsteps(a1,a2,a3);
+			{ "trigger": "WheelCollider:GetGroundHit(Public, HideBySig)","contents": "WheelCollider:GetGroundHit(Public, HideBySig)"},
+
+	UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+	UnityEngine.WheelHit a1;
+	var ret=self.GetGroundHit(out a1);
+			{ "trigger": "WheelCollider:GetWorldPose(Public, HideBySig)","contents": "WheelCollider:GetWorldPose(Public, HideBySig)"},
+
+	UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	UnityEngine.Quaternion a2;
+	self.GetWorldPose(out a1,out a2);
+	get_center(IntPtr l) {
+		set_center(IntPtr l) {
+			UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.center=v;
+			get_radius(IntPtr l) {
+				set_radius(IntPtr l) {
+					UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.radius=v;
+					get_suspensionDistance(IntPtr l) {
+						set_suspensionDistance(IntPtr l) {
+							UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.suspensionDistance=v;
+							get_suspensionSpring(IntPtr l) {
+								set_suspensionSpring(IntPtr l) {
+									UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+									UnityEngine.JointSpring v;
+									checkValueType(l,2,out v);
+									self.suspensionSpring=v;
+									get_forceAppPointDistance(IntPtr l) {
+										set_forceAppPointDistance(IntPtr l) {
+											UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.forceAppPointDistance=v;
+											get_mass(IntPtr l) {
+												set_mass(IntPtr l) {
+													UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.mass=v;
+													get_wheelDampingRate(IntPtr l) {
+														set_wheelDampingRate(IntPtr l) {
+															UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.wheelDampingRate=v;
+															get_forwardFriction(IntPtr l) {
+																set_forwardFriction(IntPtr l) {
+																	UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+																	UnityEngine.WheelFrictionCurve v;
+																	checkValueType(l,2,out v);
+																	self.forwardFriction=v;
+																	get_sidewaysFriction(IntPtr l) {
+																		set_sidewaysFriction(IntPtr l) {
+																			UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+																			UnityEngine.WheelFrictionCurve v;
+																			checkValueType(l,2,out v);
+																			self.sidewaysFriction=v;
+																			get_motorTorque(IntPtr l) {
+																				set_motorTorque(IntPtr l) {
+																					UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.motorTorque=v;
+																					get_brakeTorque(IntPtr l) {
+																						set_brakeTorque(IntPtr l) {
+																							UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+																							float v;
+																							checkType(l,2,out v);
+																							self.brakeTorque=v;
+																							get_steerAngle(IntPtr l) {
+																								set_steerAngle(IntPtr l) {
+																									UnityEngine.WheelCollider self=(UnityEngine.WheelCollider)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.steerAngle=v;
+																									get_isGrounded(IntPtr l) {
+																										get_sprungMass(IntPtr l) {
+																											get_rpm(IntPtr l) {
+																													]
+																											}
+

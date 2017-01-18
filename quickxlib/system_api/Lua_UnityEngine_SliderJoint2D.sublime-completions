@@ -1,0 +1,55 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SliderJoint2D()()","contents": "UnityEngine.SliderJoint2D()()"},
+
+			{ "trigger": "SliderJoint2D:GetMotorForce(Public, HideBySig)","contents": "SliderJoint2D:GetMotorForce(Public, HideBySig)"},
+
+	UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.GetMotorForce(a1);
+	get_autoConfigureAngle(IntPtr l) {
+		set_autoConfigureAngle(IntPtr l) {
+			UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.autoConfigureAngle=v;
+			get_angle(IntPtr l) {
+				set_angle(IntPtr l) {
+					UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.angle=v;
+					get_useMotor(IntPtr l) {
+						set_useMotor(IntPtr l) {
+							UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.useMotor=v;
+							get_useLimits(IntPtr l) {
+								set_useLimits(IntPtr l) {
+									UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.useLimits=v;
+									get_motor(IntPtr l) {
+										set_motor(IntPtr l) {
+											UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+											UnityEngine.JointMotor2D v;
+											checkValueType(l,2,out v);
+											self.motor=v;
+											get_limits(IntPtr l) {
+												set_limits(IntPtr l) {
+													UnityEngine.SliderJoint2D self=(UnityEngine.SliderJoint2D)checkSelf(l);
+													UnityEngine.JointTranslationLimits2D v;
+													checkValueType(l,2,out v);
+													self.limits=v;
+													get_limitState(IntPtr l) {
+														get_referenceAngle(IntPtr l) {
+															get_jointTranslation(IntPtr l) {
+																get_jointSpeed(IntPtr l) {
+																		]
+																}
+

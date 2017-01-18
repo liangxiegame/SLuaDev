@@ -1,0 +1,7 @@
+﻿
+UnityEngine.Font.FontTextureRebuildCallback 
+                ua = (UnityEngine.Font.FontTextureRebuildCallback)checkObj(l, p);
+                ua = (UnityEngine.Font.FontTextureRebuildCallback)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

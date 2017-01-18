@@ -1,0 +1,91 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Random()()","contents": "UnityEngine.Random()()"},
+
+			{ "trigger": "Random.InitState(Public, Static, HideBySig)","contents": "Random.InitState(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Random.InitState(a1);
+			{ "trigger": "Random.Range(Public, Static, HideBySig)","contents": "Random.Range(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,int,int)){
+		System.Int32 a1;
+		checkType(l,1,out a1);
+		System.Int32 a2;
+		checkType(l,2,out a2);
+		var ret=UnityEngine.Random.Range(a1,a2);
+		else if(matchType(l,argc,1,float,float)){
+			System.Single a1;
+			checkType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.Random.Range(a1,a2);
+					{ "trigger": "Random.ColorHSV(Public, Static, HideBySig)","contents": "Random.ColorHSV(Public, Static, HideBySig)"},
+
+			if(argc==0){
+				var ret=UnityEngine.Random.ColorHSV();
+				else if(argc==2){
+					System.Single a1;
+					checkType(l,1,out a1);
+					System.Single a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.Random.ColorHSV(a1,a2);
+					else if(argc==4){
+						System.Single a1;
+						checkType(l,1,out a1);
+						System.Single a2;
+						checkType(l,2,out a2);
+						System.Single a3;
+						checkType(l,3,out a3);
+						System.Single a4;
+						checkType(l,4,out a4);
+						var ret=UnityEngine.Random.ColorHSV(a1,a2,a3,a4);
+						else if(argc==6){
+							System.Single a1;
+							checkType(l,1,out a1);
+							System.Single a2;
+							checkType(l,2,out a2);
+							System.Single a3;
+							checkType(l,3,out a3);
+							System.Single a4;
+							checkType(l,4,out a4);
+							System.Single a5;
+							checkType(l,5,out a5);
+							System.Single a6;
+							checkType(l,6,out a6);
+							var ret=UnityEngine.Random.ColorHSV(a1,a2,a3,a4,a5,a6);
+							else if(argc==8){
+								System.Single a1;
+								checkType(l,1,out a1);
+								System.Single a2;
+								checkType(l,2,out a2);
+								System.Single a3;
+								checkType(l,3,out a3);
+								System.Single a4;
+								checkType(l,4,out a4);
+								System.Single a5;
+								checkType(l,5,out a5);
+								System.Single a6;
+								checkType(l,6,out a6);
+								System.Single a7;
+								checkType(l,7,out a7);
+								System.Single a8;
+								checkType(l,8,out a8);
+								var ret=UnityEngine.Random.ColorHSV(a1,a2,a3,a4,a5,a6,a7,a8);
+								get_state(IntPtr l) {
+									set_state(IntPtr l) {
+										UnityEngine.Random.State v;
+										checkValueType(l,2,out v);
+										UnityEngine.Random.state=v;
+										get_value(IntPtr l) {
+											get_insideUnitSphere(IntPtr l) {
+												get_insideUnitCircle(IntPtr l) {
+													get_onUnitSphere(IntPtr l) {
+														get_rotation(IntPtr l) {
+															get_rotationUniform(IntPtr l) {
+																	]
+															}
+

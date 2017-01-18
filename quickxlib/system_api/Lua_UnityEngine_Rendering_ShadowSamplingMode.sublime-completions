@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.ShadowSamplingMode");
+	addMember(l,0,"CompareDepths");
+	addMember(l,1,"RawDepth");
+		]
+}
+

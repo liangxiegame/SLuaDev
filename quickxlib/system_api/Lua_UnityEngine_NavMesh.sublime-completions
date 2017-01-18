@@ -1,0 +1,79 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.NavMesh()()","contents": "UnityEngine.NavMesh()()"},
+
+			{ "trigger": "NavMesh.Raycast(Public, Static, HideBySig)","contents": "NavMesh.Raycast(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	UnityEngine.NavMeshHit a3;
+	System.Int32 a4;
+	checkType(l,4,out a4);
+	var ret=UnityEngine.NavMesh.Raycast(a1,a2,out a3,a4);
+			{ "trigger": "NavMesh.CalculatePath(Public, Static, HideBySig)","contents": "NavMesh.CalculatePath(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	System.Int32 a3;
+	checkType(l,3,out a3);
+	UnityEngine.NavMeshPath a4;
+	checkType(l,4,out a4);
+	var ret=UnityEngine.NavMesh.CalculatePath(a1,a2,a3,a4);
+			{ "trigger": "NavMesh.FindClosestEdge(Public, Static, HideBySig)","contents": "NavMesh.FindClosestEdge(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.NavMeshHit a2;
+	System.Int32 a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.NavMesh.FindClosestEdge(a1,out a2,a3);
+			{ "trigger": "NavMesh.SamplePosition(Public, Static, HideBySig)","contents": "NavMesh.SamplePosition(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.NavMeshHit a2;
+	System.Single a3;
+	checkType(l,3,out a3);
+	System.Int32 a4;
+	checkType(l,4,out a4);
+	var ret=UnityEngine.NavMesh.SamplePosition(a1,out a2,a3,a4);
+			{ "trigger": "NavMesh.SetAreaCost(Public, Static, HideBySig)","contents": "NavMesh.SetAreaCost(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	UnityEngine.NavMesh.SetAreaCost(a1,a2);
+			{ "trigger": "NavMesh.GetAreaCost(Public, Static, HideBySig)","contents": "NavMesh.GetAreaCost(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.NavMesh.GetAreaCost(a1);
+			{ "trigger": "NavMesh.GetAreaFromName(Public, Static, HideBySig)","contents": "NavMesh.GetAreaFromName(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.NavMesh.GetAreaFromName(a1);
+			{ "trigger": "NavMesh.CalculateTriangulation(Public, Static, HideBySig)","contents": "NavMesh.CalculateTriangulation(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.NavMesh.CalculateTriangulation();
+	AllAreas
+	get_avoidancePredictionTime(IntPtr l) {
+		set_avoidancePredictionTime(IntPtr l) {
+			float v;
+			checkType(l,2,out v);
+			UnityEngine.NavMesh.avoidancePredictionTime=v;
+			get_pathfindingIterationsPerFrame(IntPtr l) {
+				set_pathfindingIterationsPerFrame(IntPtr l) {
+					int v;
+					checkType(l,2,out v);
+					UnityEngine.NavMesh.pathfindingIterationsPerFrame=v;
+						]
+				}
+

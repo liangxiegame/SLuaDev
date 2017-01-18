@@ -1,0 +1,58 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Display:Activate(Public, HideBySig)","contents": "Display:Activate(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.Display self=(UnityEngine.Display)checkSelf(l);
+		self.Activate();
+		else if(argc==4){
+			UnityEngine.Display self=(UnityEngine.Display)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			System.Int32 a3;
+			checkType(l,4,out a3);
+			self.Activate(a1,a2,a3);
+					{ "trigger": "Display:SetParams(Public, HideBySig)","contents": "Display:SetParams(Public, HideBySig)"},
+
+			UnityEngine.Display self=(UnityEngine.Display)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			System.Int32 a3;
+			checkType(l,4,out a3);
+			System.Int32 a4;
+			checkType(l,5,out a4);
+			self.SetParams(a1,a2,a3,a4);
+					{ "trigger": "Display:SetRenderingResolution(Public, HideBySig)","contents": "Display:SetRenderingResolution(Public, HideBySig)"},
+
+			UnityEngine.Display self=(UnityEngine.Display)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			self.SetRenderingResolution(a1,a2);
+					{ "trigger": "Display.RelativeMouseAt(Public, Static, HideBySig)","contents": "Display.RelativeMouseAt(Public, Static, HideBySig)"},
+
+			UnityEngine.Vector3 a1;
+			checkType(l,1,out a1);
+			var ret=UnityEngine.Display.RelativeMouseAt(a1);
+			displays
+			set_displays(IntPtr l) {
+				UnityEngine.Display[] v;
+				checkArray(l,2,out v);
+				UnityEngine.Display.displays=v;
+				get_renderingWidth(IntPtr l) {
+					get_renderingHeight(IntPtr l) {
+						get_systemWidth(IntPtr l) {
+							get_systemHeight(IntPtr l) {
+								get_colorBuffer(IntPtr l) {
+									get_depthBuffer(IntPtr l) {
+										get_main(IntPtr l) {
+												]
+										}
+

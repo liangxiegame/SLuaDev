@@ -1,0 +1,51 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer()()","contents": "UnityEngine.Assertions.Comparers.FloatComparer()()"},
+
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer()()","contents": "UnityEngine.Assertions.Comparers.FloatComparer()()"},
+
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer(,bool)()","contents": "UnityEngine.Assertions.Comparers.FloatComparer(,bool)()"},
+
+	System.Boolean a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer()()","contents": "UnityEngine.Assertions.Comparers.FloatComparer()()"},
+
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer(,float)()","contents": "UnityEngine.Assertions.Comparers.FloatComparer(,float)()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer()()","contents": "UnityEngine.Assertions.Comparers.FloatComparer()()"},
+
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer()()","contents": "UnityEngine.Assertions.Comparers.FloatComparer()()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Assertions.Comparers.FloatComparer()()","contents": "UnityEngine.Assertions.Comparers.FloatComparer()()"},
+
+			{ "trigger": "FloatComparer.AreEqual(Public, Static, HideBySig)","contents": "FloatComparer.AreEqual(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Assertions.Comparers.FloatComparer.AreEqual(a1,a2,a3);
+			{ "trigger": "FloatComparer.AreEqualRelative(Public, Static, HideBySig)","contents": "FloatComparer.AreEqualRelative(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Assertions.Comparers.FloatComparer.AreEqualRelative(a1,a2,a3);
+	kEpsilon
+	s_ComparerWithDefaultTolerance
+		]
+}
+

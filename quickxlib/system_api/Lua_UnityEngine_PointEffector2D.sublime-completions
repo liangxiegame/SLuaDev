@@ -1,0 +1,57 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PointEffector2D()()","contents": "UnityEngine.PointEffector2D()()"},
+
+	get_forceMagnitude(IntPtr l) {
+		set_forceMagnitude(IntPtr l) {
+			UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.forceMagnitude=v;
+			get_forceVariation(IntPtr l) {
+				set_forceVariation(IntPtr l) {
+					UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.forceVariation=v;
+					get_distanceScale(IntPtr l) {
+						set_distanceScale(IntPtr l) {
+							UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.distanceScale=v;
+							get_drag(IntPtr l) {
+								set_drag(IntPtr l) {
+									UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.drag=v;
+									get_angularDrag(IntPtr l) {
+										set_angularDrag(IntPtr l) {
+											UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.angularDrag=v;
+											get_forceSource(IntPtr l) {
+												set_forceSource(IntPtr l) {
+													UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+													UnityEngine.EffectorSelection2D v;
+													checkEnum(l,2,out v);
+													self.forceSource=v;
+													get_forceTarget(IntPtr l) {
+														set_forceTarget(IntPtr l) {
+															UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+															UnityEngine.EffectorSelection2D v;
+															checkEnum(l,2,out v);
+															self.forceTarget=v;
+															get_forceMode(IntPtr l) {
+																set_forceMode(IntPtr l) {
+																	UnityEngine.PointEffector2D self=(UnityEngine.PointEffector2D)checkSelf(l);
+																	UnityEngine.EffectorForceMode2D v;
+																	checkEnum(l,2,out v);
+																	self.forceMode=v;
+																		]
+																}
+

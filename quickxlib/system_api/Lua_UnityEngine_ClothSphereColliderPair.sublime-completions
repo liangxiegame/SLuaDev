@@ -1,0 +1,39 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ClothSphereColliderPair()()","contents": "UnityEngine.ClothSphereColliderPair()()"},
+
+	UnityEngine.SphereCollider a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.ClothSphereColliderPair()()","contents": "UnityEngine.ClothSphereColliderPair()()"},
+
+			{ "trigger": "UnityEngine.ClothSphereColliderPair()()","contents": "UnityEngine.ClothSphereColliderPair()()"},
+
+	UnityEngine.SphereCollider a1;
+	checkType(l,2,out a1);
+	UnityEngine.SphereCollider a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.ClothSphereColliderPair()()","contents": "UnityEngine.ClothSphereColliderPair()()"},
+
+			{ "trigger": "UnityEngine.ClothSphereColliderPair()()","contents": "UnityEngine.ClothSphereColliderPair()()"},
+
+	get_first(IntPtr l) {
+		set_first(IntPtr l) {
+			UnityEngine.ClothSphereColliderPair self;
+			checkValueType(l,1,out self);
+			UnityEngine.SphereCollider v;
+			checkType(l,2,out v);
+			self.first=v;
+			setBack(l,self);
+			get_second(IntPtr l) {
+				set_second(IntPtr l) {
+					UnityEngine.ClothSphereColliderPair self;
+					checkValueType(l,1,out self);
+					UnityEngine.SphereCollider v;
+					checkType(l,2,out v);
+					self.second=v;
+					setBack(l,self);
+						]
+				}
+

@@ -1,0 +1,50 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.Navigation()()","contents": "UnityEngine.UI.Navigation()()"},
+
+	get_mode(IntPtr l) {
+		set_mode(IntPtr l) {
+			UnityEngine.UI.Navigation self;
+			checkValueType(l,1,out self);
+			UnityEngine.UI.Navigation.Mode v;
+			checkEnum(l,2,out v);
+			self.mode=v;
+			setBack(l,self);
+			get_selectOnUp(IntPtr l) {
+				set_selectOnUp(IntPtr l) {
+					UnityEngine.UI.Navigation self;
+					checkValueType(l,1,out self);
+					UnityEngine.UI.Selectable v;
+					checkType(l,2,out v);
+					self.selectOnUp=v;
+					setBack(l,self);
+					get_selectOnDown(IntPtr l) {
+						set_selectOnDown(IntPtr l) {
+							UnityEngine.UI.Navigation self;
+							checkValueType(l,1,out self);
+							UnityEngine.UI.Selectable v;
+							checkType(l,2,out v);
+							self.selectOnDown=v;
+							setBack(l,self);
+							get_selectOnLeft(IntPtr l) {
+								set_selectOnLeft(IntPtr l) {
+									UnityEngine.UI.Navigation self;
+									checkValueType(l,1,out self);
+									UnityEngine.UI.Selectable v;
+									checkType(l,2,out v);
+									self.selectOnLeft=v;
+									setBack(l,self);
+									get_selectOnRight(IntPtr l) {
+										set_selectOnRight(IntPtr l) {
+											UnityEngine.UI.Navigation self;
+											checkValueType(l,1,out self);
+											UnityEngine.UI.Selectable v;
+											checkType(l,2,out v);
+											self.selectOnRight=v;
+											setBack(l,self);
+											get_defaultNavigation(IntPtr l) {
+													]
+											}
+

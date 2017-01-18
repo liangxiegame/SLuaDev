@@ -1,0 +1,56 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.DynamicGI()()","contents": "UnityEngine.DynamicGI()()"},
+
+			{ "trigger": "DynamicGI.SetEmissive(Public, Static, HideBySig)","contents": "DynamicGI.SetEmissive(Public, Static, HideBySig)"},
+
+	UnityEngine.Renderer a1;
+	checkType(l,1,out a1);
+	UnityEngine.Color a2;
+	checkType(l,2,out a2);
+	UnityEngine.DynamicGI.SetEmissive(a1,a2);
+			{ "trigger": "DynamicGI.UpdateMaterials(Public, Static, HideBySig)","contents": "DynamicGI.UpdateMaterials(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,UnityEngine.Terrain)){
+		UnityEngine.Terrain a1;
+		checkType(l,1,out a1);
+		UnityEngine.DynamicGI.UpdateMaterials(a1);
+		else if(matchType(l,argc,1,UnityEngine.Renderer)){
+			UnityEngine.Renderer a1;
+			checkType(l,1,out a1);
+			UnityEngine.DynamicGI.UpdateMaterials(a1);
+			else if(argc==5){
+				UnityEngine.Terrain a1;
+				checkType(l,1,out a1);
+				System.Int32 a2;
+				checkType(l,2,out a2);
+				System.Int32 a3;
+				checkType(l,3,out a3);
+				System.Int32 a4;
+				checkType(l,4,out a4);
+				System.Int32 a5;
+				checkType(l,5,out a5);
+				UnityEngine.DynamicGI.UpdateMaterials(a1,a2,a3,a4,a5);
+						{ "trigger": "DynamicGI.UpdateEnvironment(Public, Static, HideBySig)","contents": "DynamicGI.UpdateEnvironment(Public, Static, HideBySig)"},
+
+				UnityEngine.DynamicGI.UpdateEnvironment();
+				get_indirectScale(IntPtr l) {
+					set_indirectScale(IntPtr l) {
+						float v;
+						checkType(l,2,out v);
+						UnityEngine.DynamicGI.indirectScale=v;
+						get_updateThreshold(IntPtr l) {
+							set_updateThreshold(IntPtr l) {
+								float v;
+								checkType(l,2,out v);
+								UnityEngine.DynamicGI.updateThreshold=v;
+								get_synchronousMode(IntPtr l) {
+									set_synchronousMode(IntPtr l) {
+										bool v;
+										checkType(l,2,out v);
+										UnityEngine.DynamicGI.synchronousMode=v;
+											]
+									}
+

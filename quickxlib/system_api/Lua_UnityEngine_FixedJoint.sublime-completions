@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.FixedJoint()()","contents": "UnityEngine.FixedJoint()()"},
+
+		]
+}
+

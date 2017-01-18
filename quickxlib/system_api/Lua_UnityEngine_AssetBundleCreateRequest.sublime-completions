@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AssetBundleCreateRequest()()","contents": "UnityEngine.AssetBundleCreateRequest()()"},
+
+	get_assetBundle(IntPtr l) {
+			]
+	}
+

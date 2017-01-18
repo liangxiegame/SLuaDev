@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.MissingComponentException()()","contents": "UnityEngine.MissingComponentException()()"},
+
+			{ "trigger": "UnityEngine.MissingComponentException()()","contents": "UnityEngine.MissingComponentException()()"},
+
+			{ "trigger": "UnityEngine.MissingComponentException()()","contents": "UnityEngine.MissingComponentException()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.MissingComponentException()()","contents": "UnityEngine.MissingComponentException()()"},
+
+			{ "trigger": "UnityEngine.MissingComponentException()()","contents": "UnityEngine.MissingComponentException()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Exception a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.MissingComponentException()()","contents": "UnityEngine.MissingComponentException()()"},
+
+		]
+}
+

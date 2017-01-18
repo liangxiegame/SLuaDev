@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.MeshTopology");
+	addMember(l,0,"Triangles");
+	addMember(l,2,"Quads");
+	addMember(l,3,"Lines");
+	addMember(l,4,"LineStrip");
+	addMember(l,5,"Points");
+		]
+}
+

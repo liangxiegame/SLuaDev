@@ -1,0 +1,147 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Bounds()()","contents": "UnityEngine.Bounds()()"},
+
+			{ "trigger": "Bounds:SetMinMax(Public, HideBySig)","contents": "Bounds:SetMinMax(Public, HideBySig)"},
+
+	UnityEngine.Bounds self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+	self.SetMinMax(a1,a2);
+			{ "trigger": "Bounds:Encapsulate(Public, HideBySig)","contents": "Bounds:Encapsulate(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,UnityEngine.Bounds)){
+		UnityEngine.Bounds self;
+		checkValueType(l,1,out self);
+		UnityEngine.Bounds a1;
+		checkValueType(l,2,out a1);
+		self.Encapsulate(a1);
+		else if(matchType(l,argc,2,UnityEngine.Vector3)){
+			UnityEngine.Bounds self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			self.Encapsulate(a1);
+					{ "trigger": "Bounds:Expand(Public, HideBySig)","contents": "Bounds:Expand(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,UnityEngine.Vector3)){
+				UnityEngine.Bounds self;
+				checkValueType(l,1,out self);
+				UnityEngine.Vector3 a1;
+				checkType(l,2,out a1);
+				self.Expand(a1);
+				else if(matchType(l,argc,2,float)){
+					UnityEngine.Bounds self;
+					checkValueType(l,1,out self);
+					System.Single a1;
+					checkType(l,2,out a1);
+					self.Expand(a1);
+							{ "trigger": "Bounds:Intersects(Public, HideBySig)","contents": "Bounds:Intersects(Public, HideBySig)"},
+
+					UnityEngine.Bounds self;
+					checkValueType(l,1,out self);
+					UnityEngine.Bounds a1;
+					checkValueType(l,2,out a1);
+					var ret=self.Intersects(a1);
+							{ "trigger": "Bounds:Contains(Public, HideBySig)","contents": "Bounds:Contains(Public, HideBySig)"},
+
+					UnityEngine.Bounds self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 a1;
+					checkType(l,2,out a1);
+					var ret=self.Contains(a1);
+							{ "trigger": "Bounds:SqrDistance(Public, HideBySig)","contents": "Bounds:SqrDistance(Public, HideBySig)"},
+
+					UnityEngine.Bounds self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 a1;
+					checkType(l,2,out a1);
+					var ret=self.SqrDistance(a1);
+							{ "trigger": "Bounds:IntersectRay(Public, HideBySig)","contents": "Bounds:IntersectRay(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.Bounds self;
+						checkValueType(l,1,out self);
+						UnityEngine.Ray a1;
+						checkValueType(l,2,out a1);
+						var ret=self.IntersectRay(a1);
+						else if(argc==3){
+							UnityEngine.Bounds self;
+							checkValueType(l,1,out self);
+							UnityEngine.Ray a1;
+							checkValueType(l,2,out a1);
+							System.Single a2;
+							var ret=self.IntersectRay(a1,out a2);
+									{ "trigger": "Bounds:ClosestPoint(Public, HideBySig)","contents": "Bounds:ClosestPoint(Public, HideBySig)"},
+
+							UnityEngine.Bounds self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector3 a1;
+							checkType(l,2,out a1);
+							var ret=self.ClosestPoint(a1);
+									{ "trigger": "Bounds.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Bounds.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+							UnityEngine.Bounds a1;
+							checkValueType(l,1,out a1);
+							UnityEngine.Bounds a2;
+							checkValueType(l,2,out a2);
+							var ret=(a1==a2);
+									{ "trigger": "Bounds.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Bounds.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+							UnityEngine.Bounds a1;
+							checkValueType(l,1,out a1);
+							UnityEngine.Bounds a2;
+							checkValueType(l,2,out a2);
+							var ret=(a1!=a2);
+							get_center(IntPtr l) {
+								set_center(IntPtr l) {
+									UnityEngine.Bounds self;
+									checkValueType(l,1,out self);
+									UnityEngine.Vector3 v;
+									checkType(l,2,out v);
+									self.center=v;
+									setBack(l,self);
+									get_size(IntPtr l) {
+										set_size(IntPtr l) {
+											UnityEngine.Bounds self;
+											checkValueType(l,1,out self);
+											UnityEngine.Vector3 v;
+											checkType(l,2,out v);
+											self.size=v;
+											setBack(l,self);
+											get_extents(IntPtr l) {
+												set_extents(IntPtr l) {
+													UnityEngine.Bounds self;
+													checkValueType(l,1,out self);
+													UnityEngine.Vector3 v;
+													checkType(l,2,out v);
+													self.extents=v;
+													setBack(l,self);
+													get_min(IntPtr l) {
+														set_min(IntPtr l) {
+															UnityEngine.Bounds self;
+															checkValueType(l,1,out self);
+															UnityEngine.Vector3 v;
+															checkType(l,2,out v);
+															self.min=v;
+															setBack(l,self);
+															get_max(IntPtr l) {
+																set_max(IntPtr l) {
+																	UnityEngine.Bounds self;
+																	checkValueType(l,1,out self);
+																	UnityEngine.Vector3 v;
+																	checkType(l,2,out v);
+																	self.max=v;
+																	setBack(l,self);
+																		]
+																}
+

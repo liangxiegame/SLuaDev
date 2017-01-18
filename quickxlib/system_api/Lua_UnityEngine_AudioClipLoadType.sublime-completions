@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AudioClipLoadType");
+	addMember(l,0,"DecompressOnLoad");
+	addMember(l,1,"CompressedInMemory");
+	addMember(l,2,"Streaming");
+		]
+}
+

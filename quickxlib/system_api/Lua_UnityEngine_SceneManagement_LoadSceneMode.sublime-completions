@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.SceneManagement.LoadSceneMode");
+	addMember(l,0,"Single");
+	addMember(l,1,"Additive");
+		]
+}
+

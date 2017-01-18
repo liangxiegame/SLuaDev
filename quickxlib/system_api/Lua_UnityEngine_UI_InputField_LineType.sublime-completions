@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.InputField.LineType");
+	addMember(l,0,"SingleLine");
+	addMember(l,1,"MultiLineSubmit");
+	addMember(l,2,"MultiLineNewline");
+		]
+}
+

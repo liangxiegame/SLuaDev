@@ -1,0 +1,65 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Resources()()","contents": "UnityEngine.Resources()()"},
+
+			{ "trigger": "Resources.FindObjectsOfTypeAll(Public, Static, HideBySig)","contents": "Resources.FindObjectsOfTypeAll(Public, Static, HideBySig)"},
+
+	System.Type a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Resources.FindObjectsOfTypeAll(a1);
+			{ "trigger": "Resources.Load(Public, Static, HideBySig)","contents": "Resources.Load(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		System.String a1;
+		checkType(l,1,out a1);
+		var ret=UnityEngine.Resources.Load(a1);
+		else if(argc==2){
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Type a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.Resources.Load(a1,a2);
+					{ "trigger": "Resources.LoadAsync(Public, Static, HideBySig)","contents": "Resources.LoadAsync(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				System.String a1;
+				checkType(l,1,out a1);
+				var ret=UnityEngine.Resources.LoadAsync(a1);
+				else if(argc==2){
+					System.String a1;
+					checkType(l,1,out a1);
+					System.Type a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.Resources.LoadAsync(a1,a2);
+							{ "trigger": "Resources.LoadAll(Public, Static, HideBySig)","contents": "Resources.LoadAll(Public, Static, HideBySig)"},
+
+					if(argc==1){
+						System.String a1;
+						checkType(l,1,out a1);
+						var ret=UnityEngine.Resources.LoadAll(a1);
+						else if(argc==2){
+							System.String a1;
+							checkType(l,1,out a1);
+							System.Type a2;
+							checkType(l,2,out a2);
+							var ret=UnityEngine.Resources.LoadAll(a1,a2);
+									{ "trigger": "Resources.GetBuiltinResource(Public, Static, HideBySig)","contents": "Resources.GetBuiltinResource(Public, Static, HideBySig)"},
+
+							System.Type a1;
+							checkType(l,1,out a1);
+							System.String a2;
+							checkType(l,2,out a2);
+							var ret=UnityEngine.Resources.GetBuiltinResource(a1,a2);
+									{ "trigger": "Resources.UnloadAsset(Public, Static, HideBySig)","contents": "Resources.UnloadAsset(Public, Static, HideBySig)"},
+
+							UnityEngine.Object a1;
+							checkType(l,1,out a1);
+							UnityEngine.Resources.UnloadAsset(a1);
+									{ "trigger": "Resources.UnloadUnusedAssets(Public, Static, HideBySig)","contents": "Resources.UnloadUnusedAssets(Public, Static, HideBySig)"},
+
+							var ret=UnityEngine.Resources.UnloadUnusedAssets();
+								]
+						}
+

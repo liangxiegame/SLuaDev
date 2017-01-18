@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.BlendWeights");
+	addMember(l,1,"OneBone");
+	addMember(l,2,"TwoBones");
+	addMember(l,4,"FourBones");
+		]
+}
+

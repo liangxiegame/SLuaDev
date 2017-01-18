@@ -1,0 +1,7 @@
+﻿
+UnityEngine.Display.DisplaysUpdatedDelegate 
+                ua = (UnityEngine.Display.DisplaysUpdatedDelegate)checkObj(l, p);
+                ua = (UnityEngine.Display.DisplaysUpdatedDelegate)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

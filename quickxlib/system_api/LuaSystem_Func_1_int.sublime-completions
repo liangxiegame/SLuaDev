@@ -1,0 +1,9 @@
+﻿
+System.Func<System.Int32> 
+                ua = (System.Func<System.Int32>)checkObj(l, p);
+                ua = (System.Func<System.Int32>)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);
+				int ret;
+				checkType(l,error+1,out ret);

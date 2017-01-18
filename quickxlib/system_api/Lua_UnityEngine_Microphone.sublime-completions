@@ -1,0 +1,43 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Microphone()()","contents": "UnityEngine.Microphone()()"},
+
+			{ "trigger": "Microphone.Start(Public, Static, HideBySig)","contents": "Microphone.Start(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.Boolean a2;
+	checkType(l,2,out a2);
+	System.Int32 a3;
+	checkType(l,3,out a3);
+	System.Int32 a4;
+	checkType(l,4,out a4);
+	var ret=UnityEngine.Microphone.Start(a1,a2,a3,a4);
+			{ "trigger": "Microphone.End(Public, Static, HideBySig)","contents": "Microphone.End(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	UnityEngine.Microphone.End(a1);
+			{ "trigger": "Microphone.IsRecording(Public, Static, HideBySig)","contents": "Microphone.IsRecording(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Microphone.IsRecording(a1);
+			{ "trigger": "Microphone.GetPosition(Public, Static, HideBySig)","contents": "Microphone.GetPosition(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Microphone.GetPosition(a1);
+			{ "trigger": "Microphone.GetDeviceCaps(Public, Static, HideBySig)","contents": "Microphone.GetDeviceCaps(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	System.Int32 a3;
+	UnityEngine.Microphone.GetDeviceCaps(a1,out a2,out a3);
+	get_devices(IntPtr l) {
+			]
+	}
+

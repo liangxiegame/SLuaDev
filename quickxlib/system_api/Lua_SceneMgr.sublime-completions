@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "SceneMgr:EnterScene(Public, HideBySig)","contents": "SceneMgr:EnterScene(Public, HideBySig)"},
+
+	SceneMgr self=(SceneMgr)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	Callback a2;
+	LuaDelegation.checkDelegate(l,3,out a2);
+	self.EnterScene(a1,a2);
+	get_Instance(IntPtr l) {
+			]
+	}
+

@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CombineInstance()()","contents": "UnityEngine.CombineInstance()()"},
+
+	get_mesh(IntPtr l) {
+		set_mesh(IntPtr l) {
+			UnityEngine.CombineInstance self;
+			checkValueType(l,1,out self);
+			UnityEngine.Mesh v;
+			checkType(l,2,out v);
+			self.mesh=v;
+			setBack(l,self);
+			get_subMeshIndex(IntPtr l) {
+				set_subMeshIndex(IntPtr l) {
+					UnityEngine.CombineInstance self;
+					checkValueType(l,1,out self);
+					int v;
+					checkType(l,2,out v);
+					self.subMeshIndex=v;
+					setBack(l,self);
+					get_transform(IntPtr l) {
+						set_transform(IntPtr l) {
+							UnityEngine.CombineInstance self;
+							checkValueType(l,1,out self);
+							UnityEngine.Matrix4x4 v;
+							checkValueType(l,2,out v);
+							self.transform=v;
+							setBack(l,self);
+								]
+						}
+

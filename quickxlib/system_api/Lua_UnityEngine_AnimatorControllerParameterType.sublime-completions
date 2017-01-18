@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AnimatorControllerParameterType");
+	addMember(l,1,"Float");
+	addMember(l,3,"Int");
+	addMember(l,4,"Bool");
+	addMember(l,9,"Trigger");
+		]
+}
+

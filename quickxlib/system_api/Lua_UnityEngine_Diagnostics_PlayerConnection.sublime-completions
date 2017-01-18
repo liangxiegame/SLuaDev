@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "PlayerConnection.SendFile(Public, Static, HideBySig)","contents": "PlayerConnection.SendFile(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.Byte[] a2;
+	checkArray(l,2,out a2);
+	UnityEngine.Diagnostics.PlayerConnection.SendFile(a1,a2);
+	get_connected(IntPtr l) {
+			]
+	}
+

@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Button:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Button:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Button self=(UnityEngine.UI.Button)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerClick(a1);
+			{ "trigger": "Button:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Button:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Button self=(UnityEngine.UI.Button)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSubmit(a1);
+	get_onClick(IntPtr l) {
+		set_onClick(IntPtr l) {
+			UnityEngine.UI.Button self=(UnityEngine.UI.Button)checkSelf(l);
+			UnityEngine.UI.Button.ButtonClickedEvent v;
+			checkType(l,2,out v);
+			self.onClick=v;
+				]
+		}
+

@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ResourceRequest()()","contents": "UnityEngine.ResourceRequest()()"},
+
+	get_asset(IntPtr l) {
+			]
+	}
+

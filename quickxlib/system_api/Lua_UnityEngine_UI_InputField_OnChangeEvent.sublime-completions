@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.InputField.OnChangeEvent()()","contents": "UnityEngine.UI.InputField.OnChangeEvent()()"},
+
+		]
+}
+

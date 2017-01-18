@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.Slider.Direction");
+	addMember(l,0,"LeftToRight");
+	addMember(l,1,"RightToLeft");
+	addMember(l,2,"BottomToTop");
+	addMember(l,3,"TopToBottom");
+		]
+}
+

@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AnimationCullingType");
+	addMember(l,0,"AlwaysAnimate");
+	addMember(l,1,"BasedOnRenderers");
+	addMember(l,2,"BasedOnClipBounds");
+	addMember(l,3,"BasedOnUserBounds");
+		]
+}
+

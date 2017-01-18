@@ -1,0 +1,104 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.MonoBehaviour()()","contents": "UnityEngine.MonoBehaviour()()"},
+
+			{ "trigger": "MonoBehaviour:Invoke(Public, HideBySig)","contents": "MonoBehaviour:Invoke(Public, HideBySig)"},
+
+	UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.Invoke(a1,a2);
+			{ "trigger": "MonoBehaviour:InvokeRepeating(Public, HideBySig)","contents": "MonoBehaviour:InvokeRepeating(Public, HideBySig)"},
+
+	UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+	self.InvokeRepeating(a1,a2,a3);
+			{ "trigger": "MonoBehaviour:CancelInvoke(Public, HideBySig)","contents": "MonoBehaviour:CancelInvoke(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+		self.CancelInvoke();
+		else if(argc==2){
+			UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			self.CancelInvoke(a1);
+					{ "trigger": "MonoBehaviour:IsInvoking(Public, HideBySig)","contents": "MonoBehaviour:IsInvoking(Public, HideBySig)"},
+
+			if(argc==1){
+				UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+				var ret=self.IsInvoking();
+				else if(argc==2){
+					UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+					System.String a1;
+					checkType(l,2,out a1);
+					var ret=self.IsInvoking(a1);
+							{ "trigger": "MonoBehaviour:StartCoroutine(Public, HideBySig)","contents": "MonoBehaviour:StartCoroutine(Public, HideBySig)"},
+
+					if(matchType(l,argc,2,string)){
+						UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+						System.String a1;
+						checkType(l,2,out a1);
+						var ret=self.StartCoroutine(a1);
+						else if(matchType(l,argc,2,System.Collections.IEnumerator)){
+							UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+							System.Collections.IEnumerator a1;
+							checkType(l,2,out a1);
+							var ret=self.StartCoroutine(a1);
+							else if(argc==3){
+								UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+								System.String a1;
+								checkType(l,2,out a1);
+								System.Object a2;
+								checkType(l,3,out a2);
+								var ret=self.StartCoroutine(a1,a2);
+										{ "trigger": "MonoBehaviour:StartCoroutine_Auto(Public, HideBySig)","contents": "MonoBehaviour:StartCoroutine_Auto(Public, HideBySig)"},
+
+								UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+								System.Collections.IEnumerator a1;
+								checkType(l,2,out a1);
+								var ret=self.StartCoroutine_Auto(a1);
+										{ "trigger": "MonoBehaviour:StopCoroutine(Public, HideBySig)","contents": "MonoBehaviour:StopCoroutine(Public, HideBySig)"},
+
+								if(matchType(l,argc,2,UnityEngine.Coroutine)){
+									UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+									UnityEngine.Coroutine a1;
+									checkType(l,2,out a1);
+									self.StopCoroutine(a1);
+									else if(matchType(l,argc,2,System.Collections.IEnumerator)){
+										UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+										System.Collections.IEnumerator a1;
+										checkType(l,2,out a1);
+										self.StopCoroutine(a1);
+										else if(matchType(l,argc,2,string)){
+											UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+											System.String a1;
+											checkType(l,2,out a1);
+											self.StopCoroutine(a1);
+													{ "trigger": "MonoBehaviour:StopAllCoroutines(Public, HideBySig)","contents": "MonoBehaviour:StopAllCoroutines(Public, HideBySig)"},
+
+											UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+											self.StopAllCoroutines();
+													{ "trigger": "MonoBehaviour.print(Public, Static, HideBySig)","contents": "MonoBehaviour.print(Public, Static, HideBySig)"},
+
+											System.Object a1;
+											checkType(l,1,out a1);
+											UnityEngine.MonoBehaviour.print(a1);
+											get_useGUILayout(IntPtr l) {
+												set_useGUILayout(IntPtr l) {
+													UnityEngine.MonoBehaviour self=(UnityEngine.MonoBehaviour)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.useGUILayout=v;
+														]
+												}
+

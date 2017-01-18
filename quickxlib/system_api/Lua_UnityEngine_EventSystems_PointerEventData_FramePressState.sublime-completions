@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.EventSystems.PointerEventData.FramePressState");
+	addMember(l,0,"Pressed");
+	addMember(l,1,"Released");
+	addMember(l,2,"PressedAndReleased");
+	addMember(l,3,"NotChanged");
+		]
+}
+

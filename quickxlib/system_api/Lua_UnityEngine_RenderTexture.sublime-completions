@@ -1,0 +1,221 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RenderTexture()()","contents": "UnityEngine.RenderTexture()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.RenderTextureFormat a4;
+	checkEnum(l,5,out a4);
+	UnityEngine.RenderTextureReadWrite a5;
+	checkEnum(l,6,out a5);
+			{ "trigger": "UnityEngine.RenderTexture()()","contents": "UnityEngine.RenderTexture()()"},
+
+			{ "trigger": "UnityEngine.RenderTexture()()","contents": "UnityEngine.RenderTexture()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.RenderTextureFormat a4;
+	checkEnum(l,5,out a4);
+			{ "trigger": "UnityEngine.RenderTexture()()","contents": "UnityEngine.RenderTexture()()"},
+
+			{ "trigger": "UnityEngine.RenderTexture()()","contents": "UnityEngine.RenderTexture()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.RenderTexture()()","contents": "UnityEngine.RenderTexture()()"},
+
+			{ "trigger": "RenderTexture:Create(Public, HideBySig)","contents": "RenderTexture:Create(Public, HideBySig)"},
+
+	UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+	var ret=self.Create();
+			{ "trigger": "RenderTexture:Release(Public, HideBySig)","contents": "RenderTexture:Release(Public, HideBySig)"},
+
+	UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+	self.Release();
+			{ "trigger": "RenderTexture:IsCreated(Public, HideBySig)","contents": "RenderTexture:IsCreated(Public, HideBySig)"},
+
+	UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+	var ret=self.IsCreated();
+			{ "trigger": "RenderTexture:DiscardContents(Public, HideBySig)","contents": "RenderTexture:DiscardContents(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+		self.DiscardContents();
+		else if(argc==3){
+			UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+			System.Boolean a1;
+			checkType(l,2,out a1);
+			System.Boolean a2;
+			checkType(l,3,out a2);
+			self.DiscardContents(a1,a2);
+					{ "trigger": "RenderTexture:MarkRestoreExpected(Public, HideBySig)","contents": "RenderTexture:MarkRestoreExpected(Public, HideBySig)"},
+
+			UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+			self.MarkRestoreExpected();
+					{ "trigger": "RenderTexture:GetNativeDepthBufferPtr(Public, HideBySig)","contents": "RenderTexture:GetNativeDepthBufferPtr(Public, HideBySig)"},
+
+			UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+			var ret=self.GetNativeDepthBufferPtr();
+					{ "trigger": "RenderTexture:SetGlobalShaderProperty(Public, HideBySig)","contents": "RenderTexture:SetGlobalShaderProperty(Public, HideBySig)"},
+
+			UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			self.SetGlobalShaderProperty(a1);
+					{ "trigger": "RenderTexture:GetTexelOffset(Public, HideBySig)","contents": "RenderTexture:GetTexelOffset(Public, HideBySig)"},
+
+			UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+			var ret=self.GetTexelOffset();
+					{ "trigger": "RenderTexture.GetTemporary(Public, Static, HideBySig)","contents": "RenderTexture.GetTemporary(Public, Static, HideBySig)"},
+
+			if(argc==2){
+				System.Int32 a1;
+				checkType(l,1,out a1);
+				System.Int32 a2;
+				checkType(l,2,out a2);
+				var ret=UnityEngine.RenderTexture.GetTemporary(a1,a2);
+				else if(argc==3){
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					System.Int32 a3;
+					checkType(l,3,out a3);
+					var ret=UnityEngine.RenderTexture.GetTemporary(a1,a2,a3);
+					else if(argc==4){
+						System.Int32 a1;
+						checkType(l,1,out a1);
+						System.Int32 a2;
+						checkType(l,2,out a2);
+						System.Int32 a3;
+						checkType(l,3,out a3);
+						UnityEngine.RenderTextureFormat a4;
+						checkEnum(l,4,out a4);
+						var ret=UnityEngine.RenderTexture.GetTemporary(a1,a2,a3,a4);
+						else if(argc==5){
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							System.Int32 a2;
+							checkType(l,2,out a2);
+							System.Int32 a3;
+							checkType(l,3,out a3);
+							UnityEngine.RenderTextureFormat a4;
+							checkEnum(l,4,out a4);
+							UnityEngine.RenderTextureReadWrite a5;
+							checkEnum(l,5,out a5);
+							var ret=UnityEngine.RenderTexture.GetTemporary(a1,a2,a3,a4,a5);
+							else if(argc==6){
+								System.Int32 a1;
+								checkType(l,1,out a1);
+								System.Int32 a2;
+								checkType(l,2,out a2);
+								System.Int32 a3;
+								checkType(l,3,out a3);
+								UnityEngine.RenderTextureFormat a4;
+								checkEnum(l,4,out a4);
+								UnityEngine.RenderTextureReadWrite a5;
+								checkEnum(l,5,out a5);
+								System.Int32 a6;
+								checkType(l,6,out a6);
+								var ret=UnityEngine.RenderTexture.GetTemporary(a1,a2,a3,a4,a5,a6);
+										{ "trigger": "RenderTexture.ReleaseTemporary(Public, Static, HideBySig)","contents": "RenderTexture.ReleaseTemporary(Public, Static, HideBySig)"},
+
+								UnityEngine.RenderTexture a1;
+								checkType(l,1,out a1);
+								UnityEngine.RenderTexture.ReleaseTemporary(a1);
+										{ "trigger": "RenderTexture.SupportsStencil(Public, Static, HideBySig)","contents": "RenderTexture.SupportsStencil(Public, Static, HideBySig)"},
+
+								UnityEngine.RenderTexture a1;
+								checkType(l,1,out a1);
+								var ret=UnityEngine.RenderTexture.SupportsStencil(a1);
+								get_width(IntPtr l) {
+									set_width(IntPtr l) {
+										UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+										int v;
+										checkType(l,2,out v);
+										self.width=v;
+										get_height(IntPtr l) {
+											set_height(IntPtr l) {
+												UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+												int v;
+												checkType(l,2,out v);
+												self.height=v;
+												get_depth(IntPtr l) {
+													set_depth(IntPtr l) {
+														UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+														int v;
+														checkType(l,2,out v);
+														self.depth=v;
+														get_isPowerOfTwo(IntPtr l) {
+															set_isPowerOfTwo(IntPtr l) {
+																UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																bool v;
+																checkType(l,2,out v);
+																self.isPowerOfTwo=v;
+																get_sRGB(IntPtr l) {
+																	get_format(IntPtr l) {
+																		set_format(IntPtr l) {
+																			UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																			UnityEngine.RenderTextureFormat v;
+																			checkEnum(l,2,out v);
+																			self.format=v;
+																			get_useMipMap(IntPtr l) {
+																				set_useMipMap(IntPtr l) {
+																					UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																					bool v;
+																					checkType(l,2,out v);
+																					self.useMipMap=v;
+																					get_generateMips(IntPtr l) {
+																						set_generateMips(IntPtr l) {
+																							UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																							bool v;
+																							checkType(l,2,out v);
+																							self.generateMips=v;
+																							get_dimension(IntPtr l) {
+																								set_dimension(IntPtr l) {
+																									UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																									UnityEngine.Rendering.TextureDimension v;
+																									checkEnum(l,2,out v);
+																									self.dimension=v;
+																									get_volumeDepth(IntPtr l) {
+																										set_volumeDepth(IntPtr l) {
+																											UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																											int v;
+																											checkType(l,2,out v);
+																											self.volumeDepth=v;
+																											get_antiAliasing(IntPtr l) {
+																												set_antiAliasing(IntPtr l) {
+																													UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																													int v;
+																													checkType(l,2,out v);
+																													self.antiAliasing=v;
+																													get_enableRandomWrite(IntPtr l) {
+																														set_enableRandomWrite(IntPtr l) {
+																															UnityEngine.RenderTexture self=(UnityEngine.RenderTexture)checkSelf(l);
+																															bool v;
+																															checkType(l,2,out v);
+																															self.enableRandomWrite=v;
+																															get_colorBuffer(IntPtr l) {
+																																get_depthBuffer(IntPtr l) {
+																																	get_active(IntPtr l) {
+																																		set_active(IntPtr l) {
+																																			UnityEngine.RenderTexture v;
+																																			checkType(l,2,out v);
+																																			UnityEngine.RenderTexture.active=v;
+																																				]
+																																		}
+

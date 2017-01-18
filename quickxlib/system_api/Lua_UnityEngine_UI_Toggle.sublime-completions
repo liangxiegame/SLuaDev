@@ -1,0 +1,63 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Toggle:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Toggle:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+	UnityEngine.UI.CanvasUpdate a1;
+	checkEnum(l,2,out a1);
+	self.Rebuild(a1);
+			{ "trigger": "Toggle:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Toggle:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+	self.LayoutComplete();
+			{ "trigger": "Toggle:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Toggle:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+	self.GraphicUpdateComplete();
+			{ "trigger": "Toggle:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Toggle:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerClick(a1);
+			{ "trigger": "Toggle:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Toggle:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSubmit(a1);
+	toggleTransition
+	set_toggleTransition(IntPtr l) {
+		UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+		UnityEngine.UI.Toggle.ToggleTransition v;
+		checkEnum(l,2,out v);
+		self.toggleTransition=v;
+		graphic
+		set_graphic(IntPtr l) {
+			UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+			UnityEngine.UI.Graphic v;
+			checkType(l,2,out v);
+			self.graphic=v;
+			onValueChanged
+			set_onValueChanged(IntPtr l) {
+				UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+				UnityEngine.UI.Toggle.ToggleEvent v;
+				checkType(l,2,out v);
+				self.onValueChanged=v;
+				get_group(IntPtr l) {
+					set_group(IntPtr l) {
+						UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+						UnityEngine.UI.ToggleGroup v;
+						checkType(l,2,out v);
+						self.group=v;
+						get_isOn(IntPtr l) {
+							set_isOn(IntPtr l) {
+								UnityEngine.UI.Toggle self=(UnityEngine.UI.Toggle)checkSelf(l);
+								bool v;
+								checkType(l,2,out v);
+								self.isOn=v;
+									]
+							}
+

@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PhysicsUpdateBehaviour2D()()","contents": "UnityEngine.PhysicsUpdateBehaviour2D()()"},
+
+		]
+}
+

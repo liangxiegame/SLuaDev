@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UserAuthorization");
+	addMember(l,1,"WebCam");
+	addMember(l,2,"Microphone");
+		]
+}
+

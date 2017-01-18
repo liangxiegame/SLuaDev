@@ -1,0 +1,73 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Texture()()","contents": "UnityEngine.Texture()()"},
+
+			{ "trigger": "Texture:GetNativeTexturePtr(Public, HideBySig)","contents": "Texture:GetNativeTexturePtr(Public, HideBySig)"},
+
+	UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+	var ret=self.GetNativeTexturePtr();
+			{ "trigger": "Texture.SetGlobalAnisotropicFilteringLimits(Public, Static, HideBySig)","contents": "Texture.SetGlobalAnisotropicFilteringLimits(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	UnityEngine.Texture.SetGlobalAnisotropicFilteringLimits(a1,a2);
+	get_masterTextureLimit(IntPtr l) {
+		set_masterTextureLimit(IntPtr l) {
+			int v;
+			checkType(l,2,out v);
+			UnityEngine.Texture.masterTextureLimit=v;
+			get_anisotropicFiltering(IntPtr l) {
+				set_anisotropicFiltering(IntPtr l) {
+					UnityEngine.AnisotropicFiltering v;
+					checkEnum(l,2,out v);
+					UnityEngine.Texture.anisotropicFiltering=v;
+					get_width(IntPtr l) {
+						set_width(IntPtr l) {
+							UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+							int v;
+							checkType(l,2,out v);
+							self.width=v;
+							get_height(IntPtr l) {
+								set_height(IntPtr l) {
+									UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+									int v;
+									checkType(l,2,out v);
+									self.height=v;
+									get_dimension(IntPtr l) {
+										set_dimension(IntPtr l) {
+											UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+											UnityEngine.Rendering.TextureDimension v;
+											checkEnum(l,2,out v);
+											self.dimension=v;
+											get_filterMode(IntPtr l) {
+												set_filterMode(IntPtr l) {
+													UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+													UnityEngine.FilterMode v;
+													checkEnum(l,2,out v);
+													self.filterMode=v;
+													get_anisoLevel(IntPtr l) {
+														set_anisoLevel(IntPtr l) {
+															UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+															int v;
+															checkType(l,2,out v);
+															self.anisoLevel=v;
+															get_wrapMode(IntPtr l) {
+																set_wrapMode(IntPtr l) {
+																	UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+																	UnityEngine.TextureWrapMode v;
+																	checkEnum(l,2,out v);
+																	self.wrapMode=v;
+																	get_mipMapBias(IntPtr l) {
+																		set_mipMapBias(IntPtr l) {
+																			UnityEngine.Texture self=(UnityEngine.Texture)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.mipMapBias=v;
+																			get_texelSize(IntPtr l) {
+																					]
+																			}
+

@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.GradientAlphaKey()()","contents": "UnityEngine.GradientAlphaKey()()"},
+
+	alpha
+	set_alpha(IntPtr l) {
+		UnityEngine.GradientAlphaKey self;
+		checkValueType(l,1,out self);
+		System.Single v;
+		checkType(l,2,out v);
+		self.alpha=v;
+		time
+		set_time(IntPtr l) {
+			UnityEngine.GradientAlphaKey self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.time=v;
+				]
+		}
+

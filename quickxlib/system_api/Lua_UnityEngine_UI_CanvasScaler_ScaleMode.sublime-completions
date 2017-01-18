@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.CanvasScaler.ScaleMode");
+	addMember(l,0,"ConstantPixelSize");
+	addMember(l,1,"ScaleWithScreenSize");
+	addMember(l,2,"ConstantPhysicalSize");
+		]
+}
+

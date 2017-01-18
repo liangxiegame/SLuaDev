@@ -1,0 +1,195 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ConfigurableJoint()()","contents": "UnityEngine.ConfigurableJoint()()"},
+
+	get_secondaryAxis(IntPtr l) {
+		set_secondaryAxis(IntPtr l) {
+			UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.secondaryAxis=v;
+			get_xMotion(IntPtr l) {
+				set_xMotion(IntPtr l) {
+					UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+					UnityEngine.ConfigurableJointMotion v;
+					checkEnum(l,2,out v);
+					self.xMotion=v;
+					get_yMotion(IntPtr l) {
+						set_yMotion(IntPtr l) {
+							UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+							UnityEngine.ConfigurableJointMotion v;
+							checkEnum(l,2,out v);
+							self.yMotion=v;
+							get_zMotion(IntPtr l) {
+								set_zMotion(IntPtr l) {
+									UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+									UnityEngine.ConfigurableJointMotion v;
+									checkEnum(l,2,out v);
+									self.zMotion=v;
+									get_angularXMotion(IntPtr l) {
+										set_angularXMotion(IntPtr l) {
+											UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+											UnityEngine.ConfigurableJointMotion v;
+											checkEnum(l,2,out v);
+											self.angularXMotion=v;
+											get_angularYMotion(IntPtr l) {
+												set_angularYMotion(IntPtr l) {
+													UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+													UnityEngine.ConfigurableJointMotion v;
+													checkEnum(l,2,out v);
+													self.angularYMotion=v;
+													get_angularZMotion(IntPtr l) {
+														set_angularZMotion(IntPtr l) {
+															UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+															UnityEngine.ConfigurableJointMotion v;
+															checkEnum(l,2,out v);
+															self.angularZMotion=v;
+															get_linearLimitSpring(IntPtr l) {
+																set_linearLimitSpring(IntPtr l) {
+																	UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																	UnityEngine.SoftJointLimitSpring v;
+																	checkValueType(l,2,out v);
+																	self.linearLimitSpring=v;
+																	get_angularXLimitSpring(IntPtr l) {
+																		set_angularXLimitSpring(IntPtr l) {
+																			UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																			UnityEngine.SoftJointLimitSpring v;
+																			checkValueType(l,2,out v);
+																			self.angularXLimitSpring=v;
+																			get_angularYZLimitSpring(IntPtr l) {
+																				set_angularYZLimitSpring(IntPtr l) {
+																					UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																					UnityEngine.SoftJointLimitSpring v;
+																					checkValueType(l,2,out v);
+																					self.angularYZLimitSpring=v;
+																					get_linearLimit(IntPtr l) {
+																						set_linearLimit(IntPtr l) {
+																							UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																							UnityEngine.SoftJointLimit v;
+																							checkValueType(l,2,out v);
+																							self.linearLimit=v;
+																							get_lowAngularXLimit(IntPtr l) {
+																								set_lowAngularXLimit(IntPtr l) {
+																									UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																									UnityEngine.SoftJointLimit v;
+																									checkValueType(l,2,out v);
+																									self.lowAngularXLimit=v;
+																									get_highAngularXLimit(IntPtr l) {
+																										set_highAngularXLimit(IntPtr l) {
+																											UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																											UnityEngine.SoftJointLimit v;
+																											checkValueType(l,2,out v);
+																											self.highAngularXLimit=v;
+																											get_angularYLimit(IntPtr l) {
+																												set_angularYLimit(IntPtr l) {
+																													UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																													UnityEngine.SoftJointLimit v;
+																													checkValueType(l,2,out v);
+																													self.angularYLimit=v;
+																													get_angularZLimit(IntPtr l) {
+																														set_angularZLimit(IntPtr l) {
+																															UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																															UnityEngine.SoftJointLimit v;
+																															checkValueType(l,2,out v);
+																															self.angularZLimit=v;
+																															get_targetPosition(IntPtr l) {
+																																set_targetPosition(IntPtr l) {
+																																	UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																	UnityEngine.Vector3 v;
+																																	checkType(l,2,out v);
+																																	self.targetPosition=v;
+																																	get_targetVelocity(IntPtr l) {
+																																		set_targetVelocity(IntPtr l) {
+																																			UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																			UnityEngine.Vector3 v;
+																																			checkType(l,2,out v);
+																																			self.targetVelocity=v;
+																																			get_xDrive(IntPtr l) {
+																																				set_xDrive(IntPtr l) {
+																																					UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																					UnityEngine.JointDrive v;
+																																					checkValueType(l,2,out v);
+																																					self.xDrive=v;
+																																					get_yDrive(IntPtr l) {
+																																						set_yDrive(IntPtr l) {
+																																							UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																							UnityEngine.JointDrive v;
+																																							checkValueType(l,2,out v);
+																																							self.yDrive=v;
+																																							get_zDrive(IntPtr l) {
+																																								set_zDrive(IntPtr l) {
+																																									UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																									UnityEngine.JointDrive v;
+																																									checkValueType(l,2,out v);
+																																									self.zDrive=v;
+																																									get_targetRotation(IntPtr l) {
+																																										set_targetRotation(IntPtr l) {
+																																											UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																											UnityEngine.Quaternion v;
+																																											checkType(l,2,out v);
+																																											self.targetRotation=v;
+																																											get_targetAngularVelocity(IntPtr l) {
+																																												set_targetAngularVelocity(IntPtr l) {
+																																													UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																													UnityEngine.Vector3 v;
+																																													checkType(l,2,out v);
+																																													self.targetAngularVelocity=v;
+																																													get_rotationDriveMode(IntPtr l) {
+																																														set_rotationDriveMode(IntPtr l) {
+																																															UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																															UnityEngine.RotationDriveMode v;
+																																															checkEnum(l,2,out v);
+																																															self.rotationDriveMode=v;
+																																															get_angularXDrive(IntPtr l) {
+																																																set_angularXDrive(IntPtr l) {
+																																																	UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																	UnityEngine.JointDrive v;
+																																																	checkValueType(l,2,out v);
+																																																	self.angularXDrive=v;
+																																																	get_angularYZDrive(IntPtr l) {
+																																																		set_angularYZDrive(IntPtr l) {
+																																																			UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																			UnityEngine.JointDrive v;
+																																																			checkValueType(l,2,out v);
+																																																			self.angularYZDrive=v;
+																																																			get_slerpDrive(IntPtr l) {
+																																																				set_slerpDrive(IntPtr l) {
+																																																					UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																					UnityEngine.JointDrive v;
+																																																					checkValueType(l,2,out v);
+																																																					self.slerpDrive=v;
+																																																					get_projectionMode(IntPtr l) {
+																																																						set_projectionMode(IntPtr l) {
+																																																							UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																							UnityEngine.JointProjectionMode v;
+																																																							checkEnum(l,2,out v);
+																																																							self.projectionMode=v;
+																																																							get_projectionDistance(IntPtr l) {
+																																																								set_projectionDistance(IntPtr l) {
+																																																									UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																									float v;
+																																																									checkType(l,2,out v);
+																																																									self.projectionDistance=v;
+																																																									get_projectionAngle(IntPtr l) {
+																																																										set_projectionAngle(IntPtr l) {
+																																																											UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																											float v;
+																																																											checkType(l,2,out v);
+																																																											self.projectionAngle=v;
+																																																											get_configuredInWorldSpace(IntPtr l) {
+																																																												set_configuredInWorldSpace(IntPtr l) {
+																																																													UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																													bool v;
+																																																													checkType(l,2,out v);
+																																																													self.configuredInWorldSpace=v;
+																																																													get_swapBodies(IntPtr l) {
+																																																														set_swapBodies(IntPtr l) {
+																																																															UnityEngine.ConfigurableJoint self=(UnityEngine.ConfigurableJoint)checkSelf(l);
+																																																															bool v;
+																																																															checkType(l,2,out v);
+																																																															self.swapBodies=v;
+																																																																]
+																																																														}
+

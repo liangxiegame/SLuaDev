@@ -1,0 +1,49 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointLimits()()","contents": "UnityEngine.JointLimits()()"},
+
+	get_min(IntPtr l) {
+		set_min(IntPtr l) {
+			UnityEngine.JointLimits self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.min=v;
+			setBack(l,self);
+			get_max(IntPtr l) {
+				set_max(IntPtr l) {
+					UnityEngine.JointLimits self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.max=v;
+					setBack(l,self);
+					get_bounciness(IntPtr l) {
+						set_bounciness(IntPtr l) {
+							UnityEngine.JointLimits self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.bounciness=v;
+							setBack(l,self);
+							get_bounceMinVelocity(IntPtr l) {
+								set_bounceMinVelocity(IntPtr l) {
+									UnityEngine.JointLimits self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.bounceMinVelocity=v;
+									setBack(l,self);
+									get_contactDistance(IntPtr l) {
+										set_contactDistance(IntPtr l) {
+											UnityEngine.JointLimits self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.contactDistance=v;
+											setBack(l,self);
+												]
+										}
+

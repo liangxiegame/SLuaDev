@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightShadows");
+	addMember(l,0,"None");
+	addMember(l,1,"Hard");
+	addMember(l,2,"Soft");
+		]
+}
+

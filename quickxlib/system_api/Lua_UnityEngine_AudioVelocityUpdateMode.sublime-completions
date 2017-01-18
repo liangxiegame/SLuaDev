@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AudioVelocityUpdateMode");
+	addMember(l,0,"Auto");
+	addMember(l,1,"Fixed");
+	addMember(l,2,"Dynamic");
+		]
+}
+

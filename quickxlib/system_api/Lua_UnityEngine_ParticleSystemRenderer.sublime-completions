@@ -1,0 +1,102 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystemRenderer()()","contents": "UnityEngine.ParticleSystemRenderer()()"},
+
+			{ "trigger": "ParticleSystemRenderer:GetMeshes(Public, HideBySig)","contents": "ParticleSystemRenderer:GetMeshes(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+	UnityEngine.Mesh[] a1;
+	checkArray(l,2,out a1);
+	var ret=self.GetMeshes(a1);
+			{ "trigger": "ParticleSystemRenderer:SetMeshes(Public, HideBySig)","contents": "ParticleSystemRenderer:SetMeshes(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+		UnityEngine.Mesh[] a1;
+		checkArray(l,2,out a1);
+		self.SetMeshes(a1);
+		else if(argc==3){
+			UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+			UnityEngine.Mesh[] a1;
+			checkArray(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			self.SetMeshes(a1,a2);
+			get_renderMode(IntPtr l) {
+				set_renderMode(IntPtr l) {
+					UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+					UnityEngine.ParticleSystemRenderMode v;
+					checkEnum(l,2,out v);
+					self.renderMode=v;
+					get_lengthScale(IntPtr l) {
+						set_lengthScale(IntPtr l) {
+							UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.lengthScale=v;
+							get_velocityScale(IntPtr l) {
+								set_velocityScale(IntPtr l) {
+									UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.velocityScale=v;
+									get_cameraVelocityScale(IntPtr l) {
+										set_cameraVelocityScale(IntPtr l) {
+											UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.cameraVelocityScale=v;
+											get_normalDirection(IntPtr l) {
+												set_normalDirection(IntPtr l) {
+													UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.normalDirection=v;
+													get_alignment(IntPtr l) {
+														set_alignment(IntPtr l) {
+															UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+															UnityEngine.ParticleSystemRenderSpace v;
+															checkEnum(l,2,out v);
+															self.alignment=v;
+															get_pivot(IntPtr l) {
+																set_pivot(IntPtr l) {
+																	UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+																	UnityEngine.Vector3 v;
+																	checkType(l,2,out v);
+																	self.pivot=v;
+																	get_sortMode(IntPtr l) {
+																		set_sortMode(IntPtr l) {
+																			UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+																			UnityEngine.ParticleSystemSortMode v;
+																			checkEnum(l,2,out v);
+																			self.sortMode=v;
+																			get_sortingFudge(IntPtr l) {
+																				set_sortingFudge(IntPtr l) {
+																					UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.sortingFudge=v;
+																					get_minParticleSize(IntPtr l) {
+																						set_minParticleSize(IntPtr l) {
+																							UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+																							float v;
+																							checkType(l,2,out v);
+																							self.minParticleSize=v;
+																							get_maxParticleSize(IntPtr l) {
+																								set_maxParticleSize(IntPtr l) {
+																									UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.maxParticleSize=v;
+																									get_mesh(IntPtr l) {
+																										set_mesh(IntPtr l) {
+																											UnityEngine.ParticleSystemRenderer self=(UnityEngine.ParticleSystemRenderer)checkSelf(l);
+																											UnityEngine.Mesh v;
+																											checkType(l,2,out v);
+																											self.mesh=v;
+																											get_meshCount(IntPtr l) {
+																													]
+																											}
+

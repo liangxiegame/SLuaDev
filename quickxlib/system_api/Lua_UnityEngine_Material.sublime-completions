@@ -1,0 +1,422 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Material(,UnityEngine.Shader)()","contents": "UnityEngine.Material(,UnityEngine.Shader)()"},
+
+	UnityEngine.Shader a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Material()()","contents": "UnityEngine.Material()()"},
+
+			{ "trigger": "UnityEngine.Material(,UnityEngine.Material)()","contents": "UnityEngine.Material(,UnityEngine.Material)()"},
+
+	UnityEngine.Material a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Material()()","contents": "UnityEngine.Material()()"},
+
+			{ "trigger": "Material:SetColor(Public, HideBySig)","contents": "Material:SetColor(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,int,UnityEngine.Color)){
+		UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+		System.Int32 a1;
+		checkType(l,2,out a1);
+		UnityEngine.Color a2;
+		checkType(l,3,out a2);
+		self.SetColor(a1,a2);
+		else if(matchType(l,argc,2,string,UnityEngine.Color)){
+			UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			UnityEngine.Color a2;
+			checkType(l,3,out a2);
+			self.SetColor(a1,a2);
+					{ "trigger": "Material:GetColor(Public, HideBySig)","contents": "Material:GetColor(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,int)){
+				UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+				System.Int32 a1;
+				checkType(l,2,out a1);
+				var ret=self.GetColor(a1);
+				else if(matchType(l,argc,2,string)){
+					UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+					System.String a1;
+					checkType(l,2,out a1);
+					var ret=self.GetColor(a1);
+							{ "trigger": "Material:SetVector(Public, HideBySig)","contents": "Material:SetVector(Public, HideBySig)"},
+
+					if(matchType(l,argc,2,int,UnityEngine.Vector4)){
+						UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+						System.Int32 a1;
+						checkType(l,2,out a1);
+						UnityEngine.Vector4 a2;
+						checkType(l,3,out a2);
+						self.SetVector(a1,a2);
+						else if(matchType(l,argc,2,string,UnityEngine.Vector4)){
+							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+							System.String a1;
+							checkType(l,2,out a1);
+							UnityEngine.Vector4 a2;
+							checkType(l,3,out a2);
+							self.SetVector(a1,a2);
+									{ "trigger": "Material:GetVector(Public, HideBySig)","contents": "Material:GetVector(Public, HideBySig)"},
+
+							if(matchType(l,argc,2,int)){
+								UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+								System.Int32 a1;
+								checkType(l,2,out a1);
+								var ret=self.GetVector(a1);
+								else if(matchType(l,argc,2,string)){
+									UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+									System.String a1;
+									checkType(l,2,out a1);
+									var ret=self.GetVector(a1);
+											{ "trigger": "Material:SetTexture(Public, HideBySig)","contents": "Material:SetTexture(Public, HideBySig)"},
+
+									if(matchType(l,argc,2,int,UnityEngine.Texture)){
+										UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+										System.Int32 a1;
+										checkType(l,2,out a1);
+										UnityEngine.Texture a2;
+										checkType(l,3,out a2);
+										self.SetTexture(a1,a2);
+										else if(matchType(l,argc,2,string,UnityEngine.Texture)){
+											UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+											System.String a1;
+											checkType(l,2,out a1);
+											UnityEngine.Texture a2;
+											checkType(l,3,out a2);
+											self.SetTexture(a1,a2);
+													{ "trigger": "Material:GetTexture(Public, HideBySig)","contents": "Material:GetTexture(Public, HideBySig)"},
+
+											if(matchType(l,argc,2,int)){
+												UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+												System.Int32 a1;
+												checkType(l,2,out a1);
+												var ret=self.GetTexture(a1);
+												else if(matchType(l,argc,2,string)){
+													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													var ret=self.GetTexture(a1);
+															{ "trigger": "Material:SetTextureOffset(Public, HideBySig)","contents": "Material:SetTextureOffset(Public, HideBySig)"},
+
+													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													UnityEngine.Vector2 a2;
+													checkType(l,3,out a2);
+													self.SetTextureOffset(a1,a2);
+															{ "trigger": "Material:GetTextureOffset(Public, HideBySig)","contents": "Material:GetTextureOffset(Public, HideBySig)"},
+
+													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													var ret=self.GetTextureOffset(a1);
+															{ "trigger": "Material:SetTextureScale(Public, HideBySig)","contents": "Material:SetTextureScale(Public, HideBySig)"},
+
+													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													UnityEngine.Vector2 a2;
+													checkType(l,3,out a2);
+													self.SetTextureScale(a1,a2);
+															{ "trigger": "Material:GetTextureScale(Public, HideBySig)","contents": "Material:GetTextureScale(Public, HideBySig)"},
+
+													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													var ret=self.GetTextureScale(a1);
+															{ "trigger": "Material:SetMatrix(Public, HideBySig)","contents": "Material:SetMatrix(Public, HideBySig)"},
+
+													if(matchType(l,argc,2,int,UnityEngine.Matrix4x4)){
+														UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+														System.Int32 a1;
+														checkType(l,2,out a1);
+														UnityEngine.Matrix4x4 a2;
+														checkValueType(l,3,out a2);
+														self.SetMatrix(a1,a2);
+														else if(matchType(l,argc,2,string,UnityEngine.Matrix4x4)){
+															UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+															System.String a1;
+															checkType(l,2,out a1);
+															UnityEngine.Matrix4x4 a2;
+															checkValueType(l,3,out a2);
+															self.SetMatrix(a1,a2);
+																	{ "trigger": "Material:GetMatrix(Public, HideBySig)","contents": "Material:GetMatrix(Public, HideBySig)"},
+
+															if(matchType(l,argc,2,int)){
+																UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																System.Int32 a1;
+																checkType(l,2,out a1);
+																var ret=self.GetMatrix(a1);
+																else if(matchType(l,argc,2,string)){
+																	UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																	System.String a1;
+																	checkType(l,2,out a1);
+																	var ret=self.GetMatrix(a1);
+																			{ "trigger": "Material:SetFloat(Public, HideBySig)","contents": "Material:SetFloat(Public, HideBySig)"},
+
+																	if(matchType(l,argc,2,int,float)){
+																		UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																		System.Int32 a1;
+																		checkType(l,2,out a1);
+																		System.Single a2;
+																		checkType(l,3,out a2);
+																		self.SetFloat(a1,a2);
+																		else if(matchType(l,argc,2,string,float)){
+																			UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																			System.String a1;
+																			checkType(l,2,out a1);
+																			System.Single a2;
+																			checkType(l,3,out a2);
+																			self.SetFloat(a1,a2);
+																					{ "trigger": "Material:GetFloat(Public, HideBySig)","contents": "Material:GetFloat(Public, HideBySig)"},
+
+																			if(matchType(l,argc,2,int)){
+																				UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																				System.Int32 a1;
+																				checkType(l,2,out a1);
+																				var ret=self.GetFloat(a1);
+																				else if(matchType(l,argc,2,string)){
+																					UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																					System.String a1;
+																					checkType(l,2,out a1);
+																					var ret=self.GetFloat(a1);
+																							{ "trigger": "Material:SetFloatArray(Public, HideBySig)","contents": "Material:SetFloatArray(Public, HideBySig)"},
+
+																					if(matchType(l,argc,2,int,System.Single[])){
+																						UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																						System.Int32 a1;
+																						checkType(l,2,out a1);
+																						System.Single[] a2;
+																						checkArray(l,3,out a2);
+																						self.SetFloatArray(a1,a2);
+																						else if(matchType(l,argc,2,string,System.Single[])){
+																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																							System.String a1;
+																							checkType(l,2,out a1);
+																							System.Single[] a2;
+																							checkArray(l,3,out a2);
+																							self.SetFloatArray(a1,a2);
+																									{ "trigger": "Material:SetVectorArray(Public, HideBySig)","contents": "Material:SetVectorArray(Public, HideBySig)"},
+
+																							if(matchType(l,argc,2,int,UnityEngine.Vector4[])){
+																								UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																								System.Int32 a1;
+																								checkType(l,2,out a1);
+																								UnityEngine.Vector4[] a2;
+																								checkArray(l,3,out a2);
+																								self.SetVectorArray(a1,a2);
+																								else if(matchType(l,argc,2,string,UnityEngine.Vector4[])){
+																									UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																									System.String a1;
+																									checkType(l,2,out a1);
+																									UnityEngine.Vector4[] a2;
+																									checkArray(l,3,out a2);
+																									self.SetVectorArray(a1,a2);
+																											{ "trigger": "Material:SetColorArray(Public, HideBySig)","contents": "Material:SetColorArray(Public, HideBySig)"},
+
+																									if(matchType(l,argc,2,int,UnityEngine.Color[])){
+																										UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										UnityEngine.Color[] a2;
+																										checkArray(l,3,out a2);
+																										self.SetColorArray(a1,a2);
+																										else if(matchType(l,argc,2,string,UnityEngine.Color[])){
+																											UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																											System.String a1;
+																											checkType(l,2,out a1);
+																											UnityEngine.Color[] a2;
+																											checkArray(l,3,out a2);
+																											self.SetColorArray(a1,a2);
+																													{ "trigger": "Material:SetMatrixArray(Public, HideBySig)","contents": "Material:SetMatrixArray(Public, HideBySig)"},
+
+																											if(matchType(l,argc,2,int,UnityEngine.Matrix4x4[])){
+																												UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																												System.Int32 a1;
+																												checkType(l,2,out a1);
+																												UnityEngine.Matrix4x4[] a2;
+																												checkArray(l,3,out a2);
+																												self.SetMatrixArray(a1,a2);
+																												else if(matchType(l,argc,2,string,UnityEngine.Matrix4x4[])){
+																													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																													System.String a1;
+																													checkType(l,2,out a1);
+																													UnityEngine.Matrix4x4[] a2;
+																													checkArray(l,3,out a2);
+																													self.SetMatrixArray(a1,a2);
+																															{ "trigger": "Material:SetInt(Public, HideBySig)","contents": "Material:SetInt(Public, HideBySig)"},
+
+																													if(matchType(l,argc,2,int,int)){
+																														UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																														System.Int32 a1;
+																														checkType(l,2,out a1);
+																														System.Int32 a2;
+																														checkType(l,3,out a2);
+																														self.SetInt(a1,a2);
+																														else if(matchType(l,argc,2,string,int)){
+																															UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																															System.String a1;
+																															checkType(l,2,out a1);
+																															System.Int32 a2;
+																															checkType(l,3,out a2);
+																															self.SetInt(a1,a2);
+																																	{ "trigger": "Material:GetInt(Public, HideBySig)","contents": "Material:GetInt(Public, HideBySig)"},
+
+																															if(matchType(l,argc,2,int)){
+																																UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																System.Int32 a1;
+																																checkType(l,2,out a1);
+																																var ret=self.GetInt(a1);
+																																else if(matchType(l,argc,2,string)){
+																																	UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																	System.String a1;
+																																	checkType(l,2,out a1);
+																																	var ret=self.GetInt(a1);
+																																			{ "trigger": "Material:SetBuffer(Public, HideBySig)","contents": "Material:SetBuffer(Public, HideBySig)"},
+
+																																	if(matchType(l,argc,2,int,UnityEngine.ComputeBuffer)){
+																																		UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																		System.Int32 a1;
+																																		checkType(l,2,out a1);
+																																		UnityEngine.ComputeBuffer a2;
+																																		checkType(l,3,out a2);
+																																		self.SetBuffer(a1,a2);
+																																		else if(matchType(l,argc,2,string,UnityEngine.ComputeBuffer)){
+																																			UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																			System.String a1;
+																																			checkType(l,2,out a1);
+																																			UnityEngine.ComputeBuffer a2;
+																																			checkType(l,3,out a2);
+																																			self.SetBuffer(a1,a2);
+																																					{ "trigger": "Material:HasProperty(Public, HideBySig)","contents": "Material:HasProperty(Public, HideBySig)"},
+
+																																			if(matchType(l,argc,2,int)){
+																																				UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																				System.Int32 a1;
+																																				checkType(l,2,out a1);
+																																				var ret=self.HasProperty(a1);
+																																				else if(matchType(l,argc,2,string)){
+																																					UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																					System.String a1;
+																																					checkType(l,2,out a1);
+																																					var ret=self.HasProperty(a1);
+																																							{ "trigger": "Material:GetTag(Public, HideBySig)","contents": "Material:GetTag(Public, HideBySig)"},
+
+																																					if(argc==3){
+																																						UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																						System.String a1;
+																																						checkType(l,2,out a1);
+																																						System.Boolean a2;
+																																						checkType(l,3,out a2);
+																																						var ret=self.GetTag(a1,a2);
+																																						else if(argc==4){
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							System.String a1;
+																																							checkType(l,2,out a1);
+																																							System.Boolean a2;
+																																							checkType(l,3,out a2);
+																																							System.String a3;
+																																							checkType(l,4,out a3);
+																																							var ret=self.GetTag(a1,a2,a3);
+																																									{ "trigger": "Material:SetOverrideTag(Public, HideBySig)","contents": "Material:SetOverrideTag(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							System.String a1;
+																																							checkType(l,2,out a1);
+																																							System.String a2;
+																																							checkType(l,3,out a2);
+																																							self.SetOverrideTag(a1,a2);
+																																									{ "trigger": "Material:Lerp(Public, HideBySig)","contents": "Material:Lerp(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							UnityEngine.Material a1;
+																																							checkType(l,2,out a1);
+																																							UnityEngine.Material a2;
+																																							checkType(l,3,out a2);
+																																							System.Single a3;
+																																							checkType(l,4,out a3);
+																																							self.Lerp(a1,a2,a3);
+																																									{ "trigger": "Material:SetPass(Public, HideBySig)","contents": "Material:SetPass(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							System.Int32 a1;
+																																							checkType(l,2,out a1);
+																																							var ret=self.SetPass(a1);
+																																									{ "trigger": "Material:CopyPropertiesFromMaterial(Public, HideBySig)","contents": "Material:CopyPropertiesFromMaterial(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							UnityEngine.Material a1;
+																																							checkType(l,2,out a1);
+																																							self.CopyPropertiesFromMaterial(a1);
+																																									{ "trigger": "Material:EnableKeyword(Public, HideBySig)","contents": "Material:EnableKeyword(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							System.String a1;
+																																							checkType(l,2,out a1);
+																																							self.EnableKeyword(a1);
+																																									{ "trigger": "Material:DisableKeyword(Public, HideBySig)","contents": "Material:DisableKeyword(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							System.String a1;
+																																							checkType(l,2,out a1);
+																																							self.DisableKeyword(a1);
+																																									{ "trigger": "Material:IsKeywordEnabled(Public, HideBySig)","contents": "Material:IsKeywordEnabled(Public, HideBySig)"},
+
+																																							UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																							System.String a1;
+																																							checkType(l,2,out a1);
+																																							var ret=self.IsKeywordEnabled(a1);
+																																							get_shader(IntPtr l) {
+																																								set_shader(IntPtr l) {
+																																									UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																									UnityEngine.Shader v;
+																																									checkType(l,2,out v);
+																																									self.shader=v;
+																																									get_color(IntPtr l) {
+																																										set_color(IntPtr l) {
+																																											UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																											UnityEngine.Color v;
+																																											checkType(l,2,out v);
+																																											self.color=v;
+																																											get_mainTexture(IntPtr l) {
+																																												set_mainTexture(IntPtr l) {
+																																													UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																													UnityEngine.Texture v;
+																																													checkType(l,2,out v);
+																																													self.mainTexture=v;
+																																													get_mainTextureOffset(IntPtr l) {
+																																														set_mainTextureOffset(IntPtr l) {
+																																															UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																															UnityEngine.Vector2 v;
+																																															checkType(l,2,out v);
+																																															self.mainTextureOffset=v;
+																																															get_mainTextureScale(IntPtr l) {
+																																																set_mainTextureScale(IntPtr l) {
+																																																	UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																																	UnityEngine.Vector2 v;
+																																																	checkType(l,2,out v);
+																																																	self.mainTextureScale=v;
+																																																	get_passCount(IntPtr l) {
+																																																		get_renderQueue(IntPtr l) {
+																																																			set_renderQueue(IntPtr l) {
+																																																				UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																																				int v;
+																																																				checkType(l,2,out v);
+																																																				self.renderQueue=v;
+																																																				get_shaderKeywords(IntPtr l) {
+																																																					set_shaderKeywords(IntPtr l) {
+																																																						UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																																						System.String[] v;
+																																																						checkArray(l,2,out v);
+																																																						self.shaderKeywords=v;
+																																																						get_globalIlluminationFlags(IntPtr l) {
+																																																							set_globalIlluminationFlags(IntPtr l) {
+																																																								UnityEngine.Material self=(UnityEngine.Material)checkSelf(l);
+																																																								UnityEngine.MaterialGlobalIlluminationFlags v;
+																																																								checkEnum(l,2,out v);
+																																																								self.globalIlluminationFlags=v;
+																																																									]
+																																																							}
+

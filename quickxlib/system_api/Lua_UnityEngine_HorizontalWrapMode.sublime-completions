@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.HorizontalWrapMode");
+	addMember(l,0,"Wrap");
+	addMember(l,1,"Overflow");
+		]
+}
+

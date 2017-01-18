@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ImagePosition");
+	addMember(l,0,"ImageLeft");
+	addMember(l,1,"ImageAbove");
+	addMember(l,2,"ImageOnly");
+	addMember(l,3,"TextOnly");
+		]
+}
+

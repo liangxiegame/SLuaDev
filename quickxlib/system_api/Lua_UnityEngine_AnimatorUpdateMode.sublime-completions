@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AnimatorUpdateMode");
+	addMember(l,0,"Normal");
+	addMember(l,1,"AnimatePhysics");
+	addMember(l,2,"UnscaledTime");
+		]
+}
+

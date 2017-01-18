@@ -1,0 +1,10 @@
+﻿
+Callback<System.String,UnityEngine.AssetBundle,System.Object> 
+                ua = (Callback<System.String,UnityEngine.AssetBundle,System.Object>)checkObj(l, p);
+                ua = (Callback<System.String,UnityEngine.AssetBundle,System.Object>)ld.d;
+            ua = (string a1,UnityEngine.AssetBundle a2,System.Object a3) =>
+
+				pushValue(l,a1);
+				pushValue(l,a2);
+				pushValue(l,a3);
+				ld.pcall(3, error);

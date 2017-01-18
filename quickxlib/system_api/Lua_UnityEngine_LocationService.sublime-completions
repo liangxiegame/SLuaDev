@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LocationService()()","contents": "UnityEngine.LocationService()()"},
+
+			{ "trigger": "LocationService:Start(Public, HideBySig)","contents": "LocationService:Start(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.LocationService self=(UnityEngine.LocationService)checkSelf(l);
+		self.Start();
+		else if(argc==2){
+			UnityEngine.LocationService self=(UnityEngine.LocationService)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			self.Start(a1);
+			else if(argc==3){
+				UnityEngine.LocationService self=(UnityEngine.LocationService)checkSelf(l);
+				System.Single a1;
+				checkType(l,2,out a1);
+				System.Single a2;
+				checkType(l,3,out a2);
+				self.Start(a1,a2);
+						{ "trigger": "LocationService:Stop(Public, HideBySig)","contents": "LocationService:Stop(Public, HideBySig)"},
+
+				UnityEngine.LocationService self=(UnityEngine.LocationService)checkSelf(l);
+				self.Stop();
+				get_isEnabledByUser(IntPtr l) {
+					get_status(IntPtr l) {
+						get_lastData(IntPtr l) {
+								]
+						}
+

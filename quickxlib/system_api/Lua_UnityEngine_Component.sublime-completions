@@ -1,0 +1,187 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Component()()","contents": "UnityEngine.Component()()"},
+
+			{ "trigger": "Component:GetComponent(Public, HideBySig)","contents": "Component:GetComponent(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,string)){
+		UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+		System.String a1;
+		checkType(l,2,out a1);
+		var ret=self.GetComponent(a1);
+		else if(matchType(l,argc,2,System.Type)){
+			UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+			System.Type a1;
+			checkType(l,2,out a1);
+			var ret=self.GetComponent(a1);
+					{ "trigger": "Component:GetComponentInChildren(Public, HideBySig)","contents": "Component:GetComponentInChildren(Public, HideBySig)"},
+
+			if(argc==2){
+				UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+				System.Type a1;
+				checkType(l,2,out a1);
+				var ret=self.GetComponentInChildren(a1);
+				else if(argc==3){
+					UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+					System.Type a1;
+					checkType(l,2,out a1);
+					System.Boolean a2;
+					checkType(l,3,out a2);
+					var ret=self.GetComponentInChildren(a1,a2);
+							{ "trigger": "Component:GetComponentsInChildren(Public, HideBySig)","contents": "Component:GetComponentsInChildren(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+						System.Type a1;
+						checkType(l,2,out a1);
+						var ret=self.GetComponentsInChildren(a1);
+						else if(argc==3){
+							UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+							System.Type a1;
+							checkType(l,2,out a1);
+							System.Boolean a2;
+							checkType(l,3,out a2);
+							var ret=self.GetComponentsInChildren(a1,a2);
+									{ "trigger": "Component:GetComponentInParent(Public, HideBySig)","contents": "Component:GetComponentInParent(Public, HideBySig)"},
+
+							UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+							System.Type a1;
+							checkType(l,2,out a1);
+							var ret=self.GetComponentInParent(a1);
+									{ "trigger": "Component:GetComponentsInParent(Public, HideBySig)","contents": "Component:GetComponentsInParent(Public, HideBySig)"},
+
+							if(argc==2){
+								UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+								System.Type a1;
+								checkType(l,2,out a1);
+								var ret=self.GetComponentsInParent(a1);
+								else if(argc==3){
+									UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+									System.Type a1;
+									checkType(l,2,out a1);
+									System.Boolean a2;
+									checkType(l,3,out a2);
+									var ret=self.GetComponentsInParent(a1,a2);
+											{ "trigger": "Component:GetComponents(Public, HideBySig)","contents": "Component:GetComponents(Public, HideBySig)"},
+
+									if(argc==2){
+										UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+										System.Type a1;
+										checkType(l,2,out a1);
+										var ret=self.GetComponents(a1);
+										else if(argc==3){
+											UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+											System.Type a1;
+											checkType(l,2,out a1);
+											System.Collections.Generic.List<UnityEngine.Component> a2;
+											checkType(l,3,out a2);
+											self.GetComponents(a1,a2);
+													{ "trigger": "Component:CompareTag(Public, HideBySig)","contents": "Component:CompareTag(Public, HideBySig)"},
+
+											UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+											System.String a1;
+											checkType(l,2,out a1);
+											var ret=self.CompareTag(a1);
+													{ "trigger": "Component:SendMessageUpwards(Public, HideBySig)","contents": "Component:SendMessageUpwards(Public, HideBySig)"},
+
+											if(argc==2){
+												UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+												System.String a1;
+												checkType(l,2,out a1);
+												self.SendMessageUpwards(a1);
+												else if(matchType(l,argc,2,string,UnityEngine.SendMessageOptions)){
+													UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													UnityEngine.SendMessageOptions a2;
+													checkEnum(l,3,out a2);
+													self.SendMessageUpwards(a1,a2);
+													else if(matchType(l,argc,2,string,System.Object)){
+														UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+														System.String a1;
+														checkType(l,2,out a1);
+														System.Object a2;
+														checkType(l,3,out a2);
+														self.SendMessageUpwards(a1,a2);
+														else if(argc==4){
+															UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+															System.String a1;
+															checkType(l,2,out a1);
+															System.Object a2;
+															checkType(l,3,out a2);
+															UnityEngine.SendMessageOptions a3;
+															checkEnum(l,4,out a3);
+															self.SendMessageUpwards(a1,a2,a3);
+																	{ "trigger": "Component:SendMessage(Public, HideBySig)","contents": "Component:SendMessage(Public, HideBySig)"},
+
+															if(argc==2){
+																UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																System.String a1;
+																checkType(l,2,out a1);
+																self.SendMessage(a1);
+																else if(matchType(l,argc,2,string,UnityEngine.SendMessageOptions)){
+																	UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																	System.String a1;
+																	checkType(l,2,out a1);
+																	UnityEngine.SendMessageOptions a2;
+																	checkEnum(l,3,out a2);
+																	self.SendMessage(a1,a2);
+																	else if(matchType(l,argc,2,string,System.Object)){
+																		UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																		System.String a1;
+																		checkType(l,2,out a1);
+																		System.Object a2;
+																		checkType(l,3,out a2);
+																		self.SendMessage(a1,a2);
+																		else if(argc==4){
+																			UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																			System.String a1;
+																			checkType(l,2,out a1);
+																			System.Object a2;
+																			checkType(l,3,out a2);
+																			UnityEngine.SendMessageOptions a3;
+																			checkEnum(l,4,out a3);
+																			self.SendMessage(a1,a2,a3);
+																					{ "trigger": "Component:BroadcastMessage(Public, HideBySig)","contents": "Component:BroadcastMessage(Public, HideBySig)"},
+
+																			if(argc==2){
+																				UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																				System.String a1;
+																				checkType(l,2,out a1);
+																				self.BroadcastMessage(a1);
+																				else if(matchType(l,argc,2,string,UnityEngine.SendMessageOptions)){
+																					UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																					System.String a1;
+																					checkType(l,2,out a1);
+																					UnityEngine.SendMessageOptions a2;
+																					checkEnum(l,3,out a2);
+																					self.BroadcastMessage(a1,a2);
+																					else if(matchType(l,argc,2,string,System.Object)){
+																						UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																						System.String a1;
+																						checkType(l,2,out a1);
+																						System.Object a2;
+																						checkType(l,3,out a2);
+																						self.BroadcastMessage(a1,a2);
+																						else if(argc==4){
+																							UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																							System.String a1;
+																							checkType(l,2,out a1);
+																							System.Object a2;
+																							checkType(l,3,out a2);
+																							UnityEngine.SendMessageOptions a3;
+																							checkEnum(l,4,out a3);
+																							self.BroadcastMessage(a1,a2,a3);
+																							get_transform(IntPtr l) {
+																								get_gameObject(IntPtr l) {
+																									get_tag(IntPtr l) {
+																										set_tag(IntPtr l) {
+																											UnityEngine.Component self=(UnityEngine.Component)checkSelf(l);
+																											string v;
+																											checkType(l,2,out v);
+																											self.tag=v;
+																												]
+																										}
+

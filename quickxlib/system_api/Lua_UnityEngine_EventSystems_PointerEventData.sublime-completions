@@ -1,0 +1,130 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.EventSystems.EventSystem a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.EventSystems.PointerEventData()()","contents": "UnityEngine.EventSystems.PointerEventData()()"},
+
+			{ "trigger": "PointerEventData:IsPointerMoving(Public, HideBySig)","contents": "PointerEventData:IsPointerMoving(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+	var ret=self.IsPointerMoving();
+			{ "trigger": "PointerEventData:IsScrolling(Public, HideBySig)","contents": "PointerEventData:IsScrolling(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+	var ret=self.IsScrolling();
+	hovered
+	set_hovered(IntPtr l) {
+		UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+		System.Collections.Generic.List<UnityEngine.GameObject> v;
+		checkType(l,2,out v);
+		self.hovered=v;
+		get_pointerEnter(IntPtr l) {
+			set_pointerEnter(IntPtr l) {
+				UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+				UnityEngine.GameObject v;
+				checkType(l,2,out v);
+				self.pointerEnter=v;
+				get_lastPress(IntPtr l) {
+					get_rawPointerPress(IntPtr l) {
+						set_rawPointerPress(IntPtr l) {
+							UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+							UnityEngine.GameObject v;
+							checkType(l,2,out v);
+							self.rawPointerPress=v;
+							get_pointerDrag(IntPtr l) {
+								set_pointerDrag(IntPtr l) {
+									UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+									UnityEngine.GameObject v;
+									checkType(l,2,out v);
+									self.pointerDrag=v;
+									get_pointerCurrentRaycast(IntPtr l) {
+										set_pointerCurrentRaycast(IntPtr l) {
+											UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+											UnityEngine.EventSystems.RaycastResult v;
+											checkValueType(l,2,out v);
+											self.pointerCurrentRaycast=v;
+											get_pointerPressRaycast(IntPtr l) {
+												set_pointerPressRaycast(IntPtr l) {
+													UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+													UnityEngine.EventSystems.RaycastResult v;
+													checkValueType(l,2,out v);
+													self.pointerPressRaycast=v;
+													get_eligibleForClick(IntPtr l) {
+														set_eligibleForClick(IntPtr l) {
+															UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+															bool v;
+															checkType(l,2,out v);
+															self.eligibleForClick=v;
+															get_pointerId(IntPtr l) {
+																set_pointerId(IntPtr l) {
+																	UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																	int v;
+																	checkType(l,2,out v);
+																	self.pointerId=v;
+																	get_position(IntPtr l) {
+																		set_position(IntPtr l) {
+																			UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																			UnityEngine.Vector2 v;
+																			checkType(l,2,out v);
+																			self.position=v;
+																			get_delta(IntPtr l) {
+																				set_delta(IntPtr l) {
+																					UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																					UnityEngine.Vector2 v;
+																					checkType(l,2,out v);
+																					self.delta=v;
+																					get_pressPosition(IntPtr l) {
+																						set_pressPosition(IntPtr l) {
+																							UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																							UnityEngine.Vector2 v;
+																							checkType(l,2,out v);
+																							self.pressPosition=v;
+																							get_clickTime(IntPtr l) {
+																								set_clickTime(IntPtr l) {
+																									UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.clickTime=v;
+																									get_clickCount(IntPtr l) {
+																										set_clickCount(IntPtr l) {
+																											UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																											int v;
+																											checkType(l,2,out v);
+																											self.clickCount=v;
+																											get_scrollDelta(IntPtr l) {
+																												set_scrollDelta(IntPtr l) {
+																													UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																													UnityEngine.Vector2 v;
+																													checkType(l,2,out v);
+																													self.scrollDelta=v;
+																													get_useDragThreshold(IntPtr l) {
+																														set_useDragThreshold(IntPtr l) {
+																															UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																															bool v;
+																															checkType(l,2,out v);
+																															self.useDragThreshold=v;
+																															get_dragging(IntPtr l) {
+																																set_dragging(IntPtr l) {
+																																	UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																																	bool v;
+																																	checkType(l,2,out v);
+																																	self.dragging=v;
+																																	get_button(IntPtr l) {
+																																		set_button(IntPtr l) {
+																																			UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																																			UnityEngine.EventSystems.PointerEventData.InputButton v;
+																																			checkEnum(l,2,out v);
+																																			self.button=v;
+																																			get_enterEventCamera(IntPtr l) {
+																																				get_pressEventCamera(IntPtr l) {
+																																					get_pointerPress(IntPtr l) {
+																																						set_pointerPress(IntPtr l) {
+																																							UnityEngine.EventSystems.PointerEventData self=(UnityEngine.EventSystems.PointerEventData)checkSelf(l);
+																																							UnityEngine.GameObject v;
+																																							checkType(l,2,out v);
+																																							self.pointerPress=v;
+																																								]
+																																						}
+

@@ -1,0 +1,164 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Light()()","contents": "UnityEngine.Light()()"},
+
+			{ "trigger": "Light:AddCommandBuffer(Public, HideBySig)","contents": "Light:AddCommandBuffer(Public, HideBySig)"},
+
+	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+	UnityEngine.Rendering.LightEvent a1;
+	checkEnum(l,2,out a1);
+	UnityEngine.Rendering.CommandBuffer a2;
+	checkType(l,3,out a2);
+	self.AddCommandBuffer(a1,a2);
+			{ "trigger": "Light:RemoveCommandBuffer(Public, HideBySig)","contents": "Light:RemoveCommandBuffer(Public, HideBySig)"},
+
+	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+	UnityEngine.Rendering.LightEvent a1;
+	checkEnum(l,2,out a1);
+	UnityEngine.Rendering.CommandBuffer a2;
+	checkType(l,3,out a2);
+	self.RemoveCommandBuffer(a1,a2);
+			{ "trigger": "Light:RemoveCommandBuffers(Public, HideBySig)","contents": "Light:RemoveCommandBuffers(Public, HideBySig)"},
+
+	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+	UnityEngine.Rendering.LightEvent a1;
+	checkEnum(l,2,out a1);
+	self.RemoveCommandBuffers(a1);
+			{ "trigger": "Light:RemoveAllCommandBuffers(Public, HideBySig)","contents": "Light:RemoveAllCommandBuffers(Public, HideBySig)"},
+
+	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+	self.RemoveAllCommandBuffers();
+			{ "trigger": "Light:GetCommandBuffers(Public, HideBySig)","contents": "Light:GetCommandBuffers(Public, HideBySig)"},
+
+	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+	UnityEngine.Rendering.LightEvent a1;
+	checkEnum(l,2,out a1);
+	var ret=self.GetCommandBuffers(a1);
+			{ "trigger": "Light.GetLights(Public, Static, HideBySig)","contents": "Light.GetLights(Public, Static, HideBySig)"},
+
+	UnityEngine.LightType a1;
+	checkEnum(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.Light.GetLights(a1,a2);
+	get_type(IntPtr l) {
+		set_type(IntPtr l) {
+			UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+			UnityEngine.LightType v;
+			checkEnum(l,2,out v);
+			self.type=v;
+			get_color(IntPtr l) {
+				set_color(IntPtr l) {
+					UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+					UnityEngine.Color v;
+					checkType(l,2,out v);
+					self.color=v;
+					get_intensity(IntPtr l) {
+						set_intensity(IntPtr l) {
+							UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.intensity=v;
+							get_bounceIntensity(IntPtr l) {
+								set_bounceIntensity(IntPtr l) {
+									UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.bounceIntensity=v;
+									get_shadows(IntPtr l) {
+										set_shadows(IntPtr l) {
+											UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+											UnityEngine.LightShadows v;
+											checkEnum(l,2,out v);
+											self.shadows=v;
+											get_shadowStrength(IntPtr l) {
+												set_shadowStrength(IntPtr l) {
+													UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.shadowStrength=v;
+													get_shadowResolution(IntPtr l) {
+														set_shadowResolution(IntPtr l) {
+															UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+															UnityEngine.LightShadowResolution v;
+															checkEnum(l,2,out v);
+															self.shadowResolution=v;
+															get_shadowCustomResolution(IntPtr l) {
+																set_shadowCustomResolution(IntPtr l) {
+																	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																	int v;
+																	checkType(l,2,out v);
+																	self.shadowCustomResolution=v;
+																	get_shadowBias(IntPtr l) {
+																		set_shadowBias(IntPtr l) {
+																			UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.shadowBias=v;
+																			get_shadowNormalBias(IntPtr l) {
+																				set_shadowNormalBias(IntPtr l) {
+																					UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.shadowNormalBias=v;
+																					get_shadowNearPlane(IntPtr l) {
+																						set_shadowNearPlane(IntPtr l) {
+																							UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																							float v;
+																							checkType(l,2,out v);
+																							self.shadowNearPlane=v;
+																							get_range(IntPtr l) {
+																								set_range(IntPtr l) {
+																									UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.range=v;
+																									get_spotAngle(IntPtr l) {
+																										set_spotAngle(IntPtr l) {
+																											UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																											float v;
+																											checkType(l,2,out v);
+																											self.spotAngle=v;
+																											get_cookieSize(IntPtr l) {
+																												set_cookieSize(IntPtr l) {
+																													UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																													float v;
+																													checkType(l,2,out v);
+																													self.cookieSize=v;
+																													get_cookie(IntPtr l) {
+																														set_cookie(IntPtr l) {
+																															UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																															UnityEngine.Texture v;
+																															checkType(l,2,out v);
+																															self.cookie=v;
+																															get_flare(IntPtr l) {
+																																set_flare(IntPtr l) {
+																																	UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																																	UnityEngine.Flare v;
+																																	checkType(l,2,out v);
+																																	self.flare=v;
+																																	get_renderMode(IntPtr l) {
+																																		set_renderMode(IntPtr l) {
+																																			UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																																			UnityEngine.LightRenderMode v;
+																																			checkEnum(l,2,out v);
+																																			self.renderMode=v;
+																																			get_bakedIndex(IntPtr l) {
+																																				set_bakedIndex(IntPtr l) {
+																																					UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																																					int v;
+																																					checkType(l,2,out v);
+																																					self.bakedIndex=v;
+																																					get_isBaked(IntPtr l) {
+																																						get_cullingMask(IntPtr l) {
+																																							set_cullingMask(IntPtr l) {
+																																								UnityEngine.Light self=(UnityEngine.Light)checkSelf(l);
+																																								int v;
+																																								checkType(l,2,out v);
+																																								self.cullingMask=v;
+																																								get_commandBufferCount(IntPtr l) {
+																																										]
+																																								}
+

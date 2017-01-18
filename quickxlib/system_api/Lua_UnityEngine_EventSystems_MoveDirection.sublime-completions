@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.EventSystems.MoveDirection");
+	addMember(l,0,"Left");
+	addMember(l,1,"Up");
+	addMember(l,2,"Right");
+	addMember(l,3,"Down");
+	addMember(l,4,"None");
+		]
+}
+

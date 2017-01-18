@@ -1,0 +1,156 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UIEventListener()()","contents": "UIEventListener()()"},
+
+			{ "trigger": "UIEventListener:OnPointerClick(Public, Virtual, HideBySig)","contents": "UIEventListener:OnPointerClick(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerClick(a1);
+			{ "trigger": "UIEventListener:OnPointerDown(Public, Virtual, HideBySig)","contents": "UIEventListener:OnPointerDown(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerDown(a1);
+			{ "trigger": "UIEventListener:OnPointerEnter(Public, Virtual, HideBySig)","contents": "UIEventListener:OnPointerEnter(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerEnter(a1);
+			{ "trigger": "UIEventListener:OnPointerExit(Public, Virtual, HideBySig)","contents": "UIEventListener:OnPointerExit(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerExit(a1);
+			{ "trigger": "UIEventListener:OnPointerUp(Public, Virtual, HideBySig)","contents": "UIEventListener:OnPointerUp(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerUp(a1);
+			{ "trigger": "UIEventListener:OnSelect(Public, Virtual, HideBySig)","contents": "UIEventListener:OnSelect(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSelect(a1);
+			{ "trigger": "UIEventListener:OnUpdateSelected(Public, Virtual, HideBySig)","contents": "UIEventListener:OnUpdateSelected(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnUpdateSelected(a1);
+			{ "trigger": "UIEventListener:OnBeginDrag(Public, Virtual, HideBySig)","contents": "UIEventListener:OnBeginDrag(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnBeginDrag(a1);
+			{ "trigger": "UIEventListener:OnEndDrag(Public, Virtual, HideBySig)","contents": "UIEventListener:OnEndDrag(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnEndDrag(a1);
+			{ "trigger": "UIEventListener:OnDrag(Public, Virtual, HideBySig)","contents": "UIEventListener:OnDrag(Public, Virtual, HideBySig)"},
+
+	UIEventListener self=(UIEventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnDrag(a1);
+			{ "trigger": "UIEventListener.CheckAndAddListener(Public, Static, HideBySig)","contents": "UIEventListener.CheckAndAddListener(Public, Static, HideBySig)"},
+
+	UnityEngine.GameObject a1;
+	checkType(l,1,out a1);
+	var ret=UIEventListener.CheckAndAddListener(a1);
+			{ "trigger": "UIEventListener.Get(Public, Static, HideBySig)","contents": "UIEventListener.Get(Public, Static, HideBySig)"},
+
+	UnityEngine.GameObject a1;
+	checkType(l,1,out a1);
+	var ret=UIEventListener.Get(a1);
+	set_onClick(IntPtr l) {
+		UIEventListener self=(UIEventListener)checkSelf(l);
+		VoidDelegate.WithVoid v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) self.onClick=v;
+		else if(op==1) self.onClick+=v;
+		else if(op==2) self.onClick-=v;
+		set_onSelect(IntPtr l) {
+			UIEventListener self=(UIEventListener)checkSelf(l);
+			VoidDelegate.WithGo v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) self.onSelect=v;
+			else if(op==1) self.onSelect+=v;
+			else if(op==2) self.onSelect-=v;
+			set_onUpdateSelect(IntPtr l) {
+				UIEventListener self=(UIEventListener)checkSelf(l);
+				VoidDelegate.WithGo v;
+				int op=LuaDelegation.checkDelegate(l,2,out v);
+				if(op==0) self.onUpdateSelect=v;
+				else if(op==1) self.onUpdateSelect+=v;
+				else if(op==2) self.onUpdateSelect-=v;
+				set_onPointerDown(IntPtr l) {
+					UIEventListener self=(UIEventListener)checkSelf(l);
+					VoidDelegate.WithEvent v;
+					int op=LuaDelegation.checkDelegate(l,2,out v);
+					if(op==0) self.onPointerDown=v;
+					else if(op==1) self.onPointerDown+=v;
+					else if(op==2) self.onPointerDown-=v;
+					set_onPointerEnter(IntPtr l) {
+						UIEventListener self=(UIEventListener)checkSelf(l);
+						VoidDelegate.WithEvent v;
+						int op=LuaDelegation.checkDelegate(l,2,out v);
+						if(op==0) self.onPointerEnter=v;
+						else if(op==1) self.onPointerEnter+=v;
+						else if(op==2) self.onPointerEnter-=v;
+						set_onPointerExit(IntPtr l) {
+							UIEventListener self=(UIEventListener)checkSelf(l);
+							VoidDelegate.WithEvent v;
+							int op=LuaDelegation.checkDelegate(l,2,out v);
+							if(op==0) self.onPointerExit=v;
+							else if(op==1) self.onPointerExit+=v;
+							else if(op==2) self.onPointerExit-=v;
+							set_onPointerUp(IntPtr l) {
+								UIEventListener self=(UIEventListener)checkSelf(l);
+								VoidDelegate.WithEvent v;
+								int op=LuaDelegation.checkDelegate(l,2,out v);
+								if(op==0) self.onPointerUp=v;
+								else if(op==1) self.onPointerUp+=v;
+								else if(op==2) self.onPointerUp-=v;
+								set_onBeginDrag(IntPtr l) {
+									UIEventListener self=(UIEventListener)checkSelf(l);
+									VoidDelegate.WithEvent v;
+									int op=LuaDelegation.checkDelegate(l,2,out v);
+									if(op==0) self.onBeginDrag=v;
+									else if(op==1) self.onBeginDrag+=v;
+									else if(op==2) self.onBeginDrag-=v;
+									set_onEndDrag(IntPtr l) {
+										UIEventListener self=(UIEventListener)checkSelf(l);
+										VoidDelegate.WithEvent v;
+										int op=LuaDelegation.checkDelegate(l,2,out v);
+										if(op==0) self.onEndDrag=v;
+										else if(op==1) self.onEndDrag+=v;
+										else if(op==2) self.onEndDrag-=v;
+										set_onDrag(IntPtr l) {
+											UIEventListener self=(UIEventListener)checkSelf(l);
+											VoidDelegate.WithEvent v;
+											int op=LuaDelegation.checkDelegate(l,2,out v);
+											if(op==0) self.onDrag=v;
+											else if(op==1) self.onDrag+=v;
+											else if(op==2) self.onDrag-=v;
+											set_onValueChanged(IntPtr l) {
+												UIEventListener self=(UIEventListener)checkSelf(l);
+												VoidDelegate.WithBool v;
+												int op=LuaDelegation.checkDelegate(l,2,out v);
+												if(op==0) self.onValueChanged=v;
+												else if(op==1) self.onValueChanged+=v;
+												else if(op==2) self.onValueChanged-=v;
+													]
+											}
+

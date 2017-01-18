@@ -1,0 +1,30 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UILineInfo()()","contents": "UnityEngine.UILineInfo()()"},
+
+	startCharIdx
+	set_startCharIdx(IntPtr l) {
+		UnityEngine.UILineInfo self;
+		checkValueType(l,1,out self);
+		System.Int32 v;
+		checkType(l,2,out v);
+		self.startCharIdx=v;
+		height
+		set_height(IntPtr l) {
+			UnityEngine.UILineInfo self;
+			checkValueType(l,1,out self);
+			System.Int32 v;
+			checkType(l,2,out v);
+			self.height=v;
+			topY
+			set_topY(IntPtr l) {
+				UnityEngine.UILineInfo self;
+				checkValueType(l,1,out self);
+				System.Single v;
+				checkType(l,2,out v);
+				self.topY=v;
+					]
+			}
+

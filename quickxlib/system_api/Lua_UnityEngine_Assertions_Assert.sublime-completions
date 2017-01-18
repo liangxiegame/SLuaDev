@@ -1,0 +1,136 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Assert.IsTrue(Public, Static, HideBySig)","contents": "Assert.IsTrue(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		System.Boolean a1;
+		checkType(l,1,out a1);
+		UnityEngine.Assertions.Assert.IsTrue(a1);
+		else if(argc==2){
+			System.Boolean a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			UnityEngine.Assertions.Assert.IsTrue(a1,a2);
+					{ "trigger": "Assert.IsFalse(Public, Static, HideBySig)","contents": "Assert.IsFalse(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				System.Boolean a1;
+				checkType(l,1,out a1);
+				UnityEngine.Assertions.Assert.IsFalse(a1);
+				else if(argc==2){
+					System.Boolean a1;
+					checkType(l,1,out a1);
+					System.String a2;
+					checkType(l,2,out a2);
+					UnityEngine.Assertions.Assert.IsFalse(a1,a2);
+							{ "trigger": "Assert.AreApproximatelyEqual(Public, Static, HideBySig)","contents": "Assert.AreApproximatelyEqual(Public, Static, HideBySig)"},
+
+					if(argc==2){
+						System.Single a1;
+						checkType(l,1,out a1);
+						System.Single a2;
+						checkType(l,2,out a2);
+						UnityEngine.Assertions.Assert.AreApproximatelyEqual(a1,a2);
+						else if(matchType(l,argc,1,float,float,float)){
+							System.Single a1;
+							checkType(l,1,out a1);
+							System.Single a2;
+							checkType(l,2,out a2);
+							System.Single a3;
+							checkType(l,3,out a3);
+							UnityEngine.Assertions.Assert.AreApproximatelyEqual(a1,a2,a3);
+							else if(matchType(l,argc,1,float,float,string)){
+								System.Single a1;
+								checkType(l,1,out a1);
+								System.Single a2;
+								checkType(l,2,out a2);
+								System.String a3;
+								checkType(l,3,out a3);
+								UnityEngine.Assertions.Assert.AreApproximatelyEqual(a1,a2,a3);
+								else if(argc==4){
+									System.Single a1;
+									checkType(l,1,out a1);
+									System.Single a2;
+									checkType(l,2,out a2);
+									System.Single a3;
+									checkType(l,3,out a3);
+									System.String a4;
+									checkType(l,4,out a4);
+									UnityEngine.Assertions.Assert.AreApproximatelyEqual(a1,a2,a3,a4);
+											{ "trigger": "Assert.AreNotApproximatelyEqual(Public, Static, HideBySig)","contents": "Assert.AreNotApproximatelyEqual(Public, Static, HideBySig)"},
+
+									if(argc==2){
+										System.Single a1;
+										checkType(l,1,out a1);
+										System.Single a2;
+										checkType(l,2,out a2);
+										UnityEngine.Assertions.Assert.AreNotApproximatelyEqual(a1,a2);
+										else if(matchType(l,argc,1,float,float,float)){
+											System.Single a1;
+											checkType(l,1,out a1);
+											System.Single a2;
+											checkType(l,2,out a2);
+											System.Single a3;
+											checkType(l,3,out a3);
+											UnityEngine.Assertions.Assert.AreNotApproximatelyEqual(a1,a2,a3);
+											else if(matchType(l,argc,1,float,float,string)){
+												System.Single a1;
+												checkType(l,1,out a1);
+												System.Single a2;
+												checkType(l,2,out a2);
+												System.String a3;
+												checkType(l,3,out a3);
+												UnityEngine.Assertions.Assert.AreNotApproximatelyEqual(a1,a2,a3);
+												else if(argc==4){
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													System.String a4;
+													checkType(l,4,out a4);
+													UnityEngine.Assertions.Assert.AreNotApproximatelyEqual(a1,a2,a3,a4);
+															{ "trigger": "Assert.AreEqual(Public, Static, HideBySig)","contents": "Assert.AreEqual(Public, Static, HideBySig)"},
+
+													UnityEngine.Object a1;
+													checkType(l,1,out a1);
+													UnityEngine.Object a2;
+													checkType(l,2,out a2);
+													System.String a3;
+													checkType(l,3,out a3);
+													UnityEngine.Assertions.Assert.AreEqual(a1,a2,a3);
+															{ "trigger": "Assert.AreNotEqual(Public, Static, HideBySig)","contents": "Assert.AreNotEqual(Public, Static, HideBySig)"},
+
+													UnityEngine.Object a1;
+													checkType(l,1,out a1);
+													UnityEngine.Object a2;
+													checkType(l,2,out a2);
+													System.String a3;
+													checkType(l,3,out a3);
+													UnityEngine.Assertions.Assert.AreNotEqual(a1,a2,a3);
+															{ "trigger": "Assert.IsNull(Public, Static, HideBySig)","contents": "Assert.IsNull(Public, Static, HideBySig)"},
+
+													UnityEngine.Object a1;
+													checkType(l,1,out a1);
+													System.String a2;
+													checkType(l,2,out a2);
+													UnityEngine.Assertions.Assert.IsNull(a1,a2);
+															{ "trigger": "Assert.IsNotNull(Public, Static, HideBySig)","contents": "Assert.IsNotNull(Public, Static, HideBySig)"},
+
+													UnityEngine.Object a1;
+													checkType(l,1,out a1);
+													System.String a2;
+													checkType(l,2,out a2);
+													UnityEngine.Assertions.Assert.IsNotNull(a1,a2);
+													raiseExceptions
+													set_raiseExceptions(IntPtr l) {
+														System.Boolean v;
+														checkType(l,2,out v);
+														UnityEngine.Assertions.Assert.raiseExceptions=v;
+															]
+													}
+

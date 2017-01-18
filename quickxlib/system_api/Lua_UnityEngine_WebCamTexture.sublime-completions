@@ -1,0 +1,132 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	System.Int32 a4;
+	checkType(l,5,out a4);
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "UnityEngine.WebCamTexture(,string,int,int)()","contents": "UnityEngine.WebCamTexture(,string,int,int)()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "UnityEngine.WebCamTexture(,int,int,int)()","contents": "UnityEngine.WebCamTexture(,int,int,int)()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "UnityEngine.WebCamTexture()()","contents": "UnityEngine.WebCamTexture()()"},
+
+			{ "trigger": "WebCamTexture:Play(Public, HideBySig)","contents": "WebCamTexture:Play(Public, HideBySig)"},
+
+	UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+	self.Play();
+			{ "trigger": "WebCamTexture:Pause(Public, HideBySig)","contents": "WebCamTexture:Pause(Public, HideBySig)"},
+
+	UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+	self.Pause();
+			{ "trigger": "WebCamTexture:Stop(Public, HideBySig)","contents": "WebCamTexture:Stop(Public, HideBySig)"},
+
+	UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+	self.Stop();
+			{ "trigger": "WebCamTexture:GetPixel(Public, HideBySig)","contents": "WebCamTexture:GetPixel(Public, HideBySig)"},
+
+	UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	var ret=self.GetPixel(a1,a2);
+			{ "trigger": "WebCamTexture:GetPixels(Public, HideBySig)","contents": "WebCamTexture:GetPixels(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+		var ret=self.GetPixels();
+		else if(argc==5){
+			UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			System.Int32 a3;
+			checkType(l,4,out a3);
+			System.Int32 a4;
+			checkType(l,5,out a4);
+			var ret=self.GetPixels(a1,a2,a3,a4);
+					{ "trigger": "WebCamTexture:GetPixels32(Public, HideBySig)","contents": "WebCamTexture:GetPixels32(Public, HideBySig)"},
+
+			if(argc==1){
+				UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+				var ret=self.GetPixels32();
+				else if(argc==2){
+					UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+					UnityEngine.Color32[] a1;
+					checkArray(l,2,out a1);
+					var ret=self.GetPixels32(a1);
+					get_isPlaying(IntPtr l) {
+						get_deviceName(IntPtr l) {
+							set_deviceName(IntPtr l) {
+								UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+								string v;
+								checkType(l,2,out v);
+								self.deviceName=v;
+								get_requestedFPS(IntPtr l) {
+									set_requestedFPS(IntPtr l) {
+										UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+										float v;
+										checkType(l,2,out v);
+										self.requestedFPS=v;
+										get_requestedWidth(IntPtr l) {
+											set_requestedWidth(IntPtr l) {
+												UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+												int v;
+												checkType(l,2,out v);
+												self.requestedWidth=v;
+												get_requestedHeight(IntPtr l) {
+													set_requestedHeight(IntPtr l) {
+														UnityEngine.WebCamTexture self=(UnityEngine.WebCamTexture)checkSelf(l);
+														int v;
+														checkType(l,2,out v);
+														self.requestedHeight=v;
+														get_devices(IntPtr l) {
+															get_videoRotationAngle(IntPtr l) {
+																get_videoVerticallyMirrored(IntPtr l) {
+																	get_didUpdateThisFrame(IntPtr l) {
+																			]
+																	}
+

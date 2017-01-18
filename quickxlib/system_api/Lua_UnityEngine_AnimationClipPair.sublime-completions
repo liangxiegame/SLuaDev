@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimationClipPair()()","contents": "UnityEngine.AnimationClipPair()()"},
+
+	originalClip
+	set_originalClip(IntPtr l) {
+		UnityEngine.AnimationClipPair self=(UnityEngine.AnimationClipPair)checkSelf(l);
+		UnityEngine.AnimationClip v;
+		checkType(l,2,out v);
+		self.originalClip=v;
+		overrideClip
+		set_overrideClip(IntPtr l) {
+			UnityEngine.AnimationClipPair self=(UnityEngine.AnimationClipPair)checkSelf(l);
+			UnityEngine.AnimationClip v;
+			checkType(l,2,out v);
+			self.overrideClip=v;
+				]
+		}
+

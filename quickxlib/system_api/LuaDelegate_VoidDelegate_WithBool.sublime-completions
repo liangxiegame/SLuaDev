@@ -1,0 +1,8 @@
+﻿
+VoidDelegate.WithBool 
+                ua = (VoidDelegate.WithBool)checkObj(l, p);
+                ua = (VoidDelegate.WithBool)ld.d;
+            ua = (bool a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

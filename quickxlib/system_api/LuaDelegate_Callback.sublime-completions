@@ -1,0 +1,7 @@
+﻿
+Callback 
+                ua = (Callback)checkObj(l, p);
+                ua = (Callback)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

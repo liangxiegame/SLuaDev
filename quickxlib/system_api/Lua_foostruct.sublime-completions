@@ -1,0 +1,74 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "foostruct()","contents": "foostruct()"},
+
+	x
+	foostruct self;
+	checkValueType(l,1,out self);
+	pushValue(l,self.x);
+	return 2;
+}
+set_x(IntPtr l) {
+	foostruct self;
+	checkValueType(l,1,out self);
+	System.Single v;
+	checkType(l,2,out v);
+	self.x=v;
+	setBack(l,self);
+	y
+	foostruct self;
+	checkValueType(l,1,out self);
+	pushValue(l,self.y);
+	return 2;
+}
+set_y(IntPtr l) {
+	foostruct self;
+	checkValueType(l,1,out self);
+	System.Single v;
+	checkType(l,2,out v);
+	self.y=v;
+	setBack(l,self);
+	z
+	foostruct self;
+	checkValueType(l,1,out self);
+	pushValue(l,self.z);
+	return 2;
+}
+set_z(IntPtr l) {
+	foostruct self;
+	checkValueType(l,1,out self);
+	System.Single v;
+	checkType(l,2,out v);
+	self.z=v;
+	setBack(l,self);
+	w
+	foostruct self;
+	checkValueType(l,1,out self);
+	pushValue(l,self.w);
+	return 2;
+}
+set_w(IntPtr l) {
+	foostruct self;
+	checkValueType(l,1,out self);
+	System.Single v;
+	checkType(l,2,out v);
+	self.w=v;
+	setBack(l,self);
+	mode
+	foostruct self;
+	checkValueType(l,1,out self);
+	pushValue(l,self.mode);
+	return 2;
+}
+set_mode(IntPtr l) {
+	foostruct self;
+	checkValueType(l,1,out self);
+	System.Int32 v;
+	checkType(l,2,out v);
+	self.mode=v;
+	setBack(l,self);
+		]
+}
+

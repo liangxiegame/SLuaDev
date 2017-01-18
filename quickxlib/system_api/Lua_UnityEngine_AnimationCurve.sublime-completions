@@ -1,0 +1,103 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimationCurve()()","contents": "UnityEngine.AnimationCurve()()"},
+
+	UnityEngine.Keyframe[] a1;
+	checkValueParams(l,2,out a1);
+			{ "trigger": "UnityEngine.AnimationCurve()()","contents": "UnityEngine.AnimationCurve()()"},
+
+			{ "trigger": "UnityEngine.AnimationCurve()()","contents": "UnityEngine.AnimationCurve()()"},
+
+			{ "trigger": "UnityEngine.AnimationCurve()()","contents": "UnityEngine.AnimationCurve()()"},
+
+			{ "trigger": "AnimationCurve:Evaluate(Public, HideBySig)","contents": "AnimationCurve:Evaluate(Public, HideBySig)"},
+
+	UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.Evaluate(a1);
+			{ "trigger": "AnimationCurve:AddKey(Public, HideBySig)","contents": "AnimationCurve:AddKey(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+		UnityEngine.Keyframe a1;
+		checkValueType(l,2,out a1);
+		var ret=self.AddKey(a1);
+		else if(argc==3){
+			UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			var ret=self.AddKey(a1,a2);
+					{ "trigger": "AnimationCurve:MoveKey(Public, HideBySig)","contents": "AnimationCurve:MoveKey(Public, HideBySig)"},
+
+			UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			UnityEngine.Keyframe a2;
+			checkValueType(l,3,out a2);
+			var ret=self.MoveKey(a1,a2);
+					{ "trigger": "AnimationCurve:RemoveKey(Public, HideBySig)","contents": "AnimationCurve:RemoveKey(Public, HideBySig)"},
+
+			UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			self.RemoveKey(a1);
+					{ "trigger": "AnimationCurve:SmoothTangents(Public, HideBySig)","contents": "AnimationCurve:SmoothTangents(Public, HideBySig)"},
+
+			UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			self.SmoothTangents(a1,a2);
+					{ "trigger": "AnimationCurve.Linear(Public, Static, HideBySig)","contents": "AnimationCurve.Linear(Public, Static, HideBySig)"},
+
+			System.Single a1;
+			checkType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			System.Single a4;
+			checkType(l,4,out a4);
+			var ret=UnityEngine.AnimationCurve.Linear(a1,a2,a3,a4);
+					{ "trigger": "AnimationCurve.EaseInOut(Public, Static, HideBySig)","contents": "AnimationCurve.EaseInOut(Public, Static, HideBySig)"},
+
+			System.Single a1;
+			checkType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			System.Single a4;
+			checkType(l,4,out a4);
+			var ret=UnityEngine.AnimationCurve.EaseInOut(a1,a2,a3,a4);
+			get_keys(IntPtr l) {
+				set_keys(IntPtr l) {
+					UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+					UnityEngine.Keyframe[] v;
+					checkArray(l,2,out v);
+					self.keys=v;
+					get_length(IntPtr l) {
+						get_preWrapMode(IntPtr l) {
+							set_preWrapMode(IntPtr l) {
+								UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+								UnityEngine.WrapMode v;
+								checkEnum(l,2,out v);
+								self.preWrapMode=v;
+								get_postWrapMode(IntPtr l) {
+									set_postWrapMode(IntPtr l) {
+										UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+										UnityEngine.WrapMode v;
+										checkEnum(l,2,out v);
+										self.postWrapMode=v;
+										UnityEngine.AnimationCurve self=(UnityEngine.AnimationCurve)checkSelf(l);
+										int v;
+										checkType(l,2,out v);
+											]
+									}
+

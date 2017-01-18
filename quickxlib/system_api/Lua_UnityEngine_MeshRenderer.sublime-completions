@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.MeshRenderer()()","contents": "UnityEngine.MeshRenderer()()"},
+
+	get_additionalVertexStreams(IntPtr l) {
+		set_additionalVertexStreams(IntPtr l) {
+			UnityEngine.MeshRenderer self=(UnityEngine.MeshRenderer)checkSelf(l);
+			UnityEngine.Mesh v;
+			checkType(l,2,out v);
+			self.additionalVertexStreams=v;
+				]
+		}
+

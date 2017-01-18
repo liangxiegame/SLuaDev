@@ -1,0 +1,69 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ProceduralPropertyDescription()()","contents": "UnityEngine.ProceduralPropertyDescription()()"},
+
+	name
+	set_name(IntPtr l) {
+		UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+		System.String v;
+		checkType(l,2,out v);
+		self.name=v;
+		label
+		set_label(IntPtr l) {
+			UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+			System.String v;
+			checkType(l,2,out v);
+			self.label=v;
+			group
+			set_group(IntPtr l) {
+				UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+				System.String v;
+				checkType(l,2,out v);
+				self.group=v;
+				type
+				set_type(IntPtr l) {
+					UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+					UnityEngine.ProceduralPropertyType v;
+					checkEnum(l,2,out v);
+					self.type=v;
+					hasRange
+					set_hasRange(IntPtr l) {
+						UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+						System.Boolean v;
+						checkType(l,2,out v);
+						self.hasRange=v;
+						minimum
+						set_minimum(IntPtr l) {
+							UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+							System.Single v;
+							checkType(l,2,out v);
+							self.minimum=v;
+							maximum
+							set_maximum(IntPtr l) {
+								UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+								System.Single v;
+								checkType(l,2,out v);
+								self.maximum=v;
+								step
+								set_step(IntPtr l) {
+									UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+									System.Single v;
+									checkType(l,2,out v);
+									self.step=v;
+									enumOptions
+									set_enumOptions(IntPtr l) {
+										UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+										System.String[] v;
+										checkArray(l,2,out v);
+										self.enumOptions=v;
+										componentLabels
+										set_componentLabels(IntPtr l) {
+											UnityEngine.ProceduralPropertyDescription self=(UnityEngine.ProceduralPropertyDescription)checkSelf(l);
+											System.String[] v;
+											checkArray(l,2,out v);
+											self.componentLabels=v;
+												]
+										}
+

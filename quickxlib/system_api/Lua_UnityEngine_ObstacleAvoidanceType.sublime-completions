@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ObstacleAvoidanceType");
+	addMember(l,0,"NoObstacleAvoidance");
+	addMember(l,1,"LowQualityObstacleAvoidance");
+	addMember(l,2,"MedQualityObstacleAvoidance");
+	addMember(l,3,"GoodQualityObstacleAvoidance");
+	addMember(l,4,"HighQualityObstacleAvoidance");
+		]
+}
+

@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.ColorBySpeedModule()()","contents": "UnityEngine.ParticleSystem.ColorBySpeedModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.ColorBySpeedModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_color(IntPtr l) {
+				set_color(IntPtr l) {
+					UnityEngine.ParticleSystem.ColorBySpeedModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystem.MinMaxGradient v;
+					checkValueType(l,2,out v);
+					self.color=v;
+					setBack(l,self);
+					get_range(IntPtr l) {
+						set_range(IntPtr l) {
+							UnityEngine.ParticleSystem.ColorBySpeedModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector2 v;
+							checkType(l,2,out v);
+							self.range=v;
+							setBack(l,self);
+								]
+						}
+

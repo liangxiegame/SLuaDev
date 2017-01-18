@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.FrictionJoint2D()()","contents": "UnityEngine.FrictionJoint2D()()"},
+
+	get_maxForce(IntPtr l) {
+		set_maxForce(IntPtr l) {
+			UnityEngine.FrictionJoint2D self=(UnityEngine.FrictionJoint2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.maxForce=v;
+			get_maxTorque(IntPtr l) {
+				set_maxTorque(IntPtr l) {
+					UnityEngine.FrictionJoint2D self=(UnityEngine.FrictionJoint2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.maxTorque=v;
+						]
+				}
+

@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.DistanceJoint2D()()","contents": "UnityEngine.DistanceJoint2D()()"},
+
+	get_autoConfigureDistance(IntPtr l) {
+		set_autoConfigureDistance(IntPtr l) {
+			UnityEngine.DistanceJoint2D self=(UnityEngine.DistanceJoint2D)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.autoConfigureDistance=v;
+			get_distance(IntPtr l) {
+				set_distance(IntPtr l) {
+					UnityEngine.DistanceJoint2D self=(UnityEngine.DistanceJoint2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.distance=v;
+					get_maxDistanceOnly(IntPtr l) {
+						set_maxDistanceOnly(IntPtr l) {
+							UnityEngine.DistanceJoint2D self=(UnityEngine.DistanceJoint2D)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.maxDistanceOnly=v;
+								]
+						}
+

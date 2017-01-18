@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.EventSystems.EventTrigger.Entry()()","contents": "UnityEngine.EventSystems.EventTrigger.Entry()()"},
+
+	eventID
+	set_eventID(IntPtr l) {
+		UnityEngine.EventSystems.EventTrigger.Entry self=(UnityEngine.EventSystems.EventTrigger.Entry)checkSelf(l);
+		UnityEngine.EventSystems.EventTriggerType v;
+		checkEnum(l,2,out v);
+		self.eventID=v;
+		callback
+		set_callback(IntPtr l) {
+			UnityEngine.EventSystems.EventTrigger.Entry self=(UnityEngine.EventSystems.EventTrigger.Entry)checkSelf(l);
+			UnityEngine.EventSystems.EventTrigger.TriggerEvent v;
+			checkType(l,2,out v);
+			self.callback=v;
+				]
+		}
+

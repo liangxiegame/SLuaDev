@@ -1,0 +1,134 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.Particle()()","contents": "UnityEngine.ParticleSystem.Particle()()"},
+
+			{ "trigger": "Particle:GetCurrentSize(Public, HideBySig)","contents": "Particle:GetCurrentSize(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.Particle self;
+	checkValueType(l,1,out self);
+	UnityEngine.ParticleSystem a1;
+	checkType(l,2,out a1);
+	var ret=self.GetCurrentSize(a1);
+			{ "trigger": "Particle:GetCurrentSize3D(Public, HideBySig)","contents": "Particle:GetCurrentSize3D(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.Particle self;
+	checkValueType(l,1,out self);
+	UnityEngine.ParticleSystem a1;
+	checkType(l,2,out a1);
+	var ret=self.GetCurrentSize3D(a1);
+			{ "trigger": "Particle:GetCurrentColor(Public, HideBySig)","contents": "Particle:GetCurrentColor(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.Particle self;
+	checkValueType(l,1,out self);
+	UnityEngine.ParticleSystem a1;
+	checkType(l,2,out a1);
+	var ret=self.GetCurrentColor(a1);
+	get_position(IntPtr l) {
+		set_position(IntPtr l) {
+			UnityEngine.ParticleSystem.Particle self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.position=v;
+			setBack(l,self);
+			get_velocity(IntPtr l) {
+				set_velocity(IntPtr l) {
+					UnityEngine.ParticleSystem.Particle self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 v;
+					checkType(l,2,out v);
+					self.velocity=v;
+					setBack(l,self);
+					get_lifetime(IntPtr l) {
+						set_lifetime(IntPtr l) {
+							UnityEngine.ParticleSystem.Particle self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.lifetime=v;
+							setBack(l,self);
+							get_startLifetime(IntPtr l) {
+								set_startLifetime(IntPtr l) {
+									UnityEngine.ParticleSystem.Particle self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.startLifetime=v;
+									setBack(l,self);
+									get_startSize(IntPtr l) {
+										set_startSize(IntPtr l) {
+											UnityEngine.ParticleSystem.Particle self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.startSize=v;
+											setBack(l,self);
+											get_startSize3D(IntPtr l) {
+												set_startSize3D(IntPtr l) {
+													UnityEngine.ParticleSystem.Particle self;
+													checkValueType(l,1,out self);
+													UnityEngine.Vector3 v;
+													checkType(l,2,out v);
+													self.startSize3D=v;
+													setBack(l,self);
+													get_axisOfRotation(IntPtr l) {
+														set_axisOfRotation(IntPtr l) {
+															UnityEngine.ParticleSystem.Particle self;
+															checkValueType(l,1,out self);
+															UnityEngine.Vector3 v;
+															checkType(l,2,out v);
+															self.axisOfRotation=v;
+															setBack(l,self);
+															get_rotation(IntPtr l) {
+																set_rotation(IntPtr l) {
+																	UnityEngine.ParticleSystem.Particle self;
+																	checkValueType(l,1,out self);
+																	float v;
+																	checkType(l,2,out v);
+																	self.rotation=v;
+																	setBack(l,self);
+																	get_rotation3D(IntPtr l) {
+																		set_rotation3D(IntPtr l) {
+																			UnityEngine.ParticleSystem.Particle self;
+																			checkValueType(l,1,out self);
+																			UnityEngine.Vector3 v;
+																			checkType(l,2,out v);
+																			self.rotation3D=v;
+																			setBack(l,self);
+																			get_angularVelocity(IntPtr l) {
+																				set_angularVelocity(IntPtr l) {
+																					UnityEngine.ParticleSystem.Particle self;
+																					checkValueType(l,1,out self);
+																					float v;
+																					checkType(l,2,out v);
+																					self.angularVelocity=v;
+																					setBack(l,self);
+																					get_angularVelocity3D(IntPtr l) {
+																						set_angularVelocity3D(IntPtr l) {
+																							UnityEngine.ParticleSystem.Particle self;
+																							checkValueType(l,1,out self);
+																							UnityEngine.Vector3 v;
+																							checkType(l,2,out v);
+																							self.angularVelocity3D=v;
+																							setBack(l,self);
+																							get_startColor(IntPtr l) {
+																								set_startColor(IntPtr l) {
+																									UnityEngine.ParticleSystem.Particle self;
+																									checkValueType(l,1,out self);
+																									UnityEngine.Color32 v;
+																									checkValueType(l,2,out v);
+																									self.startColor=v;
+																									setBack(l,self);
+																									get_randomSeed(IntPtr l) {
+																										set_randomSeed(IntPtr l) {
+																											UnityEngine.ParticleSystem.Particle self;
+																											checkValueType(l,1,out self);
+																											System.UInt32 v;
+																											checkType(l,2,out v);
+																											self.randomSeed=v;
+																											setBack(l,self);
+																												]
+																										}
+

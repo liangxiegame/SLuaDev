@@ -1,0 +1,111 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SceneManagement.SceneManager()()","contents": "UnityEngine.SceneManagement.SceneManager()()"},
+
+			{ "trigger": "SceneManager.GetActiveScene(Public, Static, HideBySig)","contents": "SceneManager.GetActiveScene(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+			{ "trigger": "SceneManager.SetActiveScene(Public, Static, HideBySig)","contents": "SceneManager.SetActiveScene(Public, Static, HideBySig)"},
+
+	UnityEngine.SceneManagement.Scene a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.SceneManagement.SceneManager.SetActiveScene(a1);
+			{ "trigger": "SceneManager.GetSceneByPath(Public, Static, HideBySig)","contents": "SceneManager.GetSceneByPath(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SceneManagement.SceneManager.GetSceneByPath(a1);
+			{ "trigger": "SceneManager.GetSceneByName(Public, Static, HideBySig)","contents": "SceneManager.GetSceneByName(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SceneManagement.SceneManager.GetSceneByName(a1);
+			{ "trigger": "SceneManager.GetSceneAt(Public, Static, HideBySig)","contents": "SceneManager.GetSceneAt(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SceneManagement.SceneManager.GetSceneAt(a1);
+			{ "trigger": "SceneManager.LoadScene(Public, Static, HideBySig)","contents": "SceneManager.LoadScene(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,int)){
+		System.Int32 a1;
+		checkType(l,1,out a1);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(a1);
+		else if(matchType(l,argc,1,string)){
+			System.String a1;
+			checkType(l,1,out a1);
+			UnityEngine.SceneManagement.SceneManager.LoadScene(a1);
+			else if(matchType(l,argc,1,int,UnityEngine.SceneManagement.LoadSceneMode)){
+				System.Int32 a1;
+				checkType(l,1,out a1);
+				UnityEngine.SceneManagement.LoadSceneMode a2;
+				checkEnum(l,2,out a2);
+				UnityEngine.SceneManagement.SceneManager.LoadScene(a1,a2);
+				else if(matchType(l,argc,1,string,UnityEngine.SceneManagement.LoadSceneMode)){
+					System.String a1;
+					checkType(l,1,out a1);
+					UnityEngine.SceneManagement.LoadSceneMode a2;
+					checkEnum(l,2,out a2);
+					UnityEngine.SceneManagement.SceneManager.LoadScene(a1,a2);
+							{ "trigger": "SceneManager.LoadSceneAsync(Public, Static, HideBySig)","contents": "SceneManager.LoadSceneAsync(Public, Static, HideBySig)"},
+
+					if(matchType(l,argc,1,int)){
+						System.Int32 a1;
+						checkType(l,1,out a1);
+						var ret=UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(a1);
+						else if(matchType(l,argc,1,string)){
+							System.String a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(a1);
+							else if(matchType(l,argc,1,int,UnityEngine.SceneManagement.LoadSceneMode)){
+								System.Int32 a1;
+								checkType(l,1,out a1);
+								UnityEngine.SceneManagement.LoadSceneMode a2;
+								checkEnum(l,2,out a2);
+								var ret=UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(a1,a2);
+								else if(matchType(l,argc,1,string,UnityEngine.SceneManagement.LoadSceneMode)){
+									System.String a1;
+									checkType(l,1,out a1);
+									UnityEngine.SceneManagement.LoadSceneMode a2;
+									checkEnum(l,2,out a2);
+									var ret=UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(a1,a2);
+											{ "trigger": "SceneManager.CreateScene(Public, Static, HideBySig)","contents": "SceneManager.CreateScene(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									var ret=UnityEngine.SceneManagement.SceneManager.CreateScene(a1);
+											{ "trigger": "SceneManager.UnloadScene(Public, Static, HideBySig)","contents": "SceneManager.UnloadScene(Public, Static, HideBySig)"},
+
+									if(matchType(l,argc,1,UnityEngine.SceneManagement.Scene)){
+										UnityEngine.SceneManagement.Scene a1;
+										checkValueType(l,1,out a1);
+										var ret=UnityEngine.SceneManagement.SceneManager.UnloadScene(a1);
+										else if(matchType(l,argc,1,string)){
+											System.String a1;
+											checkType(l,1,out a1);
+											var ret=UnityEngine.SceneManagement.SceneManager.UnloadScene(a1);
+											else if(matchType(l,argc,1,int)){
+												System.Int32 a1;
+												checkType(l,1,out a1);
+												var ret=UnityEngine.SceneManagement.SceneManager.UnloadScene(a1);
+														{ "trigger": "SceneManager.MergeScenes(Public, Static, HideBySig)","contents": "SceneManager.MergeScenes(Public, Static, HideBySig)"},
+
+												UnityEngine.SceneManagement.Scene a1;
+												checkValueType(l,1,out a1);
+												UnityEngine.SceneManagement.Scene a2;
+												checkValueType(l,2,out a2);
+												UnityEngine.SceneManagement.SceneManager.MergeScenes(a1,a2);
+														{ "trigger": "SceneManager.MoveGameObjectToScene(Public, Static, HideBySig)","contents": "SceneManager.MoveGameObjectToScene(Public, Static, HideBySig)"},
+
+												UnityEngine.GameObject a1;
+												checkType(l,1,out a1);
+												UnityEngine.SceneManagement.Scene a2;
+												checkValueType(l,2,out a2);
+												UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(a1,a2);
+												get_sceneCount(IntPtr l) {
+													get_sceneCountInBuildSettings(IntPtr l) {
+															]
+													}
+

@@ -1,0 +1,38 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SortingLayer()()","contents": "UnityEngine.SortingLayer()()"},
+
+			{ "trigger": "SortingLayer.GetLayerValueFromID(Public, Static, HideBySig)","contents": "SortingLayer.GetLayerValueFromID(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SortingLayer.GetLayerValueFromID(a1);
+			{ "trigger": "SortingLayer.GetLayerValueFromName(Public, Static, HideBySig)","contents": "SortingLayer.GetLayerValueFromName(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SortingLayer.GetLayerValueFromName(a1);
+			{ "trigger": "SortingLayer.NameToID(Public, Static, HideBySig)","contents": "SortingLayer.NameToID(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SortingLayer.NameToID(a1);
+			{ "trigger": "SortingLayer.IDToName(Public, Static, HideBySig)","contents": "SortingLayer.IDToName(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SortingLayer.IDToName(a1);
+			{ "trigger": "SortingLayer.IsValid(Public, Static, HideBySig)","contents": "SortingLayer.IsValid(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.SortingLayer.IsValid(a1);
+	get_id(IntPtr l) {
+		get_name(IntPtr l) {
+			get_value(IntPtr l) {
+				get_layers(IntPtr l) {
+						]
+				}
+

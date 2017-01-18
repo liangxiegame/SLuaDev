@@ -1,0 +1,50 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.MaskUtilities()()","contents": "UnityEngine.UI.MaskUtilities()()"},
+
+			{ "trigger": "MaskUtilities.Notify2DMaskStateChanged(Public, Static, HideBySig)","contents": "MaskUtilities.Notify2DMaskStateChanged(Public, Static, HideBySig)"},
+
+	UnityEngine.Component a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged(a1);
+			{ "trigger": "MaskUtilities.NotifyStencilStateChanged(Public, Static, HideBySig)","contents": "MaskUtilities.NotifyStencilStateChanged(Public, Static, HideBySig)"},
+
+	UnityEngine.Component a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.MaskUtilities.NotifyStencilStateChanged(a1);
+			{ "trigger": "MaskUtilities.FindRootSortOverrideCanvas(Public, Static, HideBySig)","contents": "MaskUtilities.FindRootSortOverrideCanvas(Public, Static, HideBySig)"},
+
+	UnityEngine.Transform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.MaskUtilities.FindRootSortOverrideCanvas(a1);
+			{ "trigger": "MaskUtilities.GetStencilDepth(Public, Static, HideBySig)","contents": "MaskUtilities.GetStencilDepth(Public, Static, HideBySig)"},
+
+	UnityEngine.Transform a1;
+	checkType(l,1,out a1);
+	UnityEngine.Transform a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.UI.MaskUtilities.GetStencilDepth(a1,a2);
+			{ "trigger": "MaskUtilities.IsDescendantOrSelf(Public, Static, HideBySig)","contents": "MaskUtilities.IsDescendantOrSelf(Public, Static, HideBySig)"},
+
+	UnityEngine.Transform a1;
+	checkType(l,1,out a1);
+	UnityEngine.Transform a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.UI.MaskUtilities.IsDescendantOrSelf(a1,a2);
+			{ "trigger": "MaskUtilities.GetRectMaskForClippable(Public, Static, HideBySig)","contents": "MaskUtilities.GetRectMaskForClippable(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.IClippable a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.MaskUtilities.GetRectMaskForClippable(a1);
+			{ "trigger": "MaskUtilities.GetRectMasksForClip(Public, Static, HideBySig)","contents": "MaskUtilities.GetRectMasksForClip(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.RectMask2D a1;
+	checkType(l,1,out a1);
+	System.Collections.Generic.List<UnityEngine.UI.RectMask2D> a2;
+	checkType(l,2,out a2);
+	UnityEngine.UI.MaskUtilities.GetRectMasksForClip(a1,a2);
+		]
+}
+

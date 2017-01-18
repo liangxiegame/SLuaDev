@@ -1,0 +1,39 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.DirectorPlayer()()","contents": "UnityEngine.Experimental.Director.DirectorPlayer()()"},
+
+			{ "trigger": "DirectorPlayer:Play(Public, HideBySig)","contents": "DirectorPlayer:Play(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.DirectorPlayer self=(UnityEngine.Experimental.Director.DirectorPlayer)checkSelf(l);
+	UnityEngine.Experimental.Director.Playable a1;
+	checkValueType(l,2,out a1);
+	self.Play(a1);
+			{ "trigger": "DirectorPlayer:Stop(Public, HideBySig)","contents": "DirectorPlayer:Stop(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.DirectorPlayer self=(UnityEngine.Experimental.Director.DirectorPlayer)checkSelf(l);
+	self.Stop();
+			{ "trigger": "DirectorPlayer:SetTime(Public, HideBySig)","contents": "DirectorPlayer:SetTime(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.DirectorPlayer self=(UnityEngine.Experimental.Director.DirectorPlayer)checkSelf(l);
+	System.Double a1;
+	checkType(l,2,out a1);
+	self.SetTime(a1);
+			{ "trigger": "DirectorPlayer:GetTime(Public, HideBySig)","contents": "DirectorPlayer:GetTime(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.DirectorPlayer self=(UnityEngine.Experimental.Director.DirectorPlayer)checkSelf(l);
+	var ret=self.GetTime();
+			{ "trigger": "DirectorPlayer:SetTimeUpdateMode(Public, HideBySig)","contents": "DirectorPlayer:SetTimeUpdateMode(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.DirectorPlayer self=(UnityEngine.Experimental.Director.DirectorPlayer)checkSelf(l);
+	UnityEngine.Experimental.Director.DirectorUpdateMode a1;
+	checkEnum(l,2,out a1);
+	self.SetTimeUpdateMode(a1);
+			{ "trigger": "DirectorPlayer:GetTimeUpdateMode(Public, HideBySig)","contents": "DirectorPlayer:GetTimeUpdateMode(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.DirectorPlayer self=(UnityEngine.Experimental.Director.DirectorPlayer)checkSelf(l);
+	var ret=self.GetTimeUpdateMode();
+		]
+}
+

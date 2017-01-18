@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"JetBrains.Annotations.ImplicitUseKindFlags");
+	addMember(l,1,"Access");
+	addMember(l,2,"Assign");
+	addMember(l,4,"InstantiatedWithFixedConstructorSignature");
+	addMember(l,7,"Default");
+	addMember(l,8,"InstantiatedNoFixedConstructorSignature");
+		]
+}
+

@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.QueueMode");
+	addMember(l,0,"CompleteOthers");
+	addMember(l,2,"PlayNow");
+		]
+}
+

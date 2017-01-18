@@ -1,0 +1,37 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Security()()","contents": "UnityEngine.Security()()"},
+
+			{ "trigger": "Security.PrefetchSocketPolicy(Public, Static, HideBySig)","contents": "Security.PrefetchSocketPolicy(Public, Static, HideBySig)"},
+
+	if(argc==2){
+		System.String a1;
+		checkType(l,1,out a1);
+		System.Int32 a2;
+		checkType(l,2,out a2);
+		var ret=UnityEngine.Security.PrefetchSocketPolicy(a1,a2);
+		else if(argc==3){
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Int32 a2;
+			checkType(l,2,out a2);
+			System.Int32 a3;
+			checkType(l,3,out a3);
+			var ret=UnityEngine.Security.PrefetchSocketPolicy(a1,a2,a3);
+					{ "trigger": "Security.LoadAndVerifyAssembly(Public, Static, HideBySig)","contents": "Security.LoadAndVerifyAssembly(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				System.Byte[] a1;
+				checkArray(l,1,out a1);
+				var ret=UnityEngine.Security.LoadAndVerifyAssembly(a1);
+				else if(argc==2){
+					System.Byte[] a1;
+					checkArray(l,1,out a1);
+					System.String a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.Security.LoadAndVerifyAssembly(a1,a2);
+						]
+				}
+

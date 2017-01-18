@@ -1,0 +1,112 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Image:OnBeforeSerialize(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Image:OnBeforeSerialize(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+	self.OnBeforeSerialize();
+			{ "trigger": "Image:OnAfterDeserialize(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Image:OnAfterDeserialize(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+	self.OnAfterDeserialize();
+			{ "trigger": "Image:SetNativeSize(Public, Virtual, HideBySig)","contents": "Image:SetNativeSize(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+	self.SetNativeSize();
+			{ "trigger": "Image:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Image:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "Image:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Image:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+			{ "trigger": "Image:IsRaycastLocationValid(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Image:IsRaycastLocationValid(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Camera a2;
+	checkType(l,3,out a2);
+	var ret=self.IsRaycastLocationValid(a1,a2);
+	get_sprite(IntPtr l) {
+		set_sprite(IntPtr l) {
+			UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+			UnityEngine.Sprite v;
+			checkType(l,2,out v);
+			self.sprite=v;
+			get_overrideSprite(IntPtr l) {
+				set_overrideSprite(IntPtr l) {
+					UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+					UnityEngine.Sprite v;
+					checkType(l,2,out v);
+					self.overrideSprite=v;
+					get_type(IntPtr l) {
+						set_type(IntPtr l) {
+							UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+							UnityEngine.UI.Image.Type v;
+							checkEnum(l,2,out v);
+							self.type=v;
+							get_preserveAspect(IntPtr l) {
+								set_preserveAspect(IntPtr l) {
+									UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.preserveAspect=v;
+									get_fillCenter(IntPtr l) {
+										set_fillCenter(IntPtr l) {
+											UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.fillCenter=v;
+											get_fillMethod(IntPtr l) {
+												set_fillMethod(IntPtr l) {
+													UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+													UnityEngine.UI.Image.FillMethod v;
+													checkEnum(l,2,out v);
+													self.fillMethod=v;
+													get_fillAmount(IntPtr l) {
+														set_fillAmount(IntPtr l) {
+															UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.fillAmount=v;
+															get_fillClockwise(IntPtr l) {
+																set_fillClockwise(IntPtr l) {
+																	UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+																	bool v;
+																	checkType(l,2,out v);
+																	self.fillClockwise=v;
+																	get_fillOrigin(IntPtr l) {
+																		set_fillOrigin(IntPtr l) {
+																			UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+																			int v;
+																			checkType(l,2,out v);
+																			self.fillOrigin=v;
+																			get_alphaHitTestMinimumThreshold(IntPtr l) {
+																				set_alphaHitTestMinimumThreshold(IntPtr l) {
+																					UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.alphaHitTestMinimumThreshold=v;
+																					get_defaultETC1GraphicMaterial(IntPtr l) {
+																						get_mainTexture(IntPtr l) {
+																							get_hasBorder(IntPtr l) {
+																								get_pixelsPerUnit(IntPtr l) {
+																									get_material(IntPtr l) {
+																										set_material(IntPtr l) {
+																											UnityEngine.UI.Image self=(UnityEngine.UI.Image)checkSelf(l);
+																											UnityEngine.Material v;
+																											checkType(l,2,out v);
+																											self.material=v;
+																											get_minWidth(IntPtr l) {
+																												get_preferredWidth(IntPtr l) {
+																													get_flexibleWidth(IntPtr l) {
+																														get_minHeight(IntPtr l) {
+																															get_preferredHeight(IntPtr l) {
+																																get_flexibleHeight(IntPtr l) {
+																																	get_layoutPriority(IntPtr l) {
+																																			]
+																																	}
+

@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioEchoFilter()()","contents": "UnityEngine.AudioEchoFilter()()"},
+
+	get_delay(IntPtr l) {
+		set_delay(IntPtr l) {
+			UnityEngine.AudioEchoFilter self=(UnityEngine.AudioEchoFilter)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.delay=v;
+			get_decayRatio(IntPtr l) {
+				set_decayRatio(IntPtr l) {
+					UnityEngine.AudioEchoFilter self=(UnityEngine.AudioEchoFilter)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.decayRatio=v;
+					get_dryMix(IntPtr l) {
+						set_dryMix(IntPtr l) {
+							UnityEngine.AudioEchoFilter self=(UnityEngine.AudioEchoFilter)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.dryMix=v;
+							get_wetMix(IntPtr l) {
+								set_wetMix(IntPtr l) {
+									UnityEngine.AudioEchoFilter self=(UnityEngine.AudioEchoFilter)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.wetMix=v;
+										]
+								}
+

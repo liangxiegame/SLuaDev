@@ -1,0 +1,44 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SkeletonBone()()","contents": "UnityEngine.SkeletonBone()()"},
+
+	name
+	set_name(IntPtr l) {
+		UnityEngine.SkeletonBone self;
+		checkValueType(l,1,out self);
+		System.String v;
+		checkType(l,2,out v);
+		self.name=v;
+		position
+		set_position(IntPtr l) {
+			UnityEngine.SkeletonBone self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.position=v;
+			rotation
+			set_rotation(IntPtr l) {
+				UnityEngine.SkeletonBone self;
+				checkValueType(l,1,out self);
+				UnityEngine.Quaternion v;
+				checkType(l,2,out v);
+				self.rotation=v;
+				scale
+				set_scale(IntPtr l) {
+					UnityEngine.SkeletonBone self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 v;
+					checkType(l,2,out v);
+					self.scale=v;
+					transformModified
+					set_transformModified(IntPtr l) {
+						UnityEngine.SkeletonBone self;
+						checkValueType(l,1,out self);
+						System.Int32 v;
+						checkType(l,2,out v);
+						self.transformModified=v;
+							]
+					}
+

@@ -1,0 +1,1473 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Physics2D()()","contents": "UnityEngine.Physics2D()()"},
+
+			{ "trigger": "Physics2D.IgnoreCollision(Public, Static, HideBySig)","contents": "Physics2D.IgnoreCollision(Public, Static, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Collider2D a1;
+		checkType(l,1,out a1);
+		UnityEngine.Collider2D a2;
+		checkType(l,2,out a2);
+		UnityEngine.Physics2D.IgnoreCollision(a1,a2);
+		else if(argc==3){
+			UnityEngine.Collider2D a1;
+			checkType(l,1,out a1);
+			UnityEngine.Collider2D a2;
+			checkType(l,2,out a2);
+			System.Boolean a3;
+			checkType(l,3,out a3);
+			UnityEngine.Physics2D.IgnoreCollision(a1,a2,a3);
+					{ "trigger": "Physics2D.GetIgnoreCollision(Public, Static, HideBySig)","contents": "Physics2D.GetIgnoreCollision(Public, Static, HideBySig)"},
+
+			UnityEngine.Collider2D a1;
+			checkType(l,1,out a1);
+			UnityEngine.Collider2D a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.Physics2D.GetIgnoreCollision(a1,a2);
+					{ "trigger": "Physics2D.IgnoreLayerCollision(Public, Static, HideBySig)","contents": "Physics2D.IgnoreLayerCollision(Public, Static, HideBySig)"},
+
+			if(argc==2){
+				System.Int32 a1;
+				checkType(l,1,out a1);
+				System.Int32 a2;
+				checkType(l,2,out a2);
+				UnityEngine.Physics2D.IgnoreLayerCollision(a1,a2);
+				else if(argc==3){
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					System.Boolean a3;
+					checkType(l,3,out a3);
+					UnityEngine.Physics2D.IgnoreLayerCollision(a1,a2,a3);
+							{ "trigger": "Physics2D.GetIgnoreLayerCollision(Public, Static, HideBySig)","contents": "Physics2D.GetIgnoreLayerCollision(Public, Static, HideBySig)"},
+
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.Physics2D.GetIgnoreLayerCollision(a1,a2);
+							{ "trigger": "Physics2D.SetLayerCollisionMask(Public, Static, HideBySig)","contents": "Physics2D.SetLayerCollisionMask(Public, Static, HideBySig)"},
+
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					UnityEngine.Physics2D.SetLayerCollisionMask(a1,a2);
+							{ "trigger": "Physics2D.GetLayerCollisionMask(Public, Static, HideBySig)","contents": "Physics2D.GetLayerCollisionMask(Public, Static, HideBySig)"},
+
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					var ret=UnityEngine.Physics2D.GetLayerCollisionMask(a1);
+							{ "trigger": "Physics2D.IsTouching(Public, Static, HideBySig)","contents": "Physics2D.IsTouching(Public, Static, HideBySig)"},
+
+					UnityEngine.Collider2D a1;
+					checkType(l,1,out a1);
+					UnityEngine.Collider2D a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.Physics2D.IsTouching(a1,a2);
+							{ "trigger": "Physics2D.IsTouchingLayers(Public, Static, HideBySig)","contents": "Physics2D.IsTouchingLayers(Public, Static, HideBySig)"},
+
+					if(argc==1){
+						UnityEngine.Collider2D a1;
+						checkType(l,1,out a1);
+						var ret=UnityEngine.Physics2D.IsTouchingLayers(a1);
+						else if(argc==2){
+							UnityEngine.Collider2D a1;
+							checkType(l,1,out a1);
+							System.Int32 a2;
+							checkType(l,2,out a2);
+							var ret=UnityEngine.Physics2D.IsTouchingLayers(a1,a2);
+									{ "trigger": "Physics2D.Linecast(Public, Static, HideBySig)","contents": "Physics2D.Linecast(Public, Static, HideBySig)"},
+
+							if(argc==2){
+								UnityEngine.Vector2 a1;
+								checkType(l,1,out a1);
+								UnityEngine.Vector2 a2;
+								checkType(l,2,out a2);
+								var ret=UnityEngine.Physics2D.Linecast(a1,a2);
+								else if(argc==3){
+									UnityEngine.Vector2 a1;
+									checkType(l,1,out a1);
+									UnityEngine.Vector2 a2;
+									checkType(l,2,out a2);
+									System.Int32 a3;
+									checkType(l,3,out a3);
+									var ret=UnityEngine.Physics2D.Linecast(a1,a2,a3);
+									else if(argc==4){
+										UnityEngine.Vector2 a1;
+										checkType(l,1,out a1);
+										UnityEngine.Vector2 a2;
+										checkType(l,2,out a2);
+										System.Int32 a3;
+										checkType(l,3,out a3);
+										System.Single a4;
+										checkType(l,4,out a4);
+										var ret=UnityEngine.Physics2D.Linecast(a1,a2,a3,a4);
+										else if(argc==5){
+											UnityEngine.Vector2 a1;
+											checkType(l,1,out a1);
+											UnityEngine.Vector2 a2;
+											checkType(l,2,out a2);
+											System.Int32 a3;
+											checkType(l,3,out a3);
+											System.Single a4;
+											checkType(l,4,out a4);
+											System.Single a5;
+											checkType(l,5,out a5);
+											var ret=UnityEngine.Physics2D.Linecast(a1,a2,a3,a4,a5);
+													{ "trigger": "Physics2D.LinecastAll(Public, Static, HideBySig)","contents": "Physics2D.LinecastAll(Public, Static, HideBySig)"},
+
+											if(argc==2){
+												UnityEngine.Vector2 a1;
+												checkType(l,1,out a1);
+												UnityEngine.Vector2 a2;
+												checkType(l,2,out a2);
+												var ret=UnityEngine.Physics2D.LinecastAll(a1,a2);
+												else if(argc==3){
+													UnityEngine.Vector2 a1;
+													checkType(l,1,out a1);
+													UnityEngine.Vector2 a2;
+													checkType(l,2,out a2);
+													System.Int32 a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Physics2D.LinecastAll(a1,a2,a3);
+													else if(argc==4){
+														UnityEngine.Vector2 a1;
+														checkType(l,1,out a1);
+														UnityEngine.Vector2 a2;
+														checkType(l,2,out a2);
+														System.Int32 a3;
+														checkType(l,3,out a3);
+														System.Single a4;
+														checkType(l,4,out a4);
+														var ret=UnityEngine.Physics2D.LinecastAll(a1,a2,a3,a4);
+														else if(argc==5){
+															UnityEngine.Vector2 a1;
+															checkType(l,1,out a1);
+															UnityEngine.Vector2 a2;
+															checkType(l,2,out a2);
+															System.Int32 a3;
+															checkType(l,3,out a3);
+															System.Single a4;
+															checkType(l,4,out a4);
+															System.Single a5;
+															checkType(l,5,out a5);
+															var ret=UnityEngine.Physics2D.LinecastAll(a1,a2,a3,a4,a5);
+																	{ "trigger": "Physics2D.LinecastNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.LinecastNonAlloc(Public, Static, HideBySig)"},
+
+															if(argc==3){
+																UnityEngine.Vector2 a1;
+																checkType(l,1,out a1);
+																UnityEngine.Vector2 a2;
+																checkType(l,2,out a2);
+																UnityEngine.RaycastHit2D[] a3;
+																checkArray(l,3,out a3);
+																var ret=UnityEngine.Physics2D.LinecastNonAlloc(a1,a2,a3);
+																else if(argc==4){
+																	UnityEngine.Vector2 a1;
+																	checkType(l,1,out a1);
+																	UnityEngine.Vector2 a2;
+																	checkType(l,2,out a2);
+																	UnityEngine.RaycastHit2D[] a3;
+																	checkArray(l,3,out a3);
+																	System.Int32 a4;
+																	checkType(l,4,out a4);
+																	var ret=UnityEngine.Physics2D.LinecastNonAlloc(a1,a2,a3,a4);
+																	else if(argc==5){
+																		UnityEngine.Vector2 a1;
+																		checkType(l,1,out a1);
+																		UnityEngine.Vector2 a2;
+																		checkType(l,2,out a2);
+																		UnityEngine.RaycastHit2D[] a3;
+																		checkArray(l,3,out a3);
+																		System.Int32 a4;
+																		checkType(l,4,out a4);
+																		System.Single a5;
+																		checkType(l,5,out a5);
+																		var ret=UnityEngine.Physics2D.LinecastNonAlloc(a1,a2,a3,a4,a5);
+																		else if(argc==6){
+																			UnityEngine.Vector2 a1;
+																			checkType(l,1,out a1);
+																			UnityEngine.Vector2 a2;
+																			checkType(l,2,out a2);
+																			UnityEngine.RaycastHit2D[] a3;
+																			checkArray(l,3,out a3);
+																			System.Int32 a4;
+																			checkType(l,4,out a4);
+																			System.Single a5;
+																			checkType(l,5,out a5);
+																			System.Single a6;
+																			checkType(l,6,out a6);
+																			var ret=UnityEngine.Physics2D.LinecastNonAlloc(a1,a2,a3,a4,a5,a6);
+																					{ "trigger": "Physics2D.Raycast(Public, Static, HideBySig)","contents": "Physics2D.Raycast(Public, Static, HideBySig)"},
+
+																			if(argc==2){
+																				UnityEngine.Vector2 a1;
+																				checkType(l,1,out a1);
+																				UnityEngine.Vector2 a2;
+																				checkType(l,2,out a2);
+																				var ret=UnityEngine.Physics2D.Raycast(a1,a2);
+																				else if(argc==3){
+																					UnityEngine.Vector2 a1;
+																					checkType(l,1,out a1);
+																					UnityEngine.Vector2 a2;
+																					checkType(l,2,out a2);
+																					System.Single a3;
+																					checkType(l,3,out a3);
+																					var ret=UnityEngine.Physics2D.Raycast(a1,a2,a3);
+																					else if(argc==4){
+																						UnityEngine.Vector2 a1;
+																						checkType(l,1,out a1);
+																						UnityEngine.Vector2 a2;
+																						checkType(l,2,out a2);
+																						System.Single a3;
+																						checkType(l,3,out a3);
+																						System.Int32 a4;
+																						checkType(l,4,out a4);
+																						var ret=UnityEngine.Physics2D.Raycast(a1,a2,a3,a4);
+																						else if(argc==5){
+																							UnityEngine.Vector2 a1;
+																							checkType(l,1,out a1);
+																							UnityEngine.Vector2 a2;
+																							checkType(l,2,out a2);
+																							System.Single a3;
+																							checkType(l,3,out a3);
+																							System.Int32 a4;
+																							checkType(l,4,out a4);
+																							System.Single a5;
+																							checkType(l,5,out a5);
+																							var ret=UnityEngine.Physics2D.Raycast(a1,a2,a3,a4,a5);
+																							else if(argc==6){
+																								UnityEngine.Vector2 a1;
+																								checkType(l,1,out a1);
+																								UnityEngine.Vector2 a2;
+																								checkType(l,2,out a2);
+																								System.Single a3;
+																								checkType(l,3,out a3);
+																								System.Int32 a4;
+																								checkType(l,4,out a4);
+																								System.Single a5;
+																								checkType(l,5,out a5);
+																								System.Single a6;
+																								checkType(l,6,out a6);
+																								var ret=UnityEngine.Physics2D.Raycast(a1,a2,a3,a4,a5,a6);
+																										{ "trigger": "Physics2D.RaycastAll(Public, Static, HideBySig)","contents": "Physics2D.RaycastAll(Public, Static, HideBySig)"},
+
+																								if(argc==2){
+																									UnityEngine.Vector2 a1;
+																									checkType(l,1,out a1);
+																									UnityEngine.Vector2 a2;
+																									checkType(l,2,out a2);
+																									var ret=UnityEngine.Physics2D.RaycastAll(a1,a2);
+																									else if(argc==3){
+																										UnityEngine.Vector2 a1;
+																										checkType(l,1,out a1);
+																										UnityEngine.Vector2 a2;
+																										checkType(l,2,out a2);
+																										System.Single a3;
+																										checkType(l,3,out a3);
+																										var ret=UnityEngine.Physics2D.RaycastAll(a1,a2,a3);
+																										else if(argc==4){
+																											UnityEngine.Vector2 a1;
+																											checkType(l,1,out a1);
+																											UnityEngine.Vector2 a2;
+																											checkType(l,2,out a2);
+																											System.Single a3;
+																											checkType(l,3,out a3);
+																											System.Int32 a4;
+																											checkType(l,4,out a4);
+																											var ret=UnityEngine.Physics2D.RaycastAll(a1,a2,a3,a4);
+																											else if(argc==5){
+																												UnityEngine.Vector2 a1;
+																												checkType(l,1,out a1);
+																												UnityEngine.Vector2 a2;
+																												checkType(l,2,out a2);
+																												System.Single a3;
+																												checkType(l,3,out a3);
+																												System.Int32 a4;
+																												checkType(l,4,out a4);
+																												System.Single a5;
+																												checkType(l,5,out a5);
+																												var ret=UnityEngine.Physics2D.RaycastAll(a1,a2,a3,a4,a5);
+																												else if(argc==6){
+																													UnityEngine.Vector2 a1;
+																													checkType(l,1,out a1);
+																													UnityEngine.Vector2 a2;
+																													checkType(l,2,out a2);
+																													System.Single a3;
+																													checkType(l,3,out a3);
+																													System.Int32 a4;
+																													checkType(l,4,out a4);
+																													System.Single a5;
+																													checkType(l,5,out a5);
+																													System.Single a6;
+																													checkType(l,6,out a6);
+																													var ret=UnityEngine.Physics2D.RaycastAll(a1,a2,a3,a4,a5,a6);
+																															{ "trigger": "Physics2D.RaycastNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.RaycastNonAlloc(Public, Static, HideBySig)"},
+
+																													if(argc==3){
+																														UnityEngine.Vector2 a1;
+																														checkType(l,1,out a1);
+																														UnityEngine.Vector2 a2;
+																														checkType(l,2,out a2);
+																														UnityEngine.RaycastHit2D[] a3;
+																														checkArray(l,3,out a3);
+																														var ret=UnityEngine.Physics2D.RaycastNonAlloc(a1,a2,a3);
+																														else if(argc==4){
+																															UnityEngine.Vector2 a1;
+																															checkType(l,1,out a1);
+																															UnityEngine.Vector2 a2;
+																															checkType(l,2,out a2);
+																															UnityEngine.RaycastHit2D[] a3;
+																															checkArray(l,3,out a3);
+																															System.Single a4;
+																															checkType(l,4,out a4);
+																															var ret=UnityEngine.Physics2D.RaycastNonAlloc(a1,a2,a3,a4);
+																															else if(argc==5){
+																																UnityEngine.Vector2 a1;
+																																checkType(l,1,out a1);
+																																UnityEngine.Vector2 a2;
+																																checkType(l,2,out a2);
+																																UnityEngine.RaycastHit2D[] a3;
+																																checkArray(l,3,out a3);
+																																System.Single a4;
+																																checkType(l,4,out a4);
+																																System.Int32 a5;
+																																checkType(l,5,out a5);
+																																var ret=UnityEngine.Physics2D.RaycastNonAlloc(a1,a2,a3,a4,a5);
+																																else if(argc==6){
+																																	UnityEngine.Vector2 a1;
+																																	checkType(l,1,out a1);
+																																	UnityEngine.Vector2 a2;
+																																	checkType(l,2,out a2);
+																																	UnityEngine.RaycastHit2D[] a3;
+																																	checkArray(l,3,out a3);
+																																	System.Single a4;
+																																	checkType(l,4,out a4);
+																																	System.Int32 a5;
+																																	checkType(l,5,out a5);
+																																	System.Single a6;
+																																	checkType(l,6,out a6);
+																																	var ret=UnityEngine.Physics2D.RaycastNonAlloc(a1,a2,a3,a4,a5,a6);
+																																	else if(argc==7){
+																																		UnityEngine.Vector2 a1;
+																																		checkType(l,1,out a1);
+																																		UnityEngine.Vector2 a2;
+																																		checkType(l,2,out a2);
+																																		UnityEngine.RaycastHit2D[] a3;
+																																		checkArray(l,3,out a3);
+																																		System.Single a4;
+																																		checkType(l,4,out a4);
+																																		System.Int32 a5;
+																																		checkType(l,5,out a5);
+																																		System.Single a6;
+																																		checkType(l,6,out a6);
+																																		System.Single a7;
+																																		checkType(l,7,out a7);
+																																		var ret=UnityEngine.Physics2D.RaycastNonAlloc(a1,a2,a3,a4,a5,a6,a7);
+																																				{ "trigger": "Physics2D.CircleCast(Public, Static, HideBySig)","contents": "Physics2D.CircleCast(Public, Static, HideBySig)"},
+
+																																		if(argc==3){
+																																			UnityEngine.Vector2 a1;
+																																			checkType(l,1,out a1);
+																																			System.Single a2;
+																																			checkType(l,2,out a2);
+																																			UnityEngine.Vector2 a3;
+																																			checkType(l,3,out a3);
+																																			var ret=UnityEngine.Physics2D.CircleCast(a1,a2,a3);
+																																			else if(argc==4){
+																																				UnityEngine.Vector2 a1;
+																																				checkType(l,1,out a1);
+																																				System.Single a2;
+																																				checkType(l,2,out a2);
+																																				UnityEngine.Vector2 a3;
+																																				checkType(l,3,out a3);
+																																				System.Single a4;
+																																				checkType(l,4,out a4);
+																																				var ret=UnityEngine.Physics2D.CircleCast(a1,a2,a3,a4);
+																																				else if(argc==5){
+																																					UnityEngine.Vector2 a1;
+																																					checkType(l,1,out a1);
+																																					System.Single a2;
+																																					checkType(l,2,out a2);
+																																					UnityEngine.Vector2 a3;
+																																					checkType(l,3,out a3);
+																																					System.Single a4;
+																																					checkType(l,4,out a4);
+																																					System.Int32 a5;
+																																					checkType(l,5,out a5);
+																																					var ret=UnityEngine.Physics2D.CircleCast(a1,a2,a3,a4,a5);
+																																					else if(argc==6){
+																																						UnityEngine.Vector2 a1;
+																																						checkType(l,1,out a1);
+																																						System.Single a2;
+																																						checkType(l,2,out a2);
+																																						UnityEngine.Vector2 a3;
+																																						checkType(l,3,out a3);
+																																						System.Single a4;
+																																						checkType(l,4,out a4);
+																																						System.Int32 a5;
+																																						checkType(l,5,out a5);
+																																						System.Single a6;
+																																						checkType(l,6,out a6);
+																																						var ret=UnityEngine.Physics2D.CircleCast(a1,a2,a3,a4,a5,a6);
+																																						else if(argc==7){
+																																							UnityEngine.Vector2 a1;
+																																							checkType(l,1,out a1);
+																																							System.Single a2;
+																																							checkType(l,2,out a2);
+																																							UnityEngine.Vector2 a3;
+																																							checkType(l,3,out a3);
+																																							System.Single a4;
+																																							checkType(l,4,out a4);
+																																							System.Int32 a5;
+																																							checkType(l,5,out a5);
+																																							System.Single a6;
+																																							checkType(l,6,out a6);
+																																							System.Single a7;
+																																							checkType(l,7,out a7);
+																																							var ret=UnityEngine.Physics2D.CircleCast(a1,a2,a3,a4,a5,a6,a7);
+																																									{ "trigger": "Physics2D.CircleCastAll(Public, Static, HideBySig)","contents": "Physics2D.CircleCastAll(Public, Static, HideBySig)"},
+
+																																							if(argc==3){
+																																								UnityEngine.Vector2 a1;
+																																								checkType(l,1,out a1);
+																																								System.Single a2;
+																																								checkType(l,2,out a2);
+																																								UnityEngine.Vector2 a3;
+																																								checkType(l,3,out a3);
+																																								var ret=UnityEngine.Physics2D.CircleCastAll(a1,a2,a3);
+																																								else if(argc==4){
+																																									UnityEngine.Vector2 a1;
+																																									checkType(l,1,out a1);
+																																									System.Single a2;
+																																									checkType(l,2,out a2);
+																																									UnityEngine.Vector2 a3;
+																																									checkType(l,3,out a3);
+																																									System.Single a4;
+																																									checkType(l,4,out a4);
+																																									var ret=UnityEngine.Physics2D.CircleCastAll(a1,a2,a3,a4);
+																																									else if(argc==5){
+																																										UnityEngine.Vector2 a1;
+																																										checkType(l,1,out a1);
+																																										System.Single a2;
+																																										checkType(l,2,out a2);
+																																										UnityEngine.Vector2 a3;
+																																										checkType(l,3,out a3);
+																																										System.Single a4;
+																																										checkType(l,4,out a4);
+																																										System.Int32 a5;
+																																										checkType(l,5,out a5);
+																																										var ret=UnityEngine.Physics2D.CircleCastAll(a1,a2,a3,a4,a5);
+																																										else if(argc==6){
+																																											UnityEngine.Vector2 a1;
+																																											checkType(l,1,out a1);
+																																											System.Single a2;
+																																											checkType(l,2,out a2);
+																																											UnityEngine.Vector2 a3;
+																																											checkType(l,3,out a3);
+																																											System.Single a4;
+																																											checkType(l,4,out a4);
+																																											System.Int32 a5;
+																																											checkType(l,5,out a5);
+																																											System.Single a6;
+																																											checkType(l,6,out a6);
+																																											var ret=UnityEngine.Physics2D.CircleCastAll(a1,a2,a3,a4,a5,a6);
+																																											else if(argc==7){
+																																												UnityEngine.Vector2 a1;
+																																												checkType(l,1,out a1);
+																																												System.Single a2;
+																																												checkType(l,2,out a2);
+																																												UnityEngine.Vector2 a3;
+																																												checkType(l,3,out a3);
+																																												System.Single a4;
+																																												checkType(l,4,out a4);
+																																												System.Int32 a5;
+																																												checkType(l,5,out a5);
+																																												System.Single a6;
+																																												checkType(l,6,out a6);
+																																												System.Single a7;
+																																												checkType(l,7,out a7);
+																																												var ret=UnityEngine.Physics2D.CircleCastAll(a1,a2,a3,a4,a5,a6,a7);
+																																														{ "trigger": "Physics2D.CircleCastNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.CircleCastNonAlloc(Public, Static, HideBySig)"},
+
+																																												if(argc==4){
+																																													UnityEngine.Vector2 a1;
+																																													checkType(l,1,out a1);
+																																													System.Single a2;
+																																													checkType(l,2,out a2);
+																																													UnityEngine.Vector2 a3;
+																																													checkType(l,3,out a3);
+																																													UnityEngine.RaycastHit2D[] a4;
+																																													checkArray(l,4,out a4);
+																																													var ret=UnityEngine.Physics2D.CircleCastNonAlloc(a1,a2,a3,a4);
+																																													else if(argc==5){
+																																														UnityEngine.Vector2 a1;
+																																														checkType(l,1,out a1);
+																																														System.Single a2;
+																																														checkType(l,2,out a2);
+																																														UnityEngine.Vector2 a3;
+																																														checkType(l,3,out a3);
+																																														UnityEngine.RaycastHit2D[] a4;
+																																														checkArray(l,4,out a4);
+																																														System.Single a5;
+																																														checkType(l,5,out a5);
+																																														var ret=UnityEngine.Physics2D.CircleCastNonAlloc(a1,a2,a3,a4,a5);
+																																														else if(argc==6){
+																																															UnityEngine.Vector2 a1;
+																																															checkType(l,1,out a1);
+																																															System.Single a2;
+																																															checkType(l,2,out a2);
+																																															UnityEngine.Vector2 a3;
+																																															checkType(l,3,out a3);
+																																															UnityEngine.RaycastHit2D[] a4;
+																																															checkArray(l,4,out a4);
+																																															System.Single a5;
+																																															checkType(l,5,out a5);
+																																															System.Int32 a6;
+																																															checkType(l,6,out a6);
+																																															var ret=UnityEngine.Physics2D.CircleCastNonAlloc(a1,a2,a3,a4,a5,a6);
+																																															else if(argc==7){
+																																																UnityEngine.Vector2 a1;
+																																																checkType(l,1,out a1);
+																																																System.Single a2;
+																																																checkType(l,2,out a2);
+																																																UnityEngine.Vector2 a3;
+																																																checkType(l,3,out a3);
+																																																UnityEngine.RaycastHit2D[] a4;
+																																																checkArray(l,4,out a4);
+																																																System.Single a5;
+																																																checkType(l,5,out a5);
+																																																System.Int32 a6;
+																																																checkType(l,6,out a6);
+																																																System.Single a7;
+																																																checkType(l,7,out a7);
+																																																var ret=UnityEngine.Physics2D.CircleCastNonAlloc(a1,a2,a3,a4,a5,a6,a7);
+																																																else if(argc==8){
+																																																	UnityEngine.Vector2 a1;
+																																																	checkType(l,1,out a1);
+																																																	System.Single a2;
+																																																	checkType(l,2,out a2);
+																																																	UnityEngine.Vector2 a3;
+																																																	checkType(l,3,out a3);
+																																																	UnityEngine.RaycastHit2D[] a4;
+																																																	checkArray(l,4,out a4);
+																																																	System.Single a5;
+																																																	checkType(l,5,out a5);
+																																																	System.Int32 a6;
+																																																	checkType(l,6,out a6);
+																																																	System.Single a7;
+																																																	checkType(l,7,out a7);
+																																																	System.Single a8;
+																																																	checkType(l,8,out a8);
+																																																	var ret=UnityEngine.Physics2D.CircleCastNonAlloc(a1,a2,a3,a4,a5,a6,a7,a8);
+																																																			{ "trigger": "Physics2D.BoxCast(Public, Static, HideBySig)","contents": "Physics2D.BoxCast(Public, Static, HideBySig)"},
+
+																																																	if(argc==4){
+																																																		UnityEngine.Vector2 a1;
+																																																		checkType(l,1,out a1);
+																																																		UnityEngine.Vector2 a2;
+																																																		checkType(l,2,out a2);
+																																																		System.Single a3;
+																																																		checkType(l,3,out a3);
+																																																		UnityEngine.Vector2 a4;
+																																																		checkType(l,4,out a4);
+																																																		var ret=UnityEngine.Physics2D.BoxCast(a1,a2,a3,a4);
+																																																		else if(argc==5){
+																																																			UnityEngine.Vector2 a1;
+																																																			checkType(l,1,out a1);
+																																																			UnityEngine.Vector2 a2;
+																																																			checkType(l,2,out a2);
+																																																			System.Single a3;
+																																																			checkType(l,3,out a3);
+																																																			UnityEngine.Vector2 a4;
+																																																			checkType(l,4,out a4);
+																																																			System.Single a5;
+																																																			checkType(l,5,out a5);
+																																																			var ret=UnityEngine.Physics2D.BoxCast(a1,a2,a3,a4,a5);
+																																																			else if(argc==6){
+																																																				UnityEngine.Vector2 a1;
+																																																				checkType(l,1,out a1);
+																																																				UnityEngine.Vector2 a2;
+																																																				checkType(l,2,out a2);
+																																																				System.Single a3;
+																																																				checkType(l,3,out a3);
+																																																				UnityEngine.Vector2 a4;
+																																																				checkType(l,4,out a4);
+																																																				System.Single a5;
+																																																				checkType(l,5,out a5);
+																																																				System.Int32 a6;
+																																																				checkType(l,6,out a6);
+																																																				var ret=UnityEngine.Physics2D.BoxCast(a1,a2,a3,a4,a5,a6);
+																																																				else if(argc==7){
+																																																					UnityEngine.Vector2 a1;
+																																																					checkType(l,1,out a1);
+																																																					UnityEngine.Vector2 a2;
+																																																					checkType(l,2,out a2);
+																																																					System.Single a3;
+																																																					checkType(l,3,out a3);
+																																																					UnityEngine.Vector2 a4;
+																																																					checkType(l,4,out a4);
+																																																					System.Single a5;
+																																																					checkType(l,5,out a5);
+																																																					System.Int32 a6;
+																																																					checkType(l,6,out a6);
+																																																					System.Single a7;
+																																																					checkType(l,7,out a7);
+																																																					var ret=UnityEngine.Physics2D.BoxCast(a1,a2,a3,a4,a5,a6,a7);
+																																																					else if(argc==8){
+																																																						UnityEngine.Vector2 a1;
+																																																						checkType(l,1,out a1);
+																																																						UnityEngine.Vector2 a2;
+																																																						checkType(l,2,out a2);
+																																																						System.Single a3;
+																																																						checkType(l,3,out a3);
+																																																						UnityEngine.Vector2 a4;
+																																																						checkType(l,4,out a4);
+																																																						System.Single a5;
+																																																						checkType(l,5,out a5);
+																																																						System.Int32 a6;
+																																																						checkType(l,6,out a6);
+																																																						System.Single a7;
+																																																						checkType(l,7,out a7);
+																																																						System.Single a8;
+																																																						checkType(l,8,out a8);
+																																																						var ret=UnityEngine.Physics2D.BoxCast(a1,a2,a3,a4,a5,a6,a7,a8);
+																																																								{ "trigger": "Physics2D.BoxCastAll(Public, Static, HideBySig)","contents": "Physics2D.BoxCastAll(Public, Static, HideBySig)"},
+
+																																																						if(argc==4){
+																																																							UnityEngine.Vector2 a1;
+																																																							checkType(l,1,out a1);
+																																																							UnityEngine.Vector2 a2;
+																																																							checkType(l,2,out a2);
+																																																							System.Single a3;
+																																																							checkType(l,3,out a3);
+																																																							UnityEngine.Vector2 a4;
+																																																							checkType(l,4,out a4);
+																																																							var ret=UnityEngine.Physics2D.BoxCastAll(a1,a2,a3,a4);
+																																																							else if(argc==5){
+																																																								UnityEngine.Vector2 a1;
+																																																								checkType(l,1,out a1);
+																																																								UnityEngine.Vector2 a2;
+																																																								checkType(l,2,out a2);
+																																																								System.Single a3;
+																																																								checkType(l,3,out a3);
+																																																								UnityEngine.Vector2 a4;
+																																																								checkType(l,4,out a4);
+																																																								System.Single a5;
+																																																								checkType(l,5,out a5);
+																																																								var ret=UnityEngine.Physics2D.BoxCastAll(a1,a2,a3,a4,a5);
+																																																								else if(argc==6){
+																																																									UnityEngine.Vector2 a1;
+																																																									checkType(l,1,out a1);
+																																																									UnityEngine.Vector2 a2;
+																																																									checkType(l,2,out a2);
+																																																									System.Single a3;
+																																																									checkType(l,3,out a3);
+																																																									UnityEngine.Vector2 a4;
+																																																									checkType(l,4,out a4);
+																																																									System.Single a5;
+																																																									checkType(l,5,out a5);
+																																																									System.Int32 a6;
+																																																									checkType(l,6,out a6);
+																																																									var ret=UnityEngine.Physics2D.BoxCastAll(a1,a2,a3,a4,a5,a6);
+																																																									else if(argc==7){
+																																																										UnityEngine.Vector2 a1;
+																																																										checkType(l,1,out a1);
+																																																										UnityEngine.Vector2 a2;
+																																																										checkType(l,2,out a2);
+																																																										System.Single a3;
+																																																										checkType(l,3,out a3);
+																																																										UnityEngine.Vector2 a4;
+																																																										checkType(l,4,out a4);
+																																																										System.Single a5;
+																																																										checkType(l,5,out a5);
+																																																										System.Int32 a6;
+																																																										checkType(l,6,out a6);
+																																																										System.Single a7;
+																																																										checkType(l,7,out a7);
+																																																										var ret=UnityEngine.Physics2D.BoxCastAll(a1,a2,a3,a4,a5,a6,a7);
+																																																										else if(argc==8){
+																																																											UnityEngine.Vector2 a1;
+																																																											checkType(l,1,out a1);
+																																																											UnityEngine.Vector2 a2;
+																																																											checkType(l,2,out a2);
+																																																											System.Single a3;
+																																																											checkType(l,3,out a3);
+																																																											UnityEngine.Vector2 a4;
+																																																											checkType(l,4,out a4);
+																																																											System.Single a5;
+																																																											checkType(l,5,out a5);
+																																																											System.Int32 a6;
+																																																											checkType(l,6,out a6);
+																																																											System.Single a7;
+																																																											checkType(l,7,out a7);
+																																																											System.Single a8;
+																																																											checkType(l,8,out a8);
+																																																											var ret=UnityEngine.Physics2D.BoxCastAll(a1,a2,a3,a4,a5,a6,a7,a8);
+																																																													{ "trigger": "Physics2D.BoxCastNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.BoxCastNonAlloc(Public, Static, HideBySig)"},
+
+																																																											if(argc==5){
+																																																												UnityEngine.Vector2 a1;
+																																																												checkType(l,1,out a1);
+																																																												UnityEngine.Vector2 a2;
+																																																												checkType(l,2,out a2);
+																																																												System.Single a3;
+																																																												checkType(l,3,out a3);
+																																																												UnityEngine.Vector2 a4;
+																																																												checkType(l,4,out a4);
+																																																												UnityEngine.RaycastHit2D[] a5;
+																																																												checkArray(l,5,out a5);
+																																																												var ret=UnityEngine.Physics2D.BoxCastNonAlloc(a1,a2,a3,a4,a5);
+																																																												else if(argc==6){
+																																																													UnityEngine.Vector2 a1;
+																																																													checkType(l,1,out a1);
+																																																													UnityEngine.Vector2 a2;
+																																																													checkType(l,2,out a2);
+																																																													System.Single a3;
+																																																													checkType(l,3,out a3);
+																																																													UnityEngine.Vector2 a4;
+																																																													checkType(l,4,out a4);
+																																																													UnityEngine.RaycastHit2D[] a5;
+																																																													checkArray(l,5,out a5);
+																																																													System.Single a6;
+																																																													checkType(l,6,out a6);
+																																																													var ret=UnityEngine.Physics2D.BoxCastNonAlloc(a1,a2,a3,a4,a5,a6);
+																																																													else if(argc==7){
+																																																														UnityEngine.Vector2 a1;
+																																																														checkType(l,1,out a1);
+																																																														UnityEngine.Vector2 a2;
+																																																														checkType(l,2,out a2);
+																																																														System.Single a3;
+																																																														checkType(l,3,out a3);
+																																																														UnityEngine.Vector2 a4;
+																																																														checkType(l,4,out a4);
+																																																														UnityEngine.RaycastHit2D[] a5;
+																																																														checkArray(l,5,out a5);
+																																																														System.Single a6;
+																																																														checkType(l,6,out a6);
+																																																														System.Int32 a7;
+																																																														checkType(l,7,out a7);
+																																																														var ret=UnityEngine.Physics2D.BoxCastNonAlloc(a1,a2,a3,a4,a5,a6,a7);
+																																																														else if(argc==8){
+																																																															UnityEngine.Vector2 a1;
+																																																															checkType(l,1,out a1);
+																																																															UnityEngine.Vector2 a2;
+																																																															checkType(l,2,out a2);
+																																																															System.Single a3;
+																																																															checkType(l,3,out a3);
+																																																															UnityEngine.Vector2 a4;
+																																																															checkType(l,4,out a4);
+																																																															UnityEngine.RaycastHit2D[] a5;
+																																																															checkArray(l,5,out a5);
+																																																															System.Single a6;
+																																																															checkType(l,6,out a6);
+																																																															System.Int32 a7;
+																																																															checkType(l,7,out a7);
+																																																															System.Single a8;
+																																																															checkType(l,8,out a8);
+																																																															var ret=UnityEngine.Physics2D.BoxCastNonAlloc(a1,a2,a3,a4,a5,a6,a7,a8);
+																																																															else if(argc==9){
+																																																																UnityEngine.Vector2 a1;
+																																																																checkType(l,1,out a1);
+																																																																UnityEngine.Vector2 a2;
+																																																																checkType(l,2,out a2);
+																																																																System.Single a3;
+																																																																checkType(l,3,out a3);
+																																																																UnityEngine.Vector2 a4;
+																																																																checkType(l,4,out a4);
+																																																																UnityEngine.RaycastHit2D[] a5;
+																																																																checkArray(l,5,out a5);
+																																																																System.Single a6;
+																																																																checkType(l,6,out a6);
+																																																																System.Int32 a7;
+																																																																checkType(l,7,out a7);
+																																																																System.Single a8;
+																																																																checkType(l,8,out a8);
+																																																																System.Single a9;
+																																																																checkType(l,9,out a9);
+																																																																var ret=UnityEngine.Physics2D.BoxCastNonAlloc(a1,a2,a3,a4,a5,a6,a7,a8,a9);
+																																																																		{ "trigger": "Physics2D.GetRayIntersection(Public, Static, HideBySig)","contents": "Physics2D.GetRayIntersection(Public, Static, HideBySig)"},
+
+																																																																if(argc==1){
+																																																																	UnityEngine.Ray a1;
+																																																																	checkValueType(l,1,out a1);
+																																																																	var ret=UnityEngine.Physics2D.GetRayIntersection(a1);
+																																																																	else if(argc==2){
+																																																																		UnityEngine.Ray a1;
+																																																																		checkValueType(l,1,out a1);
+																																																																		System.Single a2;
+																																																																		checkType(l,2,out a2);
+																																																																		var ret=UnityEngine.Physics2D.GetRayIntersection(a1,a2);
+																																																																		else if(argc==3){
+																																																																			UnityEngine.Ray a1;
+																																																																			checkValueType(l,1,out a1);
+																																																																			System.Single a2;
+																																																																			checkType(l,2,out a2);
+																																																																			System.Int32 a3;
+																																																																			checkType(l,3,out a3);
+																																																																			var ret=UnityEngine.Physics2D.GetRayIntersection(a1,a2,a3);
+																																																																					{ "trigger": "Physics2D.GetRayIntersectionAll(Public, Static, HideBySig)","contents": "Physics2D.GetRayIntersectionAll(Public, Static, HideBySig)"},
+
+																																																																			if(argc==1){
+																																																																				UnityEngine.Ray a1;
+																																																																				checkValueType(l,1,out a1);
+																																																																				var ret=UnityEngine.Physics2D.GetRayIntersectionAll(a1);
+																																																																				else if(argc==2){
+																																																																					UnityEngine.Ray a1;
+																																																																					checkValueType(l,1,out a1);
+																																																																					System.Single a2;
+																																																																					checkType(l,2,out a2);
+																																																																					var ret=UnityEngine.Physics2D.GetRayIntersectionAll(a1,a2);
+																																																																					else if(argc==3){
+																																																																						UnityEngine.Ray a1;
+																																																																						checkValueType(l,1,out a1);
+																																																																						System.Single a2;
+																																																																						checkType(l,2,out a2);
+																																																																						System.Int32 a3;
+																																																																						checkType(l,3,out a3);
+																																																																						var ret=UnityEngine.Physics2D.GetRayIntersectionAll(a1,a2,a3);
+																																																																								{ "trigger": "Physics2D.GetRayIntersectionNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.GetRayIntersectionNonAlloc(Public, Static, HideBySig)"},
+
+																																																																						if(argc==2){
+																																																																							UnityEngine.Ray a1;
+																																																																							checkValueType(l,1,out a1);
+																																																																							UnityEngine.RaycastHit2D[] a2;
+																																																																							checkArray(l,2,out a2);
+																																																																							var ret=UnityEngine.Physics2D.GetRayIntersectionNonAlloc(a1,a2);
+																																																																							else if(argc==3){
+																																																																								UnityEngine.Ray a1;
+																																																																								checkValueType(l,1,out a1);
+																																																																								UnityEngine.RaycastHit2D[] a2;
+																																																																								checkArray(l,2,out a2);
+																																																																								System.Single a3;
+																																																																								checkType(l,3,out a3);
+																																																																								var ret=UnityEngine.Physics2D.GetRayIntersectionNonAlloc(a1,a2,a3);
+																																																																								else if(argc==4){
+																																																																									UnityEngine.Ray a1;
+																																																																									checkValueType(l,1,out a1);
+																																																																									UnityEngine.RaycastHit2D[] a2;
+																																																																									checkArray(l,2,out a2);
+																																																																									System.Single a3;
+																																																																									checkType(l,3,out a3);
+																																																																									System.Int32 a4;
+																																																																									checkType(l,4,out a4);
+																																																																									var ret=UnityEngine.Physics2D.GetRayIntersectionNonAlloc(a1,a2,a3,a4);
+																																																																											{ "trigger": "Physics2D.OverlapPoint(Public, Static, HideBySig)","contents": "Physics2D.OverlapPoint(Public, Static, HideBySig)"},
+
+																																																																									if(argc==1){
+																																																																										UnityEngine.Vector2 a1;
+																																																																										checkType(l,1,out a1);
+																																																																										var ret=UnityEngine.Physics2D.OverlapPoint(a1);
+																																																																										else if(argc==2){
+																																																																											UnityEngine.Vector2 a1;
+																																																																											checkType(l,1,out a1);
+																																																																											System.Int32 a2;
+																																																																											checkType(l,2,out a2);
+																																																																											var ret=UnityEngine.Physics2D.OverlapPoint(a1,a2);
+																																																																											else if(argc==3){
+																																																																												UnityEngine.Vector2 a1;
+																																																																												checkType(l,1,out a1);
+																																																																												System.Int32 a2;
+																																																																												checkType(l,2,out a2);
+																																																																												System.Single a3;
+																																																																												checkType(l,3,out a3);
+																																																																												var ret=UnityEngine.Physics2D.OverlapPoint(a1,a2,a3);
+																																																																												else if(argc==4){
+																																																																													UnityEngine.Vector2 a1;
+																																																																													checkType(l,1,out a1);
+																																																																													System.Int32 a2;
+																																																																													checkType(l,2,out a2);
+																																																																													System.Single a3;
+																																																																													checkType(l,3,out a3);
+																																																																													System.Single a4;
+																																																																													checkType(l,4,out a4);
+																																																																													var ret=UnityEngine.Physics2D.OverlapPoint(a1,a2,a3,a4);
+																																																																															{ "trigger": "Physics2D.OverlapPointAll(Public, Static, HideBySig)","contents": "Physics2D.OverlapPointAll(Public, Static, HideBySig)"},
+
+																																																																													if(argc==1){
+																																																																														UnityEngine.Vector2 a1;
+																																																																														checkType(l,1,out a1);
+																																																																														var ret=UnityEngine.Physics2D.OverlapPointAll(a1);
+																																																																														else if(argc==2){
+																																																																															UnityEngine.Vector2 a1;
+																																																																															checkType(l,1,out a1);
+																																																																															System.Int32 a2;
+																																																																															checkType(l,2,out a2);
+																																																																															var ret=UnityEngine.Physics2D.OverlapPointAll(a1,a2);
+																																																																															else if(argc==3){
+																																																																																UnityEngine.Vector2 a1;
+																																																																																checkType(l,1,out a1);
+																																																																																System.Int32 a2;
+																																																																																checkType(l,2,out a2);
+																																																																																System.Single a3;
+																																																																																checkType(l,3,out a3);
+																																																																																var ret=UnityEngine.Physics2D.OverlapPointAll(a1,a2,a3);
+																																																																																else if(argc==4){
+																																																																																	UnityEngine.Vector2 a1;
+																																																																																	checkType(l,1,out a1);
+																																																																																	System.Int32 a2;
+																																																																																	checkType(l,2,out a2);
+																																																																																	System.Single a3;
+																																																																																	checkType(l,3,out a3);
+																																																																																	System.Single a4;
+																																																																																	checkType(l,4,out a4);
+																																																																																	var ret=UnityEngine.Physics2D.OverlapPointAll(a1,a2,a3,a4);
+																																																																																			{ "trigger": "Physics2D.OverlapPointNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.OverlapPointNonAlloc(Public, Static, HideBySig)"},
+
+																																																																																	if(argc==2){
+																																																																																		UnityEngine.Vector2 a1;
+																																																																																		checkType(l,1,out a1);
+																																																																																		UnityEngine.Collider2D[] a2;
+																																																																																		checkArray(l,2,out a2);
+																																																																																		var ret=UnityEngine.Physics2D.OverlapPointNonAlloc(a1,a2);
+																																																																																		else if(argc==3){
+																																																																																			UnityEngine.Vector2 a1;
+																																																																																			checkType(l,1,out a1);
+																																																																																			UnityEngine.Collider2D[] a2;
+																																																																																			checkArray(l,2,out a2);
+																																																																																			System.Int32 a3;
+																																																																																			checkType(l,3,out a3);
+																																																																																			var ret=UnityEngine.Physics2D.OverlapPointNonAlloc(a1,a2,a3);
+																																																																																			else if(argc==4){
+																																																																																				UnityEngine.Vector2 a1;
+																																																																																				checkType(l,1,out a1);
+																																																																																				UnityEngine.Collider2D[] a2;
+																																																																																				checkArray(l,2,out a2);
+																																																																																				System.Int32 a3;
+																																																																																				checkType(l,3,out a3);
+																																																																																				System.Single a4;
+																																																																																				checkType(l,4,out a4);
+																																																																																				var ret=UnityEngine.Physics2D.OverlapPointNonAlloc(a1,a2,a3,a4);
+																																																																																				else if(argc==5){
+																																																																																					UnityEngine.Vector2 a1;
+																																																																																					checkType(l,1,out a1);
+																																																																																					UnityEngine.Collider2D[] a2;
+																																																																																					checkArray(l,2,out a2);
+																																																																																					System.Int32 a3;
+																																																																																					checkType(l,3,out a3);
+																																																																																					System.Single a4;
+																																																																																					checkType(l,4,out a4);
+																																																																																					System.Single a5;
+																																																																																					checkType(l,5,out a5);
+																																																																																					var ret=UnityEngine.Physics2D.OverlapPointNonAlloc(a1,a2,a3,a4,a5);
+																																																																																							{ "trigger": "Physics2D.OverlapCircle(Public, Static, HideBySig)","contents": "Physics2D.OverlapCircle(Public, Static, HideBySig)"},
+
+																																																																																					if(argc==2){
+																																																																																						UnityEngine.Vector2 a1;
+																																																																																						checkType(l,1,out a1);
+																																																																																						System.Single a2;
+																																																																																						checkType(l,2,out a2);
+																																																																																						var ret=UnityEngine.Physics2D.OverlapCircle(a1,a2);
+																																																																																						else if(argc==3){
+																																																																																							UnityEngine.Vector2 a1;
+																																																																																							checkType(l,1,out a1);
+																																																																																							System.Single a2;
+																																																																																							checkType(l,2,out a2);
+																																																																																							System.Int32 a3;
+																																																																																							checkType(l,3,out a3);
+																																																																																							var ret=UnityEngine.Physics2D.OverlapCircle(a1,a2,a3);
+																																																																																							else if(argc==4){
+																																																																																								UnityEngine.Vector2 a1;
+																																																																																								checkType(l,1,out a1);
+																																																																																								System.Single a2;
+																																																																																								checkType(l,2,out a2);
+																																																																																								System.Int32 a3;
+																																																																																								checkType(l,3,out a3);
+																																																																																								System.Single a4;
+																																																																																								checkType(l,4,out a4);
+																																																																																								var ret=UnityEngine.Physics2D.OverlapCircle(a1,a2,a3,a4);
+																																																																																								else if(argc==5){
+																																																																																									UnityEngine.Vector2 a1;
+																																																																																									checkType(l,1,out a1);
+																																																																																									System.Single a2;
+																																																																																									checkType(l,2,out a2);
+																																																																																									System.Int32 a3;
+																																																																																									checkType(l,3,out a3);
+																																																																																									System.Single a4;
+																																																																																									checkType(l,4,out a4);
+																																																																																									System.Single a5;
+																																																																																									checkType(l,5,out a5);
+																																																																																									var ret=UnityEngine.Physics2D.OverlapCircle(a1,a2,a3,a4,a5);
+																																																																																											{ "trigger": "Physics2D.OverlapCircleAll(Public, Static, HideBySig)","contents": "Physics2D.OverlapCircleAll(Public, Static, HideBySig)"},
+
+																																																																																									if(argc==2){
+																																																																																										UnityEngine.Vector2 a1;
+																																																																																										checkType(l,1,out a1);
+																																																																																										System.Single a2;
+																																																																																										checkType(l,2,out a2);
+																																																																																										var ret=UnityEngine.Physics2D.OverlapCircleAll(a1,a2);
+																																																																																										else if(argc==3){
+																																																																																											UnityEngine.Vector2 a1;
+																																																																																											checkType(l,1,out a1);
+																																																																																											System.Single a2;
+																																																																																											checkType(l,2,out a2);
+																																																																																											System.Int32 a3;
+																																																																																											checkType(l,3,out a3);
+																																																																																											var ret=UnityEngine.Physics2D.OverlapCircleAll(a1,a2,a3);
+																																																																																											else if(argc==4){
+																																																																																												UnityEngine.Vector2 a1;
+																																																																																												checkType(l,1,out a1);
+																																																																																												System.Single a2;
+																																																																																												checkType(l,2,out a2);
+																																																																																												System.Int32 a3;
+																																																																																												checkType(l,3,out a3);
+																																																																																												System.Single a4;
+																																																																																												checkType(l,4,out a4);
+																																																																																												var ret=UnityEngine.Physics2D.OverlapCircleAll(a1,a2,a3,a4);
+																																																																																												else if(argc==5){
+																																																																																													UnityEngine.Vector2 a1;
+																																																																																													checkType(l,1,out a1);
+																																																																																													System.Single a2;
+																																																																																													checkType(l,2,out a2);
+																																																																																													System.Int32 a3;
+																																																																																													checkType(l,3,out a3);
+																																																																																													System.Single a4;
+																																																																																													checkType(l,4,out a4);
+																																																																																													System.Single a5;
+																																																																																													checkType(l,5,out a5);
+																																																																																													var ret=UnityEngine.Physics2D.OverlapCircleAll(a1,a2,a3,a4,a5);
+																																																																																															{ "trigger": "Physics2D.OverlapCircleNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.OverlapCircleNonAlloc(Public, Static, HideBySig)"},
+
+																																																																																													if(argc==3){
+																																																																																														UnityEngine.Vector2 a1;
+																																																																																														checkType(l,1,out a1);
+																																																																																														System.Single a2;
+																																																																																														checkType(l,2,out a2);
+																																																																																														UnityEngine.Collider2D[] a3;
+																																																																																														checkArray(l,3,out a3);
+																																																																																														var ret=UnityEngine.Physics2D.OverlapCircleNonAlloc(a1,a2,a3);
+																																																																																														else if(argc==4){
+																																																																																															UnityEngine.Vector2 a1;
+																																																																																															checkType(l,1,out a1);
+																																																																																															System.Single a2;
+																																																																																															checkType(l,2,out a2);
+																																																																																															UnityEngine.Collider2D[] a3;
+																																																																																															checkArray(l,3,out a3);
+																																																																																															System.Int32 a4;
+																																																																																															checkType(l,4,out a4);
+																																																																																															var ret=UnityEngine.Physics2D.OverlapCircleNonAlloc(a1,a2,a3,a4);
+																																																																																															else if(argc==5){
+																																																																																																UnityEngine.Vector2 a1;
+																																																																																																checkType(l,1,out a1);
+																																																																																																System.Single a2;
+																																																																																																checkType(l,2,out a2);
+																																																																																																UnityEngine.Collider2D[] a3;
+																																																																																																checkArray(l,3,out a3);
+																																																																																																System.Int32 a4;
+																																																																																																checkType(l,4,out a4);
+																																																																																																System.Single a5;
+																																																																																																checkType(l,5,out a5);
+																																																																																																var ret=UnityEngine.Physics2D.OverlapCircleNonAlloc(a1,a2,a3,a4,a5);
+																																																																																																else if(argc==6){
+																																																																																																	UnityEngine.Vector2 a1;
+																																																																																																	checkType(l,1,out a1);
+																																																																																																	System.Single a2;
+																																																																																																	checkType(l,2,out a2);
+																																																																																																	UnityEngine.Collider2D[] a3;
+																																																																																																	checkArray(l,3,out a3);
+																																																																																																	System.Int32 a4;
+																																																																																																	checkType(l,4,out a4);
+																																																																																																	System.Single a5;
+																																																																																																	checkType(l,5,out a5);
+																																																																																																	System.Single a6;
+																																																																																																	checkType(l,6,out a6);
+																																																																																																	var ret=UnityEngine.Physics2D.OverlapCircleNonAlloc(a1,a2,a3,a4,a5,a6);
+																																																																																																			{ "trigger": "Physics2D.OverlapBox(Public, Static, HideBySig)","contents": "Physics2D.OverlapBox(Public, Static, HideBySig)"},
+
+																																																																																																	if(argc==3){
+																																																																																																		UnityEngine.Vector2 a1;
+																																																																																																		checkType(l,1,out a1);
+																																																																																																		UnityEngine.Vector2 a2;
+																																																																																																		checkType(l,2,out a2);
+																																																																																																		System.Single a3;
+																																																																																																		checkType(l,3,out a3);
+																																																																																																		var ret=UnityEngine.Physics2D.OverlapBox(a1,a2,a3);
+																																																																																																		else if(argc==4){
+																																																																																																			UnityEngine.Vector2 a1;
+																																																																																																			checkType(l,1,out a1);
+																																																																																																			UnityEngine.Vector2 a2;
+																																																																																																			checkType(l,2,out a2);
+																																																																																																			System.Single a3;
+																																																																																																			checkType(l,3,out a3);
+																																																																																																			System.Int32 a4;
+																																																																																																			checkType(l,4,out a4);
+																																																																																																			var ret=UnityEngine.Physics2D.OverlapBox(a1,a2,a3,a4);
+																																																																																																			else if(argc==5){
+																																																																																																				UnityEngine.Vector2 a1;
+																																																																																																				checkType(l,1,out a1);
+																																																																																																				UnityEngine.Vector2 a2;
+																																																																																																				checkType(l,2,out a2);
+																																																																																																				System.Single a3;
+																																																																																																				checkType(l,3,out a3);
+																																																																																																				System.Int32 a4;
+																																																																																																				checkType(l,4,out a4);
+																																																																																																				System.Single a5;
+																																																																																																				checkType(l,5,out a5);
+																																																																																																				var ret=UnityEngine.Physics2D.OverlapBox(a1,a2,a3,a4,a5);
+																																																																																																				else if(argc==6){
+																																																																																																					UnityEngine.Vector2 a1;
+																																																																																																					checkType(l,1,out a1);
+																																																																																																					UnityEngine.Vector2 a2;
+																																																																																																					checkType(l,2,out a2);
+																																																																																																					System.Single a3;
+																																																																																																					checkType(l,3,out a3);
+																																																																																																					System.Int32 a4;
+																																																																																																					checkType(l,4,out a4);
+																																																																																																					System.Single a5;
+																																																																																																					checkType(l,5,out a5);
+																																																																																																					System.Single a6;
+																																																																																																					checkType(l,6,out a6);
+																																																																																																					var ret=UnityEngine.Physics2D.OverlapBox(a1,a2,a3,a4,a5,a6);
+																																																																																																							{ "trigger": "Physics2D.OverlapBoxAll(Public, Static, HideBySig)","contents": "Physics2D.OverlapBoxAll(Public, Static, HideBySig)"},
+
+																																																																																																					if(argc==3){
+																																																																																																						UnityEngine.Vector2 a1;
+																																																																																																						checkType(l,1,out a1);
+																																																																																																						UnityEngine.Vector2 a2;
+																																																																																																						checkType(l,2,out a2);
+																																																																																																						System.Single a3;
+																																																																																																						checkType(l,3,out a3);
+																																																																																																						var ret=UnityEngine.Physics2D.OverlapBoxAll(a1,a2,a3);
+																																																																																																						else if(argc==4){
+																																																																																																							UnityEngine.Vector2 a1;
+																																																																																																							checkType(l,1,out a1);
+																																																																																																							UnityEngine.Vector2 a2;
+																																																																																																							checkType(l,2,out a2);
+																																																																																																							System.Single a3;
+																																																																																																							checkType(l,3,out a3);
+																																																																																																							System.Int32 a4;
+																																																																																																							checkType(l,4,out a4);
+																																																																																																							var ret=UnityEngine.Physics2D.OverlapBoxAll(a1,a2,a3,a4);
+																																																																																																							else if(argc==5){
+																																																																																																								UnityEngine.Vector2 a1;
+																																																																																																								checkType(l,1,out a1);
+																																																																																																								UnityEngine.Vector2 a2;
+																																																																																																								checkType(l,2,out a2);
+																																																																																																								System.Single a3;
+																																																																																																								checkType(l,3,out a3);
+																																																																																																								System.Int32 a4;
+																																																																																																								checkType(l,4,out a4);
+																																																																																																								System.Single a5;
+																																																																																																								checkType(l,5,out a5);
+																																																																																																								var ret=UnityEngine.Physics2D.OverlapBoxAll(a1,a2,a3,a4,a5);
+																																																																																																								else if(argc==6){
+																																																																																																									UnityEngine.Vector2 a1;
+																																																																																																									checkType(l,1,out a1);
+																																																																																																									UnityEngine.Vector2 a2;
+																																																																																																									checkType(l,2,out a2);
+																																																																																																									System.Single a3;
+																																																																																																									checkType(l,3,out a3);
+																																																																																																									System.Int32 a4;
+																																																																																																									checkType(l,4,out a4);
+																																																																																																									System.Single a5;
+																																																																																																									checkType(l,5,out a5);
+																																																																																																									System.Single a6;
+																																																																																																									checkType(l,6,out a6);
+																																																																																																									var ret=UnityEngine.Physics2D.OverlapBoxAll(a1,a2,a3,a4,a5,a6);
+																																																																																																											{ "trigger": "Physics2D.OverlapBoxNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.OverlapBoxNonAlloc(Public, Static, HideBySig)"},
+
+																																																																																																									if(argc==4){
+																																																																																																										UnityEngine.Vector2 a1;
+																																																																																																										checkType(l,1,out a1);
+																																																																																																										UnityEngine.Vector2 a2;
+																																																																																																										checkType(l,2,out a2);
+																																																																																																										System.Single a3;
+																																																																																																										checkType(l,3,out a3);
+																																																																																																										UnityEngine.Collider2D[] a4;
+																																																																																																										checkArray(l,4,out a4);
+																																																																																																										var ret=UnityEngine.Physics2D.OverlapBoxNonAlloc(a1,a2,a3,a4);
+																																																																																																										else if(argc==5){
+																																																																																																											UnityEngine.Vector2 a1;
+																																																																																																											checkType(l,1,out a1);
+																																																																																																											UnityEngine.Vector2 a2;
+																																																																																																											checkType(l,2,out a2);
+																																																																																																											System.Single a3;
+																																																																																																											checkType(l,3,out a3);
+																																																																																																											UnityEngine.Collider2D[] a4;
+																																																																																																											checkArray(l,4,out a4);
+																																																																																																											System.Int32 a5;
+																																																																																																											checkType(l,5,out a5);
+																																																																																																											var ret=UnityEngine.Physics2D.OverlapBoxNonAlloc(a1,a2,a3,a4,a5);
+																																																																																																											else if(argc==6){
+																																																																																																												UnityEngine.Vector2 a1;
+																																																																																																												checkType(l,1,out a1);
+																																																																																																												UnityEngine.Vector2 a2;
+																																																																																																												checkType(l,2,out a2);
+																																																																																																												System.Single a3;
+																																																																																																												checkType(l,3,out a3);
+																																																																																																												UnityEngine.Collider2D[] a4;
+																																																																																																												checkArray(l,4,out a4);
+																																																																																																												System.Int32 a5;
+																																																																																																												checkType(l,5,out a5);
+																																																																																																												System.Single a6;
+																																																																																																												checkType(l,6,out a6);
+																																																																																																												var ret=UnityEngine.Physics2D.OverlapBoxNonAlloc(a1,a2,a3,a4,a5,a6);
+																																																																																																												else if(argc==7){
+																																																																																																													UnityEngine.Vector2 a1;
+																																																																																																													checkType(l,1,out a1);
+																																																																																																													UnityEngine.Vector2 a2;
+																																																																																																													checkType(l,2,out a2);
+																																																																																																													System.Single a3;
+																																																																																																													checkType(l,3,out a3);
+																																																																																																													UnityEngine.Collider2D[] a4;
+																																																																																																													checkArray(l,4,out a4);
+																																																																																																													System.Int32 a5;
+																																																																																																													checkType(l,5,out a5);
+																																																																																																													System.Single a6;
+																																																																																																													checkType(l,6,out a6);
+																																																																																																													System.Single a7;
+																																																																																																													checkType(l,7,out a7);
+																																																																																																													var ret=UnityEngine.Physics2D.OverlapBoxNonAlloc(a1,a2,a3,a4,a5,a6,a7);
+																																																																																																															{ "trigger": "Physics2D.OverlapArea(Public, Static, HideBySig)","contents": "Physics2D.OverlapArea(Public, Static, HideBySig)"},
+
+																																																																																																													if(argc==2){
+																																																																																																														UnityEngine.Vector2 a1;
+																																																																																																														checkType(l,1,out a1);
+																																																																																																														UnityEngine.Vector2 a2;
+																																																																																																														checkType(l,2,out a2);
+																																																																																																														var ret=UnityEngine.Physics2D.OverlapArea(a1,a2);
+																																																																																																														else if(argc==3){
+																																																																																																															UnityEngine.Vector2 a1;
+																																																																																																															checkType(l,1,out a1);
+																																																																																																															UnityEngine.Vector2 a2;
+																																																																																																															checkType(l,2,out a2);
+																																																																																																															System.Int32 a3;
+																																																																																																															checkType(l,3,out a3);
+																																																																																																															var ret=UnityEngine.Physics2D.OverlapArea(a1,a2,a3);
+																																																																																																															else if(argc==4){
+																																																																																																																UnityEngine.Vector2 a1;
+																																																																																																																checkType(l,1,out a1);
+																																																																																																																UnityEngine.Vector2 a2;
+																																																																																																																checkType(l,2,out a2);
+																																																																																																																System.Int32 a3;
+																																																																																																																checkType(l,3,out a3);
+																																																																																																																System.Single a4;
+																																																																																																																checkType(l,4,out a4);
+																																																																																																																var ret=UnityEngine.Physics2D.OverlapArea(a1,a2,a3,a4);
+																																																																																																																else if(argc==5){
+																																																																																																																	UnityEngine.Vector2 a1;
+																																																																																																																	checkType(l,1,out a1);
+																																																																																																																	UnityEngine.Vector2 a2;
+																																																																																																																	checkType(l,2,out a2);
+																																																																																																																	System.Int32 a3;
+																																																																																																																	checkType(l,3,out a3);
+																																																																																																																	System.Single a4;
+																																																																																																																	checkType(l,4,out a4);
+																																																																																																																	System.Single a5;
+																																																																																																																	checkType(l,5,out a5);
+																																																																																																																	var ret=UnityEngine.Physics2D.OverlapArea(a1,a2,a3,a4,a5);
+																																																																																																																			{ "trigger": "Physics2D.OverlapAreaAll(Public, Static, HideBySig)","contents": "Physics2D.OverlapAreaAll(Public, Static, HideBySig)"},
+
+																																																																																																																	if(argc==2){
+																																																																																																																		UnityEngine.Vector2 a1;
+																																																																																																																		checkType(l,1,out a1);
+																																																																																																																		UnityEngine.Vector2 a2;
+																																																																																																																		checkType(l,2,out a2);
+																																																																																																																		var ret=UnityEngine.Physics2D.OverlapAreaAll(a1,a2);
+																																																																																																																		else if(argc==3){
+																																																																																																																			UnityEngine.Vector2 a1;
+																																																																																																																			checkType(l,1,out a1);
+																																																																																																																			UnityEngine.Vector2 a2;
+																																																																																																																			checkType(l,2,out a2);
+																																																																																																																			System.Int32 a3;
+																																																																																																																			checkType(l,3,out a3);
+																																																																																																																			var ret=UnityEngine.Physics2D.OverlapAreaAll(a1,a2,a3);
+																																																																																																																			else if(argc==4){
+																																																																																																																				UnityEngine.Vector2 a1;
+																																																																																																																				checkType(l,1,out a1);
+																																																																																																																				UnityEngine.Vector2 a2;
+																																																																																																																				checkType(l,2,out a2);
+																																																																																																																				System.Int32 a3;
+																																																																																																																				checkType(l,3,out a3);
+																																																																																																																				System.Single a4;
+																																																																																																																				checkType(l,4,out a4);
+																																																																																																																				var ret=UnityEngine.Physics2D.OverlapAreaAll(a1,a2,a3,a4);
+																																																																																																																				else if(argc==5){
+																																																																																																																					UnityEngine.Vector2 a1;
+																																																																																																																					checkType(l,1,out a1);
+																																																																																																																					UnityEngine.Vector2 a2;
+																																																																																																																					checkType(l,2,out a2);
+																																																																																																																					System.Int32 a3;
+																																																																																																																					checkType(l,3,out a3);
+																																																																																																																					System.Single a4;
+																																																																																																																					checkType(l,4,out a4);
+																																																																																																																					System.Single a5;
+																																																																																																																					checkType(l,5,out a5);
+																																																																																																																					var ret=UnityEngine.Physics2D.OverlapAreaAll(a1,a2,a3,a4,a5);
+																																																																																																																							{ "trigger": "Physics2D.OverlapAreaNonAlloc(Public, Static, HideBySig)","contents": "Physics2D.OverlapAreaNonAlloc(Public, Static, HideBySig)"},
+
+																																																																																																																					if(argc==3){
+																																																																																																																						UnityEngine.Vector2 a1;
+																																																																																																																						checkType(l,1,out a1);
+																																																																																																																						UnityEngine.Vector2 a2;
+																																																																																																																						checkType(l,2,out a2);
+																																																																																																																						UnityEngine.Collider2D[] a3;
+																																																																																																																						checkArray(l,3,out a3);
+																																																																																																																						var ret=UnityEngine.Physics2D.OverlapAreaNonAlloc(a1,a2,a3);
+																																																																																																																						else if(argc==4){
+																																																																																																																							UnityEngine.Vector2 a1;
+																																																																																																																							checkType(l,1,out a1);
+																																																																																																																							UnityEngine.Vector2 a2;
+																																																																																																																							checkType(l,2,out a2);
+																																																																																																																							UnityEngine.Collider2D[] a3;
+																																																																																																																							checkArray(l,3,out a3);
+																																																																																																																							System.Int32 a4;
+																																																																																																																							checkType(l,4,out a4);
+																																																																																																																							var ret=UnityEngine.Physics2D.OverlapAreaNonAlloc(a1,a2,a3,a4);
+																																																																																																																							else if(argc==5){
+																																																																																																																								UnityEngine.Vector2 a1;
+																																																																																																																								checkType(l,1,out a1);
+																																																																																																																								UnityEngine.Vector2 a2;
+																																																																																																																								checkType(l,2,out a2);
+																																																																																																																								UnityEngine.Collider2D[] a3;
+																																																																																																																								checkArray(l,3,out a3);
+																																																																																																																								System.Int32 a4;
+																																																																																																																								checkType(l,4,out a4);
+																																																																																																																								System.Single a5;
+																																																																																																																								checkType(l,5,out a5);
+																																																																																																																								var ret=UnityEngine.Physics2D.OverlapAreaNonAlloc(a1,a2,a3,a4,a5);
+																																																																																																																								else if(argc==6){
+																																																																																																																									UnityEngine.Vector2 a1;
+																																																																																																																									checkType(l,1,out a1);
+																																																																																																																									UnityEngine.Vector2 a2;
+																																																																																																																									checkType(l,2,out a2);
+																																																																																																																									UnityEngine.Collider2D[] a3;
+																																																																																																																									checkArray(l,3,out a3);
+																																																																																																																									System.Int32 a4;
+																																																																																																																									checkType(l,4,out a4);
+																																																																																																																									System.Single a5;
+																																																																																																																									checkType(l,5,out a5);
+																																																																																																																									System.Single a6;
+																																																																																																																									checkType(l,6,out a6);
+																																																																																																																									var ret=UnityEngine.Physics2D.OverlapAreaNonAlloc(a1,a2,a3,a4,a5,a6);
+																																																																																																																									IgnoreRaycastLayer
+																																																																																																																									DefaultRaycastLayers
+																																																																																																																									AllLayers
+																																																																																																																									get_velocityIterations(IntPtr l) {
+																																																																																																																										set_velocityIterations(IntPtr l) {
+																																																																																																																											int v;
+																																																																																																																											checkType(l,2,out v);
+																																																																																																																											UnityEngine.Physics2D.velocityIterations=v;
+																																																																																																																											get_positionIterations(IntPtr l) {
+																																																																																																																												set_positionIterations(IntPtr l) {
+																																																																																																																													int v;
+																																																																																																																													checkType(l,2,out v);
+																																																																																																																													UnityEngine.Physics2D.positionIterations=v;
+																																																																																																																													get_gravity(IntPtr l) {
+																																																																																																																														set_gravity(IntPtr l) {
+																																																																																																																															UnityEngine.Vector2 v;
+																																																																																																																															checkType(l,2,out v);
+																																																																																																																															UnityEngine.Physics2D.gravity=v;
+																																																																																																																															get_queriesHitTriggers(IntPtr l) {
+																																																																																																																																set_queriesHitTriggers(IntPtr l) {
+																																																																																																																																	bool v;
+																																																																																																																																	checkType(l,2,out v);
+																																																																																																																																	UnityEngine.Physics2D.queriesHitTriggers=v;
+																																																																																																																																	get_queriesStartInColliders(IntPtr l) {
+																																																																																																																																		set_queriesStartInColliders(IntPtr l) {
+																																																																																																																																			bool v;
+																																																																																																																																			checkType(l,2,out v);
+																																																																																																																																			UnityEngine.Physics2D.queriesStartInColliders=v;
+																																																																																																																																			get_changeStopsCallbacks(IntPtr l) {
+																																																																																																																																				set_changeStopsCallbacks(IntPtr l) {
+																																																																																																																																					bool v;
+																																																																																																																																					checkType(l,2,out v);
+																																																																																																																																					UnityEngine.Physics2D.changeStopsCallbacks=v;
+																																																																																																																																					get_velocityThreshold(IntPtr l) {
+																																																																																																																																						set_velocityThreshold(IntPtr l) {
+																																																																																																																																							float v;
+																																																																																																																																							checkType(l,2,out v);
+																																																																																																																																							UnityEngine.Physics2D.velocityThreshold=v;
+																																																																																																																																							get_maxLinearCorrection(IntPtr l) {
+																																																																																																																																								set_maxLinearCorrection(IntPtr l) {
+																																																																																																																																									float v;
+																																																																																																																																									checkType(l,2,out v);
+																																																																																																																																									UnityEngine.Physics2D.maxLinearCorrection=v;
+																																																																																																																																									get_maxAngularCorrection(IntPtr l) {
+																																																																																																																																										set_maxAngularCorrection(IntPtr l) {
+																																																																																																																																											float v;
+																																																																																																																																											checkType(l,2,out v);
+																																																																																																																																											UnityEngine.Physics2D.maxAngularCorrection=v;
+																																																																																																																																											get_maxTranslationSpeed(IntPtr l) {
+																																																																																																																																												set_maxTranslationSpeed(IntPtr l) {
+																																																																																																																																													float v;
+																																																																																																																																													checkType(l,2,out v);
+																																																																																																																																													UnityEngine.Physics2D.maxTranslationSpeed=v;
+																																																																																																																																													get_maxRotationSpeed(IntPtr l) {
+																																																																																																																																														set_maxRotationSpeed(IntPtr l) {
+																																																																																																																																															float v;
+																																																																																																																																															checkType(l,2,out v);
+																																																																																																																																															UnityEngine.Physics2D.maxRotationSpeed=v;
+																																																																																																																																															get_minPenetrationForPenalty(IntPtr l) {
+																																																																																																																																																set_minPenetrationForPenalty(IntPtr l) {
+																																																																																																																																																	float v;
+																																																																																																																																																	checkType(l,2,out v);
+																																																																																																																																																	UnityEngine.Physics2D.minPenetrationForPenalty=v;
+																																																																																																																																																	get_baumgarteScale(IntPtr l) {
+																																																																																																																																																		set_baumgarteScale(IntPtr l) {
+																																																																																																																																																			float v;
+																																																																																																																																																			checkType(l,2,out v);
+																																																																																																																																																			UnityEngine.Physics2D.baumgarteScale=v;
+																																																																																																																																																			get_baumgarteTOIScale(IntPtr l) {
+																																																																																																																																																				set_baumgarteTOIScale(IntPtr l) {
+																																																																																																																																																					float v;
+																																																																																																																																																					checkType(l,2,out v);
+																																																																																																																																																					UnityEngine.Physics2D.baumgarteTOIScale=v;
+																																																																																																																																																					get_timeToSleep(IntPtr l) {
+																																																																																																																																																						set_timeToSleep(IntPtr l) {
+																																																																																																																																																							float v;
+																																																																																																																																																							checkType(l,2,out v);
+																																																																																																																																																							UnityEngine.Physics2D.timeToSleep=v;
+																																																																																																																																																							get_linearSleepTolerance(IntPtr l) {
+																																																																																																																																																								set_linearSleepTolerance(IntPtr l) {
+																																																																																																																																																									float v;
+																																																																																																																																																									checkType(l,2,out v);
+																																																																																																																																																									UnityEngine.Physics2D.linearSleepTolerance=v;
+																																																																																																																																																									get_angularSleepTolerance(IntPtr l) {
+																																																																																																																																																										set_angularSleepTolerance(IntPtr l) {
+																																																																																																																																																											float v;
+																																																																																																																																																											checkType(l,2,out v);
+																																																																																																																																																											UnityEngine.Physics2D.angularSleepTolerance=v;
+																																																																																																																																																											get_alwaysShowColliders(IntPtr l) {
+																																																																																																																																																												set_alwaysShowColliders(IntPtr l) {
+																																																																																																																																																													bool v;
+																																																																																																																																																													checkType(l,2,out v);
+																																																																																																																																																													UnityEngine.Physics2D.alwaysShowColliders=v;
+																																																																																																																																																													get_showColliderSleep(IntPtr l) {
+																																																																																																																																																														set_showColliderSleep(IntPtr l) {
+																																																																																																																																																															bool v;
+																																																																																																																																																															checkType(l,2,out v);
+																																																																																																																																																															UnityEngine.Physics2D.showColliderSleep=v;
+																																																																																																																																																															get_showColliderContacts(IntPtr l) {
+																																																																																																																																																																set_showColliderContacts(IntPtr l) {
+																																																																																																																																																																	bool v;
+																																																																																																																																																																	checkType(l,2,out v);
+																																																																																																																																																																	UnityEngine.Physics2D.showColliderContacts=v;
+																																																																																																																																																																	get_contactArrowScale(IntPtr l) {
+																																																																																																																																																																		set_contactArrowScale(IntPtr l) {
+																																																																																																																																																																			float v;
+																																																																																																																																																																			checkType(l,2,out v);
+																																																																																																																																																																			UnityEngine.Physics2D.contactArrowScale=v;
+																																																																																																																																																																			get_colliderAwakeColor(IntPtr l) {
+																																																																																																																																																																				set_colliderAwakeColor(IntPtr l) {
+																																																																																																																																																																					UnityEngine.Color v;
+																																																																																																																																																																					checkType(l,2,out v);
+																																																																																																																																																																					UnityEngine.Physics2D.colliderAwakeColor=v;
+																																																																																																																																																																					get_colliderAsleepColor(IntPtr l) {
+																																																																																																																																																																						set_colliderAsleepColor(IntPtr l) {
+																																																																																																																																																																							UnityEngine.Color v;
+																																																																																																																																																																							checkType(l,2,out v);
+																																																																																																																																																																							UnityEngine.Physics2D.colliderAsleepColor=v;
+																																																																																																																																																																							get_colliderContactColor(IntPtr l) {
+																																																																																																																																																																								set_colliderContactColor(IntPtr l) {
+																																																																																																																																																																									UnityEngine.Color v;
+																																																																																																																																																																									checkType(l,2,out v);
+																																																																																																																																																																									UnityEngine.Physics2D.colliderContactColor=v;
+																																																																																																																																																																										]
+																																																																																																																																																																								}
+

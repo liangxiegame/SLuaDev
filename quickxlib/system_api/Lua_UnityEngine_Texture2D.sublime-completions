@@ -1,0 +1,360 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Texture2D()()","contents": "UnityEngine.Texture2D()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Texture2D()()","contents": "UnityEngine.Texture2D()()"},
+
+			{ "trigger": "UnityEngine.Texture2D()()","contents": "UnityEngine.Texture2D()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	UnityEngine.TextureFormat a3;
+	checkEnum(l,4,out a3);
+	System.Boolean a4;
+	checkType(l,5,out a4);
+			{ "trigger": "UnityEngine.Texture2D()()","contents": "UnityEngine.Texture2D()()"},
+
+			{ "trigger": "UnityEngine.Texture2D()()","contents": "UnityEngine.Texture2D()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	UnityEngine.TextureFormat a3;
+	checkEnum(l,4,out a3);
+	System.Boolean a4;
+	checkType(l,5,out a4);
+	System.Boolean a5;
+	checkType(l,6,out a5);
+			{ "trigger": "UnityEngine.Texture2D()()","contents": "UnityEngine.Texture2D()()"},
+
+			{ "trigger": "Texture2D:UpdateExternalTexture(Public, HideBySig)","contents": "Texture2D:UpdateExternalTexture(Public, HideBySig)"},
+
+	UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+	System.IntPtr a1;
+	checkType(l,2,out a1);
+	self.UpdateExternalTexture(a1);
+			{ "trigger": "Texture2D:SetPixel(Public, HideBySig)","contents": "Texture2D:SetPixel(Public, HideBySig)"},
+
+	UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	UnityEngine.Color a3;
+	checkType(l,4,out a3);
+	self.SetPixel(a1,a2,a3);
+			{ "trigger": "Texture2D:GetPixel(Public, HideBySig)","contents": "Texture2D:GetPixel(Public, HideBySig)"},
+
+	UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	var ret=self.GetPixel(a1,a2);
+			{ "trigger": "Texture2D:GetPixelBilinear(Public, HideBySig)","contents": "Texture2D:GetPixelBilinear(Public, HideBySig)"},
+
+	UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	var ret=self.GetPixelBilinear(a1,a2);
+			{ "trigger": "Texture2D:SetPixels(Public, HideBySig)","contents": "Texture2D:SetPixels(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+		UnityEngine.Color[] a1;
+		checkArray(l,2,out a1);
+		self.SetPixels(a1);
+		else if(argc==3){
+			UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+			UnityEngine.Color[] a1;
+			checkArray(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			self.SetPixels(a1,a2);
+			else if(argc==6){
+				UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+				System.Int32 a1;
+				checkType(l,2,out a1);
+				System.Int32 a2;
+				checkType(l,3,out a2);
+				System.Int32 a3;
+				checkType(l,4,out a3);
+				System.Int32 a4;
+				checkType(l,5,out a4);
+				UnityEngine.Color[] a5;
+				checkArray(l,6,out a5);
+				self.SetPixels(a1,a2,a3,a4,a5);
+				else if(argc==7){
+					UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+					System.Int32 a1;
+					checkType(l,2,out a1);
+					System.Int32 a2;
+					checkType(l,3,out a2);
+					System.Int32 a3;
+					checkType(l,4,out a3);
+					System.Int32 a4;
+					checkType(l,5,out a4);
+					UnityEngine.Color[] a5;
+					checkArray(l,6,out a5);
+					System.Int32 a6;
+					checkType(l,7,out a6);
+					self.SetPixels(a1,a2,a3,a4,a5,a6);
+							{ "trigger": "Texture2D:SetPixels32(Public, HideBySig)","contents": "Texture2D:SetPixels32(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+						UnityEngine.Color32[] a1;
+						checkArray(l,2,out a1);
+						self.SetPixels32(a1);
+						else if(argc==3){
+							UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+							UnityEngine.Color32[] a1;
+							checkArray(l,2,out a1);
+							System.Int32 a2;
+							checkType(l,3,out a2);
+							self.SetPixels32(a1,a2);
+							else if(argc==6){
+								UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+								System.Int32 a1;
+								checkType(l,2,out a1);
+								System.Int32 a2;
+								checkType(l,3,out a2);
+								System.Int32 a3;
+								checkType(l,4,out a3);
+								System.Int32 a4;
+								checkType(l,5,out a4);
+								UnityEngine.Color32[] a5;
+								checkArray(l,6,out a5);
+								self.SetPixels32(a1,a2,a3,a4,a5);
+								else if(argc==7){
+									UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									System.Int32 a2;
+									checkType(l,3,out a2);
+									System.Int32 a3;
+									checkType(l,4,out a3);
+									System.Int32 a4;
+									checkType(l,5,out a4);
+									UnityEngine.Color32[] a5;
+									checkArray(l,6,out a5);
+									System.Int32 a6;
+									checkType(l,7,out a6);
+									self.SetPixels32(a1,a2,a3,a4,a5,a6);
+											{ "trigger": "Texture2D:LoadImage(Public, HideBySig)","contents": "Texture2D:LoadImage(Public, HideBySig)"},
+
+									if(argc==2){
+										UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+										System.Byte[] a1;
+										checkArray(l,2,out a1);
+										var ret=self.LoadImage(a1);
+										else if(argc==3){
+											UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+											System.Byte[] a1;
+											checkArray(l,2,out a1);
+											System.Boolean a2;
+											checkType(l,3,out a2);
+											var ret=self.LoadImage(a1,a2);
+													{ "trigger": "Texture2D:LoadRawTextureData(Public, HideBySig)","contents": "Texture2D:LoadRawTextureData(Public, HideBySig)"},
+
+											if(argc==2){
+												UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+												System.Byte[] a1;
+												checkArray(l,2,out a1);
+												self.LoadRawTextureData(a1);
+												else if(argc==3){
+													UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+													System.IntPtr a1;
+													checkType(l,2,out a1);
+													System.Int32 a2;
+													checkType(l,3,out a2);
+													self.LoadRawTextureData(a1,a2);
+															{ "trigger": "Texture2D:GetRawTextureData(Public, HideBySig)","contents": "Texture2D:GetRawTextureData(Public, HideBySig)"},
+
+													UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+													var ret=self.GetRawTextureData();
+															{ "trigger": "Texture2D:GetPixels(Public, HideBySig)","contents": "Texture2D:GetPixels(Public, HideBySig)"},
+
+													if(argc==1){
+														UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+														var ret=self.GetPixels();
+														else if(argc==2){
+															UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+															System.Int32 a1;
+															checkType(l,2,out a1);
+															var ret=self.GetPixels(a1);
+															else if(argc==5){
+																UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																System.Int32 a1;
+																checkType(l,2,out a1);
+																System.Int32 a2;
+																checkType(l,3,out a2);
+																System.Int32 a3;
+																checkType(l,4,out a3);
+																System.Int32 a4;
+																checkType(l,5,out a4);
+																var ret=self.GetPixels(a1,a2,a3,a4);
+																else if(argc==6){
+																	UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																	System.Int32 a1;
+																	checkType(l,2,out a1);
+																	System.Int32 a2;
+																	checkType(l,3,out a2);
+																	System.Int32 a3;
+																	checkType(l,4,out a3);
+																	System.Int32 a4;
+																	checkType(l,5,out a4);
+																	System.Int32 a5;
+																	checkType(l,6,out a5);
+																	var ret=self.GetPixels(a1,a2,a3,a4,a5);
+																			{ "trigger": "Texture2D:GetPixels32(Public, HideBySig)","contents": "Texture2D:GetPixels32(Public, HideBySig)"},
+
+																	if(argc==1){
+																		UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																		var ret=self.GetPixels32();
+																		else if(argc==2){
+																			UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetPixels32(a1);
+																					{ "trigger": "Texture2D:Apply(Public, HideBySig)","contents": "Texture2D:Apply(Public, HideBySig)"},
+
+																			if(argc==1){
+																				UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																				self.Apply();
+																				else if(argc==2){
+																					UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																					System.Boolean a1;
+																					checkType(l,2,out a1);
+																					self.Apply(a1);
+																					else if(argc==3){
+																						UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																						System.Boolean a1;
+																						checkType(l,2,out a1);
+																						System.Boolean a2;
+																						checkType(l,3,out a2);
+																						self.Apply(a1,a2);
+																								{ "trigger": "Texture2D:Resize(Public, HideBySig)","contents": "Texture2D:Resize(Public, HideBySig)"},
+
+																						if(argc==3){
+																							UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																							System.Int32 a1;
+																							checkType(l,2,out a1);
+																							System.Int32 a2;
+																							checkType(l,3,out a2);
+																							var ret=self.Resize(a1,a2);
+																							else if(argc==5){
+																								UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																								System.Int32 a1;
+																								checkType(l,2,out a1);
+																								System.Int32 a2;
+																								checkType(l,3,out a2);
+																								UnityEngine.TextureFormat a3;
+																								checkEnum(l,4,out a3);
+																								System.Boolean a4;
+																								checkType(l,5,out a4);
+																								var ret=self.Resize(a1,a2,a3,a4);
+																										{ "trigger": "Texture2D:Compress(Public, HideBySig)","contents": "Texture2D:Compress(Public, HideBySig)"},
+
+																								UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																								System.Boolean a1;
+																								checkType(l,2,out a1);
+																								self.Compress(a1);
+																										{ "trigger": "Texture2D:PackTextures(Public, HideBySig)","contents": "Texture2D:PackTextures(Public, HideBySig)"},
+
+																								if(argc==3){
+																									UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																									UnityEngine.Texture2D[] a1;
+																									checkArray(l,2,out a1);
+																									System.Int32 a2;
+																									checkType(l,3,out a2);
+																									var ret=self.PackTextures(a1,a2);
+																									else if(argc==4){
+																										UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																										UnityEngine.Texture2D[] a1;
+																										checkArray(l,2,out a1);
+																										System.Int32 a2;
+																										checkType(l,3,out a2);
+																										System.Int32 a3;
+																										checkType(l,4,out a3);
+																										var ret=self.PackTextures(a1,a2,a3);
+																										else if(argc==5){
+																											UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																											UnityEngine.Texture2D[] a1;
+																											checkArray(l,2,out a1);
+																											System.Int32 a2;
+																											checkType(l,3,out a2);
+																											System.Int32 a3;
+																											checkType(l,4,out a3);
+																											System.Boolean a4;
+																											checkType(l,5,out a4);
+																											var ret=self.PackTextures(a1,a2,a3,a4);
+																													{ "trigger": "Texture2D:ReadPixels(Public, HideBySig)","contents": "Texture2D:ReadPixels(Public, HideBySig)"},
+
+																											if(argc==4){
+																												UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																												UnityEngine.Rect a1;
+																												checkValueType(l,2,out a1);
+																												System.Int32 a2;
+																												checkType(l,3,out a2);
+																												System.Int32 a3;
+																												checkType(l,4,out a3);
+																												self.ReadPixels(a1,a2,a3);
+																												else if(argc==5){
+																													UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																													UnityEngine.Rect a1;
+																													checkValueType(l,2,out a1);
+																													System.Int32 a2;
+																													checkType(l,3,out a2);
+																													System.Int32 a3;
+																													checkType(l,4,out a3);
+																													System.Boolean a4;
+																													checkType(l,5,out a4);
+																													self.ReadPixels(a1,a2,a3,a4);
+																															{ "trigger": "Texture2D:EncodeToPNG(Public, HideBySig)","contents": "Texture2D:EncodeToPNG(Public, HideBySig)"},
+
+																													UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																													var ret=self.EncodeToPNG();
+																															{ "trigger": "Texture2D:EncodeToJPG(Public, HideBySig)","contents": "Texture2D:EncodeToJPG(Public, HideBySig)"},
+
+																													if(argc==1){
+																														UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																														var ret=self.EncodeToJPG();
+																														else if(argc==2){
+																															UnityEngine.Texture2D self=(UnityEngine.Texture2D)checkSelf(l);
+																															System.Int32 a1;
+																															checkType(l,2,out a1);
+																															var ret=self.EncodeToJPG(a1);
+																																	{ "trigger": "Texture2D.CreateExternalTexture(Public, Static, HideBySig)","contents": "Texture2D.CreateExternalTexture(Public, Static, HideBySig)"},
+
+																															System.Int32 a1;
+																															checkType(l,1,out a1);
+																															System.Int32 a2;
+																															checkType(l,2,out a2);
+																															UnityEngine.TextureFormat a3;
+																															checkEnum(l,3,out a3);
+																															System.Boolean a4;
+																															checkType(l,4,out a4);
+																															System.Boolean a5;
+																															checkType(l,5,out a5);
+																															System.IntPtr a6;
+																															checkType(l,6,out a6);
+																															var ret=UnityEngine.Texture2D.CreateExternalTexture(a1,a2,a3,a4,a5,a6);
+																															get_mipmapCount(IntPtr l) {
+																																get_format(IntPtr l) {
+																																	get_whiteTexture(IntPtr l) {
+																																		get_blackTexture(IntPtr l) {
+																																				]
+																																		}
+

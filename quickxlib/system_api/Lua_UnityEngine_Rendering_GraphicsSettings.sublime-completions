@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rendering.GraphicsSettings()()","contents": "UnityEngine.Rendering.GraphicsSettings()()"},
+
+			{ "trigger": "GraphicsSettings.SetShaderMode(Public, Static, HideBySig)","contents": "GraphicsSettings.SetShaderMode(Public, Static, HideBySig)"},
+
+	UnityEngine.Rendering.BuiltinShaderType a1;
+	checkEnum(l,1,out a1);
+	UnityEngine.Rendering.BuiltinShaderMode a2;
+	checkEnum(l,2,out a2);
+	UnityEngine.Rendering.GraphicsSettings.SetShaderMode(a1,a2);
+			{ "trigger": "GraphicsSettings.GetShaderMode(Public, Static, HideBySig)","contents": "GraphicsSettings.GetShaderMode(Public, Static, HideBySig)"},
+
+	UnityEngine.Rendering.BuiltinShaderType a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.Rendering.GraphicsSettings.GetShaderMode(a1);
+			{ "trigger": "GraphicsSettings.SetCustomShader(Public, Static, HideBySig)","contents": "GraphicsSettings.SetCustomShader(Public, Static, HideBySig)"},
+
+	UnityEngine.Rendering.BuiltinShaderType a1;
+	checkEnum(l,1,out a1);
+	UnityEngine.Shader a2;
+	checkType(l,2,out a2);
+	UnityEngine.Rendering.GraphicsSettings.SetCustomShader(a1,a2);
+			{ "trigger": "GraphicsSettings.GetCustomShader(Public, Static, HideBySig)","contents": "GraphicsSettings.GetCustomShader(Public, Static, HideBySig)"},
+
+	UnityEngine.Rendering.BuiltinShaderType a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.Rendering.GraphicsSettings.GetCustomShader(a1);
+		]
+}
+

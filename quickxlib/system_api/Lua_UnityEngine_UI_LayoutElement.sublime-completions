@@ -1,0 +1,58 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "LayoutElement:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutElement:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "LayoutElement:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutElement:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+	get_ignoreLayout(IntPtr l) {
+		set_ignoreLayout(IntPtr l) {
+			UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.ignoreLayout=v;
+			get_minWidth(IntPtr l) {
+				set_minWidth(IntPtr l) {
+					UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.minWidth=v;
+					get_minHeight(IntPtr l) {
+						set_minHeight(IntPtr l) {
+							UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.minHeight=v;
+							get_preferredWidth(IntPtr l) {
+								set_preferredWidth(IntPtr l) {
+									UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.preferredWidth=v;
+									get_preferredHeight(IntPtr l) {
+										set_preferredHeight(IntPtr l) {
+											UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.preferredHeight=v;
+											get_flexibleWidth(IntPtr l) {
+												set_flexibleWidth(IntPtr l) {
+													UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.flexibleWidth=v;
+													get_flexibleHeight(IntPtr l) {
+														set_flexibleHeight(IntPtr l) {
+															UnityEngine.UI.LayoutElement self=(UnityEngine.UI.LayoutElement)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.flexibleHeight=v;
+															get_layoutPriority(IntPtr l) {
+																	]
+															}
+

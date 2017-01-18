@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LogType");
+	addMember(l,0,"Error");
+	addMember(l,1,"Assert");
+	addMember(l,2,"Warning");
+	addMember(l,3,"Log");
+	addMember(l,4,"Exception");
+		]
+}
+

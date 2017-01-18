@@ -1,0 +1,130 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ComputeShader()()","contents": "UnityEngine.ComputeShader()()"},
+
+			{ "trigger": "ComputeShader:FindKernel(Public, HideBySig)","contents": "ComputeShader:FindKernel(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.FindKernel(a1);
+			{ "trigger": "ComputeShader:HasKernel(Public, HideBySig)","contents": "ComputeShader:HasKernel(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.HasKernel(a1);
+			{ "trigger": "ComputeShader:GetKernelThreadGroupSizes(Public, HideBySig)","contents": "ComputeShader:GetKernelThreadGroupSizes(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.UInt32 a2;
+	System.UInt32 a3;
+	System.UInt32 a4;
+	self.GetKernelThreadGroupSizes(a1,out a2,out a3,out a4);
+			{ "trigger": "ComputeShader:SetFloat(Public, HideBySig)","contents": "ComputeShader:SetFloat(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetFloat(a1,a2);
+			{ "trigger": "ComputeShader:SetInt(Public, HideBySig)","contents": "ComputeShader:SetInt(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	self.SetInt(a1,a2);
+			{ "trigger": "ComputeShader:SetVector(Public, HideBySig)","contents": "ComputeShader:SetVector(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector4 a2;
+	checkType(l,3,out a2);
+	self.SetVector(a1,a2);
+			{ "trigger": "ComputeShader:SetFloats(Public, HideBySig)","contents": "ComputeShader:SetFloats(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Single[] a2;
+	checkParams(l,3,out a2);
+	self.SetFloats(a1,a2);
+			{ "trigger": "ComputeShader:SetInts(Public, HideBySig)","contents": "ComputeShader:SetInts(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Int32[] a2;
+	checkParams(l,3,out a2);
+	self.SetInts(a1,a2);
+			{ "trigger": "ComputeShader:SetTexture(Public, HideBySig)","contents": "ComputeShader:SetTexture(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.String a2;
+	checkType(l,3,out a2);
+	UnityEngine.Texture a3;
+	checkType(l,4,out a3);
+	self.SetTexture(a1,a2,a3);
+			{ "trigger": "ComputeShader:SetTextureFromGlobal(Public, HideBySig)","contents": "ComputeShader:SetTextureFromGlobal(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.String a2;
+	checkType(l,3,out a2);
+	System.String a3;
+	checkType(l,4,out a3);
+	self.SetTextureFromGlobal(a1,a2,a3);
+			{ "trigger": "ComputeShader:SetBuffer(Public, HideBySig)","contents": "ComputeShader:SetBuffer(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.String a2;
+	checkType(l,3,out a2);
+	UnityEngine.ComputeBuffer a3;
+	checkType(l,4,out a3);
+	self.SetBuffer(a1,a2,a3);
+			{ "trigger": "ComputeShader:Dispatch(Public, HideBySig)","contents": "ComputeShader:Dispatch(Public, HideBySig)"},
+
+	UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	System.Int32 a4;
+	checkType(l,5,out a4);
+	self.Dispatch(a1,a2,a3,a4);
+			{ "trigger": "ComputeShader:DispatchIndirect(Public, HideBySig)","contents": "ComputeShader:DispatchIndirect(Public, HideBySig)"},
+
+	if(argc==3){
+		UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+		System.Int32 a1;
+		checkType(l,2,out a1);
+		UnityEngine.ComputeBuffer a2;
+		checkType(l,3,out a2);
+		self.DispatchIndirect(a1,a2);
+		else if(argc==4){
+			UnityEngine.ComputeShader self=(UnityEngine.ComputeShader)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			UnityEngine.ComputeBuffer a2;
+			checkType(l,3,out a2);
+			System.UInt32 a3;
+			checkType(l,4,out a3);
+			self.DispatchIndirect(a1,a2,a3);
+				]
+		}
+

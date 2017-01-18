@@ -1,0 +1,62 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "DefaultControls.CreatePanel(Public, Static, HideBySig)","contents": "DefaultControls.CreatePanel(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreatePanel(a1);
+			{ "trigger": "DefaultControls.CreateButton(Public, Static, HideBySig)","contents": "DefaultControls.CreateButton(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateButton(a1);
+			{ "trigger": "DefaultControls.CreateText(Public, Static, HideBySig)","contents": "DefaultControls.CreateText(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateText(a1);
+			{ "trigger": "DefaultControls.CreateImage(Public, Static, HideBySig)","contents": "DefaultControls.CreateImage(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateImage(a1);
+			{ "trigger": "DefaultControls.CreateRawImage(Public, Static, HideBySig)","contents": "DefaultControls.CreateRawImage(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateRawImage(a1);
+			{ "trigger": "DefaultControls.CreateSlider(Public, Static, HideBySig)","contents": "DefaultControls.CreateSlider(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateSlider(a1);
+			{ "trigger": "DefaultControls.CreateScrollbar(Public, Static, HideBySig)","contents": "DefaultControls.CreateScrollbar(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateScrollbar(a1);
+			{ "trigger": "DefaultControls.CreateToggle(Public, Static, HideBySig)","contents": "DefaultControls.CreateToggle(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateToggle(a1);
+			{ "trigger": "DefaultControls.CreateInputField(Public, Static, HideBySig)","contents": "DefaultControls.CreateInputField(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateInputField(a1);
+			{ "trigger": "DefaultControls.CreateDropdown(Public, Static, HideBySig)","contents": "DefaultControls.CreateDropdown(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateDropdown(a1);
+			{ "trigger": "DefaultControls.CreateScrollView(Public, Static, HideBySig)","contents": "DefaultControls.CreateScrollView(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.DefaultControls.Resources a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.UI.DefaultControls.CreateScrollView(a1);
+		]
+}
+

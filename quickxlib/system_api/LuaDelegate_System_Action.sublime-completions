@@ -1,0 +1,7 @@
+﻿
+System.Action 
+                ua = (System.Action)checkObj(l, p);
+                ua = (System.Action)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

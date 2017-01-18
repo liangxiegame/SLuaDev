@@ -1,0 +1,49 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "WebClientEx()()","contents": "WebClientEx()()"},
+
+			{ "trigger": "WebClientEx()()","contents": "WebClientEx()()"},
+
+			{ "trigger": "WebClientEx()()","contents": "WebClientEx()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+			{ "trigger": "WebClientEx()()","contents": "WebClientEx()()"},
+
+			{ "trigger": "WebClientEx:downFile(Public, HideBySig)","contents": "WebClientEx:downFile(Public, HideBySig)"},
+
+	WebClientEx self=(WebClientEx)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.String a2;
+	checkType(l,3,out a2);
+	self.downFile(a1,a2);
+			{ "trigger": "WebClientEx:Close(Public, HideBySig)","contents": "WebClientEx:Close(Public, HideBySig)"},
+
+	WebClientEx self=(WebClientEx)checkSelf(l);
+	self.Close();
+	set_progress(IntPtr l) {
+		WebClientEx self=(WebClientEx)checkSelf(l);
+		WebClientEx.DownProgress v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) self.progress=v;
+		else if(op==1) self.progress+=v;
+		else if(op==2) self.progress-=v;
+		set_complete(IntPtr l) {
+			WebClientEx self=(WebClientEx)checkSelf(l);
+			WebClientEx.DownComplete v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) self.complete=v;
+			else if(op==1) self.complete+=v;
+			else if(op==2) self.complete-=v;
+			get_Timeout(IntPtr l) {
+				set_Timeout(IntPtr l) {
+					WebClientEx self=(WebClientEx)checkSelf(l);
+					int v;
+					checkType(l,2,out v);
+					self.Timeout=v;
+						]
+				}
+

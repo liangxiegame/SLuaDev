@@ -1,0 +1,157 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Event()()","contents": "UnityEngine.Event()()"},
+
+			{ "trigger": "UnityEngine.Event()()","contents": "UnityEngine.Event()()"},
+
+			{ "trigger": "UnityEngine.Event(,int)()","contents": "UnityEngine.Event(,int)()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Event()()","contents": "UnityEngine.Event()()"},
+
+			{ "trigger": "UnityEngine.Event(,UnityEngine.Event)()","contents": "UnityEngine.Event(,UnityEngine.Event)()"},
+
+	UnityEngine.Event a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Event()()","contents": "UnityEngine.Event()()"},
+
+			{ "trigger": "Event:GetTypeForControl(Public, HideBySig)","contents": "Event:GetTypeForControl(Public, HideBySig)"},
+
+	UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetTypeForControl(a1);
+			{ "trigger": "Event:Use(Public, HideBySig)","contents": "Event:Use(Public, HideBySig)"},
+
+	UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+	self.Use();
+			{ "trigger": "Event.KeyboardEvent(Public, Static, HideBySig)","contents": "Event.KeyboardEvent(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Event.KeyboardEvent(a1);
+			{ "trigger": "Event.PopEvent(Public, Static, HideBySig)","contents": "Event.PopEvent(Public, Static, HideBySig)"},
+
+	UnityEngine.Event a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Event.PopEvent(a1);
+			{ "trigger": "Event.GetEventCount(Public, Static, HideBySig)","contents": "Event.GetEventCount(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.Event.GetEventCount();
+	get_mousePosition(IntPtr l) {
+		set_mousePosition(IntPtr l) {
+			UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.mousePosition=v;
+			get_delta(IntPtr l) {
+				set_delta(IntPtr l) {
+					UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.delta=v;
+					get_shift(IntPtr l) {
+						set_shift(IntPtr l) {
+							UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.shift=v;
+							get_control(IntPtr l) {
+								set_control(IntPtr l) {
+									UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.control=v;
+									get_alt(IntPtr l) {
+										set_alt(IntPtr l) {
+											UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.alt=v;
+											get_command(IntPtr l) {
+												set_command(IntPtr l) {
+													UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.command=v;
+													get_capsLock(IntPtr l) {
+														set_capsLock(IntPtr l) {
+															UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+															bool v;
+															checkType(l,2,out v);
+															self.capsLock=v;
+															get_numeric(IntPtr l) {
+																set_numeric(IntPtr l) {
+																	UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																	bool v;
+																	checkType(l,2,out v);
+																	self.numeric=v;
+																	get_functionKey(IntPtr l) {
+																		get_current(IntPtr l) {
+																			set_current(IntPtr l) {
+																				UnityEngine.Event v;
+																				checkType(l,2,out v);
+																				UnityEngine.Event.current=v;
+																				get_isKey(IntPtr l) {
+																					get_isMouse(IntPtr l) {
+																						get_rawType(IntPtr l) {
+																							get_type(IntPtr l) {
+																								set_type(IntPtr l) {
+																									UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																									UnityEngine.EventType v;
+																									checkEnum(l,2,out v);
+																									self.type=v;
+																									get_button(IntPtr l) {
+																										set_button(IntPtr l) {
+																											UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																											int v;
+																											checkType(l,2,out v);
+																											self.button=v;
+																											get_modifiers(IntPtr l) {
+																												set_modifiers(IntPtr l) {
+																													UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																													UnityEngine.EventModifiers v;
+																													checkEnum(l,2,out v);
+																													self.modifiers=v;
+																													get_pressure(IntPtr l) {
+																														set_pressure(IntPtr l) {
+																															UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																															float v;
+																															checkType(l,2,out v);
+																															self.pressure=v;
+																															get_clickCount(IntPtr l) {
+																																set_clickCount(IntPtr l) {
+																																	UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																																	int v;
+																																	checkType(l,2,out v);
+																																	self.clickCount=v;
+																																	get_character(IntPtr l) {
+																																		set_character(IntPtr l) {
+																																			UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																																			System.Char v;
+																																			checkType(l,2,out v);
+																																			self.character=v;
+																																			get_commandName(IntPtr l) {
+																																				set_commandName(IntPtr l) {
+																																					UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																																					string v;
+																																					checkType(l,2,out v);
+																																					self.commandName=v;
+																																					get_keyCode(IntPtr l) {
+																																						set_keyCode(IntPtr l) {
+																																							UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																																							UnityEngine.KeyCode v;
+																																							checkEnum(l,2,out v);
+																																							self.keyCode=v;
+																																							get_displayIndex(IntPtr l) {
+																																								set_displayIndex(IntPtr l) {
+																																									UnityEngine.Event self=(UnityEngine.Event)checkSelf(l);
+																																									int v;
+																																									checkType(l,2,out v);
+																																									self.displayIndex=v;
+																																										]
+																																								}
+

@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UnityException()()","contents": "UnityEngine.UnityException()()"},
+
+			{ "trigger": "UnityEngine.UnityException()()","contents": "UnityEngine.UnityException()()"},
+
+			{ "trigger": "UnityEngine.UnityException()()","contents": "UnityEngine.UnityException()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.UnityException()()","contents": "UnityEngine.UnityException()()"},
+
+			{ "trigger": "UnityEngine.UnityException()()","contents": "UnityEngine.UnityException()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Exception a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.UnityException()()","contents": "UnityEngine.UnityException()()"},
+
+		]
+}
+

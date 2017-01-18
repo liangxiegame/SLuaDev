@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.Image.Origin90");
+	addMember(l,0,"BottomLeft");
+	addMember(l,1,"TopLeft");
+	addMember(l,2,"TopRight");
+	addMember(l,3,"BottomRight");
+		]
+}
+

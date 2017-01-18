@@ -1,0 +1,45 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Lua()()","contents": "Lua()()"},
+
+			{ "trigger": "Lua:Dispose(Public, HideBySig)","contents": "Lua:Dispose(Public, HideBySig)"},
+
+	Lua self=(Lua)checkSelf(l);
+	self.Dispose();
+			{ "trigger": "Lua:DoFile(Public, HideBySig)","contents": "Lua:DoFile(Public, HideBySig)"},
+
+	Lua self=(Lua)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.DoFile(a1);
+			{ "trigger": "Lua:GetFunction(Public, HideBySig)","contents": "Lua:GetFunction(Public, HideBySig)"},
+
+	Lua self=(Lua)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetFunction(a1);
+	luaState
+	set_luaState(IntPtr l) {
+		Lua self=(Lua)checkSelf(l);
+		SLua.LuaState v;
+		checkType(l,2,out v);
+		self.luaState=v;
+		isReady
+		set_isReady(IntPtr l) {
+			Lua self=(Lua)checkSelf(l);
+			System.Boolean v;
+			checkType(l,2,out v);
+			self.isReady=v;
+			Lua self=(Lua)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			Lua self=(Lua)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			System.Object c;
+			checkType(l,3,out c);
+				]
+		}
+

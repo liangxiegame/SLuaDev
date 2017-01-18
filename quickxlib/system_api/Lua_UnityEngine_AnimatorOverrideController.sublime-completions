@@ -1,0 +1,37 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimatorOverrideController()()","contents": "UnityEngine.AnimatorOverrideController()()"},
+
+	get_runtimeAnimatorController(IntPtr l) {
+		set_runtimeAnimatorController(IntPtr l) {
+			UnityEngine.AnimatorOverrideController self=(UnityEngine.AnimatorOverrideController)checkSelf(l);
+			UnityEngine.RuntimeAnimatorController v;
+			checkType(l,2,out v);
+			self.runtimeAnimatorController=v;
+			get_clips(IntPtr l) {
+				set_clips(IntPtr l) {
+					UnityEngine.AnimatorOverrideController self=(UnityEngine.AnimatorOverrideController)checkSelf(l);
+					UnityEngine.AnimationClipPair[] v;
+					checkArray(l,2,out v);
+					self.clips=v;
+					UnityEngine.AnimatorOverrideController self=(UnityEngine.AnimatorOverrideController)checkSelf(l);
+					if(matchType(l,2,t,typeof(System.String))){
+						else if(matchType(l,2,t,typeof(UnityEngine.AnimationClip))){
+							UnityEngine.AnimatorOverrideController self=(UnityEngine.AnimatorOverrideController)checkSelf(l);
+							LuaTypes t = LuaDLL.lua_type(l, 2);
+							if(matchType(l,2,t,typeof(System.String))){
+								string v;
+								checkType(l,2,out v);
+								UnityEngine.AnimationClip c;
+								checkType(l,3,out c);
+								else if(matchType(l,2,t,typeof(UnityEngine.AnimationClip))){
+									UnityEngine.AnimationClip v;
+									checkType(l,2,out v);
+									UnityEngine.AnimationClip c;
+									checkType(l,3,out c);
+									LuaDLL.lua_pushstring(l,"No matched override function to call");
+										]
+								}
+

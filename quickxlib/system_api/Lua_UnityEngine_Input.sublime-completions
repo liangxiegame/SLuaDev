@@ -1,0 +1,145 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Input()()","contents": "UnityEngine.Input()()"},
+
+			{ "trigger": "Input.GetAxis(Public, Static, HideBySig)","contents": "Input.GetAxis(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Input.GetAxis(a1);
+			{ "trigger": "Input.GetAxisRaw(Public, Static, HideBySig)","contents": "Input.GetAxisRaw(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Input.GetAxisRaw(a1);
+			{ "trigger": "Input.GetButton(Public, Static, HideBySig)","contents": "Input.GetButton(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Input.GetButton(a1);
+			{ "trigger": "Input.GetButtonDown(Public, Static, HideBySig)","contents": "Input.GetButtonDown(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Input.GetButtonDown(a1);
+			{ "trigger": "Input.GetButtonUp(Public, Static, HideBySig)","contents": "Input.GetButtonUp(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Input.GetButtonUp(a1);
+			{ "trigger": "Input.GetKey(Public, Static, HideBySig)","contents": "Input.GetKey(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,UnityEngine.KeyCode)){
+		UnityEngine.KeyCode a1;
+		checkEnum(l,1,out a1);
+		var ret=UnityEngine.Input.GetKey(a1);
+		else if(matchType(l,argc,1,string)){
+			System.String a1;
+			checkType(l,1,out a1);
+			var ret=UnityEngine.Input.GetKey(a1);
+					{ "trigger": "Input.GetKeyDown(Public, Static, HideBySig)","contents": "Input.GetKeyDown(Public, Static, HideBySig)"},
+
+			if(matchType(l,argc,1,UnityEngine.KeyCode)){
+				UnityEngine.KeyCode a1;
+				checkEnum(l,1,out a1);
+				var ret=UnityEngine.Input.GetKeyDown(a1);
+				else if(matchType(l,argc,1,string)){
+					System.String a1;
+					checkType(l,1,out a1);
+					var ret=UnityEngine.Input.GetKeyDown(a1);
+							{ "trigger": "Input.GetKeyUp(Public, Static, HideBySig)","contents": "Input.GetKeyUp(Public, Static, HideBySig)"},
+
+					if(matchType(l,argc,1,UnityEngine.KeyCode)){
+						UnityEngine.KeyCode a1;
+						checkEnum(l,1,out a1);
+						var ret=UnityEngine.Input.GetKeyUp(a1);
+						else if(matchType(l,argc,1,string)){
+							System.String a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.Input.GetKeyUp(a1);
+									{ "trigger": "Input.GetJoystickNames(Public, Static, HideBySig)","contents": "Input.GetJoystickNames(Public, Static, HideBySig)"},
+
+							var ret=UnityEngine.Input.GetJoystickNames();
+									{ "trigger": "Input.GetMouseButton(Public, Static, HideBySig)","contents": "Input.GetMouseButton(Public, Static, HideBySig)"},
+
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.Input.GetMouseButton(a1);
+									{ "trigger": "Input.GetMouseButtonDown(Public, Static, HideBySig)","contents": "Input.GetMouseButtonDown(Public, Static, HideBySig)"},
+
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.Input.GetMouseButtonDown(a1);
+									{ "trigger": "Input.GetMouseButtonUp(Public, Static, HideBySig)","contents": "Input.GetMouseButtonUp(Public, Static, HideBySig)"},
+
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.Input.GetMouseButtonUp(a1);
+									{ "trigger": "Input.ResetInputAxes(Public, Static, HideBySig)","contents": "Input.ResetInputAxes(Public, Static, HideBySig)"},
+
+							UnityEngine.Input.ResetInputAxes();
+									{ "trigger": "Input.GetAccelerationEvent(Public, Static, HideBySig)","contents": "Input.GetAccelerationEvent(Public, Static, HideBySig)"},
+
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.Input.GetAccelerationEvent(a1);
+									{ "trigger": "Input.GetTouch(Public, Static, HideBySig)","contents": "Input.GetTouch(Public, Static, HideBySig)"},
+
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.Input.GetTouch(a1);
+							get_compensateSensors(IntPtr l) {
+								set_compensateSensors(IntPtr l) {
+									bool v;
+									checkType(l,2,out v);
+									UnityEngine.Input.compensateSensors=v;
+									get_gyro(IntPtr l) {
+										get_mousePosition(IntPtr l) {
+											get_mouseScrollDelta(IntPtr l) {
+												get_mousePresent(IntPtr l) {
+													get_simulateMouseWithTouches(IntPtr l) {
+														set_simulateMouseWithTouches(IntPtr l) {
+															bool v;
+															checkType(l,2,out v);
+															UnityEngine.Input.simulateMouseWithTouches=v;
+															get_anyKey(IntPtr l) {
+																get_anyKeyDown(IntPtr l) {
+																	get_inputString(IntPtr l) {
+																		get_acceleration(IntPtr l) {
+																			get_accelerationEvents(IntPtr l) {
+																				get_accelerationEventCount(IntPtr l) {
+																					get_touches(IntPtr l) {
+																						get_touchCount(IntPtr l) {
+																							get_touchPressureSupported(IntPtr l) {
+																								get_stylusTouchSupported(IntPtr l) {
+																									get_touchSupported(IntPtr l) {
+																										get_multiTouchEnabled(IntPtr l) {
+																											set_multiTouchEnabled(IntPtr l) {
+																												bool v;
+																												checkType(l,2,out v);
+																												UnityEngine.Input.multiTouchEnabled=v;
+																												get_location(IntPtr l) {
+																													get_compass(IntPtr l) {
+																														get_deviceOrientation(IntPtr l) {
+																															get_imeCompositionMode(IntPtr l) {
+																																set_imeCompositionMode(IntPtr l) {
+																																	UnityEngine.IMECompositionMode v;
+																																	checkEnum(l,2,out v);
+																																	UnityEngine.Input.imeCompositionMode=v;
+																																	get_compositionString(IntPtr l) {
+																																		get_imeIsSelected(IntPtr l) {
+																																			get_compositionCursorPos(IntPtr l) {
+																																				set_compositionCursorPos(IntPtr l) {
+																																					UnityEngine.Vector2 v;
+																																					checkType(l,2,out v);
+																																					UnityEngine.Input.compositionCursorPos=v;
+																																					get_backButtonLeavesApp(IntPtr l) {
+																																						set_backButtonLeavesApp(IntPtr l) {
+																																							bool v;
+																																							checkType(l,2,out v);
+																																							UnityEngine.Input.backButtonLeavesApp=v;
+																																								]
+																																						}
+

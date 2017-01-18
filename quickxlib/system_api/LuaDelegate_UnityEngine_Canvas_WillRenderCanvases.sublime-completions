@@ -1,0 +1,7 @@
+﻿
+UnityEngine.Canvas.WillRenderCanvases 
+                ua = (UnityEngine.Canvas.WillRenderCanvases)checkObj(l, p);
+                ua = (UnityEngine.Canvas.WillRenderCanvases)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

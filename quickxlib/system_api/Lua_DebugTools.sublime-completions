@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	log
+	set_log(IntPtr l) {
+		System.String v;
+		checkType(l,2,out v);
+		DebugTools.log=v;
+		obj
+		set_obj(IntPtr l) {
+			UnityEngine.GameObject v;
+			checkType(l,2,out v);
+			DebugTools.obj=v;
+				]
+		}
+

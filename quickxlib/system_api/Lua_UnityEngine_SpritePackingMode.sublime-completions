@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.SpritePackingMode");
+	addMember(l,0,"Tight");
+	addMember(l,1,"Rectangle");
+		]
+}
+

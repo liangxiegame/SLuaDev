@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.BoxCollider2D()()","contents": "UnityEngine.BoxCollider2D()()"},
+
+	get_size(IntPtr l) {
+		set_size(IntPtr l) {
+			UnityEngine.BoxCollider2D self=(UnityEngine.BoxCollider2D)checkSelf(l);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.size=v;
+				]
+		}
+

@@ -1,0 +1,19 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ScriptableObject()()","contents": "UnityEngine.ScriptableObject()()"},
+
+			{ "trigger": "ScriptableObject.CreateInstance(Public, Static, HideBySig)","contents": "ScriptableObject.CreateInstance(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,System.Type)){
+		System.Type a1;
+		checkType(l,1,out a1);
+		var ret=UnityEngine.ScriptableObject.CreateInstance(a1);
+		else if(matchType(l,argc,1,string)){
+			System.String a1;
+			checkType(l,1,out a1);
+			var ret=UnityEngine.ScriptableObject.CreateInstance(a1);
+				]
+		}
+

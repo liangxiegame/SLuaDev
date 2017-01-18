@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightRenderMode");
+	addMember(l,0,"Auto");
+	addMember(l,1,"ForcePixel");
+	addMember(l,2,"ForceVertex");
+		]
+}
+

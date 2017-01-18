@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier(,UnityEngine.Rendering.BuiltinRenderTextureType)()","contents": "UnityEngine.Rendering.RenderTargetIdentifier(,UnityEngine.Rendering.BuiltinRenderTextureType)()"},
+
+	UnityEngine.Rendering.BuiltinRenderTextureType a1;
+	checkEnum(l,2,out a1);
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier()()","contents": "UnityEngine.Rendering.RenderTargetIdentifier()()"},
+
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier(,string)()","contents": "UnityEngine.Rendering.RenderTargetIdentifier(,string)()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier()()","contents": "UnityEngine.Rendering.RenderTargetIdentifier()()"},
+
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier(,int)()","contents": "UnityEngine.Rendering.RenderTargetIdentifier(,int)()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier()()","contents": "UnityEngine.Rendering.RenderTargetIdentifier()()"},
+
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier(,UnityEngine.RenderTexture)()","contents": "UnityEngine.Rendering.RenderTargetIdentifier(,UnityEngine.RenderTexture)()"},
+
+	UnityEngine.RenderTexture a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier()()","contents": "UnityEngine.Rendering.RenderTargetIdentifier()()"},
+
+			{ "trigger": "UnityEngine.Rendering.RenderTargetIdentifier()()","contents": "UnityEngine.Rendering.RenderTargetIdentifier()()"},
+
+		]
+}
+

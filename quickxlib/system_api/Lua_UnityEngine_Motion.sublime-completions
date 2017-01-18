@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Motion()()","contents": "UnityEngine.Motion()()"},
+
+	get_averageDuration(IntPtr l) {
+		get_averageAngularSpeed(IntPtr l) {
+			get_averageSpeed(IntPtr l) {
+				get_apparentSpeed(IntPtr l) {
+					get_isLooping(IntPtr l) {
+						get_legacy(IntPtr l) {
+							get_isHumanMotion(IntPtr l) {
+									]
+							}
+

@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SpriteRenderer()()","contents": "UnityEngine.SpriteRenderer()()"},
+
+	get_sprite(IntPtr l) {
+		set_sprite(IntPtr l) {
+			UnityEngine.SpriteRenderer self=(UnityEngine.SpriteRenderer)checkSelf(l);
+			UnityEngine.Sprite v;
+			checkType(l,2,out v);
+			self.sprite=v;
+			get_color(IntPtr l) {
+				set_color(IntPtr l) {
+					UnityEngine.SpriteRenderer self=(UnityEngine.SpriteRenderer)checkSelf(l);
+					UnityEngine.Color v;
+					checkType(l,2,out v);
+					self.color=v;
+					get_flipX(IntPtr l) {
+						set_flipX(IntPtr l) {
+							UnityEngine.SpriteRenderer self=(UnityEngine.SpriteRenderer)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.flipX=v;
+							get_flipY(IntPtr l) {
+								set_flipY(IntPtr l) {
+									UnityEngine.SpriteRenderer self=(UnityEngine.SpriteRenderer)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.flipY=v;
+										]
+								}
+

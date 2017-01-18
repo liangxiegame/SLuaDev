@@ -1,0 +1,47 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Joint2D()()","contents": "UnityEngine.Joint2D()()"},
+
+			{ "trigger": "Joint2D:GetReactionForce(Public, HideBySig)","contents": "Joint2D:GetReactionForce(Public, HideBySig)"},
+
+	UnityEngine.Joint2D self=(UnityEngine.Joint2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.GetReactionForce(a1);
+			{ "trigger": "Joint2D:GetReactionTorque(Public, HideBySig)","contents": "Joint2D:GetReactionTorque(Public, HideBySig)"},
+
+	UnityEngine.Joint2D self=(UnityEngine.Joint2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.GetReactionTorque(a1);
+	get_connectedBody(IntPtr l) {
+		set_connectedBody(IntPtr l) {
+			UnityEngine.Joint2D self=(UnityEngine.Joint2D)checkSelf(l);
+			UnityEngine.Rigidbody2D v;
+			checkType(l,2,out v);
+			self.connectedBody=v;
+			get_enableCollision(IntPtr l) {
+				set_enableCollision(IntPtr l) {
+					UnityEngine.Joint2D self=(UnityEngine.Joint2D)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.enableCollision=v;
+					get_breakForce(IntPtr l) {
+						set_breakForce(IntPtr l) {
+							UnityEngine.Joint2D self=(UnityEngine.Joint2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.breakForce=v;
+							get_breakTorque(IntPtr l) {
+								set_breakTorque(IntPtr l) {
+									UnityEngine.Joint2D self=(UnityEngine.Joint2D)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.breakTorque=v;
+									get_reactionForce(IntPtr l) {
+										get_reactionTorque(IntPtr l) {
+												]
+										}
+

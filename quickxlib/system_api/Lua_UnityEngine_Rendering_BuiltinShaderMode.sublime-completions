@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.BuiltinShaderMode");
+	addMember(l,0,"Disabled");
+	addMember(l,1,"UseBuiltin");
+	addMember(l,2,"UseCustom");
+		]
+}
+

@@ -1,0 +1,18 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.FrameData()()","contents": "UnityEngine.Experimental.Director.FrameData()()"},
+
+	get_updateId(IntPtr l) {
+		get_time(IntPtr l) {
+			get_lastTime(IntPtr l) {
+				get_deltaTime(IntPtr l) {
+					get_timeScale(IntPtr l) {
+						get_dTime(IntPtr l) {
+							get_dLastTime(IntPtr l) {
+								get_dDeltaTime(IntPtr l) {
+									get_dtimeScale(IntPtr l) {
+											]
+									}
+

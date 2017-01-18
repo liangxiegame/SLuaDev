@@ -1,0 +1,46 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RelativeJoint2D()()","contents": "UnityEngine.RelativeJoint2D()()"},
+
+	get_maxForce(IntPtr l) {
+		set_maxForce(IntPtr l) {
+			UnityEngine.RelativeJoint2D self=(UnityEngine.RelativeJoint2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.maxForce=v;
+			get_maxTorque(IntPtr l) {
+				set_maxTorque(IntPtr l) {
+					UnityEngine.RelativeJoint2D self=(UnityEngine.RelativeJoint2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.maxTorque=v;
+					get_correctionScale(IntPtr l) {
+						set_correctionScale(IntPtr l) {
+							UnityEngine.RelativeJoint2D self=(UnityEngine.RelativeJoint2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.correctionScale=v;
+							get_autoConfigureOffset(IntPtr l) {
+								set_autoConfigureOffset(IntPtr l) {
+									UnityEngine.RelativeJoint2D self=(UnityEngine.RelativeJoint2D)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.autoConfigureOffset=v;
+									get_linearOffset(IntPtr l) {
+										set_linearOffset(IntPtr l) {
+											UnityEngine.RelativeJoint2D self=(UnityEngine.RelativeJoint2D)checkSelf(l);
+											UnityEngine.Vector2 v;
+											checkType(l,2,out v);
+											self.linearOffset=v;
+											get_angularOffset(IntPtr l) {
+												set_angularOffset(IntPtr l) {
+													UnityEngine.RelativeJoint2D self=(UnityEngine.RelativeJoint2D)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.angularOffset=v;
+													get_target(IntPtr l) {
+															]
+													}
+

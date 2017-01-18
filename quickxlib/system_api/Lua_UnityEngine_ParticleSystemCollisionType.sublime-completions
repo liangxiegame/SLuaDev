@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemCollisionType");
+	addMember(l,0,"Planes");
+	addMember(l,1,"World");
+		]
+}
+

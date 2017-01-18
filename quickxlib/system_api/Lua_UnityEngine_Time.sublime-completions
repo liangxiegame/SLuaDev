@@ -1,0 +1,39 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Time()()","contents": "UnityEngine.Time()()"},
+
+	get_time(IntPtr l) {
+		get_timeSinceLevelLoad(IntPtr l) {
+			get_deltaTime(IntPtr l) {
+				get_fixedTime(IntPtr l) {
+					get_unscaledTime(IntPtr l) {
+						get_unscaledDeltaTime(IntPtr l) {
+							get_fixedDeltaTime(IntPtr l) {
+								set_fixedDeltaTime(IntPtr l) {
+									float v;
+									checkType(l,2,out v);
+									UnityEngine.Time.fixedDeltaTime=v;
+									get_maximumDeltaTime(IntPtr l) {
+										set_maximumDeltaTime(IntPtr l) {
+											float v;
+											checkType(l,2,out v);
+											UnityEngine.Time.maximumDeltaTime=v;
+											get_smoothDeltaTime(IntPtr l) {
+												get_timeScale(IntPtr l) {
+													set_timeScale(IntPtr l) {
+														float v;
+														checkType(l,2,out v);
+														UnityEngine.Time.timeScale=v;
+														get_frameCount(IntPtr l) {
+															get_renderedFrameCount(IntPtr l) {
+																get_realtimeSinceStartup(IntPtr l) {
+																	get_captureFramerate(IntPtr l) {
+																		set_captureFramerate(IntPtr l) {
+																			int v;
+																			checkType(l,2,out v);
+																			UnityEngine.Time.captureFramerate=v;
+																				]
+																		}
+

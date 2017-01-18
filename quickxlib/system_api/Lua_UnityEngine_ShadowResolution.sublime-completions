@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ShadowResolution");
+	addMember(l,0,"Low");
+	addMember(l,1,"Medium");
+	addMember(l,2,"High");
+	addMember(l,3,"VeryHigh");
+		]
+}
+

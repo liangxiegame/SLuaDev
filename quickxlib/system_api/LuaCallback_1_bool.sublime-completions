@@ -1,0 +1,8 @@
+﻿
+Callback<System.Boolean> 
+                ua = (Callback<System.Boolean>)checkObj(l, p);
+                ua = (Callback<System.Boolean>)ld.d;
+            ua = (bool a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

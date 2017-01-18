@@ -1,0 +1,51 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioChorusFilter()()","contents": "UnityEngine.AudioChorusFilter()()"},
+
+	get_dryMix(IntPtr l) {
+		set_dryMix(IntPtr l) {
+			UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.dryMix=v;
+			get_wetMix1(IntPtr l) {
+				set_wetMix1(IntPtr l) {
+					UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.wetMix1=v;
+					get_wetMix2(IntPtr l) {
+						set_wetMix2(IntPtr l) {
+							UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.wetMix2=v;
+							get_wetMix3(IntPtr l) {
+								set_wetMix3(IntPtr l) {
+									UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.wetMix3=v;
+									get_delay(IntPtr l) {
+										set_delay(IntPtr l) {
+											UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.delay=v;
+											get_rate(IntPtr l) {
+												set_rate(IntPtr l) {
+													UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.rate=v;
+													get_depth(IntPtr l) {
+														set_depth(IntPtr l) {
+															UnityEngine.AudioChorusFilter self=(UnityEngine.AudioChorusFilter)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.depth=v;
+																]
+														}
+

@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.AspectRatioFitter.AspectMode");
+	addMember(l,0,"None");
+	addMember(l,1,"WidthControlsHeight");
+	addMember(l,2,"HeightControlsWidth");
+	addMember(l,3,"FitInParent");
+	addMember(l,4,"EnvelopeParent");
+		]
+}
+

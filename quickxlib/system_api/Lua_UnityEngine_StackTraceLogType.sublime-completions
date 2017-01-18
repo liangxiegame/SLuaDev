@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.StackTraceLogType");
+	addMember(l,0,"None");
+	addMember(l,1,"ScriptOnly");
+	addMember(l,2,"Full");
+		]
+}
+

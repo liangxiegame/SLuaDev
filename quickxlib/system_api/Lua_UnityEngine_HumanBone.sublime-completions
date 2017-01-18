@@ -1,0 +1,32 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.HumanBone()()","contents": "UnityEngine.HumanBone()()"},
+
+	limit
+	set_limit(IntPtr l) {
+		UnityEngine.HumanBone self;
+		checkValueType(l,1,out self);
+		UnityEngine.HumanLimit v;
+		checkValueType(l,2,out v);
+		self.limit=v;
+		get_boneName(IntPtr l) {
+			set_boneName(IntPtr l) {
+				UnityEngine.HumanBone self;
+				checkValueType(l,1,out self);
+				string v;
+				checkType(l,2,out v);
+				self.boneName=v;
+				setBack(l,self);
+				get_humanName(IntPtr l) {
+					set_humanName(IntPtr l) {
+						UnityEngine.HumanBone self;
+						checkValueType(l,1,out self);
+						string v;
+						checkType(l,2,out v);
+						self.humanName=v;
+						setBack(l,self);
+							]
+					}
+

@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "GraphicRegistry.RegisterGraphicForCanvas(Public, Static, HideBySig)","contents": "GraphicRegistry.RegisterGraphicForCanvas(Public, Static, HideBySig)"},
+
+	UnityEngine.Canvas a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.Graphic a2;
+	checkType(l,2,out a2);
+	UnityEngine.UI.GraphicRegistry.RegisterGraphicForCanvas(a1,a2);
+			{ "trigger": "GraphicRegistry.UnregisterGraphicForCanvas(Public, Static, HideBySig)","contents": "GraphicRegistry.UnregisterGraphicForCanvas(Public, Static, HideBySig)"},
+
+	UnityEngine.Canvas a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.Graphic a2;
+	checkType(l,2,out a2);
+	UnityEngine.UI.GraphicRegistry.UnregisterGraphicForCanvas(a1,a2);
+			{ "trigger": "GraphicRegistry.GetGraphicsForCanvas(Public, Static, HideBySig)","contents": "GraphicRegistry.GetGraphicsForCanvas(Public, Static, HideBySig)"},
+
+	UnityEngine.Canvas a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.GraphicRegistry.GetGraphicsForCanvas(a1);
+	get_instance(IntPtr l) {
+			]
+	}
+

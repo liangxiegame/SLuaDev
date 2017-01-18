@@ -1,0 +1,154 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.CollisionModule()()","contents": "UnityEngine.ParticleSystem.CollisionModule()()"},
+
+			{ "trigger": "CollisionModule:SetPlane(Public, HideBySig)","contents": "CollisionModule:SetPlane(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.CollisionModule self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Transform a2;
+	checkType(l,3,out a2);
+	self.SetPlane(a1,a2);
+			{ "trigger": "CollisionModule:GetPlane(Public, HideBySig)","contents": "CollisionModule:GetPlane(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.CollisionModule self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetPlane(a1);
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.CollisionModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_type(IntPtr l) {
+				set_type(IntPtr l) {
+					UnityEngine.ParticleSystem.CollisionModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystemCollisionType v;
+					checkEnum(l,2,out v);
+					self.type=v;
+					setBack(l,self);
+					get_mode(IntPtr l) {
+						set_mode(IntPtr l) {
+							UnityEngine.ParticleSystem.CollisionModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystemCollisionMode v;
+							checkEnum(l,2,out v);
+							self.mode=v;
+							setBack(l,self);
+							get_dampen(IntPtr l) {
+								set_dampen(IntPtr l) {
+									UnityEngine.ParticleSystem.CollisionModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystem.MinMaxCurve v;
+									checkValueType(l,2,out v);
+									self.dampen=v;
+									setBack(l,self);
+									get_bounce(IntPtr l) {
+										set_bounce(IntPtr l) {
+											UnityEngine.ParticleSystem.CollisionModule self;
+											checkValueType(l,1,out self);
+											UnityEngine.ParticleSystem.MinMaxCurve v;
+											checkValueType(l,2,out v);
+											self.bounce=v;
+											setBack(l,self);
+											get_lifetimeLoss(IntPtr l) {
+												set_lifetimeLoss(IntPtr l) {
+													UnityEngine.ParticleSystem.CollisionModule self;
+													checkValueType(l,1,out self);
+													UnityEngine.ParticleSystem.MinMaxCurve v;
+													checkValueType(l,2,out v);
+													self.lifetimeLoss=v;
+													setBack(l,self);
+													get_minKillSpeed(IntPtr l) {
+														set_minKillSpeed(IntPtr l) {
+															UnityEngine.ParticleSystem.CollisionModule self;
+															checkValueType(l,1,out self);
+															float v;
+															checkType(l,2,out v);
+															self.minKillSpeed=v;
+															setBack(l,self);
+															get_maxKillSpeed(IntPtr l) {
+																set_maxKillSpeed(IntPtr l) {
+																	UnityEngine.ParticleSystem.CollisionModule self;
+																	checkValueType(l,1,out self);
+																	float v;
+																	checkType(l,2,out v);
+																	self.maxKillSpeed=v;
+																	setBack(l,self);
+																	get_collidesWith(IntPtr l) {
+																		set_collidesWith(IntPtr l) {
+																			UnityEngine.ParticleSystem.CollisionModule self;
+																			checkValueType(l,1,out self);
+																			UnityEngine.LayerMask v;
+																			checkValueType(l,2,out v);
+																			self.collidesWith=v;
+																			setBack(l,self);
+																			get_enableDynamicColliders(IntPtr l) {
+																				set_enableDynamicColliders(IntPtr l) {
+																					UnityEngine.ParticleSystem.CollisionModule self;
+																					checkValueType(l,1,out self);
+																					bool v;
+																					checkType(l,2,out v);
+																					self.enableDynamicColliders=v;
+																					setBack(l,self);
+																					get_enableInteriorCollisions(IntPtr l) {
+																						set_enableInteriorCollisions(IntPtr l) {
+																							UnityEngine.ParticleSystem.CollisionModule self;
+																							checkValueType(l,1,out self);
+																							bool v;
+																							checkType(l,2,out v);
+																							self.enableInteriorCollisions=v;
+																							setBack(l,self);
+																							get_maxCollisionShapes(IntPtr l) {
+																								set_maxCollisionShapes(IntPtr l) {
+																									UnityEngine.ParticleSystem.CollisionModule self;
+																									checkValueType(l,1,out self);
+																									int v;
+																									checkType(l,2,out v);
+																									self.maxCollisionShapes=v;
+																									setBack(l,self);
+																									get_quality(IntPtr l) {
+																										set_quality(IntPtr l) {
+																											UnityEngine.ParticleSystem.CollisionModule self;
+																											checkValueType(l,1,out self);
+																											UnityEngine.ParticleSystemCollisionQuality v;
+																											checkEnum(l,2,out v);
+																											self.quality=v;
+																											setBack(l,self);
+																											get_voxelSize(IntPtr l) {
+																												set_voxelSize(IntPtr l) {
+																													UnityEngine.ParticleSystem.CollisionModule self;
+																													checkValueType(l,1,out self);
+																													float v;
+																													checkType(l,2,out v);
+																													self.voxelSize=v;
+																													setBack(l,self);
+																													get_radiusScale(IntPtr l) {
+																														set_radiusScale(IntPtr l) {
+																															UnityEngine.ParticleSystem.CollisionModule self;
+																															checkValueType(l,1,out self);
+																															float v;
+																															checkType(l,2,out v);
+																															self.radiusScale=v;
+																															setBack(l,self);
+																															get_sendCollisionMessages(IntPtr l) {
+																																set_sendCollisionMessages(IntPtr l) {
+																																	UnityEngine.ParticleSystem.CollisionModule self;
+																																	checkValueType(l,1,out self);
+																																	bool v;
+																																	checkType(l,2,out v);
+																																	self.sendCollisionMessages=v;
+																																	setBack(l,self);
+																																	get_maxPlaneCount(IntPtr l) {
+																																			]
+																																	}
+

@@ -1,0 +1,87 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "MobileMovieTexture:Play(Public, HideBySig)","contents": "MobileMovieTexture:Play(Public, HideBySig)"},
+
+	MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+	self.Play();
+			{ "trigger": "MobileMovieTexture:Stop(Public, HideBySig)","contents": "MobileMovieTexture:Stop(Public, HideBySig)"},
+
+	MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+	self.Stop();
+			{ "trigger": "MobileMovieTexture:SetTextures(Public, HideBySig)","contents": "MobileMovieTexture:SetTextures(Public, HideBySig)"},
+
+	MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+	UnityEngine.Material a1;
+	checkType(l,2,out a1);
+	self.SetTextures(a1);
+			{ "trigger": "MobileMovieTexture:RemoveTextures(Public, HideBySig)","contents": "MobileMovieTexture:RemoveTextures(Public, HideBySig)"},
+
+	MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+	UnityEngine.Material a1;
+	checkType(l,2,out a1);
+	self.RemoveTextures(a1);
+	get_Path(IntPtr l) {
+		set_Path(IntPtr l) {
+			MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			self.Path=v;
+			get_AbsolutePath(IntPtr l) {
+				set_AbsolutePath(IntPtr l) {
+					MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.AbsolutePath=v;
+					get_MovieMaterial(IntPtr l) {
+						set_PlayAutomatically(IntPtr l) {
+							MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.PlayAutomatically=v;
+							get_LoopCount(IntPtr l) {
+								set_LoopCount(IntPtr l) {
+									MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+									int v;
+									checkType(l,2,out v);
+									self.LoopCount=v;
+									get_PlaySpeed(IntPtr l) {
+										set_PlaySpeed(IntPtr l) {
+											MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.PlaySpeed=v;
+											get_ScanDuration(IntPtr l) {
+												set_ScanDuration(IntPtr l) {
+													MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.ScanDuration=v;
+													get_SeekKeyFrame(IntPtr l) {
+														set_SeekKeyFrame(IntPtr l) {
+															MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+															bool v;
+															checkType(l,2,out v);
+															self.SeekKeyFrame=v;
+															get_Width(IntPtr l) {
+																get_Height(IntPtr l) {
+																	get_AspectRatio(IntPtr l) {
+																		get_FPS(IntPtr l) {
+																			get_IsPlaying(IntPtr l) {
+																				get_Pause(IntPtr l) {
+																					set_Pause(IntPtr l) {
+																						MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+																						bool v;
+																						checkType(l,2,out v);
+																						self.Pause=v;
+																						get_PlayPosition(IntPtr l) {
+																							set_PlayPosition(IntPtr l) {
+																								MMT.MobileMovieTexture self=(MMT.MobileMovieTexture)checkSelf(l);
+																								double v;
+																								checkType(l,2,out v);
+																								self.PlayPosition=v;
+																								get_Duration(IntPtr l) {
+																										]
+																								}
+

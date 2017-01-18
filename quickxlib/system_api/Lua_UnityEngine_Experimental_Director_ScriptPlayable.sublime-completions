@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.ScriptPlayable()()","contents": "UnityEngine.Experimental.Director.ScriptPlayable()()"},
+
+		]
+}
+

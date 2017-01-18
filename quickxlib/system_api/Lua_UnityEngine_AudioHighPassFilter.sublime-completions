@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioHighPassFilter()()","contents": "UnityEngine.AudioHighPassFilter()()"},
+
+	get_cutoffFrequency(IntPtr l) {
+		set_cutoffFrequency(IntPtr l) {
+			UnityEngine.AudioHighPassFilter self=(UnityEngine.AudioHighPassFilter)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.cutoffFrequency=v;
+			get_highpassResonanceQ(IntPtr l) {
+				set_highpassResonanceQ(IntPtr l) {
+					UnityEngine.AudioHighPassFilter self=(UnityEngine.AudioHighPassFilter)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.highpassResonanceQ=v;
+						]
+				}
+

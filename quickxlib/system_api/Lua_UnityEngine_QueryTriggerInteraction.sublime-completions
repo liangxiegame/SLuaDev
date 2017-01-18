@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.QueryTriggerInteraction");
+	addMember(l,0,"UseGlobal");
+	addMember(l,1,"Ignore");
+	addMember(l,2,"Collide");
+		]
+}
+

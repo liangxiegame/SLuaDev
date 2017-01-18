@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.AmbientMode");
+	addMember(l,0,"Skybox");
+	addMember(l,1,"Trilight");
+	addMember(l,3,"Flat");
+	addMember(l,4,"Custom");
+		]
+}
+

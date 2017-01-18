@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.GenericMixerPlayable()()","contents": "UnityEngine.Experimental.Director.GenericMixerPlayable()()"},
+
+			{ "trigger": "GenericMixerPlayable:Destroy(Public, HideBySig)","contents": "GenericMixerPlayable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.GenericMixerPlayable self;
+	checkValueType(l,1,out self);
+	self.Destroy();
+			{ "trigger": "GenericMixerPlayable.Create(Public, Static, HideBySig)","contents": "GenericMixerPlayable.Create(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.Experimental.Director.GenericMixerPlayable.Create();
+		]
+}
+

@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionDataList()()","contents": "UnityEngine.UI.Dropdown.OptionDataList()()"},
+
+	get_options(IntPtr l) {
+		set_options(IntPtr l) {
+			UnityEngine.UI.Dropdown.OptionDataList self=(UnityEngine.UI.Dropdown.OptionDataList)checkSelf(l);
+			System.Collections.Generic.List<UnityEngine.UI.Dropdown.OptionData> v;
+			checkType(l,2,out v);
+			self.options=v;
+				]
+		}
+

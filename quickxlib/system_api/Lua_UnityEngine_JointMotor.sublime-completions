@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointMotor()()","contents": "UnityEngine.JointMotor()()"},
+
+	get_targetVelocity(IntPtr l) {
+		set_targetVelocity(IntPtr l) {
+			UnityEngine.JointMotor self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.targetVelocity=v;
+			setBack(l,self);
+			get_force(IntPtr l) {
+				set_force(IntPtr l) {
+					UnityEngine.JointMotor self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.force=v;
+					setBack(l,self);
+					get_freeSpin(IntPtr l) {
+						set_freeSpin(IntPtr l) {
+							UnityEngine.JointMotor self;
+							checkValueType(l,1,out self);
+							bool v;
+							checkType(l,2,out v);
+							self.freeSpin=v;
+							setBack(l,self);
+								]
+						}
+

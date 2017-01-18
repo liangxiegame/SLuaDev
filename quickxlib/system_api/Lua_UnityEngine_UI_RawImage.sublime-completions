@@ -1,0 +1,24 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "RawImage:SetNativeSize(Public, Virtual, HideBySig)","contents": "RawImage:SetNativeSize(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.RawImage self=(UnityEngine.UI.RawImage)checkSelf(l);
+	self.SetNativeSize();
+	get_mainTexture(IntPtr l) {
+		get_texture(IntPtr l) {
+			set_texture(IntPtr l) {
+				UnityEngine.UI.RawImage self=(UnityEngine.UI.RawImage)checkSelf(l);
+				UnityEngine.Texture v;
+				checkType(l,2,out v);
+				self.texture=v;
+				get_uvRect(IntPtr l) {
+					set_uvRect(IntPtr l) {
+						UnityEngine.UI.RawImage self=(UnityEngine.UI.RawImage)checkSelf(l);
+						UnityEngine.Rect v;
+						checkValueType(l,2,out v);
+						self.uvRect=v;
+							]
+					}
+

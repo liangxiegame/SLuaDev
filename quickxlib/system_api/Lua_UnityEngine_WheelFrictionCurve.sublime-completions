@@ -1,0 +1,49 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WheelFrictionCurve()()","contents": "UnityEngine.WheelFrictionCurve()()"},
+
+	get_extremumSlip(IntPtr l) {
+		set_extremumSlip(IntPtr l) {
+			UnityEngine.WheelFrictionCurve self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.extremumSlip=v;
+			setBack(l,self);
+			get_extremumValue(IntPtr l) {
+				set_extremumValue(IntPtr l) {
+					UnityEngine.WheelFrictionCurve self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.extremumValue=v;
+					setBack(l,self);
+					get_asymptoteSlip(IntPtr l) {
+						set_asymptoteSlip(IntPtr l) {
+							UnityEngine.WheelFrictionCurve self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.asymptoteSlip=v;
+							setBack(l,self);
+							get_asymptoteValue(IntPtr l) {
+								set_asymptoteValue(IntPtr l) {
+									UnityEngine.WheelFrictionCurve self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.asymptoteValue=v;
+									setBack(l,self);
+									get_stiffness(IntPtr l) {
+										set_stiffness(IntPtr l) {
+											UnityEngine.WheelFrictionCurve self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.stiffness=v;
+											setBack(l,self);
+												]
+										}
+

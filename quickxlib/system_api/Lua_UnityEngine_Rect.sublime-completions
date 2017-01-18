@@ -1,0 +1,229 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+	System.Single a4;
+	checkType(l,5,out a4);
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector2 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+	UnityEngine.Rect a1;
+	checkValueType(l,2,out a1);
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+			{ "trigger": "UnityEngine.Rect()()","contents": "UnityEngine.Rect()()"},
+
+			{ "trigger": "Rect:Set(Public, HideBySig)","contents": "Rect:Set(Public, HideBySig)"},
+
+	UnityEngine.Rect self;
+	checkValueType(l,1,out self);
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+	System.Single a4;
+	checkType(l,5,out a4);
+	self.Set(a1,a2,a3,a4);
+			{ "trigger": "Rect:Contains(Public, HideBySig)","contents": "Rect:Contains(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,UnityEngine.Vector3)){
+		UnityEngine.Rect self;
+		checkValueType(l,1,out self);
+		UnityEngine.Vector3 a1;
+		checkType(l,2,out a1);
+		var ret=self.Contains(a1);
+		else if(matchType(l,argc,2,UnityEngine.Vector2)){
+			UnityEngine.Rect self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector2 a1;
+			checkType(l,2,out a1);
+			var ret=self.Contains(a1);
+			else if(argc==3){
+				UnityEngine.Rect self;
+				checkValueType(l,1,out self);
+				UnityEngine.Vector3 a1;
+				checkType(l,2,out a1);
+				System.Boolean a2;
+				checkType(l,3,out a2);
+				var ret=self.Contains(a1,a2);
+						{ "trigger": "Rect:Overlaps(Public, HideBySig)","contents": "Rect:Overlaps(Public, HideBySig)"},
+
+				if(argc==2){
+					UnityEngine.Rect self;
+					checkValueType(l,1,out self);
+					UnityEngine.Rect a1;
+					checkValueType(l,2,out a1);
+					var ret=self.Overlaps(a1);
+					else if(argc==3){
+						UnityEngine.Rect self;
+						checkValueType(l,1,out self);
+						UnityEngine.Rect a1;
+						checkValueType(l,2,out a1);
+						System.Boolean a2;
+						checkType(l,3,out a2);
+						var ret=self.Overlaps(a1,a2);
+								{ "trigger": "Rect.MinMaxRect(Public, Static, HideBySig)","contents": "Rect.MinMaxRect(Public, Static, HideBySig)"},
+
+						System.Single a1;
+						checkType(l,1,out a1);
+						System.Single a2;
+						checkType(l,2,out a2);
+						System.Single a3;
+						checkType(l,3,out a3);
+						System.Single a4;
+						checkType(l,4,out a4);
+						var ret=UnityEngine.Rect.MinMaxRect(a1,a2,a3,a4);
+								{ "trigger": "Rect.NormalizedToPoint(Public, Static, HideBySig)","contents": "Rect.NormalizedToPoint(Public, Static, HideBySig)"},
+
+						UnityEngine.Rect a1;
+						checkValueType(l,1,out a1);
+						UnityEngine.Vector2 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Rect.NormalizedToPoint(a1,a2);
+								{ "trigger": "Rect.PointToNormalized(Public, Static, HideBySig)","contents": "Rect.PointToNormalized(Public, Static, HideBySig)"},
+
+						UnityEngine.Rect a1;
+						checkValueType(l,1,out a1);
+						UnityEngine.Vector2 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Rect.PointToNormalized(a1,a2);
+								{ "trigger": "Rect.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Rect.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+						UnityEngine.Rect a1;
+						checkValueType(l,1,out a1);
+						UnityEngine.Rect a2;
+						checkValueType(l,2,out a2);
+						var ret=(a1!=a2);
+								{ "trigger": "Rect.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Rect.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+						UnityEngine.Rect a1;
+						checkValueType(l,1,out a1);
+						UnityEngine.Rect a2;
+						checkValueType(l,2,out a2);
+						var ret=(a1==a2);
+						get_x(IntPtr l) {
+							set_x(IntPtr l) {
+								UnityEngine.Rect self;
+								checkValueType(l,1,out self);
+								float v;
+								checkType(l,2,out v);
+								self.x=v;
+								setBack(l,self);
+								get_y(IntPtr l) {
+									set_y(IntPtr l) {
+										UnityEngine.Rect self;
+										checkValueType(l,1,out self);
+										float v;
+										checkType(l,2,out v);
+										self.y=v;
+										setBack(l,self);
+										get_position(IntPtr l) {
+											set_position(IntPtr l) {
+												UnityEngine.Rect self;
+												checkValueType(l,1,out self);
+												UnityEngine.Vector2 v;
+												checkType(l,2,out v);
+												self.position=v;
+												setBack(l,self);
+												get_center(IntPtr l) {
+													set_center(IntPtr l) {
+														UnityEngine.Rect self;
+														checkValueType(l,1,out self);
+														UnityEngine.Vector2 v;
+														checkType(l,2,out v);
+														self.center=v;
+														setBack(l,self);
+														get_min(IntPtr l) {
+															set_min(IntPtr l) {
+																UnityEngine.Rect self;
+																checkValueType(l,1,out self);
+																UnityEngine.Vector2 v;
+																checkType(l,2,out v);
+																self.min=v;
+																setBack(l,self);
+																get_max(IntPtr l) {
+																	set_max(IntPtr l) {
+																		UnityEngine.Rect self;
+																		checkValueType(l,1,out self);
+																		UnityEngine.Vector2 v;
+																		checkType(l,2,out v);
+																		self.max=v;
+																		setBack(l,self);
+																		get_width(IntPtr l) {
+																			set_width(IntPtr l) {
+																				UnityEngine.Rect self;
+																				checkValueType(l,1,out self);
+																				float v;
+																				checkType(l,2,out v);
+																				self.width=v;
+																				setBack(l,self);
+																				get_height(IntPtr l) {
+																					set_height(IntPtr l) {
+																						UnityEngine.Rect self;
+																						checkValueType(l,1,out self);
+																						float v;
+																						checkType(l,2,out v);
+																						self.height=v;
+																						setBack(l,self);
+																						get_size(IntPtr l) {
+																							set_size(IntPtr l) {
+																								UnityEngine.Rect self;
+																								checkValueType(l,1,out self);
+																								UnityEngine.Vector2 v;
+																								checkType(l,2,out v);
+																								self.size=v;
+																								setBack(l,self);
+																								get_xMin(IntPtr l) {
+																									set_xMin(IntPtr l) {
+																										UnityEngine.Rect self;
+																										checkValueType(l,1,out self);
+																										float v;
+																										checkType(l,2,out v);
+																										self.xMin=v;
+																										setBack(l,self);
+																										get_yMin(IntPtr l) {
+																											set_yMin(IntPtr l) {
+																												UnityEngine.Rect self;
+																												checkValueType(l,1,out self);
+																												float v;
+																												checkType(l,2,out v);
+																												self.yMin=v;
+																												setBack(l,self);
+																												get_xMax(IntPtr l) {
+																													set_xMax(IntPtr l) {
+																														UnityEngine.Rect self;
+																														checkValueType(l,1,out self);
+																														float v;
+																														checkType(l,2,out v);
+																														self.xMax=v;
+																														setBack(l,self);
+																														get_yMax(IntPtr l) {
+																															set_yMax(IntPtr l) {
+																																UnityEngine.Rect self;
+																																checkValueType(l,1,out self);
+																																float v;
+																																checkType(l,2,out v);
+																																self.yMax=v;
+																																setBack(l,self);
+																																	]
+																															}
+

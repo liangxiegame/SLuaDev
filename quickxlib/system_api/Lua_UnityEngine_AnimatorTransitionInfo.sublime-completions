@@ -1,0 +1,28 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimatorTransitionInfo()()","contents": "UnityEngine.AnimatorTransitionInfo()()"},
+
+			{ "trigger": "AnimatorTransitionInfo:IsName(Public, HideBySig)","contents": "AnimatorTransitionInfo:IsName(Public, HideBySig)"},
+
+	UnityEngine.AnimatorTransitionInfo self;
+	checkValueType(l,1,out self);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.IsName(a1);
+			{ "trigger": "AnimatorTransitionInfo:IsUserName(Public, HideBySig)","contents": "AnimatorTransitionInfo:IsUserName(Public, HideBySig)"},
+
+	UnityEngine.AnimatorTransitionInfo self;
+	checkValueType(l,1,out self);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.IsUserName(a1);
+	get_fullPathHash(IntPtr l) {
+		get_nameHash(IntPtr l) {
+			get_userNameHash(IntPtr l) {
+				get_normalizedTime(IntPtr l) {
+					get_anyState(IntPtr l) {
+							]
+					}
+

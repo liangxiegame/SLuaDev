@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ConstantForce2D()()","contents": "UnityEngine.ConstantForce2D()()"},
+
+	get_force(IntPtr l) {
+		set_force(IntPtr l) {
+			UnityEngine.ConstantForce2D self=(UnityEngine.ConstantForce2D)checkSelf(l);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.force=v;
+			get_relativeForce(IntPtr l) {
+				set_relativeForce(IntPtr l) {
+					UnityEngine.ConstantForce2D self=(UnityEngine.ConstantForce2D)checkSelf(l);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.relativeForce=v;
+					get_torque(IntPtr l) {
+						set_torque(IntPtr l) {
+							UnityEngine.ConstantForce2D self=(UnityEngine.ConstantForce2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.torque=v;
+								]
+						}
+

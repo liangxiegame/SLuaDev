@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.CanvasUpdate");
+	addMember(l,0,"Prelayout");
+	addMember(l,1,"Layout");
+	addMember(l,2,"PostLayout");
+	addMember(l,3,"PreRender");
+	addMember(l,4,"LatePreRender");
+	addMember(l,5,"MaxUpdateValue");
+		]
+}
+

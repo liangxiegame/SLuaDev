@@ -1,0 +1,284 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioSource()()","contents": "UnityEngine.AudioSource()()"},
+
+			{ "trigger": "AudioSource:Play(Public, HideBySig)","contents": "AudioSource:Play(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+		self.Play();
+		else if(argc==2){
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			System.UInt64 a1;
+			checkType(l,2,out a1);
+			self.Play(a1);
+					{ "trigger": "AudioSource:PlayDelayed(Public, HideBySig)","contents": "AudioSource:PlayDelayed(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			self.PlayDelayed(a1);
+					{ "trigger": "AudioSource:PlayScheduled(Public, HideBySig)","contents": "AudioSource:PlayScheduled(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			System.Double a1;
+			checkType(l,2,out a1);
+			self.PlayScheduled(a1);
+					{ "trigger": "AudioSource:SetScheduledStartTime(Public, HideBySig)","contents": "AudioSource:SetScheduledStartTime(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			System.Double a1;
+			checkType(l,2,out a1);
+			self.SetScheduledStartTime(a1);
+					{ "trigger": "AudioSource:SetScheduledEndTime(Public, HideBySig)","contents": "AudioSource:SetScheduledEndTime(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			System.Double a1;
+			checkType(l,2,out a1);
+			self.SetScheduledEndTime(a1);
+					{ "trigger": "AudioSource:Stop(Public, HideBySig)","contents": "AudioSource:Stop(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			self.Stop();
+					{ "trigger": "AudioSource:Pause(Public, HideBySig)","contents": "AudioSource:Pause(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			self.Pause();
+					{ "trigger": "AudioSource:UnPause(Public, HideBySig)","contents": "AudioSource:UnPause(Public, HideBySig)"},
+
+			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+			self.UnPause();
+					{ "trigger": "AudioSource:PlayOneShot(Public, HideBySig)","contents": "AudioSource:PlayOneShot(Public, HideBySig)"},
+
+			if(argc==2){
+				UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+				UnityEngine.AudioClip a1;
+				checkType(l,2,out a1);
+				self.PlayOneShot(a1);
+				else if(argc==3){
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					UnityEngine.AudioClip a1;
+					checkType(l,2,out a1);
+					System.Single a2;
+					checkType(l,3,out a2);
+					self.PlayOneShot(a1,a2);
+							{ "trigger": "AudioSource:SetCustomCurve(Public, HideBySig)","contents": "AudioSource:SetCustomCurve(Public, HideBySig)"},
+
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					UnityEngine.AudioSourceCurveType a1;
+					checkEnum(l,2,out a1);
+					UnityEngine.AnimationCurve a2;
+					checkType(l,3,out a2);
+					self.SetCustomCurve(a1,a2);
+							{ "trigger": "AudioSource:GetCustomCurve(Public, HideBySig)","contents": "AudioSource:GetCustomCurve(Public, HideBySig)"},
+
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					UnityEngine.AudioSourceCurveType a1;
+					checkEnum(l,2,out a1);
+					var ret=self.GetCustomCurve(a1);
+							{ "trigger": "AudioSource:GetOutputData(Public, HideBySig)","contents": "AudioSource:GetOutputData(Public, HideBySig)"},
+
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					System.Single[] a1;
+					checkArray(l,2,out a1);
+					System.Int32 a2;
+					checkType(l,3,out a2);
+					self.GetOutputData(a1,a2);
+							{ "trigger": "AudioSource:GetSpectrumData(Public, HideBySig)","contents": "AudioSource:GetSpectrumData(Public, HideBySig)"},
+
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					System.Single[] a1;
+					checkArray(l,2,out a1);
+					System.Int32 a2;
+					checkType(l,3,out a2);
+					UnityEngine.FFTWindow a3;
+					checkEnum(l,4,out a3);
+					self.GetSpectrumData(a1,a2,a3);
+							{ "trigger": "AudioSource:SetSpatializerFloat(Public, HideBySig)","contents": "AudioSource:SetSpatializerFloat(Public, HideBySig)"},
+
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					System.Int32 a1;
+					checkType(l,2,out a1);
+					System.Single a2;
+					checkType(l,3,out a2);
+					var ret=self.SetSpatializerFloat(a1,a2);
+							{ "trigger": "AudioSource:GetSpatializerFloat(Public, HideBySig)","contents": "AudioSource:GetSpatializerFloat(Public, HideBySig)"},
+
+					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+					System.Int32 a1;
+					checkType(l,2,out a1);
+					System.Single a2;
+					var ret=self.GetSpatializerFloat(a1,out a2);
+							{ "trigger": "AudioSource.PlayClipAtPoint(Public, Static, HideBySig)","contents": "AudioSource.PlayClipAtPoint(Public, Static, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.AudioClip a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						UnityEngine.AudioSource.PlayClipAtPoint(a1,a2);
+						else if(argc==3){
+							UnityEngine.AudioClip a1;
+							checkType(l,1,out a1);
+							UnityEngine.Vector3 a2;
+							checkType(l,2,out a2);
+							System.Single a3;
+							checkType(l,3,out a3);
+							UnityEngine.AudioSource.PlayClipAtPoint(a1,a2,a3);
+							get_volume(IntPtr l) {
+								set_volume(IntPtr l) {
+									UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.volume=v;
+									get_pitch(IntPtr l) {
+										set_pitch(IntPtr l) {
+											UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.pitch=v;
+											get_time(IntPtr l) {
+												set_time(IntPtr l) {
+													UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.time=v;
+													get_timeSamples(IntPtr l) {
+														set_timeSamples(IntPtr l) {
+															UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+															int v;
+															checkType(l,2,out v);
+															self.timeSamples=v;
+															get_clip(IntPtr l) {
+																set_clip(IntPtr l) {
+																	UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																	UnityEngine.AudioClip v;
+																	checkType(l,2,out v);
+																	self.clip=v;
+																	get_outputAudioMixerGroup(IntPtr l) {
+																		set_outputAudioMixerGroup(IntPtr l) {
+																			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																			UnityEngine.Audio.AudioMixerGroup v;
+																			checkType(l,2,out v);
+																			self.outputAudioMixerGroup=v;
+																			get_isPlaying(IntPtr l) {
+																				get_isVirtual(IntPtr l) {
+																					get_loop(IntPtr l) {
+																						set_loop(IntPtr l) {
+																							UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																							bool v;
+																							checkType(l,2,out v);
+																							self.loop=v;
+																							get_ignoreListenerVolume(IntPtr l) {
+																								set_ignoreListenerVolume(IntPtr l) {
+																									UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																									bool v;
+																									checkType(l,2,out v);
+																									self.ignoreListenerVolume=v;
+																									get_playOnAwake(IntPtr l) {
+																										set_playOnAwake(IntPtr l) {
+																											UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																											bool v;
+																											checkType(l,2,out v);
+																											self.playOnAwake=v;
+																											get_ignoreListenerPause(IntPtr l) {
+																												set_ignoreListenerPause(IntPtr l) {
+																													UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																													bool v;
+																													checkType(l,2,out v);
+																													self.ignoreListenerPause=v;
+																													get_velocityUpdateMode(IntPtr l) {
+																														set_velocityUpdateMode(IntPtr l) {
+																															UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																															UnityEngine.AudioVelocityUpdateMode v;
+																															checkEnum(l,2,out v);
+																															self.velocityUpdateMode=v;
+																															get_panStereo(IntPtr l) {
+																																set_panStereo(IntPtr l) {
+																																	UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																	float v;
+																																	checkType(l,2,out v);
+																																	self.panStereo=v;
+																																	get_spatialBlend(IntPtr l) {
+																																		set_spatialBlend(IntPtr l) {
+																																			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																			float v;
+																																			checkType(l,2,out v);
+																																			self.spatialBlend=v;
+																																			get_spatialize(IntPtr l) {
+																																				set_spatialize(IntPtr l) {
+																																					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																					bool v;
+																																					checkType(l,2,out v);
+																																					self.spatialize=v;
+																																					get_reverbZoneMix(IntPtr l) {
+																																						set_reverbZoneMix(IntPtr l) {
+																																							UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																							float v;
+																																							checkType(l,2,out v);
+																																							self.reverbZoneMix=v;
+																																							get_bypassEffects(IntPtr l) {
+																																								set_bypassEffects(IntPtr l) {
+																																									UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																									bool v;
+																																									checkType(l,2,out v);
+																																									self.bypassEffects=v;
+																																									get_bypassListenerEffects(IntPtr l) {
+																																										set_bypassListenerEffects(IntPtr l) {
+																																											UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																											bool v;
+																																											checkType(l,2,out v);
+																																											self.bypassListenerEffects=v;
+																																											get_bypassReverbZones(IntPtr l) {
+																																												set_bypassReverbZones(IntPtr l) {
+																																													UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																													bool v;
+																																													checkType(l,2,out v);
+																																													self.bypassReverbZones=v;
+																																													get_dopplerLevel(IntPtr l) {
+																																														set_dopplerLevel(IntPtr l) {
+																																															UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																															float v;
+																																															checkType(l,2,out v);
+																																															self.dopplerLevel=v;
+																																															get_spread(IntPtr l) {
+																																																set_spread(IntPtr l) {
+																																																	UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																																	float v;
+																																																	checkType(l,2,out v);
+																																																	self.spread=v;
+																																																	get_priority(IntPtr l) {
+																																																		set_priority(IntPtr l) {
+																																																			UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																																			int v;
+																																																			checkType(l,2,out v);
+																																																			self.priority=v;
+																																																			get_mute(IntPtr l) {
+																																																				set_mute(IntPtr l) {
+																																																					UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																																					bool v;
+																																																					checkType(l,2,out v);
+																																																					self.mute=v;
+																																																					get_minDistance(IntPtr l) {
+																																																						set_minDistance(IntPtr l) {
+																																																							UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																																							float v;
+																																																							checkType(l,2,out v);
+																																																							self.minDistance=v;
+																																																							get_maxDistance(IntPtr l) {
+																																																								set_maxDistance(IntPtr l) {
+																																																									UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																																									float v;
+																																																									checkType(l,2,out v);
+																																																									self.maxDistance=v;
+																																																									get_rolloffMode(IntPtr l) {
+																																																										set_rolloffMode(IntPtr l) {
+																																																											UnityEngine.AudioSource self=(UnityEngine.AudioSource)checkSelf(l);
+																																																											UnityEngine.AudioRolloffMode v;
+																																																											checkEnum(l,2,out v);
+																																																											self.rolloffMode=v;
+																																																												]
+																																																										}
+

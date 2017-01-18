@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.RigidbodySleepMode2D");
+	addMember(l,0,"NeverSleep");
+	addMember(l,1,"StartAwake");
+	addMember(l,2,"StartAsleep");
+		]
+}
+

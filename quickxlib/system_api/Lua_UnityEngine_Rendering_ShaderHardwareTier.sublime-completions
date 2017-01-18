@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.ShaderHardwareTier");
+	addMember(l,0,"Tier1");
+	addMember(l,1,"Tier2");
+	addMember(l,2,"Tier3");
+		]
+}
+

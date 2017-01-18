@@ -1,0 +1,173 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WWW()()","contents": "UnityEngine.WWW()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.WWW()()","contents": "UnityEngine.WWW()()"},
+
+			{ "trigger": "UnityEngine.WWW(,string,UnityEngine.WWWForm)()","contents": "UnityEngine.WWW(,string,UnityEngine.WWWForm)()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	UnityEngine.WWWForm a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.WWW()()","contents": "UnityEngine.WWW()()"},
+
+			{ "trigger": "UnityEngine.WWW(,string,System.Byte[])()","contents": "UnityEngine.WWW(,string,System.Byte[])()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Byte[] a2;
+	checkArray(l,3,out a2);
+			{ "trigger": "UnityEngine.WWW()()","contents": "UnityEngine.WWW()()"},
+
+			{ "trigger": "UnityEngine.WWW()()","contents": "UnityEngine.WWW()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Byte[] a2;
+	checkArray(l,3,out a2);
+	System.Collections.Generic.Dictionary<System.String,System.String> a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.WWW()()","contents": "UnityEngine.WWW()()"},
+
+			{ "trigger": "WWW:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "WWW:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+	self.Dispose();
+			{ "trigger": "WWW:InitWWW(Public, HideBySig)","contents": "WWW:InitWWW(Public, HideBySig)"},
+
+	UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Byte[] a2;
+	checkArray(l,3,out a2);
+	System.String[] a3;
+	checkArray(l,4,out a3);
+	self.InitWWW(a1,a2,a3);
+			{ "trigger": "WWW:GetAudioClip(Public, HideBySig)","contents": "WWW:GetAudioClip(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+		System.Boolean a1;
+		checkType(l,2,out a1);
+		var ret=self.GetAudioClip(a1);
+		else if(argc==3){
+			UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+			System.Boolean a1;
+			checkType(l,2,out a1);
+			System.Boolean a2;
+			checkType(l,3,out a2);
+			var ret=self.GetAudioClip(a1,a2);
+			else if(argc==4){
+				UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+				System.Boolean a1;
+				checkType(l,2,out a1);
+				System.Boolean a2;
+				checkType(l,3,out a2);
+				UnityEngine.AudioType a3;
+				checkEnum(l,4,out a3);
+				var ret=self.GetAudioClip(a1,a2,a3);
+						{ "trigger": "WWW:GetAudioClipCompressed(Public, HideBySig)","contents": "WWW:GetAudioClipCompressed(Public, HideBySig)"},
+
+				if(argc==1){
+					UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+					var ret=self.GetAudioClipCompressed();
+					else if(argc==2){
+						UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+						System.Boolean a1;
+						checkType(l,2,out a1);
+						var ret=self.GetAudioClipCompressed(a1);
+						else if(argc==3){
+							UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							UnityEngine.AudioType a2;
+							checkEnum(l,3,out a2);
+							var ret=self.GetAudioClipCompressed(a1,a2);
+									{ "trigger": "WWW:LoadImageIntoTexture(Public, HideBySig)","contents": "WWW:LoadImageIntoTexture(Public, HideBySig)"},
+
+							UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+							UnityEngine.Texture2D a1;
+							checkType(l,2,out a1);
+							self.LoadImageIntoTexture(a1);
+									{ "trigger": "WWW.EscapeURL(Public, Static, HideBySig)","contents": "WWW.EscapeURL(Public, Static, HideBySig)"},
+
+							if(argc==1){
+								System.String a1;
+								checkType(l,1,out a1);
+								var ret=UnityEngine.WWW.EscapeURL(a1);
+								else if(argc==2){
+									System.String a1;
+									checkType(l,1,out a1);
+									System.Text.Encoding a2;
+									checkType(l,2,out a2);
+									var ret=UnityEngine.WWW.EscapeURL(a1,a2);
+											{ "trigger": "WWW.UnEscapeURL(Public, Static, HideBySig)","contents": "WWW.UnEscapeURL(Public, Static, HideBySig)"},
+
+									if(argc==1){
+										System.String a1;
+										checkType(l,1,out a1);
+										var ret=UnityEngine.WWW.UnEscapeURL(a1);
+										else if(argc==2){
+											System.String a1;
+											checkType(l,1,out a1);
+											System.Text.Encoding a2;
+											checkType(l,2,out a2);
+											var ret=UnityEngine.WWW.UnEscapeURL(a1,a2);
+													{ "trigger": "WWW.LoadFromCacheOrDownload(Public, Static, HideBySig)","contents": "WWW.LoadFromCacheOrDownload(Public, Static, HideBySig)"},
+
+											if(matchType(l,argc,1,string,UnityEngine.Hash128)){
+												System.String a1;
+												checkType(l,1,out a1);
+												UnityEngine.Hash128 a2;
+												checkValueType(l,2,out a2);
+												var ret=UnityEngine.WWW.LoadFromCacheOrDownload(a1,a2);
+												else if(matchType(l,argc,1,string,int)){
+													System.String a1;
+													checkType(l,1,out a1);
+													System.Int32 a2;
+													checkType(l,2,out a2);
+													var ret=UnityEngine.WWW.LoadFromCacheOrDownload(a1,a2);
+													else if(matchType(l,argc,1,string,UnityEngine.Hash128,System.UInt32)){
+														System.String a1;
+														checkType(l,1,out a1);
+														UnityEngine.Hash128 a2;
+														checkValueType(l,2,out a2);
+														System.UInt32 a3;
+														checkType(l,3,out a3);
+														var ret=UnityEngine.WWW.LoadFromCacheOrDownload(a1,a2,a3);
+														else if(matchType(l,argc,1,string,int,System.UInt32)){
+															System.String a1;
+															checkType(l,1,out a1);
+															System.Int32 a2;
+															checkType(l,2,out a2);
+															System.UInt32 a3;
+															checkType(l,3,out a3);
+															var ret=UnityEngine.WWW.LoadFromCacheOrDownload(a1,a2,a3);
+															get_responseHeaders(IntPtr l) {
+																get_text(IntPtr l) {
+																	get_bytes(IntPtr l) {
+																		get_size(IntPtr l) {
+																			get_error(IntPtr l) {
+																				get_texture(IntPtr l) {
+																					get_textureNonReadable(IntPtr l) {
+																						get_audioClip(IntPtr l) {
+																							get_isDone(IntPtr l) {
+																								get_progress(IntPtr l) {
+																									get_uploadProgress(IntPtr l) {
+																										get_bytesDownloaded(IntPtr l) {
+																											get_url(IntPtr l) {
+																												get_assetBundle(IntPtr l) {
+																													get_threadPriority(IntPtr l) {
+																														set_threadPriority(IntPtr l) {
+																															UnityEngine.WWW self=(UnityEngine.WWW)checkSelf(l);
+																															UnityEngine.ThreadPriority v;
+																															checkEnum(l,2,out v);
+																															self.threadPriority=v;
+																																]
+																														}
+

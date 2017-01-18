@@ -1,0 +1,31 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimatorStateInfo()()","contents": "UnityEngine.AnimatorStateInfo()()"},
+
+			{ "trigger": "AnimatorStateInfo:IsName(Public, HideBySig)","contents": "AnimatorStateInfo:IsName(Public, HideBySig)"},
+
+	UnityEngine.AnimatorStateInfo self;
+	checkValueType(l,1,out self);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.IsName(a1);
+			{ "trigger": "AnimatorStateInfo:IsTag(Public, HideBySig)","contents": "AnimatorStateInfo:IsTag(Public, HideBySig)"},
+
+	UnityEngine.AnimatorStateInfo self;
+	checkValueType(l,1,out self);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.IsTag(a1);
+	get_fullPathHash(IntPtr l) {
+		get_shortNameHash(IntPtr l) {
+			get_normalizedTime(IntPtr l) {
+				get_length(IntPtr l) {
+					get_speed(IntPtr l) {
+						get_speedMultiplier(IntPtr l) {
+							get_tagHash(IntPtr l) {
+								get_loop(IntPtr l) {
+										]
+								}
+

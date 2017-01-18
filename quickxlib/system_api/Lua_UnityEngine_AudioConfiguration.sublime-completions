@@ -1,0 +1,44 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioConfiguration()()","contents": "UnityEngine.AudioConfiguration()()"},
+
+	speakerMode
+	set_speakerMode(IntPtr l) {
+		UnityEngine.AudioConfiguration self;
+		checkValueType(l,1,out self);
+		UnityEngine.AudioSpeakerMode v;
+		checkEnum(l,2,out v);
+		self.speakerMode=v;
+		dspBufferSize
+		set_dspBufferSize(IntPtr l) {
+			UnityEngine.AudioConfiguration self;
+			checkValueType(l,1,out self);
+			System.Int32 v;
+			checkType(l,2,out v);
+			self.dspBufferSize=v;
+			sampleRate
+			set_sampleRate(IntPtr l) {
+				UnityEngine.AudioConfiguration self;
+				checkValueType(l,1,out self);
+				System.Int32 v;
+				checkType(l,2,out v);
+				self.sampleRate=v;
+				numRealVoices
+				set_numRealVoices(IntPtr l) {
+					UnityEngine.AudioConfiguration self;
+					checkValueType(l,1,out self);
+					System.Int32 v;
+					checkType(l,2,out v);
+					self.numRealVoices=v;
+					numVirtualVoices
+					set_numVirtualVoices(IntPtr l) {
+						UnityEngine.AudioConfiguration self;
+						checkValueType(l,1,out self);
+						System.Int32 v;
+						checkType(l,2,out v);
+						self.numVirtualVoices=v;
+							]
+					}
+

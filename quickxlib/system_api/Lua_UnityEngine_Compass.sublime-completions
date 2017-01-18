@@ -1,0 +1,20 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Compass()()","contents": "UnityEngine.Compass()()"},
+
+	get_magneticHeading(IntPtr l) {
+		get_trueHeading(IntPtr l) {
+			get_headingAccuracy(IntPtr l) {
+				get_rawVector(IntPtr l) {
+					get_timestamp(IntPtr l) {
+						get_enabled(IntPtr l) {
+							set_enabled(IntPtr l) {
+								UnityEngine.Compass self=(UnityEngine.Compass)checkSelf(l);
+								bool v;
+								checkType(l,2,out v);
+								self.enabled=v;
+									]
+							}
+

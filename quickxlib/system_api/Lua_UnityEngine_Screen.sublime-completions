@@ -1,0 +1,69 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Screen()()","contents": "UnityEngine.Screen()()"},
+
+			{ "trigger": "Screen.SetResolution(Public, Static, HideBySig)","contents": "Screen.SetResolution(Public, Static, HideBySig)"},
+
+	if(argc==3){
+		System.Int32 a1;
+		checkType(l,1,out a1);
+		System.Int32 a2;
+		checkType(l,2,out a2);
+		System.Boolean a3;
+		checkType(l,3,out a3);
+		UnityEngine.Screen.SetResolution(a1,a2,a3);
+		else if(argc==4){
+			System.Int32 a1;
+			checkType(l,1,out a1);
+			System.Int32 a2;
+			checkType(l,2,out a2);
+			System.Boolean a3;
+			checkType(l,3,out a3);
+			System.Int32 a4;
+			checkType(l,4,out a4);
+			UnityEngine.Screen.SetResolution(a1,a2,a3,a4);
+			get_resolutions(IntPtr l) {
+				get_currentResolution(IntPtr l) {
+					get_width(IntPtr l) {
+						get_height(IntPtr l) {
+							get_dpi(IntPtr l) {
+								get_fullScreen(IntPtr l) {
+									set_fullScreen(IntPtr l) {
+										bool v;
+										checkType(l,2,out v);
+										UnityEngine.Screen.fullScreen=v;
+										get_autorotateToPortrait(IntPtr l) {
+											set_autorotateToPortrait(IntPtr l) {
+												bool v;
+												checkType(l,2,out v);
+												UnityEngine.Screen.autorotateToPortrait=v;
+												get_autorotateToPortraitUpsideDown(IntPtr l) {
+													set_autorotateToPortraitUpsideDown(IntPtr l) {
+														bool v;
+														checkType(l,2,out v);
+														UnityEngine.Screen.autorotateToPortraitUpsideDown=v;
+														get_autorotateToLandscapeLeft(IntPtr l) {
+															set_autorotateToLandscapeLeft(IntPtr l) {
+																bool v;
+																checkType(l,2,out v);
+																UnityEngine.Screen.autorotateToLandscapeLeft=v;
+																get_autorotateToLandscapeRight(IntPtr l) {
+																	set_autorotateToLandscapeRight(IntPtr l) {
+																		bool v;
+																		checkType(l,2,out v);
+																		UnityEngine.Screen.autorotateToLandscapeRight=v;
+																		get_orientation(IntPtr l) {
+																			set_orientation(IntPtr l) {
+																				UnityEngine.ScreenOrientation v;
+																				checkEnum(l,2,out v);
+																				UnityEngine.Screen.orientation=v;
+																				get_sleepTimeout(IntPtr l) {
+																					set_sleepTimeout(IntPtr l) {
+																						int v;
+																						checkType(l,2,out v);
+																						UnityEngine.Screen.sleepTimeout=v;
+																							]
+																					}
+

@@ -1,0 +1,34 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	System.Single a1;
+	checkType(l,2,out a1);
+	UnityEngine.Renderer[] a2;
+	checkArray(l,3,out a2);
+			{ "trigger": "UnityEngine.LOD()()","contents": "UnityEngine.LOD()()"},
+
+	screenRelativeTransitionHeight
+	set_screenRelativeTransitionHeight(IntPtr l) {
+		UnityEngine.LOD self;
+		checkValueType(l,1,out self);
+		System.Single v;
+		checkType(l,2,out v);
+		self.screenRelativeTransitionHeight=v;
+		fadeTransitionWidth
+		set_fadeTransitionWidth(IntPtr l) {
+			UnityEngine.LOD self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.fadeTransitionWidth=v;
+			renderers
+			set_renderers(IntPtr l) {
+				UnityEngine.LOD self;
+				checkValueType(l,1,out self);
+				UnityEngine.Renderer[] v;
+				checkArray(l,2,out v);
+				self.renderers=v;
+					]
+			}
+

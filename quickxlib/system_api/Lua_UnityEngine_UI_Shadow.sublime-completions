@@ -1,0 +1,31 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Shadow:ModifyMesh(Public, Virtual, HideBySig)","contents": "Shadow:ModifyMesh(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Shadow self=(UnityEngine.UI.Shadow)checkSelf(l);
+	UnityEngine.UI.VertexHelper a1;
+	checkType(l,2,out a1);
+	self.ModifyMesh(a1);
+	get_effectColor(IntPtr l) {
+		set_effectColor(IntPtr l) {
+			UnityEngine.UI.Shadow self=(UnityEngine.UI.Shadow)checkSelf(l);
+			UnityEngine.Color v;
+			checkType(l,2,out v);
+			self.effectColor=v;
+			get_effectDistance(IntPtr l) {
+				set_effectDistance(IntPtr l) {
+					UnityEngine.UI.Shadow self=(UnityEngine.UI.Shadow)checkSelf(l);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.effectDistance=v;
+					get_useGraphicAlpha(IntPtr l) {
+						set_useGraphicAlpha(IntPtr l) {
+							UnityEngine.UI.Shadow self=(UnityEngine.UI.Shadow)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.useGraphicAlpha=v;
+								]
+						}
+

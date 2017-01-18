@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.PlayMode");
+	addMember(l,0,"StopSameLayer");
+	addMember(l,4,"StopAll");
+		]
+}
+

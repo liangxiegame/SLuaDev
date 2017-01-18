@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.RectTransform.Edge");
+	addMember(l,0,"Left");
+	addMember(l,1,"Right");
+	addMember(l,2,"Top");
+	addMember(l,3,"Bottom");
+		]
+}
+

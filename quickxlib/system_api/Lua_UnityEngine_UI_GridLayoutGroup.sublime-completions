@@ -1,0 +1,59 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "GridLayoutGroup:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig)","contents": "GridLayoutGroup:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "GridLayoutGroup:CalculateLayoutInputVertical(Public, Virtual, HideBySig)","contents": "GridLayoutGroup:CalculateLayoutInputVertical(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+			{ "trigger": "GridLayoutGroup:SetLayoutHorizontal(Public, Virtual, HideBySig)","contents": "GridLayoutGroup:SetLayoutHorizontal(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+	self.SetLayoutHorizontal();
+			{ "trigger": "GridLayoutGroup:SetLayoutVertical(Public, Virtual, HideBySig)","contents": "GridLayoutGroup:SetLayoutVertical(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+	self.SetLayoutVertical();
+	get_startCorner(IntPtr l) {
+		set_startCorner(IntPtr l) {
+			UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+			UnityEngine.UI.GridLayoutGroup.Corner v;
+			checkEnum(l,2,out v);
+			self.startCorner=v;
+			get_startAxis(IntPtr l) {
+				set_startAxis(IntPtr l) {
+					UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+					UnityEngine.UI.GridLayoutGroup.Axis v;
+					checkEnum(l,2,out v);
+					self.startAxis=v;
+					get_cellSize(IntPtr l) {
+						set_cellSize(IntPtr l) {
+							UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+							UnityEngine.Vector2 v;
+							checkType(l,2,out v);
+							self.cellSize=v;
+							get_spacing(IntPtr l) {
+								set_spacing(IntPtr l) {
+									UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+									UnityEngine.Vector2 v;
+									checkType(l,2,out v);
+									self.spacing=v;
+									get_constraint(IntPtr l) {
+										set_constraint(IntPtr l) {
+											UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+											UnityEngine.UI.GridLayoutGroup.Constraint v;
+											checkEnum(l,2,out v);
+											self.constraint=v;
+											get_constraintCount(IntPtr l) {
+												set_constraintCount(IntPtr l) {
+													UnityEngine.UI.GridLayoutGroup self=(UnityEngine.UI.GridLayoutGroup)checkSelf(l);
+													int v;
+													checkType(l,2,out v);
+													self.constraintCount=v;
+														]
+												}
+

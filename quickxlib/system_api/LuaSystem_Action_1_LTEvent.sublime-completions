@@ -1,0 +1,8 @@
+﻿
+System.Action<LTEvent> 
+                ua = (System.Action<LTEvent>)checkObj(l, p);
+                ua = (System.Action<LTEvent>)ld.d;
+            ua = (LTEvent a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

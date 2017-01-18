@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.SpritePackingRotation");
+	addMember(l,0,"None");
+	addMember(l,15,"Any");
+		]
+}
+

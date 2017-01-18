@@ -1,0 +1,407 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Mathf()()","contents": "UnityEngine.Mathf()()"},
+
+			{ "trigger": "Mathf.Sin(Public, Static, HideBySig)","contents": "Mathf.Sin(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Sin(a1);
+			{ "trigger": "Mathf.Cos(Public, Static, HideBySig)","contents": "Mathf.Cos(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Cos(a1);
+			{ "trigger": "Mathf.Tan(Public, Static, HideBySig)","contents": "Mathf.Tan(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Tan(a1);
+			{ "trigger": "Mathf.Asin(Public, Static, HideBySig)","contents": "Mathf.Asin(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Asin(a1);
+			{ "trigger": "Mathf.Acos(Public, Static, HideBySig)","contents": "Mathf.Acos(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Acos(a1);
+			{ "trigger": "Mathf.Atan(Public, Static, HideBySig)","contents": "Mathf.Atan(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Atan(a1);
+			{ "trigger": "Mathf.Atan2(Public, Static, HideBySig)","contents": "Mathf.Atan2(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.Mathf.Atan2(a1,a2);
+			{ "trigger": "Mathf.Sqrt(Public, Static, HideBySig)","contents": "Mathf.Sqrt(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Mathf.Sqrt(a1);
+			{ "trigger": "Mathf.Abs(Public, Static, HideBySig)","contents": "Mathf.Abs(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,int)){
+		System.Int32 a1;
+		checkType(l,1,out a1);
+		var ret=UnityEngine.Mathf.Abs(a1);
+		else if(matchType(l,argc,1,float)){
+			System.Single a1;
+			checkType(l,1,out a1);
+			var ret=UnityEngine.Mathf.Abs(a1);
+					{ "trigger": "Mathf.Min(Public, Static, HideBySig)","contents": "Mathf.Min(Public, Static, HideBySig)"},
+
+			if(matchType(l,argc,1,System.Int32[])){
+				System.Int32[] a1;
+				checkParams(l,1,out a1);
+				var ret=UnityEngine.Mathf.Min(a1);
+				else if(matchType(l,argc,1,System.Single[])){
+					System.Single[] a1;
+					checkParams(l,1,out a1);
+					var ret=UnityEngine.Mathf.Min(a1);
+					else if(matchType(l,argc,1,float,float)){
+						System.Single a1;
+						checkType(l,1,out a1);
+						System.Single a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Mathf.Min(a1,a2);
+						else if(matchType(l,argc,1,int,int)){
+							System.Int32 a1;
+							checkType(l,1,out a1);
+							System.Int32 a2;
+							checkType(l,2,out a2);
+							var ret=UnityEngine.Mathf.Min(a1,a2);
+									{ "trigger": "Mathf.Max(Public, Static, HideBySig)","contents": "Mathf.Max(Public, Static, HideBySig)"},
+
+							if(matchType(l,argc,1,System.Int32[])){
+								System.Int32[] a1;
+								checkParams(l,1,out a1);
+								var ret=UnityEngine.Mathf.Max(a1);
+								else if(matchType(l,argc,1,System.Single[])){
+									System.Single[] a1;
+									checkParams(l,1,out a1);
+									var ret=UnityEngine.Mathf.Max(a1);
+									else if(matchType(l,argc,1,float,float)){
+										System.Single a1;
+										checkType(l,1,out a1);
+										System.Single a2;
+										checkType(l,2,out a2);
+										var ret=UnityEngine.Mathf.Max(a1,a2);
+										else if(matchType(l,argc,1,int,int)){
+											System.Int32 a1;
+											checkType(l,1,out a1);
+											System.Int32 a2;
+											checkType(l,2,out a2);
+											var ret=UnityEngine.Mathf.Max(a1,a2);
+													{ "trigger": "Mathf.Pow(Public, Static, HideBySig)","contents": "Mathf.Pow(Public, Static, HideBySig)"},
+
+											System.Single a1;
+											checkType(l,1,out a1);
+											System.Single a2;
+											checkType(l,2,out a2);
+											var ret=UnityEngine.Mathf.Pow(a1,a2);
+													{ "trigger": "Mathf.Exp(Public, Static, HideBySig)","contents": "Mathf.Exp(Public, Static, HideBySig)"},
+
+											System.Single a1;
+											checkType(l,1,out a1);
+											var ret=UnityEngine.Mathf.Exp(a1);
+													{ "trigger": "Mathf.Log(Public, Static, HideBySig)","contents": "Mathf.Log(Public, Static, HideBySig)"},
+
+											if(argc==1){
+												System.Single a1;
+												checkType(l,1,out a1);
+												var ret=UnityEngine.Mathf.Log(a1);
+												else if(argc==2){
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													var ret=UnityEngine.Mathf.Log(a1,a2);
+															{ "trigger": "Mathf.Log10(Public, Static, HideBySig)","contents": "Mathf.Log10(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.Log10(a1);
+															{ "trigger": "Mathf.Ceil(Public, Static, HideBySig)","contents": "Mathf.Ceil(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.Ceil(a1);
+															{ "trigger": "Mathf.Floor(Public, Static, HideBySig)","contents": "Mathf.Floor(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.Floor(a1);
+															{ "trigger": "Mathf.Round(Public, Static, HideBySig)","contents": "Mathf.Round(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.Round(a1);
+															{ "trigger": "Mathf.CeilToInt(Public, Static, HideBySig)","contents": "Mathf.CeilToInt(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.CeilToInt(a1);
+															{ "trigger": "Mathf.FloorToInt(Public, Static, HideBySig)","contents": "Mathf.FloorToInt(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.FloorToInt(a1);
+															{ "trigger": "Mathf.RoundToInt(Public, Static, HideBySig)","contents": "Mathf.RoundToInt(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.RoundToInt(a1);
+															{ "trigger": "Mathf.Sign(Public, Static, HideBySig)","contents": "Mathf.Sign(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.Sign(a1);
+															{ "trigger": "Mathf.Clamp(Public, Static, HideBySig)","contents": "Mathf.Clamp(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.Clamp(a1,a2,a3);
+															{ "trigger": "Mathf.Clamp01(Public, Static, HideBySig)","contents": "Mathf.Clamp01(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													var ret=UnityEngine.Mathf.Clamp01(a1);
+															{ "trigger": "Mathf.Lerp(Public, Static, HideBySig)","contents": "Mathf.Lerp(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.Lerp(a1,a2,a3);
+															{ "trigger": "Mathf.LerpUnclamped(Public, Static, HideBySig)","contents": "Mathf.LerpUnclamped(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.LerpUnclamped(a1,a2,a3);
+															{ "trigger": "Mathf.LerpAngle(Public, Static, HideBySig)","contents": "Mathf.LerpAngle(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.LerpAngle(a1,a2,a3);
+															{ "trigger": "Mathf.MoveTowards(Public, Static, HideBySig)","contents": "Mathf.MoveTowards(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.MoveTowards(a1,a2,a3);
+															{ "trigger": "Mathf.MoveTowardsAngle(Public, Static, HideBySig)","contents": "Mathf.MoveTowardsAngle(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.MoveTowardsAngle(a1,a2,a3);
+															{ "trigger": "Mathf.SmoothStep(Public, Static, HideBySig)","contents": "Mathf.SmoothStep(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.SmoothStep(a1,a2,a3);
+															{ "trigger": "Mathf.Gamma(Public, Static, HideBySig)","contents": "Mathf.Gamma(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													System.Single a3;
+													checkType(l,3,out a3);
+													var ret=UnityEngine.Mathf.Gamma(a1,a2,a3);
+															{ "trigger": "Mathf.Approximately(Public, Static, HideBySig)","contents": "Mathf.Approximately(Public, Static, HideBySig)"},
+
+													System.Single a1;
+													checkType(l,1,out a1);
+													System.Single a2;
+													checkType(l,2,out a2);
+													var ret=UnityEngine.Mathf.Approximately(a1,a2);
+															{ "trigger": "Mathf.SmoothDamp(Public, Static, HideBySig)","contents": "Mathf.SmoothDamp(Public, Static, HideBySig)"},
+
+													if(argc==4){
+														System.Single a1;
+														checkType(l,1,out a1);
+														System.Single a2;
+														checkType(l,2,out a2);
+														System.Single a3;
+														checkType(l,3,out a3);
+														System.Single a4;
+														checkType(l,4,out a4);
+														var ret=UnityEngine.Mathf.SmoothDamp(a1,a2,ref a3,a4);
+														else if(argc==5){
+															System.Single a1;
+															checkType(l,1,out a1);
+															System.Single a2;
+															checkType(l,2,out a2);
+															System.Single a3;
+															checkType(l,3,out a3);
+															System.Single a4;
+															checkType(l,4,out a4);
+															System.Single a5;
+															checkType(l,5,out a5);
+															var ret=UnityEngine.Mathf.SmoothDamp(a1,a2,ref a3,a4,a5);
+															else if(argc==6){
+																System.Single a1;
+																checkType(l,1,out a1);
+																System.Single a2;
+																checkType(l,2,out a2);
+																System.Single a3;
+																checkType(l,3,out a3);
+																System.Single a4;
+																checkType(l,4,out a4);
+																System.Single a5;
+																checkType(l,5,out a5);
+																System.Single a6;
+																checkType(l,6,out a6);
+																var ret=UnityEngine.Mathf.SmoothDamp(a1,a2,ref a3,a4,a5,a6);
+																		{ "trigger": "Mathf.SmoothDampAngle(Public, Static, HideBySig)","contents": "Mathf.SmoothDampAngle(Public, Static, HideBySig)"},
+
+																if(argc==4){
+																	System.Single a1;
+																	checkType(l,1,out a1);
+																	System.Single a2;
+																	checkType(l,2,out a2);
+																	System.Single a3;
+																	checkType(l,3,out a3);
+																	System.Single a4;
+																	checkType(l,4,out a4);
+																	var ret=UnityEngine.Mathf.SmoothDampAngle(a1,a2,ref a3,a4);
+																	else if(argc==5){
+																		System.Single a1;
+																		checkType(l,1,out a1);
+																		System.Single a2;
+																		checkType(l,2,out a2);
+																		System.Single a3;
+																		checkType(l,3,out a3);
+																		System.Single a4;
+																		checkType(l,4,out a4);
+																		System.Single a5;
+																		checkType(l,5,out a5);
+																		var ret=UnityEngine.Mathf.SmoothDampAngle(a1,a2,ref a3,a4,a5);
+																		else if(argc==6){
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			System.Single a2;
+																			checkType(l,2,out a2);
+																			System.Single a3;
+																			checkType(l,3,out a3);
+																			System.Single a4;
+																			checkType(l,4,out a4);
+																			System.Single a5;
+																			checkType(l,5,out a5);
+																			System.Single a6;
+																			checkType(l,6,out a6);
+																			var ret=UnityEngine.Mathf.SmoothDampAngle(a1,a2,ref a3,a4,a5,a6);
+																					{ "trigger": "Mathf.Repeat(Public, Static, HideBySig)","contents": "Mathf.Repeat(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			System.Single a2;
+																			checkType(l,2,out a2);
+																			var ret=UnityEngine.Mathf.Repeat(a1,a2);
+																					{ "trigger": "Mathf.PingPong(Public, Static, HideBySig)","contents": "Mathf.PingPong(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			System.Single a2;
+																			checkType(l,2,out a2);
+																			var ret=UnityEngine.Mathf.PingPong(a1,a2);
+																					{ "trigger": "Mathf.InverseLerp(Public, Static, HideBySig)","contents": "Mathf.InverseLerp(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			System.Single a2;
+																			checkType(l,2,out a2);
+																			System.Single a3;
+																			checkType(l,3,out a3);
+																			var ret=UnityEngine.Mathf.InverseLerp(a1,a2,a3);
+																					{ "trigger": "Mathf.ClosestPowerOfTwo(Public, Static, HideBySig)","contents": "Mathf.ClosestPowerOfTwo(Public, Static, HideBySig)"},
+
+																			System.Int32 a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.ClosestPowerOfTwo(a1);
+																					{ "trigger": "Mathf.GammaToLinearSpace(Public, Static, HideBySig)","contents": "Mathf.GammaToLinearSpace(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.GammaToLinearSpace(a1);
+																					{ "trigger": "Mathf.LinearToGammaSpace(Public, Static, HideBySig)","contents": "Mathf.LinearToGammaSpace(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.LinearToGammaSpace(a1);
+																					{ "trigger": "Mathf.IsPowerOfTwo(Public, Static, HideBySig)","contents": "Mathf.IsPowerOfTwo(Public, Static, HideBySig)"},
+
+																			System.Int32 a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.IsPowerOfTwo(a1);
+																					{ "trigger": "Mathf.NextPowerOfTwo(Public, Static, HideBySig)","contents": "Mathf.NextPowerOfTwo(Public, Static, HideBySig)"},
+
+																			System.Int32 a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.NextPowerOfTwo(a1);
+																					{ "trigger": "Mathf.DeltaAngle(Public, Static, HideBySig)","contents": "Mathf.DeltaAngle(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			System.Single a2;
+																			checkType(l,2,out a2);
+																			var ret=UnityEngine.Mathf.DeltaAngle(a1,a2);
+																					{ "trigger": "Mathf.PerlinNoise(Public, Static, HideBySig)","contents": "Mathf.PerlinNoise(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			System.Single a2;
+																			checkType(l,2,out a2);
+																			var ret=UnityEngine.Mathf.PerlinNoise(a1,a2);
+																					{ "trigger": "Mathf.FloatToHalf(Public, Static, HideBySig)","contents": "Mathf.FloatToHalf(Public, Static, HideBySig)"},
+
+																			System.Single a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.FloatToHalf(a1);
+																					{ "trigger": "Mathf.HalfToFloat(Public, Static, HideBySig)","contents": "Mathf.HalfToFloat(Public, Static, HideBySig)"},
+
+																			System.UInt16 a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Mathf.HalfToFloat(a1);
+																			PI
+																			Infinity
+																			NegativeInfinity
+																			Deg2Rad
+																			Rad2Deg
+																			Epsilon
+																				]
+																		}
+

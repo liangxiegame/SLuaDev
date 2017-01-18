@@ -1,0 +1,56 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimationEvent()()","contents": "UnityEngine.AnimationEvent()()"},
+
+	get_stringParameter(IntPtr l) {
+		set_stringParameter(IntPtr l) {
+			UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			self.stringParameter=v;
+			get_floatParameter(IntPtr l) {
+				set_floatParameter(IntPtr l) {
+					UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.floatParameter=v;
+					get_intParameter(IntPtr l) {
+						set_intParameter(IntPtr l) {
+							UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+							int v;
+							checkType(l,2,out v);
+							self.intParameter=v;
+							get_objectReferenceParameter(IntPtr l) {
+								set_objectReferenceParameter(IntPtr l) {
+									UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+									UnityEngine.Object v;
+									checkType(l,2,out v);
+									self.objectReferenceParameter=v;
+									get_functionName(IntPtr l) {
+										set_functionName(IntPtr l) {
+											UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+											string v;
+											checkType(l,2,out v);
+											self.functionName=v;
+											get_time(IntPtr l) {
+												set_time(IntPtr l) {
+													UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.time=v;
+													get_messageOptions(IntPtr l) {
+														set_messageOptions(IntPtr l) {
+															UnityEngine.AnimationEvent self=(UnityEngine.AnimationEvent)checkSelf(l);
+															UnityEngine.SendMessageOptions v;
+															checkEnum(l,2,out v);
+															self.messageOptions=v;
+															get_isFiredByLegacy(IntPtr l) {
+																get_isFiredByAnimator(IntPtr l) {
+																	get_animationState(IntPtr l) {
+																		get_animatorStateInfo(IntPtr l) {
+																			get_animatorClipInfo(IntPtr l) {
+																					]
+																			}
+

@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleCollisionEvent()()","contents": "UnityEngine.ParticleCollisionEvent()()"},
+
+	get_intersection(IntPtr l) {
+		get_normal(IntPtr l) {
+			get_velocity(IntPtr l) {
+				get_colliderComponent(IntPtr l) {
+						]
+				}
+

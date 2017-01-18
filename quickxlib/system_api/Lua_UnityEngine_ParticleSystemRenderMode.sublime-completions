@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemRenderMode");
+	addMember(l,0,"Billboard");
+	addMember(l,1,"Stretch");
+	addMember(l,2,"HorizontalBillboard");
+	addMember(l,3,"VerticalBillboard");
+	addMember(l,4,"Mesh");
+		]
+}
+

@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LightProbeGroup()()","contents": "UnityEngine.LightProbeGroup()()"},
+
+	get_probePositions(IntPtr l) {
+		set_probePositions(IntPtr l) {
+			UnityEngine.LightProbeGroup self=(UnityEngine.LightProbeGroup)checkSelf(l);
+			UnityEngine.Vector3[] v;
+			checkArray(l,2,out v);
+			self.probePositions=v;
+				]
+		}
+

@@ -1,0 +1,153 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.QualitySettings()()","contents": "UnityEngine.QualitySettings()()"},
+
+			{ "trigger": "QualitySettings.GetQualityLevel(Public, Static, HideBySig)","contents": "QualitySettings.GetQualityLevel(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.QualitySettings.GetQualityLevel();
+			{ "trigger": "QualitySettings.SetQualityLevel(Public, Static, HideBySig)","contents": "QualitySettings.SetQualityLevel(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		System.Int32 a1;
+		checkType(l,1,out a1);
+		UnityEngine.QualitySettings.SetQualityLevel(a1);
+		else if(argc==2){
+			System.Int32 a1;
+			checkType(l,1,out a1);
+			System.Boolean a2;
+			checkType(l,2,out a2);
+			UnityEngine.QualitySettings.SetQualityLevel(a1,a2);
+					{ "trigger": "QualitySettings.IncreaseLevel(Public, Static, HideBySig)","contents": "QualitySettings.IncreaseLevel(Public, Static, HideBySig)"},
+
+			if(argc==0){
+				UnityEngine.QualitySettings.IncreaseLevel();
+				else if(argc==1){
+					System.Boolean a1;
+					checkType(l,1,out a1);
+					UnityEngine.QualitySettings.IncreaseLevel(a1);
+							{ "trigger": "QualitySettings.DecreaseLevel(Public, Static, HideBySig)","contents": "QualitySettings.DecreaseLevel(Public, Static, HideBySig)"},
+
+					if(argc==0){
+						UnityEngine.QualitySettings.DecreaseLevel();
+						else if(argc==1){
+							System.Boolean a1;
+							checkType(l,1,out a1);
+							UnityEngine.QualitySettings.DecreaseLevel(a1);
+							get_names(IntPtr l) {
+								get_pixelLightCount(IntPtr l) {
+									set_pixelLightCount(IntPtr l) {
+										int v;
+										checkType(l,2,out v);
+										UnityEngine.QualitySettings.pixelLightCount=v;
+										get_shadowProjection(IntPtr l) {
+											set_shadowProjection(IntPtr l) {
+												UnityEngine.ShadowProjection v;
+												checkEnum(l,2,out v);
+												UnityEngine.QualitySettings.shadowProjection=v;
+												get_shadowCascades(IntPtr l) {
+													set_shadowCascades(IntPtr l) {
+														int v;
+														checkType(l,2,out v);
+														UnityEngine.QualitySettings.shadowCascades=v;
+														get_shadowDistance(IntPtr l) {
+															set_shadowDistance(IntPtr l) {
+																float v;
+																checkType(l,2,out v);
+																UnityEngine.QualitySettings.shadowDistance=v;
+																get_shadowResolution(IntPtr l) {
+																	set_shadowResolution(IntPtr l) {
+																		UnityEngine.ShadowResolution v;
+																		checkEnum(l,2,out v);
+																		UnityEngine.QualitySettings.shadowResolution=v;
+																		get_shadowNearPlaneOffset(IntPtr l) {
+																			set_shadowNearPlaneOffset(IntPtr l) {
+																				float v;
+																				checkType(l,2,out v);
+																				UnityEngine.QualitySettings.shadowNearPlaneOffset=v;
+																				get_shadowCascade2Split(IntPtr l) {
+																					set_shadowCascade2Split(IntPtr l) {
+																						float v;
+																						checkType(l,2,out v);
+																						UnityEngine.QualitySettings.shadowCascade2Split=v;
+																						get_shadowCascade4Split(IntPtr l) {
+																							set_shadowCascade4Split(IntPtr l) {
+																								UnityEngine.Vector3 v;
+																								checkType(l,2,out v);
+																								UnityEngine.QualitySettings.shadowCascade4Split=v;
+																								get_masterTextureLimit(IntPtr l) {
+																									set_masterTextureLimit(IntPtr l) {
+																										int v;
+																										checkType(l,2,out v);
+																										UnityEngine.QualitySettings.masterTextureLimit=v;
+																										get_anisotropicFiltering(IntPtr l) {
+																											set_anisotropicFiltering(IntPtr l) {
+																												UnityEngine.AnisotropicFiltering v;
+																												checkEnum(l,2,out v);
+																												UnityEngine.QualitySettings.anisotropicFiltering=v;
+																												get_lodBias(IntPtr l) {
+																													set_lodBias(IntPtr l) {
+																														float v;
+																														checkType(l,2,out v);
+																														UnityEngine.QualitySettings.lodBias=v;
+																														get_maximumLODLevel(IntPtr l) {
+																															set_maximumLODLevel(IntPtr l) {
+																																int v;
+																																checkType(l,2,out v);
+																																UnityEngine.QualitySettings.maximumLODLevel=v;
+																																get_particleRaycastBudget(IntPtr l) {
+																																	set_particleRaycastBudget(IntPtr l) {
+																																		int v;
+																																		checkType(l,2,out v);
+																																		UnityEngine.QualitySettings.particleRaycastBudget=v;
+																																		get_softVegetation(IntPtr l) {
+																																			set_softVegetation(IntPtr l) {
+																																				bool v;
+																																				checkType(l,2,out v);
+																																				UnityEngine.QualitySettings.softVegetation=v;
+																																				get_realtimeReflectionProbes(IntPtr l) {
+																																					set_realtimeReflectionProbes(IntPtr l) {
+																																						bool v;
+																																						checkType(l,2,out v);
+																																						UnityEngine.QualitySettings.realtimeReflectionProbes=v;
+																																						get_billboardsFaceCameraPosition(IntPtr l) {
+																																							set_billboardsFaceCameraPosition(IntPtr l) {
+																																								bool v;
+																																								checkType(l,2,out v);
+																																								UnityEngine.QualitySettings.billboardsFaceCameraPosition=v;
+																																								get_maxQueuedFrames(IntPtr l) {
+																																									set_maxQueuedFrames(IntPtr l) {
+																																										int v;
+																																										checkType(l,2,out v);
+																																										UnityEngine.QualitySettings.maxQueuedFrames=v;
+																																										get_vSyncCount(IntPtr l) {
+																																											set_vSyncCount(IntPtr l) {
+																																												int v;
+																																												checkType(l,2,out v);
+																																												UnityEngine.QualitySettings.vSyncCount=v;
+																																												get_antiAliasing(IntPtr l) {
+																																													set_antiAliasing(IntPtr l) {
+																																														int v;
+																																														checkType(l,2,out v);
+																																														UnityEngine.QualitySettings.antiAliasing=v;
+																																														get_desiredColorSpace(IntPtr l) {
+																																															get_activeColorSpace(IntPtr l) {
+																																																get_blendWeights(IntPtr l) {
+																																																	set_blendWeights(IntPtr l) {
+																																																		UnityEngine.BlendWeights v;
+																																																		checkEnum(l,2,out v);
+																																																		UnityEngine.QualitySettings.blendWeights=v;
+																																																		get_asyncUploadTimeSlice(IntPtr l) {
+																																																			set_asyncUploadTimeSlice(IntPtr l) {
+																																																				int v;
+																																																				checkType(l,2,out v);
+																																																				UnityEngine.QualitySettings.asyncUploadTimeSlice=v;
+																																																				get_asyncUploadBufferSize(IntPtr l) {
+																																																					set_asyncUploadBufferSize(IntPtr l) {
+																																																						int v;
+																																																						checkType(l,2,out v);
+																																																						UnityEngine.QualitySettings.asyncUploadBufferSize=v;
+																																																							]
+																																																					}
+

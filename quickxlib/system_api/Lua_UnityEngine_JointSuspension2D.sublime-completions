@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointSuspension2D()()","contents": "UnityEngine.JointSuspension2D()()"},
+
+	get_dampingRatio(IntPtr l) {
+		set_dampingRatio(IntPtr l) {
+			UnityEngine.JointSuspension2D self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.dampingRatio=v;
+			setBack(l,self);
+			get_frequency(IntPtr l) {
+				set_frequency(IntPtr l) {
+					UnityEngine.JointSuspension2D self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.frequency=v;
+					setBack(l,self);
+					get_angle(IntPtr l) {
+						set_angle(IntPtr l) {
+							UnityEngine.JointSuspension2D self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.angle=v;
+							setBack(l,self);
+								]
+						}
+

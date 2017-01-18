@@ -1,0 +1,150 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Collider2D()()","contents": "UnityEngine.Collider2D()()"},
+
+			{ "trigger": "Collider2D:IsTouching(Public, HideBySig)","contents": "Collider2D:IsTouching(Public, HideBySig)"},
+
+	UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+	UnityEngine.Collider2D a1;
+	checkType(l,2,out a1);
+	var ret=self.IsTouching(a1);
+			{ "trigger": "Collider2D:IsTouchingLayers(Public, HideBySig)","contents": "Collider2D:IsTouchingLayers(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+		var ret=self.IsTouchingLayers();
+		else if(argc==2){
+			UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.IsTouchingLayers(a1);
+					{ "trigger": "Collider2D:OverlapPoint(Public, HideBySig)","contents": "Collider2D:OverlapPoint(Public, HideBySig)"},
+
+			UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+			UnityEngine.Vector2 a1;
+			checkType(l,2,out a1);
+			var ret=self.OverlapPoint(a1);
+					{ "trigger": "Collider2D:Raycast(Public, HideBySig)","contents": "Collider2D:Raycast(Public, HideBySig)"},
+
+			if(argc==3){
+				UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+				UnityEngine.Vector2 a1;
+				checkType(l,2,out a1);
+				UnityEngine.RaycastHit2D[] a2;
+				checkArray(l,3,out a2);
+				var ret=self.Raycast(a1,a2);
+				else if(argc==4){
+					UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+					UnityEngine.Vector2 a1;
+					checkType(l,2,out a1);
+					UnityEngine.RaycastHit2D[] a2;
+					checkArray(l,3,out a2);
+					System.Single a3;
+					checkType(l,4,out a3);
+					var ret=self.Raycast(a1,a2,a3);
+					else if(argc==5){
+						UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+						UnityEngine.Vector2 a1;
+						checkType(l,2,out a1);
+						UnityEngine.RaycastHit2D[] a2;
+						checkArray(l,3,out a2);
+						System.Single a3;
+						checkType(l,4,out a3);
+						System.Int32 a4;
+						checkType(l,5,out a4);
+						var ret=self.Raycast(a1,a2,a3,a4);
+						else if(argc==6){
+							UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+							UnityEngine.Vector2 a1;
+							checkType(l,2,out a1);
+							UnityEngine.RaycastHit2D[] a2;
+							checkArray(l,3,out a2);
+							System.Single a3;
+							checkType(l,4,out a3);
+							System.Int32 a4;
+							checkType(l,5,out a4);
+							System.Single a5;
+							checkType(l,6,out a5);
+							var ret=self.Raycast(a1,a2,a3,a4,a5);
+							else if(argc==7){
+								UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+								UnityEngine.Vector2 a1;
+								checkType(l,2,out a1);
+								UnityEngine.RaycastHit2D[] a2;
+								checkArray(l,3,out a2);
+								System.Single a3;
+								checkType(l,4,out a3);
+								System.Int32 a4;
+								checkType(l,5,out a4);
+								System.Single a5;
+								checkType(l,6,out a5);
+								System.Single a6;
+								checkType(l,7,out a6);
+								var ret=self.Raycast(a1,a2,a3,a4,a5,a6);
+										{ "trigger": "Collider2D:Cast(Public, HideBySig)","contents": "Collider2D:Cast(Public, HideBySig)"},
+
+								if(argc==3){
+									UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+									UnityEngine.Vector2 a1;
+									checkType(l,2,out a1);
+									UnityEngine.RaycastHit2D[] a2;
+									checkArray(l,3,out a2);
+									var ret=self.Cast(a1,a2);
+									else if(argc==4){
+										UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+										UnityEngine.Vector2 a1;
+										checkType(l,2,out a1);
+										UnityEngine.RaycastHit2D[] a2;
+										checkArray(l,3,out a2);
+										System.Single a3;
+										checkType(l,4,out a3);
+										var ret=self.Cast(a1,a2,a3);
+										else if(argc==5){
+											UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+											UnityEngine.Vector2 a1;
+											checkType(l,2,out a1);
+											UnityEngine.RaycastHit2D[] a2;
+											checkArray(l,3,out a2);
+											System.Single a3;
+											checkType(l,4,out a3);
+											System.Boolean a4;
+											checkType(l,5,out a4);
+											var ret=self.Cast(a1,a2,a3,a4);
+											get_density(IntPtr l) {
+												set_density(IntPtr l) {
+													UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.density=v;
+													get_isTrigger(IntPtr l) {
+														set_isTrigger(IntPtr l) {
+															UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+															bool v;
+															checkType(l,2,out v);
+															self.isTrigger=v;
+															get_usedByEffector(IntPtr l) {
+																set_usedByEffector(IntPtr l) {
+																	UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+																	bool v;
+																	checkType(l,2,out v);
+																	self.usedByEffector=v;
+																	get_offset(IntPtr l) {
+																		set_offset(IntPtr l) {
+																			UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+																			UnityEngine.Vector2 v;
+																			checkType(l,2,out v);
+																			self.offset=v;
+																			get_attachedRigidbody(IntPtr l) {
+																				get_shapeCount(IntPtr l) {
+																					get_bounds(IntPtr l) {
+																						get_sharedMaterial(IntPtr l) {
+																							set_sharedMaterial(IntPtr l) {
+																								UnityEngine.Collider2D self=(UnityEngine.Collider2D)checkSelf(l);
+																								UnityEngine.PhysicsMaterial2D v;
+																								checkType(l,2,out v);
+																								self.sharedMaterial=v;
+																									]
+																							}
+

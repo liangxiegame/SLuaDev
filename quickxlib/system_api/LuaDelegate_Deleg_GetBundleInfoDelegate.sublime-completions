@@ -1,0 +1,12 @@
+﻿
+Deleg.GetBundleInfoDelegate 
+                ua = (Deleg.GetBundleInfoDelegate)checkObj(l, p);
+                ua = (Deleg.GetBundleInfoDelegate)ld.d;
+            ua = (string a1,out System.String a2,out System.Int32 a3) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);
+				bool ret;
+				checkType(l,error+1,out ret);
+				checkType(l,error+2,out a2);
+				checkType(l,error+3,out a3);

@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Skybox()()","contents": "UnityEngine.Skybox()()"},
+
+	get_material(IntPtr l) {
+		set_material(IntPtr l) {
+			UnityEngine.Skybox self=(UnityEngine.Skybox)checkSelf(l);
+			UnityEngine.Material v;
+			checkType(l,2,out v);
+			self.material=v;
+				]
+		}
+

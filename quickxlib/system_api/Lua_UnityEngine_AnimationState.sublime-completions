@@ -1,0 +1,91 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimationState()()","contents": "UnityEngine.AnimationState()()"},
+
+			{ "trigger": "AnimationState:AddMixingTransform(Public, HideBySig)","contents": "AnimationState:AddMixingTransform(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+		UnityEngine.Transform a1;
+		checkType(l,2,out a1);
+		self.AddMixingTransform(a1);
+		else if(argc==3){
+			UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+			UnityEngine.Transform a1;
+			checkType(l,2,out a1);
+			System.Boolean a2;
+			checkType(l,3,out a2);
+			self.AddMixingTransform(a1,a2);
+					{ "trigger": "AnimationState:RemoveMixingTransform(Public, HideBySig)","contents": "AnimationState:RemoveMixingTransform(Public, HideBySig)"},
+
+			UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+			UnityEngine.Transform a1;
+			checkType(l,2,out a1);
+			self.RemoveMixingTransform(a1);
+			get_enabled(IntPtr l) {
+				set_enabled(IntPtr l) {
+					UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.enabled=v;
+					get_weight(IntPtr l) {
+						set_weight(IntPtr l) {
+							UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.weight=v;
+							get_wrapMode(IntPtr l) {
+								set_wrapMode(IntPtr l) {
+									UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+									UnityEngine.WrapMode v;
+									checkEnum(l,2,out v);
+									self.wrapMode=v;
+									get_time(IntPtr l) {
+										set_time(IntPtr l) {
+											UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.time=v;
+											get_normalizedTime(IntPtr l) {
+												set_normalizedTime(IntPtr l) {
+													UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.normalizedTime=v;
+													get_speed(IntPtr l) {
+														set_speed(IntPtr l) {
+															UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.speed=v;
+															get_normalizedSpeed(IntPtr l) {
+																set_normalizedSpeed(IntPtr l) {
+																	UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.normalizedSpeed=v;
+																	get_length(IntPtr l) {
+																		get_layer(IntPtr l) {
+																			set_layer(IntPtr l) {
+																				UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+																				int v;
+																				checkType(l,2,out v);
+																				self.layer=v;
+																				get_clip(IntPtr l) {
+																					get_name(IntPtr l) {
+																						set_name(IntPtr l) {
+																							UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+																							string v;
+																							checkType(l,2,out v);
+																							self.name=v;
+																							get_blendMode(IntPtr l) {
+																								set_blendMode(IntPtr l) {
+																									UnityEngine.AnimationState self=(UnityEngine.AnimationState)checkSelf(l);
+																									UnityEngine.AnimationBlendMode v;
+																									checkEnum(l,2,out v);
+																									self.blendMode=v;
+																										]
+																								}
+

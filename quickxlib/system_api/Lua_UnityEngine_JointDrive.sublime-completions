@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointDrive()()","contents": "UnityEngine.JointDrive()()"},
+
+	get_positionSpring(IntPtr l) {
+		set_positionSpring(IntPtr l) {
+			UnityEngine.JointDrive self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.positionSpring=v;
+			setBack(l,self);
+			get_positionDamper(IntPtr l) {
+				set_positionDamper(IntPtr l) {
+					UnityEngine.JointDrive self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.positionDamper=v;
+					setBack(l,self);
+					get_maximumForce(IntPtr l) {
+						set_maximumForce(IntPtr l) {
+							UnityEngine.JointDrive self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.maximumForce=v;
+							setBack(l,self);
+								]
+						}
+

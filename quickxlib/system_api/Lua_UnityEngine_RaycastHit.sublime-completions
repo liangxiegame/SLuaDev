@@ -1,0 +1,48 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RaycastHit()()","contents": "UnityEngine.RaycastHit()()"},
+
+	get_point(IntPtr l) {
+		set_point(IntPtr l) {
+			UnityEngine.RaycastHit self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.point=v;
+			setBack(l,self);
+			get_normal(IntPtr l) {
+				set_normal(IntPtr l) {
+					UnityEngine.RaycastHit self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 v;
+					checkType(l,2,out v);
+					self.normal=v;
+					setBack(l,self);
+					get_barycentricCoordinate(IntPtr l) {
+						set_barycentricCoordinate(IntPtr l) {
+							UnityEngine.RaycastHit self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector3 v;
+							checkType(l,2,out v);
+							self.barycentricCoordinate=v;
+							setBack(l,self);
+							get_distance(IntPtr l) {
+								set_distance(IntPtr l) {
+									UnityEngine.RaycastHit self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.distance=v;
+									setBack(l,self);
+									get_triangleIndex(IntPtr l) {
+										get_textureCoord(IntPtr l) {
+											get_textureCoord2(IntPtr l) {
+												get_lightmapCoord(IntPtr l) {
+													get_collider(IntPtr l) {
+														get_rigidbody(IntPtr l) {
+															get_transform(IntPtr l) {
+																	]
+															}
+

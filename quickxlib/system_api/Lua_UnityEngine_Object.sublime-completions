@@ -1,0 +1,128 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Object()()","contents": "UnityEngine.Object()()"},
+
+			{ "trigger": "Object:GetInstanceID(Public, HideBySig)","contents": "Object:GetInstanceID(Public, HideBySig)"},
+
+	UnityEngine.Object self=(UnityEngine.Object)checkSelf(l);
+	var ret=self.GetInstanceID();
+			{ "trigger": "Object.Destroy(Public, Static, HideBySig)","contents": "Object.Destroy(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.Object a1;
+		checkType(l,1,out a1);
+		UnityEngine.Object.Destroy(a1);
+		else if(argc==2){
+			UnityEngine.Object a1;
+			checkType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			UnityEngine.Object.Destroy(a1,a2);
+					{ "trigger": "Object.DestroyImmediate(Public, Static, HideBySig)","contents": "Object.DestroyImmediate(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				UnityEngine.Object a1;
+				checkType(l,1,out a1);
+				UnityEngine.Object.DestroyImmediate(a1);
+				else if(argc==2){
+					UnityEngine.Object a1;
+					checkType(l,1,out a1);
+					System.Boolean a2;
+					checkType(l,2,out a2);
+					UnityEngine.Object.DestroyImmediate(a1,a2);
+							{ "trigger": "Object.FindObjectsOfType(Public, Static, HideBySig)","contents": "Object.FindObjectsOfType(Public, Static, HideBySig)"},
+
+					System.Type a1;
+					checkType(l,1,out a1);
+					var ret=UnityEngine.Object.FindObjectsOfType(a1);
+							{ "trigger": "Object.DontDestroyOnLoad(Public, Static, HideBySig)","contents": "Object.DontDestroyOnLoad(Public, Static, HideBySig)"},
+
+					UnityEngine.Object a1;
+					checkType(l,1,out a1);
+					UnityEngine.Object.DontDestroyOnLoad(a1);
+							{ "trigger": "Object.DestroyObject(Public, Static, HideBySig)","contents": "Object.DestroyObject(Public, Static, HideBySig)"},
+
+					if(argc==1){
+						UnityEngine.Object a1;
+						checkType(l,1,out a1);
+						UnityEngine.Object.DestroyObject(a1);
+						else if(argc==2){
+							UnityEngine.Object a1;
+							checkType(l,1,out a1);
+							System.Single a2;
+							checkType(l,2,out a2);
+							UnityEngine.Object.DestroyObject(a1,a2);
+									{ "trigger": "Object.Instantiate(Public, Static, HideBySig)","contents": "Object.Instantiate(Public, Static, HideBySig)"},
+
+							if(argc==1){
+								UnityEngine.Object a1;
+								checkType(l,1,out a1);
+								var ret=UnityEngine.Object.Instantiate(a1);
+								else if(argc==2){
+									UnityEngine.Object a1;
+									checkType(l,1,out a1);
+									UnityEngine.Transform a2;
+									checkType(l,2,out a2);
+									var ret=UnityEngine.Object.Instantiate(a1,a2);
+									else if(matchType(l,argc,1,UnityEngine.Object,UnityEngine.Transform,bool)){
+										UnityEngine.Object a1;
+										checkType(l,1,out a1);
+										UnityEngine.Transform a2;
+										checkType(l,2,out a2);
+										System.Boolean a3;
+										checkType(l,3,out a3);
+										var ret=UnityEngine.Object.Instantiate(a1,a2,a3);
+										else if(matchType(l,argc,1,UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)){
+											UnityEngine.Object a1;
+											checkType(l,1,out a1);
+											UnityEngine.Vector3 a2;
+											checkType(l,2,out a2);
+											UnityEngine.Quaternion a3;
+											checkType(l,3,out a3);
+											var ret=UnityEngine.Object.Instantiate(a1,a2,a3);
+											else if(argc==4){
+												UnityEngine.Object a1;
+												checkType(l,1,out a1);
+												UnityEngine.Vector3 a2;
+												checkType(l,2,out a2);
+												UnityEngine.Quaternion a3;
+												checkType(l,3,out a3);
+												UnityEngine.Transform a4;
+												checkType(l,4,out a4);
+												var ret=UnityEngine.Object.Instantiate(a1,a2,a3,a4);
+														{ "trigger": "Object.FindObjectOfType(Public, Static, HideBySig)","contents": "Object.FindObjectOfType(Public, Static, HideBySig)"},
+
+												System.Type a1;
+												checkType(l,1,out a1);
+												var ret=UnityEngine.Object.FindObjectOfType(a1);
+														{ "trigger": "Object.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Object.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+												UnityEngine.Object a1;
+												checkType(l,1,out a1);
+												UnityEngine.Object a2;
+												checkType(l,2,out a2);
+												var ret=(a1==a2);
+														{ "trigger": "Object.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Object.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+												UnityEngine.Object a1;
+												checkType(l,1,out a1);
+												UnityEngine.Object a2;
+												checkType(l,2,out a2);
+												var ret=(a1!=a2);
+												get_name(IntPtr l) {
+													set_name(IntPtr l) {
+														UnityEngine.Object self=(UnityEngine.Object)checkSelf(l);
+														string v;
+														checkType(l,2,out v);
+														self.name=v;
+														get_hideFlags(IntPtr l) {
+															set_hideFlags(IntPtr l) {
+																UnityEngine.Object self=(UnityEngine.Object)checkSelf(l);
+																UnityEngine.HideFlags v;
+																checkEnum(l,2,out v);
+																self.hideFlags=v;
+																	]
+															}
+

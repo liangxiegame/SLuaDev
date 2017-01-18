@@ -1,0 +1,10 @@
+﻿
+UnityEngine.Application.AdvertisingIdentifierCallback 
+                ua = (UnityEngine.Application.AdvertisingIdentifierCallback)checkObj(l, p);
+                ua = (UnityEngine.Application.AdvertisingIdentifierCallback)ld.d;
+            ua = (string a1,bool a2,string a3) =>
+
+				pushValue(l,a1);
+				pushValue(l,a2);
+				pushValue(l,a3);
+				ld.pcall(3, error);

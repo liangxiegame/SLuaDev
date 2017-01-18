@@ -1,0 +1,88 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RectTransform()()","contents": "UnityEngine.RectTransform()()"},
+
+			{ "trigger": "RectTransform:GetLocalCorners(Public, HideBySig)","contents": "RectTransform:GetLocalCorners(Public, HideBySig)"},
+
+	UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+	UnityEngine.Vector3[] a1;
+	checkArray(l,2,out a1);
+	self.GetLocalCorners(a1);
+			{ "trigger": "RectTransform:GetWorldCorners(Public, HideBySig)","contents": "RectTransform:GetWorldCorners(Public, HideBySig)"},
+
+	UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+	UnityEngine.Vector3[] a1;
+	checkArray(l,2,out a1);
+	self.GetWorldCorners(a1);
+			{ "trigger": "RectTransform:SetInsetAndSizeFromParentEdge(Public, HideBySig)","contents": "RectTransform:SetInsetAndSizeFromParentEdge(Public, HideBySig)"},
+
+	UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+	UnityEngine.RectTransform.Edge a1;
+	checkEnum(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+	self.SetInsetAndSizeFromParentEdge(a1,a2,a3);
+			{ "trigger": "RectTransform:SetSizeWithCurrentAnchors(Public, HideBySig)","contents": "RectTransform:SetSizeWithCurrentAnchors(Public, HideBySig)"},
+
+	UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+	UnityEngine.RectTransform.Axis a1;
+	checkEnum(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetSizeWithCurrentAnchors(a1,a2);
+	get_rect(IntPtr l) {
+		get_anchorMin(IntPtr l) {
+			set_anchorMin(IntPtr l) {
+				UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+				UnityEngine.Vector2 v;
+				checkType(l,2,out v);
+				self.anchorMin=v;
+				get_anchorMax(IntPtr l) {
+					set_anchorMax(IntPtr l) {
+						UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+						UnityEngine.Vector2 v;
+						checkType(l,2,out v);
+						self.anchorMax=v;
+						get_anchoredPosition3D(IntPtr l) {
+							set_anchoredPosition3D(IntPtr l) {
+								UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+								UnityEngine.Vector3 v;
+								checkType(l,2,out v);
+								self.anchoredPosition3D=v;
+								get_anchoredPosition(IntPtr l) {
+									set_anchoredPosition(IntPtr l) {
+										UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+										UnityEngine.Vector2 v;
+										checkType(l,2,out v);
+										self.anchoredPosition=v;
+										get_sizeDelta(IntPtr l) {
+											set_sizeDelta(IntPtr l) {
+												UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+												UnityEngine.Vector2 v;
+												checkType(l,2,out v);
+												self.sizeDelta=v;
+												get_pivot(IntPtr l) {
+													set_pivot(IntPtr l) {
+														UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+														UnityEngine.Vector2 v;
+														checkType(l,2,out v);
+														self.pivot=v;
+														get_offsetMin(IntPtr l) {
+															set_offsetMin(IntPtr l) {
+																UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+																UnityEngine.Vector2 v;
+																checkType(l,2,out v);
+																self.offsetMin=v;
+																get_offsetMax(IntPtr l) {
+																	set_offsetMax(IntPtr l) {
+																		UnityEngine.RectTransform self=(UnityEngine.RectTransform)checkSelf(l);
+																		UnityEngine.Vector2 v;
+																		checkType(l,2,out v);
+																		self.offsetMax=v;
+																			]
+																	}
+

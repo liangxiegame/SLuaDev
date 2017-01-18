@@ -1,0 +1,62 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PolygonCollider2D()()","contents": "UnityEngine.PolygonCollider2D()()"},
+
+			{ "trigger": "PolygonCollider2D:GetPath(Public, HideBySig)","contents": "PolygonCollider2D:GetPath(Public, HideBySig)"},
+
+	UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetPath(a1);
+			{ "trigger": "PolygonCollider2D:SetPath(Public, HideBySig)","contents": "PolygonCollider2D:SetPath(Public, HideBySig)"},
+
+	UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector2[] a2;
+	checkArray(l,3,out a2);
+	self.SetPath(a1,a2);
+			{ "trigger": "PolygonCollider2D:GetTotalPointCount(Public, HideBySig)","contents": "PolygonCollider2D:GetTotalPointCount(Public, HideBySig)"},
+
+	UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+	var ret=self.GetTotalPointCount();
+			{ "trigger": "PolygonCollider2D:CreatePrimitive(Public, HideBySig)","contents": "PolygonCollider2D:CreatePrimitive(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+		System.Int32 a1;
+		checkType(l,2,out a1);
+		self.CreatePrimitive(a1);
+		else if(argc==3){
+			UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			UnityEngine.Vector2 a2;
+			checkType(l,3,out a2);
+			self.CreatePrimitive(a1,a2);
+			else if(argc==4){
+				UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+				System.Int32 a1;
+				checkType(l,2,out a1);
+				UnityEngine.Vector2 a2;
+				checkType(l,3,out a2);
+				UnityEngine.Vector2 a3;
+				checkType(l,4,out a3);
+				self.CreatePrimitive(a1,a2,a3);
+				get_points(IntPtr l) {
+					set_points(IntPtr l) {
+						UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+						UnityEngine.Vector2[] v;
+						checkArray(l,2,out v);
+						self.points=v;
+						get_pathCount(IntPtr l) {
+							set_pathCount(IntPtr l) {
+								UnityEngine.PolygonCollider2D self=(UnityEngine.PolygonCollider2D)checkSelf(l);
+								int v;
+								checkType(l,2,out v);
+								self.pathCount=v;
+									]
+							}
+

@@ -1,0 +1,132 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Application()()","contents": "UnityEngine.Application()()"},
+
+			{ "trigger": "Application.Quit(Public, Static, HideBySig)","contents": "Application.Quit(Public, Static, HideBySig)"},
+
+	UnityEngine.Application.Quit();
+			{ "trigger": "Application.CancelQuit(Public, Static, HideBySig)","contents": "Application.CancelQuit(Public, Static, HideBySig)"},
+
+	UnityEngine.Application.CancelQuit();
+			{ "trigger": "Application.GetStreamProgressForLevel(Public, Static, HideBySig)","contents": "Application.GetStreamProgressForLevel(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,string)){
+		System.String a1;
+		checkType(l,1,out a1);
+		var ret=UnityEngine.Application.GetStreamProgressForLevel(a1);
+		else if(matchType(l,argc,1,int)){
+			System.Int32 a1;
+			checkType(l,1,out a1);
+			var ret=UnityEngine.Application.GetStreamProgressForLevel(a1);
+					{ "trigger": "Application.CanStreamedLevelBeLoaded(Public, Static, HideBySig)","contents": "Application.CanStreamedLevelBeLoaded(Public, Static, HideBySig)"},
+
+			if(matchType(l,argc,1,string)){
+				System.String a1;
+				checkType(l,1,out a1);
+				var ret=UnityEngine.Application.CanStreamedLevelBeLoaded(a1);
+				else if(matchType(l,argc,1,int)){
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					var ret=UnityEngine.Application.CanStreamedLevelBeLoaded(a1);
+							{ "trigger": "Application.CaptureScreenshot(Public, Static, HideBySig)","contents": "Application.CaptureScreenshot(Public, Static, HideBySig)"},
+
+					if(argc==1){
+						System.String a1;
+						checkType(l,1,out a1);
+						UnityEngine.Application.CaptureScreenshot(a1);
+						else if(argc==2){
+							System.String a1;
+							checkType(l,1,out a1);
+							System.Int32 a2;
+							checkType(l,2,out a2);
+							UnityEngine.Application.CaptureScreenshot(a1,a2);
+									{ "trigger": "Application.HasProLicense(Public, Static, HideBySig)","contents": "Application.HasProLicense(Public, Static, HideBySig)"},
+
+							var ret=UnityEngine.Application.HasProLicense();
+									{ "trigger": "Application.ExternalCall(Public, Static, HideBySig)","contents": "Application.ExternalCall(Public, Static, HideBySig)"},
+
+							System.String a1;
+							checkType(l,1,out a1);
+							System.Object[] a2;
+							checkParams(l,2,out a2);
+							UnityEngine.Application.ExternalCall(a1,a2);
+									{ "trigger": "Application.RequestAdvertisingIdentifierAsync(Public, Static, HideBySig)","contents": "Application.RequestAdvertisingIdentifierAsync(Public, Static, HideBySig)"},
+
+							UnityEngine.Application.AdvertisingIdentifierCallback a1;
+							LuaDelegation.checkDelegate(l,1,out a1);
+							var ret=UnityEngine.Application.RequestAdvertisingIdentifierAsync(a1);
+									{ "trigger": "Application.OpenURL(Public, Static, HideBySig)","contents": "Application.OpenURL(Public, Static, HideBySig)"},
+
+							System.String a1;
+							checkType(l,1,out a1);
+							UnityEngine.Application.OpenURL(a1);
+									{ "trigger": "Application.GetStackTraceLogType(Public, Static, HideBySig)","contents": "Application.GetStackTraceLogType(Public, Static, HideBySig)"},
+
+							UnityEngine.LogType a1;
+							checkEnum(l,1,out a1);
+							var ret=UnityEngine.Application.GetStackTraceLogType(a1);
+									{ "trigger": "Application.SetStackTraceLogType(Public, Static, HideBySig)","contents": "Application.SetStackTraceLogType(Public, Static, HideBySig)"},
+
+							UnityEngine.LogType a1;
+							checkEnum(l,1,out a1);
+							UnityEngine.StackTraceLogType a2;
+							checkEnum(l,2,out a2);
+							UnityEngine.Application.SetStackTraceLogType(a1,a2);
+									{ "trigger": "Application.RequestUserAuthorization(Public, Static, HideBySig)","contents": "Application.RequestUserAuthorization(Public, Static, HideBySig)"},
+
+							UnityEngine.UserAuthorization a1;
+							checkEnum(l,1,out a1);
+							var ret=UnityEngine.Application.RequestUserAuthorization(a1);
+									{ "trigger": "Application.HasUserAuthorization(Public, Static, HideBySig)","contents": "Application.HasUserAuthorization(Public, Static, HideBySig)"},
+
+							UnityEngine.UserAuthorization a1;
+							checkEnum(l,1,out a1);
+							var ret=UnityEngine.Application.HasUserAuthorization(a1);
+							get_streamedBytes(IntPtr l) {
+								get_isPlaying(IntPtr l) {
+									get_isEditor(IntPtr l) {
+										get_isWebPlayer(IntPtr l) {
+											get_platform(IntPtr l) {
+												get_isMobilePlatform(IntPtr l) {
+													get_isConsolePlatform(IntPtr l) {
+														get_runInBackground(IntPtr l) {
+															set_runInBackground(IntPtr l) {
+																bool v;
+																checkType(l,2,out v);
+																UnityEngine.Application.runInBackground=v;
+																get_dataPath(IntPtr l) {
+																	get_streamingAssetsPath(IntPtr l) {
+																		get_persistentDataPath(IntPtr l) {
+																			get_temporaryCachePath(IntPtr l) {
+																				get_srcValue(IntPtr l) {
+																					get_absoluteURL(IntPtr l) {
+																						get_unityVersion(IntPtr l) {
+																							get_version(IntPtr l) {
+																								get_bundleIdentifier(IntPtr l) {
+																									get_installMode(IntPtr l) {
+																										get_sandboxType(IntPtr l) {
+																											get_productName(IntPtr l) {
+																												get_companyName(IntPtr l) {
+																													get_cloudProjectId(IntPtr l) {
+																														get_webSecurityEnabled(IntPtr l) {
+																															get_webSecurityHostUrl(IntPtr l) {
+																																get_targetFrameRate(IntPtr l) {
+																																	set_targetFrameRate(IntPtr l) {
+																																		int v;
+																																		checkType(l,2,out v);
+																																		UnityEngine.Application.targetFrameRate=v;
+																																		get_systemLanguage(IntPtr l) {
+																																			get_backgroundLoadingPriority(IntPtr l) {
+																																				set_backgroundLoadingPriority(IntPtr l) {
+																																					UnityEngine.ThreadPriority v;
+																																					checkEnum(l,2,out v);
+																																					UnityEngine.Application.backgroundLoadingPriority=v;
+																																					get_internetReachability(IntPtr l) {
+																																						get_genuine(IntPtr l) {
+																																							get_genuineCheckAvailable(IntPtr l) {
+																																								get_isShowingSplashScreen(IntPtr l) {
+																																										]
+																																								}
+

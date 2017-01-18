@@ -1,0 +1,190 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "ProceduralMaterial:GetProceduralPropertyDescriptions(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralPropertyDescriptions(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	var ret=self.GetProceduralPropertyDescriptions();
+			{ "trigger": "ProceduralMaterial:HasProceduralProperty(Public, HideBySig)","contents": "ProceduralMaterial:HasProceduralProperty(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.HasProceduralProperty(a1);
+			{ "trigger": "ProceduralMaterial:GetProceduralBoolean(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralBoolean(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetProceduralBoolean(a1);
+			{ "trigger": "ProceduralMaterial:IsProceduralPropertyVisible(Public, HideBySig)","contents": "ProceduralMaterial:IsProceduralPropertyVisible(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.IsProceduralPropertyVisible(a1);
+			{ "trigger": "ProceduralMaterial:SetProceduralBoolean(Public, HideBySig)","contents": "ProceduralMaterial:SetProceduralBoolean(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.SetProceduralBoolean(a1,a2);
+			{ "trigger": "ProceduralMaterial:GetProceduralFloat(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralFloat(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetProceduralFloat(a1);
+			{ "trigger": "ProceduralMaterial:SetProceduralFloat(Public, HideBySig)","contents": "ProceduralMaterial:SetProceduralFloat(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetProceduralFloat(a1,a2);
+			{ "trigger": "ProceduralMaterial:GetProceduralVector(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralVector(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetProceduralVector(a1);
+			{ "trigger": "ProceduralMaterial:SetProceduralVector(Public, HideBySig)","contents": "ProceduralMaterial:SetProceduralVector(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector4 a2;
+	checkType(l,3,out a2);
+	self.SetProceduralVector(a1,a2);
+			{ "trigger": "ProceduralMaterial:GetProceduralColor(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralColor(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetProceduralColor(a1);
+			{ "trigger": "ProceduralMaterial:SetProceduralColor(Public, HideBySig)","contents": "ProceduralMaterial:SetProceduralColor(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	UnityEngine.Color a2;
+	checkType(l,3,out a2);
+	self.SetProceduralColor(a1,a2);
+			{ "trigger": "ProceduralMaterial:GetProceduralEnum(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralEnum(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetProceduralEnum(a1);
+			{ "trigger": "ProceduralMaterial:SetProceduralEnum(Public, HideBySig)","contents": "ProceduralMaterial:SetProceduralEnum(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	self.SetProceduralEnum(a1,a2);
+			{ "trigger": "ProceduralMaterial:GetProceduralTexture(Public, HideBySig)","contents": "ProceduralMaterial:GetProceduralTexture(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetProceduralTexture(a1);
+			{ "trigger": "ProceduralMaterial:SetProceduralTexture(Public, HideBySig)","contents": "ProceduralMaterial:SetProceduralTexture(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	UnityEngine.Texture2D a2;
+	checkType(l,3,out a2);
+	self.SetProceduralTexture(a1,a2);
+			{ "trigger": "ProceduralMaterial:IsProceduralPropertyCached(Public, HideBySig)","contents": "ProceduralMaterial:IsProceduralPropertyCached(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.IsProceduralPropertyCached(a1);
+			{ "trigger": "ProceduralMaterial:CacheProceduralProperty(Public, HideBySig)","contents": "ProceduralMaterial:CacheProceduralProperty(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.CacheProceduralProperty(a1,a2);
+			{ "trigger": "ProceduralMaterial:ClearCache(Public, HideBySig)","contents": "ProceduralMaterial:ClearCache(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	self.ClearCache();
+			{ "trigger": "ProceduralMaterial:RebuildTextures(Public, HideBySig)","contents": "ProceduralMaterial:RebuildTextures(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	self.RebuildTextures();
+			{ "trigger": "ProceduralMaterial:RebuildTexturesImmediately(Public, HideBySig)","contents": "ProceduralMaterial:RebuildTexturesImmediately(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	self.RebuildTexturesImmediately();
+			{ "trigger": "ProceduralMaterial:GetGeneratedTextures(Public, HideBySig)","contents": "ProceduralMaterial:GetGeneratedTextures(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	var ret=self.GetGeneratedTextures();
+			{ "trigger": "ProceduralMaterial:GetGeneratedTexture(Public, HideBySig)","contents": "ProceduralMaterial:GetGeneratedTexture(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetGeneratedTexture(a1);
+			{ "trigger": "ProceduralMaterial:FreezeAndReleaseSourceData(Public, HideBySig)","contents": "ProceduralMaterial:FreezeAndReleaseSourceData(Public, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+	self.FreezeAndReleaseSourceData();
+			{ "trigger": "ProceduralMaterial.StopRebuilds(Public, Static, HideBySig)","contents": "ProceduralMaterial.StopRebuilds(Public, Static, HideBySig)"},
+
+	UnityEngine.ProceduralMaterial.StopRebuilds();
+	get_cacheSize(IntPtr l) {
+		set_cacheSize(IntPtr l) {
+			UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+			UnityEngine.ProceduralCacheSize v;
+			checkEnum(l,2,out v);
+			self.cacheSize=v;
+			get_animationUpdateRate(IntPtr l) {
+				set_animationUpdateRate(IntPtr l) {
+					UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+					int v;
+					checkType(l,2,out v);
+					self.animationUpdateRate=v;
+					get_isProcessing(IntPtr l) {
+						get_isCachedDataAvailable(IntPtr l) {
+							get_isLoadTimeGenerated(IntPtr l) {
+								set_isLoadTimeGenerated(IntPtr l) {
+									UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.isLoadTimeGenerated=v;
+									get_loadingBehavior(IntPtr l) {
+										get_isSupported(IntPtr l) {
+											get_substanceProcessorUsage(IntPtr l) {
+												set_substanceProcessorUsage(IntPtr l) {
+													UnityEngine.ProceduralProcessorUsage v;
+													checkEnum(l,2,out v);
+													UnityEngine.ProceduralMaterial.substanceProcessorUsage=v;
+													get_preset(IntPtr l) {
+														set_preset(IntPtr l) {
+															UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+															string v;
+															checkType(l,2,out v);
+															self.preset=v;
+															get_isReadable(IntPtr l) {
+																set_isReadable(IntPtr l) {
+																	UnityEngine.ProceduralMaterial self=(UnityEngine.ProceduralMaterial)checkSelf(l);
+																	bool v;
+																	checkType(l,2,out v);
+																	self.isReadable=v;
+																	get_isFrozen(IntPtr l) {
+																			]
+																	}
+

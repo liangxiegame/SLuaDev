@@ -1,0 +1,49 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.NavMeshHit()()","contents": "UnityEngine.NavMeshHit()()"},
+
+	get_position(IntPtr l) {
+		set_position(IntPtr l) {
+			UnityEngine.NavMeshHit self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.position=v;
+			setBack(l,self);
+			get_normal(IntPtr l) {
+				set_normal(IntPtr l) {
+					UnityEngine.NavMeshHit self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 v;
+					checkType(l,2,out v);
+					self.normal=v;
+					setBack(l,self);
+					get_distance(IntPtr l) {
+						set_distance(IntPtr l) {
+							UnityEngine.NavMeshHit self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.distance=v;
+							setBack(l,self);
+							get_mask(IntPtr l) {
+								set_mask(IntPtr l) {
+									UnityEngine.NavMeshHit self;
+									checkValueType(l,1,out self);
+									int v;
+									checkType(l,2,out v);
+									self.mask=v;
+									setBack(l,self);
+									get_hit(IntPtr l) {
+										set_hit(IntPtr l) {
+											UnityEngine.NavMeshHit self;
+											checkValueType(l,1,out self);
+											bool v;
+											checkType(l,2,out v);
+											self.hit=v;
+											setBack(l,self);
+												]
+										}
+

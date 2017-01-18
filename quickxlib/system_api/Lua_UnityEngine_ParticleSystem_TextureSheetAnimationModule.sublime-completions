@@ -1,0 +1,89 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.TextureSheetAnimationModule()()","contents": "UnityEngine.ParticleSystem.TextureSheetAnimationModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_numTilesX(IntPtr l) {
+				set_numTilesX(IntPtr l) {
+					UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+					checkValueType(l,1,out self);
+					int v;
+					checkType(l,2,out v);
+					self.numTilesX=v;
+					setBack(l,self);
+					get_numTilesY(IntPtr l) {
+						set_numTilesY(IntPtr l) {
+							UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+							checkValueType(l,1,out self);
+							int v;
+							checkType(l,2,out v);
+							self.numTilesY=v;
+							setBack(l,self);
+							get_animation(IntPtr l) {
+								set_animation(IntPtr l) {
+									UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystemAnimationType v;
+									checkEnum(l,2,out v);
+									self.animation=v;
+									setBack(l,self);
+									get_useRandomRow(IntPtr l) {
+										set_useRandomRow(IntPtr l) {
+											UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+											checkValueType(l,1,out self);
+											bool v;
+											checkType(l,2,out v);
+											self.useRandomRow=v;
+											setBack(l,self);
+											get_frameOverTime(IntPtr l) {
+												set_frameOverTime(IntPtr l) {
+													UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+													checkValueType(l,1,out self);
+													UnityEngine.ParticleSystem.MinMaxCurve v;
+													checkValueType(l,2,out v);
+													self.frameOverTime=v;
+													setBack(l,self);
+													get_startFrame(IntPtr l) {
+														set_startFrame(IntPtr l) {
+															UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+															checkValueType(l,1,out self);
+															UnityEngine.ParticleSystem.MinMaxCurve v;
+															checkValueType(l,2,out v);
+															self.startFrame=v;
+															setBack(l,self);
+															get_cycleCount(IntPtr l) {
+																set_cycleCount(IntPtr l) {
+																	UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+																	checkValueType(l,1,out self);
+																	int v;
+																	checkType(l,2,out v);
+																	self.cycleCount=v;
+																	setBack(l,self);
+																	get_rowIndex(IntPtr l) {
+																		set_rowIndex(IntPtr l) {
+																			UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+																			checkValueType(l,1,out self);
+																			int v;
+																			checkType(l,2,out v);
+																			self.rowIndex=v;
+																			setBack(l,self);
+																			get_uvChannelMask(IntPtr l) {
+																				set_uvChannelMask(IntPtr l) {
+																					UnityEngine.ParticleSystem.TextureSheetAnimationModule self;
+																					checkValueType(l,1,out self);
+																					UnityEngine.UVChannelFlags v;
+																					checkEnum(l,2,out v);
+																					self.uvChannelMask=v;
+																					setBack(l,self);
+																						]
+																				}
+

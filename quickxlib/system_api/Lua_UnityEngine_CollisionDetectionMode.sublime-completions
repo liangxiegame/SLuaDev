@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.CollisionDetectionMode");
+	addMember(l,0,"Discrete");
+	addMember(l,1,"Continuous");
+	addMember(l,2,"ContinuousDynamic");
+		]
+}
+

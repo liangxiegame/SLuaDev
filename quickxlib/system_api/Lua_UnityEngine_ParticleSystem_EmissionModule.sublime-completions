@@ -1,0 +1,57 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.EmissionModule()()","contents": "UnityEngine.ParticleSystem.EmissionModule()()"},
+
+			{ "trigger": "EmissionModule:SetBursts(Public, HideBySig)","contents": "EmissionModule:SetBursts(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.ParticleSystem.EmissionModule self;
+		checkValueType(l,1,out self);
+		UnityEngine.ParticleSystem.Burst[] a1;
+		checkArray(l,2,out a1);
+		self.SetBursts(a1);
+		else if(argc==3){
+			UnityEngine.ParticleSystem.EmissionModule self;
+			checkValueType(l,1,out self);
+			UnityEngine.ParticleSystem.Burst[] a1;
+			checkArray(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			self.SetBursts(a1,a2);
+					{ "trigger": "EmissionModule:GetBursts(Public, HideBySig)","contents": "EmissionModule:GetBursts(Public, HideBySig)"},
+
+			UnityEngine.ParticleSystem.EmissionModule self;
+			checkValueType(l,1,out self);
+			UnityEngine.ParticleSystem.Burst[] a1;
+			checkArray(l,2,out a1);
+			var ret=self.GetBursts(a1);
+			get_enabled(IntPtr l) {
+				set_enabled(IntPtr l) {
+					UnityEngine.ParticleSystem.EmissionModule self;
+					checkValueType(l,1,out self);
+					bool v;
+					checkType(l,2,out v);
+					self.enabled=v;
+					setBack(l,self);
+					get_rate(IntPtr l) {
+						set_rate(IntPtr l) {
+							UnityEngine.ParticleSystem.EmissionModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystem.MinMaxCurve v;
+							checkValueType(l,2,out v);
+							self.rate=v;
+							setBack(l,self);
+							get_type(IntPtr l) {
+								set_type(IntPtr l) {
+									UnityEngine.ParticleSystem.EmissionModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystemEmissionType v;
+									checkEnum(l,2,out v);
+									self.type=v;
+									setBack(l,self);
+									get_burstCount(IntPtr l) {
+											]
+									}
+

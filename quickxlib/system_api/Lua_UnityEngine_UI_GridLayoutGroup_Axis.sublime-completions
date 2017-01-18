@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.GridLayoutGroup.Axis");
+	addMember(l,0,"Horizontal");
+	addMember(l,1,"Vertical");
+		]
+}
+

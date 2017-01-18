@@ -1,0 +1,188 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Shader()()","contents": "UnityEngine.Shader()()"},
+
+			{ "trigger": "Shader.Find(Public, Static, HideBySig)","contents": "Shader.Find(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Shader.Find(a1);
+			{ "trigger": "Shader.EnableKeyword(Public, Static, HideBySig)","contents": "Shader.EnableKeyword(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	UnityEngine.Shader.EnableKeyword(a1);
+			{ "trigger": "Shader.DisableKeyword(Public, Static, HideBySig)","contents": "Shader.DisableKeyword(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	UnityEngine.Shader.DisableKeyword(a1);
+			{ "trigger": "Shader.IsKeywordEnabled(Public, Static, HideBySig)","contents": "Shader.IsKeywordEnabled(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Shader.IsKeywordEnabled(a1);
+			{ "trigger": "Shader.SetGlobalColor(Public, Static, HideBySig)","contents": "Shader.SetGlobalColor(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,int,UnityEngine.Color)){
+		System.Int32 a1;
+		checkType(l,1,out a1);
+		UnityEngine.Color a2;
+		checkType(l,2,out a2);
+		UnityEngine.Shader.SetGlobalColor(a1,a2);
+		else if(matchType(l,argc,1,string,UnityEngine.Color)){
+			System.String a1;
+			checkType(l,1,out a1);
+			UnityEngine.Color a2;
+			checkType(l,2,out a2);
+			UnityEngine.Shader.SetGlobalColor(a1,a2);
+					{ "trigger": "Shader.SetGlobalVector(Public, Static, HideBySig)","contents": "Shader.SetGlobalVector(Public, Static, HideBySig)"},
+
+			if(matchType(l,argc,1,int,UnityEngine.Vector4)){
+				System.Int32 a1;
+				checkType(l,1,out a1);
+				UnityEngine.Vector4 a2;
+				checkType(l,2,out a2);
+				UnityEngine.Shader.SetGlobalVector(a1,a2);
+				else if(matchType(l,argc,1,string,UnityEngine.Vector4)){
+					System.String a1;
+					checkType(l,1,out a1);
+					UnityEngine.Vector4 a2;
+					checkType(l,2,out a2);
+					UnityEngine.Shader.SetGlobalVector(a1,a2);
+							{ "trigger": "Shader.SetGlobalFloat(Public, Static, HideBySig)","contents": "Shader.SetGlobalFloat(Public, Static, HideBySig)"},
+
+					if(matchType(l,argc,1,int,float)){
+						System.Int32 a1;
+						checkType(l,1,out a1);
+						System.Single a2;
+						checkType(l,2,out a2);
+						UnityEngine.Shader.SetGlobalFloat(a1,a2);
+						else if(matchType(l,argc,1,string,float)){
+							System.String a1;
+							checkType(l,1,out a1);
+							System.Single a2;
+							checkType(l,2,out a2);
+							UnityEngine.Shader.SetGlobalFloat(a1,a2);
+									{ "trigger": "Shader.SetGlobalInt(Public, Static, HideBySig)","contents": "Shader.SetGlobalInt(Public, Static, HideBySig)"},
+
+							if(matchType(l,argc,1,int,int)){
+								System.Int32 a1;
+								checkType(l,1,out a1);
+								System.Int32 a2;
+								checkType(l,2,out a2);
+								UnityEngine.Shader.SetGlobalInt(a1,a2);
+								else if(matchType(l,argc,1,string,int)){
+									System.String a1;
+									checkType(l,1,out a1);
+									System.Int32 a2;
+									checkType(l,2,out a2);
+									UnityEngine.Shader.SetGlobalInt(a1,a2);
+											{ "trigger": "Shader.SetGlobalTexture(Public, Static, HideBySig)","contents": "Shader.SetGlobalTexture(Public, Static, HideBySig)"},
+
+									if(matchType(l,argc,1,int,UnityEngine.Texture)){
+										System.Int32 a1;
+										checkType(l,1,out a1);
+										UnityEngine.Texture a2;
+										checkType(l,2,out a2);
+										UnityEngine.Shader.SetGlobalTexture(a1,a2);
+										else if(matchType(l,argc,1,string,UnityEngine.Texture)){
+											System.String a1;
+											checkType(l,1,out a1);
+											UnityEngine.Texture a2;
+											checkType(l,2,out a2);
+											UnityEngine.Shader.SetGlobalTexture(a1,a2);
+													{ "trigger": "Shader.SetGlobalMatrix(Public, Static, HideBySig)","contents": "Shader.SetGlobalMatrix(Public, Static, HideBySig)"},
+
+											if(matchType(l,argc,1,int,UnityEngine.Matrix4x4)){
+												System.Int32 a1;
+												checkType(l,1,out a1);
+												UnityEngine.Matrix4x4 a2;
+												checkValueType(l,2,out a2);
+												UnityEngine.Shader.SetGlobalMatrix(a1,a2);
+												else if(matchType(l,argc,1,string,UnityEngine.Matrix4x4)){
+													System.String a1;
+													checkType(l,1,out a1);
+													UnityEngine.Matrix4x4 a2;
+													checkValueType(l,2,out a2);
+													UnityEngine.Shader.SetGlobalMatrix(a1,a2);
+															{ "trigger": "Shader.SetGlobalFloatArray(Public, Static, HideBySig)","contents": "Shader.SetGlobalFloatArray(Public, Static, HideBySig)"},
+
+													if(matchType(l,argc,1,int,System.Single[])){
+														System.Int32 a1;
+														checkType(l,1,out a1);
+														System.Single[] a2;
+														checkArray(l,2,out a2);
+														UnityEngine.Shader.SetGlobalFloatArray(a1,a2);
+														else if(matchType(l,argc,1,string,System.Single[])){
+															System.String a1;
+															checkType(l,1,out a1);
+															System.Single[] a2;
+															checkArray(l,2,out a2);
+															UnityEngine.Shader.SetGlobalFloatArray(a1,a2);
+																	{ "trigger": "Shader.SetGlobalVectorArray(Public, Static, HideBySig)","contents": "Shader.SetGlobalVectorArray(Public, Static, HideBySig)"},
+
+															if(matchType(l,argc,1,int,UnityEngine.Vector4[])){
+																System.Int32 a1;
+																checkType(l,1,out a1);
+																UnityEngine.Vector4[] a2;
+																checkArray(l,2,out a2);
+																UnityEngine.Shader.SetGlobalVectorArray(a1,a2);
+																else if(matchType(l,argc,1,string,UnityEngine.Vector4[])){
+																	System.String a1;
+																	checkType(l,1,out a1);
+																	UnityEngine.Vector4[] a2;
+																	checkArray(l,2,out a2);
+																	UnityEngine.Shader.SetGlobalVectorArray(a1,a2);
+																			{ "trigger": "Shader.SetGlobalMatrixArray(Public, Static, HideBySig)","contents": "Shader.SetGlobalMatrixArray(Public, Static, HideBySig)"},
+
+																	if(matchType(l,argc,1,int,UnityEngine.Matrix4x4[])){
+																		System.Int32 a1;
+																		checkType(l,1,out a1);
+																		UnityEngine.Matrix4x4[] a2;
+																		checkArray(l,2,out a2);
+																		UnityEngine.Shader.SetGlobalMatrixArray(a1,a2);
+																		else if(matchType(l,argc,1,string,UnityEngine.Matrix4x4[])){
+																			System.String a1;
+																			checkType(l,1,out a1);
+																			UnityEngine.Matrix4x4[] a2;
+																			checkArray(l,2,out a2);
+																			UnityEngine.Shader.SetGlobalMatrixArray(a1,a2);
+																					{ "trigger": "Shader.SetGlobalBuffer(Public, Static, HideBySig)","contents": "Shader.SetGlobalBuffer(Public, Static, HideBySig)"},
+
+																			System.String a1;
+																			checkType(l,1,out a1);
+																			UnityEngine.ComputeBuffer a2;
+																			checkType(l,2,out a2);
+																			UnityEngine.Shader.SetGlobalBuffer(a1,a2);
+																					{ "trigger": "Shader.PropertyToID(Public, Static, HideBySig)","contents": "Shader.PropertyToID(Public, Static, HideBySig)"},
+
+																			System.String a1;
+																			checkType(l,1,out a1);
+																			var ret=UnityEngine.Shader.PropertyToID(a1);
+																					{ "trigger": "Shader.WarmupAllShaders(Public, Static, HideBySig)","contents": "Shader.WarmupAllShaders(Public, Static, HideBySig)"},
+
+																			UnityEngine.Shader.WarmupAllShaders();
+																			get_isSupported(IntPtr l) {
+																				get_globalShaderHardwareTier(IntPtr l) {
+																					set_globalShaderHardwareTier(IntPtr l) {
+																						UnityEngine.Rendering.ShaderHardwareTier v;
+																						checkEnum(l,2,out v);
+																						UnityEngine.Shader.globalShaderHardwareTier=v;
+																						get_maximumLOD(IntPtr l) {
+																							set_maximumLOD(IntPtr l) {
+																								UnityEngine.Shader self=(UnityEngine.Shader)checkSelf(l);
+																								int v;
+																								checkType(l,2,out v);
+																								self.maximumLOD=v;
+																								get_globalMaximumLOD(IntPtr l) {
+																									set_globalMaximumLOD(IntPtr l) {
+																										int v;
+																										checkType(l,2,out v);
+																										UnityEngine.Shader.globalMaximumLOD=v;
+																										get_renderQueue(IntPtr l) {
+																												]
+																										}
+

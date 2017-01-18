@@ -1,0 +1,106 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Dropdown:RefreshShownValue(Public, HideBySig)","contents": "Dropdown:RefreshShownValue(Public, HideBySig)"},
+
+	UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+	self.RefreshShownValue();
+			{ "trigger": "Dropdown:AddOptions(Public, HideBySig)","contents": "Dropdown:AddOptions(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,System.Collections.Generic.List<UnityEngine.Sprite>)){
+		UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+		System.Collections.Generic.List<UnityEngine.Sprite> a1;
+		checkType(l,2,out a1);
+		self.AddOptions(a1);
+		else if(matchType(l,argc,2,System.Collections.Generic.List<System.String>)){
+			UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+			System.Collections.Generic.List<System.String> a1;
+			checkType(l,2,out a1);
+			self.AddOptions(a1);
+			else if(matchType(l,argc,2,System.Collections.Generic.List<UnityEngine.UI.Dropdown.OptionData>)){
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				System.Collections.Generic.List<UnityEngine.UI.Dropdown.OptionData> a1;
+				checkType(l,2,out a1);
+				self.AddOptions(a1);
+						{ "trigger": "Dropdown:ClearOptions(Public, HideBySig)","contents": "Dropdown:ClearOptions(Public, HideBySig)"},
+
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				self.ClearOptions();
+						{ "trigger": "Dropdown:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Dropdown:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				UnityEngine.EventSystems.PointerEventData a1;
+				checkType(l,2,out a1);
+				self.OnPointerClick(a1);
+						{ "trigger": "Dropdown:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Dropdown:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				UnityEngine.EventSystems.BaseEventData a1;
+				checkType(l,2,out a1);
+				self.OnSubmit(a1);
+						{ "trigger": "Dropdown:OnCancel(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Dropdown:OnCancel(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				UnityEngine.EventSystems.BaseEventData a1;
+				checkType(l,2,out a1);
+				self.OnCancel(a1);
+						{ "trigger": "Dropdown:Show(Public, HideBySig)","contents": "Dropdown:Show(Public, HideBySig)"},
+
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				self.Show();
+						{ "trigger": "Dropdown:Hide(Public, HideBySig)","contents": "Dropdown:Hide(Public, HideBySig)"},
+
+				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+				self.Hide();
+				get_template(IntPtr l) {
+					set_template(IntPtr l) {
+						UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+						UnityEngine.RectTransform v;
+						checkType(l,2,out v);
+						self.template=v;
+						get_captionText(IntPtr l) {
+							set_captionText(IntPtr l) {
+								UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+								UnityEngine.UI.Text v;
+								checkType(l,2,out v);
+								self.captionText=v;
+								get_captionImage(IntPtr l) {
+									set_captionImage(IntPtr l) {
+										UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+										UnityEngine.UI.Image v;
+										checkType(l,2,out v);
+										self.captionImage=v;
+										get_itemText(IntPtr l) {
+											set_itemText(IntPtr l) {
+												UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+												UnityEngine.UI.Text v;
+												checkType(l,2,out v);
+												self.itemText=v;
+												get_itemImage(IntPtr l) {
+													set_itemImage(IntPtr l) {
+														UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+														UnityEngine.UI.Image v;
+														checkType(l,2,out v);
+														self.itemImage=v;
+														get_options(IntPtr l) {
+															set_options(IntPtr l) {
+																UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+																System.Collections.Generic.List<UnityEngine.UI.Dropdown.OptionData> v;
+																checkType(l,2,out v);
+																self.options=v;
+																get_onValueChanged(IntPtr l) {
+																	set_onValueChanged(IntPtr l) {
+																		UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+																		UnityEngine.UI.Dropdown.DropdownEvent v;
+																		checkType(l,2,out v);
+																		self.onValueChanged=v;
+																		get_value(IntPtr l) {
+																			set_value(IntPtr l) {
+																				UnityEngine.UI.Dropdown self=(UnityEngine.UI.Dropdown)checkSelf(l);
+																				int v;
+																				checkType(l,2,out v);
+																				self.value=v;
+																					]
+																			}
+

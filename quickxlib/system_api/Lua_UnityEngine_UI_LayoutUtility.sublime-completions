@@ -1,0 +1,77 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "LayoutUtility.GetMinSize(Public, Static, HideBySig)","contents": "LayoutUtility.GetMinSize(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.UI.LayoutUtility.GetMinSize(a1,a2);
+			{ "trigger": "LayoutUtility.GetPreferredSize(Public, Static, HideBySig)","contents": "LayoutUtility.GetPreferredSize(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.UI.LayoutUtility.GetPreferredSize(a1,a2);
+			{ "trigger": "LayoutUtility.GetFlexibleSize(Public, Static, HideBySig)","contents": "LayoutUtility.GetFlexibleSize(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.UI.LayoutUtility.GetFlexibleSize(a1,a2);
+			{ "trigger": "LayoutUtility.GetMinWidth(Public, Static, HideBySig)","contents": "LayoutUtility.GetMinWidth(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.LayoutUtility.GetMinWidth(a1);
+			{ "trigger": "LayoutUtility.GetPreferredWidth(Public, Static, HideBySig)","contents": "LayoutUtility.GetPreferredWidth(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.LayoutUtility.GetPreferredWidth(a1);
+			{ "trigger": "LayoutUtility.GetFlexibleWidth(Public, Static, HideBySig)","contents": "LayoutUtility.GetFlexibleWidth(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.LayoutUtility.GetFlexibleWidth(a1);
+			{ "trigger": "LayoutUtility.GetMinHeight(Public, Static, HideBySig)","contents": "LayoutUtility.GetMinHeight(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.LayoutUtility.GetMinHeight(a1);
+			{ "trigger": "LayoutUtility.GetPreferredHeight(Public, Static, HideBySig)","contents": "LayoutUtility.GetPreferredHeight(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.LayoutUtility.GetPreferredHeight(a1);
+			{ "trigger": "LayoutUtility.GetFlexibleHeight(Public, Static, HideBySig)","contents": "LayoutUtility.GetFlexibleHeight(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.LayoutUtility.GetFlexibleHeight(a1);
+			{ "trigger": "LayoutUtility.GetLayoutProperty(Public, Static, HideBySig)","contents": "LayoutUtility.GetLayoutProperty(Public, Static, HideBySig)"},
+
+	if(argc==3){
+		UnityEngine.RectTransform a1;
+		checkType(l,1,out a1);
+		System.Func<UnityEngine.UI.ILayoutElement,System.Single> a2;
+		LuaDelegation.checkDelegate(l,2,out a2);
+		System.Single a3;
+		checkType(l,3,out a3);
+		var ret=UnityEngine.UI.LayoutUtility.GetLayoutProperty(a1,a2,a3);
+		else if(argc==4){
+			UnityEngine.RectTransform a1;
+			checkType(l,1,out a1);
+			System.Func<UnityEngine.UI.ILayoutElement,System.Single> a2;
+			LuaDelegation.checkDelegate(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			UnityEngine.UI.ILayoutElement a4;
+			var ret=UnityEngine.UI.LayoutUtility.GetLayoutProperty(a1,a2,a3,out a4);
+				]
+		}
+

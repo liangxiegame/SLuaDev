@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	System.Single a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.WaitForSecondsRealtime()()","contents": "UnityEngine.WaitForSecondsRealtime()()"},
+
+	get_keepWaiting(IntPtr l) {
+			]
+	}
+

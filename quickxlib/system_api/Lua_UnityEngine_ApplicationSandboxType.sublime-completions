@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ApplicationSandboxType");
+	addMember(l,0,"Unknown");
+	addMember(l,1,"NotSandboxed");
+	addMember(l,2,"Sandboxed");
+	addMember(l,3,"SandboxBroken");
+		]
+}
+

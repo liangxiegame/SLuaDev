@@ -1,0 +1,202 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "ScrollRect:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	UnityEngine.UI.CanvasUpdate a1;
+	checkEnum(l,2,out a1);
+	self.Rebuild(a1);
+			{ "trigger": "ScrollRect:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.LayoutComplete();
+			{ "trigger": "ScrollRect:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.GraphicUpdateComplete();
+			{ "trigger": "ScrollRect:IsActive(Public, Virtual, HideBySig)","contents": "ScrollRect:IsActive(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	var ret=self.IsActive();
+			{ "trigger": "ScrollRect:StopMovement(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:StopMovement(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.StopMovement();
+			{ "trigger": "ScrollRect:OnScroll(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:OnScroll(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnScroll(a1);
+			{ "trigger": "ScrollRect:OnInitializePotentialDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:OnInitializePotentialDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnInitializePotentialDrag(a1);
+			{ "trigger": "ScrollRect:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnBeginDrag(a1);
+			{ "trigger": "ScrollRect:OnEndDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:OnEndDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnEndDrag(a1);
+			{ "trigger": "ScrollRect:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnDrag(a1);
+			{ "trigger": "ScrollRect:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "ScrollRect:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+			{ "trigger": "ScrollRect:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.SetLayoutHorizontal();
+			{ "trigger": "ScrollRect:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ScrollRect:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+	self.SetLayoutVertical();
+	get_content(IntPtr l) {
+		set_content(IntPtr l) {
+			UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+			UnityEngine.RectTransform v;
+			checkType(l,2,out v);
+			self.content=v;
+			get_horizontal(IntPtr l) {
+				set_horizontal(IntPtr l) {
+					UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.horizontal=v;
+					get_vertical(IntPtr l) {
+						set_vertical(IntPtr l) {
+							UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.vertical=v;
+							get_movementType(IntPtr l) {
+								set_movementType(IntPtr l) {
+									UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+									UnityEngine.UI.ScrollRect.MovementType v;
+									checkEnum(l,2,out v);
+									self.movementType=v;
+									get_elasticity(IntPtr l) {
+										set_elasticity(IntPtr l) {
+											UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.elasticity=v;
+											get_inertia(IntPtr l) {
+												set_inertia(IntPtr l) {
+													UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.inertia=v;
+													get_decelerationRate(IntPtr l) {
+														set_decelerationRate(IntPtr l) {
+															UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.decelerationRate=v;
+															get_scrollSensitivity(IntPtr l) {
+																set_scrollSensitivity(IntPtr l) {
+																	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.scrollSensitivity=v;
+																	get_viewport(IntPtr l) {
+																		set_viewport(IntPtr l) {
+																			UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																			UnityEngine.RectTransform v;
+																			checkType(l,2,out v);
+																			self.viewport=v;
+																			get_horizontalScrollbar(IntPtr l) {
+																				set_horizontalScrollbar(IntPtr l) {
+																					UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																					UnityEngine.UI.Scrollbar v;
+																					checkType(l,2,out v);
+																					self.horizontalScrollbar=v;
+																					get_verticalScrollbar(IntPtr l) {
+																						set_verticalScrollbar(IntPtr l) {
+																							UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																							UnityEngine.UI.Scrollbar v;
+																							checkType(l,2,out v);
+																							self.verticalScrollbar=v;
+																							get_horizontalScrollbarVisibility(IntPtr l) {
+																								set_horizontalScrollbarVisibility(IntPtr l) {
+																									UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																									UnityEngine.UI.ScrollRect.ScrollbarVisibility v;
+																									checkEnum(l,2,out v);
+																									self.horizontalScrollbarVisibility=v;
+																									get_verticalScrollbarVisibility(IntPtr l) {
+																										set_verticalScrollbarVisibility(IntPtr l) {
+																											UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																											UnityEngine.UI.ScrollRect.ScrollbarVisibility v;
+																											checkEnum(l,2,out v);
+																											self.verticalScrollbarVisibility=v;
+																											get_horizontalScrollbarSpacing(IntPtr l) {
+																												set_horizontalScrollbarSpacing(IntPtr l) {
+																													UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																													float v;
+																													checkType(l,2,out v);
+																													self.horizontalScrollbarSpacing=v;
+																													get_verticalScrollbarSpacing(IntPtr l) {
+																														set_verticalScrollbarSpacing(IntPtr l) {
+																															UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																															float v;
+																															checkType(l,2,out v);
+																															self.verticalScrollbarSpacing=v;
+																															get_onValueChanged(IntPtr l) {
+																																set_onValueChanged(IntPtr l) {
+																																	UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																																	UnityEngine.UI.ScrollRect.ScrollRectEvent v;
+																																	checkType(l,2,out v);
+																																	self.onValueChanged=v;
+																																	get_velocity(IntPtr l) {
+																																		set_velocity(IntPtr l) {
+																																			UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																																			UnityEngine.Vector2 v;
+																																			checkType(l,2,out v);
+																																			self.velocity=v;
+																																			get_normalizedPosition(IntPtr l) {
+																																				set_normalizedPosition(IntPtr l) {
+																																					UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																																					UnityEngine.Vector2 v;
+																																					checkType(l,2,out v);
+																																					self.normalizedPosition=v;
+																																					get_horizontalNormalizedPosition(IntPtr l) {
+																																						set_horizontalNormalizedPosition(IntPtr l) {
+																																							UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																																							float v;
+																																							checkType(l,2,out v);
+																																							self.horizontalNormalizedPosition=v;
+																																							get_verticalNormalizedPosition(IntPtr l) {
+																																								set_verticalNormalizedPosition(IntPtr l) {
+																																									UnityEngine.UI.ScrollRect self=(UnityEngine.UI.ScrollRect)checkSelf(l);
+																																									float v;
+																																									checkType(l,2,out v);
+																																									self.verticalNormalizedPosition=v;
+																																									get_minWidth(IntPtr l) {
+																																										get_preferredWidth(IntPtr l) {
+																																											get_flexibleWidth(IntPtr l) {
+																																												get_minHeight(IntPtr l) {
+																																													get_preferredHeight(IntPtr l) {
+																																														get_flexibleHeight(IntPtr l) {
+																																															get_layoutPriority(IntPtr l) {
+																																																	]
+																																															}
+

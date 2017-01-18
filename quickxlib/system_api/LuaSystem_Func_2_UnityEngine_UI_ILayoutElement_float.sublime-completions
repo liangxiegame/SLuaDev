@@ -1,0 +1,10 @@
+﻿
+System.Func<UnityEngine.UI.ILayoutElement,System.Single> 
+                ua = (System.Func<UnityEngine.UI.ILayoutElement,System.Single>)checkObj(l, p);
+                ua = (System.Func<UnityEngine.UI.ILayoutElement,System.Single>)ld.d;
+            ua = (UnityEngine.UI.ILayoutElement a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);
+				float ret;
+				checkType(l,error+1,out ret);

@@ -1,0 +1,51 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.BuoyancyEffector2D()()","contents": "UnityEngine.BuoyancyEffector2D()()"},
+
+	get_surfaceLevel(IntPtr l) {
+		set_surfaceLevel(IntPtr l) {
+			UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.surfaceLevel=v;
+			get_density(IntPtr l) {
+				set_density(IntPtr l) {
+					UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.density=v;
+					get_linearDrag(IntPtr l) {
+						set_linearDrag(IntPtr l) {
+							UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.linearDrag=v;
+							get_angularDrag(IntPtr l) {
+								set_angularDrag(IntPtr l) {
+									UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.angularDrag=v;
+									get_flowAngle(IntPtr l) {
+										set_flowAngle(IntPtr l) {
+											UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.flowAngle=v;
+											get_flowMagnitude(IntPtr l) {
+												set_flowMagnitude(IntPtr l) {
+													UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.flowMagnitude=v;
+													get_flowVariation(IntPtr l) {
+														set_flowVariation(IntPtr l) {
+															UnityEngine.BuoyancyEffector2D self=(UnityEngine.BuoyancyEffector2D)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.flowVariation=v;
+																]
+														}
+

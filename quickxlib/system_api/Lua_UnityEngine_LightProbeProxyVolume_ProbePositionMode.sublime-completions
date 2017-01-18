@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightProbeProxyVolume.ProbePositionMode");
+	addMember(l,0,"CellCorner");
+	addMember(l,1,"CellCenter");
+		]
+}
+

@@ -1,0 +1,31 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	set_onTouchDown(IntPtr l) {
+		CBEasyTouchDrag.OnDragDelegate v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) CBEasyTouchDrag.onTouchDown=v;
+		else if(op==1) CBEasyTouchDrag.onTouchDown+=v;
+		else if(op==2) CBEasyTouchDrag.onTouchDown-=v;
+		set_onDragStart(IntPtr l) {
+			CBEasyTouchDrag.OnDragDelegate v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) CBEasyTouchDrag.onDragStart=v;
+			else if(op==1) CBEasyTouchDrag.onDragStart+=v;
+			else if(op==2) CBEasyTouchDrag.onDragStart-=v;
+			set_onDragUpdate(IntPtr l) {
+				CBEasyTouchDrag.OnDragDelegate v;
+				int op=LuaDelegation.checkDelegate(l,2,out v);
+				if(op==0) CBEasyTouchDrag.onDragUpdate=v;
+				else if(op==1) CBEasyTouchDrag.onDragUpdate+=v;
+				else if(op==2) CBEasyTouchDrag.onDragUpdate-=v;
+				set_onDragEnd(IntPtr l) {
+					CBEasyTouchDrag.OnDragDelegate v;
+					int op=LuaDelegation.checkDelegate(l,2,out v);
+					if(op==0) CBEasyTouchDrag.onDragEnd=v;
+					else if(op==1) CBEasyTouchDrag.onDragEnd+=v;
+					else if(op==2) CBEasyTouchDrag.onDragEnd-=v;
+						]
+				}
+

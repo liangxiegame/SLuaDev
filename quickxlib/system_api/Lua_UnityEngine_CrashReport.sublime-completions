@@ -1,0 +1,18 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "CrashReport:Remove(Public, HideBySig)","contents": "CrashReport:Remove(Public, HideBySig)"},
+
+	UnityEngine.CrashReport self=(UnityEngine.CrashReport)checkSelf(l);
+	self.Remove();
+			{ "trigger": "CrashReport.RemoveAll(Public, Static, HideBySig)","contents": "CrashReport.RemoveAll(Public, Static, HideBySig)"},
+
+	UnityEngine.CrashReport.RemoveAll();
+	time
+	text
+	get_reports(IntPtr l) {
+		get_lastReport(IntPtr l) {
+				]
+		}
+

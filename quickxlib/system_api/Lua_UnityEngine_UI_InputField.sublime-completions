@@ -1,0 +1,247 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "InputField:MoveTextEnd(Public, HideBySig)","contents": "InputField:MoveTextEnd(Public, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	System.Boolean a1;
+	checkType(l,2,out a1);
+	self.MoveTextEnd(a1);
+			{ "trigger": "InputField:MoveTextStart(Public, HideBySig)","contents": "InputField:MoveTextStart(Public, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	System.Boolean a1;
+	checkType(l,2,out a1);
+	self.MoveTextStart(a1);
+			{ "trigger": "InputField:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnBeginDrag(a1);
+			{ "trigger": "InputField:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnDrag(a1);
+			{ "trigger": "InputField:OnEndDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:OnEndDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnEndDrag(a1);
+			{ "trigger": "InputField:OnPointerDown(Public, Virtual, HideBySig)","contents": "InputField:OnPointerDown(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerDown(a1);
+			{ "trigger": "InputField:ProcessEvent(Public, HideBySig)","contents": "InputField:ProcessEvent(Public, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.Event a1;
+	checkType(l,2,out a1);
+	self.ProcessEvent(a1);
+			{ "trigger": "InputField:OnUpdateSelected(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:OnUpdateSelected(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnUpdateSelected(a1);
+			{ "trigger": "InputField:ForceLabelUpdate(Public, HideBySig)","contents": "InputField:ForceLabelUpdate(Public, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	self.ForceLabelUpdate();
+			{ "trigger": "InputField:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.UI.CanvasUpdate a1;
+	checkEnum(l,2,out a1);
+	self.Rebuild(a1);
+			{ "trigger": "InputField:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	self.LayoutComplete();
+			{ "trigger": "InputField:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	self.GraphicUpdateComplete();
+			{ "trigger": "InputField:ActivateInputField(Public, HideBySig)","contents": "InputField:ActivateInputField(Public, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	self.ActivateInputField();
+			{ "trigger": "InputField:OnSelect(Public, Virtual, HideBySig)","contents": "InputField:OnSelect(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSelect(a1);
+			{ "trigger": "InputField:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerClick(a1);
+			{ "trigger": "InputField:DeactivateInputField(Public, HideBySig)","contents": "InputField:DeactivateInputField(Public, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	self.DeactivateInputField();
+			{ "trigger": "InputField:OnDeselect(Public, Virtual, HideBySig)","contents": "InputField:OnDeselect(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnDeselect(a1);
+			{ "trigger": "InputField:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "InputField:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSubmit(a1);
+	get_shouldHideMobileInput(IntPtr l) {
+		set_shouldHideMobileInput(IntPtr l) {
+			UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.shouldHideMobileInput=v;
+			get_text(IntPtr l) {
+				set_text(IntPtr l) {
+					UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+					string v;
+					checkType(l,2,out v);
+					self.text=v;
+					get_isFocused(IntPtr l) {
+						get_caretBlinkRate(IntPtr l) {
+							set_caretBlinkRate(IntPtr l) {
+								UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+								float v;
+								checkType(l,2,out v);
+								self.caretBlinkRate=v;
+								get_caretWidth(IntPtr l) {
+									set_caretWidth(IntPtr l) {
+										UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+										int v;
+										checkType(l,2,out v);
+										self.caretWidth=v;
+										get_textComponent(IntPtr l) {
+											set_textComponent(IntPtr l) {
+												UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+												UnityEngine.UI.Text v;
+												checkType(l,2,out v);
+												self.textComponent=v;
+												get_placeholder(IntPtr l) {
+													set_placeholder(IntPtr l) {
+														UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+														UnityEngine.UI.Graphic v;
+														checkType(l,2,out v);
+														self.placeholder=v;
+														get_caretColor(IntPtr l) {
+															set_caretColor(IntPtr l) {
+																UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																UnityEngine.Color v;
+																checkType(l,2,out v);
+																self.caretColor=v;
+																get_customCaretColor(IntPtr l) {
+																	set_customCaretColor(IntPtr l) {
+																		UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																		bool v;
+																		checkType(l,2,out v);
+																		self.customCaretColor=v;
+																		get_selectionColor(IntPtr l) {
+																			set_selectionColor(IntPtr l) {
+																				UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																				UnityEngine.Color v;
+																				checkType(l,2,out v);
+																				self.selectionColor=v;
+																				get_onEndEdit(IntPtr l) {
+																					set_onEndEdit(IntPtr l) {
+																						UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																						UnityEngine.UI.InputField.SubmitEvent v;
+																						checkType(l,2,out v);
+																						self.onEndEdit=v;
+																						get_onValueChanged(IntPtr l) {
+																							set_onValueChanged(IntPtr l) {
+																								UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																								UnityEngine.UI.InputField.OnChangeEvent v;
+																								checkType(l,2,out v);
+																								self.onValueChanged=v;
+																								set_onValidateInput(IntPtr l) {
+																									UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																									UnityEngine.UI.InputField.OnValidateInput v;
+																									int op=LuaDelegation.checkDelegate(l,2,out v);
+																									if(op==0) self.onValidateInput=v;
+																									else if(op==1) self.onValidateInput+=v;
+																									else if(op==2) self.onValidateInput-=v;
+																									get_characterLimit(IntPtr l) {
+																										set_characterLimit(IntPtr l) {
+																											UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																											int v;
+																											checkType(l,2,out v);
+																											self.characterLimit=v;
+																											get_contentType(IntPtr l) {
+																												set_contentType(IntPtr l) {
+																													UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																													UnityEngine.UI.InputField.ContentType v;
+																													checkEnum(l,2,out v);
+																													self.contentType=v;
+																													get_lineType(IntPtr l) {
+																														set_lineType(IntPtr l) {
+																															UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																															UnityEngine.UI.InputField.LineType v;
+																															checkEnum(l,2,out v);
+																															self.lineType=v;
+																															get_inputType(IntPtr l) {
+																																set_inputType(IntPtr l) {
+																																	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																	UnityEngine.UI.InputField.InputType v;
+																																	checkEnum(l,2,out v);
+																																	self.inputType=v;
+																																	get_keyboardType(IntPtr l) {
+																																		set_keyboardType(IntPtr l) {
+																																			UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																			UnityEngine.TouchScreenKeyboardType v;
+																																			checkEnum(l,2,out v);
+																																			self.keyboardType=v;
+																																			get_characterValidation(IntPtr l) {
+																																				set_characterValidation(IntPtr l) {
+																																					UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																					UnityEngine.UI.InputField.CharacterValidation v;
+																																					checkEnum(l,2,out v);
+																																					self.characterValidation=v;
+																																					get_readOnly(IntPtr l) {
+																																						set_readOnly(IntPtr l) {
+																																							UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																							bool v;
+																																							checkType(l,2,out v);
+																																							self.readOnly=v;
+																																							get_multiLine(IntPtr l) {
+																																								get_asteriskChar(IntPtr l) {
+																																									set_asteriskChar(IntPtr l) {
+																																										UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																										System.Char v;
+																																										checkType(l,2,out v);
+																																										self.asteriskChar=v;
+																																										get_wasCanceled(IntPtr l) {
+																																											get_caretPosition(IntPtr l) {
+																																												set_caretPosition(IntPtr l) {
+																																													UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																													int v;
+																																													checkType(l,2,out v);
+																																													self.caretPosition=v;
+																																													get_selectionAnchorPosition(IntPtr l) {
+																																														set_selectionAnchorPosition(IntPtr l) {
+																																															UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																															int v;
+																																															checkType(l,2,out v);
+																																															self.selectionAnchorPosition=v;
+																																															get_selectionFocusPosition(IntPtr l) {
+																																																set_selectionFocusPosition(IntPtr l) {
+																																																	UnityEngine.UI.InputField self=(UnityEngine.UI.InputField)checkSelf(l);
+																																																	int v;
+																																																	checkType(l,2,out v);
+																																																	self.selectionFocusPosition=v;
+																																																		]
+																																																}
+

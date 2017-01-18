@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SleepTimeout()()","contents": "UnityEngine.SleepTimeout()()"},
+
+	NeverSleep
+	SystemSetting
+		]
+}
+

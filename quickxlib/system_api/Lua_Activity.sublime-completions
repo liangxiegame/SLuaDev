@@ -1,0 +1,31 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Activity()()","contents": "Activity()()"},
+
+			{ "trigger": "Activity:loadStreamingAssets(Public, HideBySig)","contents": "Activity:loadStreamingAssets(Public, HideBySig)"},
+
+	Activity self=(Activity)checkSelf(l);
+	var ret=self.loadStreamingAssets();
+			{ "trigger": "Activity:InitAssets(Public, HideBySig)","contents": "Activity:InitAssets(Public, HideBySig)"},
+
+	Activity self=(Activity)checkSelf(l);
+	self.InitAssets();
+			{ "trigger": "Activity:ReStart(Public, HideBySig)","contents": "Activity:ReStart(Public, HideBySig)"},
+
+	Activity self=(Activity)checkSelf(l);
+	self.ReStart();
+			{ "trigger": "Activity:RegOnApplicationPause(Public, HideBySig)","contents": "Activity:RegOnApplicationPause(Public, HideBySig)"},
+
+	Activity self=(Activity)checkSelf(l);
+	Callback<System.Boolean> a1;
+	LuaDelegation.checkDelegate(l,2,out a1);
+	self.RegOnApplicationPause(a1);
+			{ "trigger": "Activity:UnRegOnApplicationPause(Public, HideBySig)","contents": "Activity:UnRegOnApplicationPause(Public, HideBySig)"},
+
+	Activity self=(Activity)checkSelf(l);
+	self.UnRegOnApplicationPause();
+		]
+}
+

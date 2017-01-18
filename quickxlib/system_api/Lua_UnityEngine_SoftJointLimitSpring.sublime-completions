@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SoftJointLimitSpring()()","contents": "UnityEngine.SoftJointLimitSpring()()"},
+
+	get_spring(IntPtr l) {
+		set_spring(IntPtr l) {
+			UnityEngine.SoftJointLimitSpring self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.spring=v;
+			setBack(l,self);
+			get_damper(IntPtr l) {
+				set_damper(IntPtr l) {
+					UnityEngine.SoftJointLimitSpring self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.damper=v;
+					setBack(l,self);
+						]
+				}
+

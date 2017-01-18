@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Collision2D()()","contents": "UnityEngine.Collision2D()()"},
+
+	get_enabled(IntPtr l) {
+		get_rigidbody(IntPtr l) {
+			get_collider(IntPtr l) {
+				get_transform(IntPtr l) {
+					get_gameObject(IntPtr l) {
+						get_contacts(IntPtr l) {
+							get_relativeVelocity(IntPtr l) {
+									]
+							}
+

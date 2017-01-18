@@ -1,0 +1,44 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEventBase:GetPersistentEventCount(Public, HideBySig)","contents": "UnityEventBase:GetPersistentEventCount(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEventBase self=(UnityEngine.Events.UnityEventBase)checkSelf(l);
+	var ret=self.GetPersistentEventCount();
+			{ "trigger": "UnityEventBase:GetPersistentTarget(Public, HideBySig)","contents": "UnityEventBase:GetPersistentTarget(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEventBase self=(UnityEngine.Events.UnityEventBase)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetPersistentTarget(a1);
+			{ "trigger": "UnityEventBase:GetPersistentMethodName(Public, HideBySig)","contents": "UnityEventBase:GetPersistentMethodName(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEventBase self=(UnityEngine.Events.UnityEventBase)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetPersistentMethodName(a1);
+			{ "trigger": "UnityEventBase:SetPersistentListenerState(Public, HideBySig)","contents": "UnityEventBase:SetPersistentListenerState(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEventBase self=(UnityEngine.Events.UnityEventBase)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Events.UnityEventCallState a2;
+	checkEnum(l,3,out a2);
+	self.SetPersistentListenerState(a1,a2);
+			{ "trigger": "UnityEventBase:RemoveAllListeners(Public, HideBySig)","contents": "UnityEventBase:RemoveAllListeners(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEventBase self=(UnityEngine.Events.UnityEventBase)checkSelf(l);
+	self.RemoveAllListeners();
+			{ "trigger": "UnityEventBase.GetValidMethodInfo(Public, Static, HideBySig)","contents": "UnityEventBase.GetValidMethodInfo(Public, Static, HideBySig)"},
+
+	System.Object a1;
+	checkType(l,1,out a1);
+	System.String a2;
+	checkType(l,2,out a2);
+	System.Type[] a3;
+	checkArray(l,3,out a3);
+	var ret=UnityEngine.Events.UnityEventBase.GetValidMethodInfo(a1,a2,a3);
+		]
+}
+

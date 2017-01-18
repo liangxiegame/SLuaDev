@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.EffectorForceMode2D");
+	addMember(l,0,"Constant");
+	addMember(l,1,"InverseLinear");
+	addMember(l,2,"InverseSquared");
+		]
+}
+

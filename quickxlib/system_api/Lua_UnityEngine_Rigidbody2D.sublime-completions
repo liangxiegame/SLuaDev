@@ -1,0 +1,282 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rigidbody2D()()","contents": "UnityEngine.Rigidbody2D()()"},
+
+			{ "trigger": "Rigidbody2D:MovePosition(Public, HideBySig)","contents": "Rigidbody2D:MovePosition(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	self.MovePosition(a1);
+			{ "trigger": "Rigidbody2D:MoveRotation(Public, HideBySig)","contents": "Rigidbody2D:MoveRotation(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	self.MoveRotation(a1);
+			{ "trigger": "Rigidbody2D:IsSleeping(Public, HideBySig)","contents": "Rigidbody2D:IsSleeping(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	var ret=self.IsSleeping();
+			{ "trigger": "Rigidbody2D:IsAwake(Public, HideBySig)","contents": "Rigidbody2D:IsAwake(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	var ret=self.IsAwake();
+			{ "trigger": "Rigidbody2D:Sleep(Public, HideBySig)","contents": "Rigidbody2D:Sleep(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	self.Sleep();
+			{ "trigger": "Rigidbody2D:WakeUp(Public, HideBySig)","contents": "Rigidbody2D:WakeUp(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	self.WakeUp();
+			{ "trigger": "Rigidbody2D:IsTouching(Public, HideBySig)","contents": "Rigidbody2D:IsTouching(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+	UnityEngine.Collider2D a1;
+	checkType(l,2,out a1);
+	var ret=self.IsTouching(a1);
+			{ "trigger": "Rigidbody2D:IsTouchingLayers(Public, HideBySig)","contents": "Rigidbody2D:IsTouchingLayers(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+		var ret=self.IsTouchingLayers();
+		else if(argc==2){
+			UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.IsTouchingLayers(a1);
+					{ "trigger": "Rigidbody2D:OverlapPoint(Public, HideBySig)","contents": "Rigidbody2D:OverlapPoint(Public, HideBySig)"},
+
+			UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+			UnityEngine.Vector2 a1;
+			checkType(l,2,out a1);
+			var ret=self.OverlapPoint(a1);
+					{ "trigger": "Rigidbody2D:Cast(Public, HideBySig)","contents": "Rigidbody2D:Cast(Public, HideBySig)"},
+
+			if(argc==3){
+				UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+				UnityEngine.Vector2 a1;
+				checkType(l,2,out a1);
+				UnityEngine.RaycastHit2D[] a2;
+				checkArray(l,3,out a2);
+				var ret=self.Cast(a1,a2);
+				else if(argc==4){
+					UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+					UnityEngine.Vector2 a1;
+					checkType(l,2,out a1);
+					UnityEngine.RaycastHit2D[] a2;
+					checkArray(l,3,out a2);
+					System.Single a3;
+					checkType(l,4,out a3);
+					var ret=self.Cast(a1,a2,a3);
+							{ "trigger": "Rigidbody2D:AddForce(Public, HideBySig)","contents": "Rigidbody2D:AddForce(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+						UnityEngine.Vector2 a1;
+						checkType(l,2,out a1);
+						self.AddForce(a1);
+						else if(argc==3){
+							UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+							UnityEngine.Vector2 a1;
+							checkType(l,2,out a1);
+							UnityEngine.ForceMode2D a2;
+							checkEnum(l,3,out a2);
+							self.AddForce(a1,a2);
+									{ "trigger": "Rigidbody2D:AddRelativeForce(Public, HideBySig)","contents": "Rigidbody2D:AddRelativeForce(Public, HideBySig)"},
+
+							if(argc==2){
+								UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+								UnityEngine.Vector2 a1;
+								checkType(l,2,out a1);
+								self.AddRelativeForce(a1);
+								else if(argc==3){
+									UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+									UnityEngine.Vector2 a1;
+									checkType(l,2,out a1);
+									UnityEngine.ForceMode2D a2;
+									checkEnum(l,3,out a2);
+									self.AddRelativeForce(a1,a2);
+											{ "trigger": "Rigidbody2D:AddForceAtPosition(Public, HideBySig)","contents": "Rigidbody2D:AddForceAtPosition(Public, HideBySig)"},
+
+									if(argc==3){
+										UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+										UnityEngine.Vector2 a1;
+										checkType(l,2,out a1);
+										UnityEngine.Vector2 a2;
+										checkType(l,3,out a2);
+										self.AddForceAtPosition(a1,a2);
+										else if(argc==4){
+											UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+											UnityEngine.Vector2 a1;
+											checkType(l,2,out a1);
+											UnityEngine.Vector2 a2;
+											checkType(l,3,out a2);
+											UnityEngine.ForceMode2D a3;
+											checkEnum(l,4,out a3);
+											self.AddForceAtPosition(a1,a2,a3);
+													{ "trigger": "Rigidbody2D:AddTorque(Public, HideBySig)","contents": "Rigidbody2D:AddTorque(Public, HideBySig)"},
+
+											if(argc==2){
+												UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+												System.Single a1;
+												checkType(l,2,out a1);
+												self.AddTorque(a1);
+												else if(argc==3){
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													System.Single a1;
+													checkType(l,2,out a1);
+													UnityEngine.ForceMode2D a2;
+													checkEnum(l,3,out a2);
+													self.AddTorque(a1,a2);
+															{ "trigger": "Rigidbody2D:GetPoint(Public, HideBySig)","contents": "Rigidbody2D:GetPoint(Public, HideBySig)"},
+
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													UnityEngine.Vector2 a1;
+													checkType(l,2,out a1);
+													var ret=self.GetPoint(a1);
+															{ "trigger": "Rigidbody2D:GetRelativePoint(Public, HideBySig)","contents": "Rigidbody2D:GetRelativePoint(Public, HideBySig)"},
+
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													UnityEngine.Vector2 a1;
+													checkType(l,2,out a1);
+													var ret=self.GetRelativePoint(a1);
+															{ "trigger": "Rigidbody2D:GetVector(Public, HideBySig)","contents": "Rigidbody2D:GetVector(Public, HideBySig)"},
+
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													UnityEngine.Vector2 a1;
+													checkType(l,2,out a1);
+													var ret=self.GetVector(a1);
+															{ "trigger": "Rigidbody2D:GetRelativeVector(Public, HideBySig)","contents": "Rigidbody2D:GetRelativeVector(Public, HideBySig)"},
+
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													UnityEngine.Vector2 a1;
+													checkType(l,2,out a1);
+													var ret=self.GetRelativeVector(a1);
+															{ "trigger": "Rigidbody2D:GetPointVelocity(Public, HideBySig)","contents": "Rigidbody2D:GetPointVelocity(Public, HideBySig)"},
+
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													UnityEngine.Vector2 a1;
+													checkType(l,2,out a1);
+													var ret=self.GetPointVelocity(a1);
+															{ "trigger": "Rigidbody2D:GetRelativePointVelocity(Public, HideBySig)","contents": "Rigidbody2D:GetRelativePointVelocity(Public, HideBySig)"},
+
+													UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+													UnityEngine.Vector2 a1;
+													checkType(l,2,out a1);
+													var ret=self.GetRelativePointVelocity(a1);
+													get_position(IntPtr l) {
+														set_position(IntPtr l) {
+															UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+															UnityEngine.Vector2 v;
+															checkType(l,2,out v);
+															self.position=v;
+															get_rotation(IntPtr l) {
+																set_rotation(IntPtr l) {
+																	UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.rotation=v;
+																	get_velocity(IntPtr l) {
+																		set_velocity(IntPtr l) {
+																			UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																			UnityEngine.Vector2 v;
+																			checkType(l,2,out v);
+																			self.velocity=v;
+																			get_angularVelocity(IntPtr l) {
+																				set_angularVelocity(IntPtr l) {
+																					UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.angularVelocity=v;
+																					get_useAutoMass(IntPtr l) {
+																						set_useAutoMass(IntPtr l) {
+																							UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																							bool v;
+																							checkType(l,2,out v);
+																							self.useAutoMass=v;
+																							get_mass(IntPtr l) {
+																								set_mass(IntPtr l) {
+																									UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.mass=v;
+																									get_centerOfMass(IntPtr l) {
+																										set_centerOfMass(IntPtr l) {
+																											UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																											UnityEngine.Vector2 v;
+																											checkType(l,2,out v);
+																											self.centerOfMass=v;
+																											get_worldCenterOfMass(IntPtr l) {
+																												get_inertia(IntPtr l) {
+																													set_inertia(IntPtr l) {
+																														UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																														float v;
+																														checkType(l,2,out v);
+																														self.inertia=v;
+																														get_drag(IntPtr l) {
+																															set_drag(IntPtr l) {
+																																UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																float v;
+																																checkType(l,2,out v);
+																																self.drag=v;
+																																get_angularDrag(IntPtr l) {
+																																	set_angularDrag(IntPtr l) {
+																																		UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																		float v;
+																																		checkType(l,2,out v);
+																																		self.angularDrag=v;
+																																		get_gravityScale(IntPtr l) {
+																																			set_gravityScale(IntPtr l) {
+																																				UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																				float v;
+																																				checkType(l,2,out v);
+																																				self.gravityScale=v;
+																																				get_isKinematic(IntPtr l) {
+																																					set_isKinematic(IntPtr l) {
+																																						UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																						bool v;
+																																						checkType(l,2,out v);
+																																						self.isKinematic=v;
+																																						get_freezeRotation(IntPtr l) {
+																																							set_freezeRotation(IntPtr l) {
+																																								UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																								bool v;
+																																								checkType(l,2,out v);
+																																								self.freezeRotation=v;
+																																								get_constraints(IntPtr l) {
+																																									set_constraints(IntPtr l) {
+																																										UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																										UnityEngine.RigidbodyConstraints2D v;
+																																										checkEnum(l,2,out v);
+																																										self.constraints=v;
+																																										get_simulated(IntPtr l) {
+																																											set_simulated(IntPtr l) {
+																																												UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																												bool v;
+																																												checkType(l,2,out v);
+																																												self.simulated=v;
+																																												get_interpolation(IntPtr l) {
+																																													set_interpolation(IntPtr l) {
+																																														UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																														UnityEngine.RigidbodyInterpolation2D v;
+																																														checkEnum(l,2,out v);
+																																														self.interpolation=v;
+																																														get_sleepMode(IntPtr l) {
+																																															set_sleepMode(IntPtr l) {
+																																																UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																																UnityEngine.RigidbodySleepMode2D v;
+																																																checkEnum(l,2,out v);
+																																																self.sleepMode=v;
+																																																get_collisionDetectionMode(IntPtr l) {
+																																																	set_collisionDetectionMode(IntPtr l) {
+																																																		UnityEngine.Rigidbody2D self=(UnityEngine.Rigidbody2D)checkSelf(l);
+																																																		UnityEngine.CollisionDetectionMode2D v;
+																																																		checkEnum(l,2,out v);
+																																																		self.collisionDetectionMode=v;
+																																																			]
+																																																	}
+

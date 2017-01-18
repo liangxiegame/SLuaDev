@@ -1,0 +1,224 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.NavMeshAgent()()","contents": "UnityEngine.NavMeshAgent()()"},
+
+			{ "trigger": "NavMeshAgent:SetDestination(Public, HideBySig)","contents": "NavMeshAgent:SetDestination(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.SetDestination(a1);
+			{ "trigger": "NavMeshAgent:ActivateCurrentOffMeshLink(Public, HideBySig)","contents": "NavMeshAgent:ActivateCurrentOffMeshLink(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	System.Boolean a1;
+	checkType(l,2,out a1);
+	self.ActivateCurrentOffMeshLink(a1);
+			{ "trigger": "NavMeshAgent:CompleteOffMeshLink(Public, HideBySig)","contents": "NavMeshAgent:CompleteOffMeshLink(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	self.CompleteOffMeshLink();
+			{ "trigger": "NavMeshAgent:Warp(Public, HideBySig)","contents": "NavMeshAgent:Warp(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.Warp(a1);
+			{ "trigger": "NavMeshAgent:Move(Public, HideBySig)","contents": "NavMeshAgent:Move(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	self.Move(a1);
+			{ "trigger": "NavMeshAgent:Stop(Public, HideBySig)","contents": "NavMeshAgent:Stop(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	self.Stop();
+			{ "trigger": "NavMeshAgent:Resume(Public, HideBySig)","contents": "NavMeshAgent:Resume(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	self.Resume();
+			{ "trigger": "NavMeshAgent:ResetPath(Public, HideBySig)","contents": "NavMeshAgent:ResetPath(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	self.ResetPath();
+			{ "trigger": "NavMeshAgent:SetPath(Public, HideBySig)","contents": "NavMeshAgent:SetPath(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.NavMeshPath a1;
+	checkType(l,2,out a1);
+	var ret=self.SetPath(a1);
+			{ "trigger": "NavMeshAgent:FindClosestEdge(Public, HideBySig)","contents": "NavMeshAgent:FindClosestEdge(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.NavMeshHit a1;
+	var ret=self.FindClosestEdge(out a1);
+			{ "trigger": "NavMeshAgent:Raycast(Public, HideBySig)","contents": "NavMeshAgent:Raycast(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.NavMeshHit a2;
+	var ret=self.Raycast(a1,out a2);
+			{ "trigger": "NavMeshAgent:CalculatePath(Public, HideBySig)","contents": "NavMeshAgent:CalculatePath(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.NavMeshPath a2;
+	checkType(l,3,out a2);
+	var ret=self.CalculatePath(a1,a2);
+			{ "trigger": "NavMeshAgent:SamplePathPosition(Public, HideBySig)","contents": "NavMeshAgent:SamplePathPosition(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	UnityEngine.NavMeshHit a3;
+	var ret=self.SamplePathPosition(a1,a2,out a3);
+			{ "trigger": "NavMeshAgent:SetAreaCost(Public, HideBySig)","contents": "NavMeshAgent:SetAreaCost(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetAreaCost(a1,a2);
+			{ "trigger": "NavMeshAgent:GetAreaCost(Public, HideBySig)","contents": "NavMeshAgent:GetAreaCost(Public, HideBySig)"},
+
+	UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetAreaCost(a1);
+	get_destination(IntPtr l) {
+		set_destination(IntPtr l) {
+			UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.destination=v;
+			get_stoppingDistance(IntPtr l) {
+				set_stoppingDistance(IntPtr l) {
+					UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.stoppingDistance=v;
+					get_velocity(IntPtr l) {
+						set_velocity(IntPtr l) {
+							UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+							UnityEngine.Vector3 v;
+							checkType(l,2,out v);
+							self.velocity=v;
+							get_nextPosition(IntPtr l) {
+								set_nextPosition(IntPtr l) {
+									UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+									UnityEngine.Vector3 v;
+									checkType(l,2,out v);
+									self.nextPosition=v;
+									get_steeringTarget(IntPtr l) {
+										get_desiredVelocity(IntPtr l) {
+											get_remainingDistance(IntPtr l) {
+												get_baseOffset(IntPtr l) {
+													set_baseOffset(IntPtr l) {
+														UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+														float v;
+														checkType(l,2,out v);
+														self.baseOffset=v;
+														get_isOnOffMeshLink(IntPtr l) {
+															get_currentOffMeshLinkData(IntPtr l) {
+																get_nextOffMeshLinkData(IntPtr l) {
+																	get_autoTraverseOffMeshLink(IntPtr l) {
+																		set_autoTraverseOffMeshLink(IntPtr l) {
+																			UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																			bool v;
+																			checkType(l,2,out v);
+																			self.autoTraverseOffMeshLink=v;
+																			get_autoBraking(IntPtr l) {
+																				set_autoBraking(IntPtr l) {
+																					UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																					bool v;
+																					checkType(l,2,out v);
+																					self.autoBraking=v;
+																					get_autoRepath(IntPtr l) {
+																						set_autoRepath(IntPtr l) {
+																							UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																							bool v;
+																							checkType(l,2,out v);
+																							self.autoRepath=v;
+																							get_hasPath(IntPtr l) {
+																								get_pathPending(IntPtr l) {
+																									get_isPathStale(IntPtr l) {
+																										get_pathStatus(IntPtr l) {
+																											get_pathEndPosition(IntPtr l) {
+																												get_path(IntPtr l) {
+																													set_path(IntPtr l) {
+																														UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																														UnityEngine.NavMeshPath v;
+																														checkType(l,2,out v);
+																														self.path=v;
+																														get_areaMask(IntPtr l) {
+																															set_areaMask(IntPtr l) {
+																																UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																int v;
+																																checkType(l,2,out v);
+																																self.areaMask=v;
+																																get_speed(IntPtr l) {
+																																	set_speed(IntPtr l) {
+																																		UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																		float v;
+																																		checkType(l,2,out v);
+																																		self.speed=v;
+																																		get_angularSpeed(IntPtr l) {
+																																			set_angularSpeed(IntPtr l) {
+																																				UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																				float v;
+																																				checkType(l,2,out v);
+																																				self.angularSpeed=v;
+																																				get_acceleration(IntPtr l) {
+																																					set_acceleration(IntPtr l) {
+																																						UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																						float v;
+																																						checkType(l,2,out v);
+																																						self.acceleration=v;
+																																						get_updatePosition(IntPtr l) {
+																																							set_updatePosition(IntPtr l) {
+																																								UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																								bool v;
+																																								checkType(l,2,out v);
+																																								self.updatePosition=v;
+																																								get_updateRotation(IntPtr l) {
+																																									set_updateRotation(IntPtr l) {
+																																										UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																										bool v;
+																																										checkType(l,2,out v);
+																																										self.updateRotation=v;
+																																										get_radius(IntPtr l) {
+																																											set_radius(IntPtr l) {
+																																												UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																												float v;
+																																												checkType(l,2,out v);
+																																												self.radius=v;
+																																												get_height(IntPtr l) {
+																																													set_height(IntPtr l) {
+																																														UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																														float v;
+																																														checkType(l,2,out v);
+																																														self.height=v;
+																																														get_obstacleAvoidanceType(IntPtr l) {
+																																															set_obstacleAvoidanceType(IntPtr l) {
+																																																UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																																UnityEngine.ObstacleAvoidanceType v;
+																																																checkEnum(l,2,out v);
+																																																self.obstacleAvoidanceType=v;
+																																																get_avoidancePriority(IntPtr l) {
+																																																	set_avoidancePriority(IntPtr l) {
+																																																		UnityEngine.NavMeshAgent self=(UnityEngine.NavMeshAgent)checkSelf(l);
+																																																		int v;
+																																																		checkType(l,2,out v);
+																																																		self.avoidancePriority=v;
+																																																		get_isOnNavMesh(IntPtr l) {
+																																																				]
+																																																		}
+

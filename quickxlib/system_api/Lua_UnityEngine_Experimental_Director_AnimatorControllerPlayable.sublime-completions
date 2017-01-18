@@ -1,0 +1,515 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.AnimatorControllerPlayable()()","contents": "UnityEngine.Experimental.Director.AnimatorControllerPlayable()()"},
+
+			{ "trigger": "AnimatorControllerPlayable:Destroy(Public, HideBySig)","contents": "AnimatorControllerPlayable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+	checkValueType(l,1,out self);
+	self.Destroy();
+			{ "trigger": "AnimatorControllerPlayable:GetFloat(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetFloat(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,int)){
+		UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+		checkValueType(l,1,out self);
+		System.Int32 a1;
+		checkType(l,2,out a1);
+		var ret=self.GetFloat(a1);
+		else if(matchType(l,argc,2,string)){
+			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+			checkValueType(l,1,out self);
+			System.String a1;
+			checkType(l,2,out a1);
+			var ret=self.GetFloat(a1);
+					{ "trigger": "AnimatorControllerPlayable:SetFloat(Public, HideBySig)","contents": "AnimatorControllerPlayable:SetFloat(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,int,float)){
+				UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+				checkValueType(l,1,out self);
+				System.Int32 a1;
+				checkType(l,2,out a1);
+				System.Single a2;
+				checkType(l,3,out a2);
+				self.SetFloat(a1,a2);
+				else if(matchType(l,argc,2,string,float)){
+					UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+					checkValueType(l,1,out self);
+					System.String a1;
+					checkType(l,2,out a1);
+					System.Single a2;
+					checkType(l,3,out a2);
+					self.SetFloat(a1,a2);
+							{ "trigger": "AnimatorControllerPlayable:GetBool(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetBool(Public, HideBySig)"},
+
+					if(matchType(l,argc,2,int)){
+						UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+						checkValueType(l,1,out self);
+						System.Int32 a1;
+						checkType(l,2,out a1);
+						var ret=self.GetBool(a1);
+						else if(matchType(l,argc,2,string)){
+							UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+							checkValueType(l,1,out self);
+							System.String a1;
+							checkType(l,2,out a1);
+							var ret=self.GetBool(a1);
+									{ "trigger": "AnimatorControllerPlayable:SetBool(Public, HideBySig)","contents": "AnimatorControllerPlayable:SetBool(Public, HideBySig)"},
+
+							if(matchType(l,argc,2,int,bool)){
+								UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+								checkValueType(l,1,out self);
+								System.Int32 a1;
+								checkType(l,2,out a1);
+								System.Boolean a2;
+								checkType(l,3,out a2);
+								self.SetBool(a1,a2);
+								else if(matchType(l,argc,2,string,bool)){
+									UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+									checkValueType(l,1,out self);
+									System.String a1;
+									checkType(l,2,out a1);
+									System.Boolean a2;
+									checkType(l,3,out a2);
+									self.SetBool(a1,a2);
+											{ "trigger": "AnimatorControllerPlayable:GetInteger(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetInteger(Public, HideBySig)"},
+
+									if(matchType(l,argc,2,int)){
+										UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+										checkValueType(l,1,out self);
+										System.Int32 a1;
+										checkType(l,2,out a1);
+										var ret=self.GetInteger(a1);
+										else if(matchType(l,argc,2,string)){
+											UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+											checkValueType(l,1,out self);
+											System.String a1;
+											checkType(l,2,out a1);
+											var ret=self.GetInteger(a1);
+													{ "trigger": "AnimatorControllerPlayable:SetInteger(Public, HideBySig)","contents": "AnimatorControllerPlayable:SetInteger(Public, HideBySig)"},
+
+											if(matchType(l,argc,2,int,int)){
+												UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+												checkValueType(l,1,out self);
+												System.Int32 a1;
+												checkType(l,2,out a1);
+												System.Int32 a2;
+												checkType(l,3,out a2);
+												self.SetInteger(a1,a2);
+												else if(matchType(l,argc,2,string,int)){
+													UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+													checkValueType(l,1,out self);
+													System.String a1;
+													checkType(l,2,out a1);
+													System.Int32 a2;
+													checkType(l,3,out a2);
+													self.SetInteger(a1,a2);
+															{ "trigger": "AnimatorControllerPlayable:SetTrigger(Public, HideBySig)","contents": "AnimatorControllerPlayable:SetTrigger(Public, HideBySig)"},
+
+													if(matchType(l,argc,2,int)){
+														UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+														checkValueType(l,1,out self);
+														System.Int32 a1;
+														checkType(l,2,out a1);
+														self.SetTrigger(a1);
+														else if(matchType(l,argc,2,string)){
+															UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+															checkValueType(l,1,out self);
+															System.String a1;
+															checkType(l,2,out a1);
+															self.SetTrigger(a1);
+																	{ "trigger": "AnimatorControllerPlayable:ResetTrigger(Public, HideBySig)","contents": "AnimatorControllerPlayable:ResetTrigger(Public, HideBySig)"},
+
+															if(matchType(l,argc,2,int)){
+																UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																checkValueType(l,1,out self);
+																System.Int32 a1;
+																checkType(l,2,out a1);
+																self.ResetTrigger(a1);
+																else if(matchType(l,argc,2,string)){
+																	UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																	checkValueType(l,1,out self);
+																	System.String a1;
+																	checkType(l,2,out a1);
+																	self.ResetTrigger(a1);
+																			{ "trigger": "AnimatorControllerPlayable:IsParameterControlledByCurve(Public, HideBySig)","contents": "AnimatorControllerPlayable:IsParameterControlledByCurve(Public, HideBySig)"},
+
+																	if(matchType(l,argc,2,int)){
+																		UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																		checkValueType(l,1,out self);
+																		System.Int32 a1;
+																		checkType(l,2,out a1);
+																		var ret=self.IsParameterControlledByCurve(a1);
+																		else if(matchType(l,argc,2,string)){
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.String a1;
+																			checkType(l,2,out a1);
+																			var ret=self.IsParameterControlledByCurve(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetLayerName(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetLayerName(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetLayerName(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetLayerIndex(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetLayerIndex(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.String a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetLayerIndex(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetLayerWeight(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetLayerWeight(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetLayerWeight(a1);
+																					{ "trigger": "AnimatorControllerPlayable:SetLayerWeight(Public, HideBySig)","contents": "AnimatorControllerPlayable:SetLayerWeight(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			System.Single a2;
+																			checkType(l,3,out a2);
+																			self.SetLayerWeight(a1,a2);
+																					{ "trigger": "AnimatorControllerPlayable:GetCurrentAnimatorStateInfo(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetCurrentAnimatorStateInfo(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetCurrentAnimatorStateInfo(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetNextAnimatorStateInfo(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetNextAnimatorStateInfo(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetNextAnimatorStateInfo(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetAnimatorTransitionInfo(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetAnimatorTransitionInfo(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetAnimatorTransitionInfo(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetCurrentAnimatorClipInfo(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetCurrentAnimatorClipInfo(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetCurrentAnimatorClipInfo(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetNextAnimatorClipInfo(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetNextAnimatorClipInfo(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetNextAnimatorClipInfo(a1);
+																					{ "trigger": "AnimatorControllerPlayable:IsInTransition(Public, HideBySig)","contents": "AnimatorControllerPlayable:IsInTransition(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.IsInTransition(a1);
+																					{ "trigger": "AnimatorControllerPlayable:GetParameter(Public, HideBySig)","contents": "AnimatorControllerPlayable:GetParameter(Public, HideBySig)"},
+
+																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																			checkValueType(l,1,out self);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			var ret=self.GetParameter(a1);
+																					{ "trigger": "AnimatorControllerPlayable:CrossFadeInFixedTime(Public, HideBySig)","contents": "AnimatorControllerPlayable:CrossFadeInFixedTime(Public, HideBySig)"},
+
+																			if(matchType(l,argc,2,int,float)){
+																				UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																				checkValueType(l,1,out self);
+																				System.Int32 a1;
+																				checkType(l,2,out a1);
+																				System.Single a2;
+																				checkType(l,3,out a2);
+																				self.CrossFadeInFixedTime(a1,a2);
+																				else if(matchType(l,argc,2,string,float)){
+																					UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																					checkValueType(l,1,out self);
+																					System.String a1;
+																					checkType(l,2,out a1);
+																					System.Single a2;
+																					checkType(l,3,out a2);
+																					self.CrossFadeInFixedTime(a1,a2);
+																					else if(matchType(l,argc,2,int,float,int)){
+																						UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																						checkValueType(l,1,out self);
+																						System.Int32 a1;
+																						checkType(l,2,out a1);
+																						System.Single a2;
+																						checkType(l,3,out a2);
+																						System.Int32 a3;
+																						checkType(l,4,out a3);
+																						self.CrossFadeInFixedTime(a1,a2,a3);
+																						else if(matchType(l,argc,2,string,float,int)){
+																							UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																							checkValueType(l,1,out self);
+																							System.String a1;
+																							checkType(l,2,out a1);
+																							System.Single a2;
+																							checkType(l,3,out a2);
+																							System.Int32 a3;
+																							checkType(l,4,out a3);
+																							self.CrossFadeInFixedTime(a1,a2,a3);
+																							else if(matchType(l,argc,2,int,float,int,float)){
+																								UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																								checkValueType(l,1,out self);
+																								System.Int32 a1;
+																								checkType(l,2,out a1);
+																								System.Single a2;
+																								checkType(l,3,out a2);
+																								System.Int32 a3;
+																								checkType(l,4,out a3);
+																								System.Single a4;
+																								checkType(l,5,out a4);
+																								self.CrossFadeInFixedTime(a1,a2,a3,a4);
+																								else if(matchType(l,argc,2,string,float,int,float)){
+																									UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																									checkValueType(l,1,out self);
+																									System.String a1;
+																									checkType(l,2,out a1);
+																									System.Single a2;
+																									checkType(l,3,out a2);
+																									System.Int32 a3;
+																									checkType(l,4,out a3);
+																									System.Single a4;
+																									checkType(l,5,out a4);
+																									self.CrossFadeInFixedTime(a1,a2,a3,a4);
+																											{ "trigger": "AnimatorControllerPlayable:CrossFade(Public, HideBySig)","contents": "AnimatorControllerPlayable:CrossFade(Public, HideBySig)"},
+
+																									if(matchType(l,argc,2,int,float)){
+																										UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																										checkValueType(l,1,out self);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										System.Single a2;
+																										checkType(l,3,out a2);
+																										self.CrossFade(a1,a2);
+																										else if(matchType(l,argc,2,string,float)){
+																											UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																											checkValueType(l,1,out self);
+																											System.String a1;
+																											checkType(l,2,out a1);
+																											System.Single a2;
+																											checkType(l,3,out a2);
+																											self.CrossFade(a1,a2);
+																											else if(matchType(l,argc,2,int,float,int)){
+																												UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																												checkValueType(l,1,out self);
+																												System.Int32 a1;
+																												checkType(l,2,out a1);
+																												System.Single a2;
+																												checkType(l,3,out a2);
+																												System.Int32 a3;
+																												checkType(l,4,out a3);
+																												self.CrossFade(a1,a2,a3);
+																												else if(matchType(l,argc,2,string,float,int)){
+																													UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																													checkValueType(l,1,out self);
+																													System.String a1;
+																													checkType(l,2,out a1);
+																													System.Single a2;
+																													checkType(l,3,out a2);
+																													System.Int32 a3;
+																													checkType(l,4,out a3);
+																													self.CrossFade(a1,a2,a3);
+																													else if(matchType(l,argc,2,int,float,int,float)){
+																														UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																														checkValueType(l,1,out self);
+																														System.Int32 a1;
+																														checkType(l,2,out a1);
+																														System.Single a2;
+																														checkType(l,3,out a2);
+																														System.Int32 a3;
+																														checkType(l,4,out a3);
+																														System.Single a4;
+																														checkType(l,5,out a4);
+																														self.CrossFade(a1,a2,a3,a4);
+																														else if(matchType(l,argc,2,string,float,int,float)){
+																															UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																															checkValueType(l,1,out self);
+																															System.String a1;
+																															checkType(l,2,out a1);
+																															System.Single a2;
+																															checkType(l,3,out a2);
+																															System.Int32 a3;
+																															checkType(l,4,out a3);
+																															System.Single a4;
+																															checkType(l,5,out a4);
+																															self.CrossFade(a1,a2,a3,a4);
+																																	{ "trigger": "AnimatorControllerPlayable:PlayInFixedTime(Public, HideBySig)","contents": "AnimatorControllerPlayable:PlayInFixedTime(Public, HideBySig)"},
+
+																															if(matchType(l,argc,2,int)){
+																																UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																checkValueType(l,1,out self);
+																																System.Int32 a1;
+																																checkType(l,2,out a1);
+																																self.PlayInFixedTime(a1);
+																																else if(matchType(l,argc,2,string)){
+																																	UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																	checkValueType(l,1,out self);
+																																	System.String a1;
+																																	checkType(l,2,out a1);
+																																	self.PlayInFixedTime(a1);
+																																	else if(matchType(l,argc,2,int,int)){
+																																		UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																		checkValueType(l,1,out self);
+																																		System.Int32 a1;
+																																		checkType(l,2,out a1);
+																																		System.Int32 a2;
+																																		checkType(l,3,out a2);
+																																		self.PlayInFixedTime(a1,a2);
+																																		else if(matchType(l,argc,2,string,int)){
+																																			UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																			checkValueType(l,1,out self);
+																																			System.String a1;
+																																			checkType(l,2,out a1);
+																																			System.Int32 a2;
+																																			checkType(l,3,out a2);
+																																			self.PlayInFixedTime(a1,a2);
+																																			else if(matchType(l,argc,2,int,int,float)){
+																																				UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																				checkValueType(l,1,out self);
+																																				System.Int32 a1;
+																																				checkType(l,2,out a1);
+																																				System.Int32 a2;
+																																				checkType(l,3,out a2);
+																																				System.Single a3;
+																																				checkType(l,4,out a3);
+																																				self.PlayInFixedTime(a1,a2,a3);
+																																				else if(matchType(l,argc,2,string,int,float)){
+																																					UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																					checkValueType(l,1,out self);
+																																					System.String a1;
+																																					checkType(l,2,out a1);
+																																					System.Int32 a2;
+																																					checkType(l,3,out a2);
+																																					System.Single a3;
+																																					checkType(l,4,out a3);
+																																					self.PlayInFixedTime(a1,a2,a3);
+																																							{ "trigger": "AnimatorControllerPlayable:Play(Public, HideBySig)","contents": "AnimatorControllerPlayable:Play(Public, HideBySig)"},
+
+																																					if(matchType(l,argc,2,int)){
+																																						UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																						checkValueType(l,1,out self);
+																																						System.Int32 a1;
+																																						checkType(l,2,out a1);
+																																						self.Play(a1);
+																																						else if(matchType(l,argc,2,string)){
+																																							UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																							checkValueType(l,1,out self);
+																																							System.String a1;
+																																							checkType(l,2,out a1);
+																																							self.Play(a1);
+																																							else if(matchType(l,argc,2,int,int)){
+																																								UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																								checkValueType(l,1,out self);
+																																								System.Int32 a1;
+																																								checkType(l,2,out a1);
+																																								System.Int32 a2;
+																																								checkType(l,3,out a2);
+																																								self.Play(a1,a2);
+																																								else if(matchType(l,argc,2,string,int)){
+																																									UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																									checkValueType(l,1,out self);
+																																									System.String a1;
+																																									checkType(l,2,out a1);
+																																									System.Int32 a2;
+																																									checkType(l,3,out a2);
+																																									self.Play(a1,a2);
+																																									else if(matchType(l,argc,2,int,int,float)){
+																																										UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																										checkValueType(l,1,out self);
+																																										System.Int32 a1;
+																																										checkType(l,2,out a1);
+																																										System.Int32 a2;
+																																										checkType(l,3,out a2);
+																																										System.Single a3;
+																																										checkType(l,4,out a3);
+																																										self.Play(a1,a2,a3);
+																																										else if(matchType(l,argc,2,string,int,float)){
+																																											UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																											checkValueType(l,1,out self);
+																																											System.String a1;
+																																											checkType(l,2,out a1);
+																																											System.Int32 a2;
+																																											checkType(l,3,out a2);
+																																											System.Single a3;
+																																											checkType(l,4,out a3);
+																																											self.Play(a1,a2,a3);
+																																													{ "trigger": "AnimatorControllerPlayable:HasState(Public, HideBySig)","contents": "AnimatorControllerPlayable:HasState(Public, HideBySig)"},
+
+																																											UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																											checkValueType(l,1,out self);
+																																											System.Int32 a1;
+																																											checkType(l,2,out a1);
+																																											System.Int32 a2;
+																																											checkType(l,3,out a2);
+																																											var ret=self.HasState(a1,a2);
+																																													{ "trigger": "AnimatorControllerPlayable:IsValid(Public, HideBySig)","contents": "AnimatorControllerPlayable:IsValid(Public, HideBySig)"},
+
+																																											UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																											checkValueType(l,1,out self);
+																																											var ret=self.IsValid();
+																																													{ "trigger": "AnimatorControllerPlayable.Create(Public, Static, HideBySig)","contents": "AnimatorControllerPlayable.Create(Public, Static, HideBySig)"},
+
+																																											UnityEngine.RuntimeAnimatorController a1;
+																																											checkType(l,1,out a1);
+																																											var ret=UnityEngine.Experimental.Director.AnimatorControllerPlayable.Create(a1);
+																																													{ "trigger": "AnimatorControllerPlayable.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "AnimatorControllerPlayable.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+																																											UnityEngine.Experimental.Director.AnimatorControllerPlayable a1;
+																																											checkValueType(l,1,out a1);
+																																											UnityEngine.Experimental.Director.Playable a2;
+																																											checkValueType(l,2,out a2);
+																																											var ret=(a1==a2);
+																																													{ "trigger": "AnimatorControllerPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "AnimatorControllerPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+																																											UnityEngine.Experimental.Director.AnimatorControllerPlayable a1;
+																																											checkValueType(l,1,out a1);
+																																											UnityEngine.Experimental.Director.Playable a2;
+																																											checkValueType(l,2,out a2);
+																																											var ret=(a1!=a2);
+																																											get_animatorController(IntPtr l) {
+																																												get_layerCount(IntPtr l) {
+																																													get_parameterCount(IntPtr l) {
+																																														get_state(IntPtr l) {
+																																															set_state(IntPtr l) {
+																																																UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																																checkValueType(l,1,out self);
+																																																UnityEngine.Experimental.Director.PlayState v;
+																																																checkEnum(l,2,out v);
+																																																self.state=v;
+																																																setBack(l,self);
+																																																get_time(IntPtr l) {
+																																																	set_time(IntPtr l) {
+																																																		UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																																		checkValueType(l,1,out self);
+																																																		double v;
+																																																		checkType(l,2,out v);
+																																																		self.time=v;
+																																																		setBack(l,self);
+																																																		get_duration(IntPtr l) {
+																																																			set_duration(IntPtr l) {
+																																																				UnityEngine.Experimental.Director.AnimatorControllerPlayable self;
+																																																				checkValueType(l,1,out self);
+																																																				double v;
+																																																				checkType(l,2,out v);
+																																																				self.duration=v;
+																																																				setBack(l,self);
+																																																					]
+																																																			}
+

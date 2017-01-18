@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ImageEffectAllowedInSceneView()()","contents": "UnityEngine.ImageEffectAllowedInSceneView()()"},
+
+		]
+}
+

@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Resolution()()","contents": "UnityEngine.Resolution()()"},
+
+	get_width(IntPtr l) {
+		set_width(IntPtr l) {
+			UnityEngine.Resolution self;
+			checkValueType(l,1,out self);
+			int v;
+			checkType(l,2,out v);
+			self.width=v;
+			setBack(l,self);
+			get_height(IntPtr l) {
+				set_height(IntPtr l) {
+					UnityEngine.Resolution self;
+					checkValueType(l,1,out self);
+					int v;
+					checkType(l,2,out v);
+					self.height=v;
+					setBack(l,self);
+					get_refreshRate(IntPtr l) {
+						set_refreshRate(IntPtr l) {
+							UnityEngine.Resolution self;
+							checkValueType(l,1,out self);
+							int v;
+							checkType(l,2,out v);
+							self.refreshRate=v;
+							setBack(l,self);
+								]
+						}
+

@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AudioRolloffMode");
+	addMember(l,0,"Logarithmic");
+	addMember(l,1,"Linear");
+	addMember(l,2,"Custom");
+		]
+}
+

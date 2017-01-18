@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ProceduralCacheSize");
+	addMember(l,0,"Tiny");
+	addMember(l,1,"Medium");
+	addMember(l,2,"Heavy");
+	addMember(l,3,"NoLimit");
+	addMember(l,4,"None");
+		]
+}
+

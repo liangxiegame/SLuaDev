@@ -1,0 +1,29 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PhysicsMaterial2D()()","contents": "UnityEngine.PhysicsMaterial2D()()"},
+
+			{ "trigger": "UnityEngine.PhysicsMaterial2D()()","contents": "UnityEngine.PhysicsMaterial2D()()"},
+
+			{ "trigger": "UnityEngine.PhysicsMaterial2D()()","contents": "UnityEngine.PhysicsMaterial2D()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.PhysicsMaterial2D()()","contents": "UnityEngine.PhysicsMaterial2D()()"},
+
+	get_bounciness(IntPtr l) {
+		set_bounciness(IntPtr l) {
+			UnityEngine.PhysicsMaterial2D self=(UnityEngine.PhysicsMaterial2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.bounciness=v;
+			get_friction(IntPtr l) {
+				set_friction(IntPtr l) {
+					UnityEngine.PhysicsMaterial2D self=(UnityEngine.PhysicsMaterial2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.friction=v;
+						]
+				}
+

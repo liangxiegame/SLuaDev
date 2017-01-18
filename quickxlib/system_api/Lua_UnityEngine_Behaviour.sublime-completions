@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Behaviour()()","contents": "UnityEngine.Behaviour()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.Behaviour self=(UnityEngine.Behaviour)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			get_isActiveAndEnabled(IntPtr l) {
+					]
+			}
+

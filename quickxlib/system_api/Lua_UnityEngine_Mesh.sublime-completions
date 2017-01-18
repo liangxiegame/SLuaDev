@@ -1,0 +1,359 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Mesh()()","contents": "UnityEngine.Mesh()()"},
+
+			{ "trigger": "Mesh:Clear(Public, HideBySig)","contents": "Mesh:Clear(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+		self.Clear();
+		else if(argc==2){
+			UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+			System.Boolean a1;
+			checkType(l,2,out a1);
+			self.Clear(a1);
+					{ "trigger": "Mesh:SetTriangles(Public, HideBySig)","contents": "Mesh:SetTriangles(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,System.Collections.Generic.List<System.Int32>,int)){
+				UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+				System.Collections.Generic.List<System.Int32> a1;
+				checkType(l,2,out a1);
+				System.Int32 a2;
+				checkType(l,3,out a2);
+				self.SetTriangles(a1,a2);
+				else if(matchType(l,argc,2,System.Int32[],int)){
+					UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+					System.Int32[] a1;
+					checkArray(l,2,out a1);
+					System.Int32 a2;
+					checkType(l,3,out a2);
+					self.SetTriangles(a1,a2);
+					else if(matchType(l,argc,2,System.Collections.Generic.List<System.Int32>,int,bool)){
+						UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+						System.Collections.Generic.List<System.Int32> a1;
+						checkType(l,2,out a1);
+						System.Int32 a2;
+						checkType(l,3,out a2);
+						System.Boolean a3;
+						checkType(l,4,out a3);
+						self.SetTriangles(a1,a2,a3);
+						else if(matchType(l,argc,2,System.Int32[],int,bool)){
+							UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+							System.Int32[] a1;
+							checkArray(l,2,out a1);
+							System.Int32 a2;
+							checkType(l,3,out a2);
+							System.Boolean a3;
+							checkType(l,4,out a3);
+							self.SetTriangles(a1,a2,a3);
+									{ "trigger": "Mesh:SetIndices(Public, HideBySig)","contents": "Mesh:SetIndices(Public, HideBySig)"},
+
+							if(argc==4){
+								UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+								System.Int32[] a1;
+								checkArray(l,2,out a1);
+								UnityEngine.MeshTopology a2;
+								checkEnum(l,3,out a2);
+								System.Int32 a3;
+								checkType(l,4,out a3);
+								self.SetIndices(a1,a2,a3);
+								else if(argc==5){
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.Int32[] a1;
+									checkArray(l,2,out a1);
+									UnityEngine.MeshTopology a2;
+									checkEnum(l,3,out a2);
+									System.Int32 a3;
+									checkType(l,4,out a3);
+									System.Boolean a4;
+									checkType(l,5,out a4);
+									self.SetIndices(a1,a2,a3,a4);
+											{ "trigger": "Mesh:ClearBlendShapes(Public, HideBySig)","contents": "Mesh:ClearBlendShapes(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									self.ClearBlendShapes();
+											{ "trigger": "Mesh:GetBlendShapeName(Public, HideBySig)","contents": "Mesh:GetBlendShapeName(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									var ret=self.GetBlendShapeName(a1);
+											{ "trigger": "Mesh:GetBlendShapeFrameCount(Public, HideBySig)","contents": "Mesh:GetBlendShapeFrameCount(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									var ret=self.GetBlendShapeFrameCount(a1);
+											{ "trigger": "Mesh:GetBlendShapeFrameWeight(Public, HideBySig)","contents": "Mesh:GetBlendShapeFrameWeight(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									System.Int32 a2;
+									checkType(l,3,out a2);
+									var ret=self.GetBlendShapeFrameWeight(a1,a2);
+											{ "trigger": "Mesh:GetBlendShapeFrameVertices(Public, HideBySig)","contents": "Mesh:GetBlendShapeFrameVertices(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									System.Int32 a2;
+									checkType(l,3,out a2);
+									UnityEngine.Vector3[] a3;
+									checkArray(l,4,out a3);
+									UnityEngine.Vector3[] a4;
+									checkArray(l,5,out a4);
+									UnityEngine.Vector3[] a5;
+									checkArray(l,6,out a5);
+									self.GetBlendShapeFrameVertices(a1,a2,a3,a4,a5);
+											{ "trigger": "Mesh:AddBlendShapeFrame(Public, HideBySig)","contents": "Mesh:AddBlendShapeFrame(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.String a1;
+									checkType(l,2,out a1);
+									System.Single a2;
+									checkType(l,3,out a2);
+									UnityEngine.Vector3[] a3;
+									checkArray(l,4,out a3);
+									UnityEngine.Vector3[] a4;
+									checkArray(l,5,out a4);
+									UnityEngine.Vector3[] a5;
+									checkArray(l,6,out a5);
+									self.AddBlendShapeFrame(a1,a2,a3,a4,a5);
+											{ "trigger": "Mesh:RecalculateBounds(Public, HideBySig)","contents": "Mesh:RecalculateBounds(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									self.RecalculateBounds();
+											{ "trigger": "Mesh:RecalculateNormals(Public, HideBySig)","contents": "Mesh:RecalculateNormals(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									self.RecalculateNormals();
+											{ "trigger": "Mesh:Optimize(Public, HideBySig)","contents": "Mesh:Optimize(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									self.Optimize();
+											{ "trigger": "Mesh:GetTopology(Public, HideBySig)","contents": "Mesh:GetTopology(Public, HideBySig)"},
+
+									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									var ret=self.GetTopology(a1);
+											{ "trigger": "Mesh:CombineMeshes(Public, HideBySig)","contents": "Mesh:CombineMeshes(Public, HideBySig)"},
+
+									if(argc==2){
+										UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+										UnityEngine.CombineInstance[] a1;
+										checkArray(l,2,out a1);
+										self.CombineMeshes(a1);
+										else if(argc==3){
+											UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+											UnityEngine.CombineInstance[] a1;
+											checkArray(l,2,out a1);
+											System.Boolean a2;
+											checkType(l,3,out a2);
+											self.CombineMeshes(a1,a2);
+											else if(argc==4){
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												UnityEngine.CombineInstance[] a1;
+												checkArray(l,2,out a1);
+												System.Boolean a2;
+												checkType(l,3,out a2);
+												System.Boolean a3;
+												checkType(l,4,out a3);
+												self.CombineMeshes(a1,a2,a3);
+														{ "trigger": "Mesh:MarkDynamic(Public, HideBySig)","contents": "Mesh:MarkDynamic(Public, HideBySig)"},
+
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												self.MarkDynamic();
+														{ "trigger": "Mesh:UploadMeshData(Public, HideBySig)","contents": "Mesh:UploadMeshData(Public, HideBySig)"},
+
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												System.Boolean a1;
+												checkType(l,2,out a1);
+												self.UploadMeshData(a1);
+														{ "trigger": "Mesh:GetBlendShapeIndex(Public, HideBySig)","contents": "Mesh:GetBlendShapeIndex(Public, HideBySig)"},
+
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												System.String a1;
+												checkType(l,2,out a1);
+												var ret=self.GetBlendShapeIndex(a1);
+														{ "trigger": "Mesh:SetVertices(Public, HideBySig)","contents": "Mesh:SetVertices(Public, HideBySig)"},
+
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												System.Collections.Generic.List<UnityEngine.Vector3> a1;
+												checkType(l,2,out a1);
+												self.SetVertices(a1);
+														{ "trigger": "Mesh:SetNormals(Public, HideBySig)","contents": "Mesh:SetNormals(Public, HideBySig)"},
+
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												System.Collections.Generic.List<UnityEngine.Vector3> a1;
+												checkType(l,2,out a1);
+												self.SetNormals(a1);
+														{ "trigger": "Mesh:SetTangents(Public, HideBySig)","contents": "Mesh:SetTangents(Public, HideBySig)"},
+
+												UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+												System.Collections.Generic.List<UnityEngine.Vector4> a1;
+												checkType(l,2,out a1);
+												self.SetTangents(a1);
+														{ "trigger": "Mesh:SetColors(Public, HideBySig)","contents": "Mesh:SetColors(Public, HideBySig)"},
+
+												if(matchType(l,argc,2,System.Collections.Generic.List<UnityEngine.Color32>)){
+													UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+													System.Collections.Generic.List<UnityEngine.Color32> a1;
+													checkType(l,2,out a1);
+													self.SetColors(a1);
+													else if(matchType(l,argc,2,System.Collections.Generic.List<UnityEngine.Color>)){
+														UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+														System.Collections.Generic.List<UnityEngine.Color> a1;
+														checkType(l,2,out a1);
+														self.SetColors(a1);
+																{ "trigger": "Mesh:SetUVs(Public, HideBySig)","contents": "Mesh:SetUVs(Public, HideBySig)"},
+
+														if(matchType(l,argc,2,int,System.Collections.Generic.List<UnityEngine.Vector4>)){
+															UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+															System.Int32 a1;
+															checkType(l,2,out a1);
+															System.Collections.Generic.List<UnityEngine.Vector4> a2;
+															checkType(l,3,out a2);
+															self.SetUVs(a1,a2);
+															else if(matchType(l,argc,2,int,System.Collections.Generic.List<UnityEngine.Vector3>)){
+																UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																System.Int32 a1;
+																checkType(l,2,out a1);
+																System.Collections.Generic.List<UnityEngine.Vector3> a2;
+																checkType(l,3,out a2);
+																self.SetUVs(a1,a2);
+																else if(matchType(l,argc,2,int,System.Collections.Generic.List<UnityEngine.Vector2>)){
+																	UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																	System.Int32 a1;
+																	checkType(l,2,out a1);
+																	System.Collections.Generic.List<UnityEngine.Vector2> a2;
+																	checkType(l,3,out a2);
+																	self.SetUVs(a1,a2);
+																			{ "trigger": "Mesh:GetUVs(Public, HideBySig)","contents": "Mesh:GetUVs(Public, HideBySig)"},
+
+																	if(matchType(l,argc,2,int,System.Collections.Generic.List<UnityEngine.Vector4>)){
+																		UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																		System.Int32 a1;
+																		checkType(l,2,out a1);
+																		System.Collections.Generic.List<UnityEngine.Vector4> a2;
+																		checkType(l,3,out a2);
+																		self.GetUVs(a1,a2);
+																		else if(matchType(l,argc,2,int,System.Collections.Generic.List<UnityEngine.Vector3>)){
+																			UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																			System.Int32 a1;
+																			checkType(l,2,out a1);
+																			System.Collections.Generic.List<UnityEngine.Vector3> a2;
+																			checkType(l,3,out a2);
+																			self.GetUVs(a1,a2);
+																			else if(matchType(l,argc,2,int,System.Collections.Generic.List<UnityEngine.Vector2>)){
+																				UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																				System.Int32 a1;
+																				checkType(l,2,out a1);
+																				System.Collections.Generic.List<UnityEngine.Vector2> a2;
+																				checkType(l,3,out a2);
+																				self.GetUVs(a1,a2);
+																						{ "trigger": "Mesh:GetTriangles(Public, HideBySig)","contents": "Mesh:GetTriangles(Public, HideBySig)"},
+
+																				UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																				System.Int32 a1;
+																				checkType(l,2,out a1);
+																				var ret=self.GetTriangles(a1);
+																						{ "trigger": "Mesh:GetIndices(Public, HideBySig)","contents": "Mesh:GetIndices(Public, HideBySig)"},
+
+																				UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																				System.Int32 a1;
+																				checkType(l,2,out a1);
+																				var ret=self.GetIndices(a1);
+																				get_isReadable(IntPtr l) {
+																					get_blendShapeCount(IntPtr l) {
+																						get_bounds(IntPtr l) {
+																							set_bounds(IntPtr l) {
+																								UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																								UnityEngine.Bounds v;
+																								checkValueType(l,2,out v);
+																								self.bounds=v;
+																								get_vertexCount(IntPtr l) {
+																									get_subMeshCount(IntPtr l) {
+																										set_subMeshCount(IntPtr l) {
+																											UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																											int v;
+																											checkType(l,2,out v);
+																											self.subMeshCount=v;
+																											get_boneWeights(IntPtr l) {
+																												set_boneWeights(IntPtr l) {
+																													UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																													UnityEngine.BoneWeight[] v;
+																													checkArray(l,2,out v);
+																													self.boneWeights=v;
+																													get_bindposes(IntPtr l) {
+																														set_bindposes(IntPtr l) {
+																															UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																															UnityEngine.Matrix4x4[] v;
+																															checkArray(l,2,out v);
+																															self.bindposes=v;
+																															get_vertices(IntPtr l) {
+																																set_vertices(IntPtr l) {
+																																	UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																	UnityEngine.Vector3[] v;
+																																	checkArray(l,2,out v);
+																																	self.vertices=v;
+																																	get_normals(IntPtr l) {
+																																		set_normals(IntPtr l) {
+																																			UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																			UnityEngine.Vector3[] v;
+																																			checkArray(l,2,out v);
+																																			self.normals=v;
+																																			get_tangents(IntPtr l) {
+																																				set_tangents(IntPtr l) {
+																																					UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																					UnityEngine.Vector4[] v;
+																																					checkArray(l,2,out v);
+																																					self.tangents=v;
+																																					get_uv(IntPtr l) {
+																																						set_uv(IntPtr l) {
+																																							UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																							UnityEngine.Vector2[] v;
+																																							checkArray(l,2,out v);
+																																							self.uv=v;
+																																							get_uv2(IntPtr l) {
+																																								set_uv2(IntPtr l) {
+																																									UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																									UnityEngine.Vector2[] v;
+																																									checkArray(l,2,out v);
+																																									self.uv2=v;
+																																									get_uv3(IntPtr l) {
+																																										set_uv3(IntPtr l) {
+																																											UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																											UnityEngine.Vector2[] v;
+																																											checkArray(l,2,out v);
+																																											self.uv3=v;
+																																											get_uv4(IntPtr l) {
+																																												set_uv4(IntPtr l) {
+																																													UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																													UnityEngine.Vector2[] v;
+																																													checkArray(l,2,out v);
+																																													self.uv4=v;
+																																													get_colors(IntPtr l) {
+																																														set_colors(IntPtr l) {
+																																															UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																															UnityEngine.Color[] v;
+																																															checkArray(l,2,out v);
+																																															self.colors=v;
+																																															get_colors32(IntPtr l) {
+																																																set_colors32(IntPtr l) {
+																																																	UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																																	UnityEngine.Color32[] v;
+																																																	checkArray(l,2,out v);
+																																																	self.colors32=v;
+																																																	get_triangles(IntPtr l) {
+																																																		set_triangles(IntPtr l) {
+																																																			UnityEngine.Mesh self=(UnityEngine.Mesh)checkSelf(l);
+																																																			System.Int32[] v;
+																																																			checkArray(l,2,out v);
+																																																			self.triangles=v;
+																																																				]
+																																																		}
+

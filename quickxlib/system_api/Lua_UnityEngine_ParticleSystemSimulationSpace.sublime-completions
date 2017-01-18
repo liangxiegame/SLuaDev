@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemSimulationSpace");
+	addMember(l,0,"Local");
+	addMember(l,1,"World");
+		]
+}
+

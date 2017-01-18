@@ -1,0 +1,64 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Deleg.callD(Public, Static, HideBySig)","contents": "Deleg.callD(Public, Static, HideBySig)"},
+
+	Deleg.callD();
+			{ "trigger": "Deleg.setcallback2(Public, Static, HideBySig)","contents": "Deleg.setcallback2(Public, Static, HideBySig)"},
+
+	System.Action<System.Int32> a1;
+	LuaDelegation.checkDelegate(l,1,out a1);
+	System.Action<System.String> a2;
+	LuaDelegation.checkDelegate(l,2,out a2);
+	Deleg.setcallback2(a1,a2);
+			{ "trigger": "Deleg.testFunc(Public, Static, HideBySig)","contents": "Deleg.testFunc(Public, Static, HideBySig)"},
+
+	System.Func<System.Int32> a1;
+	LuaDelegation.checkDelegate(l,1,out a1);
+	Deleg.testFunc(a1);
+			{ "trigger": "Deleg.testAction(Public, Static, HideBySig)","contents": "Deleg.testAction(Public, Static, HideBySig)"},
+
+	System.Action<System.Int32,System.String> a1;
+	LuaDelegation.checkDelegate(l,1,out a1);
+	Deleg.testAction(a1);
+			{ "trigger": "Deleg.testDAction(Public, Static, HideBySig)","contents": "Deleg.testDAction(Public, Static, HideBySig)"},
+
+	System.Action<System.Int32,System.Collections.Generic.Dictionary<System.Int32,System.Object>> a1;
+	LuaDelegation.checkDelegate(l,1,out a1);
+	Deleg.testDAction(a1);
+			{ "trigger": "Deleg.callDAction(Public, Static, HideBySig)","contents": "Deleg.callDAction(Public, Static, HideBySig)"},
+
+	Deleg.callDAction();
+			{ "trigger": "Deleg.getFunc(Public, Static, HideBySig)","contents": "Deleg.getFunc(Public, Static, HideBySig)"},
+
+	System.Func<System.Int32,System.String,System.Boolean> a1;
+	LuaDelegation.checkDelegate(l,1,out a1);
+	var ret=Deleg.getFunc(a1);
+	set_d(IntPtr l) {
+		Deleg.GetBundleInfoDelegate v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) Deleg.d=v;
+		else if(op==1) Deleg.d+=v;
+		else if(op==2) Deleg.d-=v;
+		set_s(IntPtr l) {
+			Deleg.SimpleDelegate v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) Deleg.s=v;
+			else if(op==1) Deleg.s+=v;
+			else if(op==2) Deleg.s-=v;
+			set_daction(IntPtr l) {
+				System.Action<System.Int32,System.Collections.Generic.Dictionary<System.Int32,System.Object>> v;
+				int op=LuaDelegation.checkDelegate(l,2,out v);
+				if(op==0) Deleg.daction=v;
+				else if(op==1) Deleg.daction+=v;
+				else if(op==2) Deleg.daction-=v;
+				set_dx(IntPtr l) {
+					Deleg.GetBundleInfoDelegate v;
+					int op=LuaDelegation.checkDelegate(l,2,out v);
+					if(op==0) Deleg.dx=v;
+					else if(op==1) Deleg.dx+=v;
+					else if(op==2) Deleg.dx-=v;
+						]
+				}
+

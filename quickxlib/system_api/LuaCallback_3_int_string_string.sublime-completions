@@ -1,0 +1,10 @@
+﻿
+Callback<System.Int32,System.String,System.String> 
+                ua = (Callback<System.Int32,System.String,System.String>)checkObj(l, p);
+                ua = (Callback<System.Int32,System.String,System.String>)ld.d;
+            ua = (int a1,string a2,string a3) =>
+
+				pushValue(l,a1);
+				pushValue(l,a2);
+				pushValue(l,a3);
+				ld.pcall(3, error);

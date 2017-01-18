@@ -1,0 +1,62 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ComputeBuffer()()","contents": "UnityEngine.ComputeBuffer()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.ComputeBuffer()()","contents": "UnityEngine.ComputeBuffer()()"},
+
+			{ "trigger": "UnityEngine.ComputeBuffer()()","contents": "UnityEngine.ComputeBuffer()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	UnityEngine.ComputeBufferType a3;
+	checkEnum(l,4,out a3);
+			{ "trigger": "UnityEngine.ComputeBuffer()()","contents": "UnityEngine.ComputeBuffer()()"},
+
+			{ "trigger": "ComputeBuffer:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "ComputeBuffer:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.ComputeBuffer self=(UnityEngine.ComputeBuffer)checkSelf(l);
+	self.Dispose();
+			{ "trigger": "ComputeBuffer:Release(Public, HideBySig)","contents": "ComputeBuffer:Release(Public, HideBySig)"},
+
+	UnityEngine.ComputeBuffer self=(UnityEngine.ComputeBuffer)checkSelf(l);
+	self.Release();
+			{ "trigger": "ComputeBuffer:SetData(Public, HideBySig)","contents": "ComputeBuffer:SetData(Public, HideBySig)"},
+
+	UnityEngine.ComputeBuffer self=(UnityEngine.ComputeBuffer)checkSelf(l);
+	System.Array a1;
+	checkType(l,2,out a1);
+	self.SetData(a1);
+			{ "trigger": "ComputeBuffer:SetCounterValue(Public, HideBySig)","contents": "ComputeBuffer:SetCounterValue(Public, HideBySig)"},
+
+	UnityEngine.ComputeBuffer self=(UnityEngine.ComputeBuffer)checkSelf(l);
+	System.UInt32 a1;
+	checkType(l,2,out a1);
+	self.SetCounterValue(a1);
+			{ "trigger": "ComputeBuffer:GetData(Public, HideBySig)","contents": "ComputeBuffer:GetData(Public, HideBySig)"},
+
+	UnityEngine.ComputeBuffer self=(UnityEngine.ComputeBuffer)checkSelf(l);
+	System.Array a1;
+	checkType(l,2,out a1);
+	self.GetData(a1);
+			{ "trigger": "ComputeBuffer.CopyCount(Public, Static, HideBySig)","contents": "ComputeBuffer.CopyCount(Public, Static, HideBySig)"},
+
+	UnityEngine.ComputeBuffer a1;
+	checkType(l,1,out a1);
+	UnityEngine.ComputeBuffer a2;
+	checkType(l,2,out a2);
+	System.Int32 a3;
+	checkType(l,3,out a3);
+	UnityEngine.ComputeBuffer.CopyCount(a1,a2,a3);
+	get_count(IntPtr l) {
+		get_stride(IntPtr l) {
+				]
+		}
+

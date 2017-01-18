@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.PhysicMaterialCombine");
+	addMember(l,0,"Average");
+	addMember(l,1,"Multiply");
+	addMember(l,2,"Minimum");
+	addMember(l,3,"Maximum");
+		]
+}
+

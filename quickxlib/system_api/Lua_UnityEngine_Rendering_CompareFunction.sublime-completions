@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.CompareFunction");
+	addMember(l,0,"Disabled");
+	addMember(l,1,"Never");
+	addMember(l,2,"Less");
+	addMember(l,3,"Equal");
+	addMember(l,4,"LessEqual");
+	addMember(l,5,"Greater");
+	addMember(l,6,"NotEqual");
+	addMember(l,7,"GreaterEqual");
+	addMember(l,8,"Always");
+		]
+}
+

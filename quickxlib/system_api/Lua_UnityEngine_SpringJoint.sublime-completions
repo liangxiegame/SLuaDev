@@ -1,0 +1,39 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SpringJoint()()","contents": "UnityEngine.SpringJoint()()"},
+
+	get_spring(IntPtr l) {
+		set_spring(IntPtr l) {
+			UnityEngine.SpringJoint self=(UnityEngine.SpringJoint)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.spring=v;
+			get_damper(IntPtr l) {
+				set_damper(IntPtr l) {
+					UnityEngine.SpringJoint self=(UnityEngine.SpringJoint)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.damper=v;
+					get_minDistance(IntPtr l) {
+						set_minDistance(IntPtr l) {
+							UnityEngine.SpringJoint self=(UnityEngine.SpringJoint)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.minDistance=v;
+							get_maxDistance(IntPtr l) {
+								set_maxDistance(IntPtr l) {
+									UnityEngine.SpringJoint self=(UnityEngine.SpringJoint)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.maxDistance=v;
+									get_tolerance(IntPtr l) {
+										set_tolerance(IntPtr l) {
+											UnityEngine.SpringJoint self=(UnityEngine.SpringJoint)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.tolerance=v;
+												]
+										}
+

@@ -1,0 +1,29 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData()()","contents": "UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData()()"},
+
+			{ "trigger": "MouseButtonEventData:PressedThisFrame(Public, HideBySig)","contents": "MouseButtonEventData:PressedThisFrame(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData self=(UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData)checkSelf(l);
+	var ret=self.PressedThisFrame();
+			{ "trigger": "MouseButtonEventData:ReleasedThisFrame(Public, HideBySig)","contents": "MouseButtonEventData:ReleasedThisFrame(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData self=(UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData)checkSelf(l);
+	var ret=self.ReleasedThisFrame();
+	buttonState
+	set_buttonState(IntPtr l) {
+		UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData self=(UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData)checkSelf(l);
+		UnityEngine.EventSystems.PointerEventData.FramePressState v;
+		checkEnum(l,2,out v);
+		self.buttonState=v;
+		buttonData
+		set_buttonData(IntPtr l) {
+			UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData self=(UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData)checkSelf(l);
+			UnityEngine.EventSystems.PointerEventData v;
+			checkType(l,2,out v);
+			self.buttonData=v;
+				]
+		}
+

@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AnimationBlendMode");
+	addMember(l,0,"Blend");
+	addMember(l,1,"Additive");
+		]
+}
+

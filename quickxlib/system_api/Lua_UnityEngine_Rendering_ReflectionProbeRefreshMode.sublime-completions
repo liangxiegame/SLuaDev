@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.ReflectionProbeRefreshMode");
+	addMember(l,0,"OnAwake");
+	addMember(l,1,"EveryFrame");
+	addMember(l,2,"ViaScripting");
+		]
+}
+

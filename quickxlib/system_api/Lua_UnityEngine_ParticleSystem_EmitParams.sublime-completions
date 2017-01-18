@@ -1,0 +1,158 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.EmitParams()()","contents": "UnityEngine.ParticleSystem.EmitParams()()"},
+
+			{ "trigger": "EmitParams:ResetPosition(Public, HideBySig)","contents": "EmitParams:ResetPosition(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetPosition();
+			{ "trigger": "EmitParams:ResetVelocity(Public, HideBySig)","contents": "EmitParams:ResetVelocity(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetVelocity();
+			{ "trigger": "EmitParams:ResetAxisOfRotation(Public, HideBySig)","contents": "EmitParams:ResetAxisOfRotation(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetAxisOfRotation();
+			{ "trigger": "EmitParams:ResetRotation(Public, HideBySig)","contents": "EmitParams:ResetRotation(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetRotation();
+			{ "trigger": "EmitParams:ResetAngularVelocity(Public, HideBySig)","contents": "EmitParams:ResetAngularVelocity(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetAngularVelocity();
+			{ "trigger": "EmitParams:ResetStartSize(Public, HideBySig)","contents": "EmitParams:ResetStartSize(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetStartSize();
+			{ "trigger": "EmitParams:ResetStartColor(Public, HideBySig)","contents": "EmitParams:ResetStartColor(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetStartColor();
+			{ "trigger": "EmitParams:ResetRandomSeed(Public, HideBySig)","contents": "EmitParams:ResetRandomSeed(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetRandomSeed();
+			{ "trigger": "EmitParams:ResetStartLifetime(Public, HideBySig)","contents": "EmitParams:ResetStartLifetime(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.EmitParams self;
+	checkValueType(l,1,out self);
+	self.ResetStartLifetime();
+	get_position(IntPtr l) {
+		set_position(IntPtr l) {
+			UnityEngine.ParticleSystem.EmitParams self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.position=v;
+			setBack(l,self);
+			get_applyShapeToPosition(IntPtr l) {
+				set_applyShapeToPosition(IntPtr l) {
+					UnityEngine.ParticleSystem.EmitParams self;
+					checkValueType(l,1,out self);
+					bool v;
+					checkType(l,2,out v);
+					self.applyShapeToPosition=v;
+					setBack(l,self);
+					get_velocity(IntPtr l) {
+						set_velocity(IntPtr l) {
+							UnityEngine.ParticleSystem.EmitParams self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector3 v;
+							checkType(l,2,out v);
+							self.velocity=v;
+							setBack(l,self);
+							get_startLifetime(IntPtr l) {
+								set_startLifetime(IntPtr l) {
+									UnityEngine.ParticleSystem.EmitParams self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.startLifetime=v;
+									setBack(l,self);
+									get_startSize(IntPtr l) {
+										set_startSize(IntPtr l) {
+											UnityEngine.ParticleSystem.EmitParams self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.startSize=v;
+											setBack(l,self);
+											get_startSize3D(IntPtr l) {
+												set_startSize3D(IntPtr l) {
+													UnityEngine.ParticleSystem.EmitParams self;
+													checkValueType(l,1,out self);
+													UnityEngine.Vector3 v;
+													checkType(l,2,out v);
+													self.startSize3D=v;
+													setBack(l,self);
+													get_axisOfRotation(IntPtr l) {
+														set_axisOfRotation(IntPtr l) {
+															UnityEngine.ParticleSystem.EmitParams self;
+															checkValueType(l,1,out self);
+															UnityEngine.Vector3 v;
+															checkType(l,2,out v);
+															self.axisOfRotation=v;
+															setBack(l,self);
+															get_rotation(IntPtr l) {
+																set_rotation(IntPtr l) {
+																	UnityEngine.ParticleSystem.EmitParams self;
+																	checkValueType(l,1,out self);
+																	float v;
+																	checkType(l,2,out v);
+																	self.rotation=v;
+																	setBack(l,self);
+																	get_rotation3D(IntPtr l) {
+																		set_rotation3D(IntPtr l) {
+																			UnityEngine.ParticleSystem.EmitParams self;
+																			checkValueType(l,1,out self);
+																			UnityEngine.Vector3 v;
+																			checkType(l,2,out v);
+																			self.rotation3D=v;
+																			setBack(l,self);
+																			get_angularVelocity(IntPtr l) {
+																				set_angularVelocity(IntPtr l) {
+																					UnityEngine.ParticleSystem.EmitParams self;
+																					checkValueType(l,1,out self);
+																					float v;
+																					checkType(l,2,out v);
+																					self.angularVelocity=v;
+																					setBack(l,self);
+																					get_angularVelocity3D(IntPtr l) {
+																						set_angularVelocity3D(IntPtr l) {
+																							UnityEngine.ParticleSystem.EmitParams self;
+																							checkValueType(l,1,out self);
+																							UnityEngine.Vector3 v;
+																							checkType(l,2,out v);
+																							self.angularVelocity3D=v;
+																							setBack(l,self);
+																							get_startColor(IntPtr l) {
+																								set_startColor(IntPtr l) {
+																									UnityEngine.ParticleSystem.EmitParams self;
+																									checkValueType(l,1,out self);
+																									UnityEngine.Color32 v;
+																									checkValueType(l,2,out v);
+																									self.startColor=v;
+																									setBack(l,self);
+																									get_randomSeed(IntPtr l) {
+																										set_randomSeed(IntPtr l) {
+																											UnityEngine.ParticleSystem.EmitParams self;
+																											checkValueType(l,1,out self);
+																											System.UInt32 v;
+																											checkType(l,2,out v);
+																											self.randomSeed=v;
+																											setBack(l,self);
+																												]
+																										}
+

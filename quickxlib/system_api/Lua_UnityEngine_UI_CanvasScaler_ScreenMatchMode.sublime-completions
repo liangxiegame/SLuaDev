@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.CanvasScaler.ScreenMatchMode");
+	addMember(l,0,"MatchWidthOrHeight");
+	addMember(l,1,"Expand");
+	addMember(l,2,"Shrink");
+		]
+}
+

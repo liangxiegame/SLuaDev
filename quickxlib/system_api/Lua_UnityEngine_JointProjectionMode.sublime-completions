@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.JointProjectionMode");
+	addMember(l,0,"None");
+	addMember(l,1,"PositionAndRotation");
+	addMember(l,2,"PositionOnly");
+		]
+}
+

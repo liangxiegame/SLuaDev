@@ -1,0 +1,7 @@
+﻿
+VoidDelegate.WithVoid 
+                ua = (VoidDelegate.WithVoid)checkObj(l, p);
+                ua = (VoidDelegate.WithVoid)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

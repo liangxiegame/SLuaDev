@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.SkinQuality");
+	addMember(l,0,"Auto");
+	addMember(l,1,"Bone1");
+	addMember(l,2,"Bone2");
+	addMember(l,4,"Bone4");
+		]
+}
+

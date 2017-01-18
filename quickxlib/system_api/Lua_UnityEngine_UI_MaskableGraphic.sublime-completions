@@ -1,0 +1,49 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "MaskableGraphic:GetModifiedMaterial(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "MaskableGraphic:GetModifiedMaterial(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+	UnityEngine.Material a1;
+	checkType(l,2,out a1);
+	var ret=self.GetModifiedMaterial(a1);
+			{ "trigger": "MaskableGraphic:Cull(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "MaskableGraphic:Cull(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+	UnityEngine.Rect a1;
+	checkValueType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.Cull(a1,a2);
+			{ "trigger": "MaskableGraphic:SetClipRect(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "MaskableGraphic:SetClipRect(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+	UnityEngine.Rect a1;
+	checkValueType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.SetClipRect(a1,a2);
+			{ "trigger": "MaskableGraphic:RecalculateClipping(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "MaskableGraphic:RecalculateClipping(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+	self.RecalculateClipping();
+			{ "trigger": "MaskableGraphic:RecalculateMasking(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "MaskableGraphic:RecalculateMasking(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+	self.RecalculateMasking();
+	get_onCullStateChanged(IntPtr l) {
+		set_onCullStateChanged(IntPtr l) {
+			UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+			UnityEngine.UI.MaskableGraphic.CullStateChangedEvent v;
+			checkType(l,2,out v);
+			self.onCullStateChanged=v;
+			get_maskable(IntPtr l) {
+				set_maskable(IntPtr l) {
+					UnityEngine.UI.MaskableGraphic self=(UnityEngine.UI.MaskableGraphic)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.maskable=v;
+						]
+				}
+

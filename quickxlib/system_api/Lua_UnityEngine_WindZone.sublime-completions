@@ -1,0 +1,45 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WindZone()()","contents": "UnityEngine.WindZone()()"},
+
+	get_mode(IntPtr l) {
+		set_mode(IntPtr l) {
+			UnityEngine.WindZone self=(UnityEngine.WindZone)checkSelf(l);
+			UnityEngine.WindZoneMode v;
+			checkEnum(l,2,out v);
+			self.mode=v;
+			get_radius(IntPtr l) {
+				set_radius(IntPtr l) {
+					UnityEngine.WindZone self=(UnityEngine.WindZone)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.radius=v;
+					get_windMain(IntPtr l) {
+						set_windMain(IntPtr l) {
+							UnityEngine.WindZone self=(UnityEngine.WindZone)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.windMain=v;
+							get_windTurbulence(IntPtr l) {
+								set_windTurbulence(IntPtr l) {
+									UnityEngine.WindZone self=(UnityEngine.WindZone)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.windTurbulence=v;
+									get_windPulseMagnitude(IntPtr l) {
+										set_windPulseMagnitude(IntPtr l) {
+											UnityEngine.WindZone self=(UnityEngine.WindZone)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.windPulseMagnitude=v;
+											get_windPulseFrequency(IntPtr l) {
+												set_windPulseFrequency(IntPtr l) {
+													UnityEngine.WindZone self=(UnityEngine.WindZone)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.windPulseFrequency=v;
+														]
+												}
+

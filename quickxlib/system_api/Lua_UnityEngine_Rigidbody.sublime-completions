@@ -1,0 +1,442 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rigidbody()()","contents": "UnityEngine.Rigidbody()()"},
+
+			{ "trigger": "Rigidbody:SetDensity(Public, HideBySig)","contents": "Rigidbody:SetDensity(Public, HideBySig)"},
+
+	UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	self.SetDensity(a1);
+			{ "trigger": "Rigidbody:AddForce(Public, HideBySig)","contents": "Rigidbody:AddForce(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+		UnityEngine.Vector3 a1;
+		checkType(l,2,out a1);
+		self.AddForce(a1);
+		else if(argc==3){
+			UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			UnityEngine.ForceMode a2;
+			checkEnum(l,3,out a2);
+			self.AddForce(a1,a2);
+			else if(argc==4){
+				UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+				System.Single a1;
+				checkType(l,2,out a1);
+				System.Single a2;
+				checkType(l,3,out a2);
+				System.Single a3;
+				checkType(l,4,out a3);
+				self.AddForce(a1,a2,a3);
+				else if(argc==5){
+					UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+					System.Single a1;
+					checkType(l,2,out a1);
+					System.Single a2;
+					checkType(l,3,out a2);
+					System.Single a3;
+					checkType(l,4,out a3);
+					UnityEngine.ForceMode a4;
+					checkEnum(l,5,out a4);
+					self.AddForce(a1,a2,a3,a4);
+							{ "trigger": "Rigidbody:AddRelativeForce(Public, HideBySig)","contents": "Rigidbody:AddRelativeForce(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+						UnityEngine.Vector3 a1;
+						checkType(l,2,out a1);
+						self.AddRelativeForce(a1);
+						else if(argc==3){
+							UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+							UnityEngine.Vector3 a1;
+							checkType(l,2,out a1);
+							UnityEngine.ForceMode a2;
+							checkEnum(l,3,out a2);
+							self.AddRelativeForce(a1,a2);
+							else if(argc==4){
+								UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+								System.Single a1;
+								checkType(l,2,out a1);
+								System.Single a2;
+								checkType(l,3,out a2);
+								System.Single a3;
+								checkType(l,4,out a3);
+								self.AddRelativeForce(a1,a2,a3);
+								else if(argc==5){
+									UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+									System.Single a1;
+									checkType(l,2,out a1);
+									System.Single a2;
+									checkType(l,3,out a2);
+									System.Single a3;
+									checkType(l,4,out a3);
+									UnityEngine.ForceMode a4;
+									checkEnum(l,5,out a4);
+									self.AddRelativeForce(a1,a2,a3,a4);
+											{ "trigger": "Rigidbody:AddTorque(Public, HideBySig)","contents": "Rigidbody:AddTorque(Public, HideBySig)"},
+
+									if(argc==2){
+										UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+										UnityEngine.Vector3 a1;
+										checkType(l,2,out a1);
+										self.AddTorque(a1);
+										else if(argc==3){
+											UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+											UnityEngine.Vector3 a1;
+											checkType(l,2,out a1);
+											UnityEngine.ForceMode a2;
+											checkEnum(l,3,out a2);
+											self.AddTorque(a1,a2);
+											else if(argc==4){
+												UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+												System.Single a1;
+												checkType(l,2,out a1);
+												System.Single a2;
+												checkType(l,3,out a2);
+												System.Single a3;
+												checkType(l,4,out a3);
+												self.AddTorque(a1,a2,a3);
+												else if(argc==5){
+													UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+													System.Single a1;
+													checkType(l,2,out a1);
+													System.Single a2;
+													checkType(l,3,out a2);
+													System.Single a3;
+													checkType(l,4,out a3);
+													UnityEngine.ForceMode a4;
+													checkEnum(l,5,out a4);
+													self.AddTorque(a1,a2,a3,a4);
+															{ "trigger": "Rigidbody:AddRelativeTorque(Public, HideBySig)","contents": "Rigidbody:AddRelativeTorque(Public, HideBySig)"},
+
+													if(argc==2){
+														UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+														UnityEngine.Vector3 a1;
+														checkType(l,2,out a1);
+														self.AddRelativeTorque(a1);
+														else if(argc==3){
+															UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+															UnityEngine.Vector3 a1;
+															checkType(l,2,out a1);
+															UnityEngine.ForceMode a2;
+															checkEnum(l,3,out a2);
+															self.AddRelativeTorque(a1,a2);
+															else if(argc==4){
+																UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																System.Single a1;
+																checkType(l,2,out a1);
+																System.Single a2;
+																checkType(l,3,out a2);
+																System.Single a3;
+																checkType(l,4,out a3);
+																self.AddRelativeTorque(a1,a2,a3);
+																else if(argc==5){
+																	UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																	System.Single a1;
+																	checkType(l,2,out a1);
+																	System.Single a2;
+																	checkType(l,3,out a2);
+																	System.Single a3;
+																	checkType(l,4,out a3);
+																	UnityEngine.ForceMode a4;
+																	checkEnum(l,5,out a4);
+																	self.AddRelativeTorque(a1,a2,a3,a4);
+																			{ "trigger": "Rigidbody:AddForceAtPosition(Public, HideBySig)","contents": "Rigidbody:AddForceAtPosition(Public, HideBySig)"},
+
+																	if(argc==3){
+																		UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																		UnityEngine.Vector3 a1;
+																		checkType(l,2,out a1);
+																		UnityEngine.Vector3 a2;
+																		checkType(l,3,out a2);
+																		self.AddForceAtPosition(a1,a2);
+																		else if(argc==4){
+																			UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																			UnityEngine.Vector3 a1;
+																			checkType(l,2,out a1);
+																			UnityEngine.Vector3 a2;
+																			checkType(l,3,out a2);
+																			UnityEngine.ForceMode a3;
+																			checkEnum(l,4,out a3);
+																			self.AddForceAtPosition(a1,a2,a3);
+																					{ "trigger": "Rigidbody:AddExplosionForce(Public, HideBySig)","contents": "Rigidbody:AddExplosionForce(Public, HideBySig)"},
+
+																			if(argc==4){
+																				UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																				System.Single a1;
+																				checkType(l,2,out a1);
+																				UnityEngine.Vector3 a2;
+																				checkType(l,3,out a2);
+																				System.Single a3;
+																				checkType(l,4,out a3);
+																				self.AddExplosionForce(a1,a2,a3);
+																				else if(argc==5){
+																					UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																					System.Single a1;
+																					checkType(l,2,out a1);
+																					UnityEngine.Vector3 a2;
+																					checkType(l,3,out a2);
+																					System.Single a3;
+																					checkType(l,4,out a3);
+																					System.Single a4;
+																					checkType(l,5,out a4);
+																					self.AddExplosionForce(a1,a2,a3,a4);
+																					else if(argc==6){
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						System.Single a1;
+																						checkType(l,2,out a1);
+																						UnityEngine.Vector3 a2;
+																						checkType(l,3,out a2);
+																						System.Single a3;
+																						checkType(l,4,out a3);
+																						System.Single a4;
+																						checkType(l,5,out a4);
+																						UnityEngine.ForceMode a5;
+																						checkEnum(l,6,out a5);
+																						self.AddExplosionForce(a1,a2,a3,a4,a5);
+																								{ "trigger": "Rigidbody:ClosestPointOnBounds(Public, HideBySig)","contents": "Rigidbody:ClosestPointOnBounds(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						UnityEngine.Vector3 a1;
+																						checkType(l,2,out a1);
+																						var ret=self.ClosestPointOnBounds(a1);
+																								{ "trigger": "Rigidbody:GetRelativePointVelocity(Public, HideBySig)","contents": "Rigidbody:GetRelativePointVelocity(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						UnityEngine.Vector3 a1;
+																						checkType(l,2,out a1);
+																						var ret=self.GetRelativePointVelocity(a1);
+																								{ "trigger": "Rigidbody:GetPointVelocity(Public, HideBySig)","contents": "Rigidbody:GetPointVelocity(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						UnityEngine.Vector3 a1;
+																						checkType(l,2,out a1);
+																						var ret=self.GetPointVelocity(a1);
+																								{ "trigger": "Rigidbody:MovePosition(Public, HideBySig)","contents": "Rigidbody:MovePosition(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						UnityEngine.Vector3 a1;
+																						checkType(l,2,out a1);
+																						self.MovePosition(a1);
+																								{ "trigger": "Rigidbody:MoveRotation(Public, HideBySig)","contents": "Rigidbody:MoveRotation(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						UnityEngine.Quaternion a1;
+																						checkType(l,2,out a1);
+																						self.MoveRotation(a1);
+																								{ "trigger": "Rigidbody:Sleep(Public, HideBySig)","contents": "Rigidbody:Sleep(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						self.Sleep();
+																								{ "trigger": "Rigidbody:IsSleeping(Public, HideBySig)","contents": "Rigidbody:IsSleeping(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						var ret=self.IsSleeping();
+																								{ "trigger": "Rigidbody:WakeUp(Public, HideBySig)","contents": "Rigidbody:WakeUp(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						self.WakeUp();
+																								{ "trigger": "Rigidbody:ResetCenterOfMass(Public, HideBySig)","contents": "Rigidbody:ResetCenterOfMass(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						self.ResetCenterOfMass();
+																								{ "trigger": "Rigidbody:ResetInertiaTensor(Public, HideBySig)","contents": "Rigidbody:ResetInertiaTensor(Public, HideBySig)"},
+
+																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																						self.ResetInertiaTensor();
+																								{ "trigger": "Rigidbody:SweepTest(Public, HideBySig)","contents": "Rigidbody:SweepTest(Public, HideBySig)"},
+
+																						if(argc==3){
+																							UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																							UnityEngine.Vector3 a1;
+																							checkType(l,2,out a1);
+																							UnityEngine.RaycastHit a2;
+																							var ret=self.SweepTest(a1,out a2);
+																							else if(argc==4){
+																								UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																								UnityEngine.Vector3 a1;
+																								checkType(l,2,out a1);
+																								UnityEngine.RaycastHit a2;
+																								System.Single a3;
+																								checkType(l,4,out a3);
+																								var ret=self.SweepTest(a1,out a2,a3);
+																								else if(argc==5){
+																									UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																									UnityEngine.Vector3 a1;
+																									checkType(l,2,out a1);
+																									UnityEngine.RaycastHit a2;
+																									System.Single a3;
+																									checkType(l,4,out a3);
+																									UnityEngine.QueryTriggerInteraction a4;
+																									checkEnum(l,5,out a4);
+																									var ret=self.SweepTest(a1,out a2,a3,a4);
+																											{ "trigger": "Rigidbody:SweepTestAll(Public, HideBySig)","contents": "Rigidbody:SweepTestAll(Public, HideBySig)"},
+
+																									if(argc==2){
+																										UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																										UnityEngine.Vector3 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.SweepTestAll(a1);
+																										else if(argc==3){
+																											UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																											UnityEngine.Vector3 a1;
+																											checkType(l,2,out a1);
+																											System.Single a2;
+																											checkType(l,3,out a2);
+																											var ret=self.SweepTestAll(a1,a2);
+																											else if(argc==4){
+																												UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																												UnityEngine.Vector3 a1;
+																												checkType(l,2,out a1);
+																												System.Single a2;
+																												checkType(l,3,out a2);
+																												UnityEngine.QueryTriggerInteraction a3;
+																												checkEnum(l,4,out a3);
+																												var ret=self.SweepTestAll(a1,a2,a3);
+																												get_velocity(IntPtr l) {
+																													set_velocity(IntPtr l) {
+																														UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																														UnityEngine.Vector3 v;
+																														checkType(l,2,out v);
+																														self.velocity=v;
+																														get_angularVelocity(IntPtr l) {
+																															set_angularVelocity(IntPtr l) {
+																																UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																UnityEngine.Vector3 v;
+																																checkType(l,2,out v);
+																																self.angularVelocity=v;
+																																get_drag(IntPtr l) {
+																																	set_drag(IntPtr l) {
+																																		UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																		float v;
+																																		checkType(l,2,out v);
+																																		self.drag=v;
+																																		get_angularDrag(IntPtr l) {
+																																			set_angularDrag(IntPtr l) {
+																																				UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																				float v;
+																																				checkType(l,2,out v);
+																																				self.angularDrag=v;
+																																				get_mass(IntPtr l) {
+																																					set_mass(IntPtr l) {
+																																						UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																						float v;
+																																						checkType(l,2,out v);
+																																						self.mass=v;
+																																						get_useGravity(IntPtr l) {
+																																							set_useGravity(IntPtr l) {
+																																								UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																								bool v;
+																																								checkType(l,2,out v);
+																																								self.useGravity=v;
+																																								get_maxDepenetrationVelocity(IntPtr l) {
+																																									set_maxDepenetrationVelocity(IntPtr l) {
+																																										UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																										float v;
+																																										checkType(l,2,out v);
+																																										self.maxDepenetrationVelocity=v;
+																																										get_isKinematic(IntPtr l) {
+																																											set_isKinematic(IntPtr l) {
+																																												UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																												bool v;
+																																												checkType(l,2,out v);
+																																												self.isKinematic=v;
+																																												get_freezeRotation(IntPtr l) {
+																																													set_freezeRotation(IntPtr l) {
+																																														UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																														bool v;
+																																														checkType(l,2,out v);
+																																														self.freezeRotation=v;
+																																														get_constraints(IntPtr l) {
+																																															set_constraints(IntPtr l) {
+																																																UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																UnityEngine.RigidbodyConstraints v;
+																																																checkEnum(l,2,out v);
+																																																self.constraints=v;
+																																																get_collisionDetectionMode(IntPtr l) {
+																																																	set_collisionDetectionMode(IntPtr l) {
+																																																		UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																		UnityEngine.CollisionDetectionMode v;
+																																																		checkEnum(l,2,out v);
+																																																		self.collisionDetectionMode=v;
+																																																		get_centerOfMass(IntPtr l) {
+																																																			set_centerOfMass(IntPtr l) {
+																																																				UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																				UnityEngine.Vector3 v;
+																																																				checkType(l,2,out v);
+																																																				self.centerOfMass=v;
+																																																				get_worldCenterOfMass(IntPtr l) {
+																																																					get_inertiaTensorRotation(IntPtr l) {
+																																																						set_inertiaTensorRotation(IntPtr l) {
+																																																							UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																							UnityEngine.Quaternion v;
+																																																							checkType(l,2,out v);
+																																																							self.inertiaTensorRotation=v;
+																																																							get_inertiaTensor(IntPtr l) {
+																																																								set_inertiaTensor(IntPtr l) {
+																																																									UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																									UnityEngine.Vector3 v;
+																																																									checkType(l,2,out v);
+																																																									self.inertiaTensor=v;
+																																																									get_detectCollisions(IntPtr l) {
+																																																										set_detectCollisions(IntPtr l) {
+																																																											UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																											bool v;
+																																																											checkType(l,2,out v);
+																																																											self.detectCollisions=v;
+																																																											get_useConeFriction(IntPtr l) {
+																																																												set_useConeFriction(IntPtr l) {
+																																																													UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																													bool v;
+																																																													checkType(l,2,out v);
+																																																													self.useConeFriction=v;
+																																																													get_position(IntPtr l) {
+																																																														set_position(IntPtr l) {
+																																																															UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																															UnityEngine.Vector3 v;
+																																																															checkType(l,2,out v);
+																																																															self.position=v;
+																																																															get_rotation(IntPtr l) {
+																																																																set_rotation(IntPtr l) {
+																																																																	UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																																	UnityEngine.Quaternion v;
+																																																																	checkType(l,2,out v);
+																																																																	self.rotation=v;
+																																																																	get_interpolation(IntPtr l) {
+																																																																		set_interpolation(IntPtr l) {
+																																																																			UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																																			UnityEngine.RigidbodyInterpolation v;
+																																																																			checkEnum(l,2,out v);
+																																																																			self.interpolation=v;
+																																																																			get_solverIterations(IntPtr l) {
+																																																																				set_solverIterations(IntPtr l) {
+																																																																					UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																																					int v;
+																																																																					checkType(l,2,out v);
+																																																																					self.solverIterations=v;
+																																																																					get_solverVelocityIterations(IntPtr l) {
+																																																																						set_solverVelocityIterations(IntPtr l) {
+																																																																							UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																																							int v;
+																																																																							checkType(l,2,out v);
+																																																																							self.solverVelocityIterations=v;
+																																																																							get_sleepThreshold(IntPtr l) {
+																																																																								set_sleepThreshold(IntPtr l) {
+																																																																									UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																																									float v;
+																																																																									checkType(l,2,out v);
+																																																																									self.sleepThreshold=v;
+																																																																									get_maxAngularVelocity(IntPtr l) {
+																																																																										set_maxAngularVelocity(IntPtr l) {
+																																																																											UnityEngine.Rigidbody self=(UnityEngine.Rigidbody)checkSelf(l);
+																																																																											float v;
+																																																																											checkType(l,2,out v);
+																																																																											self.maxAngularVelocity=v;
+																																																																												]
+																																																																										}
+

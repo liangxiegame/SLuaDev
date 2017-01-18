@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointTranslationLimits2D()()","contents": "UnityEngine.JointTranslationLimits2D()()"},
+
+	get_min(IntPtr l) {
+		set_min(IntPtr l) {
+			UnityEngine.JointTranslationLimits2D self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.min=v;
+			setBack(l,self);
+			get_max(IntPtr l) {
+				set_max(IntPtr l) {
+					UnityEngine.JointTranslationLimits2D self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.max=v;
+					setBack(l,self);
+						]
+				}
+

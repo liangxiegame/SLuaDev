@@ -1,0 +1,115 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "EventTrigger:OnPointerEnter(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnPointerEnter(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerEnter(a1);
+			{ "trigger": "EventTrigger:OnPointerExit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnPointerExit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerExit(a1);
+			{ "trigger": "EventTrigger:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnDrag(a1);
+			{ "trigger": "EventTrigger:OnDrop(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnDrop(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnDrop(a1);
+			{ "trigger": "EventTrigger:OnPointerDown(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnPointerDown(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerDown(a1);
+			{ "trigger": "EventTrigger:OnPointerUp(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnPointerUp(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerUp(a1);
+			{ "trigger": "EventTrigger:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnPointerClick(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerClick(a1);
+			{ "trigger": "EventTrigger:OnSelect(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnSelect(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSelect(a1);
+			{ "trigger": "EventTrigger:OnDeselect(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnDeselect(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnDeselect(a1);
+			{ "trigger": "EventTrigger:OnScroll(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnScroll(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnScroll(a1);
+			{ "trigger": "EventTrigger:OnMove(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnMove(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.AxisEventData a1;
+	checkType(l,2,out a1);
+	self.OnMove(a1);
+			{ "trigger": "EventTrigger:OnUpdateSelected(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnUpdateSelected(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnUpdateSelected(a1);
+			{ "trigger": "EventTrigger:OnInitializePotentialDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnInitializePotentialDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnInitializePotentialDrag(a1);
+			{ "trigger": "EventTrigger:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnBeginDrag(a1);
+			{ "trigger": "EventTrigger:OnEndDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnEndDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnEndDrag(a1);
+			{ "trigger": "EventTrigger:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnSubmit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSubmit(a1);
+			{ "trigger": "EventTrigger:OnCancel(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "EventTrigger:OnCancel(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnCancel(a1);
+	get_triggers(IntPtr l) {
+		set_triggers(IntPtr l) {
+			UnityEngine.EventSystems.EventTrigger self=(UnityEngine.EventSystems.EventTrigger)checkSelf(l);
+			System.Collections.Generic.List<UnityEngine.EventSystems.EventTrigger.Entry> v;
+			checkType(l,2,out v);
+			self.triggers=v;
+				]
+		}
+

@@ -1,0 +1,46 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.HumanTrait()()","contents": "UnityEngine.HumanTrait()()"},
+
+			{ "trigger": "HumanTrait.MuscleFromBone(Public, Static, HideBySig)","contents": "HumanTrait.MuscleFromBone(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	var ret=UnityEngine.HumanTrait.MuscleFromBone(a1,a2);
+			{ "trigger": "HumanTrait.BoneFromMuscle(Public, Static, HideBySig)","contents": "HumanTrait.BoneFromMuscle(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.HumanTrait.BoneFromMuscle(a1);
+			{ "trigger": "HumanTrait.RequiredBone(Public, Static, HideBySig)","contents": "HumanTrait.RequiredBone(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.HumanTrait.RequiredBone(a1);
+			{ "trigger": "HumanTrait.GetMuscleDefaultMin(Public, Static, HideBySig)","contents": "HumanTrait.GetMuscleDefaultMin(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.HumanTrait.GetMuscleDefaultMin(a1);
+			{ "trigger": "HumanTrait.GetMuscleDefaultMax(Public, Static, HideBySig)","contents": "HumanTrait.GetMuscleDefaultMax(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.HumanTrait.GetMuscleDefaultMax(a1);
+			{ "trigger": "HumanTrait.GetParentBone(Public, Static, HideBySig)","contents": "HumanTrait.GetParentBone(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.HumanTrait.GetParentBone(a1);
+	get_MuscleCount(IntPtr l) {
+		get_MuscleName(IntPtr l) {
+			get_BoneCount(IntPtr l) {
+				get_BoneName(IntPtr l) {
+					get_RequiredBoneCount(IntPtr l) {
+							]
+					}
+

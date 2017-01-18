@@ -1,0 +1,69 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CharacterJoint()()","contents": "UnityEngine.CharacterJoint()()"},
+
+	get_swingAxis(IntPtr l) {
+		set_swingAxis(IntPtr l) {
+			UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.swingAxis=v;
+			get_twistLimitSpring(IntPtr l) {
+				set_twistLimitSpring(IntPtr l) {
+					UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+					UnityEngine.SoftJointLimitSpring v;
+					checkValueType(l,2,out v);
+					self.twistLimitSpring=v;
+					get_swingLimitSpring(IntPtr l) {
+						set_swingLimitSpring(IntPtr l) {
+							UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+							UnityEngine.SoftJointLimitSpring v;
+							checkValueType(l,2,out v);
+							self.swingLimitSpring=v;
+							get_lowTwistLimit(IntPtr l) {
+								set_lowTwistLimit(IntPtr l) {
+									UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+									UnityEngine.SoftJointLimit v;
+									checkValueType(l,2,out v);
+									self.lowTwistLimit=v;
+									get_highTwistLimit(IntPtr l) {
+										set_highTwistLimit(IntPtr l) {
+											UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+											UnityEngine.SoftJointLimit v;
+											checkValueType(l,2,out v);
+											self.highTwistLimit=v;
+											get_swing1Limit(IntPtr l) {
+												set_swing1Limit(IntPtr l) {
+													UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+													UnityEngine.SoftJointLimit v;
+													checkValueType(l,2,out v);
+													self.swing1Limit=v;
+													get_swing2Limit(IntPtr l) {
+														set_swing2Limit(IntPtr l) {
+															UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+															UnityEngine.SoftJointLimit v;
+															checkValueType(l,2,out v);
+															self.swing2Limit=v;
+															get_enableProjection(IntPtr l) {
+																set_enableProjection(IntPtr l) {
+																	UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+																	bool v;
+																	checkType(l,2,out v);
+																	self.enableProjection=v;
+																	get_projectionDistance(IntPtr l) {
+																		set_projectionDistance(IntPtr l) {
+																			UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.projectionDistance=v;
+																			get_projectionAngle(IntPtr l) {
+																				set_projectionAngle(IntPtr l) {
+																					UnityEngine.CharacterJoint self=(UnityEngine.CharacterJoint)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.projectionAngle=v;
+																						]
+																				}
+

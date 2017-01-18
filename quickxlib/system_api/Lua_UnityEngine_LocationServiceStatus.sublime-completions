@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LocationServiceStatus");
+	addMember(l,0,"Stopped");
+	addMember(l,1,"Initializing");
+	addMember(l,2,"Running");
+	addMember(l,3,"Failed");
+		]
+}
+

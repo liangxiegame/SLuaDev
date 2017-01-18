@@ -1,0 +1,8 @@
+﻿
+UnityEngine.AudioSettings.AudioConfigurationChangeHandler 
+                ua = (UnityEngine.AudioSettings.AudioConfigurationChangeHandler)checkObj(l, p);
+                ua = (UnityEngine.AudioSettings.AudioConfigurationChangeHandler)ld.d;
+            ua = (bool a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

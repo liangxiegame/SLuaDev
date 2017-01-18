@@ -1,0 +1,37 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "BaseInputModule:Process(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)","contents": "BaseInputModule:Process(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	self.Process();
+			{ "trigger": "BaseInputModule:IsPointerOverGameObject(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseInputModule:IsPointerOverGameObject(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.IsPointerOverGameObject(a1);
+			{ "trigger": "BaseInputModule:ShouldActivateModule(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseInputModule:ShouldActivateModule(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	var ret=self.ShouldActivateModule();
+			{ "trigger": "BaseInputModule:DeactivateModule(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseInputModule:DeactivateModule(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	self.DeactivateModule();
+			{ "trigger": "BaseInputModule:ActivateModule(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseInputModule:ActivateModule(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	self.ActivateModule();
+			{ "trigger": "BaseInputModule:UpdateModule(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseInputModule:UpdateModule(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	self.UpdateModule();
+			{ "trigger": "BaseInputModule:IsModuleSupported(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseInputModule:IsModuleSupported(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.BaseInputModule self=(UnityEngine.EventSystems.BaseInputModule)checkSelf(l);
+	var ret=self.IsModuleSupported();
+		]
+}
+

@@ -1,0 +1,35 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WheelJoint2D()()","contents": "UnityEngine.WheelJoint2D()()"},
+
+			{ "trigger": "WheelJoint2D:GetMotorTorque(Public, HideBySig)","contents": "WheelJoint2D:GetMotorTorque(Public, HideBySig)"},
+
+	UnityEngine.WheelJoint2D self=(UnityEngine.WheelJoint2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.GetMotorTorque(a1);
+	get_suspension(IntPtr l) {
+		set_suspension(IntPtr l) {
+			UnityEngine.WheelJoint2D self=(UnityEngine.WheelJoint2D)checkSelf(l);
+			UnityEngine.JointSuspension2D v;
+			checkValueType(l,2,out v);
+			self.suspension=v;
+			get_useMotor(IntPtr l) {
+				set_useMotor(IntPtr l) {
+					UnityEngine.WheelJoint2D self=(UnityEngine.WheelJoint2D)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.useMotor=v;
+					get_motor(IntPtr l) {
+						set_motor(IntPtr l) {
+							UnityEngine.WheelJoint2D self=(UnityEngine.WheelJoint2D)checkSelf(l);
+							UnityEngine.JointMotor2D v;
+							checkValueType(l,2,out v);
+							self.motor=v;
+							get_jointTranslation(IntPtr l) {
+								get_jointSpeed(IntPtr l) {
+										]
+								}
+

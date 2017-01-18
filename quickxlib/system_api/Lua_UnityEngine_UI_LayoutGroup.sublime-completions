@@ -1,0 +1,42 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "LayoutGroup:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutGroup:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutGroup self=(UnityEngine.UI.LayoutGroup)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "LayoutGroup:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)","contents": "LayoutGroup:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)"},
+
+	UnityEngine.UI.LayoutGroup self=(UnityEngine.UI.LayoutGroup)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+			{ "trigger": "LayoutGroup:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)","contents": "LayoutGroup:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)"},
+
+	UnityEngine.UI.LayoutGroup self=(UnityEngine.UI.LayoutGroup)checkSelf(l);
+	self.SetLayoutHorizontal();
+			{ "trigger": "LayoutGroup:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)","contents": "LayoutGroup:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)"},
+
+	UnityEngine.UI.LayoutGroup self=(UnityEngine.UI.LayoutGroup)checkSelf(l);
+	self.SetLayoutVertical();
+	get_padding(IntPtr l) {
+		set_padding(IntPtr l) {
+			UnityEngine.UI.LayoutGroup self=(UnityEngine.UI.LayoutGroup)checkSelf(l);
+			UnityEngine.RectOffset v;
+			checkType(l,2,out v);
+			self.padding=v;
+			get_childAlignment(IntPtr l) {
+				set_childAlignment(IntPtr l) {
+					UnityEngine.UI.LayoutGroup self=(UnityEngine.UI.LayoutGroup)checkSelf(l);
+					UnityEngine.TextAnchor v;
+					checkEnum(l,2,out v);
+					self.childAlignment=v;
+					get_minWidth(IntPtr l) {
+						get_preferredWidth(IntPtr l) {
+							get_flexibleWidth(IntPtr l) {
+								get_minHeight(IntPtr l) {
+									get_preferredHeight(IntPtr l) {
+										get_flexibleHeight(IntPtr l) {
+											get_layoutPriority(IntPtr l) {
+													]
+											}
+

@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"JetBrains.Annotations.ImplicitUseTargetFlags");
+	addMember(l,1,"Itself");
+	addMember(l,1,"Default");
+	addMember(l,2,"Members");
+	addMember(l,3,"WithMembers");
+		]
+}
+

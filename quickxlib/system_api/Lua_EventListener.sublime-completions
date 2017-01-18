@@ -1,0 +1,152 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "EventListener:OnPointerClick(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "EventListener:OnPointerClick(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerClick(a1);
+			{ "trigger": "EventListener:OnPointerDown(Public, HideBySig)","contents": "EventListener:OnPointerDown(Public, HideBySig)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerDown(a1);
+			{ "trigger": "EventListener:OnPointerEnter(Public, HideBySig)","contents": "EventListener:OnPointerEnter(Public, HideBySig)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerEnter(a1);
+			{ "trigger": "EventListener:OnPointerExit(Public, HideBySig)","contents": "EventListener:OnPointerExit(Public, HideBySig)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerExit(a1);
+			{ "trigger": "EventListener:OnPointerUp(Public, HideBySig)","contents": "EventListener:OnPointerUp(Public, HideBySig)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerUp(a1);
+			{ "trigger": "EventListener:OnSelect(Public, HideBySig)","contents": "EventListener:OnSelect(Public, HideBySig)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSelect(a1);
+			{ "trigger": "EventListener:OnSubmit(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "EventListener:OnSubmit(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	EventListener self=(EventListener)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSubmit(a1);
+			{ "trigger": "EventListener.Get(Public, Static, HideBySig)","contents": "EventListener.Get(Public, Static, HideBySig)"},
+
+	UnityEngine.GameObject a1;
+	checkType(l,1,out a1);
+	var ret=EventListener.Get(a1);
+	set_onClick(IntPtr l) {
+		EventListener self=(EventListener)checkSelf(l);
+		EventListener.VoidDelegate v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) self.onClick=v;
+		else if(op==1) self.onClick+=v;
+		else if(op==2) self.onClick-=v;
+		set_onDown(IntPtr l) {
+			EventListener self=(EventListener)checkSelf(l);
+			EventListener.VoidDelegate v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) self.onDown=v;
+			else if(op==1) self.onDown+=v;
+			else if(op==2) self.onDown-=v;
+			set_onEnter(IntPtr l) {
+				EventListener self=(EventListener)checkSelf(l);
+				EventListener.VoidDelegate v;
+				int op=LuaDelegation.checkDelegate(l,2,out v);
+				if(op==0) self.onEnter=v;
+				else if(op==1) self.onEnter+=v;
+				else if(op==2) self.onEnter-=v;
+				set_onExit(IntPtr l) {
+					EventListener self=(EventListener)checkSelf(l);
+					EventListener.VoidDelegate v;
+					int op=LuaDelegation.checkDelegate(l,2,out v);
+					if(op==0) self.onExit=v;
+					else if(op==1) self.onExit+=v;
+					else if(op==2) self.onExit-=v;
+					set_onUp(IntPtr l) {
+						EventListener self=(EventListener)checkSelf(l);
+						EventListener.VoidDelegate v;
+						int op=LuaDelegation.checkDelegate(l,2,out v);
+						if(op==0) self.onUp=v;
+						else if(op==1) self.onUp+=v;
+						else if(op==2) self.onUp-=v;
+						set_onSelect(IntPtr l) {
+							EventListener self=(EventListener)checkSelf(l);
+							EventListener.VoidDelegate v;
+							int op=LuaDelegation.checkDelegate(l,2,out v);
+							if(op==0) self.onSelect=v;
+							else if(op==1) self.onSelect+=v;
+							else if(op==2) self.onSelect-=v;
+							set_onUpdateSelect(IntPtr l) {
+								EventListener self=(EventListener)checkSelf(l);
+								EventListener.VoidDelegate v;
+								int op=LuaDelegation.checkDelegate(l,2,out v);
+								if(op==0) self.onUpdateSelect=v;
+								else if(op==1) self.onUpdateSelect+=v;
+								else if(op==2) self.onUpdateSelect-=v;
+								set_onSubmit(IntPtr l) {
+									EventListener self=(EventListener)checkSelf(l);
+									EventListener.BaseEventDelegate v;
+									int op=LuaDelegation.checkDelegate(l,2,out v);
+									if(op==0) self.onSubmit=v;
+									else if(op==1) self.onSubmit+=v;
+									else if(op==2) self.onSubmit-=v;
+									set_onTriggerEnter(IntPtr l) {
+										EventListener self=(EventListener)checkSelf(l);
+										EventListener.VoidDelegate v;
+										int op=LuaDelegation.checkDelegate(l,2,out v);
+										if(op==0) self.onTriggerEnter=v;
+										else if(op==1) self.onTriggerEnter+=v;
+										else if(op==2) self.onTriggerEnter-=v;
+										set_onTriggerStay(IntPtr l) {
+											EventListener self=(EventListener)checkSelf(l);
+											EventListener.VoidDelegate v;
+											int op=LuaDelegation.checkDelegate(l,2,out v);
+											if(op==0) self.onTriggerStay=v;
+											else if(op==1) self.onTriggerStay+=v;
+											else if(op==2) self.onTriggerStay-=v;
+											set_onTriggerExit(IntPtr l) {
+												EventListener self=(EventListener)checkSelf(l);
+												EventListener.VoidDelegate v;
+												int op=LuaDelegation.checkDelegate(l,2,out v);
+												if(op==0) self.onTriggerExit=v;
+												else if(op==1) self.onTriggerExit+=v;
+												else if(op==2) self.onTriggerExit-=v;
+												set_onCollisionEnter(IntPtr l) {
+													EventListener self=(EventListener)checkSelf(l);
+													EventListener.VoidDelegate v;
+													int op=LuaDelegation.checkDelegate(l,2,out v);
+													if(op==0) self.onCollisionEnter=v;
+													else if(op==1) self.onCollisionEnter+=v;
+													else if(op==2) self.onCollisionEnter-=v;
+													set_onCollisionStay(IntPtr l) {
+														EventListener self=(EventListener)checkSelf(l);
+														EventListener.VoidDelegate v;
+														int op=LuaDelegation.checkDelegate(l,2,out v);
+														if(op==0) self.onCollisionStay=v;
+														else if(op==1) self.onCollisionStay+=v;
+														else if(op==2) self.onCollisionStay-=v;
+														set_onCollisionExit(IntPtr l) {
+															EventListener self=(EventListener)checkSelf(l);
+															EventListener.VoidDelegate v;
+															int op=LuaDelegation.checkDelegate(l,2,out v);
+															if(op==0) self.onCollisionExit=v;
+															else if(op==1) self.onCollisionExit+=v;
+															else if(op==2) self.onCollisionExit-=v;
+																]
+														}
+

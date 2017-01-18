@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.TouchPhase");
+	addMember(l,0,"Began");
+	addMember(l,1,"Moved");
+	addMember(l,2,"Stationary");
+	addMember(l,3,"Ended");
+	addMember(l,4,"Canceled");
+		]
+}
+

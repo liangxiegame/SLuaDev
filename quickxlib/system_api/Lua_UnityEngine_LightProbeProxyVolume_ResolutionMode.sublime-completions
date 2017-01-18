@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightProbeProxyVolume.ResolutionMode");
+	addMember(l,0,"Automatic");
+	addMember(l,1,"Custom");
+		]
+}
+

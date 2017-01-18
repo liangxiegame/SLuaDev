@@ -1,0 +1,41 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioListener()()","contents": "UnityEngine.AudioListener()()"},
+
+			{ "trigger": "AudioListener.GetOutputData(Public, Static, HideBySig)","contents": "AudioListener.GetOutputData(Public, Static, HideBySig)"},
+
+	System.Single[] a1;
+	checkArray(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	UnityEngine.AudioListener.GetOutputData(a1,a2);
+			{ "trigger": "AudioListener.GetSpectrumData(Public, Static, HideBySig)","contents": "AudioListener.GetSpectrumData(Public, Static, HideBySig)"},
+
+	System.Single[] a1;
+	checkArray(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	UnityEngine.FFTWindow a3;
+	checkEnum(l,3,out a3);
+	UnityEngine.AudioListener.GetSpectrumData(a1,a2,a3);
+	get_volume(IntPtr l) {
+		set_volume(IntPtr l) {
+			float v;
+			checkType(l,2,out v);
+			UnityEngine.AudioListener.volume=v;
+			get_pause(IntPtr l) {
+				set_pause(IntPtr l) {
+					bool v;
+					checkType(l,2,out v);
+					UnityEngine.AudioListener.pause=v;
+					get_velocityUpdateMode(IntPtr l) {
+						set_velocityUpdateMode(IntPtr l) {
+							UnityEngine.AudioListener self=(UnityEngine.AudioListener)checkSelf(l);
+							UnityEngine.AudioVelocityUpdateMode v;
+							checkEnum(l,2,out v);
+							self.velocityUpdateMode=v;
+								]
+						}
+

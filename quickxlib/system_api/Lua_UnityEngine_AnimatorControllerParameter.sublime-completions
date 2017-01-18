@@ -1,0 +1,34 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimatorControllerParameter()()","contents": "UnityEngine.AnimatorControllerParameter()()"},
+
+	get_nameHash(IntPtr l) {
+		get_type(IntPtr l) {
+			set_type(IntPtr l) {
+				UnityEngine.AnimatorControllerParameter self=(UnityEngine.AnimatorControllerParameter)checkSelf(l);
+				UnityEngine.AnimatorControllerParameterType v;
+				checkEnum(l,2,out v);
+				self.type=v;
+				get_defaultFloat(IntPtr l) {
+					set_defaultFloat(IntPtr l) {
+						UnityEngine.AnimatorControllerParameter self=(UnityEngine.AnimatorControllerParameter)checkSelf(l);
+						float v;
+						checkType(l,2,out v);
+						self.defaultFloat=v;
+						get_defaultInt(IntPtr l) {
+							set_defaultInt(IntPtr l) {
+								UnityEngine.AnimatorControllerParameter self=(UnityEngine.AnimatorControllerParameter)checkSelf(l);
+								int v;
+								checkType(l,2,out v);
+								self.defaultInt=v;
+								get_defaultBool(IntPtr l) {
+									set_defaultBool(IntPtr l) {
+										UnityEngine.AnimatorControllerParameter self=(UnityEngine.AnimatorControllerParameter)checkSelf(l);
+										bool v;
+										checkType(l,2,out v);
+										self.defaultBool=v;
+											]
+									}
+

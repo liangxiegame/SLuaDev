@@ -1,0 +1,166 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+	UnityEngine.RenderBuffer[] a1;
+	checkArray(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.CubemapFace a4;
+	checkEnum(l,5,out a4);
+	UnityEngine.Rendering.RenderBufferLoadAction[] a5;
+	checkArray(l,6,out a5);
+	UnityEngine.Rendering.RenderBufferStoreAction[] a6;
+	checkArray(l,7,out a6);
+	UnityEngine.Rendering.RenderBufferLoadAction a7;
+	checkEnum(l,8,out a7);
+	UnityEngine.Rendering.RenderBufferStoreAction a8;
+	checkEnum(l,9,out a8);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer)()","contents": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer)()"},
+
+	UnityEngine.RenderBuffer a1;
+	checkValueType(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,int)()","contents": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,int)()"},
+
+	UnityEngine.RenderBuffer a1;
+	checkValueType(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,int,UnityEngine.CubemapFace)()","contents": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,int,UnityEngine.CubemapFace)()"},
+
+	UnityEngine.RenderBuffer a1;
+	checkValueType(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.CubemapFace a4;
+	checkEnum(l,5,out a4);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+	UnityEngine.RenderBuffer a1;
+	checkValueType(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.CubemapFace a4;
+	checkEnum(l,5,out a4);
+	System.Int32 a5;
+	checkType(l,6,out a5);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer)()","contents": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer)()"},
+
+	UnityEngine.RenderBuffer[] a1;
+	checkArray(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer,int)()","contents": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer,int)()"},
+
+	UnityEngine.RenderBuffer[] a1;
+	checkArray(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer,int,UnityEngine.CubemapFace)()","contents": "UnityEngine.RenderTargetSetup(,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer,int,UnityEngine.CubemapFace)()"},
+
+	UnityEngine.RenderBuffer[] a1;
+	checkArray(l,2,out a1);
+	UnityEngine.RenderBuffer a2;
+	checkValueType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.CubemapFace a4;
+	checkEnum(l,5,out a4);
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+			{ "trigger": "UnityEngine.RenderTargetSetup()()","contents": "UnityEngine.RenderTargetSetup()()"},
+
+	color
+	set_color(IntPtr l) {
+		UnityEngine.RenderTargetSetup self;
+		checkValueType(l,1,out self);
+		UnityEngine.RenderBuffer[] v;
+		checkArray(l,2,out v);
+		self.color=v;
+		depth
+		set_depth(IntPtr l) {
+			UnityEngine.RenderTargetSetup self;
+			checkValueType(l,1,out self);
+			UnityEngine.RenderBuffer v;
+			checkValueType(l,2,out v);
+			self.depth=v;
+			mipLevel
+			set_mipLevel(IntPtr l) {
+				UnityEngine.RenderTargetSetup self;
+				checkValueType(l,1,out self);
+				System.Int32 v;
+				checkType(l,2,out v);
+				self.mipLevel=v;
+				cubemapFace
+				set_cubemapFace(IntPtr l) {
+					UnityEngine.RenderTargetSetup self;
+					checkValueType(l,1,out self);
+					UnityEngine.CubemapFace v;
+					checkEnum(l,2,out v);
+					self.cubemapFace=v;
+					depthSlice
+					set_depthSlice(IntPtr l) {
+						UnityEngine.RenderTargetSetup self;
+						checkValueType(l,1,out self);
+						System.Int32 v;
+						checkType(l,2,out v);
+						self.depthSlice=v;
+						colorLoad
+						set_colorLoad(IntPtr l) {
+							UnityEngine.RenderTargetSetup self;
+							checkValueType(l,1,out self);
+							UnityEngine.Rendering.RenderBufferLoadAction[] v;
+							checkArray(l,2,out v);
+							self.colorLoad=v;
+							colorStore
+							set_colorStore(IntPtr l) {
+								UnityEngine.RenderTargetSetup self;
+								checkValueType(l,1,out self);
+								UnityEngine.Rendering.RenderBufferStoreAction[] v;
+								checkArray(l,2,out v);
+								self.colorStore=v;
+								depthLoad
+								set_depthLoad(IntPtr l) {
+									UnityEngine.RenderTargetSetup self;
+									checkValueType(l,1,out self);
+									UnityEngine.Rendering.RenderBufferLoadAction v;
+									checkEnum(l,2,out v);
+									self.depthLoad=v;
+									depthStore
+									set_depthStore(IntPtr l) {
+										UnityEngine.RenderTargetSetup self;
+										checkValueType(l,1,out self);
+										UnityEngine.Rendering.RenderBufferStoreAction v;
+										checkEnum(l,2,out v);
+										self.depthStore=v;
+											]
+									}
+

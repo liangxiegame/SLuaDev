@@ -1,0 +1,7 @@
+﻿
+PTGame.Log.PTConsole.OnUpdateCallback 
+                ua = (PTGame.Log.PTConsole.OnUpdateCallback)checkObj(l, p);
+                ua = (PTGame.Log.PTConsole.OnUpdateCallback)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

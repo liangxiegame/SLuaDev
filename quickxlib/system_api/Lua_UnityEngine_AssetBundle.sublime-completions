@@ -1,0 +1,171 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AssetBundle()()","contents": "UnityEngine.AssetBundle()()"},
+
+			{ "trigger": "AssetBundle:Contains(Public, HideBySig)","contents": "AssetBundle:Contains(Public, HideBySig)"},
+
+	UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.Contains(a1);
+			{ "trigger": "AssetBundle:LoadAsset(Public, HideBySig)","contents": "AssetBundle:LoadAsset(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+		System.String a1;
+		checkType(l,2,out a1);
+		var ret=self.LoadAsset(a1);
+		else if(argc==3){
+			UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			System.Type a2;
+			checkType(l,3,out a2);
+			var ret=self.LoadAsset(a1,a2);
+					{ "trigger": "AssetBundle:LoadAssetAsync(Public, HideBySig)","contents": "AssetBundle:LoadAssetAsync(Public, HideBySig)"},
+
+			if(argc==2){
+				UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+				System.String a1;
+				checkType(l,2,out a1);
+				var ret=self.LoadAssetAsync(a1);
+				else if(argc==3){
+					UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+					System.String a1;
+					checkType(l,2,out a1);
+					System.Type a2;
+					checkType(l,3,out a2);
+					var ret=self.LoadAssetAsync(a1,a2);
+							{ "trigger": "AssetBundle:LoadAssetWithSubAssets(Public, HideBySig)","contents": "AssetBundle:LoadAssetWithSubAssets(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+						System.String a1;
+						checkType(l,2,out a1);
+						var ret=self.LoadAssetWithSubAssets(a1);
+						else if(argc==3){
+							UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+							System.String a1;
+							checkType(l,2,out a1);
+							System.Type a2;
+							checkType(l,3,out a2);
+							var ret=self.LoadAssetWithSubAssets(a1,a2);
+									{ "trigger": "AssetBundle:LoadAssetWithSubAssetsAsync(Public, HideBySig)","contents": "AssetBundle:LoadAssetWithSubAssetsAsync(Public, HideBySig)"},
+
+							if(argc==2){
+								UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+								System.String a1;
+								checkType(l,2,out a1);
+								var ret=self.LoadAssetWithSubAssetsAsync(a1);
+								else if(argc==3){
+									UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+									System.String a1;
+									checkType(l,2,out a1);
+									System.Type a2;
+									checkType(l,3,out a2);
+									var ret=self.LoadAssetWithSubAssetsAsync(a1,a2);
+											{ "trigger": "AssetBundle:LoadAllAssets(Public, HideBySig)","contents": "AssetBundle:LoadAllAssets(Public, HideBySig)"},
+
+									if(argc==1){
+										UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+										var ret=self.LoadAllAssets();
+										else if(argc==2){
+											UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+											System.Type a1;
+											checkType(l,2,out a1);
+											var ret=self.LoadAllAssets(a1);
+													{ "trigger": "AssetBundle:LoadAllAssetsAsync(Public, HideBySig)","contents": "AssetBundle:LoadAllAssetsAsync(Public, HideBySig)"},
+
+											if(argc==1){
+												UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+												var ret=self.LoadAllAssetsAsync();
+												else if(argc==2){
+													UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+													System.Type a1;
+													checkType(l,2,out a1);
+													var ret=self.LoadAllAssetsAsync(a1);
+															{ "trigger": "AssetBundle:Unload(Public, HideBySig)","contents": "AssetBundle:Unload(Public, HideBySig)"},
+
+													UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+													System.Boolean a1;
+													checkType(l,2,out a1);
+													self.Unload(a1);
+															{ "trigger": "AssetBundle:GetAllAssetNames(Public, HideBySig)","contents": "AssetBundle:GetAllAssetNames(Public, HideBySig)"},
+
+													UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+													var ret=self.GetAllAssetNames();
+															{ "trigger": "AssetBundle:GetAllScenePaths(Public, HideBySig)","contents": "AssetBundle:GetAllScenePaths(Public, HideBySig)"},
+
+													UnityEngine.AssetBundle self=(UnityEngine.AssetBundle)checkSelf(l);
+													var ret=self.GetAllScenePaths();
+															{ "trigger": "AssetBundle.LoadFromFileAsync(Public, Static, HideBySig)","contents": "AssetBundle.LoadFromFileAsync(Public, Static, HideBySig)"},
+
+													if(argc==1){
+														System.String a1;
+														checkType(l,1,out a1);
+														var ret=UnityEngine.AssetBundle.LoadFromFileAsync(a1);
+														else if(argc==2){
+															System.String a1;
+															checkType(l,1,out a1);
+															System.UInt32 a2;
+															checkType(l,2,out a2);
+															var ret=UnityEngine.AssetBundle.LoadFromFileAsync(a1,a2);
+															else if(argc==3){
+																System.String a1;
+																checkType(l,1,out a1);
+																System.UInt32 a2;
+																checkType(l,2,out a2);
+																System.UInt64 a3;
+																checkType(l,3,out a3);
+																var ret=UnityEngine.AssetBundle.LoadFromFileAsync(a1,a2,a3);
+																		{ "trigger": "AssetBundle.LoadFromFile(Public, Static, HideBySig)","contents": "AssetBundle.LoadFromFile(Public, Static, HideBySig)"},
+
+																if(argc==1){
+																	System.String a1;
+																	checkType(l,1,out a1);
+																	var ret=UnityEngine.AssetBundle.LoadFromFile(a1);
+																	else if(argc==2){
+																		System.String a1;
+																		checkType(l,1,out a1);
+																		System.UInt32 a2;
+																		checkType(l,2,out a2);
+																		var ret=UnityEngine.AssetBundle.LoadFromFile(a1,a2);
+																		else if(argc==3){
+																			System.String a1;
+																			checkType(l,1,out a1);
+																			System.UInt32 a2;
+																			checkType(l,2,out a2);
+																			System.UInt64 a3;
+																			checkType(l,3,out a3);
+																			var ret=UnityEngine.AssetBundle.LoadFromFile(a1,a2,a3);
+																					{ "trigger": "AssetBundle.LoadFromMemoryAsync(Public, Static, HideBySig)","contents": "AssetBundle.LoadFromMemoryAsync(Public, Static, HideBySig)"},
+
+																			if(argc==1){
+																				System.Byte[] a1;
+																				checkArray(l,1,out a1);
+																				var ret=UnityEngine.AssetBundle.LoadFromMemoryAsync(a1);
+																				else if(argc==2){
+																					System.Byte[] a1;
+																					checkArray(l,1,out a1);
+																					System.UInt32 a2;
+																					checkType(l,2,out a2);
+																					var ret=UnityEngine.AssetBundle.LoadFromMemoryAsync(a1,a2);
+																							{ "trigger": "AssetBundle.LoadFromMemory(Public, Static, HideBySig)","contents": "AssetBundle.LoadFromMemory(Public, Static, HideBySig)"},
+
+																					if(argc==1){
+																						System.Byte[] a1;
+																						checkArray(l,1,out a1);
+																						var ret=UnityEngine.AssetBundle.LoadFromMemory(a1);
+																						else if(argc==2){
+																							System.Byte[] a1;
+																							checkArray(l,1,out a1);
+																							System.UInt32 a2;
+																							checkType(l,2,out a2);
+																							var ret=UnityEngine.AssetBundle.LoadFromMemory(a1,a2);
+																							get_mainAsset(IntPtr l) {
+																								get_isStreamedSceneAssetBundle(IntPtr l) {
+																										]
+																								}
+

@@ -1,0 +1,75 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimationClip()()","contents": "UnityEngine.AnimationClip()()"},
+
+			{ "trigger": "AnimationClip:SampleAnimation(Public, HideBySig)","contents": "AnimationClip:SampleAnimation(Public, HideBySig)"},
+
+	UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+	UnityEngine.GameObject a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SampleAnimation(a1,a2);
+			{ "trigger": "AnimationClip:SetCurve(Public, HideBySig)","contents": "AnimationClip:SetCurve(Public, HideBySig)"},
+
+	UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Type a2;
+	checkType(l,3,out a2);
+	System.String a3;
+	checkType(l,4,out a3);
+	UnityEngine.AnimationCurve a4;
+	checkType(l,5,out a4);
+	self.SetCurve(a1,a2,a3,a4);
+			{ "trigger": "AnimationClip:EnsureQuaternionContinuity(Public, HideBySig)","contents": "AnimationClip:EnsureQuaternionContinuity(Public, HideBySig)"},
+
+	UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+	self.EnsureQuaternionContinuity();
+			{ "trigger": "AnimationClip:ClearCurves(Public, HideBySig)","contents": "AnimationClip:ClearCurves(Public, HideBySig)"},
+
+	UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+	self.ClearCurves();
+			{ "trigger": "AnimationClip:AddEvent(Public, HideBySig)","contents": "AnimationClip:AddEvent(Public, HideBySig)"},
+
+	UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+	UnityEngine.AnimationEvent a1;
+	checkType(l,2,out a1);
+	self.AddEvent(a1);
+	get_length(IntPtr l) {
+		get_frameRate(IntPtr l) {
+			set_frameRate(IntPtr l) {
+				UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+				float v;
+				checkType(l,2,out v);
+				self.frameRate=v;
+				get_wrapMode(IntPtr l) {
+					set_wrapMode(IntPtr l) {
+						UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+						UnityEngine.WrapMode v;
+						checkEnum(l,2,out v);
+						self.wrapMode=v;
+						get_localBounds(IntPtr l) {
+							set_localBounds(IntPtr l) {
+								UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+								UnityEngine.Bounds v;
+								checkValueType(l,2,out v);
+								self.localBounds=v;
+								get_legacy(IntPtr l) {
+									set_legacy(IntPtr l) {
+										UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+										bool v;
+										checkType(l,2,out v);
+										self.legacy=v;
+										get_humanMotion(IntPtr l) {
+											get_events(IntPtr l) {
+												set_events(IntPtr l) {
+													UnityEngine.AnimationClip self=(UnityEngine.AnimationClip)checkSelf(l);
+													UnityEngine.AnimationEvent[] v;
+													checkArray(l,2,out v);
+													self.events=v;
+														]
+												}
+

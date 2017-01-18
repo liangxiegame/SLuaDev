@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ProceduralTexture()()","contents": "UnityEngine.ProceduralTexture()()"},
+
+			{ "trigger": "ProceduralTexture:GetProceduralOutputType(Public, HideBySig)","contents": "ProceduralTexture:GetProceduralOutputType(Public, HideBySig)"},
+
+	UnityEngine.ProceduralTexture self=(UnityEngine.ProceduralTexture)checkSelf(l);
+	var ret=self.GetProceduralOutputType();
+			{ "trigger": "ProceduralTexture:GetPixels32(Public, HideBySig)","contents": "ProceduralTexture:GetPixels32(Public, HideBySig)"},
+
+	UnityEngine.ProceduralTexture self=(UnityEngine.ProceduralTexture)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	System.Int32 a4;
+	checkType(l,5,out a4);
+	var ret=self.GetPixels32(a1,a2,a3,a4);
+	get_hasAlpha(IntPtr l) {
+		get_format(IntPtr l) {
+				]
+		}
+

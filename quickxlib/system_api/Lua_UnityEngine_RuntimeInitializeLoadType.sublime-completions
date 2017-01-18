@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.RuntimeInitializeLoadType");
+	addMember(l,0,"AfterSceneLoad");
+	addMember(l,1,"BeforeSceneLoad");
+		]
+}
+

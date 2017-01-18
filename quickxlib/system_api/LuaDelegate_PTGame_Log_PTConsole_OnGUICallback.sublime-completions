@@ -1,0 +1,7 @@
+﻿
+PTGame.Log.PTConsole.OnGUICallback 
+                ua = (PTGame.Log.PTConsole.OnGUICallback)checkObj(l, p);
+                ua = (PTGame.Log.PTConsole.OnGUICallback)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

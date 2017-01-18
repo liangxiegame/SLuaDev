@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "PositionAsUV1:ModifyMesh(Public, Virtual, HideBySig)","contents": "PositionAsUV1:ModifyMesh(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.PositionAsUV1 self=(UnityEngine.UI.PositionAsUV1)checkSelf(l);
+	UnityEngine.UI.VertexHelper a1;
+	checkType(l,2,out a1);
+	self.ModifyMesh(a1);
+		]
+}
+

@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.TextureWrapMode");
+	addMember(l,0,"Repeat");
+	addMember(l,1,"Clamp");
+		]
+}
+

@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimatorClipInfo()()","contents": "UnityEngine.AnimatorClipInfo()()"},
+
+	get_clip(IntPtr l) {
+		get_weight(IntPtr l) {
+				]
+		}
+

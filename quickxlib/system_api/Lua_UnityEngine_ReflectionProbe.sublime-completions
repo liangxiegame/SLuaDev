@@ -1,0 +1,160 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ReflectionProbe()()","contents": "UnityEngine.ReflectionProbe()()"},
+
+			{ "trigger": "ReflectionProbe:RenderProbe(Public, HideBySig)","contents": "ReflectionProbe:RenderProbe(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+		var ret=self.RenderProbe();
+		else if(argc==2){
+			UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+			UnityEngine.RenderTexture a1;
+			checkType(l,2,out a1);
+			var ret=self.RenderProbe(a1);
+					{ "trigger": "ReflectionProbe:IsFinishedRendering(Public, HideBySig)","contents": "ReflectionProbe:IsFinishedRendering(Public, HideBySig)"},
+
+			UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.IsFinishedRendering(a1);
+					{ "trigger": "ReflectionProbe.BlendCubemap(Public, Static, HideBySig)","contents": "ReflectionProbe.BlendCubemap(Public, Static, HideBySig)"},
+
+			UnityEngine.Texture a1;
+			checkType(l,1,out a1);
+			UnityEngine.Texture a2;
+			checkType(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			UnityEngine.RenderTexture a4;
+			checkType(l,4,out a4);
+			var ret=UnityEngine.ReflectionProbe.BlendCubemap(a1,a2,a3,a4);
+			get_type(IntPtr l) {
+				set_type(IntPtr l) {
+					UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+					UnityEngine.Rendering.ReflectionProbeType v;
+					checkEnum(l,2,out v);
+					self.type=v;
+					get_hdr(IntPtr l) {
+						set_hdr(IntPtr l) {
+							UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.hdr=v;
+							get_size(IntPtr l) {
+								set_size(IntPtr l) {
+									UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+									UnityEngine.Vector3 v;
+									checkType(l,2,out v);
+									self.size=v;
+									get_center(IntPtr l) {
+										set_center(IntPtr l) {
+											UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+											UnityEngine.Vector3 v;
+											checkType(l,2,out v);
+											self.center=v;
+											get_nearClipPlane(IntPtr l) {
+												set_nearClipPlane(IntPtr l) {
+													UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.nearClipPlane=v;
+													get_farClipPlane(IntPtr l) {
+														set_farClipPlane(IntPtr l) {
+															UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.farClipPlane=v;
+															get_shadowDistance(IntPtr l) {
+																set_shadowDistance(IntPtr l) {
+																	UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.shadowDistance=v;
+																	get_resolution(IntPtr l) {
+																		set_resolution(IntPtr l) {
+																			UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																			int v;
+																			checkType(l,2,out v);
+																			self.resolution=v;
+																			get_cullingMask(IntPtr l) {
+																				set_cullingMask(IntPtr l) {
+																					UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																					int v;
+																					checkType(l,2,out v);
+																					self.cullingMask=v;
+																					get_clearFlags(IntPtr l) {
+																						set_clearFlags(IntPtr l) {
+																							UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																							UnityEngine.Rendering.ReflectionProbeClearFlags v;
+																							checkEnum(l,2,out v);
+																							self.clearFlags=v;
+																							get_backgroundColor(IntPtr l) {
+																								set_backgroundColor(IntPtr l) {
+																									UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																									UnityEngine.Color v;
+																									checkType(l,2,out v);
+																									self.backgroundColor=v;
+																									get_intensity(IntPtr l) {
+																										set_intensity(IntPtr l) {
+																											UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																											float v;
+																											checkType(l,2,out v);
+																											self.intensity=v;
+																											get_blendDistance(IntPtr l) {
+																												set_blendDistance(IntPtr l) {
+																													UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																													float v;
+																													checkType(l,2,out v);
+																													self.blendDistance=v;
+																													get_boxProjection(IntPtr l) {
+																														set_boxProjection(IntPtr l) {
+																															UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																															bool v;
+																															checkType(l,2,out v);
+																															self.boxProjection=v;
+																															get_bounds(IntPtr l) {
+																																get_mode(IntPtr l) {
+																																	set_mode(IntPtr l) {
+																																		UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																																		UnityEngine.Rendering.ReflectionProbeMode v;
+																																		checkEnum(l,2,out v);
+																																		self.mode=v;
+																																		get_importance(IntPtr l) {
+																																			set_importance(IntPtr l) {
+																																				UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																																				int v;
+																																				checkType(l,2,out v);
+																																				self.importance=v;
+																																				get_refreshMode(IntPtr l) {
+																																					set_refreshMode(IntPtr l) {
+																																						UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																																						UnityEngine.Rendering.ReflectionProbeRefreshMode v;
+																																						checkEnum(l,2,out v);
+																																						self.refreshMode=v;
+																																						get_timeSlicingMode(IntPtr l) {
+																																							set_timeSlicingMode(IntPtr l) {
+																																								UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																																								UnityEngine.Rendering.ReflectionProbeTimeSlicingMode v;
+																																								checkEnum(l,2,out v);
+																																								self.timeSlicingMode=v;
+																																								get_bakedTexture(IntPtr l) {
+																																									set_bakedTexture(IntPtr l) {
+																																										UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																																										UnityEngine.Texture v;
+																																										checkType(l,2,out v);
+																																										self.bakedTexture=v;
+																																										get_customBakedTexture(IntPtr l) {
+																																											set_customBakedTexture(IntPtr l) {
+																																												UnityEngine.ReflectionProbe self=(UnityEngine.ReflectionProbe)checkSelf(l);
+																																												UnityEngine.Texture v;
+																																												checkType(l,2,out v);
+																																												self.customBakedTexture=v;
+																																												get_texture(IntPtr l) {
+																																													get_minBakedCubemapResolution(IntPtr l) {
+																																														get_maxBakedCubemapResolution(IntPtr l) {
+																																																]
+																																														}
+

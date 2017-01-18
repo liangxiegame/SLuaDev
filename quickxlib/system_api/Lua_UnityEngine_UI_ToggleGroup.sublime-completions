@@ -1,0 +1,43 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "ToggleGroup:NotifyToggleOn(Public, HideBySig)","contents": "ToggleGroup:NotifyToggleOn(Public, HideBySig)"},
+
+	UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+	UnityEngine.UI.Toggle a1;
+	checkType(l,2,out a1);
+	self.NotifyToggleOn(a1);
+			{ "trigger": "ToggleGroup:UnregisterToggle(Public, HideBySig)","contents": "ToggleGroup:UnregisterToggle(Public, HideBySig)"},
+
+	UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+	UnityEngine.UI.Toggle a1;
+	checkType(l,2,out a1);
+	self.UnregisterToggle(a1);
+			{ "trigger": "ToggleGroup:RegisterToggle(Public, HideBySig)","contents": "ToggleGroup:RegisterToggle(Public, HideBySig)"},
+
+	UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+	UnityEngine.UI.Toggle a1;
+	checkType(l,2,out a1);
+	self.RegisterToggle(a1);
+			{ "trigger": "ToggleGroup:AnyTogglesOn(Public, HideBySig)","contents": "ToggleGroup:AnyTogglesOn(Public, HideBySig)"},
+
+	UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+	var ret=self.AnyTogglesOn();
+			{ "trigger": "ToggleGroup:ActiveToggles(Public, HideBySig)","contents": "ToggleGroup:ActiveToggles(Public, HideBySig)"},
+
+	UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+	var ret=self.ActiveToggles();
+			{ "trigger": "ToggleGroup:SetAllTogglesOff(Public, HideBySig)","contents": "ToggleGroup:SetAllTogglesOff(Public, HideBySig)"},
+
+	UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+	self.SetAllTogglesOff();
+	get_allowSwitchOff(IntPtr l) {
+		set_allowSwitchOff(IntPtr l) {
+			UnityEngine.UI.ToggleGroup self=(UnityEngine.UI.ToggleGroup)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.allowSwitchOff=v;
+				]
+		}
+

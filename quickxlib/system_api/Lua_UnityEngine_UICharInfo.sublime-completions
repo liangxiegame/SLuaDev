@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UICharInfo()()","contents": "UnityEngine.UICharInfo()()"},
+
+	cursorPos
+	set_cursorPos(IntPtr l) {
+		UnityEngine.UICharInfo self;
+		checkValueType(l,1,out self);
+		UnityEngine.Vector2 v;
+		checkType(l,2,out v);
+		self.cursorPos=v;
+		charWidth
+		set_charWidth(IntPtr l) {
+			UnityEngine.UICharInfo self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.charWidth=v;
+				]
+		}
+

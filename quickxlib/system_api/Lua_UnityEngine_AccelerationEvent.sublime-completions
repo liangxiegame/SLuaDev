@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AccelerationEvent()()","contents": "UnityEngine.AccelerationEvent()()"},
+
+	get_acceleration(IntPtr l) {
+		get_deltaTime(IntPtr l) {
+				]
+		}
+

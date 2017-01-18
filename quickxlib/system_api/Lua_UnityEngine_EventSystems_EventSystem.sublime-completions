@@ -1,0 +1,69 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "EventSystem:UpdateModules(Public, HideBySig)","contents": "EventSystem:UpdateModules(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+	self.UpdateModules();
+			{ "trigger": "EventSystem:SetSelectedGameObject(Public, HideBySig)","contents": "EventSystem:SetSelectedGameObject(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+		UnityEngine.GameObject a1;
+		checkType(l,2,out a1);
+		self.SetSelectedGameObject(a1);
+		else if(argc==3){
+			UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+			UnityEngine.GameObject a1;
+			checkType(l,2,out a1);
+			UnityEngine.EventSystems.BaseEventData a2;
+			checkType(l,3,out a2);
+			self.SetSelectedGameObject(a1,a2);
+					{ "trigger": "EventSystem:RaycastAll(Public, HideBySig)","contents": "EventSystem:RaycastAll(Public, HideBySig)"},
+
+			UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+			UnityEngine.EventSystems.PointerEventData a1;
+			checkType(l,2,out a1);
+			System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult> a2;
+			checkType(l,3,out a2);
+			self.RaycastAll(a1,a2);
+					{ "trigger": "EventSystem:IsPointerOverGameObject(Public, HideBySig)","contents": "EventSystem:IsPointerOverGameObject(Public, HideBySig)"},
+
+			if(argc==1){
+				UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+				var ret=self.IsPointerOverGameObject();
+				else if(argc==2){
+					UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+					System.Int32 a1;
+					checkType(l,2,out a1);
+					var ret=self.IsPointerOverGameObject(a1);
+					get_current(IntPtr l) {
+						set_current(IntPtr l) {
+							UnityEngine.EventSystems.EventSystem v;
+							checkType(l,2,out v);
+							UnityEngine.EventSystems.EventSystem.current=v;
+							get_sendNavigationEvents(IntPtr l) {
+								set_sendNavigationEvents(IntPtr l) {
+									UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.sendNavigationEvents=v;
+									get_pixelDragThreshold(IntPtr l) {
+										set_pixelDragThreshold(IntPtr l) {
+											UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+											int v;
+											checkType(l,2,out v);
+											self.pixelDragThreshold=v;
+											get_currentInputModule(IntPtr l) {
+												get_firstSelectedGameObject(IntPtr l) {
+													set_firstSelectedGameObject(IntPtr l) {
+														UnityEngine.EventSystems.EventSystem self=(UnityEngine.EventSystems.EventSystem)checkSelf(l);
+														UnityEngine.GameObject v;
+														checkType(l,2,out v);
+														self.firstSelectedGameObject=v;
+														get_currentSelectedGameObject(IntPtr l) {
+															get_alreadySelecting(IntPtr l) {
+																	]
+															}
+

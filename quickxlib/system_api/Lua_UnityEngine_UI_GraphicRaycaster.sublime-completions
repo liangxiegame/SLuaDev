@@ -1,0 +1,30 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "GraphicRaycaster:Raycast(Public, Virtual, HideBySig)","contents": "GraphicRaycaster:Raycast(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.GraphicRaycaster self=(UnityEngine.UI.GraphicRaycaster)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult> a2;
+	checkType(l,3,out a2);
+	self.Raycast(a1,a2);
+	get_sortOrderPriority(IntPtr l) {
+		get_renderOrderPriority(IntPtr l) {
+			get_ignoreReversedGraphics(IntPtr l) {
+				set_ignoreReversedGraphics(IntPtr l) {
+					UnityEngine.UI.GraphicRaycaster self=(UnityEngine.UI.GraphicRaycaster)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.ignoreReversedGraphics=v;
+					get_blockingObjects(IntPtr l) {
+						set_blockingObjects(IntPtr l) {
+							UnityEngine.UI.GraphicRaycaster self=(UnityEngine.UI.GraphicRaycaster)checkSelf(l);
+							UnityEngine.UI.GraphicRaycaster.BlockingObjects v;
+							checkEnum(l,2,out v);
+							self.blockingObjects=v;
+							get_eventCamera(IntPtr l) {
+									]
+							}
+

@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "SpineAnimationLuaWrapper:Awake(Public, HideBySig)","contents": "SpineAnimationLuaWrapper:Awake(Public, HideBySig)"},
+
+	SpineAnimationLuaWrapper self=(SpineAnimationLuaWrapper)checkSelf(l);
+	self.Awake();
+	get_AnimationName(IntPtr l) {
+		set_AnimationName(IntPtr l) {
+			SpineAnimationLuaWrapper self=(SpineAnimationLuaWrapper)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			self.AnimationName=v;
+				]
+		}
+

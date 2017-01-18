@@ -1,0 +1,73 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule()()","contents": "UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_limitX(IntPtr l) {
+				set_limitX(IntPtr l) {
+					UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystem.MinMaxCurve v;
+					checkValueType(l,2,out v);
+					self.limitX=v;
+					setBack(l,self);
+					get_limitY(IntPtr l) {
+						set_limitY(IntPtr l) {
+							UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystem.MinMaxCurve v;
+							checkValueType(l,2,out v);
+							self.limitY=v;
+							setBack(l,self);
+							get_limitZ(IntPtr l) {
+								set_limitZ(IntPtr l) {
+									UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystem.MinMaxCurve v;
+									checkValueType(l,2,out v);
+									self.limitZ=v;
+									setBack(l,self);
+									get_limit(IntPtr l) {
+										set_limit(IntPtr l) {
+											UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+											checkValueType(l,1,out self);
+											UnityEngine.ParticleSystem.MinMaxCurve v;
+											checkValueType(l,2,out v);
+											self.limit=v;
+											setBack(l,self);
+											get_dampen(IntPtr l) {
+												set_dampen(IntPtr l) {
+													UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+													checkValueType(l,1,out self);
+													float v;
+													checkType(l,2,out v);
+													self.dampen=v;
+													setBack(l,self);
+													get_separateAxes(IntPtr l) {
+														set_separateAxes(IntPtr l) {
+															UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+															checkValueType(l,1,out self);
+															bool v;
+															checkType(l,2,out v);
+															self.separateAxes=v;
+															setBack(l,self);
+															get_space(IntPtr l) {
+																set_space(IntPtr l) {
+																	UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule self;
+																	checkValueType(l,1,out self);
+																	UnityEngine.ParticleSystemSimulationSpace v;
+																	checkEnum(l,2,out v);
+																	self.space=v;
+																	setBack(l,self);
+																		]
+																}
+

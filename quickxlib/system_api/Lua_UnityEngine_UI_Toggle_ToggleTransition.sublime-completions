@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.Toggle.ToggleTransition");
+	addMember(l,0,"None");
+	addMember(l,1,"Fade");
+		]
+}
+

@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Events.UnityEvent()()","contents": "UnityEngine.Events.UnityEvent()()"},
+
+			{ "trigger": "UnityEvent:AddListener(Public, HideBySig)","contents": "UnityEvent:AddListener(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEvent self=(UnityEngine.Events.UnityEvent)checkSelf(l);
+	UnityEngine.Events.UnityAction a1;
+	LuaDelegation.checkDelegate(l,2,out a1);
+	self.AddListener(a1);
+			{ "trigger": "UnityEvent:RemoveListener(Public, HideBySig)","contents": "UnityEvent:RemoveListener(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEvent self=(UnityEngine.Events.UnityEvent)checkSelf(l);
+	UnityEngine.Events.UnityAction a1;
+	LuaDelegation.checkDelegate(l,2,out a1);
+	self.RemoveListener(a1);
+			{ "trigger": "UnityEvent:Invoke(Public, HideBySig)","contents": "UnityEvent:Invoke(Public, HideBySig)"},
+
+	UnityEngine.Events.UnityEvent self=(UnityEngine.Events.UnityEvent)checkSelf(l);
+	self.Invoke();
+		]
+}
+

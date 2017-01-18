@@ -1,0 +1,29 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Sprites.DataUtility()()","contents": "UnityEngine.Sprites.DataUtility()()"},
+
+			{ "trigger": "DataUtility.GetInnerUV(Public, Static, HideBySig)","contents": "DataUtility.GetInnerUV(Public, Static, HideBySig)"},
+
+	UnityEngine.Sprite a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Sprites.DataUtility.GetInnerUV(a1);
+			{ "trigger": "DataUtility.GetOuterUV(Public, Static, HideBySig)","contents": "DataUtility.GetOuterUV(Public, Static, HideBySig)"},
+
+	UnityEngine.Sprite a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Sprites.DataUtility.GetOuterUV(a1);
+			{ "trigger": "DataUtility.GetPadding(Public, Static, HideBySig)","contents": "DataUtility.GetPadding(Public, Static, HideBySig)"},
+
+	UnityEngine.Sprite a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Sprites.DataUtility.GetPadding(a1);
+			{ "trigger": "DataUtility.GetMinSize(Public, Static, HideBySig)","contents": "DataUtility.GetMinSize(Public, Static, HideBySig)"},
+
+	UnityEngine.Sprite a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Sprites.DataUtility.GetMinSize(a1);
+		]
+}
+

@@ -1,0 +1,67 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rendering.SphericalHarmonicsL2()()","contents": "UnityEngine.Rendering.SphericalHarmonicsL2()()"},
+
+			{ "trigger": "SphericalHarmonicsL2:Clear(Public, HideBySig)","contents": "SphericalHarmonicsL2:Clear(Public, HideBySig)"},
+
+	UnityEngine.Rendering.SphericalHarmonicsL2 self;
+	checkValueType(l,1,out self);
+	self.Clear();
+			{ "trigger": "SphericalHarmonicsL2:AddAmbientLight(Public, HideBySig)","contents": "SphericalHarmonicsL2:AddAmbientLight(Public, HideBySig)"},
+
+	UnityEngine.Rendering.SphericalHarmonicsL2 self;
+	checkValueType(l,1,out self);
+	UnityEngine.Color a1;
+	checkType(l,2,out a1);
+	self.AddAmbientLight(a1);
+			{ "trigger": "SphericalHarmonicsL2:AddDirectionalLight(Public, HideBySig)","contents": "SphericalHarmonicsL2:AddDirectionalLight(Public, HideBySig)"},
+
+	UnityEngine.Rendering.SphericalHarmonicsL2 self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Color a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+	self.AddDirectionalLight(a1,a2,a3);
+			{ "trigger": "SphericalHarmonicsL2.op_Multiply(Public, Static, HideBySig, SpecialName)","contents": "SphericalHarmonicsL2.op_Multiply(Public, Static, HideBySig, SpecialName)"},
+
+	if(matchType(l,argc,1,float,UnityEngine.Rendering.SphericalHarmonicsL2)){
+		System.Single a1;
+		checkType(l,1,out a1);
+		UnityEngine.Rendering.SphericalHarmonicsL2 a2;
+		checkValueType(l,2,out a2);
+		var ret=a1*a2;
+		else if(matchType(l,argc,1,UnityEngine.Rendering.SphericalHarmonicsL2,float)){
+			UnityEngine.Rendering.SphericalHarmonicsL2 a1;
+			checkValueType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			var ret=a1*a2;
+					{ "trigger": "SphericalHarmonicsL2.op_Addition(Public, Static, HideBySig, SpecialName)","contents": "SphericalHarmonicsL2.op_Addition(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Rendering.SphericalHarmonicsL2 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Rendering.SphericalHarmonicsL2 a2;
+			checkValueType(l,2,out a2);
+			var ret=a1+a2;
+					{ "trigger": "SphericalHarmonicsL2.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "SphericalHarmonicsL2.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Rendering.SphericalHarmonicsL2 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Rendering.SphericalHarmonicsL2 a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1==a2);
+					{ "trigger": "SphericalHarmonicsL2.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "SphericalHarmonicsL2.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Rendering.SphericalHarmonicsL2 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Rendering.SphericalHarmonicsL2 a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1!=a2);
+				]
+		}
+

@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	x
+	AbsClass self=(AbsClass)checkSelf(l);
+	pushValue(l,self.x);
+	return 2;
+}
+set_x(IntPtr l) {
+	AbsClass self=(AbsClass)checkSelf(l);
+	System.Int32 v;
+	checkType(l,2,out v);
+	self.x=v;
+		]
+}
+

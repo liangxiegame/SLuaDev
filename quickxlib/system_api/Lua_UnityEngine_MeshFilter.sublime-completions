@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.MeshFilter()()","contents": "UnityEngine.MeshFilter()()"},
+
+	get_mesh(IntPtr l) {
+		set_mesh(IntPtr l) {
+			UnityEngine.MeshFilter self=(UnityEngine.MeshFilter)checkSelf(l);
+			UnityEngine.Mesh v;
+			checkType(l,2,out v);
+			self.mesh=v;
+			get_sharedMesh(IntPtr l) {
+				set_sharedMesh(IntPtr l) {
+					UnityEngine.MeshFilter self=(UnityEngine.MeshFilter)checkSelf(l);
+					UnityEngine.Mesh v;
+					checkType(l,2,out v);
+					self.sharedMesh=v;
+						]
+				}
+

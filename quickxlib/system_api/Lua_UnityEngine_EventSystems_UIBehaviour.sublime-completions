@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UIBehaviour:IsActive(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "UIBehaviour:IsActive(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.UIBehaviour self=(UnityEngine.EventSystems.UIBehaviour)checkSelf(l);
+	var ret=self.IsActive();
+			{ "trigger": "UIBehaviour:IsDestroyed(Public, HideBySig)","contents": "UIBehaviour:IsDestroyed(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.UIBehaviour self=(UnityEngine.EventSystems.UIBehaviour)checkSelf(l);
+	var ret=self.IsDestroyed();
+		]
+}
+

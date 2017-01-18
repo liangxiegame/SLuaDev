@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.NavMeshPath()()","contents": "UnityEngine.NavMeshPath()()"},
+
+			{ "trigger": "NavMeshPath:GetCornersNonAlloc(Public, HideBySig)","contents": "NavMeshPath:GetCornersNonAlloc(Public, HideBySig)"},
+
+	UnityEngine.NavMeshPath self=(UnityEngine.NavMeshPath)checkSelf(l);
+	UnityEngine.Vector3[] a1;
+	checkArray(l,2,out a1);
+	var ret=self.GetCornersNonAlloc(a1);
+			{ "trigger": "NavMeshPath:ClearCorners(Public, HideBySig)","contents": "NavMeshPath:ClearCorners(Public, HideBySig)"},
+
+	UnityEngine.NavMeshPath self=(UnityEngine.NavMeshPath)checkSelf(l);
+	self.ClearCorners();
+	get_corners(IntPtr l) {
+		get_status(IntPtr l) {
+				]
+		}
+

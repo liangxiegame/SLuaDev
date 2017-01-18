@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnchoredJoint2D()()","contents": "UnityEngine.AnchoredJoint2D()()"},
+
+	get_anchor(IntPtr l) {
+		set_anchor(IntPtr l) {
+			UnityEngine.AnchoredJoint2D self=(UnityEngine.AnchoredJoint2D)checkSelf(l);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.anchor=v;
+			get_connectedAnchor(IntPtr l) {
+				set_connectedAnchor(IntPtr l) {
+					UnityEngine.AnchoredJoint2D self=(UnityEngine.AnchoredJoint2D)checkSelf(l);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.connectedAnchor=v;
+					get_autoConfigureConnectedAnchor(IntPtr l) {
+						set_autoConfigureConnectedAnchor(IntPtr l) {
+							UnityEngine.AnchoredJoint2D self=(UnityEngine.AnchoredJoint2D)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.autoConfigureConnectedAnchor=v;
+								]
+						}
+

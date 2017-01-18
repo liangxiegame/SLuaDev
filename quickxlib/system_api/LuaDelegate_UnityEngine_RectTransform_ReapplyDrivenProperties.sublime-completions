@@ -1,0 +1,8 @@
+﻿
+UnityEngine.RectTransform.ReapplyDrivenProperties 
+                ua = (UnityEngine.RectTransform.ReapplyDrivenProperties)checkObj(l, p);
+                ua = (UnityEngine.RectTransform.ReapplyDrivenProperties)ld.d;
+            ua = (UnityEngine.RectTransform a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

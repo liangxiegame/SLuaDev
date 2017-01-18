@@ -1,0 +1,117 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Scrollbar:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Scrollbar:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.UI.CanvasUpdate a1;
+	checkEnum(l,2,out a1);
+	self.Rebuild(a1);
+			{ "trigger": "Scrollbar:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Scrollbar:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	self.LayoutComplete();
+			{ "trigger": "Scrollbar:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Scrollbar:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	self.GraphicUpdateComplete();
+			{ "trigger": "Scrollbar:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Scrollbar:OnBeginDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnBeginDrag(a1);
+			{ "trigger": "Scrollbar:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Scrollbar:OnDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnDrag(a1);
+			{ "trigger": "Scrollbar:OnPointerDown(Public, Virtual, HideBySig)","contents": "Scrollbar:OnPointerDown(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerDown(a1);
+			{ "trigger": "Scrollbar:OnPointerUp(Public, Virtual, HideBySig)","contents": "Scrollbar:OnPointerUp(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerUp(a1);
+			{ "trigger": "Scrollbar:OnMove(Public, Virtual, HideBySig)","contents": "Scrollbar:OnMove(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.EventSystems.AxisEventData a1;
+	checkType(l,2,out a1);
+	self.OnMove(a1);
+			{ "trigger": "Scrollbar:FindSelectableOnLeft(Public, Virtual, HideBySig)","contents": "Scrollbar:FindSelectableOnLeft(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	var ret=self.FindSelectableOnLeft();
+			{ "trigger": "Scrollbar:FindSelectableOnRight(Public, Virtual, HideBySig)","contents": "Scrollbar:FindSelectableOnRight(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	var ret=self.FindSelectableOnRight();
+			{ "trigger": "Scrollbar:FindSelectableOnUp(Public, Virtual, HideBySig)","contents": "Scrollbar:FindSelectableOnUp(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	var ret=self.FindSelectableOnUp();
+			{ "trigger": "Scrollbar:FindSelectableOnDown(Public, Virtual, HideBySig)","contents": "Scrollbar:FindSelectableOnDown(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	var ret=self.FindSelectableOnDown();
+			{ "trigger": "Scrollbar:OnInitializePotentialDrag(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Scrollbar:OnInitializePotentialDrag(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnInitializePotentialDrag(a1);
+			{ "trigger": "Scrollbar:SetDirection(Public, HideBySig)","contents": "Scrollbar:SetDirection(Public, HideBySig)"},
+
+	UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+	UnityEngine.UI.Scrollbar.Direction a1;
+	checkEnum(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.SetDirection(a1,a2);
+	get_handleRect(IntPtr l) {
+		set_handleRect(IntPtr l) {
+			UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+			UnityEngine.RectTransform v;
+			checkType(l,2,out v);
+			self.handleRect=v;
+			get_direction(IntPtr l) {
+				set_direction(IntPtr l) {
+					UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+					UnityEngine.UI.Scrollbar.Direction v;
+					checkEnum(l,2,out v);
+					self.direction=v;
+					get_value(IntPtr l) {
+						set_value(IntPtr l) {
+							UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.value=v;
+							get_size(IntPtr l) {
+								set_size(IntPtr l) {
+									UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.size=v;
+									get_numberOfSteps(IntPtr l) {
+										set_numberOfSteps(IntPtr l) {
+											UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+											int v;
+											checkType(l,2,out v);
+											self.numberOfSteps=v;
+											get_onValueChanged(IntPtr l) {
+												set_onValueChanged(IntPtr l) {
+													UnityEngine.UI.Scrollbar self=(UnityEngine.UI.Scrollbar)checkSelf(l);
+													UnityEngine.UI.Scrollbar.ScrollEvent v;
+													checkType(l,2,out v);
+													self.onValueChanged=v;
+														]
+												}
+

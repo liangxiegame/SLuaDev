@@ -1,0 +1,8 @@
+﻿
+System.Action<UnityEngine.Vector3> 
+                ua = (System.Action<UnityEngine.Vector3>)checkObj(l, p);
+                ua = (System.Action<UnityEngine.Vector3>)ld.d;
+            ua = (UnityEngine.Vector3 a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

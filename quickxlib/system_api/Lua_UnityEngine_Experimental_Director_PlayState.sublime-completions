@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Experimental.Director.PlayState");
+	addMember(l,0,"Paused");
+	addMember(l,1,"Playing");
+		]
+}
+

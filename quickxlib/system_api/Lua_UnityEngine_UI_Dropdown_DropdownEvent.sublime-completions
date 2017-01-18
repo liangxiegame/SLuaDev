@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.Dropdown.DropdownEvent()()","contents": "UnityEngine.UI.Dropdown.DropdownEvent()()"},
+
+		]
+}
+

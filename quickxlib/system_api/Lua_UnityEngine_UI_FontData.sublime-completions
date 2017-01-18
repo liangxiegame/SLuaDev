@@ -1,0 +1,82 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.FontData()()","contents": "UnityEngine.UI.FontData()()"},
+
+	get_defaultFontData(IntPtr l) {
+		get_font(IntPtr l) {
+			set_font(IntPtr l) {
+				UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+				UnityEngine.Font v;
+				checkType(l,2,out v);
+				self.font=v;
+				get_fontSize(IntPtr l) {
+					set_fontSize(IntPtr l) {
+						UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+						int v;
+						checkType(l,2,out v);
+						self.fontSize=v;
+						get_fontStyle(IntPtr l) {
+							set_fontStyle(IntPtr l) {
+								UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+								UnityEngine.FontStyle v;
+								checkEnum(l,2,out v);
+								self.fontStyle=v;
+								get_bestFit(IntPtr l) {
+									set_bestFit(IntPtr l) {
+										UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+										bool v;
+										checkType(l,2,out v);
+										self.bestFit=v;
+										get_minSize(IntPtr l) {
+											set_minSize(IntPtr l) {
+												UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+												int v;
+												checkType(l,2,out v);
+												self.minSize=v;
+												get_maxSize(IntPtr l) {
+													set_maxSize(IntPtr l) {
+														UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+														int v;
+														checkType(l,2,out v);
+														self.maxSize=v;
+														get_alignment(IntPtr l) {
+															set_alignment(IntPtr l) {
+																UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+																UnityEngine.TextAnchor v;
+																checkEnum(l,2,out v);
+																self.alignment=v;
+																get_alignByGeometry(IntPtr l) {
+																	set_alignByGeometry(IntPtr l) {
+																		UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+																		bool v;
+																		checkType(l,2,out v);
+																		self.alignByGeometry=v;
+																		get_richText(IntPtr l) {
+																			set_richText(IntPtr l) {
+																				UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+																				bool v;
+																				checkType(l,2,out v);
+																				self.richText=v;
+																				get_horizontalOverflow(IntPtr l) {
+																					set_horizontalOverflow(IntPtr l) {
+																						UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+																						UnityEngine.HorizontalWrapMode v;
+																						checkEnum(l,2,out v);
+																						self.horizontalOverflow=v;
+																						get_verticalOverflow(IntPtr l) {
+																							set_verticalOverflow(IntPtr l) {
+																								UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+																								UnityEngine.VerticalWrapMode v;
+																								checkEnum(l,2,out v);
+																								self.verticalOverflow=v;
+																								get_lineSpacing(IntPtr l) {
+																									set_lineSpacing(IntPtr l) {
+																										UnityEngine.UI.FontData self=(UnityEngine.UI.FontData)checkSelf(l);
+																										float v;
+																										checkType(l,2,out v);
+																										self.lineSpacing=v;
+																											]
+																									}
+

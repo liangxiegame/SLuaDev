@@ -1,0 +1,30 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.NavMeshTriangulation()()","contents": "UnityEngine.NavMeshTriangulation()()"},
+
+	vertices
+	set_vertices(IntPtr l) {
+		UnityEngine.NavMeshTriangulation self;
+		checkValueType(l,1,out self);
+		UnityEngine.Vector3[] v;
+		checkArray(l,2,out v);
+		self.vertices=v;
+		indices
+		set_indices(IntPtr l) {
+			UnityEngine.NavMeshTriangulation self;
+			checkValueType(l,1,out self);
+			System.Int32[] v;
+			checkArray(l,2,out v);
+			self.indices=v;
+			areas
+			set_areas(IntPtr l) {
+				UnityEngine.NavMeshTriangulation self;
+				checkValueType(l,1,out self);
+				System.Int32[] v;
+				checkArray(l,2,out v);
+				self.areas=v;
+					]
+			}
+

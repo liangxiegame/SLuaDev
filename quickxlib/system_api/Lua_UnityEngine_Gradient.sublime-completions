@@ -1,0 +1,35 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Gradient()()","contents": "UnityEngine.Gradient()()"},
+
+			{ "trigger": "Gradient:Evaluate(Public, HideBySig)","contents": "Gradient:Evaluate(Public, HideBySig)"},
+
+	UnityEngine.Gradient self=(UnityEngine.Gradient)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.Evaluate(a1);
+			{ "trigger": "Gradient:SetKeys(Public, HideBySig)","contents": "Gradient:SetKeys(Public, HideBySig)"},
+
+	UnityEngine.Gradient self=(UnityEngine.Gradient)checkSelf(l);
+	UnityEngine.GradientColorKey[] a1;
+	checkArray(l,2,out a1);
+	UnityEngine.GradientAlphaKey[] a2;
+	checkArray(l,3,out a2);
+	self.SetKeys(a1,a2);
+	get_colorKeys(IntPtr l) {
+		set_colorKeys(IntPtr l) {
+			UnityEngine.Gradient self=(UnityEngine.Gradient)checkSelf(l);
+			UnityEngine.GradientColorKey[] v;
+			checkArray(l,2,out v);
+			self.colorKeys=v;
+			get_alphaKeys(IntPtr l) {
+				set_alphaKeys(IntPtr l) {
+					UnityEngine.Gradient self=(UnityEngine.Gradient)checkSelf(l);
+					UnityEngine.GradientAlphaKey[] v;
+					checkArray(l,2,out v);
+					self.alphaKeys=v;
+						]
+				}
+

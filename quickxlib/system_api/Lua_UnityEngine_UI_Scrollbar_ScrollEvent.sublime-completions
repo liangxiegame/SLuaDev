@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.Scrollbar.ScrollEvent()()","contents": "UnityEngine.UI.Scrollbar.ScrollEvent()()"},
+
+		]
+}
+

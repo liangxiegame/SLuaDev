@@ -1,0 +1,62 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Analytics.SetUserId(Public, Static, HideBySig)","contents": "Analytics.SetUserId(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Analytics.Analytics.SetUserId(a1);
+			{ "trigger": "Analytics.SetUserGender(Public, Static, HideBySig)","contents": "Analytics.SetUserGender(Public, Static, HideBySig)"},
+
+	UnityEngine.Analytics.Gender a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.Analytics.Analytics.SetUserGender(a1);
+			{ "trigger": "Analytics.SetUserBirthYear(Public, Static, HideBySig)","contents": "Analytics.SetUserBirthYear(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Analytics.Analytics.SetUserBirthYear(a1);
+			{ "trigger": "Analytics.Transaction(Public, Static, HideBySig)","contents": "Analytics.Transaction(Public, Static, HideBySig)"},
+
+	if(argc==3){
+		System.String a1;
+		checkType(l,1,out a1);
+		System.Decimal a2;
+		checkValueType(l,2,out a2);
+		System.String a3;
+		checkType(l,3,out a3);
+		var ret=UnityEngine.Analytics.Analytics.Transaction(a1,a2,a3);
+		else if(argc==5){
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Decimal a2;
+			checkValueType(l,2,out a2);
+			System.String a3;
+			checkType(l,3,out a3);
+			System.String a4;
+			checkType(l,4,out a4);
+			System.String a5;
+			checkType(l,5,out a5);
+			var ret=UnityEngine.Analytics.Analytics.Transaction(a1,a2,a3,a4,a5);
+					{ "trigger": "Analytics.CustomEvent(Public, Static, HideBySig)","contents": "Analytics.CustomEvent(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				System.String a1;
+				checkType(l,1,out a1);
+				var ret=UnityEngine.Analytics.Analytics.CustomEvent(a1);
+				else if(matchType(l,argc,1,string,System.Collections.Generic.IDictionary<System.String,System.Object>)){
+					System.String a1;
+					checkType(l,1,out a1);
+					System.Collections.Generic.IDictionary<System.String,System.Object> a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.Analytics.Analytics.CustomEvent(a1,a2);
+					else if(matchType(l,argc,1,string,UnityEngine.Vector3)){
+						System.String a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Analytics.Analytics.CustomEvent(a1,a2);
+							]
+					}
+

@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.StackTraceUtility()()","contents": "UnityEngine.StackTraceUtility()()"},
+
+			{ "trigger": "StackTraceUtility.ExtractStackTrace(Public, Static, HideBySig)","contents": "StackTraceUtility.ExtractStackTrace(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.StackTraceUtility.ExtractStackTrace();
+			{ "trigger": "StackTraceUtility.ExtractStringFromException(Public, Static, HideBySig)","contents": "StackTraceUtility.ExtractStringFromException(Public, Static, HideBySig)"},
+
+	System.Object a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.StackTraceUtility.ExtractStringFromException(a1);
+		]
+}
+

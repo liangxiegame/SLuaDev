@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.MaskableGraphic.CullStateChangedEvent()()","contents": "UnityEngine.UI.MaskableGraphic.CullStateChangedEvent()()"},
+
+		]
+}
+

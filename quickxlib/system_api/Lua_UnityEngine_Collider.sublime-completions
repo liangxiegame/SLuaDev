@@ -1,0 +1,56 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Collider()()","contents": "UnityEngine.Collider()()"},
+
+			{ "trigger": "Collider:ClosestPointOnBounds(Public, HideBySig)","contents": "Collider:ClosestPointOnBounds(Public, HideBySig)"},
+
+	UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.ClosestPointOnBounds(a1);
+			{ "trigger": "Collider:Raycast(Public, HideBySig)","contents": "Collider:Raycast(Public, HideBySig)"},
+
+	UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+	UnityEngine.Ray a1;
+	checkValueType(l,2,out a1);
+	UnityEngine.RaycastHit a2;
+	System.Single a3;
+	checkType(l,4,out a3);
+	var ret=self.Raycast(a1,out a2,a3);
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			get_attachedRigidbody(IntPtr l) {
+				get_isTrigger(IntPtr l) {
+					set_isTrigger(IntPtr l) {
+						UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+						bool v;
+						checkType(l,2,out v);
+						self.isTrigger=v;
+						get_contactOffset(IntPtr l) {
+							set_contactOffset(IntPtr l) {
+								UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+								float v;
+								checkType(l,2,out v);
+								self.contactOffset=v;
+								get_material(IntPtr l) {
+									set_material(IntPtr l) {
+										UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+										UnityEngine.PhysicMaterial v;
+										checkType(l,2,out v);
+										self.material=v;
+										get_sharedMaterial(IntPtr l) {
+											set_sharedMaterial(IntPtr l) {
+												UnityEngine.Collider self=(UnityEngine.Collider)checkSelf(l);
+												UnityEngine.PhysicMaterial v;
+												checkType(l,2,out v);
+												self.sharedMaterial=v;
+												get_bounds(IntPtr l) {
+														]
+												}
+

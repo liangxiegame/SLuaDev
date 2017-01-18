@@ -1,0 +1,372 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "API()()","contents": "API()()"},
+
+			{ "trigger": "API.CleanLuaEnv(Public, Static, HideBySig)","contents": "API.CleanLuaEnv(Public, Static, HideBySig)"},
+
+	API.CleanLuaEnv();
+			{ "trigger": "API.Log(Public, Static, HideBySig)","contents": "API.Log(Public, Static, HideBySig)"},
+
+	System.Object a1;
+	checkType(l,1,out a1);
+	API.Log(a1);
+			{ "trigger": "API.LogError(Public, Static, HideBySig)","contents": "API.LogError(Public, Static, HideBySig)"},
+
+	System.Object a1;
+	checkType(l,1,out a1);
+	API.LogError(a1);
+			{ "trigger": "API.LogWarning(Public, Static, HideBySig)","contents": "API.LogWarning(Public, Static, HideBySig)"},
+
+	System.Object a1;
+	checkType(l,1,out a1);
+	API.LogWarning(a1);
+			{ "trigger": "API.AddComponent(Public, Static, HideBySig)","contents": "API.AddComponent(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,UnityEngine.GameObject,System.Type)){
+		UnityEngine.GameObject a1;
+		checkType(l,1,out a1);
+		System.Type a2;
+		checkType(l,2,out a2);
+		var ret=API.AddComponent(a1,a2);
+		else if(matchType(l,argc,1,UnityEngine.GameObject,string)){
+			UnityEngine.GameObject a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			var ret=API.AddComponent(a1,a2);
+					{ "trigger": "API.AddMissComponent(Public, Static, HideBySig)","contents": "API.AddMissComponent(Public, Static, HideBySig)"},
+
+			UnityEngine.GameObject a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			var ret=API.AddMissComponent(a1,a2);
+					{ "trigger": "API.StartCoroutine(Public, Static, HideBySig)","contents": "API.StartCoroutine(Public, Static, HideBySig)"},
+
+			System.Collections.IEnumerator a1;
+			checkType(l,1,out a1);
+			API.StartCoroutine(a1);
+					{ "trigger": "API.RunCoroutine(Public, Static, HideBySig)","contents": "API.RunCoroutine(Public, Static, HideBySig)"},
+
+			UnityEngine.YieldInstruction a1;
+			checkType(l,1,out a1);
+			SLua.LuaFunction a2;
+			checkType(l,2,out a2);
+			System.Object a3;
+			checkType(l,3,out a3);
+			API.RunCoroutine(a1,a2,a3);
+					{ "trigger": "API.PackFiles(Public, Static, HideBySig)","contents": "API.PackFiles(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			API.PackFiles(a1,a2);
+					{ "trigger": "API.UnpackFiles(Public, Static, HideBySig)","contents": "API.UnpackFiles(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			var ret=API.UnpackFiles(a1,a2);
+					{ "trigger": "API.SendRequest(Public, Static, HideBySig)","contents": "API.SendRequest(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			SLua.LuaFunction a3;
+			checkType(l,3,out a3);
+			API.SendRequest(a1,a2,a3);
+					{ "trigger": "API.DownLoad(Public, Static, HideBySig)","contents": "API.DownLoad(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.String a2;
+			checkType(l,2,out a2);
+			System.Object a3;
+			checkType(l,3,out a3);
+			SLua.LuaFunction a4;
+			checkType(l,4,out a4);
+			SLua.LuaFunction a5;
+			checkType(l,5,out a5);
+			API.DownLoad(a1,a2,a3,a4,a5);
+					{ "trigger": "API.AddTimer(Public, Static, HideBySig)","contents": "API.AddTimer(Public, Static, HideBySig)"},
+
+			if(argc==2){
+				System.Single a1;
+				checkType(l,1,out a1);
+				Callback<MeTimer> a2;
+				LuaDelegation.checkDelegate(l,2,out a2);
+				var ret=API.AddTimer(a1,a2);
+				else if(argc==3){
+					System.Single a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					Callback<MeTimer> a3;
+					LuaDelegation.checkDelegate(l,3,out a3);
+					var ret=API.AddTimer(a1,a2,a3);
+							{ "trigger": "API.KillTimer(Public, Static, HideBySig)","contents": "API.KillTimer(Public, Static, HideBySig)"},
+
+					MeTimer a1;
+					checkType(l,1,out a1);
+					API.KillTimer(a1);
+							{ "trigger": "API.HashToMD5Hex(Public, Static, HideBySig)","contents": "API.HashToMD5Hex(Public, Static, HideBySig)"},
+
+					System.String a1;
+					checkType(l,1,out a1);
+					var ret=API.HashToMD5Hex(a1);
+							{ "trigger": "API.MD5(Public, Static, HideBySig)","contents": "API.MD5(Public, Static, HideBySig)"},
+
+					System.String a1;
+					checkType(l,1,out a1);
+					var ret=API.MD5(a1);
+							{ "trigger": "API.MD5File(Public, Static, HideBySig)","contents": "API.MD5File(Public, Static, HideBySig)"},
+
+					System.String a1;
+					checkType(l,1,out a1);
+					var ret=API.MD5File(a1);
+							{ "trigger": "API.RC4(Public, Static, HideBySig)","contents": "API.RC4(Public, Static, HideBySig)"},
+
+					if(matchType(l,argc,1,System.Byte[],string)){
+						System.Byte[] a1;
+						checkArray(l,1,out a1);
+						System.String a2;
+						checkType(l,2,out a2);
+						var ret=API.RC4(a1,a2);
+						else if(matchType(l,argc,1,string,string)){
+							System.String a1;
+							checkType(l,1,out a1);
+							System.String a2;
+							checkType(l,2,out a2);
+							var ret=API.RC4(a1,a2);
+									{ "trigger": "API.Encrypt(Public, Static, HideBySig)","contents": "API.Encrypt(Public, Static, HideBySig)"},
+
+							System.Byte[] a1;
+							checkType(l,1,out a1);
+							API.Encrypt(ref a1);
+									{ "trigger": "API.EncryptAll(Public, Static, HideBySig)","contents": "API.EncryptAll(Public, Static, HideBySig)"},
+
+							System.Byte[] a1;
+							checkType(l,1,out a1);
+							API.EncryptAll(ref a1);
+									{ "trigger": "API.StreamToBytes(Public, Static, HideBySig)","contents": "API.StreamToBytes(Public, Static, HideBySig)"},
+
+							System.IO.Stream a1;
+							checkType(l,1,out a1);
+							var ret=API.StreamToBytes(a1);
+									{ "trigger": "API.BytesToStream(Public, Static, HideBySig)","contents": "API.BytesToStream(Public, Static, HideBySig)"},
+
+							System.Byte[] a1;
+							checkArray(l,1,out a1);
+							var ret=API.BytesToStream(a1);
+									{ "trigger": "API.Raycast(Public, Static, HideBySig)","contents": "API.Raycast(Public, Static, HideBySig)"},
+
+							if(argc==2){
+								UnityEngine.Ray a1;
+								checkValueType(l,1,out a1);
+								UnityEngine.RaycastHit a2;
+								var ret=API.Raycast(a1,out a2);
+								else if(argc==4){
+									UnityEngine.Ray a1;
+									checkValueType(l,1,out a1);
+									UnityEngine.RaycastHit a2;
+									System.Single a3;
+									checkType(l,3,out a3);
+									System.Int32 a4;
+									checkType(l,4,out a4);
+									var ret=API.Raycast(a1,out a2,a3,a4);
+											{ "trigger": "API.LoadPTBundle(Public, Static, HideBySig)","contents": "API.LoadPTBundle(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									Callback<System.String,UnityEngine.AssetBundle,System.Object> a2;
+									LuaDelegation.checkDelegate(l,2,out a2);
+									API.LoadPTBundle(a1,a2);
+											{ "trigger": "API.LoadPTBundleSync(Public, Static, HideBySig)","contents": "API.LoadPTBundleSync(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									API.LoadPTBundleSync(a1);
+											{ "trigger": "API.LoadPTTexture(Public, Static, HideBySig)","contents": "API.LoadPTTexture(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									System.String a2;
+									checkType(l,2,out a2);
+									var ret=API.LoadPTTexture(a1,a2);
+											{ "trigger": "API.LoadPTAsset(Public, Static, HideBySig)","contents": "API.LoadPTAsset(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									System.String a2;
+									checkType(l,2,out a2);
+									var ret=API.LoadPTAsset(a1,a2);
+											{ "trigger": "API.LoadPTPrefab(Public, Static, HideBySig)","contents": "API.LoadPTPrefab(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									System.String a2;
+									checkType(l,2,out a2);
+									var ret=API.LoadPTPrefab(a1,a2);
+											{ "trigger": "API.LoadPTAudioClip(Public, Static, HideBySig)","contents": "API.LoadPTAudioClip(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									System.String a2;
+									checkType(l,2,out a2);
+									var ret=API.LoadPTAudioClip(a1,a2);
+											{ "trigger": "API.UnLoadPTBundle(Public, Static, HideBySig)","contents": "API.UnLoadPTBundle(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									System.Boolean a2;
+									checkType(l,2,out a2);
+									API.UnLoadPTBundle(a1,a2);
+											{ "trigger": "API.LoadBundle(Public, Static, HideBySig)","contents": "API.LoadBundle(Public, Static, HideBySig)"},
+
+									if(argc==2){
+										System.String a1;
+										checkType(l,1,out a1);
+										Callback<System.String,UnityEngine.AssetBundle,System.Object> a2;
+										LuaDelegation.checkDelegate(l,2,out a2);
+										API.LoadBundle(a1,a2);
+										else if(argc==3){
+											System.String a1;
+											checkType(l,1,out a1);
+											Callback<System.String,UnityEngine.AssetBundle,System.Object> a2;
+											LuaDelegation.checkDelegate(l,2,out a2);
+											System.Object a3;
+											checkType(l,3,out a3);
+											API.LoadBundle(a1,a2,a3);
+													{ "trigger": "API.UnLoadAllBundle(Public, Static, HideBySig)","contents": "API.UnLoadAllBundle(Public, Static, HideBySig)"},
+
+											API.UnLoadAllBundle();
+													{ "trigger": "API.UnLoadBundle(Public, Static, HideBySig)","contents": "API.UnLoadBundle(Public, Static, HideBySig)"},
+
+											if(matchType(l,argc,1,string)){
+												System.String a1;
+												checkType(l,1,out a1);
+												API.UnLoadBundle(a1);
+												else if(matchType(l,argc,1,UnityEngine.AssetBundle)){
+													UnityEngine.AssetBundle a1;
+													checkType(l,1,out a1);
+													API.UnLoadBundle(a1);
+															{ "trigger": "API.StopAllLoadBundle(Public, Static, HideBySig)","contents": "API.StopAllLoadBundle(Public, Static, HideBySig)"},
+
+													API.StopAllLoadBundle();
+															{ "trigger": "API.AddListener(Public, Static, HideBySig)","contents": "API.AddListener(Public, Static, HideBySig)"},
+
+													System.String a1;
+													checkType(l,1,out a1);
+													Callback a2;
+													LuaDelegation.checkDelegate(l,2,out a2);
+													API.AddListener(a1,a2);
+															{ "trigger": "API.AddListener2(Public, Static, HideBySig)","contents": "API.AddListener2(Public, Static, HideBySig)"},
+
+													System.String a1;
+													checkType(l,1,out a1);
+													Callback<System.Object> a2;
+													LuaDelegation.checkDelegate(l,2,out a2);
+													API.AddListener2(a1,a2);
+															{ "trigger": "API.RemoveListener(Public, Static, HideBySig)","contents": "API.RemoveListener(Public, Static, HideBySig)"},
+
+													System.String a1;
+													checkType(l,1,out a1);
+													Callback a2;
+													LuaDelegation.checkDelegate(l,2,out a2);
+													API.RemoveListener(a1,a2);
+															{ "trigger": "API.RemoveListener2(Public, Static, HideBySig)","contents": "API.RemoveListener2(Public, Static, HideBySig)"},
+
+													System.String a1;
+													checkType(l,1,out a1);
+													Callback<System.Object> a2;
+													LuaDelegation.checkDelegate(l,2,out a2);
+													API.RemoveListener2(a1,a2);
+															{ "trigger": "API.Broadcast(Public, Static, HideBySig)","contents": "API.Broadcast(Public, Static, HideBySig)"},
+
+													if(argc==1){
+														System.String a1;
+														checkType(l,1,out a1);
+														API.Broadcast(a1);
+														else if(argc==2){
+															System.String a1;
+															checkType(l,1,out a1);
+															System.Object a2;
+															checkType(l,2,out a2);
+															API.Broadcast(a1,a2);
+																	{ "trigger": "API.IsPointerOverUIObject(Public, Static, HideBySig)","contents": "API.IsPointerOverUIObject(Public, Static, HideBySig)"},
+
+															if(argc==0){
+																var ret=API.IsPointerOverUIObject();
+																else if(argc==2){
+																	UnityEngine.Canvas a1;
+																	checkType(l,1,out a1);
+																	UnityEngine.Vector2 a2;
+																	checkType(l,2,out a2);
+																	var ret=API.IsPointerOverUIObject(a1,a2);
+																			{ "trigger": "API.WeiduGameReport(Public, Static, HideBySig)","contents": "API.WeiduGameReport(Public, Static, HideBySig)"},
+
+																	System.String a1;
+																	checkType(l,1,out a1);
+																	System.String a2;
+																	checkType(l,2,out a2);
+																	System.String a3;
+																	checkType(l,3,out a3);
+																	System.String a4;
+																	checkType(l,4,out a4);
+																	System.String a5;
+																	checkType(l,5,out a5);
+																	System.String a6;
+																	checkType(l,6,out a6);
+																	System.String a7;
+																	checkType(l,7,out a7);
+																	API.WeiduGameReport(a1,a2,a3,a4,a5,a6,a7);
+																	BundleTable
+																	set_BundleTable(IntPtr l) {
+																		System.Collections.Hashtable v;
+																		checkType(l,2,out v);
+																		API.BundleTable=v;
+																		Encrypt_Len
+																		set_Encrypt_Len(IntPtr l) {
+																			System.Int32 v;
+																			checkType(l,2,out v);
+																			API.Encrypt_Len=v;
+																			Encrypt_Key
+																			set_Encrypt_Key(IntPtr l) {
+																				System.String v;
+																				checkType(l,2,out v);
+																				API.Encrypt_Key=v;
+																				assetbundle_extension
+																				set_assetbundle_extension(IntPtr l) {
+																					System.String v;
+																					checkType(l,2,out v);
+																					API.assetbundle_extension=v;
+																					usingDebug
+																					set_usingDebug(IntPtr l) {
+																						System.Boolean v;
+																						checkType(l,2,out v);
+																						API.usingDebug=v;
+																						usingEncryptLua
+																						set_usingEncryptLua(IntPtr l) {
+																							System.Boolean v;
+																							checkType(l,2,out v);
+																							API.usingEncryptLua=v;
+																							get_env(IntPtr l) {
+																								get_AssetRoot(IntPtr l) {
+																									set_AssetRoot(IntPtr l) {
+																										string v;
+																										checkType(l,2,out v);
+																										API.AssetRoot=v;
+																										get_AssetPath(IntPtr l) {
+																											set_AssetPath(IntPtr l) {
+																												string v;
+																												checkType(l,2,out v);
+																												API.AssetPath=v;
+																												get_GetTargetPlatform(IntPtr l) {
+																														]
+																												}
+

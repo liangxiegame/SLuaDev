@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ContactPoint()()","contents": "UnityEngine.ContactPoint()()"},
+
+	get_point(IntPtr l) {
+		get_normal(IntPtr l) {
+			get_thisCollider(IntPtr l) {
+				get_otherCollider(IntPtr l) {
+					get_separation(IntPtr l) {
+							]
+					}
+

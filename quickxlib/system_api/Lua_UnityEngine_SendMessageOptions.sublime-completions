@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.SendMessageOptions");
+	addMember(l,0,"RequireReceiver");
+	addMember(l,1,"DontRequireReceiver");
+		]
+}
+

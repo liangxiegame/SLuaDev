@@ -1,0 +1,34 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioSettings()()","contents": "UnityEngine.AudioSettings()()"},
+
+			{ "trigger": "AudioSettings.GetDSPBufferSize(Public, Static, HideBySig)","contents": "AudioSettings.GetDSPBufferSize(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	System.Int32 a2;
+	UnityEngine.AudioSettings.GetDSPBufferSize(out a1,out a2);
+			{ "trigger": "AudioSettings.GetConfiguration(Public, Static, HideBySig)","contents": "AudioSettings.GetConfiguration(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.AudioSettings.GetConfiguration();
+			{ "trigger": "AudioSettings.Reset(Public, Static, HideBySig)","contents": "AudioSettings.Reset(Public, Static, HideBySig)"},
+
+	UnityEngine.AudioConfiguration a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.AudioSettings.Reset(a1);
+	get_driverCapabilities(IntPtr l) {
+		get_speakerMode(IntPtr l) {
+			set_speakerMode(IntPtr l) {
+				UnityEngine.AudioSpeakerMode v;
+				checkEnum(l,2,out v);
+				UnityEngine.AudioSettings.speakerMode=v;
+				get_dspTime(IntPtr l) {
+					get_outputSampleRate(IntPtr l) {
+						set_outputSampleRate(IntPtr l) {
+							int v;
+							checkType(l,2,out v);
+							UnityEngine.AudioSettings.outputSampleRate=v;
+								]
+						}
+

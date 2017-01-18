@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "MessengerHelper:OnDisable(Public, HideBySig)","contents": "MessengerHelper:OnDisable(Public, HideBySig)"},
+
+	MessengerHelper self=(MessengerHelper)checkSelf(l);
+	self.OnDisable();
+			{ "trigger": "MessengerHelper:OnApplicationQuit(Public, HideBySig)","contents": "MessengerHelper:OnApplicationQuit(Public, HideBySig)"},
+
+	MessengerHelper self=(MessengerHelper)checkSelf(l);
+	self.OnApplicationQuit();
+		]
+}
+

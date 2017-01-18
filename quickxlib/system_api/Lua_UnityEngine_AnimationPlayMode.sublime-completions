@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AnimationPlayMode");
+	addMember(l,0,"Stop");
+	addMember(l,1,"Queue");
+	addMember(l,2,"Mix");
+		]
+}
+

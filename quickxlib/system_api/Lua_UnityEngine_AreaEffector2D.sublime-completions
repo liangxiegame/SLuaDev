@@ -1,0 +1,51 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AreaEffector2D()()","contents": "UnityEngine.AreaEffector2D()()"},
+
+	get_forceAngle(IntPtr l) {
+		set_forceAngle(IntPtr l) {
+			UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.forceAngle=v;
+			get_useGlobalAngle(IntPtr l) {
+				set_useGlobalAngle(IntPtr l) {
+					UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.useGlobalAngle=v;
+					get_forceMagnitude(IntPtr l) {
+						set_forceMagnitude(IntPtr l) {
+							UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.forceMagnitude=v;
+							get_forceVariation(IntPtr l) {
+								set_forceVariation(IntPtr l) {
+									UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.forceVariation=v;
+									get_drag(IntPtr l) {
+										set_drag(IntPtr l) {
+											UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.drag=v;
+											get_angularDrag(IntPtr l) {
+												set_angularDrag(IntPtr l) {
+													UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.angularDrag=v;
+													get_forceTarget(IntPtr l) {
+														set_forceTarget(IntPtr l) {
+															UnityEngine.AreaEffector2D self=(UnityEngine.AreaEffector2D)checkSelf(l);
+															UnityEngine.EffectorSelection2D v;
+															checkEnum(l,2,out v);
+															self.forceTarget=v;
+																]
+														}
+

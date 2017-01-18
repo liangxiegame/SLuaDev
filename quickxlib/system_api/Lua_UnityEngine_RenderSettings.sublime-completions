@@ -1,0 +1,119 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RenderSettings()()","contents": "UnityEngine.RenderSettings()()"},
+
+	get_fog(IntPtr l) {
+		set_fog(IntPtr l) {
+			bool v;
+			checkType(l,2,out v);
+			UnityEngine.RenderSettings.fog=v;
+			get_fogMode(IntPtr l) {
+				set_fogMode(IntPtr l) {
+					UnityEngine.FogMode v;
+					checkEnum(l,2,out v);
+					UnityEngine.RenderSettings.fogMode=v;
+					get_fogColor(IntPtr l) {
+						set_fogColor(IntPtr l) {
+							UnityEngine.Color v;
+							checkType(l,2,out v);
+							UnityEngine.RenderSettings.fogColor=v;
+							get_fogDensity(IntPtr l) {
+								set_fogDensity(IntPtr l) {
+									float v;
+									checkType(l,2,out v);
+									UnityEngine.RenderSettings.fogDensity=v;
+									get_fogStartDistance(IntPtr l) {
+										set_fogStartDistance(IntPtr l) {
+											float v;
+											checkType(l,2,out v);
+											UnityEngine.RenderSettings.fogStartDistance=v;
+											get_fogEndDistance(IntPtr l) {
+												set_fogEndDistance(IntPtr l) {
+													float v;
+													checkType(l,2,out v);
+													UnityEngine.RenderSettings.fogEndDistance=v;
+													get_ambientMode(IntPtr l) {
+														set_ambientMode(IntPtr l) {
+															UnityEngine.Rendering.AmbientMode v;
+															checkEnum(l,2,out v);
+															UnityEngine.RenderSettings.ambientMode=v;
+															get_ambientSkyColor(IntPtr l) {
+																set_ambientSkyColor(IntPtr l) {
+																	UnityEngine.Color v;
+																	checkType(l,2,out v);
+																	UnityEngine.RenderSettings.ambientSkyColor=v;
+																	get_ambientEquatorColor(IntPtr l) {
+																		set_ambientEquatorColor(IntPtr l) {
+																			UnityEngine.Color v;
+																			checkType(l,2,out v);
+																			UnityEngine.RenderSettings.ambientEquatorColor=v;
+																			get_ambientGroundColor(IntPtr l) {
+																				set_ambientGroundColor(IntPtr l) {
+																					UnityEngine.Color v;
+																					checkType(l,2,out v);
+																					UnityEngine.RenderSettings.ambientGroundColor=v;
+																					get_ambientLight(IntPtr l) {
+																						set_ambientLight(IntPtr l) {
+																							UnityEngine.Color v;
+																							checkType(l,2,out v);
+																							UnityEngine.RenderSettings.ambientLight=v;
+																							get_ambientIntensity(IntPtr l) {
+																								set_ambientIntensity(IntPtr l) {
+																									float v;
+																									checkType(l,2,out v);
+																									UnityEngine.RenderSettings.ambientIntensity=v;
+																									get_ambientProbe(IntPtr l) {
+																										set_ambientProbe(IntPtr l) {
+																											UnityEngine.Rendering.SphericalHarmonicsL2 v;
+																											checkValueType(l,2,out v);
+																											UnityEngine.RenderSettings.ambientProbe=v;
+																											get_reflectionIntensity(IntPtr l) {
+																												set_reflectionIntensity(IntPtr l) {
+																													float v;
+																													checkType(l,2,out v);
+																													UnityEngine.RenderSettings.reflectionIntensity=v;
+																													get_reflectionBounces(IntPtr l) {
+																														set_reflectionBounces(IntPtr l) {
+																															int v;
+																															checkType(l,2,out v);
+																															UnityEngine.RenderSettings.reflectionBounces=v;
+																															get_haloStrength(IntPtr l) {
+																																set_haloStrength(IntPtr l) {
+																																	float v;
+																																	checkType(l,2,out v);
+																																	UnityEngine.RenderSettings.haloStrength=v;
+																																	get_flareStrength(IntPtr l) {
+																																		set_flareStrength(IntPtr l) {
+																																			float v;
+																																			checkType(l,2,out v);
+																																			UnityEngine.RenderSettings.flareStrength=v;
+																																			get_flareFadeSpeed(IntPtr l) {
+																																				set_flareFadeSpeed(IntPtr l) {
+																																					float v;
+																																					checkType(l,2,out v);
+																																					UnityEngine.RenderSettings.flareFadeSpeed=v;
+																																					get_skybox(IntPtr l) {
+																																						set_skybox(IntPtr l) {
+																																							UnityEngine.Material v;
+																																							checkType(l,2,out v);
+																																							UnityEngine.RenderSettings.skybox=v;
+																																							get_defaultReflectionMode(IntPtr l) {
+																																								set_defaultReflectionMode(IntPtr l) {
+																																									UnityEngine.Rendering.DefaultReflectionMode v;
+																																									checkEnum(l,2,out v);
+																																									UnityEngine.RenderSettings.defaultReflectionMode=v;
+																																									get_defaultReflectionResolution(IntPtr l) {
+																																										set_defaultReflectionResolution(IntPtr l) {
+																																											int v;
+																																											checkType(l,2,out v);
+																																											UnityEngine.RenderSettings.defaultReflectionResolution=v;
+																																											get_customReflection(IntPtr l) {
+																																												set_customReflection(IntPtr l) {
+																																													UnityEngine.Cubemap v;
+																																													checkType(l,2,out v);
+																																													UnityEngine.RenderSettings.customReflection=v;
+																																														]
+																																												}
+

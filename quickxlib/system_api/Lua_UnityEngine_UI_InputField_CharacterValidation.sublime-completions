@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.InputField.CharacterValidation");
+	addMember(l,0,"None");
+	addMember(l,1,"Integer");
+	addMember(l,2,"Decimal");
+	addMember(l,3,"Alphanumeric");
+	addMember(l,4,"Name");
+	addMember(l,5,"EmailAddress");
+		]
+}
+

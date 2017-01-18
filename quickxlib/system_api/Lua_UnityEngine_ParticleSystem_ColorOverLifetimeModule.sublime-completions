@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.ColorOverLifetimeModule()()","contents": "UnityEngine.ParticleSystem.ColorOverLifetimeModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.ColorOverLifetimeModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_color(IntPtr l) {
+				set_color(IntPtr l) {
+					UnityEngine.ParticleSystem.ColorOverLifetimeModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystem.MinMaxGradient v;
+					checkValueType(l,2,out v);
+					self.color=v;
+					setBack(l,self);
+						]
+				}
+

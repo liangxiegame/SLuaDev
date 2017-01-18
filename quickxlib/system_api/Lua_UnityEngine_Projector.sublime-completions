@@ -1,0 +1,57 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Projector()()","contents": "UnityEngine.Projector()()"},
+
+	get_nearClipPlane(IntPtr l) {
+		set_nearClipPlane(IntPtr l) {
+			UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.nearClipPlane=v;
+			get_farClipPlane(IntPtr l) {
+				set_farClipPlane(IntPtr l) {
+					UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.farClipPlane=v;
+					get_fieldOfView(IntPtr l) {
+						set_fieldOfView(IntPtr l) {
+							UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.fieldOfView=v;
+							get_aspectRatio(IntPtr l) {
+								set_aspectRatio(IntPtr l) {
+									UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.aspectRatio=v;
+									get_orthographic(IntPtr l) {
+										set_orthographic(IntPtr l) {
+											UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.orthographic=v;
+											get_orthographicSize(IntPtr l) {
+												set_orthographicSize(IntPtr l) {
+													UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.orthographicSize=v;
+													get_ignoreLayers(IntPtr l) {
+														set_ignoreLayers(IntPtr l) {
+															UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+															int v;
+															checkType(l,2,out v);
+															self.ignoreLayers=v;
+															get_material(IntPtr l) {
+																set_material(IntPtr l) {
+																	UnityEngine.Projector self=(UnityEngine.Projector)checkSelf(l);
+																	UnityEngine.Material v;
+																	checkType(l,2,out v);
+																	self.material=v;
+																		]
+																}
+

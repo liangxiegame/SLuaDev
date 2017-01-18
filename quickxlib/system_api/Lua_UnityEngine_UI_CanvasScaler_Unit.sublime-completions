@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.CanvasScaler.Unit");
+	addMember(l,0,"Centimeters");
+	addMember(l,1,"Millimeters");
+	addMember(l,2,"Inches");
+	addMember(l,3,"Points");
+	addMember(l,4,"Picas");
+		]
+}
+

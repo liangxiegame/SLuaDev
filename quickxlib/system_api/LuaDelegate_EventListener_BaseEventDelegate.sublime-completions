@@ -1,0 +1,8 @@
+﻿
+EventListener.BaseEventDelegate 
+                ua = (EventListener.BaseEventDelegate)checkObj(l, p);
+                ua = (EventListener.BaseEventDelegate)ld.d;
+            ua = (UnityEngine.EventSystems.BaseEventData a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

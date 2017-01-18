@@ -1,0 +1,65 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LODGroup()()","contents": "UnityEngine.LODGroup()()"},
+
+			{ "trigger": "LODGroup:RecalculateBounds(Public, HideBySig)","contents": "LODGroup:RecalculateBounds(Public, HideBySig)"},
+
+	UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+	self.RecalculateBounds();
+			{ "trigger": "LODGroup:GetLODs(Public, HideBySig)","contents": "LODGroup:GetLODs(Public, HideBySig)"},
+
+	UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+	var ret=self.GetLODs();
+			{ "trigger": "LODGroup:SetLODs(Public, HideBySig)","contents": "LODGroup:SetLODs(Public, HideBySig)"},
+
+	UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+	UnityEngine.LOD[] a1;
+	checkArray(l,2,out a1);
+	self.SetLODs(a1);
+			{ "trigger": "LODGroup:ForceLOD(Public, HideBySig)","contents": "LODGroup:ForceLOD(Public, HideBySig)"},
+
+	UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	self.ForceLOD(a1);
+	get_localReferencePoint(IntPtr l) {
+		set_localReferencePoint(IntPtr l) {
+			UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.localReferencePoint=v;
+			get_size(IntPtr l) {
+				set_size(IntPtr l) {
+					UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.size=v;
+					get_lodCount(IntPtr l) {
+						get_fadeMode(IntPtr l) {
+							set_fadeMode(IntPtr l) {
+								UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+								UnityEngine.LODFadeMode v;
+								checkEnum(l,2,out v);
+								self.fadeMode=v;
+								get_animateCrossFading(IntPtr l) {
+									set_animateCrossFading(IntPtr l) {
+										UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+										bool v;
+										checkType(l,2,out v);
+										self.animateCrossFading=v;
+										get_enabled(IntPtr l) {
+											set_enabled(IntPtr l) {
+												UnityEngine.LODGroup self=(UnityEngine.LODGroup)checkSelf(l);
+												bool v;
+												checkType(l,2,out v);
+												self.enabled=v;
+												get_crossFadeAnimationDuration(IntPtr l) {
+													set_crossFadeAnimationDuration(IntPtr l) {
+														float v;
+														checkType(l,2,out v);
+														UnityEngine.LODGroup.crossFadeAnimationDuration=v;
+															]
+													}
+

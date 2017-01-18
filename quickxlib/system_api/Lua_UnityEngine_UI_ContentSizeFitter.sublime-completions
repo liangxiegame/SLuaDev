@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "ContentSizeFitter:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ContentSizeFitter:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ContentSizeFitter self=(UnityEngine.UI.ContentSizeFitter)checkSelf(l);
+	self.SetLayoutHorizontal();
+			{ "trigger": "ContentSizeFitter:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "ContentSizeFitter:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.ContentSizeFitter self=(UnityEngine.UI.ContentSizeFitter)checkSelf(l);
+	self.SetLayoutVertical();
+	get_horizontalFit(IntPtr l) {
+		set_horizontalFit(IntPtr l) {
+			UnityEngine.UI.ContentSizeFitter self=(UnityEngine.UI.ContentSizeFitter)checkSelf(l);
+			UnityEngine.UI.ContentSizeFitter.FitMode v;
+			checkEnum(l,2,out v);
+			self.horizontalFit=v;
+			get_verticalFit(IntPtr l) {
+				set_verticalFit(IntPtr l) {
+					UnityEngine.UI.ContentSizeFitter self=(UnityEngine.UI.ContentSizeFitter)checkSelf(l);
+					UnityEngine.UI.ContentSizeFitter.FitMode v;
+					checkEnum(l,2,out v);
+					self.verticalFit=v;
+						]
+				}
+

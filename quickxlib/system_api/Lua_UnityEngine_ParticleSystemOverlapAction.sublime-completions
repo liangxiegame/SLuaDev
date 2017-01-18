@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemOverlapAction");
+	addMember(l,0,"Ignore");
+	addMember(l,1,"Kill");
+	addMember(l,2,"Callback");
+		]
+}
+

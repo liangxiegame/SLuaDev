@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.FilterMode");
+	addMember(l,0,"Point");
+	addMember(l,1,"Bilinear");
+	addMember(l,2,"Trilinear");
+		]
+}
+

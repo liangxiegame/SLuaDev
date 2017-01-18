@@ -1,0 +1,8 @@
+﻿
+UnityEngine.AudioClip.PCMReaderCallback 
+                ua = (UnityEngine.AudioClip.PCMReaderCallback)checkObj(l, p);
+                ua = (UnityEngine.AudioClip.PCMReaderCallback)ld.d;
+            ua = (System.Single[] a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

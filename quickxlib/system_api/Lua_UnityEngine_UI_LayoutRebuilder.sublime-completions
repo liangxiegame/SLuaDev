@@ -1,0 +1,38 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.LayoutRebuilder()()","contents": "UnityEngine.UI.LayoutRebuilder()()"},
+
+			{ "trigger": "LayoutRebuilder:IsDestroyed(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutRebuilder:IsDestroyed(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutRebuilder self=(UnityEngine.UI.LayoutRebuilder)checkSelf(l);
+	var ret=self.IsDestroyed();
+			{ "trigger": "LayoutRebuilder:Rebuild(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutRebuilder:Rebuild(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutRebuilder self=(UnityEngine.UI.LayoutRebuilder)checkSelf(l);
+	UnityEngine.UI.CanvasUpdate a1;
+	checkEnum(l,2,out a1);
+	self.Rebuild(a1);
+			{ "trigger": "LayoutRebuilder:LayoutComplete(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutRebuilder:LayoutComplete(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutRebuilder self=(UnityEngine.UI.LayoutRebuilder)checkSelf(l);
+	self.LayoutComplete();
+			{ "trigger": "LayoutRebuilder:GraphicUpdateComplete(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "LayoutRebuilder:GraphicUpdateComplete(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.LayoutRebuilder self=(UnityEngine.UI.LayoutRebuilder)checkSelf(l);
+	self.GraphicUpdateComplete();
+			{ "trigger": "LayoutRebuilder.ForceRebuildLayoutImmediate(Public, Static, HideBySig)","contents": "LayoutRebuilder.ForceRebuildLayoutImmediate(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(a1);
+			{ "trigger": "LayoutRebuilder.MarkLayoutForRebuild(Public, Static, HideBySig)","contents": "LayoutRebuilder.MarkLayoutForRebuild(Public, Static, HideBySig)"},
+
+	UnityEngine.RectTransform a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.LayoutRebuilder.MarkLayoutForRebuild(a1);
+	get_transform(IntPtr l) {
+			]
+	}
+

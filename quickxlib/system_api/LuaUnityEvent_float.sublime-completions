@@ -1,0 +1,18 @@
+﻿
+    float 
+      float> float;
+              float
+                float> self =float>>(l);
+                <float> a1;
+                float> 
+				float a0;
+				checkType(l,2,out a0);
+				self.Invoke(a0);
+getTypeTable(l, typeof(LuaUnityEvent_float).FullName);
+            createTypeMetatable(l, null, typeof(LuaUnityEvent_float), typeof(UnityEngine.Events.UnityEventBase));
+        static bool checkType(IntPtr l,int p,out UnityEngine.Events.UnityAction<float> ua) {
+                ua = (UnityEngine.Events.UnityAction<float>)ld.d;
+            ua = (float v0) =>
+            {
+                pushValue(l,v0);
+}

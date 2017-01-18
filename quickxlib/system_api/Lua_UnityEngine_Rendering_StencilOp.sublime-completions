@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.StencilOp");
+	addMember(l,0,"Keep");
+	addMember(l,1,"Zero");
+	addMember(l,2,"Replace");
+	addMember(l,3,"IncrementSaturate");
+	addMember(l,4,"DecrementSaturate");
+	addMember(l,5,"Invert");
+	addMember(l,6,"IncrementWrap");
+	addMember(l,7,"DecrementWrap");
+		]
+}
+

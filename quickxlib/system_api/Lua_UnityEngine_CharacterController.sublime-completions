@@ -1,0 +1,72 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CharacterController()()","contents": "UnityEngine.CharacterController()()"},
+
+			{ "trigger": "CharacterController:SimpleMove(Public, HideBySig)","contents": "CharacterController:SimpleMove(Public, HideBySig)"},
+
+	UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.SimpleMove(a1);
+			{ "trigger": "CharacterController:Move(Public, HideBySig)","contents": "CharacterController:Move(Public, HideBySig)"},
+
+	UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.Move(a1);
+	get_isGrounded(IntPtr l) {
+		get_velocity(IntPtr l) {
+			get_collisionFlags(IntPtr l) {
+				get_radius(IntPtr l) {
+					set_radius(IntPtr l) {
+						UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+						float v;
+						checkType(l,2,out v);
+						self.radius=v;
+						get_height(IntPtr l) {
+							set_height(IntPtr l) {
+								UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+								float v;
+								checkType(l,2,out v);
+								self.height=v;
+								get_center(IntPtr l) {
+									set_center(IntPtr l) {
+										UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+										UnityEngine.Vector3 v;
+										checkType(l,2,out v);
+										self.center=v;
+										get_slopeLimit(IntPtr l) {
+											set_slopeLimit(IntPtr l) {
+												UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+												float v;
+												checkType(l,2,out v);
+												self.slopeLimit=v;
+												get_stepOffset(IntPtr l) {
+													set_stepOffset(IntPtr l) {
+														UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+														float v;
+														checkType(l,2,out v);
+														self.stepOffset=v;
+														get_skinWidth(IntPtr l) {
+															set_skinWidth(IntPtr l) {
+																UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+																float v;
+																checkType(l,2,out v);
+																self.skinWidth=v;
+																get_detectCollisions(IntPtr l) {
+																	set_detectCollisions(IntPtr l) {
+																		UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+																		bool v;
+																		checkType(l,2,out v);
+																		self.detectCollisions=v;
+																		get_enableOverlapRecovery(IntPtr l) {
+																			set_enableOverlapRecovery(IntPtr l) {
+																				UnityEngine.CharacterController self=(UnityEngine.CharacterController)checkSelf(l);
+																				bool v;
+																				checkType(l,2,out v);
+																				self.enableOverlapRecovery=v;
+																					]
+																			}
+

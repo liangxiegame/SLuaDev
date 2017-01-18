@@ -1,0 +1,100 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "PTLuaWrapper.ShowFAQ(Public, Static, HideBySig)","contents": "PTLuaWrapper.ShowFAQ(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.String a2;
+	checkType(l,2,out a2);
+	PTLuaWrapper.ShowFAQ(a1,a2);
+			{ "trigger": "PTLuaWrapper.GetFinalResVersion(Public, Static, HideBySig)","contents": "PTLuaWrapper.GetFinalResVersion(Public, Static, HideBySig)"},
+
+	var ret=PTLuaWrapper.GetFinalResVersion();
+			{ "trigger": "PTLuaWrapper.IsNetworkReachable(Public, Static, HideBySig)","contents": "PTLuaWrapper.IsNetworkReachable(Public, Static, HideBySig)"},
+
+	var ret=PTLuaWrapper.IsNetworkReachable();
+			{ "trigger": "PTLuaWrapper.IsPTAssistLogined(Public, Static, HideBySig)","contents": "PTLuaWrapper.IsPTAssistLogined(Public, Static, HideBySig)"},
+
+	var ret=PTLuaWrapper.IsPTAssistLogined();
+			{ "trigger": "PTLuaWrapper.GetWeiduInfo(Public, Static, HideBySig)","contents": "PTLuaWrapper.GetWeiduInfo(Public, Static, HideBySig)"},
+
+	Callback<System.Int32,System.String,System.String> a1;
+	LuaDelegation.checkDelegate(l,1,out a1);
+	PTLuaWrapper.GetWeiduInfo(a1);
+			{ "trigger": "PTLuaWrapper.ShowWeiduInfo(Public, Static, HideBySig)","contents": "PTLuaWrapper.ShowWeiduInfo(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	PTLuaWrapper.ShowWeiduInfo(a1);
+			{ "trigger": "PTLuaWrapper.SendCustomUDCInfo(Public, Static, HideBySig)","contents": "PTLuaWrapper.SendCustomUDCInfo(Public, Static, HideBySig)"},
+
+	PTLuaWrapper.SendCustomUDCInfo();
+			{ "trigger": "PTLuaWrapper.SendWeidDuInfo(Public, Static, HideBySig)","contents": "PTLuaWrapper.SendWeidDuInfo(Public, Static, HideBySig)"},
+
+	PTLuaWrapper.SendWeidDuInfo();
+			{ "trigger": "PTLuaWrapper.InitBugly(Public, Static, HideBySig)","contents": "PTLuaWrapper.InitBugly(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.Boolean a2;
+	checkType(l,2,out a2);
+	PTLuaWrapper.InitBugly(a1,a2);
+			{ "trigger": "PTLuaWrapper.InitUMeng(Public, Static, HideBySig)","contents": "PTLuaWrapper.InitUMeng(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.String a2;
+	checkType(l,2,out a2);
+	PTLuaWrapper.InitUMeng(a1,a2);
+			{ "trigger": "PTLuaWrapper.InitUDC(Public, Static, HideBySig)","contents": "PTLuaWrapper.InitUDC(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.String a2;
+	checkType(l,2,out a2);
+	System.String a3;
+	checkType(l,3,out a3);
+	System.Boolean a4;
+	checkType(l,4,out a4);
+	PTLuaWrapper.InitUDC(a1,a2,a3,a4);
+			{ "trigger": "PTLuaWrapper.UDCLevelStart(Public, Static, HideBySig)","contents": "PTLuaWrapper.UDCLevelStart(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	PTLuaWrapper.UDCLevelStart(a1);
+			{ "trigger": "PTLuaWrapper.UDCLevelOver(Public, Static, HideBySig)","contents": "PTLuaWrapper.UDCLevelOver(Public, Static, HideBySig)"},
+
+	System.Boolean a1;
+	checkType(l,1,out a1);
+	System.String a2;
+	checkType(l,2,out a2);
+	PTLuaWrapper.UDCLevelOver(a1,a2);
+			{ "trigger": "PTLuaWrapper.UDCStartPage(Public, Static, HideBySig)","contents": "PTLuaWrapper.UDCStartPage(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	PTLuaWrapper.UDCStartPage(a1);
+			{ "trigger": "PTLuaWrapper.UDCEndPage(Public, Static, HideBySig)","contents": "PTLuaWrapper.UDCEndPage(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	PTLuaWrapper.UDCEndPage(a1);
+			{ "trigger": "PTLuaWrapper.UDCCustomInfo(Public, Static, HideBySig)","contents": "PTLuaWrapper.UDCCustomInfo(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	PTLuaWrapper.UDCCustomInfo(a1);
+			{ "trigger": "PTLuaWrapper.IsPaibot(Public, Static, HideBySig)","contents": "PTLuaWrapper.IsPaibot(Public, Static, HideBySig)"},
+
+	var ret=PTLuaWrapper.IsPaibot();
+			{ "trigger": "PTLuaWrapper.PaibotEnterGame(Public, Static, HideBySig)","contents": "PTLuaWrapper.PaibotEnterGame(Public, Static, HideBySig)"},
+
+	PTLuaWrapper.PaibotEnterGame();
+			{ "trigger": "PTLuaWrapper.ExecuteKeyboardAdjust(Public, Static, HideBySig)","contents": "PTLuaWrapper.ExecuteKeyboardAdjust(Public, Static, HideBySig)"},
+
+	PTLuaWrapper.ExecuteKeyboardAdjust();
+		]
+}
+

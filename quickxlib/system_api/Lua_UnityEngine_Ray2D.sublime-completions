@@ -1,0 +1,36 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector2 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Ray2D()()","contents": "UnityEngine.Ray2D()()"},
+
+			{ "trigger": "Ray2D:GetPoint(Public, HideBySig)","contents": "Ray2D:GetPoint(Public, HideBySig)"},
+
+	UnityEngine.Ray2D self;
+	checkValueType(l,1,out self);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.GetPoint(a1);
+	get_origin(IntPtr l) {
+		set_origin(IntPtr l) {
+			UnityEngine.Ray2D self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.origin=v;
+			setBack(l,self);
+			get_direction(IntPtr l) {
+				set_direction(IntPtr l) {
+					UnityEngine.Ray2D self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.direction=v;
+					setBack(l,self);
+						]
+				}
+

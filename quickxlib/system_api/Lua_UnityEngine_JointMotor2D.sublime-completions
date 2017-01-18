@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointMotor2D()()","contents": "UnityEngine.JointMotor2D()()"},
+
+	get_motorSpeed(IntPtr l) {
+		set_motorSpeed(IntPtr l) {
+			UnityEngine.JointMotor2D self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.motorSpeed=v;
+			setBack(l,self);
+			get_maxMotorTorque(IntPtr l) {
+				set_maxMotorTorque(IntPtr l) {
+					UnityEngine.JointMotor2D self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.maxMotorTorque=v;
+					setBack(l,self);
+						]
+				}
+

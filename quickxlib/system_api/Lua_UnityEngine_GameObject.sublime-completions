@@ -1,0 +1,255 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.GameObject()()","contents": "UnityEngine.GameObject()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.GameObject()()","contents": "UnityEngine.GameObject()()"},
+
+			{ "trigger": "UnityEngine.GameObject()()","contents": "UnityEngine.GameObject()()"},
+
+			{ "trigger": "UnityEngine.GameObject()()","contents": "UnityEngine.GameObject()()"},
+
+			{ "trigger": "UnityEngine.GameObject()()","contents": "UnityEngine.GameObject()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Type[] a2;
+	checkParams(l,3,out a2);
+			{ "trigger": "UnityEngine.GameObject()()","contents": "UnityEngine.GameObject()()"},
+
+			{ "trigger": "GameObject:GetComponent(Public, HideBySig)","contents": "GameObject:GetComponent(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,string)){
+		UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+		System.String a1;
+		checkType(l,2,out a1);
+		var ret=self.GetComponent(a1);
+		else if(matchType(l,argc,2,System.Type)){
+			UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+			System.Type a1;
+			checkType(l,2,out a1);
+			var ret=self.GetComponent(a1);
+					{ "trigger": "GameObject:GetComponentInChildren(Public, HideBySig)","contents": "GameObject:GetComponentInChildren(Public, HideBySig)"},
+
+			if(argc==2){
+				UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+				System.Type a1;
+				checkType(l,2,out a1);
+				var ret=self.GetComponentInChildren(a1);
+				else if(argc==3){
+					UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+					System.Type a1;
+					checkType(l,2,out a1);
+					System.Boolean a2;
+					checkType(l,3,out a2);
+					var ret=self.GetComponentInChildren(a1,a2);
+							{ "trigger": "GameObject:GetComponentInParent(Public, HideBySig)","contents": "GameObject:GetComponentInParent(Public, HideBySig)"},
+
+					UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+					System.Type a1;
+					checkType(l,2,out a1);
+					var ret=self.GetComponentInParent(a1);
+							{ "trigger": "GameObject:GetComponents(Public, HideBySig)","contents": "GameObject:GetComponents(Public, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+						System.Type a1;
+						checkType(l,2,out a1);
+						var ret=self.GetComponents(a1);
+						else if(argc==3){
+							UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+							System.Type a1;
+							checkType(l,2,out a1);
+							System.Collections.Generic.List<UnityEngine.Component> a2;
+							checkType(l,3,out a2);
+							self.GetComponents(a1,a2);
+									{ "trigger": "GameObject:GetComponentsInChildren(Public, HideBySig)","contents": "GameObject:GetComponentsInChildren(Public, HideBySig)"},
+
+							if(argc==2){
+								UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+								System.Type a1;
+								checkType(l,2,out a1);
+								var ret=self.GetComponentsInChildren(a1);
+								else if(argc==3){
+									UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+									System.Type a1;
+									checkType(l,2,out a1);
+									System.Boolean a2;
+									checkType(l,3,out a2);
+									var ret=self.GetComponentsInChildren(a1,a2);
+											{ "trigger": "GameObject:GetComponentsInParent(Public, HideBySig)","contents": "GameObject:GetComponentsInParent(Public, HideBySig)"},
+
+									if(argc==2){
+										UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+										System.Type a1;
+										checkType(l,2,out a1);
+										var ret=self.GetComponentsInParent(a1);
+										else if(argc==3){
+											UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+											System.Type a1;
+											checkType(l,2,out a1);
+											System.Boolean a2;
+											checkType(l,3,out a2);
+											var ret=self.GetComponentsInParent(a1,a2);
+													{ "trigger": "GameObject:SetActive(Public, HideBySig)","contents": "GameObject:SetActive(Public, HideBySig)"},
+
+											UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+											System.Boolean a1;
+											checkType(l,2,out a1);
+											self.SetActive(a1);
+													{ "trigger": "GameObject:CompareTag(Public, HideBySig)","contents": "GameObject:CompareTag(Public, HideBySig)"},
+
+											UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+											System.String a1;
+											checkType(l,2,out a1);
+											var ret=self.CompareTag(a1);
+													{ "trigger": "GameObject:SendMessageUpwards(Public, HideBySig)","contents": "GameObject:SendMessageUpwards(Public, HideBySig)"},
+
+											if(argc==2){
+												UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+												System.String a1;
+												checkType(l,2,out a1);
+												self.SendMessageUpwards(a1);
+												else if(matchType(l,argc,2,string,UnityEngine.SendMessageOptions)){
+													UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													UnityEngine.SendMessageOptions a2;
+													checkEnum(l,3,out a2);
+													self.SendMessageUpwards(a1,a2);
+													else if(matchType(l,argc,2,string,System.Object)){
+														UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+														System.String a1;
+														checkType(l,2,out a1);
+														System.Object a2;
+														checkType(l,3,out a2);
+														self.SendMessageUpwards(a1,a2);
+														else if(argc==4){
+															UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+															System.String a1;
+															checkType(l,2,out a1);
+															System.Object a2;
+															checkType(l,3,out a2);
+															UnityEngine.SendMessageOptions a3;
+															checkEnum(l,4,out a3);
+															self.SendMessageUpwards(a1,a2,a3);
+																	{ "trigger": "GameObject:SendMessage(Public, HideBySig)","contents": "GameObject:SendMessage(Public, HideBySig)"},
+
+															if(argc==2){
+																UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																System.String a1;
+																checkType(l,2,out a1);
+																self.SendMessage(a1);
+																else if(matchType(l,argc,2,string,UnityEngine.SendMessageOptions)){
+																	UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																	System.String a1;
+																	checkType(l,2,out a1);
+																	UnityEngine.SendMessageOptions a2;
+																	checkEnum(l,3,out a2);
+																	self.SendMessage(a1,a2);
+																	else if(matchType(l,argc,2,string,System.Object)){
+																		UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																		System.String a1;
+																		checkType(l,2,out a1);
+																		System.Object a2;
+																		checkType(l,3,out a2);
+																		self.SendMessage(a1,a2);
+																		else if(argc==4){
+																			UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																			System.String a1;
+																			checkType(l,2,out a1);
+																			System.Object a2;
+																			checkType(l,3,out a2);
+																			UnityEngine.SendMessageOptions a3;
+																			checkEnum(l,4,out a3);
+																			self.SendMessage(a1,a2,a3);
+																					{ "trigger": "GameObject:BroadcastMessage(Public, HideBySig)","contents": "GameObject:BroadcastMessage(Public, HideBySig)"},
+
+																			if(argc==2){
+																				UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																				System.String a1;
+																				checkType(l,2,out a1);
+																				self.BroadcastMessage(a1);
+																				else if(matchType(l,argc,2,string,UnityEngine.SendMessageOptions)){
+																					UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																					System.String a1;
+																					checkType(l,2,out a1);
+																					UnityEngine.SendMessageOptions a2;
+																					checkEnum(l,3,out a2);
+																					self.BroadcastMessage(a1,a2);
+																					else if(matchType(l,argc,2,string,System.Object)){
+																						UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																						System.String a1;
+																						checkType(l,2,out a1);
+																						System.Object a2;
+																						checkType(l,3,out a2);
+																						self.BroadcastMessage(a1,a2);
+																						else if(argc==4){
+																							UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																							System.String a1;
+																							checkType(l,2,out a1);
+																							System.Object a2;
+																							checkType(l,3,out a2);
+																							UnityEngine.SendMessageOptions a3;
+																							checkEnum(l,4,out a3);
+																							self.BroadcastMessage(a1,a2,a3);
+																									{ "trigger": "GameObject:AddComponent(Public, HideBySig)","contents": "GameObject:AddComponent(Public, HideBySig)"},
+
+																							UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																							System.Type a1;
+																							checkType(l,2,out a1);
+																							var ret=self.AddComponent(a1);
+																									{ "trigger": "GameObject.CreatePrimitive(Public, Static, HideBySig)","contents": "GameObject.CreatePrimitive(Public, Static, HideBySig)"},
+
+																							UnityEngine.PrimitiveType a1;
+																							checkEnum(l,1,out a1);
+																							var ret=UnityEngine.GameObject.CreatePrimitive(a1);
+																									{ "trigger": "GameObject.FindGameObjectWithTag(Public, Static, HideBySig)","contents": "GameObject.FindGameObjectWithTag(Public, Static, HideBySig)"},
+
+																							System.String a1;
+																							checkType(l,1,out a1);
+																							var ret=UnityEngine.GameObject.FindGameObjectWithTag(a1);
+																									{ "trigger": "GameObject.FindWithTag(Public, Static, HideBySig)","contents": "GameObject.FindWithTag(Public, Static, HideBySig)"},
+
+																							System.String a1;
+																							checkType(l,1,out a1);
+																							var ret=UnityEngine.GameObject.FindWithTag(a1);
+																									{ "trigger": "GameObject.FindGameObjectsWithTag(Public, Static, HideBySig)","contents": "GameObject.FindGameObjectsWithTag(Public, Static, HideBySig)"},
+
+																							System.String a1;
+																							checkType(l,1,out a1);
+																							var ret=UnityEngine.GameObject.FindGameObjectsWithTag(a1);
+																									{ "trigger": "GameObject.Find(Public, Static, HideBySig)","contents": "GameObject.Find(Public, Static, HideBySig)"},
+
+																							System.String a1;
+																							checkType(l,1,out a1);
+																							var ret=UnityEngine.GameObject.Find(a1);
+																							get_transform(IntPtr l) {
+																								get_layer(IntPtr l) {
+																									set_layer(IntPtr l) {
+																										UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																										int v;
+																										checkType(l,2,out v);
+																										self.layer=v;
+																										get_activeSelf(IntPtr l) {
+																											get_activeInHierarchy(IntPtr l) {
+																												get_isStatic(IntPtr l) {
+																													set_isStatic(IntPtr l) {
+																														UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																														bool v;
+																														checkType(l,2,out v);
+																														self.isStatic=v;
+																														get_tag(IntPtr l) {
+																															set_tag(IntPtr l) {
+																																UnityEngine.GameObject self=(UnityEngine.GameObject)checkSelf(l);
+																																string v;
+																																checkType(l,2,out v);
+																																self.tag=v;
+																																get_scene(IntPtr l) {
+																																	get_gameObject(IntPtr l) {
+																																			]
+																																	}
+

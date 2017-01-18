@@ -1,0 +1,87 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.AnimationClipPlayable()()","contents": "UnityEngine.Experimental.Director.AnimationClipPlayable()()"},
+
+			{ "trigger": "AnimationClipPlayable:Destroy(Public, HideBySig)","contents": "AnimationClipPlayable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationClipPlayable self;
+	checkValueType(l,1,out self);
+	self.Destroy();
+			{ "trigger": "AnimationClipPlayable:IsValid(Public, HideBySig)","contents": "AnimationClipPlayable:IsValid(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationClipPlayable self;
+	checkValueType(l,1,out self);
+	var ret=self.IsValid();
+			{ "trigger": "AnimationClipPlayable:GetOutput(Public, HideBySig)","contents": "AnimationClipPlayable:GetOutput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationClipPlayable self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetOutput(a1);
+			{ "trigger": "AnimationClipPlayable.Create(Public, Static, HideBySig)","contents": "AnimationClipPlayable.Create(Public, Static, HideBySig)"},
+
+	UnityEngine.AnimationClip a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Experimental.Director.AnimationClipPlayable.Create(a1);
+			{ "trigger": "AnimationClipPlayable.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "AnimationClipPlayable.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+	UnityEngine.Experimental.Director.AnimationClipPlayable a1;
+	checkValueType(l,1,out a1);
+	UnityEngine.Experimental.Director.Playable a2;
+	checkValueType(l,2,out a2);
+	var ret=(a1==a2);
+			{ "trigger": "AnimationClipPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "AnimationClipPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+	UnityEngine.Experimental.Director.AnimationClipPlayable a1;
+	checkValueType(l,1,out a1);
+	UnityEngine.Experimental.Director.Playable a2;
+	checkValueType(l,2,out a2);
+	var ret=(a1!=a2);
+	get_state(IntPtr l) {
+		set_state(IntPtr l) {
+			UnityEngine.Experimental.Director.AnimationClipPlayable self;
+			checkValueType(l,1,out self);
+			UnityEngine.Experimental.Director.PlayState v;
+			checkEnum(l,2,out v);
+			self.state=v;
+			setBack(l,self);
+			get_time(IntPtr l) {
+				set_time(IntPtr l) {
+					UnityEngine.Experimental.Director.AnimationClipPlayable self;
+					checkValueType(l,1,out self);
+					double v;
+					checkType(l,2,out v);
+					self.time=v;
+					setBack(l,self);
+					get_duration(IntPtr l) {
+						set_duration(IntPtr l) {
+							UnityEngine.Experimental.Director.AnimationClipPlayable self;
+							checkValueType(l,1,out self);
+							double v;
+							checkType(l,2,out v);
+							self.duration=v;
+							setBack(l,self);
+							get_outputCount(IntPtr l) {
+								get_clip(IntPtr l) {
+									get_speed(IntPtr l) {
+										set_speed(IntPtr l) {
+											UnityEngine.Experimental.Director.AnimationClipPlayable self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.speed=v;
+											setBack(l,self);
+											get_applyFootIK(IntPtr l) {
+												set_applyFootIK(IntPtr l) {
+													UnityEngine.Experimental.Director.AnimationClipPlayable self;
+													checkValueType(l,1,out self);
+													bool v;
+													checkType(l,2,out v);
+													self.applyFootIK=v;
+													setBack(l,self);
+														]
+												}
+

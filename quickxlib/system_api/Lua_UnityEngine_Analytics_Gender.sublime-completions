@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Analytics.Gender");
+	addMember(l,0,"Male");
+	addMember(l,1,"Female");
+	addMember(l,2,"Unknown");
+		]
+}
+

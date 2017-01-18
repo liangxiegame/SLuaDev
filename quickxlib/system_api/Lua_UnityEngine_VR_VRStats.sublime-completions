@@ -1,0 +1,8 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	get_gpuTimeLastFrame(IntPtr l) {
+			]
+	}
+

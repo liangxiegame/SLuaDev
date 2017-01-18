@@ -1,0 +1,20 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ProceduralOutputType");
+	addMember(l,0,"Unknown");
+	addMember(l,1,"Diffuse");
+	addMember(l,2,"Normal");
+	addMember(l,3,"Height");
+	addMember(l,4,"Emissive");
+	addMember(l,5,"Specular");
+	addMember(l,6,"Opacity");
+	addMember(l,7,"Smoothness");
+	addMember(l,8,"AmbientOcclusion");
+	addMember(l,9,"DetailMask");
+	addMember(l,10,"Metallic");
+	addMember(l,11,"Roughness");
+		]
+}
+

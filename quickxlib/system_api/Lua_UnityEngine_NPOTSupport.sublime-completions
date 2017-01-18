@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.NPOTSupport");
+	addMember(l,0,"None");
+	addMember(l,1,"Restricted");
+	addMember(l,2,"Full");
+		]
+}
+

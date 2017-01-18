@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.Color a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.GradientColorKey()()","contents": "UnityEngine.GradientColorKey()()"},
+
+	color
+	set_color(IntPtr l) {
+		UnityEngine.GradientColorKey self;
+		checkValueType(l,1,out self);
+		UnityEngine.Color v;
+		checkType(l,2,out v);
+		self.color=v;
+		time
+		set_time(IntPtr l) {
+			UnityEngine.GradientColorKey self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.time=v;
+				]
+		}
+

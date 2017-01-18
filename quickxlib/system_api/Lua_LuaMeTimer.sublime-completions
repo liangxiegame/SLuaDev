@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	obj
+	set_obj(IntPtr l) {
+		UnityEngine.GameObject v;
+		checkType(l,2,out v);
+		LuaMeTimer.obj=v;
+		TimerList
+		set_TimerList(IntPtr l) {
+			System.Collections.Generic.List<MeTimer> v;
+			checkType(l,2,out v);
+			LuaMeTimer.TimerList=v;
+				]
+		}
+

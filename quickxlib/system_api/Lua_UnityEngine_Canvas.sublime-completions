@@ -1,0 +1,101 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Canvas()()","contents": "UnityEngine.Canvas()()"},
+
+			{ "trigger": "Canvas.GetDefaultCanvasMaterial(Public, Static, HideBySig)","contents": "Canvas.GetDefaultCanvasMaterial(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.Canvas.GetDefaultCanvasMaterial();
+			{ "trigger": "Canvas.GetETC1SupportedCanvasMaterial(Public, Static, HideBySig)","contents": "Canvas.GetETC1SupportedCanvasMaterial(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.Canvas.GetETC1SupportedCanvasMaterial();
+			{ "trigger": "Canvas.ForceUpdateCanvases(Public, Static, HideBySig)","contents": "Canvas.ForceUpdateCanvases(Public, Static, HideBySig)"},
+
+	UnityEngine.Canvas.ForceUpdateCanvases();
+	get_renderMode(IntPtr l) {
+		set_renderMode(IntPtr l) {
+			UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+			UnityEngine.RenderMode v;
+			checkEnum(l,2,out v);
+			self.renderMode=v;
+			get_isRootCanvas(IntPtr l) {
+				get_worldCamera(IntPtr l) {
+					set_worldCamera(IntPtr l) {
+						UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+						UnityEngine.Camera v;
+						checkType(l,2,out v);
+						self.worldCamera=v;
+						get_pixelRect(IntPtr l) {
+							get_scaleFactor(IntPtr l) {
+								set_scaleFactor(IntPtr l) {
+									UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.scaleFactor=v;
+									get_referencePixelsPerUnit(IntPtr l) {
+										set_referencePixelsPerUnit(IntPtr l) {
+											UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.referencePixelsPerUnit=v;
+											get_overridePixelPerfect(IntPtr l) {
+												set_overridePixelPerfect(IntPtr l) {
+													UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.overridePixelPerfect=v;
+													get_pixelPerfect(IntPtr l) {
+														set_pixelPerfect(IntPtr l) {
+															UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+															bool v;
+															checkType(l,2,out v);
+															self.pixelPerfect=v;
+															get_planeDistance(IntPtr l) {
+																set_planeDistance(IntPtr l) {
+																	UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.planeDistance=v;
+																	get_renderOrder(IntPtr l) {
+																		get_overrideSorting(IntPtr l) {
+																			set_overrideSorting(IntPtr l) {
+																				UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																				bool v;
+																				checkType(l,2,out v);
+																				self.overrideSorting=v;
+																				get_sortingOrder(IntPtr l) {
+																					set_sortingOrder(IntPtr l) {
+																						UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																						int v;
+																						checkType(l,2,out v);
+																						self.sortingOrder=v;
+																						get_targetDisplay(IntPtr l) {
+																							set_targetDisplay(IntPtr l) {
+																								UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																								int v;
+																								checkType(l,2,out v);
+																								self.targetDisplay=v;
+																								get_sortingGridNormalizedSize(IntPtr l) {
+																									set_sortingGridNormalizedSize(IntPtr l) {
+																										UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																										int v;
+																										checkType(l,2,out v);
+																										self.sortingGridNormalizedSize=v;
+																										get_sortingLayerID(IntPtr l) {
+																											set_sortingLayerID(IntPtr l) {
+																												UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																												int v;
+																												checkType(l,2,out v);
+																												self.sortingLayerID=v;
+																												get_cachedSortingLayerValue(IntPtr l) {
+																													get_sortingLayerName(IntPtr l) {
+																														set_sortingLayerName(IntPtr l) {
+																															UnityEngine.Canvas self=(UnityEngine.Canvas)checkSelf(l);
+																															string v;
+																															checkType(l,2,out v);
+																															self.sortingLayerName=v;
+																															get_rootCanvas(IntPtr l) {
+																																	]
+																															}
+

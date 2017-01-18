@@ -1,0 +1,30 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.HumanPose()()","contents": "UnityEngine.HumanPose()()"},
+
+	bodyPosition
+	set_bodyPosition(IntPtr l) {
+		UnityEngine.HumanPose self;
+		checkValueType(l,1,out self);
+		UnityEngine.Vector3 v;
+		checkType(l,2,out v);
+		self.bodyPosition=v;
+		bodyRotation
+		set_bodyRotation(IntPtr l) {
+			UnityEngine.HumanPose self;
+			checkValueType(l,1,out self);
+			UnityEngine.Quaternion v;
+			checkType(l,2,out v);
+			self.bodyRotation=v;
+			muscles
+			set_muscles(IntPtr l) {
+				UnityEngine.HumanPose self;
+				checkValueType(l,1,out self);
+				System.Single[] v;
+				checkArray(l,2,out v);
+				self.muscles=v;
+					]
+			}
+

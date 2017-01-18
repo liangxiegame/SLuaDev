@@ -1,0 +1,480 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Camera()()","contents": "UnityEngine.Camera()()"},
+
+			{ "trigger": "Camera:SetTargetBuffers(Public, HideBySig)","contents": "Camera:SetTargetBuffers(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer)){
+		UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+		UnityEngine.RenderBuffer[] a1;
+		checkArray(l,2,out a1);
+		UnityEngine.RenderBuffer a2;
+		checkValueType(l,3,out a2);
+		self.SetTargetBuffers(a1,a2);
+		else if(matchType(l,argc,2,UnityEngine.RenderBuffer,UnityEngine.RenderBuffer)){
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.RenderBuffer a1;
+			checkValueType(l,2,out a1);
+			UnityEngine.RenderBuffer a2;
+			checkValueType(l,3,out a2);
+			self.SetTargetBuffers(a1,a2);
+					{ "trigger": "Camera:ResetWorldToCameraMatrix(Public, HideBySig)","contents": "Camera:ResetWorldToCameraMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetWorldToCameraMatrix();
+					{ "trigger": "Camera:ResetProjectionMatrix(Public, HideBySig)","contents": "Camera:ResetProjectionMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetProjectionMatrix();
+					{ "trigger": "Camera:ResetAspect(Public, HideBySig)","contents": "Camera:ResetAspect(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetAspect();
+					{ "trigger": "Camera:ResetFieldOfView(Public, HideBySig)","contents": "Camera:ResetFieldOfView(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetFieldOfView();
+					{ "trigger": "Camera:SetStereoViewMatrices(Public, HideBySig)","contents": "Camera:SetStereoViewMatrices(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,2,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,3,out a2);
+			self.SetStereoViewMatrices(a1,a2);
+					{ "trigger": "Camera:GetStereoViewMatrix(Public, HideBySig)","contents": "Camera:GetStereoViewMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Camera.StereoscopicEye a1;
+			checkEnum(l,2,out a1);
+			var ret=self.GetStereoViewMatrix(a1);
+					{ "trigger": "Camera:SetStereoViewMatrix(Public, HideBySig)","contents": "Camera:SetStereoViewMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Camera.StereoscopicEye a1;
+			checkEnum(l,2,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,3,out a2);
+			self.SetStereoViewMatrix(a1,a2);
+					{ "trigger": "Camera:ResetStereoViewMatrices(Public, HideBySig)","contents": "Camera:ResetStereoViewMatrices(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetStereoViewMatrices();
+					{ "trigger": "Camera:SetStereoProjectionMatrices(Public, HideBySig)","contents": "Camera:SetStereoProjectionMatrices(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,2,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,3,out a2);
+			self.SetStereoProjectionMatrices(a1,a2);
+					{ "trigger": "Camera:GetStereoProjectionMatrix(Public, HideBySig)","contents": "Camera:GetStereoProjectionMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Camera.StereoscopicEye a1;
+			checkEnum(l,2,out a1);
+			var ret=self.GetStereoProjectionMatrix(a1);
+					{ "trigger": "Camera:SetStereoProjectionMatrix(Public, HideBySig)","contents": "Camera:SetStereoProjectionMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Camera.StereoscopicEye a1;
+			checkEnum(l,2,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,3,out a2);
+			self.SetStereoProjectionMatrix(a1,a2);
+					{ "trigger": "Camera:ResetStereoProjectionMatrices(Public, HideBySig)","contents": "Camera:ResetStereoProjectionMatrices(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetStereoProjectionMatrices();
+					{ "trigger": "Camera:WorldToScreenPoint(Public, HideBySig)","contents": "Camera:WorldToScreenPoint(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.WorldToScreenPoint(a1);
+					{ "trigger": "Camera:WorldToViewportPoint(Public, HideBySig)","contents": "Camera:WorldToViewportPoint(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.WorldToViewportPoint(a1);
+					{ "trigger": "Camera:ViewportToWorldPoint(Public, HideBySig)","contents": "Camera:ViewportToWorldPoint(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.ViewportToWorldPoint(a1);
+					{ "trigger": "Camera:ScreenToWorldPoint(Public, HideBySig)","contents": "Camera:ScreenToWorldPoint(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.ScreenToWorldPoint(a1);
+					{ "trigger": "Camera:ScreenToViewportPoint(Public, HideBySig)","contents": "Camera:ScreenToViewportPoint(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.ScreenToViewportPoint(a1);
+					{ "trigger": "Camera:ViewportToScreenPoint(Public, HideBySig)","contents": "Camera:ViewportToScreenPoint(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.ViewportToScreenPoint(a1);
+					{ "trigger": "Camera:ViewportPointToRay(Public, HideBySig)","contents": "Camera:ViewportPointToRay(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.ViewportPointToRay(a1);
+					{ "trigger": "Camera:ScreenPointToRay(Public, HideBySig)","contents": "Camera:ScreenPointToRay(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			var ret=self.ScreenPointToRay(a1);
+					{ "trigger": "Camera:Render(Public, HideBySig)","contents": "Camera:Render(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.Render();
+					{ "trigger": "Camera:RenderWithShader(Public, HideBySig)","contents": "Camera:RenderWithShader(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Shader a1;
+			checkType(l,2,out a1);
+			System.String a2;
+			checkType(l,3,out a2);
+			self.RenderWithShader(a1,a2);
+					{ "trigger": "Camera:SetReplacementShader(Public, HideBySig)","contents": "Camera:SetReplacementShader(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			UnityEngine.Shader a1;
+			checkType(l,2,out a1);
+			System.String a2;
+			checkType(l,3,out a2);
+			self.SetReplacementShader(a1,a2);
+					{ "trigger": "Camera:ResetReplacementShader(Public, HideBySig)","contents": "Camera:ResetReplacementShader(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetReplacementShader();
+					{ "trigger": "Camera:ResetCullingMatrix(Public, HideBySig)","contents": "Camera:ResetCullingMatrix(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.ResetCullingMatrix();
+					{ "trigger": "Camera:RenderDontRestore(Public, HideBySig)","contents": "Camera:RenderDontRestore(Public, HideBySig)"},
+
+			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+			self.RenderDontRestore();
+					{ "trigger": "Camera:RenderToCubemap(Public, HideBySig)","contents": "Camera:RenderToCubemap(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,UnityEngine.RenderTexture)){
+				UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+				UnityEngine.RenderTexture a1;
+				checkType(l,2,out a1);
+				var ret=self.RenderToCubemap(a1);
+				else if(matchType(l,argc,2,UnityEngine.Cubemap)){
+					UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+					UnityEngine.Cubemap a1;
+					checkType(l,2,out a1);
+					var ret=self.RenderToCubemap(a1);
+					else if(matchType(l,argc,2,UnityEngine.RenderTexture,int)){
+						UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+						UnityEngine.RenderTexture a1;
+						checkType(l,2,out a1);
+						System.Int32 a2;
+						checkType(l,3,out a2);
+						var ret=self.RenderToCubemap(a1,a2);
+						else if(matchType(l,argc,2,UnityEngine.Cubemap,int)){
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Cubemap a1;
+							checkType(l,2,out a1);
+							System.Int32 a2;
+							checkType(l,3,out a2);
+							var ret=self.RenderToCubemap(a1,a2);
+									{ "trigger": "Camera:CopyFrom(Public, HideBySig)","contents": "Camera:CopyFrom(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Camera a1;
+							checkType(l,2,out a1);
+							self.CopyFrom(a1);
+									{ "trigger": "Camera:AddCommandBuffer(Public, HideBySig)","contents": "Camera:AddCommandBuffer(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Rendering.CameraEvent a1;
+							checkEnum(l,2,out a1);
+							UnityEngine.Rendering.CommandBuffer a2;
+							checkType(l,3,out a2);
+							self.AddCommandBuffer(a1,a2);
+									{ "trigger": "Camera:RemoveCommandBuffer(Public, HideBySig)","contents": "Camera:RemoveCommandBuffer(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Rendering.CameraEvent a1;
+							checkEnum(l,2,out a1);
+							UnityEngine.Rendering.CommandBuffer a2;
+							checkType(l,3,out a2);
+							self.RemoveCommandBuffer(a1,a2);
+									{ "trigger": "Camera:RemoveCommandBuffers(Public, HideBySig)","contents": "Camera:RemoveCommandBuffers(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Rendering.CameraEvent a1;
+							checkEnum(l,2,out a1);
+							self.RemoveCommandBuffers(a1);
+									{ "trigger": "Camera:RemoveAllCommandBuffers(Public, HideBySig)","contents": "Camera:RemoveAllCommandBuffers(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							self.RemoveAllCommandBuffers();
+									{ "trigger": "Camera:GetCommandBuffers(Public, HideBySig)","contents": "Camera:GetCommandBuffers(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Rendering.CameraEvent a1;
+							checkEnum(l,2,out a1);
+							var ret=self.GetCommandBuffers(a1);
+									{ "trigger": "Camera:CalculateObliqueMatrix(Public, HideBySig)","contents": "Camera:CalculateObliqueMatrix(Public, HideBySig)"},
+
+							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+							UnityEngine.Vector4 a1;
+							checkType(l,2,out a1);
+							var ret=self.CalculateObliqueMatrix(a1);
+									{ "trigger": "Camera.GetAllCameras(Public, Static, HideBySig)","contents": "Camera.GetAllCameras(Public, Static, HideBySig)"},
+
+							UnityEngine.Camera[] a1;
+							checkArray(l,1,out a1);
+							var ret=UnityEngine.Camera.GetAllCameras(a1);
+									{ "trigger": "Camera.SetupCurrent(Public, Static, HideBySig)","contents": "Camera.SetupCurrent(Public, Static, HideBySig)"},
+
+							UnityEngine.Camera a1;
+							checkType(l,1,out a1);
+							UnityEngine.Camera.SetupCurrent(a1);
+							set_onPreCull(IntPtr l) {
+								UnityEngine.Camera.CameraCallback v;
+								int op=LuaDelegation.checkDelegate(l,2,out v);
+								if(op==0) UnityEngine.Camera.onPreCull=v;
+								else if(op==1) UnityEngine.Camera.onPreCull+=v;
+								else if(op==2) UnityEngine.Camera.onPreCull-=v;
+								set_onPreRender(IntPtr l) {
+									UnityEngine.Camera.CameraCallback v;
+									int op=LuaDelegation.checkDelegate(l,2,out v);
+									if(op==0) UnityEngine.Camera.onPreRender=v;
+									else if(op==1) UnityEngine.Camera.onPreRender+=v;
+									else if(op==2) UnityEngine.Camera.onPreRender-=v;
+									set_onPostRender(IntPtr l) {
+										UnityEngine.Camera.CameraCallback v;
+										int op=LuaDelegation.checkDelegate(l,2,out v);
+										if(op==0) UnityEngine.Camera.onPostRender=v;
+										else if(op==1) UnityEngine.Camera.onPostRender+=v;
+										else if(op==2) UnityEngine.Camera.onPostRender-=v;
+										get_fieldOfView(IntPtr l) {
+											set_fieldOfView(IntPtr l) {
+												UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+												float v;
+												checkType(l,2,out v);
+												self.fieldOfView=v;
+												get_nearClipPlane(IntPtr l) {
+													set_nearClipPlane(IntPtr l) {
+														UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+														float v;
+														checkType(l,2,out v);
+														self.nearClipPlane=v;
+														get_farClipPlane(IntPtr l) {
+															set_farClipPlane(IntPtr l) {
+																UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																float v;
+																checkType(l,2,out v);
+																self.farClipPlane=v;
+																get_renderingPath(IntPtr l) {
+																	set_renderingPath(IntPtr l) {
+																		UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																		UnityEngine.RenderingPath v;
+																		checkEnum(l,2,out v);
+																		self.renderingPath=v;
+																		get_actualRenderingPath(IntPtr l) {
+																			get_hdr(IntPtr l) {
+																				set_hdr(IntPtr l) {
+																					UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																					bool v;
+																					checkType(l,2,out v);
+																					self.hdr=v;
+																					get_orthographicSize(IntPtr l) {
+																						set_orthographicSize(IntPtr l) {
+																							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																							float v;
+																							checkType(l,2,out v);
+																							self.orthographicSize=v;
+																							get_orthographic(IntPtr l) {
+																								set_orthographic(IntPtr l) {
+																									UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																									bool v;
+																									checkType(l,2,out v);
+																									self.orthographic=v;
+																									get_opaqueSortMode(IntPtr l) {
+																										set_opaqueSortMode(IntPtr l) {
+																											UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																											UnityEngine.Rendering.OpaqueSortMode v;
+																											checkEnum(l,2,out v);
+																											self.opaqueSortMode=v;
+																											get_transparencySortMode(IntPtr l) {
+																												set_transparencySortMode(IntPtr l) {
+																													UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																													UnityEngine.TransparencySortMode v;
+																													checkEnum(l,2,out v);
+																													self.transparencySortMode=v;
+																													get_depth(IntPtr l) {
+																														set_depth(IntPtr l) {
+																															UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																															float v;
+																															checkType(l,2,out v);
+																															self.depth=v;
+																															get_aspect(IntPtr l) {
+																																set_aspect(IntPtr l) {
+																																	UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																	float v;
+																																	checkType(l,2,out v);
+																																	self.aspect=v;
+																																	get_cullingMask(IntPtr l) {
+																																		set_cullingMask(IntPtr l) {
+																																			UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																			int v;
+																																			checkType(l,2,out v);
+																																			self.cullingMask=v;
+																																			get_eventMask(IntPtr l) {
+																																				set_eventMask(IntPtr l) {
+																																					UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																					int v;
+																																					checkType(l,2,out v);
+																																					self.eventMask=v;
+																																					get_backgroundColor(IntPtr l) {
+																																						set_backgroundColor(IntPtr l) {
+																																							UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																							UnityEngine.Color v;
+																																							checkType(l,2,out v);
+																																							self.backgroundColor=v;
+																																							get_rect(IntPtr l) {
+																																								set_rect(IntPtr l) {
+																																									UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																									UnityEngine.Rect v;
+																																									checkValueType(l,2,out v);
+																																									self.rect=v;
+																																									get_pixelRect(IntPtr l) {
+																																										set_pixelRect(IntPtr l) {
+																																											UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																											UnityEngine.Rect v;
+																																											checkValueType(l,2,out v);
+																																											self.pixelRect=v;
+																																											get_targetTexture(IntPtr l) {
+																																												set_targetTexture(IntPtr l) {
+																																													UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																													UnityEngine.RenderTexture v;
+																																													checkType(l,2,out v);
+																																													self.targetTexture=v;
+																																													get_pixelWidth(IntPtr l) {
+																																														get_pixelHeight(IntPtr l) {
+																																															get_cameraToWorldMatrix(IntPtr l) {
+																																																get_worldToCameraMatrix(IntPtr l) {
+																																																	set_worldToCameraMatrix(IntPtr l) {
+																																																		UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																		UnityEngine.Matrix4x4 v;
+																																																		checkValueType(l,2,out v);
+																																																		self.worldToCameraMatrix=v;
+																																																		get_projectionMatrix(IntPtr l) {
+																																																			set_projectionMatrix(IntPtr l) {
+																																																				UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																				UnityEngine.Matrix4x4 v;
+																																																				checkValueType(l,2,out v);
+																																																				self.projectionMatrix=v;
+																																																				get_nonJitteredProjectionMatrix(IntPtr l) {
+																																																					set_nonJitteredProjectionMatrix(IntPtr l) {
+																																																						UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																						UnityEngine.Matrix4x4 v;
+																																																						checkValueType(l,2,out v);
+																																																						self.nonJitteredProjectionMatrix=v;
+																																																						get_velocity(IntPtr l) {
+																																																							get_clearFlags(IntPtr l) {
+																																																								set_clearFlags(IntPtr l) {
+																																																									UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																									UnityEngine.CameraClearFlags v;
+																																																									checkEnum(l,2,out v);
+																																																									self.clearFlags=v;
+																																																									get_stereoEnabled(IntPtr l) {
+																																																										get_stereoSeparation(IntPtr l) {
+																																																											set_stereoSeparation(IntPtr l) {
+																																																												UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																												float v;
+																																																												checkType(l,2,out v);
+																																																												self.stereoSeparation=v;
+																																																												get_stereoConvergence(IntPtr l) {
+																																																													set_stereoConvergence(IntPtr l) {
+																																																														UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																														float v;
+																																																														checkType(l,2,out v);
+																																																														self.stereoConvergence=v;
+																																																														get_cameraType(IntPtr l) {
+																																																															set_cameraType(IntPtr l) {
+																																																																UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																UnityEngine.CameraType v;
+																																																																checkEnum(l,2,out v);
+																																																																self.cameraType=v;
+																																																																get_stereoMirrorMode(IntPtr l) {
+																																																																	set_stereoMirrorMode(IntPtr l) {
+																																																																		UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																		bool v;
+																																																																		checkType(l,2,out v);
+																																																																		self.stereoMirrorMode=v;
+																																																																		get_stereoTargetEye(IntPtr l) {
+																																																																			set_stereoTargetEye(IntPtr l) {
+																																																																				UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																				UnityEngine.StereoTargetEyeMask v;
+																																																																				checkEnum(l,2,out v);
+																																																																				self.stereoTargetEye=v;
+																																																																				get_targetDisplay(IntPtr l) {
+																																																																					set_targetDisplay(IntPtr l) {
+																																																																						UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																						int v;
+																																																																						checkType(l,2,out v);
+																																																																						self.targetDisplay=v;
+																																																																						get_main(IntPtr l) {
+																																																																							get_current(IntPtr l) {
+																																																																								get_allCameras(IntPtr l) {
+																																																																									get_allCamerasCount(IntPtr l) {
+																																																																										get_useOcclusionCulling(IntPtr l) {
+																																																																											set_useOcclusionCulling(IntPtr l) {
+																																																																												UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																												bool v;
+																																																																												checkType(l,2,out v);
+																																																																												self.useOcclusionCulling=v;
+																																																																												get_cullingMatrix(IntPtr l) {
+																																																																													set_cullingMatrix(IntPtr l) {
+																																																																														UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																														UnityEngine.Matrix4x4 v;
+																																																																														checkValueType(l,2,out v);
+																																																																														self.cullingMatrix=v;
+																																																																														get_layerCullDistances(IntPtr l) {
+																																																																															set_layerCullDistances(IntPtr l) {
+																																																																																UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																																System.Single[] v;
+																																																																																checkArray(l,2,out v);
+																																																																																self.layerCullDistances=v;
+																																																																																get_layerCullSpherical(IntPtr l) {
+																																																																																	set_layerCullSpherical(IntPtr l) {
+																																																																																		UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																																		bool v;
+																																																																																		checkType(l,2,out v);
+																																																																																		self.layerCullSpherical=v;
+																																																																																		get_depthTextureMode(IntPtr l) {
+																																																																																			set_depthTextureMode(IntPtr l) {
+																																																																																				UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																																				UnityEngine.DepthTextureMode v;
+																																																																																				checkEnum(l,2,out v);
+																																																																																				self.depthTextureMode=v;
+																																																																																				get_clearStencilAfterLightingPass(IntPtr l) {
+																																																																																					set_clearStencilAfterLightingPass(IntPtr l) {
+																																																																																						UnityEngine.Camera self=(UnityEngine.Camera)checkSelf(l);
+																																																																																						bool v;
+																																																																																						checkType(l,2,out v);
+																																																																																						self.clearStencilAfterLightingPass=v;
+																																																																																						get_commandBufferCount(IntPtr l) {
+																																																																																								]
+																																																																																						}
+

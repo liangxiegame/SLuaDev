@@ -1,0 +1,73 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "StandaloneInputModule:UpdateModule(Public, Virtual, HideBySig)","contents": "StandaloneInputModule:UpdateModule(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+	self.UpdateModule();
+			{ "trigger": "StandaloneInputModule:IsModuleSupported(Public, Virtual, HideBySig)","contents": "StandaloneInputModule:IsModuleSupported(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+	var ret=self.IsModuleSupported();
+			{ "trigger": "StandaloneInputModule:ShouldActivateModule(Public, Virtual, HideBySig)","contents": "StandaloneInputModule:ShouldActivateModule(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+	var ret=self.ShouldActivateModule();
+			{ "trigger": "StandaloneInputModule:ActivateModule(Public, Virtual, HideBySig)","contents": "StandaloneInputModule:ActivateModule(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+	self.ActivateModule();
+			{ "trigger": "StandaloneInputModule:DeactivateModule(Public, Virtual, HideBySig)","contents": "StandaloneInputModule:DeactivateModule(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+	self.DeactivateModule();
+			{ "trigger": "StandaloneInputModule:Process(Public, Virtual, HideBySig)","contents": "StandaloneInputModule:Process(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+	self.Process();
+	get_forceModuleActive(IntPtr l) {
+		set_forceModuleActive(IntPtr l) {
+			UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.forceModuleActive=v;
+			get_inputActionsPerSecond(IntPtr l) {
+				set_inputActionsPerSecond(IntPtr l) {
+					UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.inputActionsPerSecond=v;
+					get_repeatDelay(IntPtr l) {
+						set_repeatDelay(IntPtr l) {
+							UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.repeatDelay=v;
+							get_horizontalAxis(IntPtr l) {
+								set_horizontalAxis(IntPtr l) {
+									UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+									string v;
+									checkType(l,2,out v);
+									self.horizontalAxis=v;
+									get_verticalAxis(IntPtr l) {
+										set_verticalAxis(IntPtr l) {
+											UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+											string v;
+											checkType(l,2,out v);
+											self.verticalAxis=v;
+											get_submitButton(IntPtr l) {
+												set_submitButton(IntPtr l) {
+													UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+													string v;
+													checkType(l,2,out v);
+													self.submitButton=v;
+													get_cancelButton(IntPtr l) {
+														set_cancelButton(IntPtr l) {
+															UnityEngine.EventSystems.StandaloneInputModule self=(UnityEngine.EventSystems.StandaloneInputModule)checkSelf(l);
+															string v;
+															checkType(l,2,out v);
+															self.cancelButton=v;
+																]
+														}
+

@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.GridLayoutGroup.Constraint");
+	addMember(l,0,"Flexible");
+	addMember(l,1,"FixedColumnCount");
+	addMember(l,2,"FixedRowCount");
+		]
+}
+

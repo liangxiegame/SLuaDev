@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.RenderingPath");
+	addMember(l,0,"VertexLit");
+	addMember(l,1,"Forward");
+	addMember(l,2,"DeferredLighting");
+	addMember(l,3,"DeferredShading");
+	addMember(l,-1,"UsePlayerSettings");
+		]
+}
+

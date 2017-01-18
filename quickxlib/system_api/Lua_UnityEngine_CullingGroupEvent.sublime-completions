@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CullingGroupEvent()()","contents": "UnityEngine.CullingGroupEvent()()"},
+
+	get_index(IntPtr l) {
+		get_isVisible(IntPtr l) {
+			get_wasVisible(IntPtr l) {
+				get_hasBecomeVisible(IntPtr l) {
+					get_hasBecomeInvisible(IntPtr l) {
+						get_currentDistance(IntPtr l) {
+							get_previousDistance(IntPtr l) {
+									]
+							}
+

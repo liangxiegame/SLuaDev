@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.ContentSizeFitter.FitMode");
+	addMember(l,0,"Unconstrained");
+	addMember(l,1,"MinSize");
+	addMember(l,2,"PreferredSize");
+		]
+}
+

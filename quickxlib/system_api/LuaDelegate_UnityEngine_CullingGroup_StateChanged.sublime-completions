@@ -1,0 +1,8 @@
+﻿
+UnityEngine.CullingGroup.StateChanged 
+                ua = (UnityEngine.CullingGroup.StateChanged)checkObj(l, p);
+                ua = (UnityEngine.CullingGroup.StateChanged)ld.d;
+            ua = (UnityEngine.CullingGroupEvent a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

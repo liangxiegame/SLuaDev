@@ -1,0 +1,59 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SystemInfo()()","contents": "UnityEngine.SystemInfo()()"},
+
+			{ "trigger": "SystemInfo.SupportsRenderTextureFormat(Public, Static, HideBySig)","contents": "SystemInfo.SupportsRenderTextureFormat(Public, Static, HideBySig)"},
+
+	UnityEngine.RenderTextureFormat a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.SystemInfo.SupportsRenderTextureFormat(a1);
+			{ "trigger": "SystemInfo.SupportsTextureFormat(Public, Static, HideBySig)","contents": "SystemInfo.SupportsTextureFormat(Public, Static, HideBySig)"},
+
+	UnityEngine.TextureFormat a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.SystemInfo.SupportsTextureFormat(a1);
+	unsupportedIdentifier
+	get_operatingSystem(IntPtr l) {
+		get_processorType(IntPtr l) {
+			get_processorFrequency(IntPtr l) {
+				get_processorCount(IntPtr l) {
+					get_systemMemorySize(IntPtr l) {
+						get_graphicsMemorySize(IntPtr l) {
+							get_graphicsDeviceName(IntPtr l) {
+								get_graphicsDeviceVendor(IntPtr l) {
+									get_graphicsDeviceID(IntPtr l) {
+										get_graphicsDeviceVendorID(IntPtr l) {
+											get_graphicsDeviceType(IntPtr l) {
+												get_graphicsDeviceVersion(IntPtr l) {
+													get_graphicsShaderLevel(IntPtr l) {
+														get_graphicsMultiThreaded(IntPtr l) {
+															get_supportsShadows(IntPtr l) {
+																get_supportsRawShadowDepthSampling(IntPtr l) {
+																	get_supportsRenderTextures(IntPtr l) {
+																		get_supportsMotionVectors(IntPtr l) {
+																			get_supportsRenderToCubemap(IntPtr l) {
+																				get_supportsImageEffects(IntPtr l) {
+																					get_supports3DTextures(IntPtr l) {
+																						get_supports2DArrayTextures(IntPtr l) {
+																							get_copyTextureSupport(IntPtr l) {
+																								get_supportsComputeShaders(IntPtr l) {
+																									get_supportsInstancing(IntPtr l) {
+																										get_supportsSparseTextures(IntPtr l) {
+																											get_supportedRenderTargetCount(IntPtr l) {
+																												get_supportsStencil(IntPtr l) {
+																													get_npotSupport(IntPtr l) {
+																														get_deviceUniqueIdentifier(IntPtr l) {
+																															get_deviceName(IntPtr l) {
+																																get_deviceModel(IntPtr l) {
+																																	get_supportsAccelerometer(IntPtr l) {
+																																		get_supportsGyroscope(IntPtr l) {
+																																			get_supportsLocationService(IntPtr l) {
+																																				get_supportsVibration(IntPtr l) {
+																																					get_supportsAudio(IntPtr l) {
+																																						get_deviceType(IntPtr l) {
+																																							get_maxTextureSize(IntPtr l) {
+																																									]
+																																							}
+

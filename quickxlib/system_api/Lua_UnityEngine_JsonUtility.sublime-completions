@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "JsonUtility.ToJson(Public, Static, HideBySig)","contents": "JsonUtility.ToJson(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		System.Object a1;
+		checkType(l,1,out a1);
+		var ret=UnityEngine.JsonUtility.ToJson(a1);
+		else if(argc==2){
+			System.Object a1;
+			checkType(l,1,out a1);
+			System.Boolean a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.JsonUtility.ToJson(a1,a2);
+					{ "trigger": "JsonUtility.FromJson(Public, Static, HideBySig)","contents": "JsonUtility.FromJson(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Type a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.JsonUtility.FromJson(a1,a2);
+					{ "trigger": "JsonUtility.FromJsonOverwrite(Public, Static, HideBySig)","contents": "JsonUtility.FromJsonOverwrite(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Object a2;
+			checkType(l,2,out a2);
+			UnityEngine.JsonUtility.FromJsonOverwrite(a1,a2);
+				]
+		}
+

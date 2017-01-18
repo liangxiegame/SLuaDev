@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.OcclusionPortal()()","contents": "UnityEngine.OcclusionPortal()()"},
+
+	get_open(IntPtr l) {
+		set_open(IntPtr l) {
+			UnityEngine.OcclusionPortal self=(UnityEngine.OcclusionPortal)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.open=v;
+				]
+		}
+

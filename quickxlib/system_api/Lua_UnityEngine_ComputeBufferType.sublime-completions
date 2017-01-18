@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ComputeBufferType");
+	addMember(l,0,"Default");
+	addMember(l,1,"Raw");
+	addMember(l,2,"Append");
+	addMember(l,4,"Counter");
+	addMember(l,256,"IndirectArguments");
+	addMember(l,256,"DrawIndirect");
+	addMember(l,512,"GPUMemory");
+		]
+}
+

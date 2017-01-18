@@ -1,0 +1,8 @@
+﻿
+WebClientEx.DownComplete 
+                ua = (WebClientEx.DownComplete)checkObj(l, p);
+                ua = (WebClientEx.DownComplete)ld.d;
+            ua = (System.ComponentModel.AsyncCompletedEventArgs a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

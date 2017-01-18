@@ -1,0 +1,284 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Matrix4x4()()","contents": "UnityEngine.Matrix4x4()()"},
+
+			{ "trigger": "Matrix4x4:GetColumn(Public, HideBySig)","contents": "Matrix4x4:GetColumn(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetColumn(a1);
+			{ "trigger": "Matrix4x4:GetRow(Public, HideBySig)","contents": "Matrix4x4:GetRow(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetRow(a1);
+			{ "trigger": "Matrix4x4:SetColumn(Public, HideBySig)","contents": "Matrix4x4:SetColumn(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector4 a2;
+	checkType(l,3,out a2);
+	self.SetColumn(a1,a2);
+			{ "trigger": "Matrix4x4:SetRow(Public, HideBySig)","contents": "Matrix4x4:SetRow(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector4 a2;
+	checkType(l,3,out a2);
+	self.SetRow(a1,a2);
+			{ "trigger": "Matrix4x4:MultiplyPoint(Public, HideBySig)","contents": "Matrix4x4:MultiplyPoint(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.MultiplyPoint(a1);
+			{ "trigger": "Matrix4x4:MultiplyPoint3x4(Public, HideBySig)","contents": "Matrix4x4:MultiplyPoint3x4(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.MultiplyPoint3x4(a1);
+			{ "trigger": "Matrix4x4:MultiplyVector(Public, HideBySig)","contents": "Matrix4x4:MultiplyVector(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.MultiplyVector(a1);
+			{ "trigger": "Matrix4x4:SetTRS(Public, HideBySig)","contents": "Matrix4x4:SetTRS(Public, HideBySig)"},
+
+	UnityEngine.Matrix4x4 self;
+	checkValueType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Quaternion a2;
+	checkType(l,3,out a2);
+	UnityEngine.Vector3 a3;
+	checkType(l,4,out a3);
+	self.SetTRS(a1,a2,a3);
+			{ "trigger": "Matrix4x4.Inverse(Public, Static, HideBySig)","contents": "Matrix4x4.Inverse(Public, Static, HideBySig)"},
+
+	UnityEngine.Matrix4x4 a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.Matrix4x4.Inverse(a1);
+			{ "trigger": "Matrix4x4.Transpose(Public, Static, HideBySig)","contents": "Matrix4x4.Transpose(Public, Static, HideBySig)"},
+
+	UnityEngine.Matrix4x4 a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.Matrix4x4.Transpose(a1);
+			{ "trigger": "Matrix4x4.Determinant(Public, Static, HideBySig)","contents": "Matrix4x4.Determinant(Public, Static, HideBySig)"},
+
+	UnityEngine.Matrix4x4 a1;
+	checkValueType(l,1,out a1);
+	var ret=UnityEngine.Matrix4x4.Determinant(a1);
+			{ "trigger": "Matrix4x4.Scale(Public, Static, HideBySig)","contents": "Matrix4x4.Scale(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Matrix4x4.Scale(a1);
+			{ "trigger": "Matrix4x4.TRS(Public, Static, HideBySig)","contents": "Matrix4x4.TRS(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Quaternion a2;
+	checkType(l,2,out a2);
+	UnityEngine.Vector3 a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Matrix4x4.TRS(a1,a2,a3);
+			{ "trigger": "Matrix4x4.Ortho(Public, Static, HideBySig)","contents": "Matrix4x4.Ortho(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	System.Single a4;
+	checkType(l,4,out a4);
+	System.Single a5;
+	checkType(l,5,out a5);
+	System.Single a6;
+	checkType(l,6,out a6);
+	var ret=UnityEngine.Matrix4x4.Ortho(a1,a2,a3,a4,a5,a6);
+			{ "trigger": "Matrix4x4.Perspective(Public, Static, HideBySig)","contents": "Matrix4x4.Perspective(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	System.Single a4;
+	checkType(l,4,out a4);
+	var ret=UnityEngine.Matrix4x4.Perspective(a1,a2,a3,a4);
+			{ "trigger": "Matrix4x4.op_Multiply(Public, Static, HideBySig, SpecialName)","contents": "Matrix4x4.op_Multiply(Public, Static, HideBySig, SpecialName)"},
+
+	if(matchType(l,argc,1,UnityEngine.Matrix4x4,UnityEngine.Vector4)){
+		UnityEngine.Matrix4x4 a1;
+		checkValueType(l,1,out a1);
+		UnityEngine.Vector4 a2;
+		checkType(l,2,out a2);
+		var ret=a1*a2;
+		else if(matchType(l,argc,1,UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)){
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,2,out a2);
+			var ret=a1*a2;
+					{ "trigger": "Matrix4x4.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Matrix4x4.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1==a2);
+					{ "trigger": "Matrix4x4.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Matrix4x4.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Matrix4x4 a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1!=a2);
+			m00
+			set_m00(IntPtr l) {
+				UnityEngine.Matrix4x4 self;
+				checkValueType(l,1,out self);
+				System.Single v;
+				checkType(l,2,out v);
+				self.m00=v;
+				m10
+				set_m10(IntPtr l) {
+					UnityEngine.Matrix4x4 self;
+					checkValueType(l,1,out self);
+					System.Single v;
+					checkType(l,2,out v);
+					self.m10=v;
+					m20
+					set_m20(IntPtr l) {
+						UnityEngine.Matrix4x4 self;
+						checkValueType(l,1,out self);
+						System.Single v;
+						checkType(l,2,out v);
+						self.m20=v;
+						m30
+						set_m30(IntPtr l) {
+							UnityEngine.Matrix4x4 self;
+							checkValueType(l,1,out self);
+							System.Single v;
+							checkType(l,2,out v);
+							self.m30=v;
+							m01
+							set_m01(IntPtr l) {
+								UnityEngine.Matrix4x4 self;
+								checkValueType(l,1,out self);
+								System.Single v;
+								checkType(l,2,out v);
+								self.m01=v;
+								m11
+								set_m11(IntPtr l) {
+									UnityEngine.Matrix4x4 self;
+									checkValueType(l,1,out self);
+									System.Single v;
+									checkType(l,2,out v);
+									self.m11=v;
+									m21
+									set_m21(IntPtr l) {
+										UnityEngine.Matrix4x4 self;
+										checkValueType(l,1,out self);
+										System.Single v;
+										checkType(l,2,out v);
+										self.m21=v;
+										m31
+										set_m31(IntPtr l) {
+											UnityEngine.Matrix4x4 self;
+											checkValueType(l,1,out self);
+											System.Single v;
+											checkType(l,2,out v);
+											self.m31=v;
+											m02
+											set_m02(IntPtr l) {
+												UnityEngine.Matrix4x4 self;
+												checkValueType(l,1,out self);
+												System.Single v;
+												checkType(l,2,out v);
+												self.m02=v;
+												m12
+												set_m12(IntPtr l) {
+													UnityEngine.Matrix4x4 self;
+													checkValueType(l,1,out self);
+													System.Single v;
+													checkType(l,2,out v);
+													self.m12=v;
+													m22
+													set_m22(IntPtr l) {
+														UnityEngine.Matrix4x4 self;
+														checkValueType(l,1,out self);
+														System.Single v;
+														checkType(l,2,out v);
+														self.m22=v;
+														m32
+														set_m32(IntPtr l) {
+															UnityEngine.Matrix4x4 self;
+															checkValueType(l,1,out self);
+															System.Single v;
+															checkType(l,2,out v);
+															self.m32=v;
+															m03
+															set_m03(IntPtr l) {
+																UnityEngine.Matrix4x4 self;
+																checkValueType(l,1,out self);
+																System.Single v;
+																checkType(l,2,out v);
+																self.m03=v;
+																m13
+																set_m13(IntPtr l) {
+																	UnityEngine.Matrix4x4 self;
+																	checkValueType(l,1,out self);
+																	System.Single v;
+																	checkType(l,2,out v);
+																	self.m13=v;
+																	m23
+																	set_m23(IntPtr l) {
+																		UnityEngine.Matrix4x4 self;
+																		checkValueType(l,1,out self);
+																		System.Single v;
+																		checkType(l,2,out v);
+																		self.m23=v;
+																		m33
+																		set_m33(IntPtr l) {
+																			UnityEngine.Matrix4x4 self;
+																			checkValueType(l,1,out self);
+																			System.Single v;
+																			checkType(l,2,out v);
+																			self.m33=v;
+																			get_inverse(IntPtr l) {
+																				get_transpose(IntPtr l) {
+																					get_isIdentity(IntPtr l) {
+																						get_determinant(IntPtr l) {
+																							get_zero(IntPtr l) {
+																								get_identity(IntPtr l) {
+																									UnityEngine.Matrix4x4 self;
+																									checkValueType(l,1,out self);
+																									int v;
+																									checkType(l,2,out v);
+																									UnityEngine.Matrix4x4 self;
+																									checkValueType(l,1,out self);
+																									int v;
+																									checkType(l,2,out v);
+																									float c;
+																									checkType(l,3,out c);
+																										]
+																								}
+

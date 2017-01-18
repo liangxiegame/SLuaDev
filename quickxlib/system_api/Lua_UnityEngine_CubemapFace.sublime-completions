@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.CubemapFace");
+	addMember(l,0,"PositiveX");
+	addMember(l,1,"NegativeX");
+	addMember(l,2,"PositiveY");
+	addMember(l,3,"NegativeY");
+	addMember(l,4,"PositiveZ");
+	addMember(l,5,"NegativeZ");
+	addMember(l,-1,"Unknown");
+		]
+}
+

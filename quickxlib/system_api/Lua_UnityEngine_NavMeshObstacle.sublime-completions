@@ -1,0 +1,69 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.NavMeshObstacle()()","contents": "UnityEngine.NavMeshObstacle()()"},
+
+	get_height(IntPtr l) {
+		set_height(IntPtr l) {
+			UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.height=v;
+			get_radius(IntPtr l) {
+				set_radius(IntPtr l) {
+					UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.radius=v;
+					get_velocity(IntPtr l) {
+						set_velocity(IntPtr l) {
+							UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+							UnityEngine.Vector3 v;
+							checkType(l,2,out v);
+							self.velocity=v;
+							get_carving(IntPtr l) {
+								set_carving(IntPtr l) {
+									UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.carving=v;
+									get_carveOnlyStationary(IntPtr l) {
+										set_carveOnlyStationary(IntPtr l) {
+											UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.carveOnlyStationary=v;
+											get_carvingMoveThreshold(IntPtr l) {
+												set_carvingMoveThreshold(IntPtr l) {
+													UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.carvingMoveThreshold=v;
+													get_carvingTimeToStationary(IntPtr l) {
+														set_carvingTimeToStationary(IntPtr l) {
+															UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.carvingTimeToStationary=v;
+															get_shape(IntPtr l) {
+																set_shape(IntPtr l) {
+																	UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+																	UnityEngine.NavMeshObstacleShape v;
+																	checkEnum(l,2,out v);
+																	self.shape=v;
+																	get_center(IntPtr l) {
+																		set_center(IntPtr l) {
+																			UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+																			UnityEngine.Vector3 v;
+																			checkType(l,2,out v);
+																			self.center=v;
+																			get_size(IntPtr l) {
+																				set_size(IntPtr l) {
+																					UnityEngine.NavMeshObstacle self=(UnityEngine.NavMeshObstacle)checkSelf(l);
+																					UnityEngine.Vector3 v;
+																					checkType(l,2,out v);
+																					self.size=v;
+																						]
+																				}
+

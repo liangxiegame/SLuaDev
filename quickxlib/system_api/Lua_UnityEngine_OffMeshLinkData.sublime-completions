@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.OffMeshLinkData()()","contents": "UnityEngine.OffMeshLinkData()()"},
+
+	get_valid(IntPtr l) {
+		get_activated(IntPtr l) {
+			get_linkType(IntPtr l) {
+				get_startPos(IntPtr l) {
+					get_endPos(IntPtr l) {
+						get_offMeshLink(IntPtr l) {
+								]
+						}
+

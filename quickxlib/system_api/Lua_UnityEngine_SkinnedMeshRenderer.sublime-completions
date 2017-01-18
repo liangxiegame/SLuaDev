@@ -1,0 +1,71 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SkinnedMeshRenderer()()","contents": "UnityEngine.SkinnedMeshRenderer()()"},
+
+			{ "trigger": "SkinnedMeshRenderer:BakeMesh(Public, HideBySig)","contents": "SkinnedMeshRenderer:BakeMesh(Public, HideBySig)"},
+
+	UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+	UnityEngine.Mesh a1;
+	checkType(l,2,out a1);
+	self.BakeMesh(a1);
+			{ "trigger": "SkinnedMeshRenderer:GetBlendShapeWeight(Public, HideBySig)","contents": "SkinnedMeshRenderer:GetBlendShapeWeight(Public, HideBySig)"},
+
+	UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetBlendShapeWeight(a1);
+			{ "trigger": "SkinnedMeshRenderer:SetBlendShapeWeight(Public, HideBySig)","contents": "SkinnedMeshRenderer:SetBlendShapeWeight(Public, HideBySig)"},
+
+	UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetBlendShapeWeight(a1,a2);
+	get_bones(IntPtr l) {
+		set_bones(IntPtr l) {
+			UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+			UnityEngine.Transform[] v;
+			checkArray(l,2,out v);
+			self.bones=v;
+			get_rootBone(IntPtr l) {
+				set_rootBone(IntPtr l) {
+					UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+					UnityEngine.Transform v;
+					checkType(l,2,out v);
+					self.rootBone=v;
+					get_quality(IntPtr l) {
+						set_quality(IntPtr l) {
+							UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+							UnityEngine.SkinQuality v;
+							checkEnum(l,2,out v);
+							self.quality=v;
+							get_sharedMesh(IntPtr l) {
+								set_sharedMesh(IntPtr l) {
+									UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+									UnityEngine.Mesh v;
+									checkType(l,2,out v);
+									self.sharedMesh=v;
+									get_updateWhenOffscreen(IntPtr l) {
+										set_updateWhenOffscreen(IntPtr l) {
+											UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.updateWhenOffscreen=v;
+											get_skinnedMotionVectors(IntPtr l) {
+												set_skinnedMotionVectors(IntPtr l) {
+													UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.skinnedMotionVectors=v;
+													get_localBounds(IntPtr l) {
+														set_localBounds(IntPtr l) {
+															UnityEngine.SkinnedMeshRenderer self=(UnityEngine.SkinnedMeshRenderer)checkSelf(l);
+															UnityEngine.Bounds v;
+															checkValueType(l,2,out v);
+															self.localBounds=v;
+																]
+														}
+

@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.FogMode");
+	addMember(l,1,"Linear");
+	addMember(l,2,"Exponential");
+	addMember(l,3,"ExponentialSquared");
+		]
+}
+

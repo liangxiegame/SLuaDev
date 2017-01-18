@@ -1,0 +1,20 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "InputTracking.GetLocalPosition(Public, Static, HideBySig)","contents": "InputTracking.GetLocalPosition(Public, Static, HideBySig)"},
+
+	UnityEngine.VR.VRNode a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.VR.InputTracking.GetLocalPosition(a1);
+			{ "trigger": "InputTracking.GetLocalRotation(Public, Static, HideBySig)","contents": "InputTracking.GetLocalRotation(Public, Static, HideBySig)"},
+
+	UnityEngine.VR.VRNode a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.VR.InputTracking.GetLocalRotation(a1);
+			{ "trigger": "InputTracking.Recenter(Public, Static, HideBySig)","contents": "InputTracking.Recenter(Public, Static, HideBySig)"},
+
+	UnityEngine.VR.InputTracking.Recenter();
+		]
+}
+

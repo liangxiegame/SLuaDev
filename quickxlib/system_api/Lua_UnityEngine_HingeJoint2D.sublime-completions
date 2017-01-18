@@ -1,0 +1,43 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.HingeJoint2D()()","contents": "UnityEngine.HingeJoint2D()()"},
+
+			{ "trigger": "HingeJoint2D:GetMotorTorque(Public, HideBySig)","contents": "HingeJoint2D:GetMotorTorque(Public, HideBySig)"},
+
+	UnityEngine.HingeJoint2D self=(UnityEngine.HingeJoint2D)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.GetMotorTorque(a1);
+	get_useMotor(IntPtr l) {
+		set_useMotor(IntPtr l) {
+			UnityEngine.HingeJoint2D self=(UnityEngine.HingeJoint2D)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.useMotor=v;
+			get_useLimits(IntPtr l) {
+				set_useLimits(IntPtr l) {
+					UnityEngine.HingeJoint2D self=(UnityEngine.HingeJoint2D)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.useLimits=v;
+					get_motor(IntPtr l) {
+						set_motor(IntPtr l) {
+							UnityEngine.HingeJoint2D self=(UnityEngine.HingeJoint2D)checkSelf(l);
+							UnityEngine.JointMotor2D v;
+							checkValueType(l,2,out v);
+							self.motor=v;
+							get_limits(IntPtr l) {
+								set_limits(IntPtr l) {
+									UnityEngine.HingeJoint2D self=(UnityEngine.HingeJoint2D)checkSelf(l);
+									UnityEngine.JointAngleLimits2D v;
+									checkValueType(l,2,out v);
+									self.limits=v;
+									get_limitState(IntPtr l) {
+										get_referenceAngle(IntPtr l) {
+											get_jointAngle(IntPtr l) {
+												get_jointSpeed(IntPtr l) {
+														]
+												}
+

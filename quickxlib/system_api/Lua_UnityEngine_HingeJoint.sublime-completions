@@ -1,0 +1,47 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.HingeJoint()()","contents": "UnityEngine.HingeJoint()()"},
+
+	get_motor(IntPtr l) {
+		set_motor(IntPtr l) {
+			UnityEngine.HingeJoint self=(UnityEngine.HingeJoint)checkSelf(l);
+			UnityEngine.JointMotor v;
+			checkValueType(l,2,out v);
+			self.motor=v;
+			get_limits(IntPtr l) {
+				set_limits(IntPtr l) {
+					UnityEngine.HingeJoint self=(UnityEngine.HingeJoint)checkSelf(l);
+					UnityEngine.JointLimits v;
+					checkValueType(l,2,out v);
+					self.limits=v;
+					get_spring(IntPtr l) {
+						set_spring(IntPtr l) {
+							UnityEngine.HingeJoint self=(UnityEngine.HingeJoint)checkSelf(l);
+							UnityEngine.JointSpring v;
+							checkValueType(l,2,out v);
+							self.spring=v;
+							get_useMotor(IntPtr l) {
+								set_useMotor(IntPtr l) {
+									UnityEngine.HingeJoint self=(UnityEngine.HingeJoint)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.useMotor=v;
+									get_useLimits(IntPtr l) {
+										set_useLimits(IntPtr l) {
+											UnityEngine.HingeJoint self=(UnityEngine.HingeJoint)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.useLimits=v;
+											get_useSpring(IntPtr l) {
+												set_useSpring(IntPtr l) {
+													UnityEngine.HingeJoint self=(UnityEngine.HingeJoint)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.useSpring=v;
+													get_velocity(IntPtr l) {
+														get_angle(IntPtr l) {
+																]
+														}
+

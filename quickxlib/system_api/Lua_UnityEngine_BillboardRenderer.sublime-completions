@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.BillboardRenderer()()","contents": "UnityEngine.BillboardRenderer()()"},
+
+	get_billboard(IntPtr l) {
+		set_billboard(IntPtr l) {
+			UnityEngine.BillboardRenderer self=(UnityEngine.BillboardRenderer)checkSelf(l);
+			UnityEngine.BillboardAsset v;
+			checkType(l,2,out v);
+			self.billboard=v;
+				]
+		}
+

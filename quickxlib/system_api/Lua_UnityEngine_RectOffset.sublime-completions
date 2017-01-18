@@ -1,0 +1,61 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RectOffset()()","contents": "UnityEngine.RectOffset()()"},
+
+			{ "trigger": "UnityEngine.RectOffset()()","contents": "UnityEngine.RectOffset()()"},
+
+			{ "trigger": "UnityEngine.RectOffset()()","contents": "UnityEngine.RectOffset()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	System.Int32 a4;
+	checkType(l,5,out a4);
+			{ "trigger": "UnityEngine.RectOffset()()","contents": "UnityEngine.RectOffset()()"},
+
+			{ "trigger": "RectOffset:Add(Public, HideBySig)","contents": "RectOffset:Add(Public, HideBySig)"},
+
+	UnityEngine.RectOffset self=(UnityEngine.RectOffset)checkSelf(l);
+	UnityEngine.Rect a1;
+	checkValueType(l,2,out a1);
+	var ret=self.Add(a1);
+			{ "trigger": "RectOffset:Remove(Public, HideBySig)","contents": "RectOffset:Remove(Public, HideBySig)"},
+
+	UnityEngine.RectOffset self=(UnityEngine.RectOffset)checkSelf(l);
+	UnityEngine.Rect a1;
+	checkValueType(l,2,out a1);
+	var ret=self.Remove(a1);
+	get_left(IntPtr l) {
+		set_left(IntPtr l) {
+			UnityEngine.RectOffset self=(UnityEngine.RectOffset)checkSelf(l);
+			int v;
+			checkType(l,2,out v);
+			self.left=v;
+			get_right(IntPtr l) {
+				set_right(IntPtr l) {
+					UnityEngine.RectOffset self=(UnityEngine.RectOffset)checkSelf(l);
+					int v;
+					checkType(l,2,out v);
+					self.right=v;
+					get_top(IntPtr l) {
+						set_top(IntPtr l) {
+							UnityEngine.RectOffset self=(UnityEngine.RectOffset)checkSelf(l);
+							int v;
+							checkType(l,2,out v);
+							self.top=v;
+							get_bottom(IntPtr l) {
+								set_bottom(IntPtr l) {
+									UnityEngine.RectOffset self=(UnityEngine.RectOffset)checkSelf(l);
+									int v;
+									checkType(l,2,out v);
+									self.bottom=v;
+									get_horizontal(IntPtr l) {
+										get_vertical(IntPtr l) {
+												]
+										}
+

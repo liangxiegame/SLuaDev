@@ -1,0 +1,39 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "CanvasUpdateRegistry.RegisterCanvasElementForLayoutRebuild(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.RegisterCanvasElementForLayoutRebuild(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.ICanvasElement a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.CanvasUpdateRegistry.RegisterCanvasElementForLayoutRebuild(a1);
+			{ "trigger": "CanvasUpdateRegistry.TryRegisterCanvasElementForLayoutRebuild(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.TryRegisterCanvasElementForLayoutRebuild(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.ICanvasElement a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.CanvasUpdateRegistry.TryRegisterCanvasElementForLayoutRebuild(a1);
+			{ "trigger": "CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.ICanvasElement a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(a1);
+			{ "trigger": "CanvasUpdateRegistry.TryRegisterCanvasElementForGraphicRebuild(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.TryRegisterCanvasElementForGraphicRebuild(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.ICanvasElement a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UI.CanvasUpdateRegistry.TryRegisterCanvasElementForGraphicRebuild(a1);
+			{ "trigger": "CanvasUpdateRegistry.UnRegisterCanvasElementForRebuild(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.UnRegisterCanvasElementForRebuild(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.ICanvasElement a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.CanvasUpdateRegistry.UnRegisterCanvasElementForRebuild(a1);
+			{ "trigger": "CanvasUpdateRegistry.IsRebuildingLayout(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.IsRebuildingLayout(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.UI.CanvasUpdateRegistry.IsRebuildingLayout();
+			{ "trigger": "CanvasUpdateRegistry.IsRebuildingGraphics(Public, Static, HideBySig)","contents": "CanvasUpdateRegistry.IsRebuildingGraphics(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.UI.CanvasUpdateRegistry.IsRebuildingGraphics();
+	get_instance(IntPtr l) {
+			]
+	}
+

@@ -1,0 +1,24 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "PhysicsRaycaster:Raycast(Public, Virtual, HideBySig)","contents": "PhysicsRaycaster:Raycast(Public, Virtual, HideBySig)"},
+
+	UnityEngine.EventSystems.PhysicsRaycaster self=(UnityEngine.EventSystems.PhysicsRaycaster)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult> a2;
+	checkType(l,3,out a2);
+	self.Raycast(a1,a2);
+	get_eventCamera(IntPtr l) {
+		get_depth(IntPtr l) {
+			get_finalEventMask(IntPtr l) {
+				get_eventMask(IntPtr l) {
+					set_eventMask(IntPtr l) {
+						UnityEngine.EventSystems.PhysicsRaycaster self=(UnityEngine.EventSystems.PhysicsRaycaster)checkSelf(l);
+						UnityEngine.LayerMask v;
+						checkValueType(l,2,out v);
+						self.eventMask=v;
+							]
+					}
+

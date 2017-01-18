@@ -1,0 +1,21 @@
+﻿
+    int_string 
+      int,string> int,string;
+              int,string
+                int,string> self =int,string>>(l);
+                <int,string> a1;
+
+                UnityEngine.Events.UnityEvent<int,string> self = checkSelf<UnityEngine.Events.UnityEvent<int,string>>(l);
+				int a0;
+				checkType(l,2,out a0);
+				string a1;
+				checkType(l,3,out a1);
+				self.Invoke(a0,a1);
+getTypeTable(l, typeof(LuaUnityEvent_int_string).FullName);
+            createTypeMetatable(l, null, typeof(LuaUnityEvent_int_string), typeof(UnityEngine.Events.UnityEventBase));
+        static bool checkType(IntPtr l,int p,out UnityEngine.Events.UnityAction<int,string> ua) {
+                ua = (UnityEngine.Events.UnityAction<int,string>)ld.d;
+            ua = (int v0,string v1) =>
+            {
+                pushValue(l,v0);pushValue(l,v1);
+}

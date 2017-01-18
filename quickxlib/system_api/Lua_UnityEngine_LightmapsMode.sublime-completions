@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightmapsMode");
+	addMember(l,0,"Single");
+	addMember(l,0,"NonDirectional");
+	addMember(l,1,"Dual");
+	addMember(l,1,"CombinedDirectional");
+	addMember(l,2,"Directional");
+	addMember(l,2,"SeparateDirectional");
+		]
+}
+

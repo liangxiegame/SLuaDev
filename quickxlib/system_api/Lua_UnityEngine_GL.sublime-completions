@@ -1,0 +1,199 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.GL()()","contents": "UnityEngine.GL()()"},
+
+			{ "trigger": "GL.Vertex3(Public, Static, HideBySig)","contents": "GL.Vertex3(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	UnityEngine.GL.Vertex3(a1,a2,a3);
+			{ "trigger": "GL.Vertex(Public, Static, HideBySig)","contents": "GL.Vertex(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.GL.Vertex(a1);
+			{ "trigger": "GL.Color(Public, Static, HideBySig)","contents": "GL.Color(Public, Static, HideBySig)"},
+
+	UnityEngine.Color a1;
+	checkType(l,1,out a1);
+	UnityEngine.GL.Color(a1);
+			{ "trigger": "GL.TexCoord(Public, Static, HideBySig)","contents": "GL.TexCoord(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.GL.TexCoord(a1);
+			{ "trigger": "GL.TexCoord2(Public, Static, HideBySig)","contents": "GL.TexCoord2(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	UnityEngine.GL.TexCoord2(a1,a2);
+			{ "trigger": "GL.TexCoord3(Public, Static, HideBySig)","contents": "GL.TexCoord3(Public, Static, HideBySig)"},
+
+	System.Single a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	UnityEngine.GL.TexCoord3(a1,a2,a3);
+			{ "trigger": "GL.MultiTexCoord2(Public, Static, HideBySig)","contents": "GL.MultiTexCoord2(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	UnityEngine.GL.MultiTexCoord2(a1,a2,a3);
+			{ "trigger": "GL.MultiTexCoord3(Public, Static, HideBySig)","contents": "GL.MultiTexCoord3(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	System.Single a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	System.Single a4;
+	checkType(l,4,out a4);
+	UnityEngine.GL.MultiTexCoord3(a1,a2,a3,a4);
+			{ "trigger": "GL.MultiTexCoord(Public, Static, HideBySig)","contents": "GL.MultiTexCoord(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	UnityEngine.GL.MultiTexCoord(a1,a2);
+			{ "trigger": "GL.Begin(Public, Static, HideBySig)","contents": "GL.Begin(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	UnityEngine.GL.Begin(a1);
+			{ "trigger": "GL.End(Public, Static, HideBySig)","contents": "GL.End(Public, Static, HideBySig)"},
+
+	UnityEngine.GL.End();
+			{ "trigger": "GL.LoadOrtho(Public, Static, HideBySig)","contents": "GL.LoadOrtho(Public, Static, HideBySig)"},
+
+	UnityEngine.GL.LoadOrtho();
+			{ "trigger": "GL.LoadPixelMatrix(Public, Static, HideBySig)","contents": "GL.LoadPixelMatrix(Public, Static, HideBySig)"},
+
+	if(argc==0){
+		UnityEngine.GL.LoadPixelMatrix();
+		else if(argc==4){
+			System.Single a1;
+			checkType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			System.Single a4;
+			checkType(l,4,out a4);
+			UnityEngine.GL.LoadPixelMatrix(a1,a2,a3,a4);
+					{ "trigger": "GL.Viewport(Public, Static, HideBySig)","contents": "GL.Viewport(Public, Static, HideBySig)"},
+
+			UnityEngine.Rect a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.GL.Viewport(a1);
+					{ "trigger": "GL.LoadProjectionMatrix(Public, Static, HideBySig)","contents": "GL.LoadProjectionMatrix(Public, Static, HideBySig)"},
+
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.GL.LoadProjectionMatrix(a1);
+					{ "trigger": "GL.LoadIdentity(Public, Static, HideBySig)","contents": "GL.LoadIdentity(Public, Static, HideBySig)"},
+
+			UnityEngine.GL.LoadIdentity();
+					{ "trigger": "GL.MultMatrix(Public, Static, HideBySig)","contents": "GL.MultMatrix(Public, Static, HideBySig)"},
+
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.GL.MultMatrix(a1);
+					{ "trigger": "GL.PushMatrix(Public, Static, HideBySig)","contents": "GL.PushMatrix(Public, Static, HideBySig)"},
+
+			UnityEngine.GL.PushMatrix();
+					{ "trigger": "GL.PopMatrix(Public, Static, HideBySig)","contents": "GL.PopMatrix(Public, Static, HideBySig)"},
+
+			UnityEngine.GL.PopMatrix();
+					{ "trigger": "GL.GetGPUProjectionMatrix(Public, Static, HideBySig)","contents": "GL.GetGPUProjectionMatrix(Public, Static, HideBySig)"},
+
+			UnityEngine.Matrix4x4 a1;
+			checkValueType(l,1,out a1);
+			System.Boolean a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.GL.GetGPUProjectionMatrix(a1,a2);
+					{ "trigger": "GL.Clear(Public, Static, HideBySig)","contents": "GL.Clear(Public, Static, HideBySig)"},
+
+			if(argc==3){
+				System.Boolean a1;
+				checkType(l,1,out a1);
+				System.Boolean a2;
+				checkType(l,2,out a2);
+				UnityEngine.Color a3;
+				checkType(l,3,out a3);
+				UnityEngine.GL.Clear(a1,a2,a3);
+				else if(argc==4){
+					System.Boolean a1;
+					checkType(l,1,out a1);
+					System.Boolean a2;
+					checkType(l,2,out a2);
+					UnityEngine.Color a3;
+					checkType(l,3,out a3);
+					System.Single a4;
+					checkType(l,4,out a4);
+					UnityEngine.GL.Clear(a1,a2,a3,a4);
+							{ "trigger": "GL.ClearWithSkybox(Public, Static, HideBySig)","contents": "GL.ClearWithSkybox(Public, Static, HideBySig)"},
+
+					System.Boolean a1;
+					checkType(l,1,out a1);
+					UnityEngine.Camera a2;
+					checkType(l,2,out a2);
+					UnityEngine.GL.ClearWithSkybox(a1,a2);
+							{ "trigger": "GL.Flush(Public, Static, HideBySig)","contents": "GL.Flush(Public, Static, HideBySig)"},
+
+					UnityEngine.GL.Flush();
+							{ "trigger": "GL.InvalidateState(Public, Static, HideBySig)","contents": "GL.InvalidateState(Public, Static, HideBySig)"},
+
+					UnityEngine.GL.InvalidateState();
+							{ "trigger": "GL.IssuePluginEvent(Public, Static, HideBySig)","contents": "GL.IssuePluginEvent(Public, Static, HideBySig)"},
+
+					System.IntPtr a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					UnityEngine.GL.IssuePluginEvent(a1,a2);
+							{ "trigger": "GL.RenderTargetBarrier(Public, Static, HideBySig)","contents": "GL.RenderTargetBarrier(Public, Static, HideBySig)"},
+
+					UnityEngine.GL.RenderTargetBarrier();
+					TRIANGLES
+					TRIANGLE_STRIP
+					QUADS
+					LINES
+					get_modelview(IntPtr l) {
+						set_modelview(IntPtr l) {
+							UnityEngine.Matrix4x4 v;
+							checkValueType(l,2,out v);
+							UnityEngine.GL.modelview=v;
+							get_wireframe(IntPtr l) {
+								set_wireframe(IntPtr l) {
+									bool v;
+									checkType(l,2,out v);
+									UnityEngine.GL.wireframe=v;
+									get_sRGBWrite(IntPtr l) {
+										set_sRGBWrite(IntPtr l) {
+											bool v;
+											checkType(l,2,out v);
+											UnityEngine.GL.sRGBWrite=v;
+											get_invertCulling(IntPtr l) {
+												set_invertCulling(IntPtr l) {
+													bool v;
+													checkType(l,2,out v);
+													UnityEngine.GL.invertCulling=v;
+														]
+												}
+

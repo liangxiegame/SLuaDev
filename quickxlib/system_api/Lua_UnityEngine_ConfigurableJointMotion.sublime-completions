@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ConfigurableJointMotion");
+	addMember(l,0,"Locked");
+	addMember(l,1,"Limited");
+	addMember(l,2,"Free");
+		]
+}
+

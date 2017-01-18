@@ -1,0 +1,166 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.ILogHandler a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Logger()()","contents": "UnityEngine.Logger()()"},
+
+			{ "trigger": "Logger:IsLogTypeAllowed(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "Logger:IsLogTypeAllowed(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+	UnityEngine.LogType a1;
+	checkEnum(l,2,out a1);
+	var ret=self.IsLogTypeAllowed(a1);
+			{ "trigger": "Logger:Log(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "Logger:Log(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	if(argc==2){
+		UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+		System.Object a1;
+		checkType(l,2,out a1);
+		self.Log(a1);
+		else if(matchType(l,argc,2,string,System.Object)){
+			UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			System.Object a2;
+			checkType(l,3,out a2);
+			self.Log(a1,a2);
+			else if(matchType(l,argc,2,UnityEngine.LogType,System.Object)){
+				UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+				UnityEngine.LogType a1;
+				checkEnum(l,2,out a1);
+				System.Object a2;
+				checkType(l,3,out a2);
+				self.Log(a1,a2);
+				else if(matchType(l,argc,2,string,System.Object,UnityEngine.Object)){
+					UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+					System.String a1;
+					checkType(l,2,out a1);
+					System.Object a2;
+					checkType(l,3,out a2);
+					UnityEngine.Object a3;
+					checkType(l,4,out a3);
+					self.Log(a1,a2,a3);
+					else if(matchType(l,argc,2,UnityEngine.LogType,System.Object,UnityEngine.Object)){
+						UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+						UnityEngine.LogType a1;
+						checkEnum(l,2,out a1);
+						System.Object a2;
+						checkType(l,3,out a2);
+						UnityEngine.Object a3;
+						checkType(l,4,out a3);
+						self.Log(a1,a2,a3);
+						else if(matchType(l,argc,2,UnityEngine.LogType,string,System.Object)){
+							UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+							UnityEngine.LogType a1;
+							checkEnum(l,2,out a1);
+							System.String a2;
+							checkType(l,3,out a2);
+							System.Object a3;
+							checkType(l,4,out a3);
+							self.Log(a1,a2,a3);
+							else if(argc==5){
+								UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+								UnityEngine.LogType a1;
+								checkEnum(l,2,out a1);
+								System.String a2;
+								checkType(l,3,out a2);
+								System.Object a3;
+								checkType(l,4,out a3);
+								UnityEngine.Object a4;
+								checkType(l,5,out a4);
+								self.Log(a1,a2,a3,a4);
+										{ "trigger": "Logger:LogWarning(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "Logger:LogWarning(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+								if(argc==3){
+									UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+									System.String a1;
+									checkType(l,2,out a1);
+									System.Object a2;
+									checkType(l,3,out a2);
+									self.LogWarning(a1,a2);
+									else if(argc==4){
+										UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+										System.String a1;
+										checkType(l,2,out a1);
+										System.Object a2;
+										checkType(l,3,out a2);
+										UnityEngine.Object a3;
+										checkType(l,4,out a3);
+										self.LogWarning(a1,a2,a3);
+												{ "trigger": "Logger:LogError(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "Logger:LogError(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+										if(argc==3){
+											UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+											System.String a1;
+											checkType(l,2,out a1);
+											System.Object a2;
+											checkType(l,3,out a2);
+											self.LogError(a1,a2);
+											else if(argc==4){
+												UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+												System.String a1;
+												checkType(l,2,out a1);
+												System.Object a2;
+												checkType(l,3,out a2);
+												UnityEngine.Object a3;
+												checkType(l,4,out a3);
+												self.LogError(a1,a2,a3);
+														{ "trigger": "Logger:LogFormat(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "Logger:LogFormat(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+												if(argc==4){
+													UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+													UnityEngine.LogType a1;
+													checkEnum(l,2,out a1);
+													System.String a2;
+													checkType(l,3,out a2);
+													System.Object[] a3;
+													checkParams(l,4,out a3);
+													self.LogFormat(a1,a2,a3);
+													else if(argc==5){
+														UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+														UnityEngine.LogType a1;
+														checkEnum(l,2,out a1);
+														UnityEngine.Object a2;
+														checkType(l,3,out a2);
+														System.String a3;
+														checkType(l,4,out a3);
+														System.Object[] a4;
+														checkParams(l,5,out a4);
+														self.LogFormat(a1,a2,a3,a4);
+																{ "trigger": "Logger:LogException(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "Logger:LogException(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+														if(argc==2){
+															UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+															System.Exception a1;
+															checkType(l,2,out a1);
+															self.LogException(a1);
+															else if(argc==3){
+																UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+																System.Exception a1;
+																checkType(l,2,out a1);
+																UnityEngine.Object a2;
+																checkType(l,3,out a2);
+																self.LogException(a1,a2);
+																get_logHandler(IntPtr l) {
+																	set_logHandler(IntPtr l) {
+																		UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+																		UnityEngine.ILogHandler v;
+																		checkType(l,2,out v);
+																		self.logHandler=v;
+																		get_logEnabled(IntPtr l) {
+																			set_logEnabled(IntPtr l) {
+																				UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+																				bool v;
+																				checkType(l,2,out v);
+																				self.logEnabled=v;
+																				get_filterLogType(IntPtr l) {
+																					set_filterLogType(IntPtr l) {
+																						UnityEngine.Logger self=(UnityEngine.Logger)checkSelf(l);
+																						UnityEngine.LogType v;
+																						checkEnum(l,2,out v);
+																						self.filterLogType=v;
+																							]
+																					}
+

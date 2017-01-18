@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CapsuleCollider()()","contents": "UnityEngine.CapsuleCollider()()"},
+
+	get_center(IntPtr l) {
+		set_center(IntPtr l) {
+			UnityEngine.CapsuleCollider self=(UnityEngine.CapsuleCollider)checkSelf(l);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.center=v;
+			get_radius(IntPtr l) {
+				set_radius(IntPtr l) {
+					UnityEngine.CapsuleCollider self=(UnityEngine.CapsuleCollider)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.radius=v;
+					get_height(IntPtr l) {
+						set_height(IntPtr l) {
+							UnityEngine.CapsuleCollider self=(UnityEngine.CapsuleCollider)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.height=v;
+							get_direction(IntPtr l) {
+								set_direction(IntPtr l) {
+									UnityEngine.CapsuleCollider self=(UnityEngine.CapsuleCollider)checkSelf(l);
+									int v;
+									checkType(l,2,out v);
+									self.direction=v;
+										]
+								}
+

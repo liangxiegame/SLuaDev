@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "RectMask2D:IsRaycastLocationValid(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "RectMask2D:IsRaycastLocationValid(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.RectMask2D self=(UnityEngine.UI.RectMask2D)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Camera a2;
+	checkType(l,3,out a2);
+	var ret=self.IsRaycastLocationValid(a1,a2);
+			{ "trigger": "RectMask2D:PerformClipping(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "RectMask2D:PerformClipping(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.RectMask2D self=(UnityEngine.UI.RectMask2D)checkSelf(l);
+	self.PerformClipping();
+			{ "trigger": "RectMask2D:AddClippable(Public, HideBySig)","contents": "RectMask2D:AddClippable(Public, HideBySig)"},
+
+	UnityEngine.UI.RectMask2D self=(UnityEngine.UI.RectMask2D)checkSelf(l);
+	UnityEngine.UI.IClippable a1;
+	checkType(l,2,out a1);
+	self.AddClippable(a1);
+			{ "trigger": "RectMask2D:RemoveClippable(Public, HideBySig)","contents": "RectMask2D:RemoveClippable(Public, HideBySig)"},
+
+	UnityEngine.UI.RectMask2D self=(UnityEngine.UI.RectMask2D)checkSelf(l);
+	UnityEngine.UI.IClippable a1;
+	checkType(l,2,out a1);
+	self.RemoveClippable(a1);
+	get_canvasRect(IntPtr l) {
+		get_rectTransform(IntPtr l) {
+				]
+		}
+

@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.DefaultReflectionMode");
+	addMember(l,0,"Skybox");
+	addMember(l,1,"Custom");
+		]
+}
+

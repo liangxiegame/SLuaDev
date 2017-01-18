@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.EventSystems.EventHandle");
+	addMember(l,0,"Unused");
+	addMember(l,1,"Used");
+		]
+}
+

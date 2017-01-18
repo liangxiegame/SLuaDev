@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.WindZoneMode");
+	addMember(l,0,"Directional");
+	addMember(l,1,"Spherical");
+		]
+}
+

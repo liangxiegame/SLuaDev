@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.ReflectionProbeUsage");
+	addMember(l,0,"Off");
+	addMember(l,1,"BlendProbes");
+	addMember(l,2,"BlendProbesAndSkybox");
+	addMember(l,3,"Simple");
+		]
+}
+

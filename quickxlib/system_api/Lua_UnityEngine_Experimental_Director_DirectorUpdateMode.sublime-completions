@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Experimental.Director.DirectorUpdateMode");
+	addMember(l,0,"DSPClock");
+	addMember(l,1,"GameTime");
+	addMember(l,2,"UnscaledGameTime");
+	addMember(l,3,"Manual");
+		]
+}
+

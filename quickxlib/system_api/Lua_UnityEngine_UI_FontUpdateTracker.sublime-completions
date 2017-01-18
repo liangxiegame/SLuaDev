@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "FontUpdateTracker.TrackText(Public, Static, HideBySig)","contents": "FontUpdateTracker.TrackText(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.Text a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.FontUpdateTracker.TrackText(a1);
+			{ "trigger": "FontUpdateTracker.UntrackText(Public, Static, HideBySig)","contents": "FontUpdateTracker.UntrackText(Public, Static, HideBySig)"},
+
+	UnityEngine.UI.Text a1;
+	checkType(l,1,out a1);
+	UnityEngine.UI.FontUpdateTracker.UntrackText(a1);
+		]
+}
+

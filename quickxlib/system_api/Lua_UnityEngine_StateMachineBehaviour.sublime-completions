@@ -1,0 +1,153 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "StateMachineBehaviour:OnStateEnter(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateEnter(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	if(argc==4){
+		UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+		UnityEngine.Animator a1;
+		checkType(l,2,out a1);
+		UnityEngine.AnimatorStateInfo a2;
+		checkValueType(l,3,out a2);
+		System.Int32 a3;
+		checkType(l,4,out a3);
+		self.OnStateEnter(a1,a2,a3);
+		else if(argc==5){
+			UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+			UnityEngine.Animator a1;
+			checkType(l,2,out a1);
+			UnityEngine.AnimatorStateInfo a2;
+			checkValueType(l,3,out a2);
+			System.Int32 a3;
+			checkType(l,4,out a3);
+			UnityEngine.Experimental.Director.AnimatorControllerPlayable a4;
+			checkValueType(l,5,out a4);
+			self.OnStateEnter(a1,a2,a3,a4);
+					{ "trigger": "StateMachineBehaviour:OnStateUpdate(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateUpdate(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+			if(argc==4){
+				UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+				UnityEngine.Animator a1;
+				checkType(l,2,out a1);
+				UnityEngine.AnimatorStateInfo a2;
+				checkValueType(l,3,out a2);
+				System.Int32 a3;
+				checkType(l,4,out a3);
+				self.OnStateUpdate(a1,a2,a3);
+				else if(argc==5){
+					UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+					UnityEngine.Animator a1;
+					checkType(l,2,out a1);
+					UnityEngine.AnimatorStateInfo a2;
+					checkValueType(l,3,out a2);
+					System.Int32 a3;
+					checkType(l,4,out a3);
+					UnityEngine.Experimental.Director.AnimatorControllerPlayable a4;
+					checkValueType(l,5,out a4);
+					self.OnStateUpdate(a1,a2,a3,a4);
+							{ "trigger": "StateMachineBehaviour:OnStateExit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateExit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+					if(argc==4){
+						UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+						UnityEngine.Animator a1;
+						checkType(l,2,out a1);
+						UnityEngine.AnimatorStateInfo a2;
+						checkValueType(l,3,out a2);
+						System.Int32 a3;
+						checkType(l,4,out a3);
+						self.OnStateExit(a1,a2,a3);
+						else if(argc==5){
+							UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+							UnityEngine.Animator a1;
+							checkType(l,2,out a1);
+							UnityEngine.AnimatorStateInfo a2;
+							checkValueType(l,3,out a2);
+							System.Int32 a3;
+							checkType(l,4,out a3);
+							UnityEngine.Experimental.Director.AnimatorControllerPlayable a4;
+							checkValueType(l,5,out a4);
+							self.OnStateExit(a1,a2,a3,a4);
+									{ "trigger": "StateMachineBehaviour:OnStateMove(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateMove(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+							if(argc==4){
+								UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+								UnityEngine.Animator a1;
+								checkType(l,2,out a1);
+								UnityEngine.AnimatorStateInfo a2;
+								checkValueType(l,3,out a2);
+								System.Int32 a3;
+								checkType(l,4,out a3);
+								self.OnStateMove(a1,a2,a3);
+								else if(argc==5){
+									UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+									UnityEngine.Animator a1;
+									checkType(l,2,out a1);
+									UnityEngine.AnimatorStateInfo a2;
+									checkValueType(l,3,out a2);
+									System.Int32 a3;
+									checkType(l,4,out a3);
+									UnityEngine.Experimental.Director.AnimatorControllerPlayable a4;
+									checkValueType(l,5,out a4);
+									self.OnStateMove(a1,a2,a3,a4);
+											{ "trigger": "StateMachineBehaviour:OnStateIK(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateIK(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+									if(argc==4){
+										UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+										UnityEngine.Animator a1;
+										checkType(l,2,out a1);
+										UnityEngine.AnimatorStateInfo a2;
+										checkValueType(l,3,out a2);
+										System.Int32 a3;
+										checkType(l,4,out a3);
+										self.OnStateIK(a1,a2,a3);
+										else if(argc==5){
+											UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+											UnityEngine.Animator a1;
+											checkType(l,2,out a1);
+											UnityEngine.AnimatorStateInfo a2;
+											checkValueType(l,3,out a2);
+											System.Int32 a3;
+											checkType(l,4,out a3);
+											UnityEngine.Experimental.Director.AnimatorControllerPlayable a4;
+											checkValueType(l,5,out a4);
+											self.OnStateIK(a1,a2,a3,a4);
+													{ "trigger": "StateMachineBehaviour:OnStateMachineEnter(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateMachineEnter(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+											if(argc==3){
+												UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+												UnityEngine.Animator a1;
+												checkType(l,2,out a1);
+												System.Int32 a2;
+												checkType(l,3,out a2);
+												self.OnStateMachineEnter(a1,a2);
+												else if(argc==4){
+													UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+													UnityEngine.Animator a1;
+													checkType(l,2,out a1);
+													System.Int32 a2;
+													checkType(l,3,out a2);
+													UnityEngine.Experimental.Director.AnimatorControllerPlayable a3;
+													checkValueType(l,4,out a3);
+													self.OnStateMachineEnter(a1,a2,a3);
+															{ "trigger": "StateMachineBehaviour:OnStateMachineExit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "StateMachineBehaviour:OnStateMachineExit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+													if(argc==3){
+														UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+														UnityEngine.Animator a1;
+														checkType(l,2,out a1);
+														System.Int32 a2;
+														checkType(l,3,out a2);
+														self.OnStateMachineExit(a1,a2);
+														else if(argc==4){
+															UnityEngine.StateMachineBehaviour self=(UnityEngine.StateMachineBehaviour)checkSelf(l);
+															UnityEngine.Animator a1;
+															checkType(l,2,out a1);
+															System.Int32 a2;
+															checkType(l,3,out a2);
+															UnityEngine.Experimental.Director.AnimatorControllerPlayable a3;
+															checkValueType(l,4,out a3);
+															self.OnStateMachineExit(a1,a2,a3);
+																]
+														}
+

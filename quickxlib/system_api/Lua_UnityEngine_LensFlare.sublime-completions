@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LensFlare()()","contents": "UnityEngine.LensFlare()()"},
+
+	get_flare(IntPtr l) {
+		set_flare(IntPtr l) {
+			UnityEngine.LensFlare self=(UnityEngine.LensFlare)checkSelf(l);
+			UnityEngine.Flare v;
+			checkType(l,2,out v);
+			self.flare=v;
+			get_brightness(IntPtr l) {
+				set_brightness(IntPtr l) {
+					UnityEngine.LensFlare self=(UnityEngine.LensFlare)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.brightness=v;
+					get_fadeSpeed(IntPtr l) {
+						set_fadeSpeed(IntPtr l) {
+							UnityEngine.LensFlare self=(UnityEngine.LensFlare)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.fadeSpeed=v;
+							get_color(IntPtr l) {
+								set_color(IntPtr l) {
+									UnityEngine.LensFlare self=(UnityEngine.LensFlare)checkSelf(l);
+									UnityEngine.Color v;
+									checkType(l,2,out v);
+									self.color=v;
+										]
+								}
+

@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	get_spacing(IntPtr l) {
+		set_spacing(IntPtr l) {
+			UnityEngine.UI.HorizontalOrVerticalLayoutGroup self=(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.spacing=v;
+			get_childForceExpandWidth(IntPtr l) {
+				set_childForceExpandWidth(IntPtr l) {
+					UnityEngine.UI.HorizontalOrVerticalLayoutGroup self=(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.childForceExpandWidth=v;
+					get_childForceExpandHeight(IntPtr l) {
+						set_childForceExpandHeight(IntPtr l) {
+							UnityEngine.UI.HorizontalOrVerticalLayoutGroup self=(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.childForceExpandHeight=v;
+								]
+						}
+

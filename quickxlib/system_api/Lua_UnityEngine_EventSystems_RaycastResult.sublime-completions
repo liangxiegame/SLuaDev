@@ -1,0 +1,86 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.EventSystems.RaycastResult()()","contents": "UnityEngine.EventSystems.RaycastResult()()"},
+
+			{ "trigger": "RaycastResult:Clear(Public, HideBySig)","contents": "RaycastResult:Clear(Public, HideBySig)"},
+
+	UnityEngine.EventSystems.RaycastResult self;
+	checkValueType(l,1,out self);
+	self.Clear();
+	module
+	set_module(IntPtr l) {
+		UnityEngine.EventSystems.RaycastResult self;
+		checkValueType(l,1,out self);
+		UnityEngine.EventSystems.BaseRaycaster v;
+		checkType(l,2,out v);
+		self.module=v;
+		distance
+		set_distance(IntPtr l) {
+			UnityEngine.EventSystems.RaycastResult self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.distance=v;
+			index
+			set_index(IntPtr l) {
+				UnityEngine.EventSystems.RaycastResult self;
+				checkValueType(l,1,out self);
+				System.Single v;
+				checkType(l,2,out v);
+				self.index=v;
+				depth
+				set_depth(IntPtr l) {
+					UnityEngine.EventSystems.RaycastResult self;
+					checkValueType(l,1,out self);
+					System.Int32 v;
+					checkType(l,2,out v);
+					self.depth=v;
+					sortingLayer
+					set_sortingLayer(IntPtr l) {
+						UnityEngine.EventSystems.RaycastResult self;
+						checkValueType(l,1,out self);
+						System.Int32 v;
+						checkType(l,2,out v);
+						self.sortingLayer=v;
+						sortingOrder
+						set_sortingOrder(IntPtr l) {
+							UnityEngine.EventSystems.RaycastResult self;
+							checkValueType(l,1,out self);
+							System.Int32 v;
+							checkType(l,2,out v);
+							self.sortingOrder=v;
+							worldPosition
+							set_worldPosition(IntPtr l) {
+								UnityEngine.EventSystems.RaycastResult self;
+								checkValueType(l,1,out self);
+								UnityEngine.Vector3 v;
+								checkType(l,2,out v);
+								self.worldPosition=v;
+								worldNormal
+								set_worldNormal(IntPtr l) {
+									UnityEngine.EventSystems.RaycastResult self;
+									checkValueType(l,1,out self);
+									UnityEngine.Vector3 v;
+									checkType(l,2,out v);
+									self.worldNormal=v;
+									screenPosition
+									set_screenPosition(IntPtr l) {
+										UnityEngine.EventSystems.RaycastResult self;
+										checkValueType(l,1,out self);
+										UnityEngine.Vector2 v;
+										checkType(l,2,out v);
+										self.screenPosition=v;
+										get_gameObject(IntPtr l) {
+											set_gameObject(IntPtr l) {
+												UnityEngine.EventSystems.RaycastResult self;
+												checkValueType(l,1,out self);
+												UnityEngine.GameObject v;
+												checkType(l,2,out v);
+												self.gameObject=v;
+												setBack(l,self);
+												get_isValid(IntPtr l) {
+														]
+												}
+

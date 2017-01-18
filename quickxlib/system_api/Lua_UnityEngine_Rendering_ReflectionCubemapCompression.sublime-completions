@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.ReflectionCubemapCompression");
+	addMember(l,0,"Uncompressed");
+	addMember(l,1,"Compressed");
+	addMember(l,2,"Auto");
+		]
+}
+

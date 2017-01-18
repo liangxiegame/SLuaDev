@@ -1,0 +1,29 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.MatchTargetWeightMask()()","contents": "UnityEngine.MatchTargetWeightMask()()"},
+
+	get_positionXYZWeight(IntPtr l) {
+		set_positionXYZWeight(IntPtr l) {
+			UnityEngine.MatchTargetWeightMask self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.positionXYZWeight=v;
+			setBack(l,self);
+			get_rotationWeight(IntPtr l) {
+				set_rotationWeight(IntPtr l) {
+					UnityEngine.MatchTargetWeightMask self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.rotationWeight=v;
+					setBack(l,self);
+						]
+				}
+

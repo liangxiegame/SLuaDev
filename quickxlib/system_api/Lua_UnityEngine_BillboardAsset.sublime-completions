@@ -1,0 +1,36 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.BillboardAsset()()","contents": "UnityEngine.BillboardAsset()()"},
+
+	get_width(IntPtr l) {
+		set_width(IntPtr l) {
+			UnityEngine.BillboardAsset self=(UnityEngine.BillboardAsset)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.width=v;
+			get_height(IntPtr l) {
+				set_height(IntPtr l) {
+					UnityEngine.BillboardAsset self=(UnityEngine.BillboardAsset)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.height=v;
+					get_bottom(IntPtr l) {
+						set_bottom(IntPtr l) {
+							UnityEngine.BillboardAsset self=(UnityEngine.BillboardAsset)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.bottom=v;
+							get_imageCount(IntPtr l) {
+								get_vertexCount(IntPtr l) {
+									get_indexCount(IntPtr l) {
+										get_material(IntPtr l) {
+											set_material(IntPtr l) {
+												UnityEngine.BillboardAsset self=(UnityEngine.BillboardAsset)checkSelf(l);
+												UnityEngine.Material v;
+												checkType(l,2,out v);
+												self.material=v;
+													]
+											}
+

@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ContactPoint2D()()","contents": "UnityEngine.ContactPoint2D()()"},
+
+	get_point(IntPtr l) {
+		get_normal(IntPtr l) {
+			get_collider(IntPtr l) {
+				get_otherCollider(IntPtr l) {
+						]
+				}
+

@@ -1,0 +1,37 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.BoundingSphere()()","contents": "UnityEngine.BoundingSphere()()"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.BoundingSphere()()","contents": "UnityEngine.BoundingSphere()()"},
+
+			{ "trigger": "UnityEngine.BoundingSphere()()","contents": "UnityEngine.BoundingSphere()()"},
+
+	UnityEngine.Vector4 a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.BoundingSphere()()","contents": "UnityEngine.BoundingSphere()()"},
+
+			{ "trigger": "UnityEngine.BoundingSphere()()","contents": "UnityEngine.BoundingSphere()()"},
+
+	position
+	set_position(IntPtr l) {
+		UnityEngine.BoundingSphere self;
+		checkValueType(l,1,out self);
+		UnityEngine.Vector3 v;
+		checkType(l,2,out v);
+		self.position=v;
+		radius
+		set_radius(IntPtr l) {
+			UnityEngine.BoundingSphere self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.radius=v;
+				]
+		}
+

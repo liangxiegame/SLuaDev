@@ -1,0 +1,73 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WheelHit()()","contents": "UnityEngine.WheelHit()()"},
+
+	get_collider(IntPtr l) {
+		set_collider(IntPtr l) {
+			UnityEngine.WheelHit self;
+			checkValueType(l,1,out self);
+			UnityEngine.Collider v;
+			checkType(l,2,out v);
+			self.collider=v;
+			setBack(l,self);
+			get_point(IntPtr l) {
+				set_point(IntPtr l) {
+					UnityEngine.WheelHit self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector3 v;
+					checkType(l,2,out v);
+					self.point=v;
+					setBack(l,self);
+					get_normal(IntPtr l) {
+						set_normal(IntPtr l) {
+							UnityEngine.WheelHit self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector3 v;
+							checkType(l,2,out v);
+							self.normal=v;
+							setBack(l,self);
+							get_forwardDir(IntPtr l) {
+								set_forwardDir(IntPtr l) {
+									UnityEngine.WheelHit self;
+									checkValueType(l,1,out self);
+									UnityEngine.Vector3 v;
+									checkType(l,2,out v);
+									self.forwardDir=v;
+									setBack(l,self);
+									get_sidewaysDir(IntPtr l) {
+										set_sidewaysDir(IntPtr l) {
+											UnityEngine.WheelHit self;
+											checkValueType(l,1,out self);
+											UnityEngine.Vector3 v;
+											checkType(l,2,out v);
+											self.sidewaysDir=v;
+											setBack(l,self);
+											get_force(IntPtr l) {
+												set_force(IntPtr l) {
+													UnityEngine.WheelHit self;
+													checkValueType(l,1,out self);
+													float v;
+													checkType(l,2,out v);
+													self.force=v;
+													setBack(l,self);
+													get_forwardSlip(IntPtr l) {
+														set_forwardSlip(IntPtr l) {
+															UnityEngine.WheelHit self;
+															checkValueType(l,1,out self);
+															float v;
+															checkType(l,2,out v);
+															self.forwardSlip=v;
+															setBack(l,self);
+															get_sidewaysSlip(IntPtr l) {
+																set_sidewaysSlip(IntPtr l) {
+																	UnityEngine.WheelHit self;
+																	checkValueType(l,1,out self);
+																	float v;
+																	checkType(l,2,out v);
+																	self.sidewaysSlip=v;
+																	setBack(l,self);
+																		]
+																}
+

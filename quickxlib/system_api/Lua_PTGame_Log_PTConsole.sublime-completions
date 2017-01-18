@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	set_onUpdateCallback(IntPtr l) {
+		PTGame.Log.PTConsole self=(PTGame.Log.PTConsole)checkSelf(l);
+		PTGame.Log.PTConsole.OnUpdateCallback v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) self.onUpdateCallback=v;
+		else if(op==1) self.onUpdateCallback+=v;
+		else if(op==2) self.onUpdateCallback-=v;
+		set_onGUICallback(IntPtr l) {
+			PTGame.Log.PTConsole self=(PTGame.Log.PTConsole)checkSelf(l);
+			PTGame.Log.PTConsole.OnGUICallback v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) self.onGUICallback=v;
+			else if(op==1) self.onGUICallback+=v;
+			else if(op==2) self.onGUICallback-=v;
+				]
+		}
+

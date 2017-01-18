@@ -1,0 +1,82 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PlayerPrefs()()","contents": "UnityEngine.PlayerPrefs()()"},
+
+			{ "trigger": "PlayerPrefs.SetInt(Public, Static, HideBySig)","contents": "PlayerPrefs.SetInt(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	UnityEngine.PlayerPrefs.SetInt(a1,a2);
+			{ "trigger": "PlayerPrefs.GetInt(Public, Static, HideBySig)","contents": "PlayerPrefs.GetInt(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		System.String a1;
+		checkType(l,1,out a1);
+		var ret=UnityEngine.PlayerPrefs.GetInt(a1);
+		else if(argc==2){
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Int32 a2;
+			checkType(l,2,out a2);
+			var ret=UnityEngine.PlayerPrefs.GetInt(a1,a2);
+					{ "trigger": "PlayerPrefs.SetFloat(Public, Static, HideBySig)","contents": "PlayerPrefs.SetFloat(Public, Static, HideBySig)"},
+
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Single a2;
+			checkType(l,2,out a2);
+			UnityEngine.PlayerPrefs.SetFloat(a1,a2);
+					{ "trigger": "PlayerPrefs.GetFloat(Public, Static, HideBySig)","contents": "PlayerPrefs.GetFloat(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				System.String a1;
+				checkType(l,1,out a1);
+				var ret=UnityEngine.PlayerPrefs.GetFloat(a1);
+				else if(argc==2){
+					System.String a1;
+					checkType(l,1,out a1);
+					System.Single a2;
+					checkType(l,2,out a2);
+					var ret=UnityEngine.PlayerPrefs.GetFloat(a1,a2);
+							{ "trigger": "PlayerPrefs.SetString(Public, Static, HideBySig)","contents": "PlayerPrefs.SetString(Public, Static, HideBySig)"},
+
+					System.String a1;
+					checkType(l,1,out a1);
+					System.String a2;
+					checkType(l,2,out a2);
+					UnityEngine.PlayerPrefs.SetString(a1,a2);
+							{ "trigger": "PlayerPrefs.GetString(Public, Static, HideBySig)","contents": "PlayerPrefs.GetString(Public, Static, HideBySig)"},
+
+					if(argc==1){
+						System.String a1;
+						checkType(l,1,out a1);
+						var ret=UnityEngine.PlayerPrefs.GetString(a1);
+						else if(argc==2){
+							System.String a1;
+							checkType(l,1,out a1);
+							System.String a2;
+							checkType(l,2,out a2);
+							var ret=UnityEngine.PlayerPrefs.GetString(a1,a2);
+									{ "trigger": "PlayerPrefs.HasKey(Public, Static, HideBySig)","contents": "PlayerPrefs.HasKey(Public, Static, HideBySig)"},
+
+							System.String a1;
+							checkType(l,1,out a1);
+							var ret=UnityEngine.PlayerPrefs.HasKey(a1);
+									{ "trigger": "PlayerPrefs.DeleteKey(Public, Static, HideBySig)","contents": "PlayerPrefs.DeleteKey(Public, Static, HideBySig)"},
+
+							System.String a1;
+							checkType(l,1,out a1);
+							UnityEngine.PlayerPrefs.DeleteKey(a1);
+									{ "trigger": "PlayerPrefs.DeleteAll(Public, Static, HideBySig)","contents": "PlayerPrefs.DeleteAll(Public, Static, HideBySig)"},
+
+							UnityEngine.PlayerPrefs.DeleteAll();
+									{ "trigger": "PlayerPrefs.Save(Public, Static, HideBySig)","contents": "PlayerPrefs.Save(Public, Static, HideBySig)"},
+
+							UnityEngine.PlayerPrefs.Save();
+								]
+						}
+

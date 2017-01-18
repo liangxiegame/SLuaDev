@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "DeviceMsgReceiver:ReceiveMsgFromDevice(Public, HideBySig)","contents": "DeviceMsgReceiver:ReceiveMsgFromDevice(Public, HideBySig)"},
+
+	DeviceMsgReceiver self=(DeviceMsgReceiver)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	self.ReceiveMsgFromDevice(a1);
+	set_msgReceiveCallfunc(IntPtr l) {
+		DeviceMsgReceiver self=(DeviceMsgReceiver)checkSelf(l);
+		VoidDelegate.WithString v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) self.msgReceiveCallfunc=v;
+		else if(op==1) self.msgReceiveCallfunc+=v;
+		else if(op==2) self.msgReceiveCallfunc-=v;
+		get_Instance(IntPtr l) {
+				]
+		}
+

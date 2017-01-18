@@ -1,0 +1,71 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "MeTimer()()","contents": "MeTimer()()"},
+
+	id
+	set_id(IntPtr l) {
+		MeTimer self=(MeTimer)checkSelf(l);
+		System.Int32 v;
+		checkType(l,2,out v);
+		self.id=v;
+		set_onTimer(IntPtr l) {
+			MeTimer self=(MeTimer)checkSelf(l);
+			Callback<MeTimer> v;
+			int op=LuaDelegation.checkDelegate(l,2,out v);
+			if(op==0) self.onTimer=v;
+			else if(op==1) self.onTimer+=v;
+			else if(op==2) self.onTimer-=v;
+			set_onCompleted(IntPtr l) {
+				MeTimer self=(MeTimer)checkSelf(l);
+				Callback<MeTimer> v;
+				int op=LuaDelegation.checkDelegate(l,2,out v);
+				if(op==0) self.onCompleted=v;
+				else if(op==1) self.onCompleted+=v;
+				else if(op==2) self.onCompleted-=v;
+				interval
+				set_interval(IntPtr l) {
+					MeTimer self=(MeTimer)checkSelf(l);
+					System.Single v;
+					checkType(l,2,out v);
+					self.interval=v;
+					deltaTime
+					set_deltaTime(IntPtr l) {
+						MeTimer self=(MeTimer)checkSelf(l);
+						System.Single v;
+						checkType(l,2,out v);
+						self.deltaTime=v;
+						delay
+						set_delay(IntPtr l) {
+							MeTimer self=(MeTimer)checkSelf(l);
+							System.Int32 v;
+							checkType(l,2,out v);
+							self.delay=v;
+							loop
+							set_loop(IntPtr l) {
+								MeTimer self=(MeTimer)checkSelf(l);
+								System.Int32 v;
+								checkType(l,2,out v);
+								self.loop=v;
+								count
+								set_count(IntPtr l) {
+									MeTimer self=(MeTimer)checkSelf(l);
+									System.Int32 v;
+									checkType(l,2,out v);
+									self.count=v;
+									enabled
+									set_enabled(IntPtr l) {
+										MeTimer self=(MeTimer)checkSelf(l);
+										System.Boolean v;
+										checkType(l,2,out v);
+										self.enabled=v;
+										close
+										set_close(IntPtr l) {
+											MeTimer self=(MeTimer)checkSelf(l);
+											System.Boolean v;
+											checkType(l,2,out v);
+											self.close=v;
+												]
+										}
+

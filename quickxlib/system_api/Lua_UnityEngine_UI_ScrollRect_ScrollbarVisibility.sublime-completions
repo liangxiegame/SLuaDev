@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.UI.ScrollRect.ScrollbarVisibility");
+	addMember(l,0,"Permanent");
+	addMember(l,1,"AutoHide");
+	addMember(l,2,"AutoHideAndExpandViewport");
+		]
+}
+

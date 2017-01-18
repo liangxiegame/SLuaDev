@@ -1,0 +1,87 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.HumanDescription()()","contents": "UnityEngine.HumanDescription()()"},
+
+	human
+	set_human(IntPtr l) {
+		UnityEngine.HumanDescription self;
+		checkValueType(l,1,out self);
+		UnityEngine.HumanBone[] v;
+		checkArray(l,2,out v);
+		self.human=v;
+		skeleton
+		set_skeleton(IntPtr l) {
+			UnityEngine.HumanDescription self;
+			checkValueType(l,1,out self);
+			UnityEngine.SkeletonBone[] v;
+			checkArray(l,2,out v);
+			self.skeleton=v;
+			get_upperArmTwist(IntPtr l) {
+				set_upperArmTwist(IntPtr l) {
+					UnityEngine.HumanDescription self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.upperArmTwist=v;
+					setBack(l,self);
+					get_lowerArmTwist(IntPtr l) {
+						set_lowerArmTwist(IntPtr l) {
+							UnityEngine.HumanDescription self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.lowerArmTwist=v;
+							setBack(l,self);
+							get_upperLegTwist(IntPtr l) {
+								set_upperLegTwist(IntPtr l) {
+									UnityEngine.HumanDescription self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.upperLegTwist=v;
+									setBack(l,self);
+									get_lowerLegTwist(IntPtr l) {
+										set_lowerLegTwist(IntPtr l) {
+											UnityEngine.HumanDescription self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.lowerLegTwist=v;
+											setBack(l,self);
+											get_armStretch(IntPtr l) {
+												set_armStretch(IntPtr l) {
+													UnityEngine.HumanDescription self;
+													checkValueType(l,1,out self);
+													float v;
+													checkType(l,2,out v);
+													self.armStretch=v;
+													setBack(l,self);
+													get_legStretch(IntPtr l) {
+														set_legStretch(IntPtr l) {
+															UnityEngine.HumanDescription self;
+															checkValueType(l,1,out self);
+															float v;
+															checkType(l,2,out v);
+															self.legStretch=v;
+															setBack(l,self);
+															get_feetSpacing(IntPtr l) {
+																set_feetSpacing(IntPtr l) {
+																	UnityEngine.HumanDescription self;
+																	checkValueType(l,1,out self);
+																	float v;
+																	checkType(l,2,out v);
+																	self.feetSpacing=v;
+																	setBack(l,self);
+																	get_hasTranslationDoF(IntPtr l) {
+																		set_hasTranslationDoF(IntPtr l) {
+																			UnityEngine.HumanDescription self;
+																			checkValueType(l,1,out self);
+																			bool v;
+																			checkType(l,2,out v);
+																			self.hasTranslationDoF=v;
+																			setBack(l,self);
+																				]
+																		}
+

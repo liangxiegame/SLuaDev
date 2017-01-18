@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ImageEffectOpaque()()","contents": "UnityEngine.ImageEffectOpaque()()"},
+
+		]
+}
+

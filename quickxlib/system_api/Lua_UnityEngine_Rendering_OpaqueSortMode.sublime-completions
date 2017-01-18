@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.OpaqueSortMode");
+	addMember(l,0,"Default");
+	addMember(l,1,"FrontToBack");
+	addMember(l,2,"NoDistanceSort");
+		]
+}
+

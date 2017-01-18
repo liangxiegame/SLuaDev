@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.EdgeCollider2D()()","contents": "UnityEngine.EdgeCollider2D()()"},
+
+			{ "trigger": "EdgeCollider2D:Reset(Public, HideBySig)","contents": "EdgeCollider2D:Reset(Public, HideBySig)"},
+
+	UnityEngine.EdgeCollider2D self=(UnityEngine.EdgeCollider2D)checkSelf(l);
+	self.Reset();
+	get_edgeCount(IntPtr l) {
+		get_pointCount(IntPtr l) {
+			get_points(IntPtr l) {
+				set_points(IntPtr l) {
+					UnityEngine.EdgeCollider2D self=(UnityEngine.EdgeCollider2D)checkSelf(l);
+					UnityEngine.Vector2[] v;
+					checkArray(l,2,out v);
+					self.points=v;
+						]
+				}
+

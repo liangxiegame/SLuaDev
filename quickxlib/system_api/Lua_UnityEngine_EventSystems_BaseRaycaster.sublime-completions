@@ -1,0 +1,18 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "BaseRaycaster:Raycast(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)","contents": "BaseRaycaster:Raycast(Public, Virtual, HideBySig, VtableLayoutMask, Abstract)"},
+
+	UnityEngine.EventSystems.BaseRaycaster self=(UnityEngine.EventSystems.BaseRaycaster)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult> a2;
+	checkType(l,3,out a2);
+	self.Raycast(a1,a2);
+	get_eventCamera(IntPtr l) {
+		get_sortOrderPriority(IntPtr l) {
+			get_renderOrderPriority(IntPtr l) {
+					]
+			}
+

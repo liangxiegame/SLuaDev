@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioLowPassFilter()()","contents": "UnityEngine.AudioLowPassFilter()()"},
+
+	get_cutoffFrequency(IntPtr l) {
+		set_cutoffFrequency(IntPtr l) {
+			UnityEngine.AudioLowPassFilter self=(UnityEngine.AudioLowPassFilter)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.cutoffFrequency=v;
+			get_customCutoffCurve(IntPtr l) {
+				set_customCutoffCurve(IntPtr l) {
+					UnityEngine.AudioLowPassFilter self=(UnityEngine.AudioLowPassFilter)checkSelf(l);
+					UnityEngine.AnimationCurve v;
+					checkType(l,2,out v);
+					self.customCutoffCurve=v;
+					get_lowpassResonanceQ(IntPtr l) {
+						set_lowpassResonanceQ(IntPtr l) {
+							UnityEngine.AudioLowPassFilter self=(UnityEngine.AudioLowPassFilter)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.lowpassResonanceQ=v;
+								]
+						}
+

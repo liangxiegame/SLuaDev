@@ -1,0 +1,134 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.AnimationMixerPlayable()()","contents": "UnityEngine.Experimental.Director.AnimationMixerPlayable()()"},
+
+			{ "trigger": "AnimationMixerPlayable:Destroy(Public, HideBySig)","contents": "AnimationMixerPlayable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+	checkValueType(l,1,out self);
+	self.Destroy();
+			{ "trigger": "AnimationMixerPlayable:GetInput(Public, HideBySig)","contents": "AnimationMixerPlayable:GetInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetInput(a1);
+			{ "trigger": "AnimationMixerPlayable:GetOutput(Public, HideBySig)","contents": "AnimationMixerPlayable:GetOutput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetOutput(a1);
+			{ "trigger": "AnimationMixerPlayable:SetInputs(Public, HideBySig)","contents": "AnimationMixerPlayable:SetInputs(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,System.Collections.Generic.IEnumerable<UnityEngine.Experimental.Director.Playable>)){
+		UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+		checkValueType(l,1,out self);
+		System.Collections.Generic.IEnumerable<UnityEngine.Experimental.Director.Playable> a1;
+		checkType(l,2,out a1);
+		var ret=self.SetInputs(a1);
+		else if(matchType(l,argc,2,UnityEngine.AnimationClip[])){
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			UnityEngine.AnimationClip[] a1;
+			checkArray(l,2,out a1);
+			var ret=self.SetInputs(a1);
+					{ "trigger": "AnimationMixerPlayable:GetInputWeight(Public, HideBySig)","contents": "AnimationMixerPlayable:GetInputWeight(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.GetInputWeight(a1);
+					{ "trigger": "AnimationMixerPlayable:SetInputWeight(Public, HideBySig)","contents": "AnimationMixerPlayable:SetInputWeight(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			self.SetInputWeight(a1,a2);
+					{ "trigger": "AnimationMixerPlayable:IsValid(Public, HideBySig)","contents": "AnimationMixerPlayable:IsValid(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			var ret=self.IsValid();
+					{ "trigger": "AnimationMixerPlayable:AddInput(Public, HideBySig)","contents": "AnimationMixerPlayable:AddInput(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			UnityEngine.Experimental.Director.Playable a1;
+			checkValueType(l,2,out a1);
+			var ret=self.AddInput(a1);
+					{ "trigger": "AnimationMixerPlayable:SetInput(Public, HideBySig)","contents": "AnimationMixerPlayable:SetInput(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			UnityEngine.Experimental.Director.Playable a1;
+			checkValueType(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			var ret=self.SetInput(a1,a2);
+					{ "trigger": "AnimationMixerPlayable:RemoveInput(Public, HideBySig)","contents": "AnimationMixerPlayable:RemoveInput(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.RemoveInput(a1);
+					{ "trigger": "AnimationMixerPlayable:RemoveAllInputs(Public, HideBySig)","contents": "AnimationMixerPlayable:RemoveAllInputs(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+			checkValueType(l,1,out self);
+			var ret=self.RemoveAllInputs();
+					{ "trigger": "AnimationMixerPlayable.Create(Public, Static, HideBySig)","contents": "AnimationMixerPlayable.Create(Public, Static, HideBySig)"},
+
+			var ret=UnityEngine.Experimental.Director.AnimationMixerPlayable.Create();
+					{ "trigger": "AnimationMixerPlayable.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "AnimationMixerPlayable.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Experimental.Director.Playable a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1==a2);
+					{ "trigger": "AnimationMixerPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "AnimationMixerPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Experimental.Director.AnimationMixerPlayable a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Experimental.Director.Playable a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1!=a2);
+			get_inputCount(IntPtr l) {
+				get_outputCount(IntPtr l) {
+					get_state(IntPtr l) {
+						set_state(IntPtr l) {
+							UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+							checkValueType(l,1,out self);
+							UnityEngine.Experimental.Director.PlayState v;
+							checkEnum(l,2,out v);
+							self.state=v;
+							setBack(l,self);
+							get_time(IntPtr l) {
+								set_time(IntPtr l) {
+									UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+									checkValueType(l,1,out self);
+									double v;
+									checkType(l,2,out v);
+									self.time=v;
+									setBack(l,self);
+									get_duration(IntPtr l) {
+										set_duration(IntPtr l) {
+											UnityEngine.Experimental.Director.AnimationMixerPlayable self;
+											checkValueType(l,1,out self);
+											double v;
+											checkType(l,2,out v);
+											self.duration=v;
+											setBack(l,self);
+												]
+										}
+

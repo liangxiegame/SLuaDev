@@ -1,0 +1,9 @@
+﻿
+System.Action<System.Single,System.Object> 
+                ua = (System.Action<System.Single,System.Object>)checkObj(l, p);
+                ua = (System.Action<System.Single,System.Object>)ld.d;
+            ua = (float a1,System.Object a2) =>
+
+				pushValue(l,a1);
+				pushValue(l,a2);
+				ld.pcall(2, error);

@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SpringJoint2D()()","contents": "UnityEngine.SpringJoint2D()()"},
+
+	get_autoConfigureDistance(IntPtr l) {
+		set_autoConfigureDistance(IntPtr l) {
+			UnityEngine.SpringJoint2D self=(UnityEngine.SpringJoint2D)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.autoConfigureDistance=v;
+			get_distance(IntPtr l) {
+				set_distance(IntPtr l) {
+					UnityEngine.SpringJoint2D self=(UnityEngine.SpringJoint2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.distance=v;
+					get_dampingRatio(IntPtr l) {
+						set_dampingRatio(IntPtr l) {
+							UnityEngine.SpringJoint2D self=(UnityEngine.SpringJoint2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.dampingRatio=v;
+							get_frequency(IntPtr l) {
+								set_frequency(IntPtr l) {
+									UnityEngine.SpringJoint2D self=(UnityEngine.SpringJoint2D)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.frequency=v;
+										]
+								}
+

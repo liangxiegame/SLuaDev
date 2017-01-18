@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LocationInfo()()","contents": "UnityEngine.LocationInfo()()"},
+
+	get_latitude(IntPtr l) {
+		get_longitude(IntPtr l) {
+			get_altitude(IntPtr l) {
+				get_horizontalAccuracy(IntPtr l) {
+					get_verticalAccuracy(IntPtr l) {
+						get_timestamp(IntPtr l) {
+								]
+						}
+

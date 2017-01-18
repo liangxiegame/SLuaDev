@@ -1,0 +1,116 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Font()()","contents": "UnityEngine.Font()()"},
+
+			{ "trigger": "UnityEngine.Font()()","contents": "UnityEngine.Font()()"},
+
+			{ "trigger": "UnityEngine.Font()()","contents": "UnityEngine.Font()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.Font()()","contents": "UnityEngine.Font()()"},
+
+			{ "trigger": "Font:HasCharacter(Public, HideBySig)","contents": "Font:HasCharacter(Public, HideBySig)"},
+
+	UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+	System.Char a1;
+	checkType(l,2,out a1);
+	var ret=self.HasCharacter(a1);
+			{ "trigger": "Font:RequestCharactersInTexture(Public, HideBySig)","contents": "Font:RequestCharactersInTexture(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+		System.String a1;
+		checkType(l,2,out a1);
+		self.RequestCharactersInTexture(a1);
+		else if(argc==3){
+			UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			System.Int32 a2;
+			checkType(l,3,out a2);
+			self.RequestCharactersInTexture(a1,a2);
+			else if(argc==4){
+				UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+				System.String a1;
+				checkType(l,2,out a1);
+				System.Int32 a2;
+				checkType(l,3,out a2);
+				UnityEngine.FontStyle a3;
+				checkEnum(l,4,out a3);
+				self.RequestCharactersInTexture(a1,a2,a3);
+						{ "trigger": "Font:GetCharacterInfo(Public, HideBySig)","contents": "Font:GetCharacterInfo(Public, HideBySig)"},
+
+				if(argc==3){
+					UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+					System.Char a1;
+					checkType(l,2,out a1);
+					UnityEngine.CharacterInfo a2;
+					var ret=self.GetCharacterInfo(a1,out a2);
+					else if(argc==4){
+						UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+						System.Char a1;
+						checkType(l,2,out a1);
+						UnityEngine.CharacterInfo a2;
+						System.Int32 a3;
+						checkType(l,4,out a3);
+						var ret=self.GetCharacterInfo(a1,out a2,a3);
+						else if(argc==5){
+							UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+							System.Char a1;
+							checkType(l,2,out a1);
+							UnityEngine.CharacterInfo a2;
+							System.Int32 a3;
+							checkType(l,4,out a3);
+							UnityEngine.FontStyle a4;
+							checkEnum(l,5,out a4);
+							var ret=self.GetCharacterInfo(a1,out a2,a3,a4);
+									{ "trigger": "Font.GetOSInstalledFontNames(Public, Static, HideBySig)","contents": "Font.GetOSInstalledFontNames(Public, Static, HideBySig)"},
+
+							var ret=UnityEngine.Font.GetOSInstalledFontNames();
+									{ "trigger": "Font.CreateDynamicFontFromOSFont(Public, Static, HideBySig)","contents": "Font.CreateDynamicFontFromOSFont(Public, Static, HideBySig)"},
+
+							if(matchType(l,argc,1,System.String[],int)){
+								System.String[] a1;
+								checkArray(l,1,out a1);
+								System.Int32 a2;
+								checkType(l,2,out a2);
+								var ret=UnityEngine.Font.CreateDynamicFontFromOSFont(a1,a2);
+								else if(matchType(l,argc,1,string,int)){
+									System.String a1;
+									checkType(l,1,out a1);
+									System.Int32 a2;
+									checkType(l,2,out a2);
+									var ret=UnityEngine.Font.CreateDynamicFontFromOSFont(a1,a2);
+											{ "trigger": "Font.GetMaxVertsForString(Public, Static, HideBySig)","contents": "Font.GetMaxVertsForString(Public, Static, HideBySig)"},
+
+									System.String a1;
+									checkType(l,1,out a1);
+									var ret=UnityEngine.Font.GetMaxVertsForString(a1);
+									get_material(IntPtr l) {
+										set_material(IntPtr l) {
+											UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+											UnityEngine.Material v;
+											checkType(l,2,out v);
+											self.material=v;
+											get_fontNames(IntPtr l) {
+												set_fontNames(IntPtr l) {
+													UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+													System.String[] v;
+													checkArray(l,2,out v);
+													self.fontNames=v;
+													get_characterInfo(IntPtr l) {
+														set_characterInfo(IntPtr l) {
+															UnityEngine.Font self=(UnityEngine.Font)checkSelf(l);
+															UnityEngine.CharacterInfo[] v;
+															checkArray(l,2,out v);
+															self.characterInfo=v;
+															get_dynamic(IntPtr l) {
+																get_ascent(IntPtr l) {
+																	get_lineHeight(IntPtr l) {
+																		get_fontSize(IntPtr l) {
+																				]
+																		}
+

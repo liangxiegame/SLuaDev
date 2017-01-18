@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.OffMeshLinkType");
+	addMember(l,0,"LinkTypeManual");
+	addMember(l,1,"LinkTypeDropDown");
+	addMember(l,2,"LinkTypeJumpAcross");
+		]
+}
+

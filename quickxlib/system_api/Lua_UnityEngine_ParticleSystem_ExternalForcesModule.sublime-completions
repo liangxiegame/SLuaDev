@@ -1,0 +1,25 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.ExternalForcesModule()()","contents": "UnityEngine.ParticleSystem.ExternalForcesModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.ExternalForcesModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_multiplier(IntPtr l) {
+				set_multiplier(IntPtr l) {
+					UnityEngine.ParticleSystem.ExternalForcesModule self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.multiplier=v;
+					setBack(l,self);
+						]
+				}
+

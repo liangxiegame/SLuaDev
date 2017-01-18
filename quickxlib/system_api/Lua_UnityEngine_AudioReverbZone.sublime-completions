@@ -1,0 +1,111 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioReverbZone()()","contents": "UnityEngine.AudioReverbZone()()"},
+
+	get_minDistance(IntPtr l) {
+		set_minDistance(IntPtr l) {
+			UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.minDistance=v;
+			get_maxDistance(IntPtr l) {
+				set_maxDistance(IntPtr l) {
+					UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.maxDistance=v;
+					get_reverbPreset(IntPtr l) {
+						set_reverbPreset(IntPtr l) {
+							UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+							UnityEngine.AudioReverbPreset v;
+							checkEnum(l,2,out v);
+							self.reverbPreset=v;
+							get_room(IntPtr l) {
+								set_room(IntPtr l) {
+									UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+									int v;
+									checkType(l,2,out v);
+									self.room=v;
+									get_roomHF(IntPtr l) {
+										set_roomHF(IntPtr l) {
+											UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+											int v;
+											checkType(l,2,out v);
+											self.roomHF=v;
+											get_roomLF(IntPtr l) {
+												set_roomLF(IntPtr l) {
+													UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+													int v;
+													checkType(l,2,out v);
+													self.roomLF=v;
+													get_decayTime(IntPtr l) {
+														set_decayTime(IntPtr l) {
+															UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.decayTime=v;
+															get_decayHFRatio(IntPtr l) {
+																set_decayHFRatio(IntPtr l) {
+																	UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.decayHFRatio=v;
+																	get_reflections(IntPtr l) {
+																		set_reflections(IntPtr l) {
+																			UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																			int v;
+																			checkType(l,2,out v);
+																			self.reflections=v;
+																			get_reflectionsDelay(IntPtr l) {
+																				set_reflectionsDelay(IntPtr l) {
+																					UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.reflectionsDelay=v;
+																					get_reverb(IntPtr l) {
+																						set_reverb(IntPtr l) {
+																							UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																							int v;
+																							checkType(l,2,out v);
+																							self.reverb=v;
+																							get_reverbDelay(IntPtr l) {
+																								set_reverbDelay(IntPtr l) {
+																									UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.reverbDelay=v;
+																									get_HFReference(IntPtr l) {
+																										set_HFReference(IntPtr l) {
+																											UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																											float v;
+																											checkType(l,2,out v);
+																											self.HFReference=v;
+																											get_LFReference(IntPtr l) {
+																												set_LFReference(IntPtr l) {
+																													UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																													float v;
+																													checkType(l,2,out v);
+																													self.LFReference=v;
+																													get_roomRolloffFactor(IntPtr l) {
+																														set_roomRolloffFactor(IntPtr l) {
+																															UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																															float v;
+																															checkType(l,2,out v);
+																															self.roomRolloffFactor=v;
+																															get_diffusion(IntPtr l) {
+																																set_diffusion(IntPtr l) {
+																																	UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																																	float v;
+																																	checkType(l,2,out v);
+																																	self.diffusion=v;
+																																	get_density(IntPtr l) {
+																																		set_density(IntPtr l) {
+																																			UnityEngine.AudioReverbZone self=(UnityEngine.AudioReverbZone)checkSelf(l);
+																																			float v;
+																																			checkType(l,2,out v);
+																																			self.density=v;
+																																				]
+																																		}
+

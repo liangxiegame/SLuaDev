@@ -1,0 +1,24 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	get_rotationRate(IntPtr l) {
+		get_rotationRateUnbiased(IntPtr l) {
+			get_gravity(IntPtr l) {
+				get_userAcceleration(IntPtr l) {
+					get_attitude(IntPtr l) {
+						get_enabled(IntPtr l) {
+							set_enabled(IntPtr l) {
+								UnityEngine.Gyroscope self=(UnityEngine.Gyroscope)checkSelf(l);
+								bool v;
+								checkType(l,2,out v);
+								self.enabled=v;
+								get_updateInterval(IntPtr l) {
+									set_updateInterval(IntPtr l) {
+										UnityEngine.Gyroscope self=(UnityEngine.Gyroscope)checkSelf(l);
+										float v;
+										checkType(l,2,out v);
+										self.updateInterval=v;
+											]
+									}
+

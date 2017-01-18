@@ -1,0 +1,137 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.ShapeModule()()","contents": "UnityEngine.ParticleSystem.ShapeModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.ShapeModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_shapeType(IntPtr l) {
+				set_shapeType(IntPtr l) {
+					UnityEngine.ParticleSystem.ShapeModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystemShapeType v;
+					checkEnum(l,2,out v);
+					self.shapeType=v;
+					setBack(l,self);
+					get_randomDirection(IntPtr l) {
+						set_randomDirection(IntPtr l) {
+							UnityEngine.ParticleSystem.ShapeModule self;
+							checkValueType(l,1,out self);
+							bool v;
+							checkType(l,2,out v);
+							self.randomDirection=v;
+							setBack(l,self);
+							get_radius(IntPtr l) {
+								set_radius(IntPtr l) {
+									UnityEngine.ParticleSystem.ShapeModule self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.radius=v;
+									setBack(l,self);
+									get_angle(IntPtr l) {
+										set_angle(IntPtr l) {
+											UnityEngine.ParticleSystem.ShapeModule self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.angle=v;
+											setBack(l,self);
+											get_length(IntPtr l) {
+												set_length(IntPtr l) {
+													UnityEngine.ParticleSystem.ShapeModule self;
+													checkValueType(l,1,out self);
+													float v;
+													checkType(l,2,out v);
+													self.length=v;
+													setBack(l,self);
+													get_box(IntPtr l) {
+														set_box(IntPtr l) {
+															UnityEngine.ParticleSystem.ShapeModule self;
+															checkValueType(l,1,out self);
+															UnityEngine.Vector3 v;
+															checkType(l,2,out v);
+															self.box=v;
+															setBack(l,self);
+															get_meshShapeType(IntPtr l) {
+																set_meshShapeType(IntPtr l) {
+																	UnityEngine.ParticleSystem.ShapeModule self;
+																	checkValueType(l,1,out self);
+																	UnityEngine.ParticleSystemMeshShapeType v;
+																	checkEnum(l,2,out v);
+																	self.meshShapeType=v;
+																	setBack(l,self);
+																	get_mesh(IntPtr l) {
+																		set_mesh(IntPtr l) {
+																			UnityEngine.ParticleSystem.ShapeModule self;
+																			checkValueType(l,1,out self);
+																			UnityEngine.Mesh v;
+																			checkType(l,2,out v);
+																			self.mesh=v;
+																			setBack(l,self);
+																			get_meshRenderer(IntPtr l) {
+																				set_meshRenderer(IntPtr l) {
+																					UnityEngine.ParticleSystem.ShapeModule self;
+																					checkValueType(l,1,out self);
+																					UnityEngine.MeshRenderer v;
+																					checkType(l,2,out v);
+																					self.meshRenderer=v;
+																					setBack(l,self);
+																					get_skinnedMeshRenderer(IntPtr l) {
+																						set_skinnedMeshRenderer(IntPtr l) {
+																							UnityEngine.ParticleSystem.ShapeModule self;
+																							checkValueType(l,1,out self);
+																							UnityEngine.SkinnedMeshRenderer v;
+																							checkType(l,2,out v);
+																							self.skinnedMeshRenderer=v;
+																							setBack(l,self);
+																							get_useMeshMaterialIndex(IntPtr l) {
+																								set_useMeshMaterialIndex(IntPtr l) {
+																									UnityEngine.ParticleSystem.ShapeModule self;
+																									checkValueType(l,1,out self);
+																									bool v;
+																									checkType(l,2,out v);
+																									self.useMeshMaterialIndex=v;
+																									setBack(l,self);
+																									get_meshMaterialIndex(IntPtr l) {
+																										set_meshMaterialIndex(IntPtr l) {
+																											UnityEngine.ParticleSystem.ShapeModule self;
+																											checkValueType(l,1,out self);
+																											int v;
+																											checkType(l,2,out v);
+																											self.meshMaterialIndex=v;
+																											setBack(l,self);
+																											get_useMeshColors(IntPtr l) {
+																												set_useMeshColors(IntPtr l) {
+																													UnityEngine.ParticleSystem.ShapeModule self;
+																													checkValueType(l,1,out self);
+																													bool v;
+																													checkType(l,2,out v);
+																													self.useMeshColors=v;
+																													setBack(l,self);
+																													get_normalOffset(IntPtr l) {
+																														set_normalOffset(IntPtr l) {
+																															UnityEngine.ParticleSystem.ShapeModule self;
+																															checkValueType(l,1,out self);
+																															float v;
+																															checkType(l,2,out v);
+																															self.normalOffset=v;
+																															setBack(l,self);
+																															get_arc(IntPtr l) {
+																																set_arc(IntPtr l) {
+																																	UnityEngine.ParticleSystem.ShapeModule self;
+																																	checkValueType(l,1,out self);
+																																	float v;
+																																	checkType(l,2,out v);
+																																	self.arc=v;
+																																	setBack(l,self);
+																																		]
+																																}
+

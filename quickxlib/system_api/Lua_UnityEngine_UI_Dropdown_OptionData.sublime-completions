@@ -1,0 +1,43 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData()()","contents": "UnityEngine.UI.Dropdown.OptionData()()"},
+
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData()()","contents": "UnityEngine.UI.Dropdown.OptionData()()"},
+
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData(,string)()","contents": "UnityEngine.UI.Dropdown.OptionData(,string)()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData()()","contents": "UnityEngine.UI.Dropdown.OptionData()()"},
+
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData(,UnityEngine.Sprite)()","contents": "UnityEngine.UI.Dropdown.OptionData(,UnityEngine.Sprite)()"},
+
+	UnityEngine.Sprite a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData()()","contents": "UnityEngine.UI.Dropdown.OptionData()()"},
+
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData()()","contents": "UnityEngine.UI.Dropdown.OptionData()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+	UnityEngine.Sprite a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.UI.Dropdown.OptionData()()","contents": "UnityEngine.UI.Dropdown.OptionData()()"},
+
+	get_text(IntPtr l) {
+		set_text(IntPtr l) {
+			UnityEngine.UI.Dropdown.OptionData self=(UnityEngine.UI.Dropdown.OptionData)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			self.text=v;
+			get_image(IntPtr l) {
+				set_image(IntPtr l) {
+					UnityEngine.UI.Dropdown.OptionData self=(UnityEngine.UI.Dropdown.OptionData)checkSelf(l);
+					UnityEngine.Sprite v;
+					checkType(l,2,out v);
+					self.image=v;
+						]
+				}
+

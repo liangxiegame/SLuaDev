@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Mask:MaskEnabled(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Mask:MaskEnabled(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Mask self=(UnityEngine.UI.Mask)checkSelf(l);
+	var ret=self.MaskEnabled();
+			{ "trigger": "Mask:IsRaycastLocationValid(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Mask:IsRaycastLocationValid(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Mask self=(UnityEngine.UI.Mask)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Camera a2;
+	checkType(l,3,out a2);
+	var ret=self.IsRaycastLocationValid(a1,a2);
+			{ "trigger": "Mask:GetModifiedMaterial(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Mask:GetModifiedMaterial(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Mask self=(UnityEngine.UI.Mask)checkSelf(l);
+	UnityEngine.Material a1;
+	checkType(l,2,out a1);
+	var ret=self.GetModifiedMaterial(a1);
+	get_rectTransform(IntPtr l) {
+		get_showMaskGraphic(IntPtr l) {
+			set_showMaskGraphic(IntPtr l) {
+				UnityEngine.UI.Mask self=(UnityEngine.UI.Mask)checkSelf(l);
+				bool v;
+				checkType(l,2,out v);
+				self.showMaskGraphic=v;
+				get_graphic(IntPtr l) {
+						]
+				}
+

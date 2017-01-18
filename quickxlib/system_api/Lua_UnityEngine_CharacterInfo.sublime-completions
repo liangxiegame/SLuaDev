@@ -1,0 +1,126 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CharacterInfo()()","contents": "UnityEngine.CharacterInfo()()"},
+
+	index
+	set_index(IntPtr l) {
+		UnityEngine.CharacterInfo self;
+		checkValueType(l,1,out self);
+		System.Int32 v;
+		checkType(l,2,out v);
+		self.index=v;
+		size
+		set_size(IntPtr l) {
+			UnityEngine.CharacterInfo self;
+			checkValueType(l,1,out self);
+			System.Int32 v;
+			checkType(l,2,out v);
+			self.size=v;
+			style
+			set_style(IntPtr l) {
+				UnityEngine.CharacterInfo self;
+				checkValueType(l,1,out self);
+				UnityEngine.FontStyle v;
+				checkEnum(l,2,out v);
+				self.style=v;
+				get_advance(IntPtr l) {
+					set_advance(IntPtr l) {
+						UnityEngine.CharacterInfo self;
+						checkValueType(l,1,out self);
+						int v;
+						checkType(l,2,out v);
+						self.advance=v;
+						setBack(l,self);
+						get_glyphWidth(IntPtr l) {
+							set_glyphWidth(IntPtr l) {
+								UnityEngine.CharacterInfo self;
+								checkValueType(l,1,out self);
+								int v;
+								checkType(l,2,out v);
+								self.glyphWidth=v;
+								setBack(l,self);
+								get_glyphHeight(IntPtr l) {
+									set_glyphHeight(IntPtr l) {
+										UnityEngine.CharacterInfo self;
+										checkValueType(l,1,out self);
+										int v;
+										checkType(l,2,out v);
+										self.glyphHeight=v;
+										setBack(l,self);
+										get_bearing(IntPtr l) {
+											set_bearing(IntPtr l) {
+												UnityEngine.CharacterInfo self;
+												checkValueType(l,1,out self);
+												int v;
+												checkType(l,2,out v);
+												self.bearing=v;
+												setBack(l,self);
+												get_minY(IntPtr l) {
+													set_minY(IntPtr l) {
+														UnityEngine.CharacterInfo self;
+														checkValueType(l,1,out self);
+														int v;
+														checkType(l,2,out v);
+														self.minY=v;
+														setBack(l,self);
+														get_maxY(IntPtr l) {
+															set_maxY(IntPtr l) {
+																UnityEngine.CharacterInfo self;
+																checkValueType(l,1,out self);
+																int v;
+																checkType(l,2,out v);
+																self.maxY=v;
+																setBack(l,self);
+																get_minX(IntPtr l) {
+																	set_minX(IntPtr l) {
+																		UnityEngine.CharacterInfo self;
+																		checkValueType(l,1,out self);
+																		int v;
+																		checkType(l,2,out v);
+																		self.minX=v;
+																		setBack(l,self);
+																		get_maxX(IntPtr l) {
+																			set_maxX(IntPtr l) {
+																				UnityEngine.CharacterInfo self;
+																				checkValueType(l,1,out self);
+																				int v;
+																				checkType(l,2,out v);
+																				self.maxX=v;
+																				setBack(l,self);
+																				get_uvBottomLeft(IntPtr l) {
+																					set_uvBottomLeft(IntPtr l) {
+																						UnityEngine.CharacterInfo self;
+																						checkValueType(l,1,out self);
+																						UnityEngine.Vector2 v;
+																						checkType(l,2,out v);
+																						self.uvBottomLeft=v;
+																						setBack(l,self);
+																						get_uvBottomRight(IntPtr l) {
+																							set_uvBottomRight(IntPtr l) {
+																								UnityEngine.CharacterInfo self;
+																								checkValueType(l,1,out self);
+																								UnityEngine.Vector2 v;
+																								checkType(l,2,out v);
+																								self.uvBottomRight=v;
+																								setBack(l,self);
+																								get_uvTopRight(IntPtr l) {
+																									set_uvTopRight(IntPtr l) {
+																										UnityEngine.CharacterInfo self;
+																										checkValueType(l,1,out self);
+																										UnityEngine.Vector2 v;
+																										checkType(l,2,out v);
+																										self.uvTopRight=v;
+																										setBack(l,self);
+																										get_uvTopLeft(IntPtr l) {
+																											set_uvTopLeft(IntPtr l) {
+																												UnityEngine.CharacterInfo self;
+																												checkValueType(l,1,out self);
+																												UnityEngine.Vector2 v;
+																												checkType(l,2,out v);
+																												self.uvTopLeft=v;
+																												setBack(l,self);
+																													]
+																											}
+

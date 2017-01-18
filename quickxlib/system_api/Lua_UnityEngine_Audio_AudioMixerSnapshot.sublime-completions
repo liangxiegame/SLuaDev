@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "AudioMixerSnapshot:TransitionTo(Public, HideBySig)","contents": "AudioMixerSnapshot:TransitionTo(Public, HideBySig)"},
+
+	UnityEngine.Audio.AudioMixerSnapshot self=(UnityEngine.Audio.AudioMixerSnapshot)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	self.TransitionTo(a1);
+	get_audioMixer(IntPtr l) {
+			]
+	}
+

@@ -1,0 +1,41 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CanvasGroup()()","contents": "UnityEngine.CanvasGroup()()"},
+
+			{ "trigger": "CanvasGroup:IsRaycastLocationValid(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "CanvasGroup:IsRaycastLocationValid(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.CanvasGroup self=(UnityEngine.CanvasGroup)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Camera a2;
+	checkType(l,3,out a2);
+	var ret=self.IsRaycastLocationValid(a1,a2);
+	get_alpha(IntPtr l) {
+		set_alpha(IntPtr l) {
+			UnityEngine.CanvasGroup self=(UnityEngine.CanvasGroup)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.alpha=v;
+			get_interactable(IntPtr l) {
+				set_interactable(IntPtr l) {
+					UnityEngine.CanvasGroup self=(UnityEngine.CanvasGroup)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.interactable=v;
+					get_blocksRaycasts(IntPtr l) {
+						set_blocksRaycasts(IntPtr l) {
+							UnityEngine.CanvasGroup self=(UnityEngine.CanvasGroup)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.blocksRaycasts=v;
+							get_ignoreParentGroups(IntPtr l) {
+								set_ignoreParentGroups(IntPtr l) {
+									UnityEngine.CanvasGroup self=(UnityEngine.CanvasGroup)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.ignoreParentGroups=v;
+										]
+								}
+

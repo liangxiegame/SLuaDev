@@ -1,0 +1,143 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Cloth()()","contents": "UnityEngine.Cloth()()"},
+
+			{ "trigger": "Cloth:ClearTransformMotion(Public, HideBySig)","contents": "Cloth:ClearTransformMotion(Public, HideBySig)"},
+
+	UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+	self.ClearTransformMotion();
+			{ "trigger": "Cloth:SetEnabledFading(Public, HideBySig)","contents": "Cloth:SetEnabledFading(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+		System.Boolean a1;
+		checkType(l,2,out a1);
+		self.SetEnabledFading(a1);
+		else if(argc==3){
+			UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+			System.Boolean a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			self.SetEnabledFading(a1,a2);
+			get_sleepThreshold(IntPtr l) {
+				set_sleepThreshold(IntPtr l) {
+					UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.sleepThreshold=v;
+					get_bendingStiffness(IntPtr l) {
+						set_bendingStiffness(IntPtr l) {
+							UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.bendingStiffness=v;
+							get_stretchingStiffness(IntPtr l) {
+								set_stretchingStiffness(IntPtr l) {
+									UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.stretchingStiffness=v;
+									get_damping(IntPtr l) {
+										set_damping(IntPtr l) {
+											UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.damping=v;
+											get_externalAcceleration(IntPtr l) {
+												set_externalAcceleration(IntPtr l) {
+													UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+													UnityEngine.Vector3 v;
+													checkType(l,2,out v);
+													self.externalAcceleration=v;
+													get_randomAcceleration(IntPtr l) {
+														set_randomAcceleration(IntPtr l) {
+															UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+															UnityEngine.Vector3 v;
+															checkType(l,2,out v);
+															self.randomAcceleration=v;
+															get_useGravity(IntPtr l) {
+																set_useGravity(IntPtr l) {
+																	UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																	bool v;
+																	checkType(l,2,out v);
+																	self.useGravity=v;
+																	get_enabled(IntPtr l) {
+																		set_enabled(IntPtr l) {
+																			UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																			bool v;
+																			checkType(l,2,out v);
+																			self.enabled=v;
+																			get_vertices(IntPtr l) {
+																				get_normals(IntPtr l) {
+																					get_friction(IntPtr l) {
+																						set_friction(IntPtr l) {
+																							UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																							float v;
+																							checkType(l,2,out v);
+																							self.friction=v;
+																							get_collisionMassScale(IntPtr l) {
+																								set_collisionMassScale(IntPtr l) {
+																									UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.collisionMassScale=v;
+																									get_enableContinuousCollision(IntPtr l) {
+																										set_enableContinuousCollision(IntPtr l) {
+																											UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																											bool v;
+																											checkType(l,2,out v);
+																											self.enableContinuousCollision=v;
+																											get_useVirtualParticles(IntPtr l) {
+																												set_useVirtualParticles(IntPtr l) {
+																													UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																													float v;
+																													checkType(l,2,out v);
+																													self.useVirtualParticles=v;
+																													get_enableTethers(IntPtr l) {
+																														set_enableTethers(IntPtr l) {
+																															UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																															bool v;
+																															checkType(l,2,out v);
+																															self.enableTethers=v;
+																															get_coefficients(IntPtr l) {
+																																set_coefficients(IntPtr l) {
+																																	UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																																	UnityEngine.ClothSkinningCoefficient[] v;
+																																	checkArray(l,2,out v);
+																																	self.coefficients=v;
+																																	get_worldVelocityScale(IntPtr l) {
+																																		set_worldVelocityScale(IntPtr l) {
+																																			UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																																			float v;
+																																			checkType(l,2,out v);
+																																			self.worldVelocityScale=v;
+																																			get_worldAccelerationScale(IntPtr l) {
+																																				set_worldAccelerationScale(IntPtr l) {
+																																					UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																																					float v;
+																																					checkType(l,2,out v);
+																																					self.worldAccelerationScale=v;
+																																					get_clothSolverFrequency(IntPtr l) {
+																																						set_clothSolverFrequency(IntPtr l) {
+																																							UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																																							float v;
+																																							checkType(l,2,out v);
+																																							self.clothSolverFrequency=v;
+																																							get_capsuleColliders(IntPtr l) {
+																																								set_capsuleColliders(IntPtr l) {
+																																									UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																																									UnityEngine.CapsuleCollider[] v;
+																																									checkArray(l,2,out v);
+																																									self.capsuleColliders=v;
+																																									get_sphereColliders(IntPtr l) {
+																																										set_sphereColliders(IntPtr l) {
+																																											UnityEngine.Cloth self=(UnityEngine.Cloth)checkSelf(l);
+																																											UnityEngine.ClothSphereColliderPair[] v;
+																																											checkArray(l,2,out v);
+																																											self.sphereColliders=v;
+																																												]
+																																										}
+

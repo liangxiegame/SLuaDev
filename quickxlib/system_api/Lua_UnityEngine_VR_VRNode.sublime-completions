@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.VR.VRNode");
+	addMember(l,0,"LeftEye");
+	addMember(l,1,"RightEye");
+	addMember(l,2,"CenterEye");
+	addMember(l,3,"Head");
+		]
+}
+

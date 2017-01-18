@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.EventSystems.EventTrigger.TriggerEvent()()","contents": "UnityEngine.EventSystems.EventTrigger.TriggerEvent()()"},
+
+		]
+}
+

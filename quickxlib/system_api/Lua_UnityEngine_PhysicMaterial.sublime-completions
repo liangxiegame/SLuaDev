@@ -1,0 +1,47 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PhysicMaterial()()","contents": "UnityEngine.PhysicMaterial()()"},
+
+			{ "trigger": "UnityEngine.PhysicMaterial()()","contents": "UnityEngine.PhysicMaterial()()"},
+
+			{ "trigger": "UnityEngine.PhysicMaterial()()","contents": "UnityEngine.PhysicMaterial()()"},
+
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.PhysicMaterial()()","contents": "UnityEngine.PhysicMaterial()()"},
+
+	get_dynamicFriction(IntPtr l) {
+		set_dynamicFriction(IntPtr l) {
+			UnityEngine.PhysicMaterial self=(UnityEngine.PhysicMaterial)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.dynamicFriction=v;
+			get_staticFriction(IntPtr l) {
+				set_staticFriction(IntPtr l) {
+					UnityEngine.PhysicMaterial self=(UnityEngine.PhysicMaterial)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.staticFriction=v;
+					get_bounciness(IntPtr l) {
+						set_bounciness(IntPtr l) {
+							UnityEngine.PhysicMaterial self=(UnityEngine.PhysicMaterial)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.bounciness=v;
+							get_frictionCombine(IntPtr l) {
+								set_frictionCombine(IntPtr l) {
+									UnityEngine.PhysicMaterial self=(UnityEngine.PhysicMaterial)checkSelf(l);
+									UnityEngine.PhysicMaterialCombine v;
+									checkEnum(l,2,out v);
+									self.frictionCombine=v;
+									get_bounceCombine(IntPtr l) {
+										set_bounceCombine(IntPtr l) {
+											UnityEngine.PhysicMaterial self=(UnityEngine.PhysicMaterial)checkSelf(l);
+											UnityEngine.PhysicMaterialCombine v;
+											checkEnum(l,2,out v);
+											self.bounceCombine=v;
+												]
+										}
+

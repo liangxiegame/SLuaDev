@@ -1,0 +1,74 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.TriggerModule()()","contents": "UnityEngine.ParticleSystem.TriggerModule()()"},
+
+			{ "trigger": "TriggerModule:SetCollider(Public, HideBySig)","contents": "TriggerModule:SetCollider(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.TriggerModule self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Component a2;
+	checkType(l,3,out a2);
+	self.SetCollider(a1,a2);
+			{ "trigger": "TriggerModule:GetCollider(Public, HideBySig)","contents": "TriggerModule:GetCollider(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem.TriggerModule self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetCollider(a1);
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.TriggerModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_inside(IntPtr l) {
+				set_inside(IntPtr l) {
+					UnityEngine.ParticleSystem.TriggerModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystemOverlapAction v;
+					checkEnum(l,2,out v);
+					self.inside=v;
+					setBack(l,self);
+					get_outside(IntPtr l) {
+						set_outside(IntPtr l) {
+							UnityEngine.ParticleSystem.TriggerModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystemOverlapAction v;
+							checkEnum(l,2,out v);
+							self.outside=v;
+							setBack(l,self);
+							get_enter(IntPtr l) {
+								set_enter(IntPtr l) {
+									UnityEngine.ParticleSystem.TriggerModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystemOverlapAction v;
+									checkEnum(l,2,out v);
+									self.enter=v;
+									setBack(l,self);
+									get_exit(IntPtr l) {
+										set_exit(IntPtr l) {
+											UnityEngine.ParticleSystem.TriggerModule self;
+											checkValueType(l,1,out self);
+											UnityEngine.ParticleSystemOverlapAction v;
+											checkEnum(l,2,out v);
+											self.exit=v;
+											setBack(l,self);
+											get_radiusScale(IntPtr l) {
+												set_radiusScale(IntPtr l) {
+													UnityEngine.ParticleSystem.TriggerModule self;
+													checkValueType(l,1,out self);
+													float v;
+													checkType(l,2,out v);
+													self.radiusScale=v;
+													setBack(l,self);
+													get_maxColliderCount(IntPtr l) {
+															]
+													}
+

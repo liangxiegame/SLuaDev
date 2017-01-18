@@ -1,0 +1,285 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Debug()()","contents": "UnityEngine.Debug()()"},
+
+			{ "trigger": "Debug.DrawLine(Public, Static, HideBySig)","contents": "Debug.DrawLine(Public, Static, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Vector3 a1;
+		checkType(l,1,out a1);
+		UnityEngine.Vector3 a2;
+		checkType(l,2,out a2);
+		UnityEngine.Debug.DrawLine(a1,a2);
+		else if(argc==3){
+			UnityEngine.Vector3 a1;
+			checkType(l,1,out a1);
+			UnityEngine.Vector3 a2;
+			checkType(l,2,out a2);
+			UnityEngine.Color a3;
+			checkType(l,3,out a3);
+			UnityEngine.Debug.DrawLine(a1,a2,a3);
+			else if(argc==4){
+				UnityEngine.Vector3 a1;
+				checkType(l,1,out a1);
+				UnityEngine.Vector3 a2;
+				checkType(l,2,out a2);
+				UnityEngine.Color a3;
+				checkType(l,3,out a3);
+				System.Single a4;
+				checkType(l,4,out a4);
+				UnityEngine.Debug.DrawLine(a1,a2,a3,a4);
+				else if(argc==5){
+					UnityEngine.Vector3 a1;
+					checkType(l,1,out a1);
+					UnityEngine.Vector3 a2;
+					checkType(l,2,out a2);
+					UnityEngine.Color a3;
+					checkType(l,3,out a3);
+					System.Single a4;
+					checkType(l,4,out a4);
+					System.Boolean a5;
+					checkType(l,5,out a5);
+					UnityEngine.Debug.DrawLine(a1,a2,a3,a4,a5);
+							{ "trigger": "Debug.DrawRay(Public, Static, HideBySig)","contents": "Debug.DrawRay(Public, Static, HideBySig)"},
+
+					if(argc==2){
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						UnityEngine.Debug.DrawRay(a1,a2);
+						else if(argc==3){
+							UnityEngine.Vector3 a1;
+							checkType(l,1,out a1);
+							UnityEngine.Vector3 a2;
+							checkType(l,2,out a2);
+							UnityEngine.Color a3;
+							checkType(l,3,out a3);
+							UnityEngine.Debug.DrawRay(a1,a2,a3);
+							else if(argc==4){
+								UnityEngine.Vector3 a1;
+								checkType(l,1,out a1);
+								UnityEngine.Vector3 a2;
+								checkType(l,2,out a2);
+								UnityEngine.Color a3;
+								checkType(l,3,out a3);
+								System.Single a4;
+								checkType(l,4,out a4);
+								UnityEngine.Debug.DrawRay(a1,a2,a3,a4);
+								else if(argc==5){
+									UnityEngine.Vector3 a1;
+									checkType(l,1,out a1);
+									UnityEngine.Vector3 a2;
+									checkType(l,2,out a2);
+									UnityEngine.Color a3;
+									checkType(l,3,out a3);
+									System.Single a4;
+									checkType(l,4,out a4);
+									System.Boolean a5;
+									checkType(l,5,out a5);
+									UnityEngine.Debug.DrawRay(a1,a2,a3,a4,a5);
+											{ "trigger": "Debug.Break(Public, Static, HideBySig)","contents": "Debug.Break(Public, Static, HideBySig)"},
+
+									UnityEngine.Debug.Break();
+											{ "trigger": "Debug.DebugBreak(Public, Static, HideBySig)","contents": "Debug.DebugBreak(Public, Static, HideBySig)"},
+
+									UnityEngine.Debug.DebugBreak();
+											{ "trigger": "Debug.Log(Public, Static, HideBySig)","contents": "Debug.Log(Public, Static, HideBySig)"},
+
+									if(argc==1){
+										System.Object a1;
+										checkType(l,1,out a1);
+										UnityEngine.Debug.Log(a1);
+										else if(argc==2){
+											System.Object a1;
+											checkType(l,1,out a1);
+											UnityEngine.Object a2;
+											checkType(l,2,out a2);
+											UnityEngine.Debug.Log(a1,a2);
+													{ "trigger": "Debug.LogFormat(Public, Static, HideBySig)","contents": "Debug.LogFormat(Public, Static, HideBySig)"},
+
+											if(argc==2){
+												System.String a1;
+												checkType(l,1,out a1);
+												System.Object[] a2;
+												checkParams(l,2,out a2);
+												UnityEngine.Debug.LogFormat(a1,a2);
+												else if(argc==3){
+													UnityEngine.Object a1;
+													checkType(l,1,out a1);
+													System.String a2;
+													checkType(l,2,out a2);
+													System.Object[] a3;
+													checkParams(l,3,out a3);
+													UnityEngine.Debug.LogFormat(a1,a2,a3);
+															{ "trigger": "Debug.LogError(Public, Static, HideBySig)","contents": "Debug.LogError(Public, Static, HideBySig)"},
+
+													if(argc==1){
+														System.Object a1;
+														checkType(l,1,out a1);
+														UnityEngine.Debug.LogError(a1);
+														else if(argc==2){
+															System.Object a1;
+															checkType(l,1,out a1);
+															UnityEngine.Object a2;
+															checkType(l,2,out a2);
+															UnityEngine.Debug.LogError(a1,a2);
+																	{ "trigger": "Debug.LogErrorFormat(Public, Static, HideBySig)","contents": "Debug.LogErrorFormat(Public, Static, HideBySig)"},
+
+															if(argc==2){
+																System.String a1;
+																checkType(l,1,out a1);
+																System.Object[] a2;
+																checkParams(l,2,out a2);
+																UnityEngine.Debug.LogErrorFormat(a1,a2);
+																else if(argc==3){
+																	UnityEngine.Object a1;
+																	checkType(l,1,out a1);
+																	System.String a2;
+																	checkType(l,2,out a2);
+																	System.Object[] a3;
+																	checkParams(l,3,out a3);
+																	UnityEngine.Debug.LogErrorFormat(a1,a2,a3);
+																			{ "trigger": "Debug.ClearDeveloperConsole(Public, Static, HideBySig)","contents": "Debug.ClearDeveloperConsole(Public, Static, HideBySig)"},
+
+																	UnityEngine.Debug.ClearDeveloperConsole();
+																			{ "trigger": "Debug.LogException(Public, Static, HideBySig)","contents": "Debug.LogException(Public, Static, HideBySig)"},
+
+																	if(argc==1){
+																		System.Exception a1;
+																		checkType(l,1,out a1);
+																		UnityEngine.Debug.LogException(a1);
+																		else if(argc==2){
+																			System.Exception a1;
+																			checkType(l,1,out a1);
+																			UnityEngine.Object a2;
+																			checkType(l,2,out a2);
+																			UnityEngine.Debug.LogException(a1,a2);
+																					{ "trigger": "Debug.LogWarning(Public, Static, HideBySig)","contents": "Debug.LogWarning(Public, Static, HideBySig)"},
+
+																			if(argc==1){
+																				System.Object a1;
+																				checkType(l,1,out a1);
+																				UnityEngine.Debug.LogWarning(a1);
+																				else if(argc==2){
+																					System.Object a1;
+																					checkType(l,1,out a1);
+																					UnityEngine.Object a2;
+																					checkType(l,2,out a2);
+																					UnityEngine.Debug.LogWarning(a1,a2);
+																							{ "trigger": "Debug.LogWarningFormat(Public, Static, HideBySig)","contents": "Debug.LogWarningFormat(Public, Static, HideBySig)"},
+
+																					if(argc==2){
+																						System.String a1;
+																						checkType(l,1,out a1);
+																						System.Object[] a2;
+																						checkParams(l,2,out a2);
+																						UnityEngine.Debug.LogWarningFormat(a1,a2);
+																						else if(argc==3){
+																							UnityEngine.Object a1;
+																							checkType(l,1,out a1);
+																							System.String a2;
+																							checkType(l,2,out a2);
+																							System.Object[] a3;
+																							checkParams(l,3,out a3);
+																							UnityEngine.Debug.LogWarningFormat(a1,a2,a3);
+																									{ "trigger": "Debug.Assert(Public, Static, HideBySig)","contents": "Debug.Assert(Public, Static, HideBySig)"},
+
+																							if(argc==1){
+																								System.Boolean a1;
+																								checkType(l,1,out a1);
+																								UnityEngine.Debug.Assert(a1);
+																								else if(matchType(l,argc,1,bool,string)){
+																									System.Boolean a1;
+																									checkType(l,1,out a1);
+																									System.String a2;
+																									checkType(l,2,out a2);
+																									UnityEngine.Debug.Assert(a1,a2);
+																									else if(matchType(l,argc,1,bool,System.Object)){
+																										System.Boolean a1;
+																										checkType(l,1,out a1);
+																										System.Object a2;
+																										checkType(l,2,out a2);
+																										UnityEngine.Debug.Assert(a1,a2);
+																										else if(matchType(l,argc,1,bool,UnityEngine.Object)){
+																											System.Boolean a1;
+																											checkType(l,1,out a1);
+																											UnityEngine.Object a2;
+																											checkType(l,2,out a2);
+																											UnityEngine.Debug.Assert(a1,a2);
+																											else if(matchType(l,argc,1,bool,string,UnityEngine.Object)){
+																												System.Boolean a1;
+																												checkType(l,1,out a1);
+																												System.String a2;
+																												checkType(l,2,out a2);
+																												UnityEngine.Object a3;
+																												checkType(l,3,out a3);
+																												UnityEngine.Debug.Assert(a1,a2,a3);
+																												else if(matchType(l,argc,1,bool,System.Object,UnityEngine.Object)){
+																													System.Boolean a1;
+																													checkType(l,1,out a1);
+																													System.Object a2;
+																													checkType(l,2,out a2);
+																													UnityEngine.Object a3;
+																													checkType(l,3,out a3);
+																													UnityEngine.Debug.Assert(a1,a2,a3);
+																															{ "trigger": "Debug.AssertFormat(Public, Static, HideBySig)","contents": "Debug.AssertFormat(Public, Static, HideBySig)"},
+
+																													if(argc==3){
+																														System.Boolean a1;
+																														checkType(l,1,out a1);
+																														System.String a2;
+																														checkType(l,2,out a2);
+																														System.Object[] a3;
+																														checkParams(l,3,out a3);
+																														UnityEngine.Debug.AssertFormat(a1,a2,a3);
+																														else if(argc==4){
+																															System.Boolean a1;
+																															checkType(l,1,out a1);
+																															UnityEngine.Object a2;
+																															checkType(l,2,out a2);
+																															System.String a3;
+																															checkType(l,3,out a3);
+																															System.Object[] a4;
+																															checkParams(l,4,out a4);
+																															UnityEngine.Debug.AssertFormat(a1,a2,a3,a4);
+																																	{ "trigger": "Debug.LogAssertion(Public, Static, HideBySig)","contents": "Debug.LogAssertion(Public, Static, HideBySig)"},
+
+																															if(argc==1){
+																																System.Object a1;
+																																checkType(l,1,out a1);
+																																UnityEngine.Debug.LogAssertion(a1);
+																																else if(argc==2){
+																																	System.Object a1;
+																																	checkType(l,1,out a1);
+																																	UnityEngine.Object a2;
+																																	checkType(l,2,out a2);
+																																	UnityEngine.Debug.LogAssertion(a1,a2);
+																																			{ "trigger": "Debug.LogAssertionFormat(Public, Static, HideBySig)","contents": "Debug.LogAssertionFormat(Public, Static, HideBySig)"},
+
+																																	if(argc==2){
+																																		System.String a1;
+																																		checkType(l,1,out a1);
+																																		System.Object[] a2;
+																																		checkParams(l,2,out a2);
+																																		UnityEngine.Debug.LogAssertionFormat(a1,a2);
+																																		else if(argc==3){
+																																			UnityEngine.Object a1;
+																																			checkType(l,1,out a1);
+																																			System.String a2;
+																																			checkType(l,2,out a2);
+																																			System.Object[] a3;
+																																			checkParams(l,3,out a3);
+																																			UnityEngine.Debug.LogAssertionFormat(a1,a2,a3);
+																																			get_logger(IntPtr l) {
+																																				get_developerConsoleVisible(IntPtr l) {
+																																					set_developerConsoleVisible(IntPtr l) {
+																																						bool v;
+																																						checkType(l,2,out v);
+																																						UnityEngine.Debug.developerConsoleVisible=v;
+																																						get_isDebugBuild(IntPtr l) {
+																																								]
+																																						}
+

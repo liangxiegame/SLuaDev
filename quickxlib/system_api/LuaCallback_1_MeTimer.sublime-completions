@@ -1,0 +1,8 @@
+﻿
+Callback<MeTimer> 
+                ua = (Callback<MeTimer>)checkObj(l, p);
+                ua = (Callback<MeTimer>)ld.d;
+            ua = (MeTimer a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

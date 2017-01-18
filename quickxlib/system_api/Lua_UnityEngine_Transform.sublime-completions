@@ -1,0 +1,385 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Transform:SetParent(Public, HideBySig)","contents": "Transform:SetParent(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+		UnityEngine.Transform a1;
+		checkType(l,2,out a1);
+		self.SetParent(a1);
+		else if(argc==3){
+			UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+			UnityEngine.Transform a1;
+			checkType(l,2,out a1);
+			System.Boolean a2;
+			checkType(l,3,out a2);
+			self.SetParent(a1,a2);
+					{ "trigger": "Transform:Translate(Public, HideBySig)","contents": "Transform:Translate(Public, HideBySig)"},
+
+			if(argc==2){
+				UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+				UnityEngine.Vector3 a1;
+				checkType(l,2,out a1);
+				self.Translate(a1);
+				else if(matchType(l,argc,2,UnityEngine.Vector3,UnityEngine.Transform)){
+					UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+					UnityEngine.Vector3 a1;
+					checkType(l,2,out a1);
+					UnityEngine.Transform a2;
+					checkType(l,3,out a2);
+					self.Translate(a1,a2);
+					else if(matchType(l,argc,2,UnityEngine.Vector3,UnityEngine.Space)){
+						UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+						UnityEngine.Vector3 a1;
+						checkType(l,2,out a1);
+						UnityEngine.Space a2;
+						checkEnum(l,3,out a2);
+						self.Translate(a1,a2);
+						else if(argc==4){
+							UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+							System.Single a1;
+							checkType(l,2,out a1);
+							System.Single a2;
+							checkType(l,3,out a2);
+							System.Single a3;
+							checkType(l,4,out a3);
+							self.Translate(a1,a2,a3);
+							else if(matchType(l,argc,2,float,float,float,UnityEngine.Transform)){
+								UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+								System.Single a1;
+								checkType(l,2,out a1);
+								System.Single a2;
+								checkType(l,3,out a2);
+								System.Single a3;
+								checkType(l,4,out a3);
+								UnityEngine.Transform a4;
+								checkType(l,5,out a4);
+								self.Translate(a1,a2,a3,a4);
+								else if(matchType(l,argc,2,float,float,float,UnityEngine.Space)){
+									UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+									System.Single a1;
+									checkType(l,2,out a1);
+									System.Single a2;
+									checkType(l,3,out a2);
+									System.Single a3;
+									checkType(l,4,out a3);
+									UnityEngine.Space a4;
+									checkEnum(l,5,out a4);
+									self.Translate(a1,a2,a3,a4);
+											{ "trigger": "Transform:Rotate(Public, HideBySig)","contents": "Transform:Rotate(Public, HideBySig)"},
+
+									if(argc==2){
+										UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+										UnityEngine.Vector3 a1;
+										checkType(l,2,out a1);
+										self.Rotate(a1);
+										else if(matchType(l,argc,2,UnityEngine.Vector3,float)){
+											UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+											UnityEngine.Vector3 a1;
+											checkType(l,2,out a1);
+											System.Single a2;
+											checkType(l,3,out a2);
+											self.Rotate(a1,a2);
+											else if(matchType(l,argc,2,UnityEngine.Vector3,UnityEngine.Space)){
+												UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+												UnityEngine.Vector3 a1;
+												checkType(l,2,out a1);
+												UnityEngine.Space a2;
+												checkEnum(l,3,out a2);
+												self.Rotate(a1,a2);
+												else if(matchType(l,argc,2,UnityEngine.Vector3,float,UnityEngine.Space)){
+													UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+													UnityEngine.Vector3 a1;
+													checkType(l,2,out a1);
+													System.Single a2;
+													checkType(l,3,out a2);
+													UnityEngine.Space a3;
+													checkEnum(l,4,out a3);
+													self.Rotate(a1,a2,a3);
+													else if(matchType(l,argc,2,float,float,float)){
+														UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+														System.Single a1;
+														checkType(l,2,out a1);
+														System.Single a2;
+														checkType(l,3,out a2);
+														System.Single a3;
+														checkType(l,4,out a3);
+														self.Rotate(a1,a2,a3);
+														else if(argc==5){
+															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+															System.Single a1;
+															checkType(l,2,out a1);
+															System.Single a2;
+															checkType(l,3,out a2);
+															System.Single a3;
+															checkType(l,4,out a3);
+															UnityEngine.Space a4;
+															checkEnum(l,5,out a4);
+															self.Rotate(a1,a2,a3,a4);
+																	{ "trigger": "Transform:RotateAround(Public, HideBySig)","contents": "Transform:RotateAround(Public, HideBySig)"},
+
+															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+															UnityEngine.Vector3 a1;
+															checkType(l,2,out a1);
+															UnityEngine.Vector3 a2;
+															checkType(l,3,out a2);
+															System.Single a3;
+															checkType(l,4,out a3);
+															self.RotateAround(a1,a2,a3);
+																	{ "trigger": "Transform:LookAt(Public, HideBySig)","contents": "Transform:LookAt(Public, HideBySig)"},
+
+															if(matchType(l,argc,2,UnityEngine.Vector3)){
+																UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																UnityEngine.Vector3 a1;
+																checkType(l,2,out a1);
+																self.LookAt(a1);
+																else if(matchType(l,argc,2,UnityEngine.Transform)){
+																	UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																	UnityEngine.Transform a1;
+																	checkType(l,2,out a1);
+																	self.LookAt(a1);
+																	else if(matchType(l,argc,2,UnityEngine.Vector3,UnityEngine.Vector3)){
+																		UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																		UnityEngine.Vector3 a1;
+																		checkType(l,2,out a1);
+																		UnityEngine.Vector3 a2;
+																		checkType(l,3,out a2);
+																		self.LookAt(a1,a2);
+																		else if(matchType(l,argc,2,UnityEngine.Transform,UnityEngine.Vector3)){
+																			UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																			UnityEngine.Transform a1;
+																			checkType(l,2,out a1);
+																			UnityEngine.Vector3 a2;
+																			checkType(l,3,out a2);
+																			self.LookAt(a1,a2);
+																					{ "trigger": "Transform:TransformDirection(Public, HideBySig)","contents": "Transform:TransformDirection(Public, HideBySig)"},
+
+																			if(argc==2){
+																				UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																				UnityEngine.Vector3 a1;
+																				checkType(l,2,out a1);
+																				var ret=self.TransformDirection(a1);
+																				else if(argc==4){
+																					UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																					System.Single a1;
+																					checkType(l,2,out a1);
+																					System.Single a2;
+																					checkType(l,3,out a2);
+																					System.Single a3;
+																					checkType(l,4,out a3);
+																					var ret=self.TransformDirection(a1,a2,a3);
+																							{ "trigger": "Transform:InverseTransformDirection(Public, HideBySig)","contents": "Transform:InverseTransformDirection(Public, HideBySig)"},
+
+																					if(argc==2){
+																						UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																						UnityEngine.Vector3 a1;
+																						checkType(l,2,out a1);
+																						var ret=self.InverseTransformDirection(a1);
+																						else if(argc==4){
+																							UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																							System.Single a1;
+																							checkType(l,2,out a1);
+																							System.Single a2;
+																							checkType(l,3,out a2);
+																							System.Single a3;
+																							checkType(l,4,out a3);
+																							var ret=self.InverseTransformDirection(a1,a2,a3);
+																									{ "trigger": "Transform:TransformVector(Public, HideBySig)","contents": "Transform:TransformVector(Public, HideBySig)"},
+
+																							if(argc==2){
+																								UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																								UnityEngine.Vector3 a1;
+																								checkType(l,2,out a1);
+																								var ret=self.TransformVector(a1);
+																								else if(argc==4){
+																									UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																									System.Single a1;
+																									checkType(l,2,out a1);
+																									System.Single a2;
+																									checkType(l,3,out a2);
+																									System.Single a3;
+																									checkType(l,4,out a3);
+																									var ret=self.TransformVector(a1,a2,a3);
+																											{ "trigger": "Transform:InverseTransformVector(Public, HideBySig)","contents": "Transform:InverseTransformVector(Public, HideBySig)"},
+
+																									if(argc==2){
+																										UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																										UnityEngine.Vector3 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.InverseTransformVector(a1);
+																										else if(argc==4){
+																											UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																											System.Single a1;
+																											checkType(l,2,out a1);
+																											System.Single a2;
+																											checkType(l,3,out a2);
+																											System.Single a3;
+																											checkType(l,4,out a3);
+																											var ret=self.InverseTransformVector(a1,a2,a3);
+																													{ "trigger": "Transform:TransformPoint(Public, HideBySig)","contents": "Transform:TransformPoint(Public, HideBySig)"},
+
+																											if(argc==2){
+																												UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																												UnityEngine.Vector3 a1;
+																												checkType(l,2,out a1);
+																												var ret=self.TransformPoint(a1);
+																												else if(argc==4){
+																													UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																													System.Single a1;
+																													checkType(l,2,out a1);
+																													System.Single a2;
+																													checkType(l,3,out a2);
+																													System.Single a3;
+																													checkType(l,4,out a3);
+																													var ret=self.TransformPoint(a1,a2,a3);
+																															{ "trigger": "Transform:InverseTransformPoint(Public, HideBySig)","contents": "Transform:InverseTransformPoint(Public, HideBySig)"},
+
+																													if(argc==2){
+																														UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																														UnityEngine.Vector3 a1;
+																														checkType(l,2,out a1);
+																														var ret=self.InverseTransformPoint(a1);
+																														else if(argc==4){
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															System.Single a1;
+																															checkType(l,2,out a1);
+																															System.Single a2;
+																															checkType(l,3,out a2);
+																															System.Single a3;
+																															checkType(l,4,out a3);
+																															var ret=self.InverseTransformPoint(a1,a2,a3);
+																																	{ "trigger": "Transform:DetachChildren(Public, HideBySig)","contents": "Transform:DetachChildren(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															self.DetachChildren();
+																																	{ "trigger": "Transform:SetAsFirstSibling(Public, HideBySig)","contents": "Transform:SetAsFirstSibling(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															self.SetAsFirstSibling();
+																																	{ "trigger": "Transform:SetAsLastSibling(Public, HideBySig)","contents": "Transform:SetAsLastSibling(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															self.SetAsLastSibling();
+																																	{ "trigger": "Transform:SetSiblingIndex(Public, HideBySig)","contents": "Transform:SetSiblingIndex(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															System.Int32 a1;
+																															checkType(l,2,out a1);
+																															self.SetSiblingIndex(a1);
+																																	{ "trigger": "Transform:GetSiblingIndex(Public, HideBySig)","contents": "Transform:GetSiblingIndex(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															var ret=self.GetSiblingIndex();
+																																	{ "trigger": "Transform:Find(Public, HideBySig)","contents": "Transform:Find(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															System.String a1;
+																															checkType(l,2,out a1);
+																															var ret=self.Find(a1);
+																																	{ "trigger": "Transform:IsChildOf(Public, HideBySig)","contents": "Transform:IsChildOf(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															UnityEngine.Transform a1;
+																															checkType(l,2,out a1);
+																															var ret=self.IsChildOf(a1);
+																																	{ "trigger": "Transform:FindChild(Public, HideBySig)","contents": "Transform:FindChild(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															System.String a1;
+																															checkType(l,2,out a1);
+																															var ret=self.FindChild(a1);
+																																	{ "trigger": "Transform:GetChild(Public, HideBySig)","contents": "Transform:GetChild(Public, HideBySig)"},
+
+																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																															System.Int32 a1;
+																															checkType(l,2,out a1);
+																															var ret=self.GetChild(a1);
+																															get_position(IntPtr l) {
+																																set_position(IntPtr l) {
+																																	UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																	UnityEngine.Vector3 v;
+																																	checkType(l,2,out v);
+																																	self.position=v;
+																																	get_localPosition(IntPtr l) {
+																																		set_localPosition(IntPtr l) {
+																																			UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																			UnityEngine.Vector3 v;
+																																			checkType(l,2,out v);
+																																			self.localPosition=v;
+																																			get_eulerAngles(IntPtr l) {
+																																				set_eulerAngles(IntPtr l) {
+																																					UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																					UnityEngine.Vector3 v;
+																																					checkType(l,2,out v);
+																																					self.eulerAngles=v;
+																																					get_localEulerAngles(IntPtr l) {
+																																						set_localEulerAngles(IntPtr l) {
+																																							UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																							UnityEngine.Vector3 v;
+																																							checkType(l,2,out v);
+																																							self.localEulerAngles=v;
+																																							get_right(IntPtr l) {
+																																								set_right(IntPtr l) {
+																																									UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																									UnityEngine.Vector3 v;
+																																									checkType(l,2,out v);
+																																									self.right=v;
+																																									get_up(IntPtr l) {
+																																										set_up(IntPtr l) {
+																																											UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																											UnityEngine.Vector3 v;
+																																											checkType(l,2,out v);
+																																											self.up=v;
+																																											get_forward(IntPtr l) {
+																																												set_forward(IntPtr l) {
+																																													UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																													UnityEngine.Vector3 v;
+																																													checkType(l,2,out v);
+																																													self.forward=v;
+																																													get_rotation(IntPtr l) {
+																																														set_rotation(IntPtr l) {
+																																															UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																															UnityEngine.Quaternion v;
+																																															checkType(l,2,out v);
+																																															self.rotation=v;
+																																															get_localRotation(IntPtr l) {
+																																																set_localRotation(IntPtr l) {
+																																																	UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																																	UnityEngine.Quaternion v;
+																																																	checkType(l,2,out v);
+																																																	self.localRotation=v;
+																																																	get_localScale(IntPtr l) {
+																																																		set_localScale(IntPtr l) {
+																																																			UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																																			UnityEngine.Vector3 v;
+																																																			checkType(l,2,out v);
+																																																			self.localScale=v;
+																																																			get_parent(IntPtr l) {
+																																																				set_parent(IntPtr l) {
+																																																					UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																																					UnityEngine.Transform v;
+																																																					checkType(l,2,out v);
+																																																					self.parent=v;
+																																																					get_worldToLocalMatrix(IntPtr l) {
+																																																						get_localToWorldMatrix(IntPtr l) {
+																																																							get_root(IntPtr l) {
+																																																								get_childCount(IntPtr l) {
+																																																									get_lossyScale(IntPtr l) {
+																																																										get_hasChanged(IntPtr l) {
+																																																											set_hasChanged(IntPtr l) {
+																																																												UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																																												bool v;
+																																																												checkType(l,2,out v);
+																																																												self.hasChanged=v;
+																																																												get_hierarchyCapacity(IntPtr l) {
+																																																													set_hierarchyCapacity(IntPtr l) {
+																																																														UnityEngine.Transform self=(UnityEngine.Transform)checkSelf(l);
+																																																														int v;
+																																																														checkType(l,2,out v);
+																																																														self.hierarchyCapacity=v;
+																																																														get_hierarchyCount(IntPtr l) {
+																																																																]
+																																																														}
+

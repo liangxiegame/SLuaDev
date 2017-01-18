@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.CircleCollider2D()()","contents": "UnityEngine.CircleCollider2D()()"},
+
+	get_radius(IntPtr l) {
+		set_radius(IntPtr l) {
+			UnityEngine.CircleCollider2D self=(UnityEngine.CircleCollider2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.radius=v;
+				]
+		}
+

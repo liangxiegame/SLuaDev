@@ -1,0 +1,129 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Selectable:IsInteractable(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:IsInteractable(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	var ret=self.IsInteractable();
+			{ "trigger": "Selectable:FindSelectable(Public, HideBySig)","contents": "Selectable:FindSelectable(Public, HideBySig)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.FindSelectable(a1);
+			{ "trigger": "Selectable:FindSelectableOnLeft(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:FindSelectableOnLeft(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	var ret=self.FindSelectableOnLeft();
+			{ "trigger": "Selectable:FindSelectableOnRight(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:FindSelectableOnRight(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	var ret=self.FindSelectableOnRight();
+			{ "trigger": "Selectable:FindSelectableOnUp(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:FindSelectableOnUp(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	var ret=self.FindSelectableOnUp();
+			{ "trigger": "Selectable:FindSelectableOnDown(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:FindSelectableOnDown(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	var ret=self.FindSelectableOnDown();
+			{ "trigger": "Selectable:OnMove(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnMove(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.AxisEventData a1;
+	checkType(l,2,out a1);
+	self.OnMove(a1);
+			{ "trigger": "Selectable:OnPointerDown(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnPointerDown(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerDown(a1);
+			{ "trigger": "Selectable:OnPointerUp(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnPointerUp(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerUp(a1);
+			{ "trigger": "Selectable:OnPointerEnter(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnPointerEnter(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerEnter(a1);
+			{ "trigger": "Selectable:OnPointerExit(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnPointerExit(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.PointerEventData a1;
+	checkType(l,2,out a1);
+	self.OnPointerExit(a1);
+			{ "trigger": "Selectable:OnSelect(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnSelect(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnSelect(a1);
+			{ "trigger": "Selectable:OnDeselect(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:OnDeselect(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	UnityEngine.EventSystems.BaseEventData a1;
+	checkType(l,2,out a1);
+	self.OnDeselect(a1);
+			{ "trigger": "Selectable:Select(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Selectable:Select(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+	self.Select();
+	get_allSelectables(IntPtr l) {
+		get_navigation(IntPtr l) {
+			set_navigation(IntPtr l) {
+				UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+				UnityEngine.UI.Navigation v;
+				checkValueType(l,2,out v);
+				self.navigation=v;
+				get_transition(IntPtr l) {
+					set_transition(IntPtr l) {
+						UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+						UnityEngine.UI.Selectable.Transition v;
+						checkEnum(l,2,out v);
+						self.transition=v;
+						get_colors(IntPtr l) {
+							set_colors(IntPtr l) {
+								UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+								UnityEngine.UI.ColorBlock v;
+								checkValueType(l,2,out v);
+								self.colors=v;
+								get_spriteState(IntPtr l) {
+									set_spriteState(IntPtr l) {
+										UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+										UnityEngine.UI.SpriteState v;
+										checkValueType(l,2,out v);
+										self.spriteState=v;
+										get_animationTriggers(IntPtr l) {
+											set_animationTriggers(IntPtr l) {
+												UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+												UnityEngine.UI.AnimationTriggers v;
+												checkType(l,2,out v);
+												self.animationTriggers=v;
+												get_targetGraphic(IntPtr l) {
+													set_targetGraphic(IntPtr l) {
+														UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+														UnityEngine.UI.Graphic v;
+														checkType(l,2,out v);
+														self.targetGraphic=v;
+														get_interactable(IntPtr l) {
+															set_interactable(IntPtr l) {
+																UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+																bool v;
+																checkType(l,2,out v);
+																self.interactable=v;
+																get_image(IntPtr l) {
+																	set_image(IntPtr l) {
+																		UnityEngine.UI.Selectable self=(UnityEngine.UI.Selectable)checkSelf(l);
+																		UnityEngine.UI.Image v;
+																		checkType(l,2,out v);
+																		self.image=v;
+																		get_animator(IntPtr l) {
+																				]
+																		}
+

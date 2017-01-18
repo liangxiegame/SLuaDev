@@ -1,0 +1,22 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.FixedJoint2D()()","contents": "UnityEngine.FixedJoint2D()()"},
+
+	get_dampingRatio(IntPtr l) {
+		set_dampingRatio(IntPtr l) {
+			UnityEngine.FixedJoint2D self=(UnityEngine.FixedJoint2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.dampingRatio=v;
+			get_frequency(IntPtr l) {
+				set_frequency(IntPtr l) {
+					UnityEngine.FixedJoint2D self=(UnityEngine.FixedJoint2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.frequency=v;
+					get_referenceAngle(IntPtr l) {
+							]
+					}
+

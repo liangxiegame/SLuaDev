@@ -1,0 +1,71 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Profiler()()","contents": "UnityEngine.Profiler()()"},
+
+			{ "trigger": "Profiler.AddFramesFromFile(Public, Static, HideBySig)","contents": "Profiler.AddFramesFromFile(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	UnityEngine.Profiler.AddFramesFromFile(a1);
+			{ "trigger": "Profiler.BeginSample(Public, Static, HideBySig)","contents": "Profiler.BeginSample(Public, Static, HideBySig)"},
+
+	if(argc==1){
+		System.String a1;
+		checkType(l,1,out a1);
+		UnityEngine.Profiler.BeginSample(a1);
+		else if(argc==2){
+			System.String a1;
+			checkType(l,1,out a1);
+			UnityEngine.Object a2;
+			checkType(l,2,out a2);
+			UnityEngine.Profiler.BeginSample(a1,a2);
+					{ "trigger": "Profiler.EndSample(Public, Static, HideBySig)","contents": "Profiler.EndSample(Public, Static, HideBySig)"},
+
+			UnityEngine.Profiler.EndSample();
+					{ "trigger": "Profiler.GetRuntimeMemorySize(Public, Static, HideBySig)","contents": "Profiler.GetRuntimeMemorySize(Public, Static, HideBySig)"},
+
+			UnityEngine.Object a1;
+			checkType(l,1,out a1);
+			var ret=UnityEngine.Profiler.GetRuntimeMemorySize(a1);
+					{ "trigger": "Profiler.GetMonoHeapSize(Public, Static, HideBySig)","contents": "Profiler.GetMonoHeapSize(Public, Static, HideBySig)"},
+
+			var ret=UnityEngine.Profiler.GetMonoHeapSize();
+					{ "trigger": "Profiler.GetMonoUsedSize(Public, Static, HideBySig)","contents": "Profiler.GetMonoUsedSize(Public, Static, HideBySig)"},
+
+			var ret=UnityEngine.Profiler.GetMonoUsedSize();
+					{ "trigger": "Profiler.GetTotalAllocatedMemory(Public, Static, HideBySig)","contents": "Profiler.GetTotalAllocatedMemory(Public, Static, HideBySig)"},
+
+			var ret=UnityEngine.Profiler.GetTotalAllocatedMemory();
+					{ "trigger": "Profiler.GetTotalUnusedReservedMemory(Public, Static, HideBySig)","contents": "Profiler.GetTotalUnusedReservedMemory(Public, Static, HideBySig)"},
+
+			var ret=UnityEngine.Profiler.GetTotalUnusedReservedMemory();
+					{ "trigger": "Profiler.GetTotalReservedMemory(Public, Static, HideBySig)","contents": "Profiler.GetTotalReservedMemory(Public, Static, HideBySig)"},
+
+			var ret=UnityEngine.Profiler.GetTotalReservedMemory();
+			get_supported(IntPtr l) {
+				get_logFile(IntPtr l) {
+					set_logFile(IntPtr l) {
+						string v;
+						checkType(l,2,out v);
+						UnityEngine.Profiler.logFile=v;
+						get_enableBinaryLog(IntPtr l) {
+							set_enableBinaryLog(IntPtr l) {
+								bool v;
+								checkType(l,2,out v);
+								UnityEngine.Profiler.enableBinaryLog=v;
+								get_enabled(IntPtr l) {
+									set_enabled(IntPtr l) {
+										bool v;
+										checkType(l,2,out v);
+										UnityEngine.Profiler.enabled=v;
+										get_maxNumberOfSamplesPerFrame(IntPtr l) {
+											set_maxNumberOfSamplesPerFrame(IntPtr l) {
+												int v;
+												checkType(l,2,out v);
+												UnityEngine.Profiler.maxNumberOfSamplesPerFrame=v;
+												get_usedHeapSize(IntPtr l) {
+														]
+												}
+

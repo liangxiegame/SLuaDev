@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.CopyTextureSupport");
+	addMember(l,0,"None");
+	addMember(l,1,"Basic");
+	addMember(l,2,"Copy3D");
+	addMember(l,4,"DifferentTypes");
+	addMember(l,8,"TextureToRT");
+	addMember(l,16,"RTToTexture");
+		]
+}
+

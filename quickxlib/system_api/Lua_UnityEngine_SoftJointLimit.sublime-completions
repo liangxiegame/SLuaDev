@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SoftJointLimit()()","contents": "UnityEngine.SoftJointLimit()()"},
+
+	get_limit(IntPtr l) {
+		set_limit(IntPtr l) {
+			UnityEngine.SoftJointLimit self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.limit=v;
+			setBack(l,self);
+			get_bounciness(IntPtr l) {
+				set_bounciness(IntPtr l) {
+					UnityEngine.SoftJointLimit self;
+					checkValueType(l,1,out self);
+					float v;
+					checkType(l,2,out v);
+					self.bounciness=v;
+					setBack(l,self);
+					get_contactDistance(IntPtr l) {
+						set_contactDistance(IntPtr l) {
+							UnityEngine.SoftJointLimit self;
+							checkValueType(l,1,out self);
+							float v;
+							checkType(l,2,out v);
+							self.contactDistance=v;
+							setBack(l,self);
+								]
+						}
+

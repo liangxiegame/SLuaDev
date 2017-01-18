@@ -1,0 +1,799 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Animator()()","contents": "UnityEngine.Animator()()"},
+
+			{ "trigger": "Animator:GetFloat(Public, HideBySig)","contents": "Animator:GetFloat(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,int)){
+		UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+		System.Int32 a1;
+		checkType(l,2,out a1);
+		var ret=self.GetFloat(a1);
+		else if(matchType(l,argc,2,string)){
+			UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			var ret=self.GetFloat(a1);
+					{ "trigger": "Animator:SetFloat(Public, HideBySig)","contents": "Animator:SetFloat(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,int,float)){
+				UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+				System.Int32 a1;
+				checkType(l,2,out a1);
+				System.Single a2;
+				checkType(l,3,out a2);
+				self.SetFloat(a1,a2);
+				else if(matchType(l,argc,2,string,float)){
+					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+					System.String a1;
+					checkType(l,2,out a1);
+					System.Single a2;
+					checkType(l,3,out a2);
+					self.SetFloat(a1,a2);
+					else if(matchType(l,argc,2,int,float,float,float)){
+						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+						System.Int32 a1;
+						checkType(l,2,out a1);
+						System.Single a2;
+						checkType(l,3,out a2);
+						System.Single a3;
+						checkType(l,4,out a3);
+						System.Single a4;
+						checkType(l,5,out a4);
+						self.SetFloat(a1,a2,a3,a4);
+						else if(matchType(l,argc,2,string,float,float,float)){
+							UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+							System.String a1;
+							checkType(l,2,out a1);
+							System.Single a2;
+							checkType(l,3,out a2);
+							System.Single a3;
+							checkType(l,4,out a3);
+							System.Single a4;
+							checkType(l,5,out a4);
+							self.SetFloat(a1,a2,a3,a4);
+									{ "trigger": "Animator:GetBool(Public, HideBySig)","contents": "Animator:GetBool(Public, HideBySig)"},
+
+							if(matchType(l,argc,2,int)){
+								UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+								System.Int32 a1;
+								checkType(l,2,out a1);
+								var ret=self.GetBool(a1);
+								else if(matchType(l,argc,2,string)){
+									UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+									System.String a1;
+									checkType(l,2,out a1);
+									var ret=self.GetBool(a1);
+											{ "trigger": "Animator:SetBool(Public, HideBySig)","contents": "Animator:SetBool(Public, HideBySig)"},
+
+									if(matchType(l,argc,2,int,bool)){
+										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+										System.Int32 a1;
+										checkType(l,2,out a1);
+										System.Boolean a2;
+										checkType(l,3,out a2);
+										self.SetBool(a1,a2);
+										else if(matchType(l,argc,2,string,bool)){
+											UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+											System.String a1;
+											checkType(l,2,out a1);
+											System.Boolean a2;
+											checkType(l,3,out a2);
+											self.SetBool(a1,a2);
+													{ "trigger": "Animator:GetInteger(Public, HideBySig)","contents": "Animator:GetInteger(Public, HideBySig)"},
+
+											if(matchType(l,argc,2,int)){
+												UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+												System.Int32 a1;
+												checkType(l,2,out a1);
+												var ret=self.GetInteger(a1);
+												else if(matchType(l,argc,2,string)){
+													UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+													System.String a1;
+													checkType(l,2,out a1);
+													var ret=self.GetInteger(a1);
+															{ "trigger": "Animator:SetInteger(Public, HideBySig)","contents": "Animator:SetInteger(Public, HideBySig)"},
+
+													if(matchType(l,argc,2,int,int)){
+														UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+														System.Int32 a1;
+														checkType(l,2,out a1);
+														System.Int32 a2;
+														checkType(l,3,out a2);
+														self.SetInteger(a1,a2);
+														else if(matchType(l,argc,2,string,int)){
+															UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+															System.String a1;
+															checkType(l,2,out a1);
+															System.Int32 a2;
+															checkType(l,3,out a2);
+															self.SetInteger(a1,a2);
+																	{ "trigger": "Animator:SetTrigger(Public, HideBySig)","contents": "Animator:SetTrigger(Public, HideBySig)"},
+
+															if(matchType(l,argc,2,int)){
+																UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																System.Int32 a1;
+																checkType(l,2,out a1);
+																self.SetTrigger(a1);
+																else if(matchType(l,argc,2,string)){
+																	UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																	System.String a1;
+																	checkType(l,2,out a1);
+																	self.SetTrigger(a1);
+																			{ "trigger": "Animator:ResetTrigger(Public, HideBySig)","contents": "Animator:ResetTrigger(Public, HideBySig)"},
+
+																	if(matchType(l,argc,2,int)){
+																		UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																		System.Int32 a1;
+																		checkType(l,2,out a1);
+																		self.ResetTrigger(a1);
+																		else if(matchType(l,argc,2,string)){
+																			UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																			System.String a1;
+																			checkType(l,2,out a1);
+																			self.ResetTrigger(a1);
+																					{ "trigger": "Animator:IsParameterControlledByCurve(Public, HideBySig)","contents": "Animator:IsParameterControlledByCurve(Public, HideBySig)"},
+
+																			if(matchType(l,argc,2,int)){
+																				UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																				System.Int32 a1;
+																				checkType(l,2,out a1);
+																				var ret=self.IsParameterControlledByCurve(a1);
+																				else if(matchType(l,argc,2,string)){
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					System.String a1;
+																					checkType(l,2,out a1);
+																					var ret=self.IsParameterControlledByCurve(a1);
+																							{ "trigger": "Animator:GetIKPosition(Public, HideBySig)","contents": "Animator:GetIKPosition(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					var ret=self.GetIKPosition(a1);
+																							{ "trigger": "Animator:SetIKPosition(Public, HideBySig)","contents": "Animator:SetIKPosition(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					UnityEngine.Vector3 a2;
+																					checkType(l,3,out a2);
+																					self.SetIKPosition(a1,a2);
+																							{ "trigger": "Animator:GetIKRotation(Public, HideBySig)","contents": "Animator:GetIKRotation(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					var ret=self.GetIKRotation(a1);
+																							{ "trigger": "Animator:SetIKRotation(Public, HideBySig)","contents": "Animator:SetIKRotation(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					UnityEngine.Quaternion a2;
+																					checkType(l,3,out a2);
+																					self.SetIKRotation(a1,a2);
+																							{ "trigger": "Animator:GetIKPositionWeight(Public, HideBySig)","contents": "Animator:GetIKPositionWeight(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					var ret=self.GetIKPositionWeight(a1);
+																							{ "trigger": "Animator:SetIKPositionWeight(Public, HideBySig)","contents": "Animator:SetIKPositionWeight(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					System.Single a2;
+																					checkType(l,3,out a2);
+																					self.SetIKPositionWeight(a1,a2);
+																							{ "trigger": "Animator:GetIKRotationWeight(Public, HideBySig)","contents": "Animator:GetIKRotationWeight(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					var ret=self.GetIKRotationWeight(a1);
+																							{ "trigger": "Animator:SetIKRotationWeight(Public, HideBySig)","contents": "Animator:SetIKRotationWeight(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKGoal a1;
+																					checkEnum(l,2,out a1);
+																					System.Single a2;
+																					checkType(l,3,out a2);
+																					self.SetIKRotationWeight(a1,a2);
+																							{ "trigger": "Animator:GetIKHintPosition(Public, HideBySig)","contents": "Animator:GetIKHintPosition(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKHint a1;
+																					checkEnum(l,2,out a1);
+																					var ret=self.GetIKHintPosition(a1);
+																							{ "trigger": "Animator:SetIKHintPosition(Public, HideBySig)","contents": "Animator:SetIKHintPosition(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKHint a1;
+																					checkEnum(l,2,out a1);
+																					UnityEngine.Vector3 a2;
+																					checkType(l,3,out a2);
+																					self.SetIKHintPosition(a1,a2);
+																							{ "trigger": "Animator:GetIKHintPositionWeight(Public, HideBySig)","contents": "Animator:GetIKHintPositionWeight(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKHint a1;
+																					checkEnum(l,2,out a1);
+																					var ret=self.GetIKHintPositionWeight(a1);
+																							{ "trigger": "Animator:SetIKHintPositionWeight(Public, HideBySig)","contents": "Animator:SetIKHintPositionWeight(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.AvatarIKHint a1;
+																					checkEnum(l,2,out a1);
+																					System.Single a2;
+																					checkType(l,3,out a2);
+																					self.SetIKHintPositionWeight(a1,a2);
+																							{ "trigger": "Animator:SetLookAtPosition(Public, HideBySig)","contents": "Animator:SetLookAtPosition(Public, HideBySig)"},
+
+																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																					UnityEngine.Vector3 a1;
+																					checkType(l,2,out a1);
+																					self.SetLookAtPosition(a1);
+																							{ "trigger": "Animator:SetLookAtWeight(Public, HideBySig)","contents": "Animator:SetLookAtWeight(Public, HideBySig)"},
+
+																					if(argc==2){
+																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																						System.Single a1;
+																						checkType(l,2,out a1);
+																						self.SetLookAtWeight(a1);
+																						else if(argc==3){
+																							UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																							System.Single a1;
+																							checkType(l,2,out a1);
+																							System.Single a2;
+																							checkType(l,3,out a2);
+																							self.SetLookAtWeight(a1,a2);
+																							else if(argc==4){
+																								UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																								System.Single a1;
+																								checkType(l,2,out a1);
+																								System.Single a2;
+																								checkType(l,3,out a2);
+																								System.Single a3;
+																								checkType(l,4,out a3);
+																								self.SetLookAtWeight(a1,a2,a3);
+																								else if(argc==5){
+																									UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																									System.Single a1;
+																									checkType(l,2,out a1);
+																									System.Single a2;
+																									checkType(l,3,out a2);
+																									System.Single a3;
+																									checkType(l,4,out a3);
+																									System.Single a4;
+																									checkType(l,5,out a4);
+																									self.SetLookAtWeight(a1,a2,a3,a4);
+																									else if(argc==6){
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Single a1;
+																										checkType(l,2,out a1);
+																										System.Single a2;
+																										checkType(l,3,out a2);
+																										System.Single a3;
+																										checkType(l,4,out a3);
+																										System.Single a4;
+																										checkType(l,5,out a4);
+																										System.Single a5;
+																										checkType(l,6,out a5);
+																										self.SetLookAtWeight(a1,a2,a3,a4,a5);
+																												{ "trigger": "Animator:SetBoneLocalRotation(Public, HideBySig)","contents": "Animator:SetBoneLocalRotation(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										UnityEngine.HumanBodyBones a1;
+																										checkEnum(l,2,out a1);
+																										UnityEngine.Quaternion a2;
+																										checkType(l,3,out a2);
+																										self.SetBoneLocalRotation(a1,a2);
+																												{ "trigger": "Animator:GetLayerName(Public, HideBySig)","contents": "Animator:GetLayerName(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetLayerName(a1);
+																												{ "trigger": "Animator:GetLayerIndex(Public, HideBySig)","contents": "Animator:GetLayerIndex(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.String a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetLayerIndex(a1);
+																												{ "trigger": "Animator:GetLayerWeight(Public, HideBySig)","contents": "Animator:GetLayerWeight(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetLayerWeight(a1);
+																												{ "trigger": "Animator:SetLayerWeight(Public, HideBySig)","contents": "Animator:SetLayerWeight(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										System.Single a2;
+																										checkType(l,3,out a2);
+																										self.SetLayerWeight(a1,a2);
+																												{ "trigger": "Animator:GetCurrentAnimatorStateInfo(Public, HideBySig)","contents": "Animator:GetCurrentAnimatorStateInfo(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetCurrentAnimatorStateInfo(a1);
+																												{ "trigger": "Animator:GetNextAnimatorStateInfo(Public, HideBySig)","contents": "Animator:GetNextAnimatorStateInfo(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetNextAnimatorStateInfo(a1);
+																												{ "trigger": "Animator:GetAnimatorTransitionInfo(Public, HideBySig)","contents": "Animator:GetAnimatorTransitionInfo(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetAnimatorTransitionInfo(a1);
+																												{ "trigger": "Animator:GetCurrentAnimatorClipInfo(Public, HideBySig)","contents": "Animator:GetCurrentAnimatorClipInfo(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetCurrentAnimatorClipInfo(a1);
+																												{ "trigger": "Animator:GetNextAnimatorClipInfo(Public, HideBySig)","contents": "Animator:GetNextAnimatorClipInfo(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetNextAnimatorClipInfo(a1);
+																												{ "trigger": "Animator:IsInTransition(Public, HideBySig)","contents": "Animator:IsInTransition(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.IsInTransition(a1);
+																												{ "trigger": "Animator:GetParameter(Public, HideBySig)","contents": "Animator:GetParameter(Public, HideBySig)"},
+
+																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																										System.Int32 a1;
+																										checkType(l,2,out a1);
+																										var ret=self.GetParameter(a1);
+																												{ "trigger": "Animator:MatchTarget(Public, HideBySig)","contents": "Animator:MatchTarget(Public, HideBySig)"},
+
+																										if(argc==6){
+																											UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																											UnityEngine.Vector3 a1;
+																											checkType(l,2,out a1);
+																											UnityEngine.Quaternion a2;
+																											checkType(l,3,out a2);
+																											UnityEngine.AvatarTarget a3;
+																											checkEnum(l,4,out a3);
+																											UnityEngine.MatchTargetWeightMask a4;
+																											checkValueType(l,5,out a4);
+																											System.Single a5;
+																											checkType(l,6,out a5);
+																											self.MatchTarget(a1,a2,a3,a4,a5);
+																											else if(argc==7){
+																												UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																												UnityEngine.Vector3 a1;
+																												checkType(l,2,out a1);
+																												UnityEngine.Quaternion a2;
+																												checkType(l,3,out a2);
+																												UnityEngine.AvatarTarget a3;
+																												checkEnum(l,4,out a3);
+																												UnityEngine.MatchTargetWeightMask a4;
+																												checkValueType(l,5,out a4);
+																												System.Single a5;
+																												checkType(l,6,out a5);
+																												System.Single a6;
+																												checkType(l,7,out a6);
+																												self.MatchTarget(a1,a2,a3,a4,a5,a6);
+																														{ "trigger": "Animator:InterruptMatchTarget(Public, HideBySig)","contents": "Animator:InterruptMatchTarget(Public, HideBySig)"},
+
+																												if(argc==1){
+																													UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																													self.InterruptMatchTarget();
+																													else if(argc==2){
+																														UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																														System.Boolean a1;
+																														checkType(l,2,out a1);
+																														self.InterruptMatchTarget(a1);
+																																{ "trigger": "Animator:CrossFadeInFixedTime(Public, HideBySig)","contents": "Animator:CrossFadeInFixedTime(Public, HideBySig)"},
+
+																														if(matchType(l,argc,2,int,float)){
+																															UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																															System.Int32 a1;
+																															checkType(l,2,out a1);
+																															System.Single a2;
+																															checkType(l,3,out a2);
+																															self.CrossFadeInFixedTime(a1,a2);
+																															else if(matchType(l,argc,2,string,float)){
+																																UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																System.String a1;
+																																checkType(l,2,out a1);
+																																System.Single a2;
+																																checkType(l,3,out a2);
+																																self.CrossFadeInFixedTime(a1,a2);
+																																else if(matchType(l,argc,2,int,float,int)){
+																																	UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																	System.Int32 a1;
+																																	checkType(l,2,out a1);
+																																	System.Single a2;
+																																	checkType(l,3,out a2);
+																																	System.Int32 a3;
+																																	checkType(l,4,out a3);
+																																	self.CrossFadeInFixedTime(a1,a2,a3);
+																																	else if(matchType(l,argc,2,string,float,int)){
+																																		UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																		System.String a1;
+																																		checkType(l,2,out a1);
+																																		System.Single a2;
+																																		checkType(l,3,out a2);
+																																		System.Int32 a3;
+																																		checkType(l,4,out a3);
+																																		self.CrossFadeInFixedTime(a1,a2,a3);
+																																		else if(matchType(l,argc,2,string,float,int,float)){
+																																			UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																			System.String a1;
+																																			checkType(l,2,out a1);
+																																			System.Single a2;
+																																			checkType(l,3,out a2);
+																																			System.Int32 a3;
+																																			checkType(l,4,out a3);
+																																			System.Single a4;
+																																			checkType(l,5,out a4);
+																																			self.CrossFadeInFixedTime(a1,a2,a3,a4);
+																																			else if(matchType(l,argc,2,int,float,int,float)){
+																																				UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																				System.Int32 a1;
+																																				checkType(l,2,out a1);
+																																				System.Single a2;
+																																				checkType(l,3,out a2);
+																																				System.Int32 a3;
+																																				checkType(l,4,out a3);
+																																				System.Single a4;
+																																				checkType(l,5,out a4);
+																																				self.CrossFadeInFixedTime(a1,a2,a3,a4);
+																																						{ "trigger": "Animator:CrossFade(Public, HideBySig)","contents": "Animator:CrossFade(Public, HideBySig)"},
+
+																																				if(matchType(l,argc,2,int,float)){
+																																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																					System.Int32 a1;
+																																					checkType(l,2,out a1);
+																																					System.Single a2;
+																																					checkType(l,3,out a2);
+																																					self.CrossFade(a1,a2);
+																																					else if(matchType(l,argc,2,string,float)){
+																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																						System.String a1;
+																																						checkType(l,2,out a1);
+																																						System.Single a2;
+																																						checkType(l,3,out a2);
+																																						self.CrossFade(a1,a2);
+																																						else if(matchType(l,argc,2,int,float,int)){
+																																							UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																							System.Int32 a1;
+																																							checkType(l,2,out a1);
+																																							System.Single a2;
+																																							checkType(l,3,out a2);
+																																							System.Int32 a3;
+																																							checkType(l,4,out a3);
+																																							self.CrossFade(a1,a2,a3);
+																																							else if(matchType(l,argc,2,string,float,int)){
+																																								UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																								System.String a1;
+																																								checkType(l,2,out a1);
+																																								System.Single a2;
+																																								checkType(l,3,out a2);
+																																								System.Int32 a3;
+																																								checkType(l,4,out a3);
+																																								self.CrossFade(a1,a2,a3);
+																																								else if(matchType(l,argc,2,string,float,int,float)){
+																																									UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																									System.String a1;
+																																									checkType(l,2,out a1);
+																																									System.Single a2;
+																																									checkType(l,3,out a2);
+																																									System.Int32 a3;
+																																									checkType(l,4,out a3);
+																																									System.Single a4;
+																																									checkType(l,5,out a4);
+																																									self.CrossFade(a1,a2,a3,a4);
+																																									else if(matchType(l,argc,2,int,float,int,float)){
+																																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																										System.Int32 a1;
+																																										checkType(l,2,out a1);
+																																										System.Single a2;
+																																										checkType(l,3,out a2);
+																																										System.Int32 a3;
+																																										checkType(l,4,out a3);
+																																										System.Single a4;
+																																										checkType(l,5,out a4);
+																																										self.CrossFade(a1,a2,a3,a4);
+																																												{ "trigger": "Animator:PlayInFixedTime(Public, HideBySig)","contents": "Animator:PlayInFixedTime(Public, HideBySig)"},
+
+																																										if(matchType(l,argc,2,int)){
+																																											UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																											System.Int32 a1;
+																																											checkType(l,2,out a1);
+																																											self.PlayInFixedTime(a1);
+																																											else if(matchType(l,argc,2,string)){
+																																												UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																												System.String a1;
+																																												checkType(l,2,out a1);
+																																												self.PlayInFixedTime(a1);
+																																												else if(matchType(l,argc,2,int,int)){
+																																													UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																													System.Int32 a1;
+																																													checkType(l,2,out a1);
+																																													System.Int32 a2;
+																																													checkType(l,3,out a2);
+																																													self.PlayInFixedTime(a1,a2);
+																																													else if(matchType(l,argc,2,string,int)){
+																																														UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																														System.String a1;
+																																														checkType(l,2,out a1);
+																																														System.Int32 a2;
+																																														checkType(l,3,out a2);
+																																														self.PlayInFixedTime(a1,a2);
+																																														else if(matchType(l,argc,2,string,int,float)){
+																																															UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																															System.String a1;
+																																															checkType(l,2,out a1);
+																																															System.Int32 a2;
+																																															checkType(l,3,out a2);
+																																															System.Single a3;
+																																															checkType(l,4,out a3);
+																																															self.PlayInFixedTime(a1,a2,a3);
+																																															else if(matchType(l,argc,2,int,int,float)){
+																																																UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																System.Int32 a1;
+																																																checkType(l,2,out a1);
+																																																System.Int32 a2;
+																																																checkType(l,3,out a2);
+																																																System.Single a3;
+																																																checkType(l,4,out a3);
+																																																self.PlayInFixedTime(a1,a2,a3);
+																																																		{ "trigger": "Animator:Play(Public, HideBySig)","contents": "Animator:Play(Public, HideBySig)"},
+
+																																																if(matchType(l,argc,2,int)){
+																																																	UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																	System.Int32 a1;
+																																																	checkType(l,2,out a1);
+																																																	self.Play(a1);
+																																																	else if(matchType(l,argc,2,string)){
+																																																		UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																		System.String a1;
+																																																		checkType(l,2,out a1);
+																																																		self.Play(a1);
+																																																		else if(matchType(l,argc,2,int,int)){
+																																																			UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																			System.Int32 a1;
+																																																			checkType(l,2,out a1);
+																																																			System.Int32 a2;
+																																																			checkType(l,3,out a2);
+																																																			self.Play(a1,a2);
+																																																			else if(matchType(l,argc,2,string,int)){
+																																																				UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																				System.String a1;
+																																																				checkType(l,2,out a1);
+																																																				System.Int32 a2;
+																																																				checkType(l,3,out a2);
+																																																				self.Play(a1,a2);
+																																																				else if(matchType(l,argc,2,string,int,float)){
+																																																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																					System.String a1;
+																																																					checkType(l,2,out a1);
+																																																					System.Int32 a2;
+																																																					checkType(l,3,out a2);
+																																																					System.Single a3;
+																																																					checkType(l,4,out a3);
+																																																					self.Play(a1,a2,a3);
+																																																					else if(matchType(l,argc,2,int,int,float)){
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						System.Int32 a1;
+																																																						checkType(l,2,out a1);
+																																																						System.Int32 a2;
+																																																						checkType(l,3,out a2);
+																																																						System.Single a3;
+																																																						checkType(l,4,out a3);
+																																																						self.Play(a1,a2,a3);
+																																																								{ "trigger": "Animator:SetTarget(Public, HideBySig)","contents": "Animator:SetTarget(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						UnityEngine.AvatarTarget a1;
+																																																						checkEnum(l,2,out a1);
+																																																						System.Single a2;
+																																																						checkType(l,3,out a2);
+																																																						self.SetTarget(a1,a2);
+																																																								{ "trigger": "Animator:GetBoneTransform(Public, HideBySig)","contents": "Animator:GetBoneTransform(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						UnityEngine.HumanBodyBones a1;
+																																																						checkEnum(l,2,out a1);
+																																																						var ret=self.GetBoneTransform(a1);
+																																																								{ "trigger": "Animator:StartPlayback(Public, HideBySig)","contents": "Animator:StartPlayback(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						self.StartPlayback();
+																																																								{ "trigger": "Animator:StopPlayback(Public, HideBySig)","contents": "Animator:StopPlayback(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						self.StopPlayback();
+																																																								{ "trigger": "Animator:StartRecording(Public, HideBySig)","contents": "Animator:StartRecording(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						System.Int32 a1;
+																																																						checkType(l,2,out a1);
+																																																						self.StartRecording(a1);
+																																																								{ "trigger": "Animator:StopRecording(Public, HideBySig)","contents": "Animator:StopRecording(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						self.StopRecording();
+																																																								{ "trigger": "Animator:HasState(Public, HideBySig)","contents": "Animator:HasState(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						System.Int32 a1;
+																																																						checkType(l,2,out a1);
+																																																						System.Int32 a2;
+																																																						checkType(l,3,out a2);
+																																																						var ret=self.HasState(a1,a2);
+																																																								{ "trigger": "Animator:Update(Public, HideBySig)","contents": "Animator:Update(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						System.Single a1;
+																																																						checkType(l,2,out a1);
+																																																						self.Update(a1);
+																																																								{ "trigger": "Animator:Rebind(Public, HideBySig)","contents": "Animator:Rebind(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						self.Rebind();
+																																																								{ "trigger": "Animator:ApplyBuiltinRootMotion(Public, HideBySig)","contents": "Animator:ApplyBuiltinRootMotion(Public, HideBySig)"},
+
+																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																						self.ApplyBuiltinRootMotion();
+																																																								{ "trigger": "Animator.StringToHash(Public, Static, HideBySig)","contents": "Animator.StringToHash(Public, Static, HideBySig)"},
+
+																																																						System.String a1;
+																																																						checkType(l,1,out a1);
+																																																						var ret=UnityEngine.Animator.StringToHash(a1);
+																																																						get_isOptimizable(IntPtr l) {
+																																																							get_isHuman(IntPtr l) {
+																																																								get_hasRootMotion(IntPtr l) {
+																																																									get_humanScale(IntPtr l) {
+																																																										get_isInitialized(IntPtr l) {
+																																																											get_deltaPosition(IntPtr l) {
+																																																												get_deltaRotation(IntPtr l) {
+																																																													get_velocity(IntPtr l) {
+																																																														get_angularVelocity(IntPtr l) {
+																																																															get_rootPosition(IntPtr l) {
+																																																																set_rootPosition(IntPtr l) {
+																																																																	UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																	UnityEngine.Vector3 v;
+																																																																	checkType(l,2,out v);
+																																																																	self.rootPosition=v;
+																																																																	get_rootRotation(IntPtr l) {
+																																																																		set_rootRotation(IntPtr l) {
+																																																																			UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																			UnityEngine.Quaternion v;
+																																																																			checkType(l,2,out v);
+																																																																			self.rootRotation=v;
+																																																																			get_applyRootMotion(IntPtr l) {
+																																																																				set_applyRootMotion(IntPtr l) {
+																																																																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																					bool v;
+																																																																					checkType(l,2,out v);
+																																																																					self.applyRootMotion=v;
+																																																																					get_linearVelocityBlending(IntPtr l) {
+																																																																						set_linearVelocityBlending(IntPtr l) {
+																																																																							UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																							bool v;
+																																																																							checkType(l,2,out v);
+																																																																							self.linearVelocityBlending=v;
+																																																																							get_updateMode(IntPtr l) {
+																																																																								set_updateMode(IntPtr l) {
+																																																																									UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																									UnityEngine.AnimatorUpdateMode v;
+																																																																									checkEnum(l,2,out v);
+																																																																									self.updateMode=v;
+																																																																									get_hasTransformHierarchy(IntPtr l) {
+																																																																										get_gravityWeight(IntPtr l) {
+																																																																											get_bodyPosition(IntPtr l) {
+																																																																												set_bodyPosition(IntPtr l) {
+																																																																													UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																													UnityEngine.Vector3 v;
+																																																																													checkType(l,2,out v);
+																																																																													self.bodyPosition=v;
+																																																																													get_bodyRotation(IntPtr l) {
+																																																																														set_bodyRotation(IntPtr l) {
+																																																																															UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																															UnityEngine.Quaternion v;
+																																																																															checkType(l,2,out v);
+																																																																															self.bodyRotation=v;
+																																																																															get_stabilizeFeet(IntPtr l) {
+																																																																																set_stabilizeFeet(IntPtr l) {
+																																																																																	UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																	bool v;
+																																																																																	checkType(l,2,out v);
+																																																																																	self.stabilizeFeet=v;
+																																																																																	get_layerCount(IntPtr l) {
+																																																																																		get_parameters(IntPtr l) {
+																																																																																			get_parameterCount(IntPtr l) {
+																																																																																				get_feetPivotActive(IntPtr l) {
+																																																																																					set_feetPivotActive(IntPtr l) {
+																																																																																						UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																						float v;
+																																																																																						checkType(l,2,out v);
+																																																																																						self.feetPivotActive=v;
+																																																																																						get_pivotWeight(IntPtr l) {
+																																																																																							get_pivotPosition(IntPtr l) {
+																																																																																								get_isMatchingTarget(IntPtr l) {
+																																																																																									get_speed(IntPtr l) {
+																																																																																										set_speed(IntPtr l) {
+																																																																																											UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																											float v;
+																																																																																											checkType(l,2,out v);
+																																																																																											self.speed=v;
+																																																																																											get_targetPosition(IntPtr l) {
+																																																																																												get_targetRotation(IntPtr l) {
+																																																																																													get_cullingMode(IntPtr l) {
+																																																																																														set_cullingMode(IntPtr l) {
+																																																																																															UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																															UnityEngine.AnimatorCullingMode v;
+																																																																																															checkEnum(l,2,out v);
+																																																																																															self.cullingMode=v;
+																																																																																															get_playbackTime(IntPtr l) {
+																																																																																																set_playbackTime(IntPtr l) {
+																																																																																																	UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																	float v;
+																																																																																																	checkType(l,2,out v);
+																																																																																																	self.playbackTime=v;
+																																																																																																	get_recorderStartTime(IntPtr l) {
+																																																																																																		set_recorderStartTime(IntPtr l) {
+																																																																																																			UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																			float v;
+																																																																																																			checkType(l,2,out v);
+																																																																																																			self.recorderStartTime=v;
+																																																																																																			get_recorderStopTime(IntPtr l) {
+																																																																																																				set_recorderStopTime(IntPtr l) {
+																																																																																																					UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																					float v;
+																																																																																																					checkType(l,2,out v);
+																																																																																																					self.recorderStopTime=v;
+																																																																																																					get_recorderMode(IntPtr l) {
+																																																																																																						get_runtimeAnimatorController(IntPtr l) {
+																																																																																																							set_runtimeAnimatorController(IntPtr l) {
+																																																																																																								UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																								UnityEngine.RuntimeAnimatorController v;
+																																																																																																								checkType(l,2,out v);
+																																																																																																								self.runtimeAnimatorController=v;
+																																																																																																								get_avatar(IntPtr l) {
+																																																																																																									set_avatar(IntPtr l) {
+																																																																																																										UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																										UnityEngine.Avatar v;
+																																																																																																										checkType(l,2,out v);
+																																																																																																										self.avatar=v;
+																																																																																																										get_layersAffectMassCenter(IntPtr l) {
+																																																																																																											set_layersAffectMassCenter(IntPtr l) {
+																																																																																																												UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																												bool v;
+																																																																																																												checkType(l,2,out v);
+																																																																																																												self.layersAffectMassCenter=v;
+																																																																																																												get_leftFeetBottomHeight(IntPtr l) {
+																																																																																																													get_rightFeetBottomHeight(IntPtr l) {
+																																																																																																														get_logWarnings(IntPtr l) {
+																																																																																																															set_logWarnings(IntPtr l) {
+																																																																																																																UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																																bool v;
+																																																																																																																checkType(l,2,out v);
+																																																																																																																self.logWarnings=v;
+																																																																																																																get_fireEvents(IntPtr l) {
+																																																																																																																	set_fireEvents(IntPtr l) {
+																																																																																																																		UnityEngine.Animator self=(UnityEngine.Animator)checkSelf(l);
+																																																																																																																		bool v;
+																																																																																																																		checkType(l,2,out v);
+																																																																																																																		self.fireEvents=v;
+																																																																																																																			]
+																																																																																																																	}
+

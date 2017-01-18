@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.WebCamDevice()()","contents": "UnityEngine.WebCamDevice()()"},
+
+	get_name(IntPtr l) {
+		get_isFrontFacing(IntPtr l) {
+				]
+		}
+

@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.ReflectionProbeTimeSlicingMode");
+	addMember(l,0,"AllFacesAtOnce");
+	addMember(l,1,"IndividualFaces");
+	addMember(l,2,"NoTimeSlicing");
+		]
+}
+

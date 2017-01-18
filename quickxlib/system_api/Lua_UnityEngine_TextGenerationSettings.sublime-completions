@@ -1,0 +1,135 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.TextGenerationSettings()()","contents": "UnityEngine.TextGenerationSettings()()"},
+
+	font
+	set_font(IntPtr l) {
+		UnityEngine.TextGenerationSettings self;
+		checkValueType(l,1,out self);
+		UnityEngine.Font v;
+		checkType(l,2,out v);
+		self.font=v;
+		color
+		set_color(IntPtr l) {
+			UnityEngine.TextGenerationSettings self;
+			checkValueType(l,1,out self);
+			UnityEngine.Color v;
+			checkType(l,2,out v);
+			self.color=v;
+			fontSize
+			set_fontSize(IntPtr l) {
+				UnityEngine.TextGenerationSettings self;
+				checkValueType(l,1,out self);
+				System.Int32 v;
+				checkType(l,2,out v);
+				self.fontSize=v;
+				lineSpacing
+				set_lineSpacing(IntPtr l) {
+					UnityEngine.TextGenerationSettings self;
+					checkValueType(l,1,out self);
+					System.Single v;
+					checkType(l,2,out v);
+					self.lineSpacing=v;
+					richText
+					set_richText(IntPtr l) {
+						UnityEngine.TextGenerationSettings self;
+						checkValueType(l,1,out self);
+						System.Boolean v;
+						checkType(l,2,out v);
+						self.richText=v;
+						scaleFactor
+						set_scaleFactor(IntPtr l) {
+							UnityEngine.TextGenerationSettings self;
+							checkValueType(l,1,out self);
+							System.Single v;
+							checkType(l,2,out v);
+							self.scaleFactor=v;
+							fontStyle
+							set_fontStyle(IntPtr l) {
+								UnityEngine.TextGenerationSettings self;
+								checkValueType(l,1,out self);
+								UnityEngine.FontStyle v;
+								checkEnum(l,2,out v);
+								self.fontStyle=v;
+								textAnchor
+								set_textAnchor(IntPtr l) {
+									UnityEngine.TextGenerationSettings self;
+									checkValueType(l,1,out self);
+									UnityEngine.TextAnchor v;
+									checkEnum(l,2,out v);
+									self.textAnchor=v;
+									alignByGeometry
+									set_alignByGeometry(IntPtr l) {
+										UnityEngine.TextGenerationSettings self;
+										checkValueType(l,1,out self);
+										System.Boolean v;
+										checkType(l,2,out v);
+										self.alignByGeometry=v;
+										resizeTextForBestFit
+										set_resizeTextForBestFit(IntPtr l) {
+											UnityEngine.TextGenerationSettings self;
+											checkValueType(l,1,out self);
+											System.Boolean v;
+											checkType(l,2,out v);
+											self.resizeTextForBestFit=v;
+											resizeTextMinSize
+											set_resizeTextMinSize(IntPtr l) {
+												UnityEngine.TextGenerationSettings self;
+												checkValueType(l,1,out self);
+												System.Int32 v;
+												checkType(l,2,out v);
+												self.resizeTextMinSize=v;
+												resizeTextMaxSize
+												set_resizeTextMaxSize(IntPtr l) {
+													UnityEngine.TextGenerationSettings self;
+													checkValueType(l,1,out self);
+													System.Int32 v;
+													checkType(l,2,out v);
+													self.resizeTextMaxSize=v;
+													updateBounds
+													set_updateBounds(IntPtr l) {
+														UnityEngine.TextGenerationSettings self;
+														checkValueType(l,1,out self);
+														System.Boolean v;
+														checkType(l,2,out v);
+														self.updateBounds=v;
+														verticalOverflow
+														set_verticalOverflow(IntPtr l) {
+															UnityEngine.TextGenerationSettings self;
+															checkValueType(l,1,out self);
+															UnityEngine.VerticalWrapMode v;
+															checkEnum(l,2,out v);
+															self.verticalOverflow=v;
+															horizontalOverflow
+															set_horizontalOverflow(IntPtr l) {
+																UnityEngine.TextGenerationSettings self;
+																checkValueType(l,1,out self);
+																UnityEngine.HorizontalWrapMode v;
+																checkEnum(l,2,out v);
+																self.horizontalOverflow=v;
+																generationExtents
+																set_generationExtents(IntPtr l) {
+																	UnityEngine.TextGenerationSettings self;
+																	checkValueType(l,1,out self);
+																	UnityEngine.Vector2 v;
+																	checkType(l,2,out v);
+																	self.generationExtents=v;
+																	pivot
+																	set_pivot(IntPtr l) {
+																		UnityEngine.TextGenerationSettings self;
+																		checkValueType(l,1,out self);
+																		UnityEngine.Vector2 v;
+																		checkType(l,2,out v);
+																		self.pivot=v;
+																		generateOutOfBounds
+																		set_generateOutOfBounds(IntPtr l) {
+																			UnityEngine.TextGenerationSettings self;
+																			checkValueType(l,1,out self);
+																			System.Boolean v;
+																			checkType(l,2,out v);
+																			self.generateOutOfBounds=v;
+																				]
+																		}
+

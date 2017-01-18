@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.DeviceType");
+	addMember(l,0,"Unknown");
+	addMember(l,1,"Handheld");
+	addMember(l,2,"Console");
+	addMember(l,3,"Desktop");
+		]
+}
+

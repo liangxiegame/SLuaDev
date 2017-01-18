@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.RotationDriveMode");
+	addMember(l,0,"XYAndZ");
+	addMember(l,1,"Slerp");
+		]
+}
+

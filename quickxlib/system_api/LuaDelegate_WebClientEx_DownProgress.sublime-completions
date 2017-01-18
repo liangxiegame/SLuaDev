@@ -1,0 +1,8 @@
+﻿
+WebClientEx.DownProgress 
+                ua = (WebClientEx.DownProgress)checkObj(l, p);
+                ua = (WebClientEx.DownProgress)ld.d;
+            ua = (System.Net.DownloadProgressChangedEventArgs a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

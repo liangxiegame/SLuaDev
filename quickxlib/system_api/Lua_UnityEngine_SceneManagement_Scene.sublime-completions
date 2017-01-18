@@ -1,0 +1,46 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SceneManagement.Scene()()","contents": "UnityEngine.SceneManagement.Scene()()"},
+
+			{ "trigger": "Scene:IsValid(Public, HideBySig)","contents": "Scene:IsValid(Public, HideBySig)"},
+
+	UnityEngine.SceneManagement.Scene self;
+	checkValueType(l,1,out self);
+	var ret=self.IsValid();
+			{ "trigger": "Scene:GetRootGameObjects(Public, HideBySig)","contents": "Scene:GetRootGameObjects(Public, HideBySig)"},
+
+	if(argc==1){
+		UnityEngine.SceneManagement.Scene self;
+		checkValueType(l,1,out self);
+		var ret=self.GetRootGameObjects();
+		else if(argc==2){
+			UnityEngine.SceneManagement.Scene self;
+			checkValueType(l,1,out self);
+			System.Collections.Generic.List<UnityEngine.GameObject> a1;
+			checkType(l,2,out a1);
+			self.GetRootGameObjects(a1);
+					{ "trigger": "Scene.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Scene.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.SceneManagement.Scene a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.SceneManagement.Scene a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1==a2);
+					{ "trigger": "Scene.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Scene.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.SceneManagement.Scene a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.SceneManagement.Scene a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1!=a2);
+			get_path(IntPtr l) {
+				get_name(IntPtr l) {
+					get_isLoaded(IntPtr l) {
+						get_buildIndex(IntPtr l) {
+							get_isDirty(IntPtr l) {
+								get_rootCount(IntPtr l) {
+										]
+								}
+

@@ -1,0 +1,119 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Text:FontTextureChanged(Public, HideBySig)","contents": "Text:FontTextureChanged(Public, HideBySig)"},
+
+	UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+	self.FontTextureChanged();
+			{ "trigger": "Text:GetGenerationSettings(Public, HideBySig)","contents": "Text:GetGenerationSettings(Public, HideBySig)"},
+
+	UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetGenerationSettings(a1);
+			{ "trigger": "Text:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Text:CalculateLayoutInputHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+	self.CalculateLayoutInputHorizontal();
+			{ "trigger": "Text:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Text:CalculateLayoutInputVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+	self.CalculateLayoutInputVertical();
+			{ "trigger": "Text.GetTextAnchorPivot(Public, Static, HideBySig)","contents": "Text.GetTextAnchorPivot(Public, Static, HideBySig)"},
+
+	UnityEngine.TextAnchor a1;
+	checkEnum(l,1,out a1);
+	var ret=UnityEngine.UI.Text.GetTextAnchorPivot(a1);
+	get_cachedTextGenerator(IntPtr l) {
+		get_cachedTextGeneratorForLayout(IntPtr l) {
+			get_mainTexture(IntPtr l) {
+				get_font(IntPtr l) {
+					set_font(IntPtr l) {
+						UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+						UnityEngine.Font v;
+						checkType(l,2,out v);
+						self.font=v;
+						get_text(IntPtr l) {
+							set_text(IntPtr l) {
+								UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+								string v;
+								checkType(l,2,out v);
+								self.text=v;
+								get_supportRichText(IntPtr l) {
+									set_supportRichText(IntPtr l) {
+										UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+										bool v;
+										checkType(l,2,out v);
+										self.supportRichText=v;
+										get_resizeTextForBestFit(IntPtr l) {
+											set_resizeTextForBestFit(IntPtr l) {
+												UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+												bool v;
+												checkType(l,2,out v);
+												self.resizeTextForBestFit=v;
+												get_resizeTextMinSize(IntPtr l) {
+													set_resizeTextMinSize(IntPtr l) {
+														UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+														int v;
+														checkType(l,2,out v);
+														self.resizeTextMinSize=v;
+														get_resizeTextMaxSize(IntPtr l) {
+															set_resizeTextMaxSize(IntPtr l) {
+																UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																int v;
+																checkType(l,2,out v);
+																self.resizeTextMaxSize=v;
+																get_alignment(IntPtr l) {
+																	set_alignment(IntPtr l) {
+																		UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																		UnityEngine.TextAnchor v;
+																		checkEnum(l,2,out v);
+																		self.alignment=v;
+																		get_alignByGeometry(IntPtr l) {
+																			set_alignByGeometry(IntPtr l) {
+																				UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																				bool v;
+																				checkType(l,2,out v);
+																				self.alignByGeometry=v;
+																				get_fontSize(IntPtr l) {
+																					set_fontSize(IntPtr l) {
+																						UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																						int v;
+																						checkType(l,2,out v);
+																						self.fontSize=v;
+																						get_horizontalOverflow(IntPtr l) {
+																							set_horizontalOverflow(IntPtr l) {
+																								UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																								UnityEngine.HorizontalWrapMode v;
+																								checkEnum(l,2,out v);
+																								self.horizontalOverflow=v;
+																								get_verticalOverflow(IntPtr l) {
+																									set_verticalOverflow(IntPtr l) {
+																										UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																										UnityEngine.VerticalWrapMode v;
+																										checkEnum(l,2,out v);
+																										self.verticalOverflow=v;
+																										get_lineSpacing(IntPtr l) {
+																											set_lineSpacing(IntPtr l) {
+																												UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																												float v;
+																												checkType(l,2,out v);
+																												self.lineSpacing=v;
+																												get_fontStyle(IntPtr l) {
+																													set_fontStyle(IntPtr l) {
+																														UnityEngine.UI.Text self=(UnityEngine.UI.Text)checkSelf(l);
+																														UnityEngine.FontStyle v;
+																														checkEnum(l,2,out v);
+																														self.fontStyle=v;
+																														get_pixelsPerUnit(IntPtr l) {
+																															get_minWidth(IntPtr l) {
+																																get_preferredWidth(IntPtr l) {
+																																	get_flexibleWidth(IntPtr l) {
+																																		get_minHeight(IntPtr l) {
+																																			get_preferredHeight(IntPtr l) {
+																																				get_flexibleHeight(IntPtr l) {
+																																					get_layoutPriority(IntPtr l) {
+																																							]
+																																					}
+

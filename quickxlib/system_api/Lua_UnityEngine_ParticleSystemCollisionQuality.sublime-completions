@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemCollisionQuality");
+	addMember(l,0,"High");
+	addMember(l,1,"Medium");
+	addMember(l,2,"Low");
+		]
+}
+

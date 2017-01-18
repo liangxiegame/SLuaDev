@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemCollisionMode");
+	addMember(l,0,"Collision3D");
+	addMember(l,1,"Collision2D");
+		]
+}
+

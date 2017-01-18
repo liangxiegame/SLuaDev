@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AsyncOperation()()","contents": "UnityEngine.AsyncOperation()()"},
+
+	get_isDone(IntPtr l) {
+		get_progress(IntPtr l) {
+			get_priority(IntPtr l) {
+				set_priority(IntPtr l) {
+					UnityEngine.AsyncOperation self=(UnityEngine.AsyncOperation)checkSelf(l);
+					int v;
+					checkType(l,2,out v);
+					self.priority=v;
+					get_allowSceneActivation(IntPtr l) {
+						set_allowSceneActivation(IntPtr l) {
+							UnityEngine.AsyncOperation self=(UnityEngine.AsyncOperation)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.allowSceneActivation=v;
+								]
+						}
+

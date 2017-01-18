@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	System.Single a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.WaitForSeconds()()","contents": "UnityEngine.WaitForSeconds()()"},
+
+		]
+}
+

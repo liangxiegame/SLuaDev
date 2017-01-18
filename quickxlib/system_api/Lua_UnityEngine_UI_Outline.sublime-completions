@@ -1,0 +1,13 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Outline:ModifyMesh(Public, Virtual, HideBySig)","contents": "Outline:ModifyMesh(Public, Virtual, HideBySig)"},
+
+	UnityEngine.UI.Outline self=(UnityEngine.UI.Outline)checkSelf(l);
+	UnityEngine.UI.VertexHelper a1;
+	checkType(l,2,out a1);
+	self.ModifyMesh(a1);
+		]
+}
+

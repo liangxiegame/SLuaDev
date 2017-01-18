@@ -1,0 +1,30 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.JointSpring()()","contents": "UnityEngine.JointSpring()()"},
+
+	spring
+	set_spring(IntPtr l) {
+		UnityEngine.JointSpring self;
+		checkValueType(l,1,out self);
+		System.Single v;
+		checkType(l,2,out v);
+		self.spring=v;
+		damper
+		set_damper(IntPtr l) {
+			UnityEngine.JointSpring self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.damper=v;
+			targetPosition
+			set_targetPosition(IntPtr l) {
+				UnityEngine.JointSpring self;
+				checkValueType(l,1,out self);
+				System.Single v;
+				checkType(l,2,out v);
+				self.targetPosition=v;
+					]
+			}
+

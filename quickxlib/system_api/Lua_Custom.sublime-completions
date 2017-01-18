@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Custom:getTypeName(Public, HideBySig)","contents": "Custom:getTypeName(Public, HideBySig)"},
+
+	Custom self=(Custom)checkSelf(l);
+	System.Type a1;
+	checkType(l,2,out a1);
+	var ret=self.getTypeName(a1);
+	Custom self=(Custom)checkSelf(l);
+	string v;
+	checkType(l,2,out v);
+	Custom self=(Custom)checkSelf(l);
+	string v;
+	checkType(l,2,out v);
+	int c;
+	checkType(l,3,out c);
+		]
+}
+

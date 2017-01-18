@@ -1,0 +1,18 @@
+﻿
+    UnityEngine_Vector2 
+      UnityEngine.Vector2> UnityEngine.Vector2;
+              UnityEngine.Vector2
+                UnityEngine.Vector2> self =UnityEngine.Vector2>>(l);
+                <UnityEngine.Vector2> a1;
+                UnityEngine.Vector2> 
+				UnityEngine.Vector2 a0;
+				checkType(l,2,out a0);
+				self.Invoke(a0);
+getTypeTable(l, typeof(LuaUnityEvent_UnityEngine_Vector2).FullName);
+            createTypeMetatable(l, null, typeof(LuaUnityEvent_UnityEngine_Vector2), typeof(UnityEngine.Events.UnityEventBase));
+        static bool checkType(IntPtr l,int p,out UnityEngine.Events.UnityAction<UnityEngine.Vector2> ua) {
+                ua = (UnityEngine.Events.UnityAction<UnityEngine.Vector2>)ld.d;
+            ua = (UnityEngine.Vector2 v0) =>
+            {
+                pushValue(l,v0);
+}

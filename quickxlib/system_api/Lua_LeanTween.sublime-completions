@@ -1,0 +1,907 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "LeanTween:Update(Public, HideBySig)","contents": "LeanTween:Update(Public, HideBySig)"},
+
+	LeanTween self=(LeanTween)checkSelf(l);
+	self.Update();
+			{ "trigger": "LeanTween:OnLevelWasLoaded(Public, HideBySig)","contents": "LeanTween:OnLevelWasLoaded(Public, HideBySig)"},
+
+	LeanTween self=(LeanTween)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	self.OnLevelWasLoaded(a1);
+			{ "trigger": "LeanTween.init(Public, Static, HideBySig)","contents": "LeanTween.init(Public, Static, HideBySig)"},
+
+	if(argc==0){
+		LeanTween.init();
+		else if(argc==1){
+			System.Int32 a1;
+			checkType(l,1,out a1);
+			LeanTween.init(a1);
+					{ "trigger": "LeanTween.reset(Public, Static, HideBySig)","contents": "LeanTween.reset(Public, Static, HideBySig)"},
+
+			LeanTween.reset();
+					{ "trigger": "LeanTween.update(Public, Static, HideBySig)","contents": "LeanTween.update(Public, Static, HideBySig)"},
+
+			LeanTween.update();
+					{ "trigger": "LeanTween.removeTween(Public, Static, HideBySig)","contents": "LeanTween.removeTween(Public, Static, HideBySig)"},
+
+			if(argc==1){
+				System.Int32 a1;
+				checkType(l,1,out a1);
+				LeanTween.removeTween(a1);
+				else if(argc==2){
+					System.Int32 a1;
+					checkType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					LeanTween.removeTween(a1,a2);
+							{ "trigger": "LeanTween.add(Public, Static, HideBySig)","contents": "LeanTween.add(Public, Static, HideBySig)"},
+
+					UnityEngine.Vector3[] a1;
+					checkArray(l,1,out a1);
+					UnityEngine.Vector3 a2;
+					checkType(l,2,out a2);
+					var ret=LeanTween.add(a1,a2);
+							{ "trigger": "LeanTween.closestRot(Public, Static, HideBySig)","contents": "LeanTween.closestRot(Public, Static, HideBySig)"},
+
+					System.Single a1;
+					checkType(l,1,out a1);
+					System.Single a2;
+					checkType(l,2,out a2);
+					var ret=LeanTween.closestRot(a1,a2);
+							{ "trigger": "LeanTween.cancelAll(Public, Static, HideBySig)","contents": "LeanTween.cancelAll(Public, Static, HideBySig)"},
+
+					if(argc==0){
+						LeanTween.cancelAll();
+						else if(argc==1){
+							System.Boolean a1;
+							checkType(l,1,out a1);
+							LeanTween.cancelAll(a1);
+									{ "trigger": "LeanTween.cancel(Public, Static, HideBySig)","contents": "LeanTween.cancel(Public, Static, HideBySig)"},
+
+							if(matchType(l,argc,1,int)){
+								System.Int32 a1;
+								checkType(l,1,out a1);
+								LeanTween.cancel(a1);
+								else if(matchType(l,argc,1,UnityEngine.GameObject)){
+									UnityEngine.GameObject a1;
+									checkType(l,1,out a1);
+									LeanTween.cancel(a1);
+									else if(matchType(l,argc,1,int,bool)){
+										System.Int32 a1;
+										checkType(l,1,out a1);
+										System.Boolean a2;
+										checkType(l,2,out a2);
+										LeanTween.cancel(a1,a2);
+										else if(matchType(l,argc,1,LTRect,int)){
+											LTRect a1;
+											checkType(l,1,out a1);
+											System.Int32 a2;
+											checkType(l,2,out a2);
+											LeanTween.cancel(a1,a2);
+											else if(matchType(l,argc,1,UnityEngine.GameObject,bool)){
+												UnityEngine.GameObject a1;
+												checkType(l,1,out a1);
+												System.Boolean a2;
+												checkType(l,2,out a2);
+												LeanTween.cancel(a1,a2);
+												else if(matchType(l,argc,1,UnityEngine.GameObject,int)){
+													UnityEngine.GameObject a1;
+													checkType(l,1,out a1);
+													System.Int32 a2;
+													checkType(l,2,out a2);
+													LeanTween.cancel(a1,a2);
+															{ "trigger": "LeanTween.descr(Public, Static, HideBySig)","contents": "LeanTween.descr(Public, Static, HideBySig)"},
+
+													System.Int32 a1;
+													checkType(l,1,out a1);
+													var ret=LeanTween.descr(a1);
+															{ "trigger": "LeanTween.description(Public, Static, HideBySig)","contents": "LeanTween.description(Public, Static, HideBySig)"},
+
+													System.Int32 a1;
+													checkType(l,1,out a1);
+													var ret=LeanTween.description(a1);
+															{ "trigger": "LeanTween.descriptions(Public, Static, HideBySig)","contents": "LeanTween.descriptions(Public, Static, HideBySig)"},
+
+													UnityEngine.GameObject a1;
+													checkType(l,1,out a1);
+													var ret=LeanTween.descriptions(a1);
+															{ "trigger": "LeanTween.pause(Public, Static, HideBySig)","contents": "LeanTween.pause(Public, Static, HideBySig)"},
+
+													if(matchType(l,argc,1,UnityEngine.GameObject)){
+														UnityEngine.GameObject a1;
+														checkType(l,1,out a1);
+														LeanTween.pause(a1);
+														else if(matchType(l,argc,1,int)){
+															System.Int32 a1;
+															checkType(l,1,out a1);
+															LeanTween.pause(a1);
+																	{ "trigger": "LeanTween.pauseAll(Public, Static, HideBySig)","contents": "LeanTween.pauseAll(Public, Static, HideBySig)"},
+
+															LeanTween.pauseAll();
+																	{ "trigger": "LeanTween.resumeAll(Public, Static, HideBySig)","contents": "LeanTween.resumeAll(Public, Static, HideBySig)"},
+
+															LeanTween.resumeAll();
+																	{ "trigger": "LeanTween.resume(Public, Static, HideBySig)","contents": "LeanTween.resume(Public, Static, HideBySig)"},
+
+															if(matchType(l,argc,1,UnityEngine.GameObject)){
+																UnityEngine.GameObject a1;
+																checkType(l,1,out a1);
+																LeanTween.resume(a1);
+																else if(matchType(l,argc,1,int)){
+																	System.Int32 a1;
+																	checkType(l,1,out a1);
+																	LeanTween.resume(a1);
+																			{ "trigger": "LeanTween.isTweening(Public, Static, HideBySig)","contents": "LeanTween.isTweening(Public, Static, HideBySig)"},
+
+																	if(matchType(l,argc,1,LTRect)){
+																		LTRect a1;
+																		checkType(l,1,out a1);
+																		var ret=LeanTween.isTweening(a1);
+																		else if(matchType(l,argc,1,int)){
+																			System.Int32 a1;
+																			checkType(l,1,out a1);
+																			var ret=LeanTween.isTweening(a1);
+																			else if(matchType(l,argc,1,UnityEngine.GameObject)){
+																				UnityEngine.GameObject a1;
+																				checkType(l,1,out a1);
+																				var ret=LeanTween.isTweening(a1);
+																						{ "trigger": "LeanTween.drawBezierPath(Public, Static, HideBySig)","contents": "LeanTween.drawBezierPath(Public, Static, HideBySig)"},
+
+																				UnityEngine.Vector3 a1;
+																				checkType(l,1,out a1);
+																				UnityEngine.Vector3 a2;
+																				checkType(l,2,out a2);
+																				UnityEngine.Vector3 a3;
+																				checkType(l,3,out a3);
+																				UnityEngine.Vector3 a4;
+																				checkType(l,4,out a4);
+																				System.Single a5;
+																				checkType(l,5,out a5);
+																				UnityEngine.Transform a6;
+																				checkType(l,6,out a6);
+																				LeanTween.drawBezierPath(a1,a2,a3,a4,a5,a6);
+																						{ "trigger": "LeanTween.logError(Public, Static, HideBySig)","contents": "LeanTween.logError(Public, Static, HideBySig)"},
+
+																				System.String a1;
+																				checkType(l,1,out a1);
+																				var ret=LeanTween.logError(a1);
+																						{ "trigger": "LeanTween.options(Public, Static, HideBySig)","contents": "LeanTween.options(Public, Static, HideBySig)"},
+
+																				if(argc==0){
+																					var ret=LeanTween.options();
+																					else if(argc==1){
+																						LTDescr a1;
+																						checkType(l,1,out a1);
+																						var ret=LeanTween.options(a1);
+																								{ "trigger": "LeanTween.play(Public, Static, HideBySig)","contents": "LeanTween.play(Public, Static, HideBySig)"},
+
+																						UnityEngine.RectTransform a1;
+																						checkType(l,1,out a1);
+																						UnityEngine.Sprite[] a2;
+																						checkArray(l,2,out a2);
+																						var ret=LeanTween.play(a1,a2);
+																								{ "trigger": "LeanTween.alpha(Public, Static, HideBySig)","contents": "LeanTween.alpha(Public, Static, HideBySig)"},
+
+																						if(matchType(l,argc,1,UnityEngine.RectTransform,float,float)){
+																							UnityEngine.RectTransform a1;
+																							checkType(l,1,out a1);
+																							System.Single a2;
+																							checkType(l,2,out a2);
+																							System.Single a3;
+																							checkType(l,3,out a3);
+																							var ret=LeanTween.alpha(a1,a2,a3);
+																							else if(matchType(l,argc,1,LTRect,float,float)){
+																								LTRect a1;
+																								checkType(l,1,out a1);
+																								System.Single a2;
+																								checkType(l,2,out a2);
+																								System.Single a3;
+																								checkType(l,3,out a3);
+																								var ret=LeanTween.alpha(a1,a2,a3);
+																								else if(matchType(l,argc,1,UnityEngine.GameObject,float,float)){
+																									UnityEngine.GameObject a1;
+																									checkType(l,1,out a1);
+																									System.Single a2;
+																									checkType(l,2,out a2);
+																									System.Single a3;
+																									checkType(l,3,out a3);
+																									var ret=LeanTween.alpha(a1,a2,a3);
+																											{ "trigger": "LeanTween.textAlpha(Public, Static, HideBySig)","contents": "LeanTween.textAlpha(Public, Static, HideBySig)"},
+
+																									UnityEngine.RectTransform a1;
+																									checkType(l,1,out a1);
+																									System.Single a2;
+																									checkType(l,2,out a2);
+																									System.Single a3;
+																									checkType(l,3,out a3);
+																									var ret=LeanTween.textAlpha(a1,a2,a3);
+																											{ "trigger": "LeanTween.alphaText(Public, Static, HideBySig)","contents": "LeanTween.alphaText(Public, Static, HideBySig)"},
+
+																									UnityEngine.RectTransform a1;
+																									checkType(l,1,out a1);
+																									System.Single a2;
+																									checkType(l,2,out a2);
+																									System.Single a3;
+																									checkType(l,3,out a3);
+																									var ret=LeanTween.alphaText(a1,a2,a3);
+																											{ "trigger": "LeanTween.alphaCanvas(Public, Static, HideBySig)","contents": "LeanTween.alphaCanvas(Public, Static, HideBySig)"},
+
+																									UnityEngine.CanvasGroup a1;
+																									checkType(l,1,out a1);
+																									System.Single a2;
+																									checkType(l,2,out a2);
+																									System.Single a3;
+																									checkType(l,3,out a3);
+																									var ret=LeanTween.alphaCanvas(a1,a2,a3);
+																											{ "trigger": "LeanTween.alphaVertex(Public, Static, HideBySig)","contents": "LeanTween.alphaVertex(Public, Static, HideBySig)"},
+
+																									UnityEngine.GameObject a1;
+																									checkType(l,1,out a1);
+																									System.Single a2;
+																									checkType(l,2,out a2);
+																									System.Single a3;
+																									checkType(l,3,out a3);
+																									var ret=LeanTween.alphaVertex(a1,a2,a3);
+																											{ "trigger": "LeanTween.color(Public, Static, HideBySig)","contents": "LeanTween.color(Public, Static, HideBySig)"},
+
+																									if(matchType(l,argc,1,UnityEngine.RectTransform,UnityEngine.Color,float)){
+																										UnityEngine.RectTransform a1;
+																										checkType(l,1,out a1);
+																										UnityEngine.Color a2;
+																										checkType(l,2,out a2);
+																										System.Single a3;
+																										checkType(l,3,out a3);
+																										var ret=LeanTween.color(a1,a2,a3);
+																										else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Color,float)){
+																											UnityEngine.GameObject a1;
+																											checkType(l,1,out a1);
+																											UnityEngine.Color a2;
+																											checkType(l,2,out a2);
+																											System.Single a3;
+																											checkType(l,3,out a3);
+																											var ret=LeanTween.color(a1,a2,a3);
+																													{ "trigger": "LeanTween.textColor(Public, Static, HideBySig)","contents": "LeanTween.textColor(Public, Static, HideBySig)"},
+
+																											UnityEngine.RectTransform a1;
+																											checkType(l,1,out a1);
+																											UnityEngine.Color a2;
+																											checkType(l,2,out a2);
+																											System.Single a3;
+																											checkType(l,3,out a3);
+																											var ret=LeanTween.textColor(a1,a2,a3);
+																													{ "trigger": "LeanTween.colorText(Public, Static, HideBySig)","contents": "LeanTween.colorText(Public, Static, HideBySig)"},
+
+																											UnityEngine.RectTransform a1;
+																											checkType(l,1,out a1);
+																											UnityEngine.Color a2;
+																											checkType(l,2,out a2);
+																											System.Single a3;
+																											checkType(l,3,out a3);
+																											var ret=LeanTween.colorText(a1,a2,a3);
+																													{ "trigger": "LeanTween.delayedCall(Public, Static, HideBySig)","contents": "LeanTween.delayedCall(Public, Static, HideBySig)"},
+
+																											if(matchType(l,argc,1,float,System.Action<System.Object>)){
+																												System.Single a1;
+																												checkType(l,1,out a1);
+																												System.Action<System.Object> a2;
+																												LuaDelegation.checkDelegate(l,2,out a2);
+																												var ret=LeanTween.delayedCall(a1,a2);
+																												else if(matchType(l,argc,1,float,System.Action)){
+																													System.Single a1;
+																													checkType(l,1,out a1);
+																													System.Action a2;
+																													LuaDelegation.checkDelegate(l,2,out a2);
+																													var ret=LeanTween.delayedCall(a1,a2);
+																													else if(matchType(l,argc,1,UnityEngine.GameObject,float,System.Action<System.Object>)){
+																														UnityEngine.GameObject a1;
+																														checkType(l,1,out a1);
+																														System.Single a2;
+																														checkType(l,2,out a2);
+																														System.Action<System.Object> a3;
+																														LuaDelegation.checkDelegate(l,3,out a3);
+																														var ret=LeanTween.delayedCall(a1,a2,a3);
+																														else if(matchType(l,argc,1,UnityEngine.GameObject,float,System.Action)){
+																															UnityEngine.GameObject a1;
+																															checkType(l,1,out a1);
+																															System.Single a2;
+																															checkType(l,2,out a2);
+																															System.Action a3;
+																															LuaDelegation.checkDelegate(l,3,out a3);
+																															var ret=LeanTween.delayedCall(a1,a2,a3);
+																																	{ "trigger": "LeanTween.destroyAfter(Public, Static, HideBySig)","contents": "LeanTween.destroyAfter(Public, Static, HideBySig)"},
+
+																															LTRect a1;
+																															checkType(l,1,out a1);
+																															System.Single a2;
+																															checkType(l,2,out a2);
+																															var ret=LeanTween.destroyAfter(a1,a2);
+																																	{ "trigger": "LeanTween.move(Public, Static, HideBySig)","contents": "LeanTween.move(Public, Static, HideBySig)"},
+
+																															if(matchType(l,argc,1,LTRect,UnityEngine.Vector2,float)){
+																																LTRect a1;
+																																checkType(l,1,out a1);
+																																UnityEngine.Vector2 a2;
+																																checkType(l,2,out a2);
+																																System.Single a3;
+																																checkType(l,3,out a3);
+																																var ret=LeanTween.move(a1,a2,a3);
+																																else if(matchType(l,argc,1,UnityEngine.GameObject,LTSpline,float)){
+																																	UnityEngine.GameObject a1;
+																																	checkType(l,1,out a1);
+																																	LTSpline a2;
+																																	checkType(l,2,out a2);
+																																	System.Single a3;
+																																	checkType(l,3,out a3);
+																																	var ret=LeanTween.move(a1,a2,a3);
+																																	else if(matchType(l,argc,1,UnityEngine.RectTransform,UnityEngine.Vector3,float)){
+																																		UnityEngine.RectTransform a1;
+																																		checkType(l,1,out a1);
+																																		UnityEngine.Vector3 a2;
+																																		checkType(l,2,out a2);
+																																		System.Single a3;
+																																		checkType(l,3,out a3);
+																																		var ret=LeanTween.move(a1,a2,a3);
+																																		else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Transform,float)){
+																																			UnityEngine.GameObject a1;
+																																			checkType(l,1,out a1);
+																																			UnityEngine.Transform a2;
+																																			checkType(l,2,out a2);
+																																			System.Single a3;
+																																			checkType(l,3,out a3);
+																																			var ret=LeanTween.move(a1,a2,a3);
+																																			else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector2,float)){
+																																				UnityEngine.GameObject a1;
+																																				checkType(l,1,out a1);
+																																				UnityEngine.Vector2 a2;
+																																				checkType(l,2,out a2);
+																																				System.Single a3;
+																																				checkType(l,3,out a3);
+																																				var ret=LeanTween.move(a1,a2,a3);
+																																				else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,float)){
+																																					UnityEngine.GameObject a1;
+																																					checkType(l,1,out a1);
+																																					UnityEngine.Vector3 a2;
+																																					checkType(l,2,out a2);
+																																					System.Single a3;
+																																					checkType(l,3,out a3);
+																																					var ret=LeanTween.move(a1,a2,a3);
+																																					else if(matchType(l,argc,1,UnityEngine.GameObject,LTBezierPath,float)){
+																																						UnityEngine.GameObject a1;
+																																						checkType(l,1,out a1);
+																																						LTBezierPath a2;
+																																						checkType(l,2,out a2);
+																																						System.Single a3;
+																																						checkType(l,3,out a3);
+																																						var ret=LeanTween.move(a1,a2,a3);
+																																						else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3[],float)){
+																																							UnityEngine.GameObject a1;
+																																							checkType(l,1,out a1);
+																																							UnityEngine.Vector3[] a2;
+																																							checkArray(l,2,out a2);
+																																							System.Single a3;
+																																							checkType(l,3,out a3);
+																																							var ret=LeanTween.move(a1,a2,a3);
+																																									{ "trigger": "LeanTween.moveSpline(Public, Static, HideBySig)","contents": "LeanTween.moveSpline(Public, Static, HideBySig)"},
+
+																																							UnityEngine.GameObject a1;
+																																							checkType(l,1,out a1);
+																																							UnityEngine.Vector3[] a2;
+																																							checkArray(l,2,out a2);
+																																							System.Single a3;
+																																							checkType(l,3,out a3);
+																																							var ret=LeanTween.moveSpline(a1,a2,a3);
+																																									{ "trigger": "LeanTween.moveSplineLocal(Public, Static, HideBySig)","contents": "LeanTween.moveSplineLocal(Public, Static, HideBySig)"},
+
+																																							UnityEngine.GameObject a1;
+																																							checkType(l,1,out a1);
+																																							UnityEngine.Vector3[] a2;
+																																							checkArray(l,2,out a2);
+																																							System.Single a3;
+																																							checkType(l,3,out a3);
+																																							var ret=LeanTween.moveSplineLocal(a1,a2,a3);
+																																									{ "trigger": "LeanTween.moveMargin(Public, Static, HideBySig)","contents": "LeanTween.moveMargin(Public, Static, HideBySig)"},
+
+																																							LTRect a1;
+																																							checkType(l,1,out a1);
+																																							UnityEngine.Vector2 a2;
+																																							checkType(l,2,out a2);
+																																							System.Single a3;
+																																							checkType(l,3,out a3);
+																																							var ret=LeanTween.moveMargin(a1,a2,a3);
+																																									{ "trigger": "LeanTween.moveX(Public, Static, HideBySig)","contents": "LeanTween.moveX(Public, Static, HideBySig)"},
+
+																																							if(matchType(l,argc,1,UnityEngine.RectTransform,float,float)){
+																																								UnityEngine.RectTransform a1;
+																																								checkType(l,1,out a1);
+																																								System.Single a2;
+																																								checkType(l,2,out a2);
+																																								System.Single a3;
+																																								checkType(l,3,out a3);
+																																								var ret=LeanTween.moveX(a1,a2,a3);
+																																								else if(matchType(l,argc,1,UnityEngine.GameObject,float,float)){
+																																									UnityEngine.GameObject a1;
+																																									checkType(l,1,out a1);
+																																									System.Single a2;
+																																									checkType(l,2,out a2);
+																																									System.Single a3;
+																																									checkType(l,3,out a3);
+																																									var ret=LeanTween.moveX(a1,a2,a3);
+																																											{ "trigger": "LeanTween.moveY(Public, Static, HideBySig)","contents": "LeanTween.moveY(Public, Static, HideBySig)"},
+
+																																									if(matchType(l,argc,1,UnityEngine.RectTransform,float,float)){
+																																										UnityEngine.RectTransform a1;
+																																										checkType(l,1,out a1);
+																																										System.Single a2;
+																																										checkType(l,2,out a2);
+																																										System.Single a3;
+																																										checkType(l,3,out a3);
+																																										var ret=LeanTween.moveY(a1,a2,a3);
+																																										else if(matchType(l,argc,1,UnityEngine.GameObject,float,float)){
+																																											UnityEngine.GameObject a1;
+																																											checkType(l,1,out a1);
+																																											System.Single a2;
+																																											checkType(l,2,out a2);
+																																											System.Single a3;
+																																											checkType(l,3,out a3);
+																																											var ret=LeanTween.moveY(a1,a2,a3);
+																																													{ "trigger": "LeanTween.moveZ(Public, Static, HideBySig)","contents": "LeanTween.moveZ(Public, Static, HideBySig)"},
+
+																																											if(matchType(l,argc,1,UnityEngine.RectTransform,float,float)){
+																																												UnityEngine.RectTransform a1;
+																																												checkType(l,1,out a1);
+																																												System.Single a2;
+																																												checkType(l,2,out a2);
+																																												System.Single a3;
+																																												checkType(l,3,out a3);
+																																												var ret=LeanTween.moveZ(a1,a2,a3);
+																																												else if(matchType(l,argc,1,UnityEngine.GameObject,float,float)){
+																																													UnityEngine.GameObject a1;
+																																													checkType(l,1,out a1);
+																																													System.Single a2;
+																																													checkType(l,2,out a2);
+																																													System.Single a3;
+																																													checkType(l,3,out a3);
+																																													var ret=LeanTween.moveZ(a1,a2,a3);
+																																															{ "trigger": "LeanTween.moveLocal(Public, Static, HideBySig)","contents": "LeanTween.moveLocal(Public, Static, HideBySig)"},
+
+																																													if(matchType(l,argc,1,UnityEngine.GameObject,LTBezierPath,float)){
+																																														UnityEngine.GameObject a1;
+																																														checkType(l,1,out a1);
+																																														LTBezierPath a2;
+																																														checkType(l,2,out a2);
+																																														System.Single a3;
+																																														checkType(l,3,out a3);
+																																														var ret=LeanTween.moveLocal(a1,a2,a3);
+																																														else if(matchType(l,argc,1,UnityEngine.GameObject,LTSpline,float)){
+																																															UnityEngine.GameObject a1;
+																																															checkType(l,1,out a1);
+																																															LTSpline a2;
+																																															checkType(l,2,out a2);
+																																															System.Single a3;
+																																															checkType(l,3,out a3);
+																																															var ret=LeanTween.moveLocal(a1,a2,a3);
+																																															else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,float)){
+																																																UnityEngine.GameObject a1;
+																																																checkType(l,1,out a1);
+																																																UnityEngine.Vector3 a2;
+																																																checkType(l,2,out a2);
+																																																System.Single a3;
+																																																checkType(l,3,out a3);
+																																																var ret=LeanTween.moveLocal(a1,a2,a3);
+																																																else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3[],float)){
+																																																	UnityEngine.GameObject a1;
+																																																	checkType(l,1,out a1);
+																																																	UnityEngine.Vector3[] a2;
+																																																	checkArray(l,2,out a2);
+																																																	System.Single a3;
+																																																	checkType(l,3,out a3);
+																																																	var ret=LeanTween.moveLocal(a1,a2,a3);
+																																																			{ "trigger": "LeanTween.moveLocalX(Public, Static, HideBySig)","contents": "LeanTween.moveLocalX(Public, Static, HideBySig)"},
+
+																																																	UnityEngine.GameObject a1;
+																																																	checkType(l,1,out a1);
+																																																	System.Single a2;
+																																																	checkType(l,2,out a2);
+																																																	System.Single a3;
+																																																	checkType(l,3,out a3);
+																																																	var ret=LeanTween.moveLocalX(a1,a2,a3);
+																																																			{ "trigger": "LeanTween.moveLocalY(Public, Static, HideBySig)","contents": "LeanTween.moveLocalY(Public, Static, HideBySig)"},
+
+																																																	UnityEngine.GameObject a1;
+																																																	checkType(l,1,out a1);
+																																																	System.Single a2;
+																																																	checkType(l,2,out a2);
+																																																	System.Single a3;
+																																																	checkType(l,3,out a3);
+																																																	var ret=LeanTween.moveLocalY(a1,a2,a3);
+																																																			{ "trigger": "LeanTween.moveLocalZ(Public, Static, HideBySig)","contents": "LeanTween.moveLocalZ(Public, Static, HideBySig)"},
+
+																																																	UnityEngine.GameObject a1;
+																																																	checkType(l,1,out a1);
+																																																	System.Single a2;
+																																																	checkType(l,2,out a2);
+																																																	System.Single a3;
+																																																	checkType(l,3,out a3);
+																																																	var ret=LeanTween.moveLocalZ(a1,a2,a3);
+																																																			{ "trigger": "LeanTween.rotate(Public, Static, HideBySig)","contents": "LeanTween.rotate(Public, Static, HideBySig)"},
+
+																																																	if(matchType(l,argc,1,UnityEngine.RectTransform,float,float)){
+																																																		UnityEngine.RectTransform a1;
+																																																		checkType(l,1,out a1);
+																																																		System.Single a2;
+																																																		checkType(l,2,out a2);
+																																																		System.Single a3;
+																																																		checkType(l,3,out a3);
+																																																		var ret=LeanTween.rotate(a1,a2,a3);
+																																																		else if(matchType(l,argc,1,LTRect,float,float)){
+																																																			LTRect a1;
+																																																			checkType(l,1,out a1);
+																																																			System.Single a2;
+																																																			checkType(l,2,out a2);
+																																																			System.Single a3;
+																																																			checkType(l,3,out a3);
+																																																			var ret=LeanTween.rotate(a1,a2,a3);
+																																																			else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,float)){
+																																																				UnityEngine.GameObject a1;
+																																																				checkType(l,1,out a1);
+																																																				UnityEngine.Vector3 a2;
+																																																				checkType(l,2,out a2);
+																																																				System.Single a3;
+																																																				checkType(l,3,out a3);
+																																																				var ret=LeanTween.rotate(a1,a2,a3);
+																																																						{ "trigger": "LeanTween.rotateLocal(Public, Static, HideBySig)","contents": "LeanTween.rotateLocal(Public, Static, HideBySig)"},
+
+																																																				UnityEngine.GameObject a1;
+																																																				checkType(l,1,out a1);
+																																																				UnityEngine.Vector3 a2;
+																																																				checkType(l,2,out a2);
+																																																				System.Single a3;
+																																																				checkType(l,3,out a3);
+																																																				var ret=LeanTween.rotateLocal(a1,a2,a3);
+																																																						{ "trigger": "LeanTween.rotateX(Public, Static, HideBySig)","contents": "LeanTween.rotateX(Public, Static, HideBySig)"},
+
+																																																				UnityEngine.GameObject a1;
+																																																				checkType(l,1,out a1);
+																																																				System.Single a2;
+																																																				checkType(l,2,out a2);
+																																																				System.Single a3;
+																																																				checkType(l,3,out a3);
+																																																				var ret=LeanTween.rotateX(a1,a2,a3);
+																																																						{ "trigger": "LeanTween.rotateY(Public, Static, HideBySig)","contents": "LeanTween.rotateY(Public, Static, HideBySig)"},
+
+																																																				UnityEngine.GameObject a1;
+																																																				checkType(l,1,out a1);
+																																																				System.Single a2;
+																																																				checkType(l,2,out a2);
+																																																				System.Single a3;
+																																																				checkType(l,3,out a3);
+																																																				var ret=LeanTween.rotateY(a1,a2,a3);
+																																																						{ "trigger": "LeanTween.rotateZ(Public, Static, HideBySig)","contents": "LeanTween.rotateZ(Public, Static, HideBySig)"},
+
+																																																				UnityEngine.GameObject a1;
+																																																				checkType(l,1,out a1);
+																																																				System.Single a2;
+																																																				checkType(l,2,out a2);
+																																																				System.Single a3;
+																																																				checkType(l,3,out a3);
+																																																				var ret=LeanTween.rotateZ(a1,a2,a3);
+																																																						{ "trigger": "LeanTween.rotateAround(Public, Static, HideBySig)","contents": "LeanTween.rotateAround(Public, Static, HideBySig)"},
+
+																																																				if(matchType(l,argc,1,UnityEngine.RectTransform,UnityEngine.Vector3,float,float)){
+																																																					UnityEngine.RectTransform a1;
+																																																					checkType(l,1,out a1);
+																																																					UnityEngine.Vector3 a2;
+																																																					checkType(l,2,out a2);
+																																																					System.Single a3;
+																																																					checkType(l,3,out a3);
+																																																					System.Single a4;
+																																																					checkType(l,4,out a4);
+																																																					var ret=LeanTween.rotateAround(a1,a2,a3,a4);
+																																																					else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,float,float)){
+																																																						UnityEngine.GameObject a1;
+																																																						checkType(l,1,out a1);
+																																																						UnityEngine.Vector3 a2;
+																																																						checkType(l,2,out a2);
+																																																						System.Single a3;
+																																																						checkType(l,3,out a3);
+																																																						System.Single a4;
+																																																						checkType(l,4,out a4);
+																																																						var ret=LeanTween.rotateAround(a1,a2,a3,a4);
+																																																								{ "trigger": "LeanTween.rotateAroundLocal(Public, Static, HideBySig)","contents": "LeanTween.rotateAroundLocal(Public, Static, HideBySig)"},
+
+																																																						if(matchType(l,argc,1,UnityEngine.RectTransform,UnityEngine.Vector3,float,float)){
+																																																							UnityEngine.RectTransform a1;
+																																																							checkType(l,1,out a1);
+																																																							UnityEngine.Vector3 a2;
+																																																							checkType(l,2,out a2);
+																																																							System.Single a3;
+																																																							checkType(l,3,out a3);
+																																																							System.Single a4;
+																																																							checkType(l,4,out a4);
+																																																							var ret=LeanTween.rotateAroundLocal(a1,a2,a3,a4);
+																																																							else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,float,float)){
+																																																								UnityEngine.GameObject a1;
+																																																								checkType(l,1,out a1);
+																																																								UnityEngine.Vector3 a2;
+																																																								checkType(l,2,out a2);
+																																																								System.Single a3;
+																																																								checkType(l,3,out a3);
+																																																								System.Single a4;
+																																																								checkType(l,4,out a4);
+																																																								var ret=LeanTween.rotateAroundLocal(a1,a2,a3,a4);
+																																																										{ "trigger": "LeanTween.scale(Public, Static, HideBySig)","contents": "LeanTween.scale(Public, Static, HideBySig)"},
+
+																																																								if(matchType(l,argc,1,UnityEngine.RectTransform,UnityEngine.Vector3,float)){
+																																																									UnityEngine.RectTransform a1;
+																																																									checkType(l,1,out a1);
+																																																									UnityEngine.Vector3 a2;
+																																																									checkType(l,2,out a2);
+																																																									System.Single a3;
+																																																									checkType(l,3,out a3);
+																																																									var ret=LeanTween.scale(a1,a2,a3);
+																																																									else if(matchType(l,argc,1,LTRect,UnityEngine.Vector2,float)){
+																																																										LTRect a1;
+																																																										checkType(l,1,out a1);
+																																																										UnityEngine.Vector2 a2;
+																																																										checkType(l,2,out a2);
+																																																										System.Single a3;
+																																																										checkType(l,3,out a3);
+																																																										var ret=LeanTween.scale(a1,a2,a3);
+																																																										else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,float)){
+																																																											UnityEngine.GameObject a1;
+																																																											checkType(l,1,out a1);
+																																																											UnityEngine.Vector3 a2;
+																																																											checkType(l,2,out a2);
+																																																											System.Single a3;
+																																																											checkType(l,3,out a3);
+																																																											var ret=LeanTween.scale(a1,a2,a3);
+																																																													{ "trigger": "LeanTween.scaleX(Public, Static, HideBySig)","contents": "LeanTween.scaleX(Public, Static, HideBySig)"},
+
+																																																											UnityEngine.GameObject a1;
+																																																											checkType(l,1,out a1);
+																																																											System.Single a2;
+																																																											checkType(l,2,out a2);
+																																																											System.Single a3;
+																																																											checkType(l,3,out a3);
+																																																											var ret=LeanTween.scaleX(a1,a2,a3);
+																																																													{ "trigger": "LeanTween.scaleY(Public, Static, HideBySig)","contents": "LeanTween.scaleY(Public, Static, HideBySig)"},
+
+																																																											UnityEngine.GameObject a1;
+																																																											checkType(l,1,out a1);
+																																																											System.Single a2;
+																																																											checkType(l,2,out a2);
+																																																											System.Single a3;
+																																																											checkType(l,3,out a3);
+																																																											var ret=LeanTween.scaleY(a1,a2,a3);
+																																																													{ "trigger": "LeanTween.scaleZ(Public, Static, HideBySig)","contents": "LeanTween.scaleZ(Public, Static, HideBySig)"},
+
+																																																											UnityEngine.GameObject a1;
+																																																											checkType(l,1,out a1);
+																																																											System.Single a2;
+																																																											checkType(l,2,out a2);
+																																																											System.Single a3;
+																																																											checkType(l,3,out a3);
+																																																											var ret=LeanTween.scaleZ(a1,a2,a3);
+																																																													{ "trigger": "LeanTween.value(Public, Static, HideBySig)","contents": "LeanTween.value(Public, Static, HideBySig)"},
+
+																																																											if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector3,float)){
+																																																												UnityEngine.GameObject a1;
+																																																												checkType(l,1,out a1);
+																																																												UnityEngine.Vector3 a2;
+																																																												checkType(l,2,out a2);
+																																																												UnityEngine.Vector3 a3;
+																																																												checkType(l,3,out a3);
+																																																												System.Single a4;
+																																																												checkType(l,4,out a4);
+																																																												var ret=LeanTween.value(a1,a2,a3,a4);
+																																																												else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Color,UnityEngine.Color,float)){
+																																																													UnityEngine.GameObject a1;
+																																																													checkType(l,1,out a1);
+																																																													UnityEngine.Color a2;
+																																																													checkType(l,2,out a2);
+																																																													UnityEngine.Color a3;
+																																																													checkType(l,3,out a3);
+																																																													System.Single a4;
+																																																													checkType(l,4,out a4);
+																																																													var ret=LeanTween.value(a1,a2,a3,a4);
+																																																													else if(matchType(l,argc,1,UnityEngine.GameObject,float,float,float)){
+																																																														UnityEngine.GameObject a1;
+																																																														checkType(l,1,out a1);
+																																																														System.Single a2;
+																																																														checkType(l,2,out a2);
+																																																														System.Single a3;
+																																																														checkType(l,3,out a3);
+																																																														System.Single a4;
+																																																														checkType(l,4,out a4);
+																																																														var ret=LeanTween.value(a1,a2,a3,a4);
+																																																														else if(matchType(l,argc,1,UnityEngine.GameObject,UnityEngine.Vector2,UnityEngine.Vector2,float)){
+																																																															UnityEngine.GameObject a1;
+																																																															checkType(l,1,out a1);
+																																																															UnityEngine.Vector2 a2;
+																																																															checkType(l,2,out a2);
+																																																															UnityEngine.Vector2 a3;
+																																																															checkType(l,3,out a3);
+																																																															System.Single a4;
+																																																															checkType(l,4,out a4);
+																																																															var ret=LeanTween.value(a1,a2,a3,a4);
+																																																															else if(matchType(l,argc,1,UnityEngine.GameObject,System.Action<UnityEngine.Vector2>,UnityEngine.Vector2,UnityEngine.Vector2,float)){
+																																																																UnityEngine.GameObject a1;
+																																																																checkType(l,1,out a1);
+																																																																System.Action<UnityEngine.Vector2> a2;
+																																																																LuaDelegation.checkDelegate(l,2,out a2);
+																																																																UnityEngine.Vector2 a3;
+																																																																checkType(l,3,out a3);
+																																																																UnityEngine.Vector2 a4;
+																																																																checkType(l,4,out a4);
+																																																																System.Single a5;
+																																																																checkType(l,5,out a5);
+																																																																var ret=LeanTween.value(a1,a2,a3,a4,a5);
+																																																																else if(matchType(l,argc,1,UnityEngine.GameObject,System.Action<UnityEngine.Vector3>,UnityEngine.Vector3,UnityEngine.Vector3,float)){
+																																																																	UnityEngine.GameObject a1;
+																																																																	checkType(l,1,out a1);
+																																																																	System.Action<UnityEngine.Vector3> a2;
+																																																																	LuaDelegation.checkDelegate(l,2,out a2);
+																																																																	UnityEngine.Vector3 a3;
+																																																																	checkType(l,3,out a3);
+																																																																	UnityEngine.Vector3 a4;
+																																																																	checkType(l,4,out a4);
+																																																																	System.Single a5;
+																																																																	checkType(l,5,out a5);
+																																																																	var ret=LeanTween.value(a1,a2,a3,a4,a5);
+																																																																	else if(matchType(l,argc,1,UnityEngine.GameObject,System.Action<System.Single,System.Object>,float,float,float)){
+																																																																		UnityEngine.GameObject a1;
+																																																																		checkType(l,1,out a1);
+																																																																		System.Action<System.Single,System.Object> a2;
+																																																																		LuaDelegation.checkDelegate(l,2,out a2);
+																																																																		System.Single a3;
+																																																																		checkType(l,3,out a3);
+																																																																		System.Single a4;
+																																																																		checkType(l,4,out a4);
+																																																																		System.Single a5;
+																																																																		checkType(l,5,out a5);
+																																																																		var ret=LeanTween.value(a1,a2,a3,a4,a5);
+																																																																		else if(matchType(l,argc,1,UnityEngine.GameObject,System.Action<System.Single>,float,float,float)){
+																																																																			UnityEngine.GameObject a1;
+																																																																			checkType(l,1,out a1);
+																																																																			System.Action<System.Single> a2;
+																																																																			LuaDelegation.checkDelegate(l,2,out a2);
+																																																																			System.Single a3;
+																																																																			checkType(l,3,out a3);
+																																																																			System.Single a4;
+																																																																			checkType(l,4,out a4);
+																																																																			System.Single a5;
+																																																																			checkType(l,5,out a5);
+																																																																			var ret=LeanTween.value(a1,a2,a3,a4,a5);
+																																																																			else if(matchType(l,argc,1,UnityEngine.GameObject,System.Action<System.Single,System.Single>,float,float,float)){
+																																																																				UnityEngine.GameObject a1;
+																																																																				checkType(l,1,out a1);
+																																																																				System.Action<System.Single,System.Single> a2;
+																																																																				LuaDelegation.checkDelegate(l,2,out a2);
+																																																																				System.Single a3;
+																																																																				checkType(l,3,out a3);
+																																																																				System.Single a4;
+																																																																				checkType(l,4,out a4);
+																																																																				System.Single a5;
+																																																																				checkType(l,5,out a5);
+																																																																				var ret=LeanTween.value(a1,a2,a3,a4,a5);
+																																																																				else if(matchType(l,argc,1,UnityEngine.GameObject,System.Action<UnityEngine.Color>,UnityEngine.Color,UnityEngine.Color,float)){
+																																																																					UnityEngine.GameObject a1;
+																																																																					checkType(l,1,out a1);
+																																																																					System.Action<UnityEngine.Color> a2;
+																																																																					LuaDelegation.checkDelegate(l,2,out a2);
+																																																																					UnityEngine.Color a3;
+																																																																					checkType(l,3,out a3);
+																																																																					UnityEngine.Color a4;
+																																																																					checkType(l,4,out a4);
+																																																																					System.Single a5;
+																																																																					checkType(l,5,out a5);
+																																																																					var ret=LeanTween.value(a1,a2,a3,a4,a5);
+																																																																							{ "trigger": "LeanTween.delayedSound(Public, Static, HideBySig)","contents": "LeanTween.delayedSound(Public, Static, HideBySig)"},
+
+																																																																					if(argc==3){
+																																																																						UnityEngine.AudioClip a1;
+																																																																						checkType(l,1,out a1);
+																																																																						UnityEngine.Vector3 a2;
+																																																																						checkType(l,2,out a2);
+																																																																						System.Single a3;
+																																																																						checkType(l,3,out a3);
+																																																																						var ret=LeanTween.delayedSound(a1,a2,a3);
+																																																																						else if(argc==4){
+																																																																							UnityEngine.GameObject a1;
+																																																																							checkType(l,1,out a1);
+																																																																							UnityEngine.AudioClip a2;
+																																																																							checkType(l,2,out a2);
+																																																																							UnityEngine.Vector3 a3;
+																																																																							checkType(l,3,out a3);
+																																																																							System.Single a4;
+																																																																							checkType(l,4,out a4);
+																																																																							var ret=LeanTween.delayedSound(a1,a2,a3,a4);
+																																																																									{ "trigger": "LeanTween.addListener(Public, Static, HideBySig)","contents": "LeanTween.addListener(Public, Static, HideBySig)"},
+
+																																																																							if(argc==2){
+																																																																								System.Int32 a1;
+																																																																								checkType(l,1,out a1);
+																																																																								System.Action<LTEvent> a2;
+																																																																								LuaDelegation.checkDelegate(l,2,out a2);
+																																																																								LeanTween.addListener(a1,a2);
+																																																																								else if(argc==3){
+																																																																									UnityEngine.GameObject a1;
+																																																																									checkType(l,1,out a1);
+																																																																									System.Int32 a2;
+																																																																									checkType(l,2,out a2);
+																																																																									System.Action<LTEvent> a3;
+																																																																									LuaDelegation.checkDelegate(l,3,out a3);
+																																																																									LeanTween.addListener(a1,a2,a3);
+																																																																											{ "trigger": "LeanTween.removeListener(Public, Static, HideBySig)","contents": "LeanTween.removeListener(Public, Static, HideBySig)"},
+
+																																																																									if(argc==2){
+																																																																										System.Int32 a1;
+																																																																										checkType(l,1,out a1);
+																																																																										System.Action<LTEvent> a2;
+																																																																										LuaDelegation.checkDelegate(l,2,out a2);
+																																																																										var ret=LeanTween.removeListener(a1,a2);
+																																																																										else if(argc==3){
+																																																																											UnityEngine.GameObject a1;
+																																																																											checkType(l,1,out a1);
+																																																																											System.Int32 a2;
+																																																																											checkType(l,2,out a2);
+																																																																											System.Action<LTEvent> a3;
+																																																																											LuaDelegation.checkDelegate(l,3,out a3);
+																																																																											var ret=LeanTween.removeListener(a1,a2,a3);
+																																																																													{ "trigger": "LeanTween.dispatchEvent(Public, Static, HideBySig)","contents": "LeanTween.dispatchEvent(Public, Static, HideBySig)"},
+
+																																																																											if(argc==1){
+																																																																												System.Int32 a1;
+																																																																												checkType(l,1,out a1);
+																																																																												LeanTween.dispatchEvent(a1);
+																																																																												else if(argc==2){
+																																																																													System.Int32 a1;
+																																																																													checkType(l,1,out a1);
+																																																																													System.Object a2;
+																																																																													checkType(l,2,out a2);
+																																																																													LeanTween.dispatchEvent(a1,a2);
+																																																																													throwErrors
+																																																																													set_throwErrors(IntPtr l) {
+																																																																														System.Boolean v;
+																																																																														checkType(l,2,out v);
+																																																																														LeanTween.throwErrors=v;
+																																																																														tau
+																																																																														set_tau(IntPtr l) {
+																																																																															System.Single v;
+																																																																															checkType(l,2,out v);
+																																																																															LeanTween.tau=v;
+																																																																															dtManual
+																																																																															set_dtManual(IntPtr l) {
+																																																																																System.Single v;
+																																																																																checkType(l,2,out v);
+																																																																																LeanTween.dtManual=v;
+																																																																																startSearch
+																																																																																set_startSearch(IntPtr l) {
+																																																																																	System.Int32 v;
+																																																																																	checkType(l,2,out v);
+																																																																																	LeanTween.startSearch=v;
+																																																																																	d
+																																																																																	set_d(IntPtr l) {
+																																																																																		LTDescr v;
+																																																																																		checkType(l,2,out v);
+																																																																																		LeanTween.d=v;
+																																																																																		EVENTS_MAX
+																																																																																		set_EVENTS_MAX(IntPtr l) {
+																																																																																			System.Int32 v;
+																																																																																			checkType(l,2,out v);
+																																																																																			LeanTween.EVENTS_MAX=v;
+																																																																																			LISTENERS_MAX
+																																																																																			set_LISTENERS_MAX(IntPtr l) {
+																																																																																				System.Int32 v;
+																																																																																				checkType(l,2,out v);
+																																																																																				LeanTween.LISTENERS_MAX=v;
+																																																																																				get_maxSearch(IntPtr l) {
+																																																																																					get_tweensRunning(IntPtr l) {
+																																																																																						get_tweenEmpty(IntPtr l) {
+																																																																																								]
+																																																																																						}
+

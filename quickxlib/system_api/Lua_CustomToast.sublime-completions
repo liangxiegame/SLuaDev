@@ -1,0 +1,18 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "CustomToast:SetStr(Public, HideBySig)","contents": "CustomToast:SetStr(Public, HideBySig)"},
+
+	CustomToast self=(CustomToast)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	self.SetStr(a1);
+			{ "trigger": "CustomToast.Create(Public, Static, HideBySig)","contents": "CustomToast.Create(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=CustomToast.Create(a1);
+		]
+}
+

@@ -1,0 +1,132 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.AnimationPlayable()()","contents": "UnityEngine.Experimental.Director.AnimationPlayable()()"},
+
+			{ "trigger": "AnimationPlayable:Destroy(Public, HideBySig)","contents": "AnimationPlayable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationPlayable self;
+	checkValueType(l,1,out self);
+	self.Destroy();
+			{ "trigger": "AnimationPlayable:AddInput(Public, HideBySig)","contents": "AnimationPlayable:AddInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationPlayable self;
+	checkValueType(l,1,out self);
+	UnityEngine.Experimental.Director.Playable a1;
+	checkValueType(l,2,out a1);
+	var ret=self.AddInput(a1);
+			{ "trigger": "AnimationPlayable:SetInput(Public, HideBySig)","contents": "AnimationPlayable:SetInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationPlayable self;
+	checkValueType(l,1,out self);
+	UnityEngine.Experimental.Director.Playable a1;
+	checkValueType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	var ret=self.SetInput(a1,a2);
+			{ "trigger": "AnimationPlayable:SetInputs(Public, HideBySig)","contents": "AnimationPlayable:SetInputs(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.AnimationPlayable self;
+	checkValueType(l,1,out self);
+	System.Collections.Generic.IEnumerable<UnityEngine.Experimental.Director.Playable> a1;
+	checkType(l,2,out a1);
+	var ret=self.SetInputs(a1);
+			{ "trigger": "AnimationPlayable:RemoveInput(Public, HideBySig)","contents": "AnimationPlayable:RemoveInput(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,UnityEngine.Experimental.Director.Playable)){
+		UnityEngine.Experimental.Director.AnimationPlayable self;
+		checkValueType(l,1,out self);
+		UnityEngine.Experimental.Director.Playable a1;
+		checkValueType(l,2,out a1);
+		var ret=self.RemoveInput(a1);
+		else if(matchType(l,argc,2,int)){
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.RemoveInput(a1);
+					{ "trigger": "AnimationPlayable:RemoveAllInputs(Public, HideBySig)","contents": "AnimationPlayable:RemoveAllInputs(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			var ret=self.RemoveAllInputs();
+					{ "trigger": "AnimationPlayable:IsValid(Public, HideBySig)","contents": "AnimationPlayable:IsValid(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			var ret=self.IsValid();
+					{ "trigger": "AnimationPlayable:GetInput(Public, HideBySig)","contents": "AnimationPlayable:GetInput(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.GetInput(a1);
+					{ "trigger": "AnimationPlayable:GetOutput(Public, HideBySig)","contents": "AnimationPlayable:GetOutput(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.GetOutput(a1);
+					{ "trigger": "AnimationPlayable:GetInputWeight(Public, HideBySig)","contents": "AnimationPlayable:GetInputWeight(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.GetInputWeight(a1);
+					{ "trigger": "AnimationPlayable:SetInputWeight(Public, HideBySig)","contents": "AnimationPlayable:SetInputWeight(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			self.SetInputWeight(a1,a2);
+					{ "trigger": "AnimationPlayable.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "AnimationPlayable.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Experimental.Director.Playable a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1==a2);
+					{ "trigger": "AnimationPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "AnimationPlayable.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+			UnityEngine.Experimental.Director.AnimationPlayable a1;
+			checkValueType(l,1,out a1);
+			UnityEngine.Experimental.Director.Playable a2;
+			checkValueType(l,2,out a2);
+			var ret=(a1!=a2);
+			get_Null(IntPtr l) {
+				get_inputCount(IntPtr l) {
+					get_outputCount(IntPtr l) {
+						get_state(IntPtr l) {
+							set_state(IntPtr l) {
+								UnityEngine.Experimental.Director.AnimationPlayable self;
+								checkValueType(l,1,out self);
+								UnityEngine.Experimental.Director.PlayState v;
+								checkEnum(l,2,out v);
+								self.state=v;
+								setBack(l,self);
+								get_time(IntPtr l) {
+									set_time(IntPtr l) {
+										UnityEngine.Experimental.Director.AnimationPlayable self;
+										checkValueType(l,1,out self);
+										double v;
+										checkType(l,2,out v);
+										self.time=v;
+										setBack(l,self);
+										get_duration(IntPtr l) {
+											set_duration(IntPtr l) {
+												UnityEngine.Experimental.Director.AnimationPlayable self;
+												checkValueType(l,1,out self);
+												double v;
+												checkType(l,2,out v);
+												self.duration=v;
+												setBack(l,self);
+													]
+											}
+

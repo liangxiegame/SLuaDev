@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightmapsModeLegacy");
+	addMember(l,0,"Single");
+	addMember(l,1,"Dual");
+	addMember(l,2,"Directional");
+		]
+}
+

@@ -1,0 +1,32 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LayerMask()()","contents": "UnityEngine.LayerMask()()"},
+
+			{ "trigger": "LayerMask.LayerToName(Public, Static, HideBySig)","contents": "LayerMask.LayerToName(Public, Static, HideBySig)"},
+
+	System.Int32 a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.LayerMask.LayerToName(a1);
+			{ "trigger": "LayerMask.NameToLayer(Public, Static, HideBySig)","contents": "LayerMask.NameToLayer(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.LayerMask.NameToLayer(a1);
+			{ "trigger": "LayerMask.GetMask(Public, Static, HideBySig)","contents": "LayerMask.GetMask(Public, Static, HideBySig)"},
+
+	System.String[] a1;
+	checkParams(l,1,out a1);
+	var ret=UnityEngine.LayerMask.GetMask(a1);
+	get_value(IntPtr l) {
+		set_value(IntPtr l) {
+			UnityEngine.LayerMask self;
+			checkValueType(l,1,out self);
+			int v;
+			checkType(l,2,out v);
+			self.value=v;
+			setBack(l,self);
+				]
+		}
+

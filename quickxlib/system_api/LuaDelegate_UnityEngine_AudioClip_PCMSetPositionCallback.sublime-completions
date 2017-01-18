@@ -1,0 +1,8 @@
+﻿
+UnityEngine.AudioClip.PCMSetPositionCallback 
+                ua = (UnityEngine.AudioClip.PCMSetPositionCallback)checkObj(l, p);
+                ua = (UnityEngine.AudioClip.PCMSetPositionCallback)ld.d;
+            ua = (int a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemInheritVelocityMode");
+	addMember(l,0,"Initial");
+	addMember(l,1,"Current");
+		]
+}
+

@@ -1,0 +1,45 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.PlatformEffector2D()()","contents": "UnityEngine.PlatformEffector2D()()"},
+
+	get_useOneWay(IntPtr l) {
+		set_useOneWay(IntPtr l) {
+			UnityEngine.PlatformEffector2D self=(UnityEngine.PlatformEffector2D)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.useOneWay=v;
+			get_useOneWayGrouping(IntPtr l) {
+				set_useOneWayGrouping(IntPtr l) {
+					UnityEngine.PlatformEffector2D self=(UnityEngine.PlatformEffector2D)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.useOneWayGrouping=v;
+					get_useSideFriction(IntPtr l) {
+						set_useSideFriction(IntPtr l) {
+							UnityEngine.PlatformEffector2D self=(UnityEngine.PlatformEffector2D)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.useSideFriction=v;
+							get_useSideBounce(IntPtr l) {
+								set_useSideBounce(IntPtr l) {
+									UnityEngine.PlatformEffector2D self=(UnityEngine.PlatformEffector2D)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.useSideBounce=v;
+									get_surfaceArc(IntPtr l) {
+										set_surfaceArc(IntPtr l) {
+											UnityEngine.PlatformEffector2D self=(UnityEngine.PlatformEffector2D)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.surfaceArc=v;
+											get_sideArc(IntPtr l) {
+												set_sideArc(IntPtr l) {
+													UnityEngine.PlatformEffector2D self=(UnityEngine.PlatformEffector2D)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.sideArc=v;
+														]
+												}
+

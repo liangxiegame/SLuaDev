@@ -1,0 +1,56 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.OffMeshLink()()","contents": "UnityEngine.OffMeshLink()()"},
+
+			{ "trigger": "OffMeshLink:UpdatePositions(Public, HideBySig)","contents": "OffMeshLink:UpdatePositions(Public, HideBySig)"},
+
+	UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+	self.UpdatePositions();
+	get_activated(IntPtr l) {
+		set_activated(IntPtr l) {
+			UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.activated=v;
+			get_occupied(IntPtr l) {
+				get_costOverride(IntPtr l) {
+					set_costOverride(IntPtr l) {
+						UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+						float v;
+						checkType(l,2,out v);
+						self.costOverride=v;
+						get_biDirectional(IntPtr l) {
+							set_biDirectional(IntPtr l) {
+								UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+								bool v;
+								checkType(l,2,out v);
+								self.biDirectional=v;
+								get_area(IntPtr l) {
+									set_area(IntPtr l) {
+										UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+										int v;
+										checkType(l,2,out v);
+										self.area=v;
+										get_autoUpdatePositions(IntPtr l) {
+											set_autoUpdatePositions(IntPtr l) {
+												UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+												bool v;
+												checkType(l,2,out v);
+												self.autoUpdatePositions=v;
+												get_startTransform(IntPtr l) {
+													set_startTransform(IntPtr l) {
+														UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+														UnityEngine.Transform v;
+														checkType(l,2,out v);
+														self.startTransform=v;
+														get_endTransform(IntPtr l) {
+															set_endTransform(IntPtr l) {
+																UnityEngine.OffMeshLink self=(UnityEngine.OffMeshLink)checkSelf(l);
+																UnityEngine.Transform v;
+																checkType(l,2,out v);
+																self.endTransform=v;
+																	]
+															}
+

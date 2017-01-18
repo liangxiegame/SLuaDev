@@ -1,0 +1,57 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.RotationBySpeedModule()()","contents": "UnityEngine.ParticleSystem.RotationBySpeedModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.RotationBySpeedModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_x(IntPtr l) {
+				set_x(IntPtr l) {
+					UnityEngine.ParticleSystem.RotationBySpeedModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystem.MinMaxCurve v;
+					checkValueType(l,2,out v);
+					self.x=v;
+					setBack(l,self);
+					get_y(IntPtr l) {
+						set_y(IntPtr l) {
+							UnityEngine.ParticleSystem.RotationBySpeedModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystem.MinMaxCurve v;
+							checkValueType(l,2,out v);
+							self.y=v;
+							setBack(l,self);
+							get_z(IntPtr l) {
+								set_z(IntPtr l) {
+									UnityEngine.ParticleSystem.RotationBySpeedModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystem.MinMaxCurve v;
+									checkValueType(l,2,out v);
+									self.z=v;
+									setBack(l,self);
+									get_separateAxes(IntPtr l) {
+										set_separateAxes(IntPtr l) {
+											UnityEngine.ParticleSystem.RotationBySpeedModule self;
+											checkValueType(l,1,out self);
+											bool v;
+											checkType(l,2,out v);
+											self.separateAxes=v;
+											setBack(l,self);
+											get_range(IntPtr l) {
+												set_range(IntPtr l) {
+													UnityEngine.ParticleSystem.RotationBySpeedModule self;
+													checkValueType(l,1,out self);
+													UnityEngine.Vector2 v;
+													checkType(l,2,out v);
+													self.range=v;
+													setBack(l,self);
+														]
+												}
+

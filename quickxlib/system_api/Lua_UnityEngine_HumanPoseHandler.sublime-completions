@@ -1,0 +1,29 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.Avatar a1;
+	checkType(l,2,out a1);
+	UnityEngine.Transform a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.HumanPoseHandler()()","contents": "UnityEngine.HumanPoseHandler()()"},
+
+			{ "trigger": "HumanPoseHandler:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "HumanPoseHandler:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.HumanPoseHandler self=(UnityEngine.HumanPoseHandler)checkSelf(l);
+	self.Dispose();
+			{ "trigger": "HumanPoseHandler:GetHumanPose(Public, HideBySig)","contents": "HumanPoseHandler:GetHumanPose(Public, HideBySig)"},
+
+	UnityEngine.HumanPoseHandler self=(UnityEngine.HumanPoseHandler)checkSelf(l);
+	UnityEngine.HumanPose a1;
+	checkValueType(l,2,out a1);
+	self.GetHumanPose(ref a1);
+			{ "trigger": "HumanPoseHandler:SetHumanPose(Public, HideBySig)","contents": "HumanPoseHandler:SetHumanPose(Public, HideBySig)"},
+
+	UnityEngine.HumanPoseHandler self=(UnityEngine.HumanPoseHandler)checkSelf(l);
+	UnityEngine.HumanPose a1;
+	checkValueType(l,2,out a1);
+	self.SetHumanPose(ref a1);
+		]
+}
+

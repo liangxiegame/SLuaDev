@@ -1,0 +1,18 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.EventSystems.EventSystem a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.EventSystems.BaseEventData()()","contents": "UnityEngine.EventSystems.BaseEventData()()"},
+
+	get_currentInputModule(IntPtr l) {
+		get_selectedObject(IntPtr l) {
+			set_selectedObject(IntPtr l) {
+				UnityEngine.EventSystems.BaseEventData self=(UnityEngine.EventSystems.BaseEventData)checkSelf(l);
+				UnityEngine.GameObject v;
+				checkType(l,2,out v);
+				self.selectedObject=v;
+					]
+			}
+

@@ -1,0 +1,37 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.TrailRenderer()()","contents": "UnityEngine.TrailRenderer()()"},
+
+			{ "trigger": "TrailRenderer:Clear(Public, HideBySig)","contents": "TrailRenderer:Clear(Public, HideBySig)"},
+
+	UnityEngine.TrailRenderer self=(UnityEngine.TrailRenderer)checkSelf(l);
+	self.Clear();
+	get_time(IntPtr l) {
+		set_time(IntPtr l) {
+			UnityEngine.TrailRenderer self=(UnityEngine.TrailRenderer)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.time=v;
+			get_startWidth(IntPtr l) {
+				set_startWidth(IntPtr l) {
+					UnityEngine.TrailRenderer self=(UnityEngine.TrailRenderer)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.startWidth=v;
+					get_endWidth(IntPtr l) {
+						set_endWidth(IntPtr l) {
+							UnityEngine.TrailRenderer self=(UnityEngine.TrailRenderer)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.endWidth=v;
+							get_autodestruct(IntPtr l) {
+								set_autodestruct(IntPtr l) {
+									UnityEngine.TrailRenderer self=(UnityEngine.TrailRenderer)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.autodestruct=v;
+										]
+								}
+

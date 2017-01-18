@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemMeshShapeType");
+	addMember(l,0,"Vertex");
+	addMember(l,1,"Edge");
+	addMember(l,2,"Triangle");
+		]
+}
+

@@ -1,0 +1,59 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RaycastHit2D()()","contents": "UnityEngine.RaycastHit2D()()"},
+
+			{ "trigger": "RaycastHit2D:CompareTo(Public, HideBySig)","contents": "RaycastHit2D:CompareTo(Public, HideBySig)"},
+
+	UnityEngine.RaycastHit2D self;
+	checkValueType(l,1,out self);
+	UnityEngine.RaycastHit2D a1;
+	checkValueType(l,2,out a1);
+	var ret=self.CompareTo(a1);
+	get_centroid(IntPtr l) {
+		set_centroid(IntPtr l) {
+			UnityEngine.RaycastHit2D self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.centroid=v;
+			setBack(l,self);
+			get_point(IntPtr l) {
+				set_point(IntPtr l) {
+					UnityEngine.RaycastHit2D self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.point=v;
+					setBack(l,self);
+					get_normal(IntPtr l) {
+						set_normal(IntPtr l) {
+							UnityEngine.RaycastHit2D self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector2 v;
+							checkType(l,2,out v);
+							self.normal=v;
+							setBack(l,self);
+							get_distance(IntPtr l) {
+								set_distance(IntPtr l) {
+									UnityEngine.RaycastHit2D self;
+									checkValueType(l,1,out self);
+									float v;
+									checkType(l,2,out v);
+									self.distance=v;
+									setBack(l,self);
+									get_fraction(IntPtr l) {
+										set_fraction(IntPtr l) {
+											UnityEngine.RaycastHit2D self;
+											checkValueType(l,1,out self);
+											float v;
+											checkType(l,2,out v);
+											self.fraction=v;
+											setBack(l,self);
+											get_collider(IntPtr l) {
+												get_rigidbody(IntPtr l) {
+													get_transform(IntPtr l) {
+															]
+													}
+

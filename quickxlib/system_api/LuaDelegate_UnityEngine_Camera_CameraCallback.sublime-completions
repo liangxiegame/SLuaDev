@@ -1,0 +1,8 @@
+﻿
+UnityEngine.Camera.CameraCallback 
+                ua = (UnityEngine.Camera.CameraCallback)checkObj(l, p);
+                ua = (UnityEngine.Camera.CameraCallback)ld.d;
+            ua = (UnityEngine.Camera a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

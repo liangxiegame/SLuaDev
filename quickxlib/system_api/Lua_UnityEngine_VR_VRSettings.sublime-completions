@@ -1,0 +1,41 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "VRSettings.LoadDeviceByName(Public, Static, HideBySig)","contents": "VRSettings.LoadDeviceByName(Public, Static, HideBySig)"},
+
+	if(matchType(l,argc,1,System.String[])){
+		System.String[] a1;
+		checkArray(l,1,out a1);
+		UnityEngine.VR.VRSettings.LoadDeviceByName(a1);
+		else if(matchType(l,argc,1,string)){
+			System.String a1;
+			checkType(l,1,out a1);
+			UnityEngine.VR.VRSettings.LoadDeviceByName(a1);
+			get_enabled(IntPtr l) {
+				set_enabled(IntPtr l) {
+					bool v;
+					checkType(l,2,out v);
+					UnityEngine.VR.VRSettings.enabled=v;
+					get_showDeviceView(IntPtr l) {
+						set_showDeviceView(IntPtr l) {
+							bool v;
+							checkType(l,2,out v);
+							UnityEngine.VR.VRSettings.showDeviceView=v;
+							get_renderScale(IntPtr l) {
+								set_renderScale(IntPtr l) {
+									float v;
+									checkType(l,2,out v);
+									UnityEngine.VR.VRSettings.renderScale=v;
+									get_eyeTextureWidth(IntPtr l) {
+										get_eyeTextureHeight(IntPtr l) {
+											get_renderViewportScale(IntPtr l) {
+												set_renderViewportScale(IntPtr l) {
+													float v;
+													checkType(l,2,out v);
+													UnityEngine.VR.VRSettings.renderViewportScale=v;
+													get_loadedDeviceName(IntPtr l) {
+														get_supportedDevices(IntPtr l) {
+																]
+														}
+

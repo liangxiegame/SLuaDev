@@ -1,0 +1,26 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LightProbes()()","contents": "UnityEngine.LightProbes()()"},
+
+			{ "trigger": "LightProbes.GetInterpolatedProbe(Public, Static, HideBySig)","contents": "LightProbes.GetInterpolatedProbe(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Renderer a2;
+	checkType(l,2,out a2);
+	UnityEngine.Rendering.SphericalHarmonicsL2 a3;
+	UnityEngine.LightProbes.GetInterpolatedProbe(a1,a2,out a3);
+	get_positions(IntPtr l) {
+		get_bakedProbes(IntPtr l) {
+			set_bakedProbes(IntPtr l) {
+				UnityEngine.LightProbes self=(UnityEngine.LightProbes)checkSelf(l);
+				UnityEngine.Rendering.SphericalHarmonicsL2[] v;
+				checkArray(l,2,out v);
+				self.bakedProbes=v;
+				get_count(IntPtr l) {
+					get_cellCount(IntPtr l) {
+							]
+					}
+

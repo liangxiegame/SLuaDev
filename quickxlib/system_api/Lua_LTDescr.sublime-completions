@@ -1,0 +1,693 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "LTDescr()()","contents": "LTDescr()()"},
+
+			{ "trigger": "LTDescr:reset(Public, HideBySig)","contents": "LTDescr:reset(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	self.reset();
+			{ "trigger": "LTDescr:cleanup(Public, HideBySig)","contents": "LTDescr:cleanup(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	self.cleanup();
+			{ "trigger": "LTDescr:init(Public, HideBySig)","contents": "LTDescr:init(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	self.init();
+			{ "trigger": "LTDescr:setFromColor(Public, HideBySig)","contents": "LTDescr:setFromColor(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	UnityEngine.Color a1;
+	checkType(l,2,out a1);
+	var ret=self.setFromColor(a1);
+			{ "trigger": "LTDescr:pause(Public, HideBySig)","contents": "LTDescr:pause(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	var ret=self.pause();
+			{ "trigger": "LTDescr:resume(Public, HideBySig)","contents": "LTDescr:resume(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	var ret=self.resume();
+			{ "trigger": "LTDescr:setAxis(Public, HideBySig)","contents": "LTDescr:setAxis(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	var ret=self.setAxis(a1);
+			{ "trigger": "LTDescr:setDelay(Public, HideBySig)","contents": "LTDescr:setDelay(Public, HideBySig)"},
+
+	LTDescr self=(LTDescr)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	var ret=self.setDelay(a1);
+			{ "trigger": "LTDescr:setEase(Public, HideBySig)","contents": "LTDescr:setEase(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,UnityEngine.AnimationCurve)){
+		LTDescr self=(LTDescr)checkSelf(l);
+		UnityEngine.AnimationCurve a1;
+		checkType(l,2,out a1);
+		var ret=self.setEase(a1);
+		else if(matchType(l,argc,2,LeanTweenType)){
+			LTDescr self=(LTDescr)checkSelf(l);
+			LeanTweenType a1;
+			checkEnum(l,2,out a1);
+			var ret=self.setEase(a1);
+					{ "trigger": "LTDescr:setOvershoot(Public, HideBySig)","contents": "LTDescr:setOvershoot(Public, HideBySig)"},
+
+			LTDescr self=(LTDescr)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			var ret=self.setOvershoot(a1);
+					{ "trigger": "LTDescr:setPeriod(Public, HideBySig)","contents": "LTDescr:setPeriod(Public, HideBySig)"},
+
+			LTDescr self=(LTDescr)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			var ret=self.setPeriod(a1);
+					{ "trigger": "LTDescr:setTo(Public, HideBySig)","contents": "LTDescr:setTo(Public, HideBySig)"},
+
+			if(matchType(l,argc,2,UnityEngine.Transform)){
+				LTDescr self=(LTDescr)checkSelf(l);
+				UnityEngine.Transform a1;
+				checkType(l,2,out a1);
+				var ret=self.setTo(a1);
+				else if(matchType(l,argc,2,UnityEngine.Vector3)){
+					LTDescr self=(LTDescr)checkSelf(l);
+					UnityEngine.Vector3 a1;
+					checkType(l,2,out a1);
+					var ret=self.setTo(a1);
+							{ "trigger": "LTDescr:setFrom(Public, HideBySig)","contents": "LTDescr:setFrom(Public, HideBySig)"},
+
+					if(matchType(l,argc,2,float)){
+						LTDescr self=(LTDescr)checkSelf(l);
+						System.Single a1;
+						checkType(l,2,out a1);
+						var ret=self.setFrom(a1);
+						else if(matchType(l,argc,2,UnityEngine.Vector3)){
+							LTDescr self=(LTDescr)checkSelf(l);
+							UnityEngine.Vector3 a1;
+							checkType(l,2,out a1);
+							var ret=self.setFrom(a1);
+									{ "trigger": "LTDescr:setDiff(Public, HideBySig)","contents": "LTDescr:setDiff(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							UnityEngine.Vector3 a1;
+							checkType(l,2,out a1);
+							var ret=self.setDiff(a1);
+									{ "trigger": "LTDescr:setHasInitialized(Public, HideBySig)","contents": "LTDescr:setHasInitialized(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							var ret=self.setHasInitialized(a1);
+									{ "trigger": "LTDescr:setId(Public, HideBySig)","contents": "LTDescr:setId(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.UInt32 a1;
+							checkType(l,2,out a1);
+							var ret=self.setId(a1);
+									{ "trigger": "LTDescr:setTime(Public, HideBySig)","contents": "LTDescr:setTime(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Single a1;
+							checkType(l,2,out a1);
+							var ret=self.setTime(a1);
+									{ "trigger": "LTDescr:setRepeat(Public, HideBySig)","contents": "LTDescr:setRepeat(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Int32 a1;
+							checkType(l,2,out a1);
+							var ret=self.setRepeat(a1);
+									{ "trigger": "LTDescr:setLoopType(Public, HideBySig)","contents": "LTDescr:setLoopType(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							LeanTweenType a1;
+							checkEnum(l,2,out a1);
+							var ret=self.setLoopType(a1);
+									{ "trigger": "LTDescr:setUseEstimatedTime(Public, HideBySig)","contents": "LTDescr:setUseEstimatedTime(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							var ret=self.setUseEstimatedTime(a1);
+									{ "trigger": "LTDescr:setIgnoreTimeScale(Public, HideBySig)","contents": "LTDescr:setIgnoreTimeScale(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							var ret=self.setIgnoreTimeScale(a1);
+									{ "trigger": "LTDescr:setUseFrames(Public, HideBySig)","contents": "LTDescr:setUseFrames(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							var ret=self.setUseFrames(a1);
+									{ "trigger": "LTDescr:setUseManualTime(Public, HideBySig)","contents": "LTDescr:setUseManualTime(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							var ret=self.setUseManualTime(a1);
+									{ "trigger": "LTDescr:setLoopCount(Public, HideBySig)","contents": "LTDescr:setLoopCount(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							System.Int32 a1;
+							checkType(l,2,out a1);
+							var ret=self.setLoopCount(a1);
+									{ "trigger": "LTDescr:setLoopOnce(Public, HideBySig)","contents": "LTDescr:setLoopOnce(Public, HideBySig)"},
+
+							LTDescr self=(LTDescr)checkSelf(l);
+							var ret=self.setLoopOnce();
+									{ "trigger": "LTDescr:setLoopClamp(Public, HideBySig)","contents": "LTDescr:setLoopClamp(Public, HideBySig)"},
+
+							if(argc==1){
+								LTDescr self=(LTDescr)checkSelf(l);
+								var ret=self.setLoopClamp();
+								else if(argc==2){
+									LTDescr self=(LTDescr)checkSelf(l);
+									System.Int32 a1;
+									checkType(l,2,out a1);
+									var ret=self.setLoopClamp(a1);
+											{ "trigger": "LTDescr:setLoopPingPong(Public, HideBySig)","contents": "LTDescr:setLoopPingPong(Public, HideBySig)"},
+
+									if(argc==1){
+										LTDescr self=(LTDescr)checkSelf(l);
+										var ret=self.setLoopPingPong();
+										else if(argc==2){
+											LTDescr self=(LTDescr)checkSelf(l);
+											System.Int32 a1;
+											checkType(l,2,out a1);
+											var ret=self.setLoopPingPong(a1);
+													{ "trigger": "LTDescr:setOnComplete(Public, HideBySig)","contents": "LTDescr:setOnComplete(Public, HideBySig)"},
+
+											if(matchType(l,argc,2,System.Action<System.Object>)){
+												LTDescr self=(LTDescr)checkSelf(l);
+												System.Action<System.Object> a1;
+												LuaDelegation.checkDelegate(l,2,out a1);
+												var ret=self.setOnComplete(a1);
+												else if(matchType(l,argc,2,System.Action)){
+													LTDescr self=(LTDescr)checkSelf(l);
+													System.Action a1;
+													LuaDelegation.checkDelegate(l,2,out a1);
+													var ret=self.setOnComplete(a1);
+													else if(argc==3){
+														LTDescr self=(LTDescr)checkSelf(l);
+														System.Action<System.Object> a1;
+														LuaDelegation.checkDelegate(l,2,out a1);
+														System.Object a2;
+														checkType(l,3,out a2);
+														var ret=self.setOnComplete(a1,a2);
+																{ "trigger": "LTDescr:setOnCompleteParam(Public, HideBySig)","contents": "LTDescr:setOnCompleteParam(Public, HideBySig)"},
+
+														LTDescr self=(LTDescr)checkSelf(l);
+														System.Object a1;
+														checkType(l,2,out a1);
+														var ret=self.setOnCompleteParam(a1);
+																{ "trigger": "LTDescr:setOnUpdate(Public, HideBySig)","contents": "LTDescr:setOnUpdate(Public, HideBySig)"},
+
+														if(matchType(l,argc,2,System.Action<UnityEngine.Color>)){
+															LTDescr self=(LTDescr)checkSelf(l);
+															System.Action<UnityEngine.Color> a1;
+															LuaDelegation.checkDelegate(l,2,out a1);
+															var ret=self.setOnUpdate(a1);
+															else if(matchType(l,argc,2,System.Action<System.Single>)){
+																LTDescr self=(LTDescr)checkSelf(l);
+																System.Action<System.Single> a1;
+																LuaDelegation.checkDelegate(l,2,out a1);
+																var ret=self.setOnUpdate(a1);
+																else if(matchType(l,argc,2,System.Action<UnityEngine.Vector2>,System.Object)){
+																	LTDescr self=(LTDescr)checkSelf(l);
+																	System.Action<UnityEngine.Vector2> a1;
+																	LuaDelegation.checkDelegate(l,2,out a1);
+																	System.Object a2;
+																	checkType(l,3,out a2);
+																	var ret=self.setOnUpdate(a1,a2);
+																	else if(matchType(l,argc,2,System.Action<UnityEngine.Vector3>,System.Object)){
+																		LTDescr self=(LTDescr)checkSelf(l);
+																		System.Action<UnityEngine.Vector3> a1;
+																		LuaDelegation.checkDelegate(l,2,out a1);
+																		System.Object a2;
+																		checkType(l,3,out a2);
+																		var ret=self.setOnUpdate(a1,a2);
+																		else if(matchType(l,argc,2,System.Action<System.Single,System.Object>,System.Object)){
+																			LTDescr self=(LTDescr)checkSelf(l);
+																			System.Action<System.Single,System.Object> a1;
+																			LuaDelegation.checkDelegate(l,2,out a1);
+																			System.Object a2;
+																			checkType(l,3,out a2);
+																			var ret=self.setOnUpdate(a1,a2);
+																			else if(matchType(l,argc,2,System.Action<UnityEngine.Vector3,System.Object>,System.Object)){
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Action<UnityEngine.Vector3,System.Object> a1;
+																				LuaDelegation.checkDelegate(l,2,out a1);
+																				System.Object a2;
+																				checkType(l,3,out a2);
+																				var ret=self.setOnUpdate(a1,a2);
+																						{ "trigger": "LTDescr:setOnUpdateRatio(Public, HideBySig)","contents": "LTDescr:setOnUpdateRatio(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Action<System.Single,System.Single> a1;
+																				LuaDelegation.checkDelegate(l,2,out a1);
+																				var ret=self.setOnUpdateRatio(a1);
+																						{ "trigger": "LTDescr:setOnUpdateObject(Public, HideBySig)","contents": "LTDescr:setOnUpdateObject(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Action<System.Single,System.Object> a1;
+																				LuaDelegation.checkDelegate(l,2,out a1);
+																				var ret=self.setOnUpdateObject(a1);
+																						{ "trigger": "LTDescr:setOnUpdateVector2(Public, HideBySig)","contents": "LTDescr:setOnUpdateVector2(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Action<UnityEngine.Vector2> a1;
+																				LuaDelegation.checkDelegate(l,2,out a1);
+																				var ret=self.setOnUpdateVector2(a1);
+																						{ "trigger": "LTDescr:setOnUpdateVector3(Public, HideBySig)","contents": "LTDescr:setOnUpdateVector3(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Action<UnityEngine.Vector3> a1;
+																				LuaDelegation.checkDelegate(l,2,out a1);
+																				var ret=self.setOnUpdateVector3(a1);
+																						{ "trigger": "LTDescr:setOnUpdateColor(Public, HideBySig)","contents": "LTDescr:setOnUpdateColor(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Action<UnityEngine.Color> a1;
+																				LuaDelegation.checkDelegate(l,2,out a1);
+																				var ret=self.setOnUpdateColor(a1);
+																						{ "trigger": "LTDescr:setOnUpdateParam(Public, HideBySig)","contents": "LTDescr:setOnUpdateParam(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Object a1;
+																				checkType(l,2,out a1);
+																				var ret=self.setOnUpdateParam(a1);
+																						{ "trigger": "LTDescr:setOrientToPath(Public, HideBySig)","contents": "LTDescr:setOrientToPath(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Boolean a1;
+																				checkType(l,2,out a1);
+																				var ret=self.setOrientToPath(a1);
+																						{ "trigger": "LTDescr:setOrientToPath2d(Public, HideBySig)","contents": "LTDescr:setOrientToPath2d(Public, HideBySig)"},
+
+																				LTDescr self=(LTDescr)checkSelf(l);
+																				System.Boolean a1;
+																				checkType(l,2,out a1);
+																				var ret=self.setOrientToPath2d(a1);
+																						{ "trigger": "LTDescr:setRect(Public, HideBySig)","contents": "LTDescr:setRect(Public, HideBySig)"},
+
+																				if(matchType(l,argc,2,UnityEngine.RectTransform)){
+																					LTDescr self=(LTDescr)checkSelf(l);
+																					UnityEngine.RectTransform a1;
+																					checkType(l,2,out a1);
+																					var ret=self.setRect(a1);
+																					else if(matchType(l,argc,2,UnityEngine.Rect)){
+																						LTDescr self=(LTDescr)checkSelf(l);
+																						UnityEngine.Rect a1;
+																						checkValueType(l,2,out a1);
+																						var ret=self.setRect(a1);
+																						else if(matchType(l,argc,2,LTRect)){
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							LTRect a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setRect(a1);
+																									{ "trigger": "LTDescr:setPath(Public, HideBySig)","contents": "LTDescr:setPath(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							LTBezierPath a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setPath(a1);
+																									{ "trigger": "LTDescr:setPoint(Public, HideBySig)","contents": "LTDescr:setPoint(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							UnityEngine.Vector3 a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setPoint(a1);
+																									{ "trigger": "LTDescr:setDestroyOnComplete(Public, HideBySig)","contents": "LTDescr:setDestroyOnComplete(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Boolean a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setDestroyOnComplete(a1);
+																									{ "trigger": "LTDescr:setAudio(Public, HideBySig)","contents": "LTDescr:setAudio(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Object a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setAudio(a1);
+																									{ "trigger": "LTDescr:setOnCompleteOnRepeat(Public, HideBySig)","contents": "LTDescr:setOnCompleteOnRepeat(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Boolean a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setOnCompleteOnRepeat(a1);
+																									{ "trigger": "LTDescr:setOnCompleteOnStart(Public, HideBySig)","contents": "LTDescr:setOnCompleteOnStart(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Boolean a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setOnCompleteOnStart(a1);
+																									{ "trigger": "LTDescr:setSprites(Public, HideBySig)","contents": "LTDescr:setSprites(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							UnityEngine.Sprite[] a1;
+																							checkArray(l,2,out a1);
+																							var ret=self.setSprites(a1);
+																									{ "trigger": "LTDescr:setFrameRate(Public, HideBySig)","contents": "LTDescr:setFrameRate(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Single a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setFrameRate(a1);
+																									{ "trigger": "LTDescr:setOnStart(Public, HideBySig)","contents": "LTDescr:setOnStart(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Action a1;
+																							LuaDelegation.checkDelegate(l,2,out a1);
+																							var ret=self.setOnStart(a1);
+																									{ "trigger": "LTDescr:setDirection(Public, HideBySig)","contents": "LTDescr:setDirection(Public, HideBySig)"},
+
+																							LTDescr self=(LTDescr)checkSelf(l);
+																							System.Single a1;
+																							checkType(l,2,out a1);
+																							var ret=self.setDirection(a1);
+																							toggle
+																							set_toggle(IntPtr l) {
+																								LTDescr self=(LTDescr)checkSelf(l);
+																								System.Boolean v;
+																								checkType(l,2,out v);
+																								self.toggle=v;
+																								useEstimatedTime
+																								set_useEstimatedTime(IntPtr l) {
+																									LTDescr self=(LTDescr)checkSelf(l);
+																									System.Boolean v;
+																									checkType(l,2,out v);
+																									self.useEstimatedTime=v;
+																									useFrames
+																									set_useFrames(IntPtr l) {
+																										LTDescr self=(LTDescr)checkSelf(l);
+																										System.Boolean v;
+																										checkType(l,2,out v);
+																										self.useFrames=v;
+																										useManualTime
+																										set_useManualTime(IntPtr l) {
+																											LTDescr self=(LTDescr)checkSelf(l);
+																											System.Boolean v;
+																											checkType(l,2,out v);
+																											self.useManualTime=v;
+																											hasInitiliazed
+																											set_hasInitiliazed(IntPtr l) {
+																												LTDescr self=(LTDescr)checkSelf(l);
+																												System.Boolean v;
+																												checkType(l,2,out v);
+																												self.hasInitiliazed=v;
+																												hasPhysics
+																												set_hasPhysics(IntPtr l) {
+																													LTDescr self=(LTDescr)checkSelf(l);
+																													System.Boolean v;
+																													checkType(l,2,out v);
+																													self.hasPhysics=v;
+																													onCompleteOnRepeat
+																													set_onCompleteOnRepeat(IntPtr l) {
+																														LTDescr self=(LTDescr)checkSelf(l);
+																														System.Boolean v;
+																														checkType(l,2,out v);
+																														self.onCompleteOnRepeat=v;
+																														onCompleteOnStart
+																														set_onCompleteOnStart(IntPtr l) {
+																															LTDescr self=(LTDescr)checkSelf(l);
+																															System.Boolean v;
+																															checkType(l,2,out v);
+																															self.onCompleteOnStart=v;
+																															passed
+																															set_passed(IntPtr l) {
+																																LTDescr self=(LTDescr)checkSelf(l);
+																																System.Single v;
+																																checkType(l,2,out v);
+																																self.passed=v;
+																																delay
+																																set_delay(IntPtr l) {
+																																	LTDescr self=(LTDescr)checkSelf(l);
+																																	System.Single v;
+																																	checkType(l,2,out v);
+																																	self.delay=v;
+																																	time
+																																	set_time(IntPtr l) {
+																																		LTDescr self=(LTDescr)checkSelf(l);
+																																		System.Single v;
+																																		checkType(l,2,out v);
+																																		self.time=v;
+																																		lastVal
+																																		set_lastVal(IntPtr l) {
+																																			LTDescr self=(LTDescr)checkSelf(l);
+																																			System.Single v;
+																																			checkType(l,2,out v);
+																																			self.lastVal=v;
+																																			loopCount
+																																			set_loopCount(IntPtr l) {
+																																				LTDescr self=(LTDescr)checkSelf(l);
+																																				System.Int32 v;
+																																				checkType(l,2,out v);
+																																				self.loopCount=v;
+																																				counter
+																																				set_counter(IntPtr l) {
+																																					LTDescr self=(LTDescr)checkSelf(l);
+																																					System.UInt32 v;
+																																					checkType(l,2,out v);
+																																					self.counter=v;
+																																					direction
+																																					set_direction(IntPtr l) {
+																																						LTDescr self=(LTDescr)checkSelf(l);
+																																						System.Single v;
+																																						checkType(l,2,out v);
+																																						self.direction=v;
+																																						directionLast
+																																						set_directionLast(IntPtr l) {
+																																							LTDescr self=(LTDescr)checkSelf(l);
+																																							System.Single v;
+																																							checkType(l,2,out v);
+																																							self.directionLast=v;
+																																							overshoot
+																																							set_overshoot(IntPtr l) {
+																																								LTDescr self=(LTDescr)checkSelf(l);
+																																								System.Single v;
+																																								checkType(l,2,out v);
+																																								self.overshoot=v;
+																																								period
+																																								set_period(IntPtr l) {
+																																									LTDescr self=(LTDescr)checkSelf(l);
+																																									System.Single v;
+																																									checkType(l,2,out v);
+																																									self.period=v;
+																																									destroyOnComplete
+																																									set_destroyOnComplete(IntPtr l) {
+																																										LTDescr self=(LTDescr)checkSelf(l);
+																																										System.Boolean v;
+																																										checkType(l,2,out v);
+																																										self.destroyOnComplete=v;
+																																										trans
+																																										set_trans(IntPtr l) {
+																																											LTDescr self=(LTDescr)checkSelf(l);
+																																											UnityEngine.Transform v;
+																																											checkType(l,2,out v);
+																																											self.trans=v;
+																																											toTrans
+																																											set_toTrans(IntPtr l) {
+																																												LTDescr self=(LTDescr)checkSelf(l);
+																																												UnityEngine.Transform v;
+																																												checkType(l,2,out v);
+																																												self.toTrans=v;
+																																												ltRect
+																																												set_ltRect(IntPtr l) {
+																																													LTDescr self=(LTDescr)checkSelf(l);
+																																													LTRect v;
+																																													checkType(l,2,out v);
+																																													self.ltRect=v;
+																																													from
+																																													set_from(IntPtr l) {
+																																														LTDescr self=(LTDescr)checkSelf(l);
+																																														UnityEngine.Vector3 v;
+																																														checkType(l,2,out v);
+																																														self.from=v;
+																																														to
+																																														set_to(IntPtr l) {
+																																															LTDescr self=(LTDescr)checkSelf(l);
+																																															UnityEngine.Vector3 v;
+																																															checkType(l,2,out v);
+																																															self.to=v;
+																																															diff
+																																															set_diff(IntPtr l) {
+																																																LTDescr self=(LTDescr)checkSelf(l);
+																																																UnityEngine.Vector3 v;
+																																																checkType(l,2,out v);
+																																																self.diff=v;
+																																																point
+																																																set_point(IntPtr l) {
+																																																	LTDescr self=(LTDescr)checkSelf(l);
+																																																	UnityEngine.Vector3 v;
+																																																	checkType(l,2,out v);
+																																																	self.point=v;
+																																																	axis
+																																																	set_axis(IntPtr l) {
+																																																		LTDescr self=(LTDescr)checkSelf(l);
+																																																		UnityEngine.Vector3 v;
+																																																		checkType(l,2,out v);
+																																																		self.axis=v;
+																																																		origRotation
+																																																		set_origRotation(IntPtr l) {
+																																																			LTDescr self=(LTDescr)checkSelf(l);
+																																																			UnityEngine.Quaternion v;
+																																																			checkType(l,2,out v);
+																																																			self.origRotation=v;
+																																																			path
+																																																			set_path(IntPtr l) {
+																																																				LTDescr self=(LTDescr)checkSelf(l);
+																																																				LTBezierPath v;
+																																																				checkType(l,2,out v);
+																																																				self.path=v;
+																																																				spline
+																																																				set_spline(IntPtr l) {
+																																																					LTDescr self=(LTDescr)checkSelf(l);
+																																																					LTSpline v;
+																																																					checkType(l,2,out v);
+																																																					self.spline=v;
+																																																					type
+																																																					set_type(IntPtr l) {
+																																																						LTDescr self=(LTDescr)checkSelf(l);
+																																																						TweenAction v;
+																																																						checkEnum(l,2,out v);
+																																																						self.type=v;
+																																																						tweenType
+																																																						set_tweenType(IntPtr l) {
+																																																							LTDescr self=(LTDescr)checkSelf(l);
+																																																							LeanTweenType v;
+																																																							checkEnum(l,2,out v);
+																																																							self.tweenType=v;
+																																																							animationCurve
+																																																							set_animationCurve(IntPtr l) {
+																																																								LTDescr self=(LTDescr)checkSelf(l);
+																																																								UnityEngine.AnimationCurve v;
+																																																								checkType(l,2,out v);
+																																																								self.animationCurve=v;
+																																																								loopType
+																																																								set_loopType(IntPtr l) {
+																																																									LTDescr self=(LTDescr)checkSelf(l);
+																																																									LeanTweenType v;
+																																																									checkEnum(l,2,out v);
+																																																									self.loopType=v;
+																																																									hasUpdateCallback
+																																																									set_hasUpdateCallback(IntPtr l) {
+																																																										LTDescr self=(LTDescr)checkSelf(l);
+																																																										System.Boolean v;
+																																																										checkType(l,2,out v);
+																																																										self.hasUpdateCallback=v;
+																																																										set_onUpdateFloat(IntPtr l) {
+																																																											LTDescr self=(LTDescr)checkSelf(l);
+																																																											System.Action<System.Single> v;
+																																																											int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																											if(op==0) self.onUpdateFloat=v;
+																																																											else if(op==1) self.onUpdateFloat+=v;
+																																																											else if(op==2) self.onUpdateFloat-=v;
+																																																											set_onUpdateFloatRatio(IntPtr l) {
+																																																												LTDescr self=(LTDescr)checkSelf(l);
+																																																												System.Action<System.Single,System.Single> v;
+																																																												int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																												if(op==0) self.onUpdateFloatRatio=v;
+																																																												else if(op==1) self.onUpdateFloatRatio+=v;
+																																																												else if(op==2) self.onUpdateFloatRatio-=v;
+																																																												set_onUpdateFloatObject(IntPtr l) {
+																																																													LTDescr self=(LTDescr)checkSelf(l);
+																																																													System.Action<System.Single,System.Object> v;
+																																																													int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																													if(op==0) self.onUpdateFloatObject=v;
+																																																													else if(op==1) self.onUpdateFloatObject+=v;
+																																																													else if(op==2) self.onUpdateFloatObject-=v;
+																																																													set_onUpdateVector2(IntPtr l) {
+																																																														LTDescr self=(LTDescr)checkSelf(l);
+																																																														System.Action<UnityEngine.Vector2> v;
+																																																														int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																														if(op==0) self.onUpdateVector2=v;
+																																																														else if(op==1) self.onUpdateVector2+=v;
+																																																														else if(op==2) self.onUpdateVector2-=v;
+																																																														set_onUpdateVector3(IntPtr l) {
+																																																															LTDescr self=(LTDescr)checkSelf(l);
+																																																															System.Action<UnityEngine.Vector3> v;
+																																																															int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																															if(op==0) self.onUpdateVector3=v;
+																																																															else if(op==1) self.onUpdateVector3+=v;
+																																																															else if(op==2) self.onUpdateVector3-=v;
+																																																															set_onUpdateVector3Object(IntPtr l) {
+																																																																LTDescr self=(LTDescr)checkSelf(l);
+																																																																System.Action<UnityEngine.Vector3,System.Object> v;
+																																																																int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																																if(op==0) self.onUpdateVector3Object=v;
+																																																																else if(op==1) self.onUpdateVector3Object+=v;
+																																																																else if(op==2) self.onUpdateVector3Object-=v;
+																																																																set_onUpdateColor(IntPtr l) {
+																																																																	LTDescr self=(LTDescr)checkSelf(l);
+																																																																	System.Action<UnityEngine.Color> v;
+																																																																	int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																																	if(op==0) self.onUpdateColor=v;
+																																																																	else if(op==1) self.onUpdateColor+=v;
+																																																																	else if(op==2) self.onUpdateColor-=v;
+																																																																	set_onComplete(IntPtr l) {
+																																																																		LTDescr self=(LTDescr)checkSelf(l);
+																																																																		System.Action v;
+																																																																		int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																																		if(op==0) self.onComplete=v;
+																																																																		else if(op==1) self.onComplete+=v;
+																																																																		else if(op==2) self.onComplete-=v;
+																																																																		set_onCompleteObject(IntPtr l) {
+																																																																			LTDescr self=(LTDescr)checkSelf(l);
+																																																																			System.Action<System.Object> v;
+																																																																			int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																																			if(op==0) self.onCompleteObject=v;
+																																																																			else if(op==1) self.onCompleteObject+=v;
+																																																																			else if(op==2) self.onCompleteObject-=v;
+																																																																			onCompleteParam
+																																																																			set_onCompleteParam(IntPtr l) {
+																																																																				LTDescr self=(LTDescr)checkSelf(l);
+																																																																				System.Object v;
+																																																																				checkType(l,2,out v);
+																																																																				self.onCompleteParam=v;
+																																																																				onUpdateParam
+																																																																				set_onUpdateParam(IntPtr l) {
+																																																																					LTDescr self=(LTDescr)checkSelf(l);
+																																																																					System.Object v;
+																																																																					checkType(l,2,out v);
+																																																																					self.onUpdateParam=v;
+																																																																					set_onStart(IntPtr l) {
+																																																																						LTDescr self=(LTDescr)checkSelf(l);
+																																																																						System.Action v;
+																																																																						int op=LuaDelegation.checkDelegate(l,2,out v);
+																																																																						if(op==0) self.onStart=v;
+																																																																						else if(op==1) self.onStart+=v;
+																																																																						else if(op==2) self.onStart-=v;
+																																																																						rectTransform
+																																																																						set_rectTransform(IntPtr l) {
+																																																																							LTDescr self=(LTDescr)checkSelf(l);
+																																																																							UnityEngine.RectTransform v;
+																																																																							checkType(l,2,out v);
+																																																																							self.rectTransform=v;
+																																																																							uiText
+																																																																							set_uiText(IntPtr l) {
+																																																																								LTDescr self=(LTDescr)checkSelf(l);
+																																																																								UnityEngine.UI.Text v;
+																																																																								checkType(l,2,out v);
+																																																																								self.uiText=v;
+																																																																								uiImage
+																																																																								set_uiImage(IntPtr l) {
+																																																																									LTDescr self=(LTDescr)checkSelf(l);
+																																																																									UnityEngine.UI.Image v;
+																																																																									checkType(l,2,out v);
+																																																																									self.uiImage=v;
+																																																																									sprites
+																																																																									set_sprites(IntPtr l) {
+																																																																										LTDescr self=(LTDescr)checkSelf(l);
+																																																																										UnityEngine.Sprite[] v;
+																																																																										checkArray(l,2,out v);
+																																																																										self.sprites=v;
+																																																																										get_uniqueId(IntPtr l) {
+																																																																											get_id(IntPtr l) {
+																																																																													]
+																																																																											}
+

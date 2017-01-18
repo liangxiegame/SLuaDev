@@ -1,0 +1,65 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.SubEmittersModule()()","contents": "UnityEngine.ParticleSystem.SubEmittersModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.SubEmittersModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_birth0(IntPtr l) {
+				set_birth0(IntPtr l) {
+					UnityEngine.ParticleSystem.SubEmittersModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystem v;
+					checkType(l,2,out v);
+					self.birth0=v;
+					setBack(l,self);
+					get_birth1(IntPtr l) {
+						set_birth1(IntPtr l) {
+							UnityEngine.ParticleSystem.SubEmittersModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystem v;
+							checkType(l,2,out v);
+							self.birth1=v;
+							setBack(l,self);
+							get_collision0(IntPtr l) {
+								set_collision0(IntPtr l) {
+									UnityEngine.ParticleSystem.SubEmittersModule self;
+									checkValueType(l,1,out self);
+									UnityEngine.ParticleSystem v;
+									checkType(l,2,out v);
+									self.collision0=v;
+									setBack(l,self);
+									get_collision1(IntPtr l) {
+										set_collision1(IntPtr l) {
+											UnityEngine.ParticleSystem.SubEmittersModule self;
+											checkValueType(l,1,out self);
+											UnityEngine.ParticleSystem v;
+											checkType(l,2,out v);
+											self.collision1=v;
+											setBack(l,self);
+											get_death0(IntPtr l) {
+												set_death0(IntPtr l) {
+													UnityEngine.ParticleSystem.SubEmittersModule self;
+													checkValueType(l,1,out self);
+													UnityEngine.ParticleSystem v;
+													checkType(l,2,out v);
+													self.death0=v;
+													setBack(l,self);
+													get_death1(IntPtr l) {
+														set_death1(IntPtr l) {
+															UnityEngine.ParticleSystem.SubEmittersModule self;
+															checkValueType(l,1,out self);
+															UnityEngine.ParticleSystem v;
+															checkType(l,2,out v);
+															self.death1=v;
+															setBack(l,self);
+																]
+														}
+

@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.AnimatorRecorderMode");
+	addMember(l,0,"Offline");
+	addMember(l,1,"Playback");
+	addMember(l,2,"Record");
+		]
+}
+

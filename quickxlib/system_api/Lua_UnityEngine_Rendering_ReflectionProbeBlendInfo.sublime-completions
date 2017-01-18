@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Rendering.ReflectionProbeBlendInfo()()","contents": "UnityEngine.Rendering.ReflectionProbeBlendInfo()()"},
+
+	probe
+	set_probe(IntPtr l) {
+		UnityEngine.Rendering.ReflectionProbeBlendInfo self;
+		checkValueType(l,1,out self);
+		UnityEngine.ReflectionProbe v;
+		checkType(l,2,out v);
+		self.probe=v;
+		weight
+		set_weight(IntPtr l) {
+			UnityEngine.Rendering.ReflectionProbeBlendInfo self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.weight=v;
+				]
+		}
+

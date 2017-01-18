@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.ScrollRect.ScrollRectEvent()()","contents": "UnityEngine.UI.ScrollRect.ScrollRectEvent()()"},
+
+		]
+}
+

@@ -1,0 +1,245 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem()()","contents": "UnityEngine.ParticleSystem()()"},
+
+			{ "trigger": "ParticleSystem:SetParticles(Public, HideBySig)","contents": "ParticleSystem:SetParticles(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+	UnityEngine.ParticleSystem.Particle[] a1;
+	checkArray(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	self.SetParticles(a1,a2);
+			{ "trigger": "ParticleSystem:GetParticles(Public, HideBySig)","contents": "ParticleSystem:GetParticles(Public, HideBySig)"},
+
+	UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+	UnityEngine.ParticleSystem.Particle[] a1;
+	checkArray(l,2,out a1);
+	var ret=self.GetParticles(a1);
+			{ "trigger": "ParticleSystem:Simulate(Public, HideBySig)","contents": "ParticleSystem:Simulate(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+		System.Single a1;
+		checkType(l,2,out a1);
+		self.Simulate(a1);
+		else if(argc==3){
+			UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			System.Boolean a2;
+			checkType(l,3,out a2);
+			self.Simulate(a1,a2);
+			else if(argc==4){
+				UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+				System.Single a1;
+				checkType(l,2,out a1);
+				System.Boolean a2;
+				checkType(l,3,out a2);
+				System.Boolean a3;
+				checkType(l,4,out a3);
+				self.Simulate(a1,a2,a3);
+				else if(argc==5){
+					UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+					System.Single a1;
+					checkType(l,2,out a1);
+					System.Boolean a2;
+					checkType(l,3,out a2);
+					System.Boolean a3;
+					checkType(l,4,out a3);
+					System.Boolean a4;
+					checkType(l,5,out a4);
+					self.Simulate(a1,a2,a3,a4);
+							{ "trigger": "ParticleSystem:Play(Public, HideBySig)","contents": "ParticleSystem:Play(Public, HideBySig)"},
+
+					if(argc==1){
+						UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+						self.Play();
+						else if(argc==2){
+							UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+							System.Boolean a1;
+							checkType(l,2,out a1);
+							self.Play(a1);
+									{ "trigger": "ParticleSystem:Stop(Public, HideBySig)","contents": "ParticleSystem:Stop(Public, HideBySig)"},
+
+							if(argc==1){
+								UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+								self.Stop();
+								else if(argc==2){
+									UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+									System.Boolean a1;
+									checkType(l,2,out a1);
+									self.Stop(a1);
+											{ "trigger": "ParticleSystem:Pause(Public, HideBySig)","contents": "ParticleSystem:Pause(Public, HideBySig)"},
+
+									if(argc==1){
+										UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+										self.Pause();
+										else if(argc==2){
+											UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+											System.Boolean a1;
+											checkType(l,2,out a1);
+											self.Pause(a1);
+													{ "trigger": "ParticleSystem:Clear(Public, HideBySig)","contents": "ParticleSystem:Clear(Public, HideBySig)"},
+
+											if(argc==1){
+												UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+												self.Clear();
+												else if(argc==2){
+													UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+													System.Boolean a1;
+													checkType(l,2,out a1);
+													self.Clear(a1);
+															{ "trigger": "ParticleSystem:IsAlive(Public, HideBySig)","contents": "ParticleSystem:IsAlive(Public, HideBySig)"},
+
+													if(argc==1){
+														UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+														var ret=self.IsAlive();
+														else if(argc==2){
+															UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+															System.Boolean a1;
+															checkType(l,2,out a1);
+															var ret=self.IsAlive(a1);
+																	{ "trigger": "ParticleSystem:Emit(Public, HideBySig)","contents": "ParticleSystem:Emit(Public, HideBySig)"},
+
+															if(argc==2){
+																UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																System.Int32 a1;
+																checkType(l,2,out a1);
+																self.Emit(a1);
+																else if(argc==3){
+																	UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																	UnityEngine.ParticleSystem.EmitParams a1;
+																	checkValueType(l,2,out a1);
+																	System.Int32 a2;
+																	checkType(l,3,out a2);
+																	self.Emit(a1,a2);
+																	get_startDelay(IntPtr l) {
+																		set_startDelay(IntPtr l) {
+																			UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.startDelay=v;
+																			get_isPlaying(IntPtr l) {
+																				get_isStopped(IntPtr l) {
+																					get_isPaused(IntPtr l) {
+																						get_loop(IntPtr l) {
+																							set_loop(IntPtr l) {
+																								UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																								bool v;
+																								checkType(l,2,out v);
+																								self.loop=v;
+																								get_playOnAwake(IntPtr l) {
+																									set_playOnAwake(IntPtr l) {
+																										UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																										bool v;
+																										checkType(l,2,out v);
+																										self.playOnAwake=v;
+																										get_time(IntPtr l) {
+																											set_time(IntPtr l) {
+																												UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																												float v;
+																												checkType(l,2,out v);
+																												self.time=v;
+																												get_duration(IntPtr l) {
+																													get_playbackSpeed(IntPtr l) {
+																														set_playbackSpeed(IntPtr l) {
+																															UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																															float v;
+																															checkType(l,2,out v);
+																															self.playbackSpeed=v;
+																															get_particleCount(IntPtr l) {
+																																get_startSpeed(IntPtr l) {
+																																	set_startSpeed(IntPtr l) {
+																																		UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																		float v;
+																																		checkType(l,2,out v);
+																																		self.startSpeed=v;
+																																		get_startSize(IntPtr l) {
+																																			set_startSize(IntPtr l) {
+																																				UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																				float v;
+																																				checkType(l,2,out v);
+																																				self.startSize=v;
+																																				get_startColor(IntPtr l) {
+																																					set_startColor(IntPtr l) {
+																																						UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																						UnityEngine.Color v;
+																																						checkType(l,2,out v);
+																																						self.startColor=v;
+																																						get_startRotation(IntPtr l) {
+																																							set_startRotation(IntPtr l) {
+																																								UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																								float v;
+																																								checkType(l,2,out v);
+																																								self.startRotation=v;
+																																								get_startRotation3D(IntPtr l) {
+																																									set_startRotation3D(IntPtr l) {
+																																										UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																										UnityEngine.Vector3 v;
+																																										checkType(l,2,out v);
+																																										self.startRotation3D=v;
+																																										get_startLifetime(IntPtr l) {
+																																											set_startLifetime(IntPtr l) {
+																																												UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																												float v;
+																																												checkType(l,2,out v);
+																																												self.startLifetime=v;
+																																												get_gravityModifier(IntPtr l) {
+																																													set_gravityModifier(IntPtr l) {
+																																														UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																														float v;
+																																														checkType(l,2,out v);
+																																														self.gravityModifier=v;
+																																														get_maxParticles(IntPtr l) {
+																																															set_maxParticles(IntPtr l) {
+																																																UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																																int v;
+																																																checkType(l,2,out v);
+																																																self.maxParticles=v;
+																																																get_simulationSpace(IntPtr l) {
+																																																	set_simulationSpace(IntPtr l) {
+																																																		UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																																		UnityEngine.ParticleSystemSimulationSpace v;
+																																																		checkEnum(l,2,out v);
+																																																		self.simulationSpace=v;
+																																																		get_scalingMode(IntPtr l) {
+																																																			set_scalingMode(IntPtr l) {
+																																																				UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																																				UnityEngine.ParticleSystemScalingMode v;
+																																																				checkEnum(l,2,out v);
+																																																				self.scalingMode=v;
+																																																				get_randomSeed(IntPtr l) {
+																																																					set_randomSeed(IntPtr l) {
+																																																						UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																																						System.UInt32 v;
+																																																						checkType(l,2,out v);
+																																																						self.randomSeed=v;
+																																																						get_useAutoRandomSeed(IntPtr l) {
+																																																							set_useAutoRandomSeed(IntPtr l) {
+																																																								UnityEngine.ParticleSystem self=(UnityEngine.ParticleSystem)checkSelf(l);
+																																																								bool v;
+																																																								checkType(l,2,out v);
+																																																								self.useAutoRandomSeed=v;
+																																																								get_emission(IntPtr l) {
+																																																									get_shape(IntPtr l) {
+																																																										get_velocityOverLifetime(IntPtr l) {
+																																																											get_limitVelocityOverLifetime(IntPtr l) {
+																																																												get_inheritVelocity(IntPtr l) {
+																																																													get_forceOverLifetime(IntPtr l) {
+																																																														get_colorOverLifetime(IntPtr l) {
+																																																															get_colorBySpeed(IntPtr l) {
+																																																																get_sizeOverLifetime(IntPtr l) {
+																																																																	get_sizeBySpeed(IntPtr l) {
+																																																																		get_rotationOverLifetime(IntPtr l) {
+																																																																			get_rotationBySpeed(IntPtr l) {
+																																																																				get_externalForces(IntPtr l) {
+																																																																					get_collision(IntPtr l) {
+																																																																						get_trigger(IntPtr l) {
+																																																																							get_subEmitters(IntPtr l) {
+																																																																								get_textureSheetAnimation(IntPtr l) {
+																																																																										]
+																																																																								}
+

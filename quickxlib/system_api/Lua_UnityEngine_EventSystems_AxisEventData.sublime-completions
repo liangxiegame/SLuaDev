@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	UnityEngine.EventSystems.EventSystem a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.EventSystems.AxisEventData()()","contents": "UnityEngine.EventSystems.AxisEventData()()"},
+
+	get_moveVector(IntPtr l) {
+		set_moveVector(IntPtr l) {
+			UnityEngine.EventSystems.AxisEventData self=(UnityEngine.EventSystems.AxisEventData)checkSelf(l);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.moveVector=v;
+			get_moveDir(IntPtr l) {
+				set_moveDir(IntPtr l) {
+					UnityEngine.EventSystems.AxisEventData self=(UnityEngine.EventSystems.AxisEventData)checkSelf(l);
+					UnityEngine.EventSystems.MoveDirection v;
+					checkEnum(l,2,out v);
+					self.moveDir=v;
+						]
+				}
+

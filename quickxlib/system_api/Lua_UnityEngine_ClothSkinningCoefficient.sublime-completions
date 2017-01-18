@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ClothSkinningCoefficient()()","contents": "UnityEngine.ClothSkinningCoefficient()()"},
+
+	maxDistance
+	set_maxDistance(IntPtr l) {
+		UnityEngine.ClothSkinningCoefficient self;
+		checkValueType(l,1,out self);
+		System.Single v;
+		checkType(l,2,out v);
+		self.maxDistance=v;
+		collisionSphereDistance
+		set_collisionSphereDistance(IntPtr l) {
+			UnityEngine.ClothSkinningCoefficient self;
+			checkValueType(l,1,out self);
+			System.Single v;
+			checkType(l,2,out v);
+			self.collisionSphereDistance=v;
+				]
+		}
+

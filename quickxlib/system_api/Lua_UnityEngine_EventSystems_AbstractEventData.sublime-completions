@@ -1,0 +1,16 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "AbstractEventData:Reset(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "AbstractEventData:Reset(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.AbstractEventData self=(UnityEngine.EventSystems.AbstractEventData)checkSelf(l);
+	self.Reset();
+			{ "trigger": "AbstractEventData:Use(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "AbstractEventData:Use(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.EventSystems.AbstractEventData self=(UnityEngine.EventSystems.AbstractEventData)checkSelf(l);
+	self.Use();
+	get_used(IntPtr l) {
+			]
+	}
+

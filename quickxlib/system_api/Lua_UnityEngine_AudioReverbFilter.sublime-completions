@@ -1,0 +1,105 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioReverbFilter()()","contents": "UnityEngine.AudioReverbFilter()()"},
+
+	get_reverbPreset(IntPtr l) {
+		set_reverbPreset(IntPtr l) {
+			UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+			UnityEngine.AudioReverbPreset v;
+			checkEnum(l,2,out v);
+			self.reverbPreset=v;
+			get_dryLevel(IntPtr l) {
+				set_dryLevel(IntPtr l) {
+					UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.dryLevel=v;
+					get_room(IntPtr l) {
+						set_room(IntPtr l) {
+							UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.room=v;
+							get_roomHF(IntPtr l) {
+								set_roomHF(IntPtr l) {
+									UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.roomHF=v;
+									get_roomRolloff(IntPtr l) {
+										set_roomRolloff(IntPtr l) {
+											UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.roomRolloff=v;
+											get_decayTime(IntPtr l) {
+												set_decayTime(IntPtr l) {
+													UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.decayTime=v;
+													get_decayHFRatio(IntPtr l) {
+														set_decayHFRatio(IntPtr l) {
+															UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+															float v;
+															checkType(l,2,out v);
+															self.decayHFRatio=v;
+															get_reflectionsLevel(IntPtr l) {
+																set_reflectionsLevel(IntPtr l) {
+																	UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.reflectionsLevel=v;
+																	get_reflectionsDelay(IntPtr l) {
+																		set_reflectionsDelay(IntPtr l) {
+																			UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.reflectionsDelay=v;
+																			get_reverbLevel(IntPtr l) {
+																				set_reverbLevel(IntPtr l) {
+																					UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.reverbLevel=v;
+																					get_reverbDelay(IntPtr l) {
+																						set_reverbDelay(IntPtr l) {
+																							UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																							float v;
+																							checkType(l,2,out v);
+																							self.reverbDelay=v;
+																							get_diffusion(IntPtr l) {
+																								set_diffusion(IntPtr l) {
+																									UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																									float v;
+																									checkType(l,2,out v);
+																									self.diffusion=v;
+																									get_density(IntPtr l) {
+																										set_density(IntPtr l) {
+																											UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																											float v;
+																											checkType(l,2,out v);
+																											self.density=v;
+																											get_hfReference(IntPtr l) {
+																												set_hfReference(IntPtr l) {
+																													UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																													float v;
+																													checkType(l,2,out v);
+																													self.hfReference=v;
+																													get_roomLF(IntPtr l) {
+																														set_roomLF(IntPtr l) {
+																															UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																															float v;
+																															checkType(l,2,out v);
+																															self.roomLF=v;
+																															get_lfReference(IntPtr l) {
+																																set_lfReference(IntPtr l) {
+																																	UnityEngine.AudioReverbFilter self=(UnityEngine.AudioReverbFilter)checkSelf(l);
+																																	float v;
+																																	checkType(l,2,out v);
+																																	self.lfReference=v;
+																																		]
+																																}
+

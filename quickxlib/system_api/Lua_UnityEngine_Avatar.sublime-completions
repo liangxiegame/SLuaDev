@@ -1,0 +1,9 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	get_isValid(IntPtr l) {
+		get_isHuman(IntPtr l) {
+				]
+		}
+

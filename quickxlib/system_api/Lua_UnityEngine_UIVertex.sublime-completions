@@ -1,0 +1,56 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UIVertex()()","contents": "UnityEngine.UIVertex()()"},
+
+	position
+	set_position(IntPtr l) {
+		UnityEngine.UIVertex self;
+		checkValueType(l,1,out self);
+		UnityEngine.Vector3 v;
+		checkType(l,2,out v);
+		self.position=v;
+		normal
+		set_normal(IntPtr l) {
+			UnityEngine.UIVertex self;
+			checkValueType(l,1,out self);
+			UnityEngine.Vector3 v;
+			checkType(l,2,out v);
+			self.normal=v;
+			color
+			set_color(IntPtr l) {
+				UnityEngine.UIVertex self;
+				checkValueType(l,1,out self);
+				UnityEngine.Color32 v;
+				checkValueType(l,2,out v);
+				self.color=v;
+				uv0
+				set_uv0(IntPtr l) {
+					UnityEngine.UIVertex self;
+					checkValueType(l,1,out self);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.uv0=v;
+					uv1
+					set_uv1(IntPtr l) {
+						UnityEngine.UIVertex self;
+						checkValueType(l,1,out self);
+						UnityEngine.Vector2 v;
+						checkType(l,2,out v);
+						self.uv1=v;
+						tangent
+						set_tangent(IntPtr l) {
+							UnityEngine.UIVertex self;
+							checkValueType(l,1,out self);
+							UnityEngine.Vector4 v;
+							checkType(l,2,out v);
+							self.tangent=v;
+							simpleVert
+							set_simpleVert(IntPtr l) {
+								UnityEngine.UIVertex v;
+								checkValueType(l,2,out v);
+								UnityEngine.UIVertex.simpleVert=v;
+									]
+							}
+

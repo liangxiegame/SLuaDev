@@ -1,0 +1,24 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "AlgorithmInterface()()","contents": "AlgorithmInterface()()"},
+
+			{ "trigger": "AlgorithmInterface.fastSolveCube(Public, Static, HideBySig)","contents": "AlgorithmInterface.fastSolveCube(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	AlgorithmInterface.fastSolveCube(a1);
+			{ "trigger": "AlgorithmInterface.mlSolveCube(Public, Static, HideBySig)","contents": "AlgorithmInterface.mlSolveCube(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	System.Int32 a2;
+	checkType(l,2,out a2);
+	AlgorithmInterface.mlSolveCube(a1,a2);
+			{ "trigger": "AlgorithmInterface.Init(Public, Static, HideBySig)","contents": "AlgorithmInterface.Init(Public, Static, HideBySig)"},
+
+	AlgorithmInterface.Init();
+		]
+}
+

@@ -1,0 +1,14 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ProceduralLoadingBehavior");
+	addMember(l,0,"DoNothing");
+	addMember(l,1,"Generate");
+	addMember(l,2,"BakeAndKeep");
+	addMember(l,3,"BakeAndDiscard");
+	addMember(l,4,"Cache");
+	addMember(l,5,"DoNothingAndCache");
+		]
+}
+

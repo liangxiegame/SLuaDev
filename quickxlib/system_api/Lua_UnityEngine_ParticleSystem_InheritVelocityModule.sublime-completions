@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.InheritVelocityModule()()","contents": "UnityEngine.ParticleSystem.InheritVelocityModule()()"},
+
+	get_enabled(IntPtr l) {
+		set_enabled(IntPtr l) {
+			UnityEngine.ParticleSystem.InheritVelocityModule self;
+			checkValueType(l,1,out self);
+			bool v;
+			checkType(l,2,out v);
+			self.enabled=v;
+			setBack(l,self);
+			get_mode(IntPtr l) {
+				set_mode(IntPtr l) {
+					UnityEngine.ParticleSystem.InheritVelocityModule self;
+					checkValueType(l,1,out self);
+					UnityEngine.ParticleSystemInheritVelocityMode v;
+					checkEnum(l,2,out v);
+					self.mode=v;
+					setBack(l,self);
+					get_curve(IntPtr l) {
+						set_curve(IntPtr l) {
+							UnityEngine.ParticleSystem.InheritVelocityModule self;
+							checkValueType(l,1,out self);
+							UnityEngine.ParticleSystem.MinMaxCurve v;
+							checkValueType(l,2,out v);
+							self.curve=v;
+							setBack(l,self);
+								]
+						}
+

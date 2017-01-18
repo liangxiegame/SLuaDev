@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "CustomYieldInstruction:MoveNext(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "CustomYieldInstruction:MoveNext(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.CustomYieldInstruction self=(UnityEngine.CustomYieldInstruction)checkSelf(l);
+	var ret=self.MoveNext();
+			{ "trigger": "CustomYieldInstruction:Reset(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "CustomYieldInstruction:Reset(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.CustomYieldInstruction self=(UnityEngine.CustomYieldInstruction)checkSelf(l);
+	self.Reset();
+	get_keepWaiting(IntPtr l) {
+		get_Current(IntPtr l) {
+				]
+		}
+

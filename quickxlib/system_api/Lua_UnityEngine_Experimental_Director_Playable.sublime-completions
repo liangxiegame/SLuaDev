@@ -1,0 +1,139 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.Playable()()","contents": "UnityEngine.Experimental.Director.Playable()()"},
+
+			{ "trigger": "Playable:Destroy(Public, HideBySig)","contents": "Playable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.Playable self;
+	checkValueType(l,1,out self);
+	self.Destroy();
+			{ "trigger": "Playable:IsValid(Public, HideBySig)","contents": "Playable:IsValid(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.Playable self;
+	checkValueType(l,1,out self);
+	var ret=self.IsValid();
+			{ "trigger": "Playable:GetInputs(Public, HideBySig)","contents": "Playable:GetInputs(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.Playable self;
+	checkValueType(l,1,out self);
+	var ret=self.GetInputs();
+			{ "trigger": "Playable:GetInput(Public, HideBySig)","contents": "Playable:GetInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.Playable self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetInput(a1);
+			{ "trigger": "Playable:GetOutputs(Public, HideBySig)","contents": "Playable:GetOutputs(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.Playable self;
+	checkValueType(l,1,out self);
+	var ret=self.GetOutputs();
+			{ "trigger": "Playable:GetOutput(Public, HideBySig)","contents": "Playable:GetOutput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.Playable self;
+	checkValueType(l,1,out self);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetOutput(a1);
+			{ "trigger": "Playable:SetInputWeight(Public, HideBySig)","contents": "Playable:SetInputWeight(Public, HideBySig)"},
+
+	if(matchType(l,argc,2,int,float)){
+		UnityEngine.Experimental.Director.Playable self;
+		checkValueType(l,1,out self);
+		System.Int32 a1;
+		checkType(l,2,out a1);
+		System.Single a2;
+		checkType(l,3,out a2);
+		var ret=self.SetInputWeight(a1,a2);
+		else if(matchType(l,argc,2,UnityEngine.Experimental.Director.Playable,float)){
+			UnityEngine.Experimental.Director.Playable self;
+			checkValueType(l,1,out self);
+			UnityEngine.Experimental.Director.Playable a1;
+			checkValueType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			self.SetInputWeight(a1,a2);
+					{ "trigger": "Playable:GetInputWeight(Public, HideBySig)","contents": "Playable:GetInputWeight(Public, HideBySig)"},
+
+			UnityEngine.Experimental.Director.Playable self;
+			checkValueType(l,1,out self);
+			System.Int32 a1;
+			checkType(l,2,out a1);
+			var ret=self.GetInputWeight(a1);
+					{ "trigger": "Playable.GetTypeOf(Public, Static, HideBySig)","contents": "Playable.GetTypeOf(Public, Static, HideBySig)"},
+
+			UnityEngine.Experimental.Director.Playable a1;
+			checkValueType(l,1,out a1);
+			var ret=UnityEngine.Experimental.Director.Playable.GetTypeOf(a1);
+					{ "trigger": "Playable.Connect(Public, Static, HideBySig)","contents": "Playable.Connect(Public, Static, HideBySig)"},
+
+			if(argc==2){
+				UnityEngine.Experimental.Director.Playable a1;
+				checkValueType(l,1,out a1);
+				UnityEngine.Experimental.Director.Playable a2;
+				checkValueType(l,2,out a2);
+				var ret=UnityEngine.Experimental.Director.Playable.Connect(a1,a2);
+				else if(argc==4){
+					UnityEngine.Experimental.Director.Playable a1;
+					checkValueType(l,1,out a1);
+					UnityEngine.Experimental.Director.Playable a2;
+					checkValueType(l,2,out a2);
+					System.Int32 a3;
+					checkType(l,3,out a3);
+					System.Int32 a4;
+					checkType(l,4,out a4);
+					var ret=UnityEngine.Experimental.Director.Playable.Connect(a1,a2,a3,a4);
+							{ "trigger": "Playable.Disconnect(Public, Static, HideBySig)","contents": "Playable.Disconnect(Public, Static, HideBySig)"},
+
+					UnityEngine.Experimental.Director.Playable a1;
+					checkValueType(l,1,out a1);
+					System.Int32 a2;
+					checkType(l,2,out a2);
+					UnityEngine.Experimental.Director.Playable.Disconnect(a1,a2);
+							{ "trigger": "Playable.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Playable.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+					UnityEngine.Experimental.Director.Playable a1;
+					checkValueType(l,1,out a1);
+					UnityEngine.Experimental.Director.Playable a2;
+					checkValueType(l,2,out a2);
+					var ret=(a1==a2);
+							{ "trigger": "Playable.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Playable.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+					UnityEngine.Experimental.Director.Playable a1;
+					checkValueType(l,1,out a1);
+					UnityEngine.Experimental.Director.Playable a2;
+					checkValueType(l,2,out a2);
+					var ret=(a1!=a2);
+					get_Null(IntPtr l) {
+						get_inputCount(IntPtr l) {
+							get_outputCount(IntPtr l) {
+								get_state(IntPtr l) {
+									set_state(IntPtr l) {
+										UnityEngine.Experimental.Director.Playable self;
+										checkValueType(l,1,out self);
+										UnityEngine.Experimental.Director.PlayState v;
+										checkEnum(l,2,out v);
+										self.state=v;
+										setBack(l,self);
+										get_time(IntPtr l) {
+											set_time(IntPtr l) {
+												UnityEngine.Experimental.Director.Playable self;
+												checkValueType(l,1,out self);
+												double v;
+												checkType(l,2,out v);
+												self.time=v;
+												setBack(l,self);
+												get_duration(IntPtr l) {
+													set_duration(IntPtr l) {
+														UnityEngine.Experimental.Director.Playable self;
+														checkValueType(l,1,out self);
+														double v;
+														checkType(l,2,out v);
+														self.duration=v;
+														setBack(l,self);
+															]
+													}
+

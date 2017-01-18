@@ -1,0 +1,37 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	System.UInt32 a1;
+	checkType(l,2,out a1);
+	System.UInt32 a2;
+	checkType(l,3,out a2);
+	System.UInt32 a3;
+	checkType(l,4,out a3);
+	System.UInt32 a4;
+	checkType(l,5,out a4);
+			{ "trigger": "UnityEngine.Hash128()()","contents": "UnityEngine.Hash128()()"},
+
+			{ "trigger": "Hash128.Parse(Public, Static, HideBySig)","contents": "Hash128.Parse(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.Hash128.Parse(a1);
+			{ "trigger": "Hash128.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Hash128.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+	UnityEngine.Hash128 a1;
+	checkValueType(l,1,out a1);
+	UnityEngine.Hash128 a2;
+	checkValueType(l,2,out a2);
+	var ret=(a1==a2);
+			{ "trigger": "Hash128.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Hash128.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+	UnityEngine.Hash128 a1;
+	checkValueType(l,1,out a1);
+	UnityEngine.Hash128 a2;
+	checkValueType(l,2,out a2);
+	var ret=(a1!=a2);
+	get_isValid(IntPtr l) {
+			]
+	}
+

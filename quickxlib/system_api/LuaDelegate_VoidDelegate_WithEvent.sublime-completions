@@ -1,0 +1,8 @@
+﻿
+VoidDelegate.WithEvent 
+                ua = (VoidDelegate.WithEvent)checkObj(l, p);
+                ua = (VoidDelegate.WithEvent)ld.d;
+            ua = (UnityEngine.EventSystems.BaseEventData a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

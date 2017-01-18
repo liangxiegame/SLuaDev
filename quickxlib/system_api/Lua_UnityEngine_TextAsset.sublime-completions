@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.TextAsset()()","contents": "UnityEngine.TextAsset()()"},
+
+	get_text(IntPtr l) {
+		get_bytes(IntPtr l) {
+				]
+		}
+

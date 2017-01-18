@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ThreadPriority");
+	addMember(l,0,"Low");
+	addMember(l,1,"BelowNormal");
+	addMember(l,2,"Normal");
+	addMember(l,4,"High");
+		]
+}
+

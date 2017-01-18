@@ -1,0 +1,81 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.TextMesh()()","contents": "UnityEngine.TextMesh()()"},
+
+	get_text(IntPtr l) {
+		set_text(IntPtr l) {
+			UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			self.text=v;
+			get_font(IntPtr l) {
+				set_font(IntPtr l) {
+					UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+					UnityEngine.Font v;
+					checkType(l,2,out v);
+					self.font=v;
+					get_fontSize(IntPtr l) {
+						set_fontSize(IntPtr l) {
+							UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+							int v;
+							checkType(l,2,out v);
+							self.fontSize=v;
+							get_fontStyle(IntPtr l) {
+								set_fontStyle(IntPtr l) {
+									UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+									UnityEngine.FontStyle v;
+									checkEnum(l,2,out v);
+									self.fontStyle=v;
+									get_offsetZ(IntPtr l) {
+										set_offsetZ(IntPtr l) {
+											UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.offsetZ=v;
+											get_alignment(IntPtr l) {
+												set_alignment(IntPtr l) {
+													UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+													UnityEngine.TextAlignment v;
+													checkEnum(l,2,out v);
+													self.alignment=v;
+													get_anchor(IntPtr l) {
+														set_anchor(IntPtr l) {
+															UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+															UnityEngine.TextAnchor v;
+															checkEnum(l,2,out v);
+															self.anchor=v;
+															get_characterSize(IntPtr l) {
+																set_characterSize(IntPtr l) {
+																	UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.characterSize=v;
+																	get_lineSpacing(IntPtr l) {
+																		set_lineSpacing(IntPtr l) {
+																			UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.lineSpacing=v;
+																			get_tabSize(IntPtr l) {
+																				set_tabSize(IntPtr l) {
+																					UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.tabSize=v;
+																					get_richText(IntPtr l) {
+																						set_richText(IntPtr l) {
+																							UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+																							bool v;
+																							checkType(l,2,out v);
+																							self.richText=v;
+																							get_color(IntPtr l) {
+																								set_color(IntPtr l) {
+																									UnityEngine.TextMesh self=(UnityEngine.TextMesh)checkSelf(l);
+																									UnityEngine.Color v;
+																									checkType(l,2,out v);
+																									self.color=v;
+																										]
+																								}
+

@@ -1,0 +1,157 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "Graphic:SetAllDirty(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:SetAllDirty(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.SetAllDirty();
+			{ "trigger": "Graphic:SetLayoutDirty(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:SetLayoutDirty(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.SetLayoutDirty();
+			{ "trigger": "Graphic:SetVerticesDirty(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:SetVerticesDirty(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.SetVerticesDirty();
+			{ "trigger": "Graphic:SetMaterialDirty(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:SetMaterialDirty(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.SetMaterialDirty();
+			{ "trigger": "Graphic:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:Rebuild(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	UnityEngine.UI.CanvasUpdate a1;
+	checkEnum(l,2,out a1);
+	self.Rebuild(a1);
+			{ "trigger": "Graphic:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:LayoutComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.LayoutComplete();
+			{ "trigger": "Graphic:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:GraphicUpdateComplete(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.GraphicUpdateComplete();
+			{ "trigger": "Graphic:SetNativeSize(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:SetNativeSize(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	self.SetNativeSize();
+			{ "trigger": "Graphic:Raycast(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:Raycast(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Camera a2;
+	checkType(l,3,out a2);
+	var ret=self.Raycast(a1,a2);
+			{ "trigger": "Graphic:PixelAdjustPoint(Public, HideBySig)","contents": "Graphic:PixelAdjustPoint(Public, HideBySig)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	UnityEngine.Vector2 a1;
+	checkType(l,2,out a1);
+	var ret=self.PixelAdjustPoint(a1);
+			{ "trigger": "Graphic:GetPixelAdjustedRect(Public, HideBySig)","contents": "Graphic:GetPixelAdjustedRect(Public, HideBySig)"},
+
+	UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+	var ret=self.GetPixelAdjustedRect();
+			{ "trigger": "Graphic:CrossFadeColor(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:CrossFadeColor(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	if(argc==5){
+		UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+		UnityEngine.Color a1;
+		checkType(l,2,out a1);
+		System.Single a2;
+		checkType(l,3,out a2);
+		System.Boolean a3;
+		checkType(l,4,out a3);
+		System.Boolean a4;
+		checkType(l,5,out a4);
+		self.CrossFadeColor(a1,a2,a3,a4);
+		else if(argc==6){
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Color a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			System.Boolean a3;
+			checkType(l,4,out a3);
+			System.Boolean a4;
+			checkType(l,5,out a4);
+			System.Boolean a5;
+			checkType(l,6,out a5);
+			self.CrossFadeColor(a1,a2,a3,a4,a5);
+					{ "trigger": "Graphic:CrossFadeAlpha(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "Graphic:CrossFadeAlpha(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			System.Single a1;
+			checkType(l,2,out a1);
+			System.Single a2;
+			checkType(l,3,out a2);
+			System.Boolean a3;
+			checkType(l,4,out a3);
+			self.CrossFadeAlpha(a1,a2,a3);
+					{ "trigger": "Graphic:RegisterDirtyLayoutCallback(Public, HideBySig)","contents": "Graphic:RegisterDirtyLayoutCallback(Public, HideBySig)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Events.UnityAction a1;
+			LuaDelegation.checkDelegate(l,2,out a1);
+			self.RegisterDirtyLayoutCallback(a1);
+					{ "trigger": "Graphic:UnregisterDirtyLayoutCallback(Public, HideBySig)","contents": "Graphic:UnregisterDirtyLayoutCallback(Public, HideBySig)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Events.UnityAction a1;
+			LuaDelegation.checkDelegate(l,2,out a1);
+			self.UnregisterDirtyLayoutCallback(a1);
+					{ "trigger": "Graphic:RegisterDirtyVerticesCallback(Public, HideBySig)","contents": "Graphic:RegisterDirtyVerticesCallback(Public, HideBySig)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Events.UnityAction a1;
+			LuaDelegation.checkDelegate(l,2,out a1);
+			self.RegisterDirtyVerticesCallback(a1);
+					{ "trigger": "Graphic:UnregisterDirtyVerticesCallback(Public, HideBySig)","contents": "Graphic:UnregisterDirtyVerticesCallback(Public, HideBySig)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Events.UnityAction a1;
+			LuaDelegation.checkDelegate(l,2,out a1);
+			self.UnregisterDirtyVerticesCallback(a1);
+					{ "trigger": "Graphic:RegisterDirtyMaterialCallback(Public, HideBySig)","contents": "Graphic:RegisterDirtyMaterialCallback(Public, HideBySig)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Events.UnityAction a1;
+			LuaDelegation.checkDelegate(l,2,out a1);
+			self.RegisterDirtyMaterialCallback(a1);
+					{ "trigger": "Graphic:UnregisterDirtyMaterialCallback(Public, HideBySig)","contents": "Graphic:UnregisterDirtyMaterialCallback(Public, HideBySig)"},
+
+			UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+			UnityEngine.Events.UnityAction a1;
+			LuaDelegation.checkDelegate(l,2,out a1);
+			self.UnregisterDirtyMaterialCallback(a1);
+			get_defaultGraphicMaterial(IntPtr l) {
+				get_color(IntPtr l) {
+					set_color(IntPtr l) {
+						UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+						UnityEngine.Color v;
+						checkType(l,2,out v);
+						self.color=v;
+						get_raycastTarget(IntPtr l) {
+							set_raycastTarget(IntPtr l) {
+								UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+								bool v;
+								checkType(l,2,out v);
+								self.raycastTarget=v;
+								get_depth(IntPtr l) {
+									get_rectTransform(IntPtr l) {
+										get_canvas(IntPtr l) {
+											get_canvasRenderer(IntPtr l) {
+												get_defaultMaterial(IntPtr l) {
+													get_material(IntPtr l) {
+														set_material(IntPtr l) {
+															UnityEngine.UI.Graphic self=(UnityEngine.UI.Graphic)checkSelf(l);
+															UnityEngine.Material v;
+															checkType(l,2,out v);
+															self.material=v;
+															get_materialForRendering(IntPtr l) {
+																get_mainTexture(IntPtr l) {
+																		]
+																}
+

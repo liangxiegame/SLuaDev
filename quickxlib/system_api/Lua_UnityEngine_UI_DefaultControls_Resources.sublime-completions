@@ -1,0 +1,58 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.DefaultControls.Resources()()","contents": "UnityEngine.UI.DefaultControls.Resources()()"},
+
+	standard
+	set_standard(IntPtr l) {
+		UnityEngine.UI.DefaultControls.Resources self;
+		checkValueType(l,1,out self);
+		UnityEngine.Sprite v;
+		checkType(l,2,out v);
+		self.standard=v;
+		background
+		set_background(IntPtr l) {
+			UnityEngine.UI.DefaultControls.Resources self;
+			checkValueType(l,1,out self);
+			UnityEngine.Sprite v;
+			checkType(l,2,out v);
+			self.background=v;
+			inputField
+			set_inputField(IntPtr l) {
+				UnityEngine.UI.DefaultControls.Resources self;
+				checkValueType(l,1,out self);
+				UnityEngine.Sprite v;
+				checkType(l,2,out v);
+				self.inputField=v;
+				knob
+				set_knob(IntPtr l) {
+					UnityEngine.UI.DefaultControls.Resources self;
+					checkValueType(l,1,out self);
+					UnityEngine.Sprite v;
+					checkType(l,2,out v);
+					self.knob=v;
+					checkmark
+					set_checkmark(IntPtr l) {
+						UnityEngine.UI.DefaultControls.Resources self;
+						checkValueType(l,1,out self);
+						UnityEngine.Sprite v;
+						checkType(l,2,out v);
+						self.checkmark=v;
+						dropdown
+						set_dropdown(IntPtr l) {
+							UnityEngine.UI.DefaultControls.Resources self;
+							checkValueType(l,1,out self);
+							UnityEngine.Sprite v;
+							checkType(l,2,out v);
+							self.dropdown=v;
+							mask
+							set_mask(IntPtr l) {
+								UnityEngine.UI.DefaultControls.Resources self;
+								checkValueType(l,1,out self);
+								UnityEngine.Sprite v;
+								checkType(l,2,out v);
+								self.mask=v;
+									]
+							}
+

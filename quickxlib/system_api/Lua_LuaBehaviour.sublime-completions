@@ -1,0 +1,114 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "LuaBehaviour:setBehaviour(Public, HideBySig)","contents": "LuaBehaviour:setBehaviour(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	SLua.LuaTable a1;
+	checkType(l,2,out a1);
+	self.setBehaviour(a1);
+			{ "trigger": "LuaBehaviour:DoFile(Public, HideBySig)","contents": "LuaBehaviour:DoFile(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Action a2;
+	LuaDelegation.checkDelegate(l,3,out a2);
+	self.DoFile(a1,a2);
+			{ "trigger": "LuaBehaviour:GetChunk(Public, HideBySig)","contents": "LuaBehaviour:GetChunk(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	var ret=self.GetChunk();
+			{ "trigger": "LuaBehaviour:SetEnv(Public, HideBySig)","contents": "LuaBehaviour:SetEnv(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Object a2;
+	checkType(l,3,out a2);
+	System.Boolean a3;
+	checkType(l,4,out a3);
+	self.SetEnv(a1,a2,a3);
+			{ "trigger": "LuaBehaviour:LuaInvoke(Public, HideBySig)","contents": "LuaBehaviour:LuaInvoke(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	SLua.LuaFunction a2;
+	checkType(l,3,out a2);
+	System.Object[] a3;
+	checkParams(l,4,out a3);
+	self.LuaInvoke(a1,a2,a3);
+			{ "trigger": "LuaBehaviour:RunCoroutine(Public, HideBySig)","contents": "LuaBehaviour:RunCoroutine(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	UnityEngine.YieldInstruction a1;
+	checkType(l,2,out a1);
+	SLua.LuaFunction a2;
+	checkType(l,3,out a2);
+	System.Object[] a3;
+	checkParams(l,4,out a3);
+	self.RunCoroutine(a1,a2,a3);
+			{ "trigger": "LuaBehaviour:CancelCoroutine(Public, HideBySig)","contents": "LuaBehaviour:CancelCoroutine(Public, HideBySig)"},
+
+	LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+	UnityEngine.YieldInstruction a1;
+	checkType(l,2,out a1);
+	SLua.LuaFunction a2;
+	checkType(l,3,out a2);
+	System.Object[] a3;
+	checkParams(l,4,out a3);
+	self.CancelCoroutine(a1,a2,a3);
+			{ "trigger": "LuaBehaviour:CallMethod(Public, HideBySig)","contents": "LuaBehaviour:CallMethod(Public, HideBySig)"},
+
+	if(argc==2){
+		LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+		System.String a1;
+		checkType(l,2,out a1);
+		var ret=self.CallMethod(a1);
+		else if(argc==3){
+			LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+			System.String a1;
+			checkType(l,2,out a1);
+			System.Object[] a2;
+			checkParams(l,3,out a2);
+			var ret=self.CallMethod(a1,a2);
+					{ "trigger": "LuaBehaviour:MeMessage(Public, HideBySig)","contents": "LuaBehaviour:MeMessage(Public, HideBySig)"},
+
+			LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+			System.Object a1;
+			checkType(l,2,out a1);
+			self.MeMessage(a1);
+					{ "trigger": "LuaBehaviour:MeMessageAll(Public, HideBySig)","contents": "LuaBehaviour:MeMessageAll(Public, HideBySig)"},
+
+			LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+			System.Object a1;
+			checkType(l,2,out a1);
+			self.MeMessageAll(a1);
+					{ "trigger": "LuaBehaviour.FormatException(Public, Static, HideBySig)","contents": "LuaBehaviour.FormatException(Public, Static, HideBySig)"},
+
+			System.Exception a1;
+			checkType(l,1,out a1);
+			var ret=LuaBehaviour.FormatException(a1);
+			usingUpdate
+			set_usingUpdate(IntPtr l) {
+				LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+				System.Boolean v;
+				checkType(l,2,out v);
+				self.usingUpdate=v;
+				usingFixedUpdate
+				set_usingFixedUpdate(IntPtr l) {
+					LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+					System.Boolean v;
+					checkType(l,2,out v);
+					self.usingFixedUpdate=v;
+					get_data(IntPtr l) {
+						set_data(IntPtr l) {
+							LuaBehaviour self=(LuaBehaviour)checkSelf(l);
+							SLua.LuaTable v;
+							checkType(l,2,out v);
+							self.data=v;
+								]
+						}
+

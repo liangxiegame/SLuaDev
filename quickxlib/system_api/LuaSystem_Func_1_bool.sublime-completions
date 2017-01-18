@@ -1,0 +1,9 @@
+﻿
+System.Func<System.Boolean> 
+                ua = (System.Func<System.Boolean>)checkObj(l, p);
+                ua = (System.Func<System.Boolean>)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);
+				bool ret;
+				checkType(l,error+1,out ret);

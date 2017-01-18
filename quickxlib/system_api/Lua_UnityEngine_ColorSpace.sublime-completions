@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ColorSpace");
+	addMember(l,0,"Gamma");
+	addMember(l,1,"Linear");
+	addMember(l,-1,"Uninitialized");
+		]
+}
+

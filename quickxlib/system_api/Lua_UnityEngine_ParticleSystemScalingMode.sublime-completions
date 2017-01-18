@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemScalingMode");
+	addMember(l,0,"Hierarchy");
+	addMember(l,1,"Local");
+	addMember(l,2,"Shape");
+		]
+}
+

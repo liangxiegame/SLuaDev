@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ParticleSystemSortMode");
+	addMember(l,0,"None");
+	addMember(l,1,"Distance");
+	addMember(l,2,"OldestInFront");
+	addMember(l,3,"YoungestInFront");
+		]
+}
+

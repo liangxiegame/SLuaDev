@@ -1,0 +1,42 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "PTLog.Assert(Public, Static, HideBySig)","contents": "PTLog.Assert(Public, Static, HideBySig)"},
+
+	System.Boolean a1;
+	checkType(l,1,out a1);
+	System.String a2;
+	checkType(l,2,out a2);
+	PTGame.Log.PTLog.Assert(a1,a2);
+	return 1;
+	uiOutputLogLevel
+	PTGame.Log.PTLog self=(PTGame.Log.PTLog)checkSelf(l);
+	pushEnum(l,(int)self.uiOutputLogLevel);
+	return 2;
+}
+set_uiOutputLogLevel(IntPtr l) {
+	PTGame.Log.PTLog self=(PTGame.Log.PTLog)checkSelf(l);
+	PTGame.Log.PTLog.LogLevel v;
+	checkEnum(l,2,out v);
+	self.uiOutputLogLevel=v;
+	fileOutputLogLevel
+	PTGame.Log.PTLog self=(PTGame.Log.PTLog)checkSelf(l);
+	pushEnum(l,(int)self.fileOutputLogLevel);
+	return 2;
+}
+set_fileOutputLogLevel(IntPtr l) {
+	PTGame.Log.PTLog self=(PTGame.Log.PTLog)checkSelf(l);
+	PTGame.Log.PTLog.LogLevel v;
+	checkEnum(l,2,out v);
+	self.fileOutputLogLevel=v;
+	set_onGUICallback(IntPtr l) {
+		PTGame.Log.PTLog self=(PTGame.Log.PTLog)checkSelf(l);
+		PTGame.Log.PTLog.OnGUICallback v;
+		int op=LuaDelegation.checkDelegate(l,2,out v);
+		if(op==0) self.onGUICallback=v;
+		else if(op==1) self.onGUICallback+=v;
+		else if(op==2) self.onGUICallback-=v;
+			]
+	}
+

@@ -1,0 +1,67 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	get_uiScaleMode(IntPtr l) {
+		set_uiScaleMode(IntPtr l) {
+			UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+			UnityEngine.UI.CanvasScaler.ScaleMode v;
+			checkEnum(l,2,out v);
+			self.uiScaleMode=v;
+			get_referencePixelsPerUnit(IntPtr l) {
+				set_referencePixelsPerUnit(IntPtr l) {
+					UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.referencePixelsPerUnit=v;
+					get_scaleFactor(IntPtr l) {
+						set_scaleFactor(IntPtr l) {
+							UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.scaleFactor=v;
+							get_referenceResolution(IntPtr l) {
+								set_referenceResolution(IntPtr l) {
+									UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+									UnityEngine.Vector2 v;
+									checkType(l,2,out v);
+									self.referenceResolution=v;
+									get_screenMatchMode(IntPtr l) {
+										set_screenMatchMode(IntPtr l) {
+											UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+											UnityEngine.UI.CanvasScaler.ScreenMatchMode v;
+											checkEnum(l,2,out v);
+											self.screenMatchMode=v;
+											get_matchWidthOrHeight(IntPtr l) {
+												set_matchWidthOrHeight(IntPtr l) {
+													UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.matchWidthOrHeight=v;
+													get_physicalUnit(IntPtr l) {
+														set_physicalUnit(IntPtr l) {
+															UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+															UnityEngine.UI.CanvasScaler.Unit v;
+															checkEnum(l,2,out v);
+															self.physicalUnit=v;
+															get_fallbackScreenDPI(IntPtr l) {
+																set_fallbackScreenDPI(IntPtr l) {
+																	UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+																	float v;
+																	checkType(l,2,out v);
+																	self.fallbackScreenDPI=v;
+																	get_defaultSpriteDPI(IntPtr l) {
+																		set_defaultSpriteDPI(IntPtr l) {
+																			UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+																			float v;
+																			checkType(l,2,out v);
+																			self.defaultSpriteDPI=v;
+																			get_dynamicPixelsPerUnit(IntPtr l) {
+																				set_dynamicPixelsPerUnit(IntPtr l) {
+																					UnityEngine.UI.CanvasScaler self=(UnityEngine.UI.CanvasScaler)checkSelf(l);
+																					float v;
+																					checkType(l,2,out v);
+																					self.dynamicPixelsPerUnit=v;
+																						]
+																				}
+

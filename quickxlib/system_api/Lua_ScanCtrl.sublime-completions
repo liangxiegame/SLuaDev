@@ -1,0 +1,98 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "ScanCtrl:StartTracking(Public, HideBySig)","contents": "ScanCtrl:StartTracking(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	System.Boolean a1;
+	checkType(l,2,out a1);
+	self.StartTracking(a1);
+			{ "trigger": "ScanCtrl:getScaleXValue(Public, HideBySig)","contents": "ScanCtrl:getScaleXValue(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	var ret=self.getScaleXValue();
+			{ "trigger": "ScanCtrl:getScaleYValue(Public, HideBySig)","contents": "ScanCtrl:getScaleYValue(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	var ret=self.getScaleYValue();
+			{ "trigger": "ScanCtrl:setRecognitionRect(Public, HideBySig)","contents": "ScanCtrl:setRecognitionRect(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	self.setRecognitionRect(a1);
+			{ "trigger": "ScanCtrl:StopTracking(Public, HideBySig)","contents": "ScanCtrl:StopTracking(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	self.StopTracking();
+			{ "trigger": "ScanCtrl:SaveTexture(Public, HideBySig)","contents": "ScanCtrl:SaveTexture(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	self.SaveTexture();
+			{ "trigger": "ScanCtrl:ApplyCameraData(Public, HideBySig)","contents": "ScanCtrl:ApplyCameraData(Public, HideBySig)"},
+
+	ScanCtrl self=(ScanCtrl)checkSelf(l);
+	self.ApplyCameraData();
+	targetWidth
+	targetHeight
+	arWebCam
+	set_arWebCam(IntPtr l) {
+		ScanCtrl self=(ScanCtrl)checkSelf(l);
+		PTARWebCam v;
+		checkType(l,2,out v);
+		self.arWebCam=v;
+		debugOnGUI
+		set_debugOnGUI(IntPtr l) {
+			ScanCtrl self=(ScanCtrl)checkSelf(l);
+			System.Boolean v;
+			checkType(l,2,out v);
+			self.debugOnGUI=v;
+			sx
+			set_sx(IntPtr l) {
+				System.Int32 v;
+				checkType(l,2,out v);
+				ScanCtrl.sx=v;
+				sy
+				set_sy(IntPtr l) {
+					System.Int32 v;
+					checkType(l,2,out v);
+					ScanCtrl.sy=v;
+					rectWidth
+					set_rectWidth(IntPtr l) {
+						System.Int32 v;
+						checkType(l,2,out v);
+						ScanCtrl.rectWidth=v;
+						rectHeight
+						set_rectHeight(IntPtr l) {
+							System.Int32 v;
+							checkType(l,2,out v);
+							ScanCtrl.rectHeight=v;
+							textureWidth
+							set_textureWidth(IntPtr l) {
+								System.Int32 v;
+								checkType(l,2,out v);
+								ScanCtrl.textureWidth=v;
+								textureHeight
+								set_textureHeight(IntPtr l) {
+									System.Int32 v;
+									checkType(l,2,out v);
+									ScanCtrl.textureHeight=v;
+									mScaleX
+									set_mScaleX(IntPtr l) {
+										System.Single v;
+										checkType(l,2,out v);
+										ScanCtrl.mScaleX=v;
+										mScaleY
+										set_mScaleY(IntPtr l) {
+											System.Single v;
+											checkType(l,2,out v);
+											ScanCtrl.mScaleY=v;
+											finalScale
+											set_finalScale(IntPtr l) {
+												System.Single v;
+												checkType(l,2,out v);
+												ScanCtrl.finalScale=v;
+													]
+											}
+

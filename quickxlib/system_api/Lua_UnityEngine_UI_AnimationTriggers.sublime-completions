@@ -1,0 +1,33 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.AnimationTriggers()()","contents": "UnityEngine.UI.AnimationTriggers()()"},
+
+	get_normalTrigger(IntPtr l) {
+		set_normalTrigger(IntPtr l) {
+			UnityEngine.UI.AnimationTriggers self=(UnityEngine.UI.AnimationTriggers)checkSelf(l);
+			string v;
+			checkType(l,2,out v);
+			self.normalTrigger=v;
+			get_highlightedTrigger(IntPtr l) {
+				set_highlightedTrigger(IntPtr l) {
+					UnityEngine.UI.AnimationTriggers self=(UnityEngine.UI.AnimationTriggers)checkSelf(l);
+					string v;
+					checkType(l,2,out v);
+					self.highlightedTrigger=v;
+					get_pressedTrigger(IntPtr l) {
+						set_pressedTrigger(IntPtr l) {
+							UnityEngine.UI.AnimationTriggers self=(UnityEngine.UI.AnimationTriggers)checkSelf(l);
+							string v;
+							checkType(l,2,out v);
+							self.pressedTrigger=v;
+							get_disabledTrigger(IntPtr l) {
+								set_disabledTrigger(IntPtr l) {
+									UnityEngine.UI.AnimationTriggers self=(UnityEngine.UI.AnimationTriggers)checkSelf(l);
+									string v;
+									checkType(l,2,out v);
+									self.disabledTrigger=v;
+										]
+								}
+

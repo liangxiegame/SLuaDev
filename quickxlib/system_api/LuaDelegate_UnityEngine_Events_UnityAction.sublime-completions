@@ -1,0 +1,7 @@
+﻿
+UnityEngine.Events.UnityAction 
+                ua = (UnityEngine.Events.UnityAction)checkObj(l, p);
+                ua = (UnityEngine.Events.UnityAction)ld.d;
+            ua = () =>
+
+				ld.pcall(0, error);

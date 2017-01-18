@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.ProceduralProcessorUsage");
+	addMember(l,0,"Unsupported");
+	addMember(l,1,"One");
+	addMember(l,2,"Half");
+	addMember(l,3,"All");
+		]
+}
+

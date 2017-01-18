@@ -1,0 +1,107 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Experimental.Director.CustomAnimationPlayable()()","contents": "UnityEngine.Experimental.Director.CustomAnimationPlayable()()"},
+
+			{ "trigger": "CustomAnimationPlayable:Destroy(Public, HideBySig)","contents": "CustomAnimationPlayable:Destroy(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	self.Destroy();
+			{ "trigger": "CustomAnimationPlayable:PrepareFrame(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "CustomAnimationPlayable:PrepareFrame(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	UnityEngine.Experimental.Director.FrameData a1;
+	checkValueType(l,2,out a1);
+	self.PrepareFrame(a1);
+			{ "trigger": "CustomAnimationPlayable:OnSetTime(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "CustomAnimationPlayable:OnSetTime(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	self.OnSetTime(a1);
+			{ "trigger": "CustomAnimationPlayable:OnSetPlayState(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "CustomAnimationPlayable:OnSetPlayState(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	UnityEngine.Experimental.Director.PlayState a1;
+	checkEnum(l,2,out a1);
+	self.OnSetPlayState(a1);
+			{ "trigger": "CustomAnimationPlayable:GetInput(Public, HideBySig)","contents": "CustomAnimationPlayable:GetInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetInput(a1);
+			{ "trigger": "CustomAnimationPlayable:GetOutput(Public, HideBySig)","contents": "CustomAnimationPlayable:GetOutput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetOutput(a1);
+			{ "trigger": "CustomAnimationPlayable:GetInputWeight(Public, HideBySig)","contents": "CustomAnimationPlayable:GetInputWeight(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.GetInputWeight(a1);
+			{ "trigger": "CustomAnimationPlayable:SetInputWeight(Public, HideBySig)","contents": "CustomAnimationPlayable:SetInputWeight(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetInputWeight(a1,a2);
+			{ "trigger": "CustomAnimationPlayable:AddInput(Public, HideBySig)","contents": "CustomAnimationPlayable:AddInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	UnityEngine.Experimental.Director.Playable a1;
+	checkValueType(l,2,out a1);
+	var ret=self.AddInput(a1);
+			{ "trigger": "CustomAnimationPlayable:SetInput(Public, HideBySig)","contents": "CustomAnimationPlayable:SetInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	UnityEngine.Experimental.Director.Playable a1;
+	checkValueType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	var ret=self.SetInput(a1,a2);
+			{ "trigger": "CustomAnimationPlayable:SetInputs(Public, HideBySig)","contents": "CustomAnimationPlayable:SetInputs(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Collections.Generic.IEnumerable<UnityEngine.Experimental.Director.Playable> a1;
+	checkType(l,2,out a1);
+	var ret=self.SetInputs(a1);
+			{ "trigger": "CustomAnimationPlayable:RemoveInput(Public, HideBySig)","contents": "CustomAnimationPlayable:RemoveInput(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	var ret=self.RemoveInput(a1);
+			{ "trigger": "CustomAnimationPlayable:RemoveAllInputs(Public, HideBySig)","contents": "CustomAnimationPlayable:RemoveAllInputs(Public, HideBySig)"},
+
+	UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+	var ret=self.RemoveAllInputs();
+	get_inputCount(IntPtr l) {
+		get_outputCount(IntPtr l) {
+			get_state(IntPtr l) {
+				set_state(IntPtr l) {
+					UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+					UnityEngine.Experimental.Director.PlayState v;
+					checkEnum(l,2,out v);
+					self.state=v;
+					get_time(IntPtr l) {
+						set_time(IntPtr l) {
+							UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+							double v;
+							checkType(l,2,out v);
+							self.time=v;
+							get_duration(IntPtr l) {
+								set_duration(IntPtr l) {
+									UnityEngine.Experimental.Director.CustomAnimationPlayable self=(UnityEngine.Experimental.Director.CustomAnimationPlayable)checkSelf(l);
+									double v;
+									checkType(l,2,out v);
+									self.duration=v;
+										]
+								}
+

@@ -1,0 +1,15 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.Rendering.TextureDimension");
+	addMember(l,0,"None");
+	addMember(l,2,"Tex2D");
+	addMember(l,3,"Tex3D");
+	addMember(l,4,"Cube");
+	addMember(l,5,"Tex2DArray");
+	addMember(l,6,"Any");
+	addMember(l,-1,"Unknown");
+		]
+}
+

@@ -1,0 +1,8 @@
+﻿
+System.Action<System.String> 
+                ua = (System.Action<System.String>)checkObj(l, p);
+                ua = (System.Action<System.String>)ld.d;
+            ua = (string a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);

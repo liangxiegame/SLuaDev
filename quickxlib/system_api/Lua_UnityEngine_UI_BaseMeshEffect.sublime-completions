@@ -1,0 +1,19 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "BaseMeshEffect:ModifyMesh(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "BaseMeshEffect:ModifyMesh(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	if(matchType(l,argc,2,UnityEngine.UI.VertexHelper)){
+		UnityEngine.UI.BaseMeshEffect self=(UnityEngine.UI.BaseMeshEffect)checkSelf(l);
+		UnityEngine.UI.VertexHelper a1;
+		checkType(l,2,out a1);
+		self.ModifyMesh(a1);
+		else if(matchType(l,argc,2,UnityEngine.Mesh)){
+			UnityEngine.UI.BaseMeshEffect self=(UnityEngine.UI.BaseMeshEffect)checkSelf(l);
+			UnityEngine.Mesh a1;
+			checkType(l,2,out a1);
+			self.ModifyMesh(a1);
+				]
+		}
+

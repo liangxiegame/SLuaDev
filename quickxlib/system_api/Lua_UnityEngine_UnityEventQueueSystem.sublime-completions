@@ -1,0 +1,17 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UnityEventQueueSystem()()","contents": "UnityEngine.UnityEventQueueSystem()()"},
+
+			{ "trigger": "UnityEventQueueSystem.GenerateEventIdForPayload(Public, Static, HideBySig)","contents": "UnityEventQueueSystem.GenerateEventIdForPayload(Public, Static, HideBySig)"},
+
+	System.String a1;
+	checkType(l,1,out a1);
+	var ret=UnityEngine.UnityEventQueueSystem.GenerateEventIdForPayload(a1);
+			{ "trigger": "UnityEventQueueSystem.GetGlobalEventQueue(Public, Static, HideBySig)","contents": "UnityEventQueueSystem.GetGlobalEventQueue(Public, Static, HideBySig)"},
+
+	var ret=UnityEngine.UnityEventQueueSystem.GetGlobalEventQueue();
+		]
+}
+

@@ -1,0 +1,12 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.DepthTextureMode");
+	addMember(l,0,"None");
+	addMember(l,1,"Depth");
+	addMember(l,2,"DepthNormals");
+	addMember(l,4,"MotionVectors");
+		]
+}
+

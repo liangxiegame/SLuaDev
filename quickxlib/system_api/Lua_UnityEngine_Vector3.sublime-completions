@@ -1,0 +1,337 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Vector3()()","contents": "UnityEngine.Vector3()()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.Vector3()()","contents": "UnityEngine.Vector3()()"},
+
+			{ "trigger": "UnityEngine.Vector3()()","contents": "UnityEngine.Vector3()()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.Vector3()()","contents": "UnityEngine.Vector3()()"},
+
+			{ "trigger": "UnityEngine.Vector3()()","contents": "UnityEngine.Vector3()()"},
+
+			{ "trigger": "Vector3:Set(Public, HideBySig)","contents": "Vector3:Set(Public, HideBySig)"},
+
+	UnityEngine.Vector3 self;
+	checkType(l,1,out self);
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	System.Single a3;
+	checkType(l,4,out a3);
+	self.Set(a1,a2,a3);
+			{ "trigger": "Vector3:Scale(Public, HideBySig)","contents": "Vector3:Scale(Public, HideBySig)"},
+
+	UnityEngine.Vector3 self;
+	checkType(l,1,out self);
+	UnityEngine.Vector3 a1;
+	checkType(l,2,out a1);
+	self.Scale(a1);
+			{ "trigger": "Vector3:Normalize(Public, HideBySig)","contents": "Vector3:Normalize(Public, HideBySig)"},
+
+	UnityEngine.Vector3 self;
+	checkType(l,1,out self);
+	self.Normalize();
+			{ "trigger": "Vector3.Lerp(Public, Static, HideBySig)","contents": "Vector3.Lerp(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Vector3.Lerp(a1,a2,a3);
+			{ "trigger": "Vector3.LerpUnclamped(Public, Static, HideBySig)","contents": "Vector3.LerpUnclamped(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Vector3.LerpUnclamped(a1,a2,a3);
+			{ "trigger": "Vector3.Slerp(Public, Static, HideBySig)","contents": "Vector3.Slerp(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Vector3.Slerp(a1,a2,a3);
+			{ "trigger": "Vector3.SlerpUnclamped(Public, Static, HideBySig)","contents": "Vector3.SlerpUnclamped(Public, Static, HideBySig)"},
+
+	UnityEngine.Vector3 a1;
+	checkType(l,1,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,2,out a2);
+	System.Single a3;
+	checkType(l,3,out a3);
+	var ret=UnityEngine.Vector3.SlerpUnclamped(a1,a2,a3);
+			{ "trigger": "Vector3.OrthoNormalize(Public, Static, HideBySig)","contents": "Vector3.OrthoNormalize(Public, Static, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.Vector3 a1;
+		checkType(l,1,out a1);
+		UnityEngine.Vector3 a2;
+		checkType(l,2,out a2);
+		UnityEngine.Vector3.OrthoNormalize(ref a1,ref a2);
+		else if(argc==3){
+			UnityEngine.Vector3 a1;
+			checkType(l,1,out a1);
+			UnityEngine.Vector3 a2;
+			checkType(l,2,out a2);
+			UnityEngine.Vector3 a3;
+			checkType(l,3,out a3);
+			UnityEngine.Vector3.OrthoNormalize(ref a1,ref a2,ref a3);
+					{ "trigger": "Vector3.MoveTowards(Public, Static, HideBySig)","contents": "Vector3.MoveTowards(Public, Static, HideBySig)"},
+
+			UnityEngine.Vector3 a1;
+			checkType(l,1,out a1);
+			UnityEngine.Vector3 a2;
+			checkType(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			var ret=UnityEngine.Vector3.MoveTowards(a1,a2,a3);
+					{ "trigger": "Vector3.RotateTowards(Public, Static, HideBySig)","contents": "Vector3.RotateTowards(Public, Static, HideBySig)"},
+
+			UnityEngine.Vector3 a1;
+			checkType(l,1,out a1);
+			UnityEngine.Vector3 a2;
+			checkType(l,2,out a2);
+			System.Single a3;
+			checkType(l,3,out a3);
+			System.Single a4;
+			checkType(l,4,out a4);
+			var ret=UnityEngine.Vector3.RotateTowards(a1,a2,a3,a4);
+					{ "trigger": "Vector3.SmoothDamp(Public, Static, HideBySig)","contents": "Vector3.SmoothDamp(Public, Static, HideBySig)"},
+
+			if(argc==4){
+				UnityEngine.Vector3 a1;
+				checkType(l,1,out a1);
+				UnityEngine.Vector3 a2;
+				checkType(l,2,out a2);
+				UnityEngine.Vector3 a3;
+				checkType(l,3,out a3);
+				System.Single a4;
+				checkType(l,4,out a4);
+				var ret=UnityEngine.Vector3.SmoothDamp(a1,a2,ref a3,a4);
+				else if(argc==5){
+					UnityEngine.Vector3 a1;
+					checkType(l,1,out a1);
+					UnityEngine.Vector3 a2;
+					checkType(l,2,out a2);
+					UnityEngine.Vector3 a3;
+					checkType(l,3,out a3);
+					System.Single a4;
+					checkType(l,4,out a4);
+					System.Single a5;
+					checkType(l,5,out a5);
+					var ret=UnityEngine.Vector3.SmoothDamp(a1,a2,ref a3,a4,a5);
+					else if(argc==6){
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						UnityEngine.Vector3 a3;
+						checkType(l,3,out a3);
+						System.Single a4;
+						checkType(l,4,out a4);
+						System.Single a5;
+						checkType(l,5,out a5);
+						System.Single a6;
+						checkType(l,6,out a6);
+						var ret=UnityEngine.Vector3.SmoothDamp(a1,a2,ref a3,a4,a5,a6);
+								{ "trigger": "Vector3.Cross(Public, Static, HideBySig)","contents": "Vector3.Cross(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Cross(a1,a2);
+								{ "trigger": "Vector3.Reflect(Public, Static, HideBySig)","contents": "Vector3.Reflect(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Reflect(a1,a2);
+								{ "trigger": "Vector3.Dot(Public, Static, HideBySig)","contents": "Vector3.Dot(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Dot(a1,a2);
+								{ "trigger": "Vector3.Project(Public, Static, HideBySig)","contents": "Vector3.Project(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Project(a1,a2);
+								{ "trigger": "Vector3.ProjectOnPlane(Public, Static, HideBySig)","contents": "Vector3.ProjectOnPlane(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.ProjectOnPlane(a1,a2);
+								{ "trigger": "Vector3.Angle(Public, Static, HideBySig)","contents": "Vector3.Angle(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Angle(a1,a2);
+								{ "trigger": "Vector3.Distance(Public, Static, HideBySig)","contents": "Vector3.Distance(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Distance(a1,a2);
+								{ "trigger": "Vector3.ClampMagnitude(Public, Static, HideBySig)","contents": "Vector3.ClampMagnitude(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						System.Single a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.ClampMagnitude(a1,a2);
+								{ "trigger": "Vector3.Magnitude(Public, Static, HideBySig)","contents": "Vector3.Magnitude(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						var ret=UnityEngine.Vector3.Magnitude(a1);
+								{ "trigger": "Vector3.SqrMagnitude(Public, Static, HideBySig)","contents": "Vector3.SqrMagnitude(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						var ret=UnityEngine.Vector3.SqrMagnitude(a1);
+								{ "trigger": "Vector3.Min(Public, Static, HideBySig)","contents": "Vector3.Min(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Min(a1,a2);
+								{ "trigger": "Vector3.Max(Public, Static, HideBySig)","contents": "Vector3.Max(Public, Static, HideBySig)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=UnityEngine.Vector3.Max(a1,a2);
+								{ "trigger": "Vector3.op_Addition(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_Addition(Public, Static, HideBySig, SpecialName)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=a1+a2;
+								{ "trigger": "Vector3.op_Subtraction(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_Subtraction(Public, Static, HideBySig, SpecialName)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						UnityEngine.Vector3 a2;
+						checkType(l,2,out a2);
+						var ret=a1-a2;
+								{ "trigger": "Vector3.op_UnaryNegation(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_UnaryNegation(Public, Static, HideBySig, SpecialName)"},
+
+						UnityEngine.Vector3 a1;
+						checkType(l,1,out a1);
+						var ret=-a1;
+								{ "trigger": "Vector3.op_Multiply(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_Multiply(Public, Static, HideBySig, SpecialName)"},
+
+						if(matchType(l,argc,1,float,UnityEngine.Vector3)){
+							System.Single a1;
+							checkType(l,1,out a1);
+							UnityEngine.Vector3 a2;
+							checkType(l,2,out a2);
+							var ret=a1*a2;
+							else if(matchType(l,argc,1,UnityEngine.Vector3,float)){
+								UnityEngine.Vector3 a1;
+								checkType(l,1,out a1);
+								System.Single a2;
+								checkType(l,2,out a2);
+								var ret=a1*a2;
+										{ "trigger": "Vector3.op_Division(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_Division(Public, Static, HideBySig, SpecialName)"},
+
+								UnityEngine.Vector3 a1;
+								checkType(l,1,out a1);
+								System.Single a2;
+								checkType(l,2,out a2);
+								var ret=a1/a2;
+										{ "trigger": "Vector3.op_Equality(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_Equality(Public, Static, HideBySig, SpecialName)"},
+
+								UnityEngine.Vector3 a1;
+								checkType(l,1,out a1);
+								UnityEngine.Vector3 a2;
+								checkType(l,2,out a2);
+								var ret=(a1==a2);
+										{ "trigger": "Vector3.op_Inequality(Public, Static, HideBySig, SpecialName)","contents": "Vector3.op_Inequality(Public, Static, HideBySig, SpecialName)"},
+
+								UnityEngine.Vector3 a1;
+								checkType(l,1,out a1);
+								UnityEngine.Vector3 a2;
+								checkType(l,2,out a2);
+								var ret=(a1!=a2);
+								kEpsilon
+								x
+								set_x(IntPtr l) {
+									UnityEngine.Vector3 self;
+									checkType(l,1,out self);
+									System.Single v;
+									checkType(l,2,out v);
+									self.x=v;
+									y
+									set_y(IntPtr l) {
+										UnityEngine.Vector3 self;
+										checkType(l,1,out self);
+										System.Single v;
+										checkType(l,2,out v);
+										self.y=v;
+										z
+										set_z(IntPtr l) {
+											UnityEngine.Vector3 self;
+											checkType(l,1,out self);
+											System.Single v;
+											checkType(l,2,out v);
+											self.z=v;
+											get_normalized(IntPtr l) {
+												get_magnitude(IntPtr l) {
+													get_sqrMagnitude(IntPtr l) {
+														get_zero(IntPtr l) {
+															get_one(IntPtr l) {
+																get_forward(IntPtr l) {
+																	get_back(IntPtr l) {
+																		get_up(IntPtr l) {
+																			get_down(IntPtr l) {
+																				get_left(IntPtr l) {
+																					get_right(IntPtr l) {
+																						UnityEngine.Vector3 self;
+																						checkType(l,1,out self);
+																						int v;
+																						checkType(l,2,out v);
+																						UnityEngine.Vector3 self;
+																						checkType(l,1,out self);
+																						int v;
+																						checkType(l,2,out v);
+																						float c;
+																						checkType(l,3,out c);
+																							]
+																					}
+

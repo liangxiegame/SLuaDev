@@ -1,0 +1,10 @@
+﻿
+CBEasyTouchDrag.OnDragDelegate 
+                ua = (CBEasyTouchDrag.OnDragDelegate)checkObj(l, p);
+                ua = (CBEasyTouchDrag.OnDragDelegate)ld.d;
+            ua = (Gesture a1) =>
+
+				pushValue(l,a1);
+				ld.pcall(1, error);
+				bool ret;
+				checkType(l,error+1,out ret);

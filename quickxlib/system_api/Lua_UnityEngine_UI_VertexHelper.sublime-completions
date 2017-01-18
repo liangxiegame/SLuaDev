@@ -1,0 +1,116 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.UI.VertexHelper()()","contents": "UnityEngine.UI.VertexHelper()()"},
+
+			{ "trigger": "UnityEngine.UI.VertexHelper()()","contents": "UnityEngine.UI.VertexHelper()()"},
+
+			{ "trigger": "UnityEngine.UI.VertexHelper()()","contents": "UnityEngine.UI.VertexHelper()()"},
+
+	UnityEngine.Mesh a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.UI.VertexHelper()()","contents": "UnityEngine.UI.VertexHelper()()"},
+
+			{ "trigger": "VertexHelper:Clear(Public, HideBySig)","contents": "VertexHelper:Clear(Public, HideBySig)"},
+
+	UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+	self.Clear();
+			{ "trigger": "VertexHelper:PopulateUIVertex(Public, HideBySig)","contents": "VertexHelper:PopulateUIVertex(Public, HideBySig)"},
+
+	UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+	UnityEngine.UIVertex a1;
+	checkValueType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	self.PopulateUIVertex(ref a1,a2);
+			{ "trigger": "VertexHelper:SetUIVertex(Public, HideBySig)","contents": "VertexHelper:SetUIVertex(Public, HideBySig)"},
+
+	UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+	UnityEngine.UIVertex a1;
+	checkValueType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	self.SetUIVertex(a1,a2);
+			{ "trigger": "VertexHelper:FillMesh(Public, HideBySig)","contents": "VertexHelper:FillMesh(Public, HideBySig)"},
+
+	UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+	UnityEngine.Mesh a1;
+	checkType(l,2,out a1);
+	self.FillMesh(a1);
+			{ "trigger": "VertexHelper:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)","contents": "VertexHelper:Dispose(Public, Final, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+	self.Dispose();
+			{ "trigger": "VertexHelper:AddVert(Public, HideBySig)","contents": "VertexHelper:AddVert(Public, HideBySig)"},
+
+	if(argc==2){
+		UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+		UnityEngine.UIVertex a1;
+		checkValueType(l,2,out a1);
+		self.AddVert(a1);
+		else if(argc==4){
+			UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+			UnityEngine.Vector3 a1;
+			checkType(l,2,out a1);
+			UnityEngine.Color32 a2;
+			checkValueType(l,3,out a2);
+			UnityEngine.Vector2 a3;
+			checkType(l,4,out a3);
+			self.AddVert(a1,a2,a3);
+			else if(argc==7){
+				UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+				UnityEngine.Vector3 a1;
+				checkType(l,2,out a1);
+				UnityEngine.Color32 a2;
+				checkValueType(l,3,out a2);
+				UnityEngine.Vector2 a3;
+				checkType(l,4,out a3);
+				UnityEngine.Vector2 a4;
+				checkType(l,5,out a4);
+				UnityEngine.Vector3 a5;
+				checkType(l,6,out a5);
+				UnityEngine.Vector4 a6;
+				checkType(l,7,out a6);
+				self.AddVert(a1,a2,a3,a4,a5,a6);
+						{ "trigger": "VertexHelper:AddTriangle(Public, HideBySig)","contents": "VertexHelper:AddTriangle(Public, HideBySig)"},
+
+				UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+				System.Int32 a1;
+				checkType(l,2,out a1);
+				System.Int32 a2;
+				checkType(l,3,out a2);
+				System.Int32 a3;
+				checkType(l,4,out a3);
+				self.AddTriangle(a1,a2,a3);
+						{ "trigger": "VertexHelper:AddUIVertexQuad(Public, HideBySig)","contents": "VertexHelper:AddUIVertexQuad(Public, HideBySig)"},
+
+				UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+				UnityEngine.UIVertex[] a1;
+				checkArray(l,2,out a1);
+				self.AddUIVertexQuad(a1);
+						{ "trigger": "VertexHelper:AddUIVertexStream(Public, HideBySig)","contents": "VertexHelper:AddUIVertexStream(Public, HideBySig)"},
+
+				UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+				System.Collections.Generic.List<UnityEngine.UIVertex> a1;
+				checkType(l,2,out a1);
+				System.Collections.Generic.List<System.Int32> a2;
+				checkType(l,3,out a2);
+				self.AddUIVertexStream(a1,a2);
+						{ "trigger": "VertexHelper:AddUIVertexTriangleStream(Public, HideBySig)","contents": "VertexHelper:AddUIVertexTriangleStream(Public, HideBySig)"},
+
+				UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+				System.Collections.Generic.List<UnityEngine.UIVertex> a1;
+				checkType(l,2,out a1);
+				self.AddUIVertexTriangleStream(a1);
+						{ "trigger": "VertexHelper:GetUIVertexStream(Public, HideBySig)","contents": "VertexHelper:GetUIVertexStream(Public, HideBySig)"},
+
+				UnityEngine.UI.VertexHelper self=(UnityEngine.UI.VertexHelper)checkSelf(l);
+				System.Collections.Generic.List<UnityEngine.UIVertex> a1;
+				checkType(l,2,out a1);
+				self.GetUIVertexStream(a1);
+				get_currentVertCount(IntPtr l) {
+					get_currentIndexCount(IntPtr l) {
+							]
+					}
+

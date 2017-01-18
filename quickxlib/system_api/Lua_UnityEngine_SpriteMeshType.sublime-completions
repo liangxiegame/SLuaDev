@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.SpriteMeshType");
+	addMember(l,0,"FullRect");
+	addMember(l,1,"Tight");
+		]
+}
+

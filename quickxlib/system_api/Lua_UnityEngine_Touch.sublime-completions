@@ -1,0 +1,23 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Touch()()","contents": "UnityEngine.Touch()()"},
+
+	get_fingerId(IntPtr l) {
+		get_position(IntPtr l) {
+			get_rawPosition(IntPtr l) {
+				get_deltaPosition(IntPtr l) {
+					get_deltaTime(IntPtr l) {
+						get_tapCount(IntPtr l) {
+							get_phase(IntPtr l) {
+								get_pressure(IntPtr l) {
+									get_maximumPossiblePressure(IntPtr l) {
+										get_type(IntPtr l) {
+											get_altitudeAngle(IntPtr l) {
+												get_azimuthAngle(IntPtr l) {
+													get_radius(IntPtr l) {
+														get_radiusVariance(IntPtr l) {
+																]
+														}
+

@@ -1,0 +1,45 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.TargetJoint2D()()","contents": "UnityEngine.TargetJoint2D()()"},
+
+	get_anchor(IntPtr l) {
+		set_anchor(IntPtr l) {
+			UnityEngine.TargetJoint2D self=(UnityEngine.TargetJoint2D)checkSelf(l);
+			UnityEngine.Vector2 v;
+			checkType(l,2,out v);
+			self.anchor=v;
+			get_target(IntPtr l) {
+				set_target(IntPtr l) {
+					UnityEngine.TargetJoint2D self=(UnityEngine.TargetJoint2D)checkSelf(l);
+					UnityEngine.Vector2 v;
+					checkType(l,2,out v);
+					self.target=v;
+					get_autoConfigureTarget(IntPtr l) {
+						set_autoConfigureTarget(IntPtr l) {
+							UnityEngine.TargetJoint2D self=(UnityEngine.TargetJoint2D)checkSelf(l);
+							bool v;
+							checkType(l,2,out v);
+							self.autoConfigureTarget=v;
+							get_maxForce(IntPtr l) {
+								set_maxForce(IntPtr l) {
+									UnityEngine.TargetJoint2D self=(UnityEngine.TargetJoint2D)checkSelf(l);
+									float v;
+									checkType(l,2,out v);
+									self.maxForce=v;
+									get_dampingRatio(IntPtr l) {
+										set_dampingRatio(IntPtr l) {
+											UnityEngine.TargetJoint2D self=(UnityEngine.TargetJoint2D)checkSelf(l);
+											float v;
+											checkType(l,2,out v);
+											self.dampingRatio=v;
+											get_frequency(IntPtr l) {
+												set_frequency(IntPtr l) {
+													UnityEngine.TargetJoint2D self=(UnityEngine.TargetJoint2D)checkSelf(l);
+													float v;
+													checkType(l,2,out v);
+													self.frequency=v;
+														]
+												}
+

@@ -1,0 +1,51 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LineRenderer()()","contents": "UnityEngine.LineRenderer()()"},
+
+			{ "trigger": "LineRenderer:SetWidth(Public, HideBySig)","contents": "LineRenderer:SetWidth(Public, HideBySig)"},
+
+	UnityEngine.LineRenderer self=(UnityEngine.LineRenderer)checkSelf(l);
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Single a2;
+	checkType(l,3,out a2);
+	self.SetWidth(a1,a2);
+			{ "trigger": "LineRenderer:SetColors(Public, HideBySig)","contents": "LineRenderer:SetColors(Public, HideBySig)"},
+
+	UnityEngine.LineRenderer self=(UnityEngine.LineRenderer)checkSelf(l);
+	UnityEngine.Color a1;
+	checkType(l,2,out a1);
+	UnityEngine.Color a2;
+	checkType(l,3,out a2);
+	self.SetColors(a1,a2);
+			{ "trigger": "LineRenderer:SetVertexCount(Public, HideBySig)","contents": "LineRenderer:SetVertexCount(Public, HideBySig)"},
+
+	UnityEngine.LineRenderer self=(UnityEngine.LineRenderer)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	self.SetVertexCount(a1);
+			{ "trigger": "LineRenderer:SetPosition(Public, HideBySig)","contents": "LineRenderer:SetPosition(Public, HideBySig)"},
+
+	UnityEngine.LineRenderer self=(UnityEngine.LineRenderer)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	UnityEngine.Vector3 a2;
+	checkType(l,3,out a2);
+	self.SetPosition(a1,a2);
+			{ "trigger": "LineRenderer:SetPositions(Public, HideBySig)","contents": "LineRenderer:SetPositions(Public, HideBySig)"},
+
+	UnityEngine.LineRenderer self=(UnityEngine.LineRenderer)checkSelf(l);
+	UnityEngine.Vector3[] a1;
+	checkArray(l,2,out a1);
+	self.SetPositions(a1);
+	get_useWorldSpace(IntPtr l) {
+		set_useWorldSpace(IntPtr l) {
+			UnityEngine.LineRenderer self=(UnityEngine.LineRenderer)checkSelf(l);
+			bool v;
+			checkType(l,2,out v);
+			self.useWorldSpace=v;
+				]
+		}
+

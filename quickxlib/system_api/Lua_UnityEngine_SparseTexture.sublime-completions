@@ -1,0 +1,70 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SparseTexture()()","contents": "UnityEngine.SparseTexture()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	UnityEngine.TextureFormat a3;
+	checkEnum(l,4,out a3);
+	System.Int32 a4;
+	checkType(l,5,out a4);
+			{ "trigger": "UnityEngine.SparseTexture()()","contents": "UnityEngine.SparseTexture()()"},
+
+			{ "trigger": "UnityEngine.SparseTexture()()","contents": "UnityEngine.SparseTexture()()"},
+
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	UnityEngine.TextureFormat a3;
+	checkEnum(l,4,out a3);
+	System.Int32 a4;
+	checkType(l,5,out a4);
+	System.Boolean a5;
+	checkType(l,6,out a5);
+			{ "trigger": "UnityEngine.SparseTexture()()","contents": "UnityEngine.SparseTexture()()"},
+
+			{ "trigger": "SparseTexture:UpdateTile(Public, HideBySig)","contents": "SparseTexture:UpdateTile(Public, HideBySig)"},
+
+	UnityEngine.SparseTexture self=(UnityEngine.SparseTexture)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	UnityEngine.Color32[] a4;
+	checkArray(l,5,out a4);
+	self.UpdateTile(a1,a2,a3,a4);
+			{ "trigger": "SparseTexture:UpdateTileRaw(Public, HideBySig)","contents": "SparseTexture:UpdateTileRaw(Public, HideBySig)"},
+
+	UnityEngine.SparseTexture self=(UnityEngine.SparseTexture)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	System.Byte[] a4;
+	checkArray(l,5,out a4);
+	self.UpdateTileRaw(a1,a2,a3,a4);
+			{ "trigger": "SparseTexture:UnloadTile(Public, HideBySig)","contents": "SparseTexture:UnloadTile(Public, HideBySig)"},
+
+	UnityEngine.SparseTexture self=(UnityEngine.SparseTexture)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	System.Int32 a3;
+	checkType(l,4,out a3);
+	self.UnloadTile(a1,a2,a3);
+	get_tileWidth(IntPtr l) {
+		get_tileHeight(IntPtr l) {
+			get_isCreated(IntPtr l) {
+					]
+			}
+

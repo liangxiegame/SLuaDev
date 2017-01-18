@@ -1,0 +1,45 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.SurfaceEffector2D()()","contents": "UnityEngine.SurfaceEffector2D()()"},
+
+	get_speed(IntPtr l) {
+		set_speed(IntPtr l) {
+			UnityEngine.SurfaceEffector2D self=(UnityEngine.SurfaceEffector2D)checkSelf(l);
+			float v;
+			checkType(l,2,out v);
+			self.speed=v;
+			get_speedVariation(IntPtr l) {
+				set_speedVariation(IntPtr l) {
+					UnityEngine.SurfaceEffector2D self=(UnityEngine.SurfaceEffector2D)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.speedVariation=v;
+					get_forceScale(IntPtr l) {
+						set_forceScale(IntPtr l) {
+							UnityEngine.SurfaceEffector2D self=(UnityEngine.SurfaceEffector2D)checkSelf(l);
+							float v;
+							checkType(l,2,out v);
+							self.forceScale=v;
+							get_useContactForce(IntPtr l) {
+								set_useContactForce(IntPtr l) {
+									UnityEngine.SurfaceEffector2D self=(UnityEngine.SurfaceEffector2D)checkSelf(l);
+									bool v;
+									checkType(l,2,out v);
+									self.useContactForce=v;
+									get_useFriction(IntPtr l) {
+										set_useFriction(IntPtr l) {
+											UnityEngine.SurfaceEffector2D self=(UnityEngine.SurfaceEffector2D)checkSelf(l);
+											bool v;
+											checkType(l,2,out v);
+											self.useFriction=v;
+											get_useBounce(IntPtr l) {
+												set_useBounce(IntPtr l) {
+													UnityEngine.SurfaceEffector2D self=(UnityEngine.SurfaceEffector2D)checkSelf(l);
+													bool v;
+													checkType(l,2,out v);
+													self.useBounce=v;
+														]
+												}
+

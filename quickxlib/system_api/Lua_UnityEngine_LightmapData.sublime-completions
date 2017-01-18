@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.LightmapData()()","contents": "UnityEngine.LightmapData()()"},
+
+	get_lightmapFar(IntPtr l) {
+		set_lightmapFar(IntPtr l) {
+			UnityEngine.LightmapData self=(UnityEngine.LightmapData)checkSelf(l);
+			UnityEngine.Texture2D v;
+			checkType(l,2,out v);
+			self.lightmapFar=v;
+			get_lightmapNear(IntPtr l) {
+				set_lightmapNear(IntPtr l) {
+					UnityEngine.LightmapData self=(UnityEngine.LightmapData)checkSelf(l);
+					UnityEngine.Texture2D v;
+					checkType(l,2,out v);
+					self.lightmapNear=v;
+						]
+				}
+

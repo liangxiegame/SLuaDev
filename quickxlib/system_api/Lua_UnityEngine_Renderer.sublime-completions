@@ -1,0 +1,146 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.Renderer()()","contents": "UnityEngine.Renderer()()"},
+
+			{ "trigger": "Renderer:SetPropertyBlock(Public, HideBySig)","contents": "Renderer:SetPropertyBlock(Public, HideBySig)"},
+
+	UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+	UnityEngine.MaterialPropertyBlock a1;
+	checkType(l,2,out a1);
+	self.SetPropertyBlock(a1);
+			{ "trigger": "Renderer:GetPropertyBlock(Public, HideBySig)","contents": "Renderer:GetPropertyBlock(Public, HideBySig)"},
+
+	UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+	UnityEngine.MaterialPropertyBlock a1;
+	checkType(l,2,out a1);
+	self.GetPropertyBlock(a1);
+			{ "trigger": "Renderer:GetClosestReflectionProbes(Public, HideBySig)","contents": "Renderer:GetClosestReflectionProbes(Public, HideBySig)"},
+
+	UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+	System.Collections.Generic.List<UnityEngine.Rendering.ReflectionProbeBlendInfo> a1;
+	checkType(l,2,out a1);
+	self.GetClosestReflectionProbes(a1);
+	get_isPartOfStaticBatch(IntPtr l) {
+		get_worldToLocalMatrix(IntPtr l) {
+			get_localToWorldMatrix(IntPtr l) {
+				get_enabled(IntPtr l) {
+					set_enabled(IntPtr l) {
+						UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+						bool v;
+						checkType(l,2,out v);
+						self.enabled=v;
+						get_shadowCastingMode(IntPtr l) {
+							set_shadowCastingMode(IntPtr l) {
+								UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+								UnityEngine.Rendering.ShadowCastingMode v;
+								checkEnum(l,2,out v);
+								self.shadowCastingMode=v;
+								get_receiveShadows(IntPtr l) {
+									set_receiveShadows(IntPtr l) {
+										UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+										bool v;
+										checkType(l,2,out v);
+										self.receiveShadows=v;
+										get_material(IntPtr l) {
+											set_material(IntPtr l) {
+												UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+												UnityEngine.Material v;
+												checkType(l,2,out v);
+												self.material=v;
+												get_sharedMaterial(IntPtr l) {
+													set_sharedMaterial(IntPtr l) {
+														UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+														UnityEngine.Material v;
+														checkType(l,2,out v);
+														self.sharedMaterial=v;
+														get_materials(IntPtr l) {
+															set_materials(IntPtr l) {
+																UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																UnityEngine.Material[] v;
+																checkArray(l,2,out v);
+																self.materials=v;
+																get_sharedMaterials(IntPtr l) {
+																	set_sharedMaterials(IntPtr l) {
+																		UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																		UnityEngine.Material[] v;
+																		checkArray(l,2,out v);
+																		self.sharedMaterials=v;
+																		get_bounds(IntPtr l) {
+																			get_lightmapIndex(IntPtr l) {
+																				set_lightmapIndex(IntPtr l) {
+																					UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																					int v;
+																					checkType(l,2,out v);
+																					self.lightmapIndex=v;
+																					get_realtimeLightmapIndex(IntPtr l) {
+																						set_realtimeLightmapIndex(IntPtr l) {
+																							UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																							int v;
+																							checkType(l,2,out v);
+																							self.realtimeLightmapIndex=v;
+																							get_lightmapScaleOffset(IntPtr l) {
+																								set_lightmapScaleOffset(IntPtr l) {
+																									UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																									UnityEngine.Vector4 v;
+																									checkType(l,2,out v);
+																									self.lightmapScaleOffset=v;
+																									get_motionVectors(IntPtr l) {
+																										set_motionVectors(IntPtr l) {
+																											UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																											bool v;
+																											checkType(l,2,out v);
+																											self.motionVectors=v;
+																											get_realtimeLightmapScaleOffset(IntPtr l) {
+																												set_realtimeLightmapScaleOffset(IntPtr l) {
+																													UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																													UnityEngine.Vector4 v;
+																													checkType(l,2,out v);
+																													self.realtimeLightmapScaleOffset=v;
+																													get_isVisible(IntPtr l) {
+																														get_lightProbeUsage(IntPtr l) {
+																															set_lightProbeUsage(IntPtr l) {
+																																UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																UnityEngine.Rendering.LightProbeUsage v;
+																																checkEnum(l,2,out v);
+																																self.lightProbeUsage=v;
+																																get_lightProbeProxyVolumeOverride(IntPtr l) {
+																																	set_lightProbeProxyVolumeOverride(IntPtr l) {
+																																		UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																		UnityEngine.GameObject v;
+																																		checkType(l,2,out v);
+																																		self.lightProbeProxyVolumeOverride=v;
+																																		get_probeAnchor(IntPtr l) {
+																																			set_probeAnchor(IntPtr l) {
+																																				UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																				UnityEngine.Transform v;
+																																				checkType(l,2,out v);
+																																				self.probeAnchor=v;
+																																				get_reflectionProbeUsage(IntPtr l) {
+																																					set_reflectionProbeUsage(IntPtr l) {
+																																						UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																						UnityEngine.Rendering.ReflectionProbeUsage v;
+																																						checkEnum(l,2,out v);
+																																						self.reflectionProbeUsage=v;
+																																						get_sortingLayerName(IntPtr l) {
+																																							set_sortingLayerName(IntPtr l) {
+																																								UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																								string v;
+																																								checkType(l,2,out v);
+																																								self.sortingLayerName=v;
+																																								get_sortingLayerID(IntPtr l) {
+																																									set_sortingLayerID(IntPtr l) {
+																																										UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																										int v;
+																																										checkType(l,2,out v);
+																																										self.sortingLayerID=v;
+																																										get_sortingOrder(IntPtr l) {
+																																											set_sortingOrder(IntPtr l) {
+																																												UnityEngine.Renderer self=(UnityEngine.Renderer)checkSelf(l);
+																																												int v;
+																																												checkType(l,2,out v);
+																																												self.sortingOrder=v;
+																																													]
+																																											}
+

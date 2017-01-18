@@ -1,0 +1,85 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AudioClip()()","contents": "UnityEngine.AudioClip()()"},
+
+			{ "trigger": "AudioClip:LoadAudioData(Public, HideBySig)","contents": "AudioClip:LoadAudioData(Public, HideBySig)"},
+
+	UnityEngine.AudioClip self=(UnityEngine.AudioClip)checkSelf(l);
+	var ret=self.LoadAudioData();
+			{ "trigger": "AudioClip:UnloadAudioData(Public, HideBySig)","contents": "AudioClip:UnloadAudioData(Public, HideBySig)"},
+
+	UnityEngine.AudioClip self=(UnityEngine.AudioClip)checkSelf(l);
+	var ret=self.UnloadAudioData();
+			{ "trigger": "AudioClip:GetData(Public, HideBySig)","contents": "AudioClip:GetData(Public, HideBySig)"},
+
+	UnityEngine.AudioClip self=(UnityEngine.AudioClip)checkSelf(l);
+	System.Single[] a1;
+	checkArray(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	var ret=self.GetData(a1,a2);
+			{ "trigger": "AudioClip:SetData(Public, HideBySig)","contents": "AudioClip:SetData(Public, HideBySig)"},
+
+	UnityEngine.AudioClip self=(UnityEngine.AudioClip)checkSelf(l);
+	System.Single[] a1;
+	checkArray(l,2,out a1);
+	System.Int32 a2;
+	checkType(l,3,out a2);
+	var ret=self.SetData(a1,a2);
+			{ "trigger": "AudioClip.Create(Public, Static, HideBySig)","contents": "AudioClip.Create(Public, Static, HideBySig)"},
+
+	if(argc==5){
+		System.String a1;
+		checkType(l,1,out a1);
+		System.Int32 a2;
+		checkType(l,2,out a2);
+		System.Int32 a3;
+		checkType(l,3,out a3);
+		System.Int32 a4;
+		checkType(l,4,out a4);
+		System.Boolean a5;
+		checkType(l,5,out a5);
+		var ret=UnityEngine.AudioClip.Create(a1,a2,a3,a4,a5);
+		else if(argc==6){
+			System.String a1;
+			checkType(l,1,out a1);
+			System.Int32 a2;
+			checkType(l,2,out a2);
+			System.Int32 a3;
+			checkType(l,3,out a3);
+			System.Int32 a4;
+			checkType(l,4,out a4);
+			System.Boolean a5;
+			checkType(l,5,out a5);
+			UnityEngine.AudioClip.PCMReaderCallback a6;
+			LuaDelegation.checkDelegate(l,6,out a6);
+			var ret=UnityEngine.AudioClip.Create(a1,a2,a3,a4,a5,a6);
+			else if(argc==7){
+				System.String a1;
+				checkType(l,1,out a1);
+				System.Int32 a2;
+				checkType(l,2,out a2);
+				System.Int32 a3;
+				checkType(l,3,out a3);
+				System.Int32 a4;
+				checkType(l,4,out a4);
+				System.Boolean a5;
+				checkType(l,5,out a5);
+				UnityEngine.AudioClip.PCMReaderCallback a6;
+				LuaDelegation.checkDelegate(l,6,out a6);
+				UnityEngine.AudioClip.PCMSetPositionCallback a7;
+				LuaDelegation.checkDelegate(l,7,out a7);
+				var ret=UnityEngine.AudioClip.Create(a1,a2,a3,a4,a5,a6,a7);
+				get_length(IntPtr l) {
+					get_samples(IntPtr l) {
+						get_channels(IntPtr l) {
+							get_frequency(IntPtr l) {
+								get_loadType(IntPtr l) {
+									get_preloadAudioData(IntPtr l) {
+										get_loadState(IntPtr l) {
+											get_loadInBackground(IntPtr l) {
+													]
+											}
+

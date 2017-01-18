@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	getEnumTable(l,"UnityEngine.LightProbeProxyVolume.RefreshMode");
+	addMember(l,0,"Automatic");
+	addMember(l,1,"EveryFrame");
+	addMember(l,2,"ViaScripting");
+		]
+}
+

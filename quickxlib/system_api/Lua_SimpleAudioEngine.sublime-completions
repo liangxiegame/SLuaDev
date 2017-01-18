@@ -1,0 +1,137 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "SimpleAudioEngine:Awake(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "SimpleAudioEngine:Awake(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.Awake();
+			{ "trigger": "SimpleAudioEngine:preloadBackgroundMusic(Public, HideBySig)","contents": "SimpleAudioEngine:preloadBackgroundMusic(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	self.preloadBackgroundMusic(a1);
+			{ "trigger": "SimpleAudioEngine:playBackgroundMusic(Public, HideBySig)","contents": "SimpleAudioEngine:playBackgroundMusic(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.playBackgroundMusic(a1,a2);
+			{ "trigger": "SimpleAudioEngine:playVoice(Public, HideBySig)","contents": "SimpleAudioEngine:playVoice(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.Boolean a2;
+	checkType(l,3,out a2);
+	self.playVoice(a1,a2);
+			{ "trigger": "SimpleAudioEngine:stopVoice(Public, HideBySig)","contents": "SimpleAudioEngine:stopVoice(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.stopVoice();
+			{ "trigger": "SimpleAudioEngine:pauseVoice(Public, HideBySig)","contents": "SimpleAudioEngine:pauseVoice(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.pauseVoice();
+			{ "trigger": "SimpleAudioEngine:resumeVoice(Public, HideBySig)","contents": "SimpleAudioEngine:resumeVoice(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.resumeVoice();
+			{ "trigger": "SimpleAudioEngine:stopBackgroundMusic(Public, HideBySig)","contents": "SimpleAudioEngine:stopBackgroundMusic(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.stopBackgroundMusic();
+			{ "trigger": "SimpleAudioEngine:pauseBackgroundMusic(Public, HideBySig)","contents": "SimpleAudioEngine:pauseBackgroundMusic(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.pauseBackgroundMusic();
+			{ "trigger": "SimpleAudioEngine:resumeBackgroundMusic(Public, HideBySig)","contents": "SimpleAudioEngine:resumeBackgroundMusic(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.resumeBackgroundMusic();
+			{ "trigger": "SimpleAudioEngine:playEffect(Public, HideBySig)","contents": "SimpleAudioEngine:playEffect(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.playEffect(a1);
+			{ "trigger": "SimpleAudioEngine:stopEffect(Public, HideBySig)","contents": "SimpleAudioEngine:stopEffect(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	System.Int32 a1;
+	checkType(l,2,out a1);
+	self.stopEffect(a1);
+			{ "trigger": "SimpleAudioEngine:stopAllEffects(Public, HideBySig)","contents": "SimpleAudioEngine:stopAllEffects(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	self.stopAllEffects();
+			{ "trigger": "SimpleAudioEngine:getAudioClip(Public, HideBySig)","contents": "SimpleAudioEngine:getAudioClip(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	System.String a2;
+	checkType(l,3,out a2);
+	var ret=self.getAudioClip(a1,a2);
+			{ "trigger": "SimpleAudioEngine:playAudio(Public, HideBySig)","contents": "SimpleAudioEngine:playAudio(Public, HideBySig)"},
+
+	SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+	UnityEngine.AudioClip a1;
+	checkType(l,2,out a1);
+	UnityEngine.AudioSource a2;
+	checkType(l,3,out a2);
+	System.Boolean a3;
+	checkType(l,4,out a3);
+	System.Single a4;
+	checkType(l,5,out a4);
+	self.playAudio(a1,a2,a3,a4);
+			{ "trigger": "SimpleAudioEngine.Dispose(Public, Static, HideBySig)","contents": "SimpleAudioEngine.Dispose(Public, Static, HideBySig)"},
+
+	SimpleAudioEngine.Dispose();
+	mBgMusicSource
+	set_mBgMusicSource(IntPtr l) {
+		SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+		UnityEngine.AudioSource v;
+		checkType(l,2,out v);
+		self.mBgMusicSource=v;
+		mSoundSources
+		set_mSoundSources(IntPtr l) {
+			SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+			UnityEngine.AudioSource[] v;
+			checkArray(l,2,out v);
+			self.mSoundSources=v;
+			mVoiceSource
+			set_mVoiceSource(IntPtr l) {
+				SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+				UnityEngine.AudioSource v;
+				checkType(l,2,out v);
+				self.mVoiceSource=v;
+				set_LanguageSuffix(IntPtr l) {
+					string v;
+					checkType(l,2,out v);
+					SimpleAudioEngine.LanguageSuffix=v;
+					get_Instance(IntPtr l) {
+						get_backgroundMusicVolume(IntPtr l) {
+							set_backgroundMusicVolume(IntPtr l) {
+								SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+								float v;
+								checkType(l,2,out v);
+								self.backgroundMusicVolume=v;
+								get_effectsVolume(IntPtr l) {
+									set_effectsVolume(IntPtr l) {
+										SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+										float v;
+										checkType(l,2,out v);
+										self.effectsVolume=v;
+										get_voiceVolume(IntPtr l) {
+											set_voiceVolume(IntPtr l) {
+												SimpleAudioEngine self=(SimpleAudioEngine)checkSelf(l);
+												float v;
+												checkType(l,2,out v);
+												self.voiceVolume=v;
+													]
+											}
+

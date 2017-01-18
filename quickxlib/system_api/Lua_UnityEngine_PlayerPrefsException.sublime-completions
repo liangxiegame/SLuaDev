@@ -1,0 +1,11 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+	System.String a1;
+	checkType(l,2,out a1);
+			{ "trigger": "UnityEngine.PlayerPrefsException()()","contents": "UnityEngine.PlayerPrefsException()()"},
+
+		]
+}
+

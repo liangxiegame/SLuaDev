@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.MeshCollider()()","contents": "UnityEngine.MeshCollider()()"},
+
+	get_sharedMesh(IntPtr l) {
+		set_sharedMesh(IntPtr l) {
+			UnityEngine.MeshCollider self=(UnityEngine.MeshCollider)checkSelf(l);
+			UnityEngine.Mesh v;
+			checkType(l,2,out v);
+			self.sharedMesh=v;
+			get_convex(IntPtr l) {
+				set_convex(IntPtr l) {
+					UnityEngine.MeshCollider self=(UnityEngine.MeshCollider)checkSelf(l);
+					bool v;
+					checkType(l,2,out v);
+					self.convex=v;
+						]
+				}
+

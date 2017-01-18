@@ -1,0 +1,35 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AssetBundleManifest()()","contents": "UnityEngine.AssetBundleManifest()()"},
+
+			{ "trigger": "AssetBundleManifest:GetAllAssetBundles(Public, HideBySig)","contents": "AssetBundleManifest:GetAllAssetBundles(Public, HideBySig)"},
+
+	UnityEngine.AssetBundleManifest self=(UnityEngine.AssetBundleManifest)checkSelf(l);
+	var ret=self.GetAllAssetBundles();
+			{ "trigger": "AssetBundleManifest:GetAllAssetBundlesWithVariant(Public, HideBySig)","contents": "AssetBundleManifest:GetAllAssetBundlesWithVariant(Public, HideBySig)"},
+
+	UnityEngine.AssetBundleManifest self=(UnityEngine.AssetBundleManifest)checkSelf(l);
+	var ret=self.GetAllAssetBundlesWithVariant();
+			{ "trigger": "AssetBundleManifest:GetAssetBundleHash(Public, HideBySig)","contents": "AssetBundleManifest:GetAssetBundleHash(Public, HideBySig)"},
+
+	UnityEngine.AssetBundleManifest self=(UnityEngine.AssetBundleManifest)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetAssetBundleHash(a1);
+			{ "trigger": "AssetBundleManifest:GetDirectDependencies(Public, HideBySig)","contents": "AssetBundleManifest:GetDirectDependencies(Public, HideBySig)"},
+
+	UnityEngine.AssetBundleManifest self=(UnityEngine.AssetBundleManifest)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetDirectDependencies(a1);
+			{ "trigger": "AssetBundleManifest:GetAllDependencies(Public, HideBySig)","contents": "AssetBundleManifest:GetAllDependencies(Public, HideBySig)"},
+
+	UnityEngine.AssetBundleManifest self=(UnityEngine.AssetBundleManifest)checkSelf(l);
+	System.String a1;
+	checkType(l,2,out a1);
+	var ret=self.GetAllDependencies(a1);
+		]
+}
+

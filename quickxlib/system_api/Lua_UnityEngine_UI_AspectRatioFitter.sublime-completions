@@ -1,0 +1,27 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "AspectRatioFitter:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "AspectRatioFitter:SetLayoutHorizontal(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.AspectRatioFitter self=(UnityEngine.UI.AspectRatioFitter)checkSelf(l);
+	self.SetLayoutHorizontal();
+			{ "trigger": "AspectRatioFitter:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask)","contents": "AspectRatioFitter:SetLayoutVertical(Public, Virtual, HideBySig, VtableLayoutMask)"},
+
+	UnityEngine.UI.AspectRatioFitter self=(UnityEngine.UI.AspectRatioFitter)checkSelf(l);
+	self.SetLayoutVertical();
+	get_aspectMode(IntPtr l) {
+		set_aspectMode(IntPtr l) {
+			UnityEngine.UI.AspectRatioFitter self=(UnityEngine.UI.AspectRatioFitter)checkSelf(l);
+			UnityEngine.UI.AspectRatioFitter.AspectMode v;
+			checkEnum(l,2,out v);
+			self.aspectMode=v;
+			get_aspectRatio(IntPtr l) {
+				set_aspectRatio(IntPtr l) {
+					UnityEngine.UI.AspectRatioFitter self=(UnityEngine.UI.AspectRatioFitter)checkSelf(l);
+					float v;
+					checkType(l,2,out v);
+					self.aspectRatio=v;
+						]
+				}
+

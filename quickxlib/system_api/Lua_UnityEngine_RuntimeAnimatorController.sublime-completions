@@ -1,0 +1,10 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.RuntimeAnimatorController()()","contents": "UnityEngine.RuntimeAnimatorController()()"},
+
+	get_animationClips(IntPtr l) {
+			]
+	}
+

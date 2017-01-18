@@ -1,0 +1,51 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.ParticleSystem.Burst()()","contents": "UnityEngine.ParticleSystem.Burst()()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Int16 a2;
+	checkType(l,3,out a2);
+			{ "trigger": "UnityEngine.ParticleSystem.Burst()()","contents": "UnityEngine.ParticleSystem.Burst()()"},
+
+			{ "trigger": "UnityEngine.ParticleSystem.Burst()()","contents": "UnityEngine.ParticleSystem.Burst()()"},
+
+	System.Single a1;
+	checkType(l,2,out a1);
+	System.Int16 a2;
+	checkType(l,3,out a2);
+	System.Int16 a3;
+	checkType(l,4,out a3);
+			{ "trigger": "UnityEngine.ParticleSystem.Burst()()","contents": "UnityEngine.ParticleSystem.Burst()()"},
+
+			{ "trigger": "UnityEngine.ParticleSystem.Burst()()","contents": "UnityEngine.ParticleSystem.Burst()()"},
+
+	get_time(IntPtr l) {
+		set_time(IntPtr l) {
+			UnityEngine.ParticleSystem.Burst self;
+			checkValueType(l,1,out self);
+			float v;
+			checkType(l,2,out v);
+			self.time=v;
+			setBack(l,self);
+			get_minCount(IntPtr l) {
+				set_minCount(IntPtr l) {
+					UnityEngine.ParticleSystem.Burst self;
+					checkValueType(l,1,out self);
+					System.Int16 v;
+					checkType(l,2,out v);
+					self.minCount=v;
+					setBack(l,self);
+					get_maxCount(IntPtr l) {
+						set_maxCount(IntPtr l) {
+							UnityEngine.ParticleSystem.Burst self;
+							checkValueType(l,1,out self);
+							System.Int16 v;
+							checkType(l,2,out v);
+							self.maxCount=v;
+							setBack(l,self);
+								]
+						}
+

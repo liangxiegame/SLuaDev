@@ -1,0 +1,21 @@
+﻿{
+		"scope": "source.lua",
+		"completions":
+		[
+			{ "trigger": "UnityEngine.AnimatorUtility()()","contents": "UnityEngine.AnimatorUtility()()"},
+
+			{ "trigger": "AnimatorUtility.OptimizeTransformHierarchy(Public, Static, HideBySig)","contents": "AnimatorUtility.OptimizeTransformHierarchy(Public, Static, HideBySig)"},
+
+	UnityEngine.GameObject a1;
+	checkType(l,1,out a1);
+	System.String[] a2;
+	checkArray(l,2,out a2);
+	UnityEngine.AnimatorUtility.OptimizeTransformHierarchy(a1,a2);
+			{ "trigger": "AnimatorUtility.DeoptimizeTransformHierarchy(Public, Static, HideBySig)","contents": "AnimatorUtility.DeoptimizeTransformHierarchy(Public, Static, HideBySig)"},
+
+	UnityEngine.GameObject a1;
+	checkType(l,1,out a1);
+	UnityEngine.AnimatorUtility.DeoptimizeTransformHierarchy(a1);
+		]
+}
+
